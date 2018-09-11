@@ -28,3 +28,7 @@ Then enter the new name in the Rename SQL script dialog box and click **OK**:
 
 ## Reverting Changes
 If you want to revert all changes made to the current SQL script and return it to its initial state (reload from disk), right-click anywhere in the script panel and click **File -> Revert** on the context menu. 
+
+## SQL Console
+In some cases you might want to execute a query and do not save it in a script. For example when you read table data using "Read data in SQL console" or open procedure/function source from DDL editor.
+SQL console doesn't has an associated .sql file. Its contents will be lost when you close it.
