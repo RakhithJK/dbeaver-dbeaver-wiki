@@ -67,6 +67,7 @@
   - [[Cassandra]]
   - [[InfluxDB]]
   - [[Redis]]
+  - [[Clickhouse]]
 
 ##### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
