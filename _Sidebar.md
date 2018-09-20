@@ -65,6 +65,7 @@
 - NoSQL databases
   - [MongoDB](NoSQL-MongoDB)
   - [[Cassandra]]
+  - [[InfluxDB]]
   - [[Redis]]
 
 ##### Admin Guide
