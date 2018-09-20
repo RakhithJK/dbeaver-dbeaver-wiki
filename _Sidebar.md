@@ -61,13 +61,17 @@
 
 
 ##### Databases
-- SQL databases
-- NoSQL databases
-  - [MongoDB](NoSQL-MongoDB)
-  - [[Cassandra]]
-  - [[InfluxDB]]
-  - [[Redis]]
-  - [[Clickhouse]]
+- [[Generic]]
+- [[MySQL/MariaDB|MySQL]]
+- [[PostgreSQL]]
+- [[Oracle]]
+- [[Exasol]]
+- [[DB2]]
+- [MongoDB](NoSQL-MongoDB)
+- [[Cassandra]]
+- [[InfluxDB]]
+- [[Redis]]
+- [[Clickhouse]]
 
 ##### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
