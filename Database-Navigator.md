@@ -1,6 +1,6 @@
 Database Navigator is the main view to work with the structure and content of databases. To open Database Navigator, on the Windows menu, click **Database Navigator**. For information on how to change the view layout, please see the [Application Window Overview](https://github.com/dbeaver/dbeaver/wiki/Application-Window-Overview) article.
 
-[[images/ug/Database-Navigator.png]]
+![](images/ug/Database-Navigator.png)
 
 Database Navigator contains a tree of objects, a toolbar and View menu which contain generic items. Each object in the tree has its own context menu.
 The tree contains the following objects:
