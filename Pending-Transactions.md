@@ -1,10 +1,10 @@
 It might be useful to check pending transactions because they might lock your database. To see pending transactions, click the arrow next to the **Transaction Log** button in the toolbar and then click **Pending Transactions** on the dropdown menu:
 
-[[images/ug/Pending-transactions-open.png]]
+![](images/ug/Pending-transactions-open.png)
  
 The upper table of the Pending transactions window shows currently active connections and the number of their transactions. The bottom table shows query details of the connection that is currently in focus in the upper table:
 
-[[images/ug/Pending-transactions-window.png]]
+![](images/ug/Pending-transactions-window.png)
 
 When the Pending transactions window opens, the upper table shows only those connections that have pending transactions. If no connections have pending transactions, the table is empty. To see all connections that are currently active (connected), select the **Show all connections** checkbox.
 

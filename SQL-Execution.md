@@ -1,13 +1,13 @@
 You can execute one query, a highlighted portion of a script, or a whole script. You can execute them using:
 * Shortcut key combinations (see details further in this article)
-* Tools in the main toolbar: [[images/ug/Execute-buttons.png]]
+* Tools in the main toolbar: ![](images/ug/Execute-buttons.png)
 * Context menu (right-click the query):
 
-  [[images/ug/execute-context-menu.png]]
+  ![](images/ug/execute-context-menu.png)
 
 * DBeaver main menu:
  
-  [[images/ug/Execute-main-menu.png]]  
+  ![](images/ug/Execute-main-menu.png)
 
 To execute a query under cursor or selected text, press <kbd>Ctrl+Enter</kbd> or right-click the query and click **Execute -> Execute SQL Statement** on the context menu. You can do the same using the main toolbar or main menu: **SQL Editor -> Execute SQL Statement**. This executes the SQL query under cursor or selected text and fills the results pane with the query results.
 
@@ -22,43 +22,43 @@ NOTE: Be careful with this feature. If you execute a huge script with a large nu
 
 You can use dynamic parameters in your SQL queries. The parameter format is :name. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
 
-[[images/ug/Bind-parameters-dialog.png]]
+![](images/ug/Bind-parameters-dialog.png)
 
 You can also use anonymous parameters (?), but you will need to enable them in SQL editor preferences:
 
-[[images/ug/Anonymous-SQL-params-Preferences.png]] 
+![](images/ug/Anonymous-SQL-params-Preferences.png)
 
 You can open SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 
 ## Execution Plan
 
-If a database driver supports execution plan visualization, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the main toolbar: [[images/ug/Exec-plan.png]]  
+If a database driver supports execution plan visualization, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the main toolbar: ![](images/ug/Exec-plan.png)
 The execution plan command generates a tree of query execution as one of the result tabs and is convenient in estimating if the query/script is quick/optimal enough: 
 
-[[images/ug/Execution_plan.png]]
+![](images/ug/Execution_plan.png)
 
 You can click the rows of the execution plan to see their details (statistics) in the panels below and to the right of the plan.  
-To reevaluate the plan, click the **Reevaluate** button ([[images/ug/Refresh-projects-icon.png]]).  
-To see the source script on which the plan is based, click the **View Source** button ([[images/ug/View-Source-button.png]]). 
+To reevaluate the plan, click the **Reevaluate** button (![](images/ug/Refresh-projects-icon.png)).
+To see the source script on which the plan is based, click the **View Source** button (![](images/ug/View-Source-button.png)).
 
 ## SQL Expression Evaluation
 To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command basically performs a query of **SELECT [expression] FROM DUAL** type:
 
-[[images/ug/Evaluate-SQL-expression.png]]
+![](images/ug/Evaluate-SQL-expression.png)
 
 ## Row Count
 If you want to know how many rows an SQL query will produce, you need to apply the Row Count feature – highlight and right-click the SQL text and then click **Execute -> Select row count** on the context menu:
 
-[[images/ug/Row-Count.png]]
+![](images/ug/Row-Count.png)
 
 ## Query Export
 It might be useful to export a query if you have a very long-running query and you do not need to see its results in the results panel. You can directly export the current query results to a file/table by right-clicking the query and then clicking **Execute -> Export From Query** on the context menu:
 
-[[images/ug/Export-from-Query.png]] 
+![](images/ug/Export-from-Query.png)
 
 The Data transfer wizard opens. Go through its steps to complete the export of the query.
 
-[[images/ug/Data-transfer-window.png]]
+![](images/ug/Data-transfer-window.png)
 
 ## Client-side commands
 

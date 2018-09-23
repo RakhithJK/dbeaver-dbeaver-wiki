@@ -1,12 +1,12 @@
 In [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) and [Database Object Editor](https://github.com/dbeaver/dbeaver/wiki/Database-Object-Editor) you can filter database objects to include or exclude some of them from the view. You can filter schemas, tables, views and procedures. A dots sign `(...)` next to the node`s name indicates that a filter is applied to its sub-nodes:
-[[images/ug/Filtered-object.png]]
+![](images/ug/Filtered-object.png)
 
 There are several ways in which you can filter objects.
 One of the ways is to filter objects by names of tables and views using the filter field above the tree of objects:
 
-[[images/ug/DB-Nav-filter.png]]
+![](images/ug/DB-Nav-filter.png)
 
-To filter objects by the name of a table and view, type the name in the field. The tree dynamically updates to show tables / views with that name. To reset the filter, click the Clear icon  ([[images/ug/Clear-filter-icon.png]]) on the right end of the field.
+To filter objects by the name of a table and view, type the name in the field. The tree dynamically updates to show tables / views with that name. To reset the filter, click the Clear icon  (![](images/ug/Clear-filter-icon.png)) on the right end of the field.
 
 Another way to filter objects is to use the **Filter** item on the context menu of a single object. To filter objects using the **Filter** menu, right-click the object, then click **Filter** on the context menu, and then click one of the items on the submenu:
 

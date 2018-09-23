@@ -1,5 +1,5 @@
 The DBeaver window contains a menu bar, a toolbar, a shortcut bar, a workspace with one or more editors and views, and a status bar:
-[[images/ug/appwindow-with-markup.png]]
+![](images/ug/appwindow-with-markup.png)
 
 # Menu Bar
 By default, the menu bar contains the following menus:
@@ -17,7 +17,7 @@ You can customize the menu bar and the list of menu items to display, for this, 
 
 # Toolbar
 The toolbar contains buttons for basic and most frequently used commands:
-[[images/ug/app-toolbar.png]]
+![](images/ug/app-toolbar.png)
 
 Some of the buttons are enabled (colored), others are disabled (greyed). The sets of enabled and disabled buttons change depending on which editor is currently active in the workspace. Only enabled buttons are applicable to the active view or editor.
 
@@ -35,7 +35,7 @@ Editors are windows in which you can interact with the content of files and data
 
 Both views and editors can appear as separate windows or as tabs stacked with other views/editors in a tabbed window. The following image shows the title bar of a tabbed window. If tabs do not fit in the title bar of a tabbed window, they become hidden. To see the list of hidden tabs, click the Show List icon that also indicates their number:
 
-[[images/ug/show-list-icon.png]]
+![](images/ug/show-list-icon.png)
 
 There can be several views and editors simultaneously open in the workspace but only one of them can be active at a time.
 
@@ -60,7 +60,7 @@ To close a view or editor, click the Close button or right-click the title bar o
 
 ## Maximizing, Minimizing and Restoring View and Editors
 All views and editors have the Close, Minimize and Maximize buttons: 
-[[images/ug/view-editor-controls.png]]
+![](images/ug/view-editor-controls.png)
 
 The Maximize button changes to the Restore button when a view or editor is maximized.
 
@@ -74,7 +74,7 @@ When one view is maximized, other views and editors appear as shortcuts on the s
 To restore a maximized view or editor to its latest docked position, double-click its title bar or click the Restore button in its upper-right corner. 
 
 When you minimize a view, it wraps into a shortcut on the shortcut bar:
-[[images/ug/views-editors-shortcuts.png]]
+![](images/ug/views-editors-shortcuts.png)
 
 The shortcuts of views and editors may appear on the left or on the right shortcut bar depending on the latest docked position of the view or editor.
 

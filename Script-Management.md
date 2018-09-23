@@ -3,28 +3,28 @@ You can save scripts to a predefined space in the currently active project or so
 
 To save a script to the current project space, just press <kbd>Ctrl+S</kbd> or right-click the script and click **Save** on the context menu:
 
-[[images/ug/Save-Script.png]]
+![](images/ug/Save-Script.png)
 
 You can find the script saved this way in the [Project Explorer](https://github.com/dbeaver/dbeaver/wiki/Project-Explorer) view in the **Scripts** folder.
 
 To save a script to the file system, right-click the script, click **File -> Save SQL script** on the context menu and then select the folder in the file system.  
 You can also, click **SQL Editor -> Save SQL script** on the main menu:
 
-[[images/ug/Save-script-to-file.png]]
+![](images/ug/Save-script-to-file.png)
 
 ## Loading Scripts
 To load a script stored in the file system to the SQL Editor, press <kbd>CTRL+SHIFT+O</kbd>, or click **SQL Editor -> Load SQL script** on the main menu, or right-click the script panel and click **File -> Load SQL script** on the context menu:
 
-[[images/ug/Load-script.png]]
+![](images/ug/Load-script.png)
 
 ## Renaming Scripts
 To rename a script, right-click anywhere in the script panel, click **File -> Rename SQL Script** on the context menu or press <kbd>CTRL+F2</kbd>:
 
-[[images/ug/Rename-script.png]]
+![](images/ug/Rename-script.png)
 
 Then enter the new name in the Rename SQL script dialog box and click **OK**:
 
-[[images/ug/Rename-script-dialog.png]]
+![](images/ug/Rename-script-dialog.png)
 
 ## Reverting Changes
 If you want to revert all changes made to the current SQL script and return it to its initial state (reload from disk), right-click anywhere in the script panel and click **File -> Revert** on the context menu. 

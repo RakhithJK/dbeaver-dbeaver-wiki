@@ -26,7 +26,7 @@ It is included in EE version.
 Marketplace URL: https://marketplace.eclipse.org/content/dbeaver-office-integration  
 P2 repository URL: https://dbeaver.io/update/office/latest/
 
-  [[images/office-open-excel.png]]
+  ![](images/office-open-excel.png)
 
 ### Debugger support
 
@@ -53,4 +53,4 @@ P2 repository URL: https://dbeaver.io/update/sshj/latest/
 ### Git integration
 
 Choose Oxygen (or other Eclipse version item) in available items:
-  [[images/p2-install-git.png]]
+  ![](images/p2-install-git.png)

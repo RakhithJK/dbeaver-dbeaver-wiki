@@ -19,7 +19,7 @@ You will need to setup "<a href="https://www.eclipse.org/downloads/packages/ecli
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
 - Open main menu Help -> Install New Software
 - Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
-[[images/eclipse-deps-install.png]]
+![](images/eclipse-deps-install.png)
 - Check all plugins and finish the installation process
 
 Now you need to checkout DBeaver repository with `git clone https://github.com/dbeaver/dbeaver.git` command.

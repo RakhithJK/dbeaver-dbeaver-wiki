@@ -9,7 +9,7 @@ Some views open on demand, for example the [Search](https://github.com/dbeaver/d
 
 Views provide their own toolbar and menu:
 
-[[images/ug/DBnavigator-overview.png]]
+![](images/ug/DBnavigator-overview.png)
 
 To open the view menu, click the View Menu button in the upper-right corner of the view`s title bar, next to the Minimize button.
 

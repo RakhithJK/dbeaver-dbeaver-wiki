@@ -2,7 +2,7 @@ You might need to classify and group database connections into projects.  Projec
 
 The Projects view displays all projects created in the system and provides tools to manage them. To open the Projects view, on the **Window** menu, click **Projects** (or use <kbd>ALT+W+P</kbd> shortcut).
 
-[[images/ug/Projects-view.png]]
+![](images/ug/Projects-view.png)
 
 For information on how to change the view layout, please see the [Application Window Overview](https://github.com/dbeaver/dbeaver/wiki/Application-Window-Overview) article.
 
@@ -14,14 +14,14 @@ The projects are organized into a tree and all have the same high-level structur
 
 The Projects view provides a toolbar and View menu which contain generic items. Each object in the tree has its own context menu.
 
-To open the view menu of the Projects view, click the View Menu button ([[images/ug/View-menu-icon.png]]) in the upper-right corner of the window. The view menu contains the following items:
+To open the view menu of the Projects view, click the View Menu button (![](images/ug/View-menu-icon.png)) in the upper-right corner of the window. The view menu contains the following items:
 
 Icon|Item|Description
 ----|----|-----------
-[[images/ug/Create-project-icon.png]]|Create Project|Opens the Create Project wizard
-[[images/ug/Refresh-projects-icon.png]]|Refresh Projects|Refreshes the projects tree to display changes caused by creating modifying or deleting projects 
-[[images/ug/Collapse-All-icon.png]]|Collapse All|	Collapses the tree to the root level
-[[images/ug/Link-with-Editor-icon.png]]|Link with editor|- Enabled when at least one editor is open, otherwise disabled<br/>- Highlights the object in the tree that has its editor open
+![](images/ug/Create-project-icon.png)|Create Project|Opens the Create Project wizard
+![](images/ug/Refresh-projects-icon.png)|Refresh Projects|Refreshes the projects tree to display changes caused by creating modifying or deleting projects 
+![](images/ug/Collapse-All-icon.png)|Collapse All|	Collapses the tree to the root level
+![](images/ug/Link-with-Editor-icon.png)|Link with editor|- Enabled when at least one editor is open, otherwise disabled<br/>- Highlights the object in the tree that has its editor open
 
 The toolbar is located in the title bar of the window, its buttons duplicate the view menu items except for the **Refresh Projects** one.
 

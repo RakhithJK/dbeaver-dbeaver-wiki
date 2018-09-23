@@ -9,7 +9,7 @@ The editor has three tabs:
 
 The tabs have the following common parts:
 
-[[images/ug/Metadata-editor.png]]
+![](images/ug/Metadata-editor.png)
 
 The object`s path shows the chain of all its parent entities. The entities are clickable: clicking an entity in the path, depending on its nature, either shows its children or opens an editor or a settings window.
 
@@ -17,6 +17,6 @@ The toolbar contains different tools on each of the three tabs.
 
 An asterisk appears in the title of an editor if it contains unsaved changes:
 
-[[images/ug/Unsaved_changes.png]]
+![](images/ug/Unsaved_changes.png)
 
 The Database Object editor supports the <kbd>Ctrl+Z</kbd> (undo) function.

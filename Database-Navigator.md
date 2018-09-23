@@ -4,23 +4,23 @@ Database Navigator is the main view to work with the structure and content of da
 
 Database Navigator contains a tree of objects, a toolbar and View menu which contain generic items. Each object in the tree has its own context menu.
 The tree contains the following objects:
-* Folders - [[images/ug/folder-icon.png]]
-* Database connections - [[images/ug/PostgreSQL-icon.png]][[images/ug/SQLite-icon.png]][[images/ug/Cache-icon.png]][[images/ug/Exasol-icon.png]][[images/ug/Firebird-icon.png]] and other (icons differ depending on the database type)
-* Database objects - various depending on the database type, such as Tables [[images/ug/table-icon.png]], Views [[images/ug/view-icon.png]], Columns [[images/ug/column-icon-1.png]] [[images/ug/column-icon-2.png]], Indexes [[images/ug/Index-icon.png]], etc.
+* Folders - ![](images/ug/folder-icon.png)
+* Database connections - ![](images/ug/PostgreSQL-icon.png)![](images/ug/SQLite-icon.png)![](images/ug/Cache-icon.png)![](images/ug/Exasol-icon.png)![](images/ug/Firebird-icon.png) and other (icons differ depending on the database type)
+* Database objects - various depending on the database type, such as Tables ![](images/ug/table-icon.png), Views ![](images/ug/view-icon.png), Columns ![](images/ug/column-icon-1.png) ![](images/ug/column-icon-2.png), Indexes ![](images/ug/Index-icon.png), etc.
 
-To open the view menu of Database Navigator, click the View Menu button ([[images/ug/View-menu-icon.png]]) in the upper-right corner of the window. 
+To open the view menu of Database Navigator, click the View Menu button (![](images/ug/View-menu-icon.png)) in the upper-right corner of the window. 
 For more information on where to find the view toolbar and menu, please see the [Views](https://github.com/dbeaver/dbeaver/wiki/Views) article.
 
 The menu contains the following items:
 
 Icon|Menu item|Description
 ----|---------|-----------
-[[images/ug/Driver-Manager-icon.png]] |**Driver Manager**|Opens the Driver Manager window that allows creating, editing and deleting drivers for databases. See [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers) for information about managing database drivers.
-[[images/ug/New-connection-icon.png]] |**New Connection**|Opens the Create new connection wizard. See [Create Connection](https://github.com/dbeaver/dbeaver/wiki/Create-Connection) for information about creating connections.
+![](images/ug/Driver-Manager-icon.png) |**Driver Manager**|Opens the Driver Manager window that allows creating, editing and deleting drivers for databases. See [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers) for information about managing database drivers.
+![](images/ug/New-connection-icon.png) |**New Connection**|Opens the Create new connection wizard. See [Create Connection](https://github.com/dbeaver/dbeaver/wiki/Create-Connection) for information about creating connections.
 (empty) | **Active Project** |Displays a submenu which allows you to choose a project. See [Projects](https://github.com/dbeaver/dbeaver/wiki/Projects) and [Projects view](https://github.com/dbeaver/dbeaver/wiki/Projects-View) for information about projects.
-[[images/ug/New-Folder-icon.png]] |**New Folder** |Opens a dialog box for creating a new folder
-[[images/ug/Collapse-All-icon.png]] | **Collapse All** |Collapses the tree to the root level
-[[images/ug/Link-with-Editor-icon.png]] | **Link with editor** | Enabled when at least one editor is open, otherwise disabled - highlights the object in the tree that has its editor open
+![](images/ug/New-Folder-icon.png) |**New Folder** |Opens a dialog box for creating a new folder
+![](images/ug/Collapse-All-icon.png) | **Collapse All** |Collapses the tree to the root level
+![](images/ug/Link-with-Editor-icon.png) | **Link with editor** | Enabled when at least one editor is open, otherwise disabled - highlights the object in the tree that has its editor open
 
 The toolbar is located in the title bar of the window. Its buttons duplicate the menu items, except for the **Active Project**. 
 
