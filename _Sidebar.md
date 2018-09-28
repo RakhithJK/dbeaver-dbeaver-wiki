@@ -67,8 +67,8 @@
 - [[Oracle]]
 - [[Exasol]]
 - [[DB2]]
-- [MongoDB](NoSQL-MongoDB)
-- [[Cassandra]]
+- [MongoDB](https://dbeaver.com/databases/mongo/)
+- [[Cassandra](https://dbeaver.com/databases/cassandra/)]
 - [[InfluxDB]]
 - [[Redis]]
 - [[Clickhouse]]
