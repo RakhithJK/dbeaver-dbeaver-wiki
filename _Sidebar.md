@@ -68,7 +68,7 @@
 - [[Exasol]]
 - [[DB2]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
-- [[Cassandra](https://dbeaver.com/databases/cassandra/)]
+- [Cassandra(https://dbeaver.com/databases/cassandra/)
 - [[InfluxDB]]
 - [[Redis]]
 - [[Clickhouse]]
