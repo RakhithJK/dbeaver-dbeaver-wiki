@@ -69,8 +69,8 @@
 - [[DB2]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
-- [[InfluxDB]]
-- [[Redis]]
+- [InfluxDB](https://dbeaver.com/databases/influxdb/)
+- [Redis](https://dbeaver.com/databases/redis/)
 - [[Clickhouse]]
 
 ##### Admin Guide
