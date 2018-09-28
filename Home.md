@@ -21,4 +21,4 @@ Unless required by an applicable law or agreed to in writing, DBeaver is distrib
 
 # Contacts
 
-For technical support, feature suggestions and any other questions, please contact support@jkiss.org.
+For technical support, feature suggestions and any other questions, please contact dbeaver@jkiss.org.
