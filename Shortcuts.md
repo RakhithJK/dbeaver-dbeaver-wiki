@@ -8,12 +8,16 @@ Shortcut|Action
 <kbd>CTRL+Enter</kbd>|Execute current query ([*](#cur_query))
 <kbd>CTRL+\\</kbd>|Execute current query in a new tab
 <kbd>ALT+X</kbd>|Execute current script ([**](#cur_script))
+<kbd>CTRL+ALT+'</kbd>|Execute selected SQL expression and print results
+<kbd>CTRL+SHIFT+E</kbd>|Explain current query execution plan
 <kbd>CTRL+ALT+SHIFT+X</kbd>|Execute queries of current script simultaneously, showing results in separate tabs
 <kbd>CTRL+9</kbd>|Switch active connection (for SQL script)
 <kbd>CTRL+Space</kbd> <kbd>Option+Space</kbd>|SQL completion proposals popup
-<kbd>CTRL+Alt+Space</kbd>|SQL templates proposals popup
+<kbd>CTRL+ALT+Space</kbd>|SQL templates proposals popup
 <kbd>CTRL+SHIFT+F</kbd>|Format current script ([**](#cur_script)) using current formatter
 <kbd>CTRL+/</kbd> <kbd>CTRL+SHIFT+/</kbd>|Toggle single/multi line comment
+<kbd>ALT+Up</kbd> <kbd>ALT+Down</kbd>|Jump to previous/next query
+<kbd>CTRL+6</kbd> <kbd>CTRL+SHIFT+6</kbd> <kbd>ALT+6</kbd>|Toggle editor/results panels (maximize/minimize/switch)
 <kbd>CTRL+SHIFT+X</kbd> <kbd>CTRL+SHIFT+Y</kbd>|Convert selected text into upper/lower case
 
 ### Data viewer
@@ -29,6 +33,17 @@ Shortcut|Action
 <kbd>F11</kbd>|Current column filters menu
 <kbd>CTRL+F11</kbd>|Current column filter dictionary panel
 <kbd>F7</kbd> <kbd>CTRL+7</kbd>|Toggle right panels on/off
+<kbd>F5</kbd>|Refresh results (re-run query)
+
+### Data editor
+Shortcut|Action
+--------|-----
+<kbd>Enter</kbd>|Activate inline editor
+<kbd>SHIFT+Enter</kbd>|Open value editor dialog or separate value editor (for LOB values)
+<kbd>Delete</kbd> <kbd>ALT+Delete</kbd>|Delete row
+<kbd>ALT+Insert</kbd>|Add new row
+<kbd>CTRL+ALT+Insert</kbd>|Copy current row
+<kbd>Escape</kbd>|Cancel changes in current cell/row
 
 ### Database Navigator
 
@@ -49,8 +64,9 @@ Shortcut|Action
 Shortcut|Action
 --------|-----
 <kbd>ALT+~</kbd>|Shows database tools context menu
-<kbd>CTRL+0</kbd>|Switch active schema/catalog
-<kbd>CTRL+SHIFT+C</kbd>|Advanced copy. Works in different context and performs "smart copy" operation (usually with parameters).
+<kbd>CTRL+0</kbd>|Switch active schema/catalog (available if SQL/database editor is open)
+<kbd>CTRL+SHIFT+C</kbd>|Advanced copy. Works in different contexts and performs "smart copy" operation (usually with parameters).
+<kbd>CTRL+SHIFT+V</kbd>|Advanced paste. Same as "smart copy" but for "paste".
 
 #### References
 
