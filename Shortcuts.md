@@ -1,5 +1,7 @@
-Brief list of most important DBeaver shortcuts.
-Of course you can redefine any (or almost any) of these shortcuts, here is the list of default values.
+Brief list of most important DBeaver shortcuts.  
+Of course you can redefine any (or almost any) of these shortcuts, here is the list of default values.  
+Most of following commands are accessible from main menu, context menu or editor toolbar (or from all of them).  
+Use context menu wherever it is possible - it usually shows all actions accessible at this moment.
 
 ### SQL Editor
 
