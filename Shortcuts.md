@@ -2,7 +2,16 @@ Brief list of most important DBeaver shortcuts.
 Of course you can redefine any (or almost any) of these shortcuts, here is the list of default values.
 
 ### SQL Editor
-<kbd>CTRL+9</kbd>|Switch active connection (fro script)
+
+Shortcut|Action
+--------|-----
+<kbd>CTRL+Enter</kbd>|Execute current query ([*](#cur_query))
+<kbd>CTRL+\</kbd>|Execute current query in new tab
+<kbd>ALT+X</kbd>|Execute current script ([**](#cur_script))
+<kbd>CTRL+9</kbd>|Switch active connection (for script)
+
+`*` - Current query is the query under cursor or the selected text. Query is separated from other script queries by delimiter   (; by default) or by empty lines.  
+`**` - Under current script we understand all queries in the current SQL file. Queries are separated from each other with a delimiter (; by default).  
 
 ### Data viewer
 Shortcut|Action
