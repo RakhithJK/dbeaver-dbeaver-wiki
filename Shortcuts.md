@@ -6,7 +6,7 @@ Of course you can redefine any (or almost any) of these shortcuts, here is the l
 Shortcut|Action
 --------|-----
 <kbd>CTRL+Enter</kbd>|Execute current query ([*](#cur_query))
-<kbd>CTRL+\</kbd>|Execute current query in a new tab
+<kbd>CTRL+\\</kbd>|Execute current query in a new tab
 <kbd>ALT+X</kbd>|Execute current script ([**](#cur_script))
 <kbd>CTRL+ALT+SHIFT+X</kbd>|Execute queries of current script simultaneously, showing results in separate tabs
 <kbd>CTRL+9</kbd>|Switch active connection (for SQL script)
