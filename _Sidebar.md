@@ -40,6 +40,7 @@
   - [[DB Metadata Search]]
 - [[Projects]]
 - [[Bookmarks]]
+- [[Shortcuts]]
 
 #### Database Management
 - [[Database Connections]]
