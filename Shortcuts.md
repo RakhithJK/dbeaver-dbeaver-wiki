@@ -74,5 +74,5 @@ Shortcut|Action
 
 <a id="cur_query"></a>`*` - Current query is the query under cursor or the selected text. Query is separated from other script queries by delimiter   (; by default) or by empty lines.  
 <a id="cur_script"></a>`**` - Current script is a set of all queries in the current SQL file. If there is a text selection then only queries in this selection are processed. Queries are separated from each other with a delimiter (; by default).  
-<a id="cur_connection"></a>`**` - Current connection detected from active window and selection. If active (focused) window is SQL editor or database object editor then current connection is the same as in this editor. If active window is database navigator then active connection is "owner" connection of currently selected element. In other cases there is no current connection and DBeaver will ask you to choose connection implicitly.
+<a id="cur_connection"></a>`**` - Current connection detected from active window and selection. If active (focused) window is SQL editor or database object editor then current connection is the same as in this editor. If active window is database navigator then active connection is "owner" connection of currently selected element. In other cases there is no current connection and DBeaver will ask you to choose connection explicitly.
 
