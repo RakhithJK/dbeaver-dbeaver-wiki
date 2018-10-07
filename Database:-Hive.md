@@ -10,16 +10,13 @@ DBeaver uses so-called Hive JDBC Uber Jar driver (https://github.com/timveil/hiv
 ### Connection setup
 
 ![](images/database/hive/hive-setup-driver.png)
-
 ![](images/database/hive/hive-setup-connection.png)
-
 ![](images/database/hive/hive-test-connection.png)
+
+### Schema/data browser
 
 ![](images/database/hive/hive-tables.png)
 ![](images/database/hive/hive-ddl.png)
-
-
-### Schema/data browser
 
 ### Limitations
 
