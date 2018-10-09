@@ -20,6 +20,6 @@ https://marketplace.eclipse.org/content/properties-editor-java-i18n-tool
 
 |Module|Purpose|File|
 |---|---|---|
-|Core|Commands, properties|https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties
+|Core|Commands, properties|[[https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties]]
 
 
