@@ -30,9 +30,19 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 #### Intellij IDEA Community
 ![](images/ug/Localize-Bundle-IDEA.png)
 
-#### Other tools 
-
 ### Push your changes
+
+- Open GitHub Desktop 
+- At the top select Current branch and press New Branch button
+- Create a new branch with a name related to l10n
+- Commit to the new branch
+- Publish brunch/push (right button at the top)
+- Fetch origin (right button at the top)
+- In the main menu select Branch -> Create Pull Request
+- On the opened GitHub page add some meaningful text for your pull request name and press Create pull request button
+- Return to GitHub Desktop and switch to devel branch
+
+or 
 
 Create a Pull Request with your changes (in branch `devel`)
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
