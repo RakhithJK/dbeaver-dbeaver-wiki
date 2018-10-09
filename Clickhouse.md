@@ -8,10 +8,12 @@ DBeaver uses standard Clickhouse JDBC driver to communicate with Clickhouse serv
 
 Connection initiation is very easy.
 
-1. select Clickhouse driver:
+1. Select Clickhouse driver:
+
 ![](images/database/clickhouse/clickhouse-setup-driver.png)
 
 2. The only required connection parameter is host name.
+
 ![](images/database/clickhouse/clickhouse-setup-connection.png)
 
 3. You can configure SSH tunnel to access your server. In that case set database host name to `localhost` while real Clickhouse server host will be specified as SSH server.
@@ -19,13 +21,21 @@ Connection initiation is very easy.
 ![](images/database/clickhouse/clickhouse-setup-ssh.png)
 
 4. Test connection:
+
 ![](images/database/clickhouse/clickhouse-test-connection.png)
 
 ### Schema/data browser
 
+You can browse/edit, analyse data in Clickhouse tables:
+
 ![](images/database/clickhouse/clickhouse-tables.png)
+
+DBeaver supports native Clickhouse table DDLs:
+
 ![](images/database/clickhouse/clickhouse-ddl.png)
 
-### Limitations
+Clickhouse extension support most of standard DBeaver features (SQL editor, data view/edit, data transfer, mock data generation, etc).
+
+#### Limitations
 
 Clickhouse doesn't support referential integrity so you won't see foreign keys. ER diagrams are also doesn't make much sense.
