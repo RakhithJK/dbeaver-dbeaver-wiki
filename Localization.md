@@ -10,7 +10,14 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 
 ### Localizing tools
 #### Eclipse IDE
-https://marketplace.eclipse.org/content/properties-editor-java-i18n-tool
+- Clone DBeaver repository
+- Install Eclipse (any version, any package)
+- Install [[ResourceBundle Editor|http://essiembre.github.io/eclipse-rbe/]] plugin.
+  - `Install New Software` from this URL: https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
+- Import all DBeaver plugins in workspace
+- Open some properties file (e.g. bundle.properties) in ResourceBundle editor:
+![](images/ug/Open-Properties-Bundle.png)
+
 
 #### Intellij IDEA Community
 
