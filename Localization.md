@@ -20,10 +20,15 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 - Edit properties:
 ![](images/ug/Localize-Bundle-Editor.png)
 
-
 #### Intellij IDEA Community
+![](images/ug/Localize-Bundle-IDEA.png)
 
 #### Other tools 
+
+### Push your changes
+
+Create a Pull Request with your changes (in branch `devel`)
+https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 ### Properties
 
@@ -31,3 +36,10 @@ Module|Purpose|File
 ---|---|---
 Core| Commands, properties | [[https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties]]
 Core|Messages,UI strings | [[https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties]]
+
+### Testing you changes
+
+Once you have changed resource you might want to test your changes.
+You can:
+- Run DBeaver directly from [[Eclipse workspace|Develop-in-Eclipse]]
+- [[Build DBeaver from source|Build-from-sources]] and run executable

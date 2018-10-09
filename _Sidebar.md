@@ -68,7 +68,7 @@
 - [[Oracle]]
 - [[Exasol]]
 - [[DB2]]
-- [[Apache Hive/Sparc|Database - Hive]]
+- [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
@@ -81,6 +81,7 @@
 - [[Command-Line]]
 
 ##### Development
+- [Build from sources](Build-from-sources)
 - [Develop in Eclipse](Develop-in-Eclipse)
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
