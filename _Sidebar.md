@@ -68,7 +68,7 @@
 - [[Oracle]]
 - [[Exasol]]
 - [[DB2]]
-- [[Apache Hive/Spark/Impala|Database - Hive]]
+- [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
