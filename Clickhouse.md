@@ -8,6 +8,7 @@ DBeaver uses standard Clickhouse JDBC driver to communicate with Clickhouse serv
 
 ![](images/database/clickhouse/clickhouse-setup-driver.png)
 ![](images/database/clickhouse/clickhouse-setup-connection.png)
+![](images/database/clickhouse/clickhouse-setup-ssh.png)
 ![](images/database/clickhouse/clickhouse-test-connection.png)
 
 ### Schema/data browser
