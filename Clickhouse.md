@@ -6,9 +6,19 @@ DBeaver uses standard Clickhouse JDBC driver to communicate with Clickhouse serv
 
 ### Connection setup
 
+Connection initiation is very easy.
+
+1. select Clickhouse driver:
 ![](images/database/clickhouse/clickhouse-setup-driver.png)
+
+2. The only required connection parameter is host name.
 ![](images/database/clickhouse/clickhouse-setup-connection.png)
+
+3. You can configure SSH tunnel to access your server. In that case set database host name to `localhost` while real Clickhouse server host will be specified as SSH server.
+
 ![](images/database/clickhouse/clickhouse-setup-ssh.png)
+
+4. Test connection:
 ![](images/database/clickhouse/clickhouse-test-connection.png)
 
 ### Schema/data browser
