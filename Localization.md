@@ -22,7 +22,7 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
   - Main menu Help -> `Install New Software` -> https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
 - Main menu -> File -> Import... -> General -> Existing Projects into Workspace -> Browse
 - Choose your DBeaver clone directory and import all projects
-- Open some properties file (e.g. bundle.properties) in ResourceBundle editor:
+- Open some properties file (e.g. bundle.properties - <a href="#properties">see below</a> ) in ResourceBundle editor:
 ![Open resource in Properties Editor](images/ug/Open-Properties-Bundle.png)
 - Edit properties:
 ![](images/ug/Localize-Bundle-Editor.png)
