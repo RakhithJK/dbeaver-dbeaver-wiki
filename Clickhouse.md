@@ -13,8 +13,8 @@ DBeaver uses standard Clickhouse JDBC driver to communicate with Clickhouse serv
 
 ### Schema/data browser
 
-![](images/database/hive/clickhouse-tables.png)
-![](images/database/hive/clickhouse-ddl.png)
+![](images/database/clickhouse/clickhouse-tables.png)
+![](images/database/clickhouse/clickhouse-ddl.png)
 
 ### Limitations
 
