@@ -81,6 +81,7 @@
 - [[Command-Line]]
 
 ##### Development
+- [Build from sources](Build-from-sources)
 - [Develop in Eclipse](Develop-in-Eclipse)
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
