@@ -1,0 +1,1 @@
+## Build DBeaver from sources
