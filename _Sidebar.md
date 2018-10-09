@@ -83,6 +83,7 @@
 ##### Development
 - [Develop in Eclipse](Develop-in-Eclipse)
 - [Features structure](Features-structure)
+- [Resources localization](Localization)
 
 ##### Troubleshooting
 - [[Reset workspace]]
