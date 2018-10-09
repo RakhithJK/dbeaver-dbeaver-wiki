@@ -11,12 +11,15 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 ### Environment setup
 - Clone DBeaver repository
   - Install [[GitHub Desktop|https://desktop.github.com/]]
+  - In the top menu select File -> Clone Repository
+  - In the appeared popup window select the URL tab and paste DBeaver URL: `https://github.com/dbeaver/dbeaver.git`
+  - Press Clone
 
 ### Localizing tools
 #### Eclipse IDE
 - Install Eclipse (any version, any package)
 - Install [[ResourceBundle Editor|http://essiembre.github.io/eclipse-rbe/]] plugin.
-  - `Install New Software` from this URL: https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
+  - Main menu Help -> `Install New Software` -> https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
 - Import all DBeaver plugins in workspace
 - Open some properties file (e.g. bundle.properties) in ResourceBundle editor:
 ![Open resource in Properties Editor](images/ug/Open-Properties-Bundle.png)
