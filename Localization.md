@@ -17,6 +17,8 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 - Import all DBeaver plugins in workspace
 - Open some properties file (e.g. bundle.properties) in ResourceBundle editor:
 ![](images/ug/Open-Properties-Bundle.png)
+- Edit properties:
+![](images/ug/Localize-Bundle-Editor.png)
 
 
 #### Intellij IDEA Community
