@@ -8,9 +8,12 @@ See full list of property files below.
 bundle.properties contains original string in English language.
 All translated resources are placed in bundle_XX.properties files where XX is two-letter language code.
 
+### Environment setup
+- Clone DBeaver repository
+  - Install [[GitHub Desktop|https://desktop.github.com/]]
+
 ### Localizing tools
 #### Eclipse IDE
-- Clone DBeaver repository
 - Install Eclipse (any version, any package)
 - Install [[ResourceBundle Editor|http://essiembre.github.io/eclipse-rbe/]] plugin.
   - `Install New Software` from this URL: https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml
