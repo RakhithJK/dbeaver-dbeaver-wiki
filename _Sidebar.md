@@ -84,6 +84,7 @@
 - [Develop in Eclipse](Develop-in-Eclipse)
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
+- [Automatic Tests](Auto-Tests)
 
 ##### Troubleshooting
 - [[Reset workspace]]
