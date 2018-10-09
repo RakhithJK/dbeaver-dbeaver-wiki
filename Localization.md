@@ -41,8 +41,8 @@ https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 Module|Purpose|File
 ---|---|---
-Core| Commands, properties | [[https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties]]
-Core|Messages,UI strings | [[https://github.com/dbeaver/dbeaver/tree/devel/plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties]]
+Core| Commands, properties | plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties
+Core|Messages,UI strings | plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties
 
 ### Testing you changes
 
