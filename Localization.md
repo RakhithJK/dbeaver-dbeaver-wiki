@@ -60,3 +60,14 @@ Once you have changed resource you might want to test your changes.
 You can:
 - Run DBeaver directly from [[Eclipse workspace|Develop-in-Eclipse]]
 - [[Build DBeaver from source|Build-from-sources]] and run executable
+
+### Changing interface language
+
+You can change language of UI in DBeaver:
+- Preferences->Database->Language
+- In dbeaver.ini before line `-vmargs` add following lines
+```
+-nl
+XX
+```
+where XX is two-letter language code (zh, de, ru, etc).
