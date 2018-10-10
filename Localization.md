@@ -53,6 +53,8 @@ Module|Purpose|File
 ---|---|---
 Core| Commands, properties | plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties
 Core|Messages,UI strings | plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties
+Application (Standalone)| Commands, properties | plugins/org.jkiss.dbeaver.core.application/OSGI-INF/l10n/bundle.properties
+Application (Eclipse)| Commands, properties | plugins/org.jkiss.dbeaver.core.eclipse/OSGI-INF/l10n/bundle.properties
 
 ### Testing you changes
 
