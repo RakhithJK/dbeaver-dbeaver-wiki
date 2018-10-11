@@ -15,12 +15,14 @@ It consists from a set of Eclipse plugins, features and products.
 
 ##### Opening workspace in Eclipse
 
-You will need to setup "<a href="https://www.eclipse.org/downloads/packages/eclipse-rcp-and-rap-developers/oxygen1a">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Oxygen (4.7). Build may fail on newer or older versions.  
+You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2018-09. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
 - Open main menu Help -> Install New Software
 - Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
-![](images/eclipse-deps-install.png)
+![Screenshot for adding Dbeaver repo](images/development/eclipse/dbv_repo.png)
 - Check all plugins and finish the installation process
+- Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository, but check only `Tip of the day widget`:
+![Screenshot for adding Nebula repo](images/development/eclipse/nebula-repo.png)
 
 Now you need to checkout DBeaver repository with `git clone https://github.com/dbeaver/dbeaver.git` command.
 In Eclipse create a new workspace and run Import wizard. Choose "General->Existing projects into Workspace".  
