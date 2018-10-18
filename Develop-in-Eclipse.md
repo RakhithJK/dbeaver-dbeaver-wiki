@@ -21,7 +21,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 - Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
 ![Screenshot for adding Dbeaver repo](images/development/eclipse/dbv_repo.png)
 - Check all plugins and finish the installation process
-- Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository, but check only `Tip of the day widget`:
+- Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check all widgets:
 ![Screenshot for adding Nebula repo](images/development/eclipse/nebula-repo.png)
 
 Now you need to checkout DBeaver repository with `git clone https://github.com/dbeaver/dbeaver.git` command.
