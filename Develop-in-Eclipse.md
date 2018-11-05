@@ -1,7 +1,7 @@
 DBeaver is an [Eclipse RCP](https://wiki.eclipse.org/Rich_Client_Platform) application.  
 It consists from a set of Eclipse plugins, features and products.
 
-##### Opening workspace in Eclipse
+#### Opening workspace in Eclipse
 
 You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2018-09. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
@@ -19,8 +19,14 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-1.png)
 9. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.  
 ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-2.png)
+10. Eclipse will perform project configuration process. This may take a few minutes.
+![Eclipse Import Maven Projects](images/development/eclipse/import-maven-3.png)
+11. If Eclipse will ask about additional plugin install - just agree:
+![Eclipse Import Maven Projects](images/development/eclipse/import-maven-4.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-5.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-6.png)
+12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
 
-Now you can build DBeaver (`Ctrl+B`).
+#### Running and Debugging in Eclipse
+
 To run the standalone version find file `DBeaver.product` (it is located in `product/standalone` directory). Open it and click on "Launch an Eclipse application" or "Launch an Eclipse application in Debug mode".  
 
 If product won't start with `No application id has been found` error try this workaround:
@@ -29,7 +35,7 @@ https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-b
 
 That's it.
 
-##### Sources structure:
+#### Sources structure:
 - `docs` - some documentations (mostly outdated)
 - `features` - feature descriptors. Doesn't contain any source code. Used to structurize product plugins/dependencies.
 - `bundles` - very base plugins (like utils)
@@ -41,5 +47,5 @@ That's it.
   - `org.jkiss.dbeaver.ext.*` - DBeaver extensions
 - `product` - final products (standalone and Eclipse plugin) configuration.
 
-##### Notes:
+#### Notes:
 Everything above covers Community Edition version.  
