@@ -8,9 +8,9 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 1. Open main menu Help -> Install New Software
 2. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
 3. Check all plugins and finish the installation process
-<img src="images/development/eclipse/dbv_repo.png" width="400"/>
+<img src="images/development/eclipse/dbv_repo.png" width="400" align="right"/>
 4. Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check Nubula Widgets.
-<img src="images/development/eclipse/nebula-repo.png" width="400"/>
+<img src="images/development/eclipse/nebula-repo.png" width="400" align="right"/>
 5. Restart Eclipse
 6. Checkout DBeaver repository somewhere with `git clone https://github.com/dbeaver/dbeaver.git` command.
 7. In Eclipse run Import wizard
