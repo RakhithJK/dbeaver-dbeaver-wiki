@@ -1,7 +1,7 @@
 DBeaver is an [Eclipse RCP](https://wiki.eclipse.org/Rich_Client_Platform) application.  
 It consists from a set of Eclipse plugins, features and products.
 
-#### Opening workspace in Eclipse
+## Opening workspace in Eclipse
 
 You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2018-09. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
@@ -29,7 +29,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 14. If some modules build will fail (they will be marked with red cross) - update Maven project
 ![Eclipse Maven Project Update](images/development/eclipse/eclipse-maven-update.png)
 
-#### Running and Debugging in Eclipse
+## Running and Debugging in Eclipse
 
 1. Import DBeaver launch configuration using Eclipse Import wizard:
 ![](images/development/eclipse/import-launch-configuration.png)
@@ -43,7 +43,7 @@ https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-b
 
 That's it.
 
-#### Sources structure:
+## Sources structure:
 - `docs` - some documentations (mostly outdated)
 - `features` - feature descriptors. Doesn't contain any source code. Used to structurize product plugins/dependencies.
 - `bundles` - very base plugins (like utils)
@@ -55,5 +55,5 @@ That's it.
   - `org.jkiss.dbeaver.ext.*` - DBeaver extensions
 - `product` - final products (standalone and Eclipse plugin) configuration.
 
-#### Notes:
+## Notes:
 Everything above covers Community Edition version.  
