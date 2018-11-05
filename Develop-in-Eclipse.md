@@ -16,7 +16,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 5. Restart Eclipse
 6. Checkout DBeaver repository somewhere with `git clone https://github.com/dbeaver/dbeaver.git` command.  
 7. In Eclipse run Import wizard  
-    <img src="images/development/eclipse/context-menu-import.png" width="400"/>
+    <img src="images/development/eclipse/context-menu-import.png" width="250"/>
 
 8. Choose "General->Existing Maven Projects".   
     <img src="images/development/eclipse/import-maven-1.png" width="400"/>
