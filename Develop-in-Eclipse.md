@@ -19,6 +19,11 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-1.png)
 9. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.  
 ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-2.png)
+10. Eclipse will perform project configuration process. This may take a few minutes.
+![Eclipse Import Maven Projects](images/development/eclipse/import-maven-3.png)
+11. If Eclipse will ask about additional plugin install - just agree:
+![Eclipse Import Maven Projects](images/development/eclipse/import-maven-4.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-5.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-6.png)
+12. Restart Eclipse
 
 Now you can build DBeaver (`Ctrl+B`).
 To run the standalone version find file `DBeaver.product` (it is located in `product/standalone` directory). Open it and click on "Launch an Eclipse application" or "Launch an Eclipse application in Debug mode".  
