@@ -7,10 +7,10 @@ You will need to setup "<a href="https://www.eclipse.org/downloads/packages/rele
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
 1. Open main menu Help -> Install New Software
 2. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
-3. Check all plugins and finish the installation process:
+3. Check all plugins and finish the installation process:  
     <img src="images/development/eclipse/dbv_repo.png" width="400"/>
 
-4. Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check Nubula Widgets.
+4. Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check Nubula Widgets.  
     <img src="images/development/eclipse/nebula-repo.png" width="400"/>
 
 5. Restart Eclipse
@@ -18,34 +18,34 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 7. In Eclipse run Import wizard
     <img src="images/development/eclipse/context-menu-import.png" width="400"/>
 
-8. Choose "General->Existing Maven Projects".  
+8. Choose "General->Existing Maven Projects".   
     <img src="images/development/eclipse/import-maven-1.png" width="400"/>
 
-9. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.  
+9. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.   
     <img src="images/development/eclipse/import-maven-2.png" width="400"/>
 
-10. Eclipse will perform project configuration process. This may take a few minutes.
+10. Eclipse will perform project configuration process. This may take a few minutes.  
     <img src="images/development/eclipse/import-maven-3.png" width="400"/>
 
-11. If Eclipse will ask about additional plugin install - just agree:
+11. If Eclipse will ask about additional plugin install - just agree:  
     <img src="images/development/eclipse/import-maven-4.png" width="400"/> 
     <img src="images/development/eclipse/import-maven-5.png" width="400"/> 
     <img src="images/development/eclipse/import-maven-6.png" width="400"/> 
 
 12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
-13. Switch to Hierarchical projects presentations
+13. Switch to Hierarchical projects presentations  
     <img src="images/development/eclipse/eclipse-project-hierarchy.png" width="400"/> 
 
-14. If some modules build will fail (they will be marked with red cross) - update Maven project
+14. If some modules build will fail (they will be marked with red cross) - update Maven project  
     <img src="images/development/eclipse/eclipse-maven-update.png" width="400"/> 
 
 
 ## Running and Debugging in Eclipse
 
-1. Import DBeaver launch configuration using Eclipse Import wizard:
+1. Import DBeaver launch configuration using Eclipse Import wizard:  
     <img src="images/development/eclipse/import-launch-configuration.png" width="400"/> 
 2. Click on Debug icon in the main toolbar->Debug configurations.
-3. Choose DBeaver.product and click Debug button
+3. Choose DBeaver.product and click Debug button  
     <img src="images/development/eclipse/debug-dialog.png" width="400"/> 
 
 If product won't start with `No application id has been found` error try this workaround:
