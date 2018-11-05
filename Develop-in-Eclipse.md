@@ -17,15 +17,15 @@ It consists from a set of Eclipse plugins, features and products.
 
 You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2018-09. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
-- Open main menu Help -> Install New Software
-- Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
+1. Open main menu Help -> Install New Software
+2. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
 ![Screenshot for adding Dbeaver repo](images/development/eclipse/dbv_repo.png)
-- Check all plugins and finish the installation process
-- Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check all widgets:
+3. Check all plugins and finish the installation process
+4. Repeat the same process for `http://download.eclipse.org/nebula/releases/latest` repository and check:
 ![Screenshot for adding Nebula repo](images/development/eclipse/nebula-repo.png)
 
-Now you need to checkout DBeaver repository with `git clone https://github.com/dbeaver/dbeaver.git` command.
-In Eclipse create a new workspace and run Import wizard. Choose "General->Existing projects into Workspace".  
+5. Now you need to checkout DBeaver repository with `git clone https://github.com/dbeaver/dbeaver.git` command.
+In Eclipse run Import wizard. Choose "General->Existing projects into Workspace".  
 Select DBeaver checkout directory as root a directory. Check all plugins and features Eclipse will find and finish the wizard.  
 
 Now you can build DBeaver (`Ctrl+B`).
