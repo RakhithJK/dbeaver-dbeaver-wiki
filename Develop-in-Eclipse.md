@@ -24,10 +24,18 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 11. If Eclipse will ask about additional plugin install - just agree:
 ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-4.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-5.png) ![Eclipse Import Maven Projects](images/development/eclipse/import-maven-6.png)
 12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
+13. Switch to Hierarchical projects presentations
+![Eclipse Project Hierarchical](images/development/eclipse/eclipse-project-hierarchy.png)
+14. If some modules build will fail (they will be marked with red cross) - update Maven project
+![Eclipse Maven Project Update](images/development/eclipse/eclipse-maven-update.png)
 
 #### Running and Debugging in Eclipse
 
-To run the standalone version find file `DBeaver.product` (it is located in `product/standalone` directory). Open it and click on "Launch an Eclipse application" or "Launch an Eclipse application in Debug mode".  
+1. Import DBeaver launch configuration using Eclipse Import wizard:
+![](images/development/eclipse/import-launch-configuration.png)
+2. Click on Debug icon in the main toolbar->Debug configurations.
+3. Choose DBeaver.product and click Debug button
+![](images/development/eclipse/import-launch-dialog.png)
 
 If product won't start with `No application id has been found` error try this workaround:
 https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found  
