@@ -35,7 +35,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 ![](images/development/eclipse/import-launch-configuration.png)
 2. Click on Debug icon in the main toolbar->Debug configurations.
 3. Choose DBeaver.product and click Debug button
-![](images/development/eclipse/import-launch-dialog.png)
+![](images/development/eclipse/debug-dialog.png)
 
 If product won't start with `No application id has been found` error try this workaround:
 https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found  
