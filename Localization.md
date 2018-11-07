@@ -63,11 +63,13 @@ Data Transfer| Commands, properties | plugins/org.jkiss.dbeaver.ext.data.transfe
 Data Transfer| Messages | plugins/org.jkiss.dbeaver.ext.data.transfer/src/org/jkiss/dbeaver/tools/transfer/internal/DTMessages.properties
 ERD| Commands, properties | plugins/org.jkiss.dbeaver.ext.erd/OSGI-INF/l10n/bundle.properties
 ERD| Messages | plugins/org.jkiss.dbeaver.ext.erd/src/org/jkiss/dbeaver/ext/erd/ERDResources.properties
+SSH| Commands, properties | plugins/org.jkiss.dbeaver.net.ssh/OSGI-INF/l10n/bundle.properties
+SSH| Messages | plugins/org.jkiss.dbeaver.net.ssh.ui/src/org/jkiss/dbeaver/ui/net/ssh/SSHUIMessages.properties
 Generic driver| Properties | plugins/org.jkiss.dbeaver.ext.generic/OSGI-INF/l10n/bundle.properties
 Generic driver| Messages | plugins/org.jkiss.dbeaver.ext.generic/src/org/jkiss/dbeaver/ext/generic/GenericResources.properties
 MySQL| Properties | plugins/org.jkiss.dbeaver.ext.mysql/OSGI-INF/l10n/bundle.properties
 MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/mysql/MySQLResources.properties
-..|..|The same for Oracle, DB2, Exasol, PostgreSQL
+..|..|The same for Oracle (ext.oracle), DB2 (ext.db2), Exasol (ext.exasol), PostgreSQL (ext.postgresql) and SQL Server (ext.mssql)
 
 ### Testing you changes
 
