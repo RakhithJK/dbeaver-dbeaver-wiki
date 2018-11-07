@@ -59,6 +59,8 @@ UI | Properties | plugins/org.jkiss.dbeaver.ui/OSGI-INF/l10n/bundle.properties
 UI | Messages | plugins/org.jkiss.dbeaver.ui/src/org/jkiss/dbeaver/bundle/UIMessages.properties
 Application (Standalone)| Commands, properties | plugins/org.jkiss.dbeaver.core.application/OSGI-INF/l10n/bundle.properties
 Application (Eclipse)| Commands, properties | plugins/org.jkiss.dbeaver.core.eclipse/OSGI-INF/l10n/bundle.properties
+Data Transfer| Commands, properties | plugins/org.jkiss.dbeaver.ext.data.transfer/OSGI-INF/l10n/bundle.properties
+Data Transfer| Messages | plugins/org.jkiss.dbeaver.ext.data.transfer/src/org/jkiss/dbeaver/tools/transfer/internal/DTMessages.properties
 ERD| Commands, properties | plugins/org.jkiss.dbeaver.ext.erd/OSGI-INF/l10n/bundle.properties
 ERD| Messages | plugins/org.jkiss.dbeaver.ext.erd/src/org/jkiss/dbeaver/ext/erd/ERDResources.properties
 MySQL| Properties | plugins/org.jkiss.dbeaver.ext.mysql/OSGI-INF/l10n/bundle.properties
