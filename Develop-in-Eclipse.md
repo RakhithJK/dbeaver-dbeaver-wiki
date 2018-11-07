@@ -1,5 +1,5 @@
 DBeaver is an [Eclipse RCP](https://wiki.eclipse.org/Rich_Client_Platform) application.  
-It consists from a set of Eclipse plugins, features and products.
+It consists of a set of Eclipse plugins, features and products.
 
 ## Opening workspace in Eclipse
 
