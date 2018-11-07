@@ -59,6 +59,8 @@ UI | Properties | plugins/org.jkiss.dbeaver.ui/OSGI-INF/l10n/bundle.properties
 UI | Messages | plugins/org.jkiss.dbeaver.ui/src/org/jkiss/dbeaver/bundle/UIMessages.properties
 Application (Standalone)| Commands, properties | plugins/org.jkiss.dbeaver.core.application/OSGI-INF/l10n/bundle.properties
 Application (Eclipse)| Commands, properties | plugins/org.jkiss.dbeaver.core.eclipse/OSGI-INF/l10n/bundle.properties
+ERD| Commands, properties | plugins/org.jkiss.dbeaver.ext.erd/OSGI-INF/l10n/bundle.properties
+ERD| Messages | plugins/org.jkiss.dbeaver.ext.erd/src/org/jkiss/dbeaver/ext/erd/ERDResources.properties
 MySQL| Properties | plugins/org.jkiss.dbeaver.ext.mysql/OSGI-INF/l10n/bundle.properties
 MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/mysql/MySQLResources.properties
 ..|..|The same for Oracle, DB2, Exasol, PostgreSQL
