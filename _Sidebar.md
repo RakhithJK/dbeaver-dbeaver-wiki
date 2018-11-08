@@ -63,7 +63,7 @@
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
-##### Databases
+#### Databases
 - [[Generic]]
 - [[MySQL/MariaDB|Database: MySQL]]
 - [[PostgreSQL]]
@@ -77,7 +77,7 @@
 - [Redis](https://dbeaver.com/databases/redis/)
 - [[Clickhouse]]
 
-##### Troubleshooting
+#### Troubleshooting
 - [[Reset UI settings]]
 - [[Posting issues]]
 - [[Log files]]
