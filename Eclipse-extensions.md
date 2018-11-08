@@ -3,11 +3,18 @@ Most of extensions can be found on [[Eclipse Marketplace|https://marketplace.ecl
 
 # Popular extensions for DBeaver
 
-1. [[Darkest Dark theme|https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle]] - the best Dark theme for DBeaver
-1. [[Eclipse Color Theme|https://marketplace.eclipse.org/content/eclipse-color-theme]] - use it if you don't like Darkest Dark theme by some reason
-1. [[Git support|https://marketplace.eclipse.org/content/egit-git-integration-eclipse]] - Git version control integration
-1. [[Embedded Shell|https://marketplace.eclipse.org/content/easyshell]] - Allows to run shell commands directly from DBeaver
-1. [[Editor vertical indents|https://marketplace.eclipse.org/content/indent-guide]] - Adds vertical indents to all text editors
+- [[Darkest Dark theme|https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle]] - the best Dark theme for DBeaver
+- [[Eclipse Color Theme|https://marketplace.eclipse.org/content/eclipse-color-theme]] - use it if you don't like Darkest Dark theme by some reason
+- [[Git support|https://marketplace.eclipse.org/content/egit-git-integration-eclipse]] - Git version control integration
+- [[Subversion support|https://marketplace.eclipse.org/content/subclipse]] - Subversion integration
+- [[Embedded Shell|https://marketplace.eclipse.org/content/easyshell]] - Allows to run shell commands directly from DBeaver
+- [[Editor vertical indents|https://marketplace.eclipse.org/content/indent-guide]] - Adds vertical indents to all text editors
+
+### DBeaver-specific extensions
+- [[Office formats support (XLSX)|https://marketplace.eclipse.org/content/dbeaver-office-integration]]
+- [[Vector graphics support (SVG)|https://marketplace.eclipse.org/content/dbeaver-svg-support]]
+- [[SSHJ and advanced cryptography|https://marketplace.eclipse.org/content/dbeaver-sshj-support]]
+- [[SQL debugger|https://marketplace.eclipse.org/content/dbeaver-sql-debugger]]
 
 # Install Process
 
