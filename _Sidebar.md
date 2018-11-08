@@ -55,11 +55,13 @@
   - [[Transaction Log]]
   - [[Pending Transactions]]
 - [[Database drivers]]
-- [[Optional extensions - Office, Debugger, Git, SVG, SSH|Optional extensions]]
 - [[Mock Data Generation in DBeaver]]
 - [[Data export/import/migration|Data transfer]]
 - [[Database compare]]
 
+#### Customizing DBeaver
+- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
+- [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
 ##### Databases
 - [[Generic]]
@@ -75,6 +77,12 @@
 - [Redis](https://dbeaver.com/databases/redis/)
 - [[Clickhouse]]
 
+##### Troubleshooting
+- [[Reset UI settings]]
+- [[Posting issues]]
+- [[Log files]]
+- [Thread dump](Making-a-thread-dump)
+
 ##### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
@@ -86,12 +94,6 @@
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
 - [Automatic Tests](Auto-Tests)
-
-##### Troubleshooting
-- [[Reset workspace]]
-- [[Posting issues]]
-- [[Log files]]
-- [Thread dump](Making-a-thread-dump)
 
 ##### Other
 - [[Enterprise Edition]]
