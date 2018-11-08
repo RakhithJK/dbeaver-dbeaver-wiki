@@ -83,17 +83,17 @@
 - [[Log files]]
 - [Thread dump](Making-a-thread-dump)
 
-##### Admin Guide
+#### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Command-Line]]
 
-##### Development
+#### Development
 - [Build from sources](Build-from-sources)
 - [Develop in Eclipse](Develop-in-Eclipse)
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
 - [Automatic Tests](Auto-Tests)
 
-##### Other
+#### Other
 - [[Enterprise Edition]]
