@@ -1,6 +1,14 @@
 You can install a lot of optional extensions (plugins) in DBeaver.
 Most of extensions can be found on [[Eclipse Marketplace|https://marketplace.eclipse.org/]] website.
 
+# Popular extensions for DBeaver
+
+1. [[Darkest Dark theme|https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle]] - the best Dark theme for DBeaver
+1. [[Eclipse Color Theme|https://marketplace.eclipse.org/content/eclipse-color-theme]] - use it if you don't like Darkest Dark theme by some reason
+1. [[Git support|https://marketplace.eclipse.org/content/egit-git-integration-eclipse]] - Git version control integration
+1. [[Embedded Shell|https://marketplace.eclipse.org/content/easyshell]] - Allows to run shell commands directly from DBeaver
+1. [[Editor vertical indents|https://marketplace.eclipse.org/content/indent-guide]] - Adds vertical indents to all text editors
+
 # Install Process
 
 In DBeaver EE you can use drag-n-drop from Marketplace web site (see button `Install`) into DBeaver main window. This will launch Marketplace installation wizard automatically.
@@ -19,11 +27,3 @@ In DBeaver Community or other DBeaver-based products which do not include market
 1. Some extensions may contain unsigned bundles. Install such extensions only if you really trust author.
 ![](images/marketplace/unisgned-bundles.png)
 1. Click Next->Finish. Installation will take some time. Restart DBeaver.
-
-## Popular extensions for DBeaver
-
-1. [[Darkest Dark theme|https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle]] - the best Dark theme for DBeaver
-1. [[Eclipse Color Theme|https://marketplace.eclipse.org/content/eclipse-color-theme]] - use it if you don't like Darkest Dark theme by some reason
-1. [[Git support|https://marketplace.eclipse.org/content/egit-git-integration-eclipse]] - Git version control integration
-1. [[Embedded Shell|https://marketplace.eclipse.org/content/easyshell]] - Allows to run shell commands directly from DBeaver
-1. [[Editor vertical indents|https://marketplace.eclipse.org/content/indent-guide]] - Adds vertical indents to all text editors
