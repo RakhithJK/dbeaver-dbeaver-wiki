@@ -27,8 +27,8 @@ Full drivers.xml example:
 
 	<provider id="postgresql">
 		<driver id="postgres-jdbc" custom="false" embedded="false" name="PostgreSQL" class="org.postgresql.Driver" url="jdbc:postgresql://{host}[:{port}]/[{database}]" port="5432" description="PostgreSQL standard driver">
-			<library type="jar" path="maven:/org.postgresql:postgresql:RELEASE" custom="false" version="42.2.3.jre7">
-				<file id="org.postgresql:postgresql" version="42.2.3.jre7" path="${drivers_home}/maven/maven-central/org.postgresql/postgresql-42.2.3.jre7.jar"/>
+			<library type="jar" path="maven:/org.postgresql:postgresql:RELEASE" custom="false" version="42.2.3">
+				<file id="org.postgresql:postgresql" version="42.2.3" path="${drivers_home}/maven/maven-central/org.postgresql/postgresql-42.2.3.jar"/>
 			</library>
 			<library type="jar" path="maven:/net.postgis:postgis-jdbc:RELEASE" custom="false" version="2.2.1">
 				<file id="net.postgis:postgis-jdbc" version="2.2.1" path="${drivers_home}/maven/maven-central/net.postgis/postgis-jdbc-2.2.1.jar"/>
