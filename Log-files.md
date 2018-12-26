@@ -1,4 +1,11 @@
+### Error Log view
+
 There is Error Log view (main menu Window->Show View->Error Log) which contains all errors occurred during DBeaver runtime.  
+You can double click on warning/error in the log viewer and see error stacktrace. Please attache it to the bug report.  
+Also you can open full log (all error messages) if you need:  
+![](images/error-log-export.png)
+
+### Log files
 
 DBeaver writes different log files. Most of them are Eclipse logs.  
 Usually log files reside in the workspace.  
