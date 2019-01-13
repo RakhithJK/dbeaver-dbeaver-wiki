@@ -61,3 +61,20 @@ If your database cannot be accessed directly, you can use SSH tunnel:
 ![](images/ug/Wizard-network-settings.png)  
 
 If a connection has network settings specified, such a connection appears in the application with a special 'arrow' icon such as this: ![](images/ug/DB-icon-network-settings.png)
+
+# Variables in parameters
+
+You can use variables in all connection parameters and in the driver properties.
+Variables are system environment variables or one of the following list:
+
+Name|Value
+----|-----
+${host}|Host name
+${port}|Port number
+${database}|Database name
+${server}|Server name
+${url}|Connection URL
+${user}|User name
+${password}|User password
+
+Note: option `Use environment variables in connection parameters` must be turned on (see preferences).
