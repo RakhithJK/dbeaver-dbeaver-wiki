@@ -58,6 +58,6 @@ Each driver has its own set of additional properties. Refer to the driver docume
 ## Network Settings (SSH, SOCKS, SSL)
 If your database cannot be accessed directly, you can use SSH tunnel:
 
-![](images/ug/Wizard-network settings.png)  
+![](images/ug/Wizard-network-settings.png)  
 
 If a connection has network settings specified, such a connection appears in the application with a special 'arrow' icon such as this: ![](images/ug/DB-icon-network-settings.png)
