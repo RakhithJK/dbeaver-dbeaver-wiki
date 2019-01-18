@@ -17,7 +17,7 @@ You need to download driver's jar files before adding them in DBeaver. Sometimes
 #### Open driver manager dialog
 
 You can open driver manager from main menu:  
-![](images/ug/drivers/database-menu.png)
+![](images/ug/drivers/database-menu.png)  
 or from Database Navigator view drop-down menu.  
 ![](images/ug/drivers/driver-manager.png)
 
