@@ -26,7 +26,8 @@ or from Database Navigator view drop-down menu.
 Just click button New and create new driver.
 On driver edit dialog you need to enter all needed information:
 
-## DBeaver control
+![](images/ug/drivers/driver-edit.png)
+
 Parameter|Description
 ----|-----
 Driver Name|Name of your driver. It may be any name you like.
@@ -40,6 +41,4 @@ Category|Driver category, deprecated
 ID|Driver unique ID, ignore it
 Description|Driver description, it is shown on some dialogs/wizards as a hint.
 
-
-![](images/ug/drivers/driver-edit.png)
 ![](images/ug/drivers/driver-properties.png)
