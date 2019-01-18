@@ -61,6 +61,65 @@ But in some cases you can use this as a driver tuning (for better performance or
 
 ![](images/ug/drivers/driver-properties.png)
 
+###### Main parameters
+
 Parameter|Description
 ----|-----
-Driver Name|Name of your driver. It may be any name you like.
+Driver supports indexes|Driver supports table indexes
+Driver supports stored code | Whether this driver supports stored code (procedures, functions, packages, etc)
+Driver supports references | Driver supports table references (foreign keys)
+Driver supports SELECT count(*) clause | Driver supports SELECT count(*) clause
+Split procedures and functions | Show procedures and functions in different folders
+Script delimiter | Literal for SQL queries separation in scripts
+Script delimiter redefiner | SQL clause which redefines script delimiter value
+Use script delimiter after query | Keep SQL script delimiter after each SQL query
+Use script delimiter after SQL block | Keep SQL script delimiter after SQL script blocks (BEGIN/END)
+String escape character | Character used to escape special symbols in strings
+Meta model type | Type of metadata reading model - standard or indexed
+All Objects Pattern | SQL pattern for all metadata objects
+Omit catalog(s) | Do not read and use catalog (aka database) information
+Omit single catalog | Hide catalog (database) is there is only one catalog on server
+Omit single schema | Hide schema is there is only one schema on server
+Omit type cache | Do not use data types provided by driver
+Shutdown parameter | Database shutdown URL parameter
+Create database parameter | Database create URL parameter
+Driver supports multiple results | Driver supports multiple results for a single query.
+Driver supports result set limit | Driver supports multiple result set limit (max rows).
+Driver supports structure cache | Driver supports structure cache reading. Enables schema columns, keys, etc.
+Driver supports TRUNCATE operation | Driver supports TRUNCATE command. It is much faster than DELETE without criteria.
+
+
+###### Queries (Custom driver queries)
+
+Parameter|Description
+----|-----
+Get active database | Query to obtain active database name
+Set active database | Query to change active database
+Shutdown database | Query to shutdown active database connection. Used for some embedded databases
+PING query | Query to check connection state
+Dual table name | Name of dummy 'DUAL' table which is used for expressions evaluation
+Active object type | Type of selectable object (schema, catalog)
+Driver supports results scrolling | Driver supports resultset scrolling
+Quote reserved words | Quote columns/table names if they conflicts with reserved SQL keywords
+Escape LIKE masks in search queries | Use to access JDBC metadata API. Enabled by default but should be disabled for some (broken) driverss
+
+###### DDL (DDL generation options)
+
+Parameter|Description
+----|-----
+Drop column short syntax | Use 'ALTER TABLE DROP column-name' instead of standard syntax
+Use legacy SQL dialect for DDL | Use legacy SQL dialect for DDL
+
+###### Formatting (SQL values formats)
+
+Parameter|Description
+----|-----
+Timestamp format | Format pattern for timestamp columns
+Date format | Format pattern for date columns
+Time format | Format pattern for time columns
+
+### Summary
+
+If you have configured some driver and it works good and you think that it makes sense to have this driver configuration in standard DBeaver - please sent it us. Just create a feature request issue on GitHub and copy/paste driver description in the ticket (in any suitable form).
+
+Thank you :)
