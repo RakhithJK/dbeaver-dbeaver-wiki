@@ -55,6 +55,15 @@ After you add jar files you can search for all JDBC driver classes which present
 
 DBeaver can download driver jars directly from Maven repository (it is a global public repository of Java libraries, usually open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change driver version in runtime without any driver properties reconfiguration.
 
+### Saving driver, adding connection
+
+After you finished configuring your driver just press Ok button.  
+Now you can [[create connection]].
+
+If you need to change some driver properties later you can access them directly from connection properties dialog:
+
+![](images/ug/drivers/connection-edit.png)
+
 ### Advanced settings
 
 For most driver you don't need to change any advanced properties.
