@@ -14,21 +14,22 @@ You need to download driver's jar files before adding them in DBeaver. Sometimes
 
 ### Adding driver configuration in DBeaver
 
-#### Open driver manager dialog
+##### Open driver manager dialog
 
 You can open driver manager from main menu:  
 ![](images/ug/drivers/database-menu.png)  
 or from Database Navigator view drop-down menu.  
 ![](images/ug/drivers/driver-manager.png)
 
-#### Add new driver
+##### Add new driver
 
 Just click button New and create new driver.
 On driver edit dialog you need to enter all needed information:
 
-![](images/ug/drivers/driver-edit.png)
 
-##### Main parameters
+### Main parameters
+
+![](images/ug/drivers/driver-edit.png)
 
 Parameter|Description
 ----|-----
@@ -54,7 +55,7 @@ After you add jar files you can search for all JDBC driver classes which present
 
 DBeaver can download driver jars directly from Maven repository (it is a global public repository of Java libraries, usually open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change driver version in runtime without any driver properties reconfiguration.
 
-##### Advanced settings
+### Advanced settings
 
 For most driver you don't need to change any advanced properties.
 But in some cases you can use this as a driver tuning (for better performance or for structure fixing).
