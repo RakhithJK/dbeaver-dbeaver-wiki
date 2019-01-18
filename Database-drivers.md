@@ -64,6 +64,27 @@ If you need to change some driver properties later you can access them directly 
 
 ![](images/ug/drivers/connection-edit.png)
 
+### URL Templates
+
+JDBC drivers use URLs to identify remote servers - strings similar to classic web URLs.
+Usually URL has form `jdbc:vendor:host:port/database`, for example `jdbc:postgresql:localhost:5432/postgres'.
+It is not very convenient to edit such long and unobvious string.
+DBeaver can construct this URL from connection parameters (like host, port, etc).
+
+For above example URL template is: jdbc:postgresql://{host}:{port}/{database}  
+Host, port and database are parameters which you will need to enter on connection configuration page.
+
+Supported URL variables:
+
+Parameter|Description
+----|-----
+{host}|Database server host name
+{port}|Database server port number
+{database}|Target database name
+{server}|Target server name (rarely used)
+{folder}|Folder path (on local file system). Used for embedded drivers
+{file}|File path (on local file system). Used for embedded drivers
+
 ### Advanced settings
 
 For most driver you don't need to change any advanced properties.
