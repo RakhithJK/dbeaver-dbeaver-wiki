@@ -25,5 +25,21 @@ or from Database Navigator view drop-down menu.
 
 Just click button New and create new driver.
 On driver edit dialog you need to enter all needed information:
+
+## DBeaver control
+Parameter|Description
+----|-----
+Driver Name|Name of your driver. It may be any name you like.
+Driver Type|Driver provider. In 99% cases you will need Generic driver (JDBC provider)
+Class Name|JDBC driver class name. You can get it from documentation or find it jar files (see "Find Class" button description).
+URL Template|Template of driver URL. You can leave it empty but in this case you will need to set JDBC URL for each your connection. It is better to define a valid template, this will greatly simplify connections create. See "URL Templates" for detailed description.
+Default Port|Default database port. You can get it from documentation or leave it empty.
+Embedded|Enable it for server-less databases. This flag affects a few config options related to network/connections management
+No Authentication|This means that driver doesn't require authentication (no user/password fields will be shown).
+Category|Driver category, deprecated
+ID|Driver unique ID, ignore it
+Description|Driver description, it is shown on some dialogs/wizards as a hint.
+
+
 ![](images/ug/drivers/driver-edit.png)
 ![](images/ug/drivers/driver-properties.png)
