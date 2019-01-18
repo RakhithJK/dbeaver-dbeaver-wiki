@@ -28,6 +28,8 @@ On driver edit dialog you need to enter all needed information:
 
 ![](images/ug/drivers/driver-edit.png)
 
+##### Main parameters
+
 Parameter|Description
 ----|-----
 Driver Name|Name of your driver. It may be any name you like.
@@ -40,5 +42,16 @@ No Authentication|This means that driver doesn't require authentication (no user
 Category|Driver category, deprecated
 ID|Driver unique ID, ignore it
 Description|Driver description, it is shown on some dialogs/wizards as a hint.
+
+##### Libraries
+
+This is the list of jar files, binary libraries (dll or so) and any other files needed by driver. In most cases you need only jar files.  
+Click "Add File" to add single jar file, "Add Folder" to add folder with Java classes/resources and "Add Artifact" to add Maven artifact (see below).  
+
+After you add jar files you can search for all JDBC driver classes which present in these jars. Just click on "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in driver. If there are many of them then you need to refer to driver's documentation.
+
+##### Maven artifacts
+
+DBeaver can download driver jars directly from Maven repository (it is a global public repository of Java libraries, usually open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change driver version in runtime without any driver properties reconfiguration.
 
 ![](images/ug/drivers/driver-properties.png)
