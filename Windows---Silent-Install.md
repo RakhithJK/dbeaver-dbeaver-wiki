@@ -9,10 +9,12 @@ Command line parameters supported by DBeaver installer:
 Parameter|Description
 ---|---
 /S | silent mode, requires /allusers or /currentuser, case-sensitive
-/D | (installer only) set install directory, must be last parameter, without quotes, case-sensitive
+/D=path | (installer only) set install directory, must be last parameter, without quotes, case-sensitive
 /allusers | (un)install for all users, case-insensitive
 /currentuser | (un)install for current user only, case-insensitive
 /uninstall | (installer only) run uninstaller, requires /allusers or /currentuser, case-insensitive
+
+In order to install with /allusers parameter current user must have administrator permissions.
 
 ### Installer return codes (decimal):
 
