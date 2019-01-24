@@ -5,7 +5,7 @@
 
  **To visualize table connections:**
 1. Open **Visual Quiery Builder**. 
-2. Drug and drop  tables from the **Database Navigator** pane into the **Visual Query Builder** field. All the connections existing between the tables will be shown automatically.
+2. Drag and drop  tables from the **Database Navigator** pane into the **Visual Query Builder** field. All the connections existing between the tables will be shown automatically.
 
 **To create a connection between the tables:**
 1. Drag and drop  tables from **Database Navigator** pane into the **Visual Query Builder** field. 
