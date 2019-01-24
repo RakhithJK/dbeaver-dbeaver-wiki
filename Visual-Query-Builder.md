@@ -8,8 +8,8 @@
 2. Drug and drop  tables from the **Database Navigator** pane into the **Visual Query Builder** field. All the connections existing between the tables will be shown automatically.
 
 **To create a connection between the tables:**
-1. Drug and drop  tables from **Database Navigator** pane into the **Visual Query Builder** field. 
-2. Press the left mouse button when the cursor is over the column of one table, holding the right mouse button pressed carry the cursor to the column of another table and release the right mouse button. The connection between the selected columns of the tables will be created visually and in the SQL script a new join will be added. 
+1. Drag and drop  tables from **Database Navigator** pane into the **Visual Query Builder** field. 
+2. Press the left mouse button when the cursor is over the column of one table, holding the right mouse button pressed drag the cursor to the column of another table and release the right mouse button. The connection between the selected columns of the tables will be created visually and in the SQL script a new join will be added. 
 
 **To remove a connection between the tables:**
 1. To remove a connection between the tables click on it. The connection will be highlighted.
