@@ -87,6 +87,7 @@
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Command-Line]]
+- [[Windows Silent Install]]
 
 #### Development
 - [Build from sources](Build-from-sources)
