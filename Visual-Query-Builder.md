@@ -69,7 +69,7 @@ Joins cannot be  added or removed by means of **Query Settings Editor**, however
 
 In **Sorting** tab you can set the order of rows in the result table.
 
-![](images/visual_query_builder/query_settings_misc.png) 
+![](images/visual_query_builder/query_settings_sorting.png) 
 
 To add a new sorting condition press  the **Add** button (images/visual_query_builder/query_builder_add_icon.png) on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
@@ -81,7 +81,9 @@ To remove a condition use the **Remove** button (images/visual_query_builder/que
 
 ### Miscellaneous
 
-In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch check-box.** |
+In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch check-box.** 
+
+![](images/visual_query_builder/query_settings_misc.png) 
 
 ## Executing Visual Query
 
