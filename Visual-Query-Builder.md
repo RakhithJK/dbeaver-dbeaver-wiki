@@ -14,7 +14,7 @@ Start creating a query from selecting query data source: drag-and-drop tables yo
 
 To create a new join between the tables press the left mouse button when the cursor is over the column of one table, holding the right mouse button pressed drag the cursor to the column of another table and release the right mouse button. The connection between the selected columns of the tables will be created visually and in the SQL script a new join will be added. 
 
-To remove a join between the tables click on it. The connection will be highlighted. Then, press Delete or use **Delete** option in the context menu. The visual connection will be removed and the corresponding join will be automatically removed from the SQL script area.
+To remove a join between the tables click on it. The connection will be highlighted. Then, press<kbd>Delete</kbd> or use **Delete** option in the context menu. The visual connection will be removed and the corresponding join will be automatically removed from the SQL script area.
 
 To build a SELECT query you need to select columns in the tables you added. To select a column click the check-box next to its name - the column will be added to the **Columns** tab of the **Query Settings Editor** and SELECT query will be added to the SQL script area automatically.
 
