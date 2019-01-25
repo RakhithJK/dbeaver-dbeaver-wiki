@@ -18,7 +18,7 @@ To build a SELECT query you need to select columns in the tables you added. To s
 
 **Visual Query Builder** also allows setting query conditions and adjust representation of query results by means of **Query Settings Editor**.
 
-To open **Query Settings Editor** use **Visual builder query settings** button in the vertical tool bar on the left.
+To open **Query Settings Editor** use **Visual builder query settings** button ![](images/visual_query_builder/query_builder_settings_icon.png) in the vertical tool bar on the left.
 
 **Query Settings** window contains five tabs described below.
 
@@ -26,11 +26,11 @@ To open **Query Settings Editor** use **Visual builder query settings** button i
 
 **Columns** tab of the **Query Settings Editor** contains all the columns you added by selecting column names in **Visual Builder** main window. In this tab you can add and remove columns using **Add** and **Remove** buttons correspondingly.
  
-To add a column, press **Add** button   and a new instance will be added to the table. Click on the first cell in **Column or Expression** column and select a column from the list of available columns displayed in the dropdown list appeared. 
+To add a column, press **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) and a new instance will be added to the table. Click on the first cell in **Column or Expression** column and select a column from the list of available columns displayed in the dropdown list appeared. 
 
-To remove a column, click on the row containing its name and press the **Remove** button       on the right.
+To remove a column, click on the row containing its name and press the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right.
 
-To change the display order of columns in the result table use **Move Up** and **Move Down** buttons.
+To change the display order of columns in the result table use **Move Up/Down** buttons ![](images/visual_query_builder/query_builder_move_icon.png).
 
 You can also define a user-friendly name of the column to be displayed in the result table. To set a user-friendly name click on a cell in **Alias** column and insert the name. The change will be immediately displayed in the SQL script area. 
 
@@ -38,7 +38,7 @@ You can also define a user-friendly name of the column to be displayed in the re
 
 **Conditions** tab is used for managing query conditional expressions.
 
-To add a new conditional expression use the **Add**  button on the right - a new instance will be added and the default conditional expression WHERE will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
+To add a new conditional expression use the **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) on the right - a new instance will be added and the default conditional expression WHERE will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
 * **Left Operand** setting defines the left operand of the conditional expression. To set the left operand, click the cell in the **Left Operand** column and a drop down list of all available  columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
 
@@ -46,7 +46,7 @@ To add a new conditional expression use the **Add**  button on the right - a new
 
 * **Right Operand** setting defines the right operand of the conditional expression. To set the right operand, click the cell in the **Right Operand** column and a drop down list of all available columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
 
-To remove a conditional expression, click on the row containing the expression and press the **Remove** button on the right. 
+To remove a conditional expression, click on the row containing the expression and press the **Remove** button (images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
 ### Joins
 
@@ -61,13 +61,13 @@ Joins cannot be  added or removed by means of **Query Settings Editor**, however
 
 In **Sorting** tab you can set the order of rows in the result table. 
 
-To add a new sorting condition press  the **Add**  button on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
+To add a new sorting condition press  the **Add** button (images/visual_query_builder/query_builder_add_icon.png) on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
 * Once a new condition is added, click the first cell in **Conditions or Expressions** column and a drop down list of all available columns will appear. Select the required column by clicking on its name. 
 
 * In **Order** column you can define whether the rows of the selected column should be sorted in ascending or descending order in the result table. To set the order, click the cell in **Order** column and select the required option from.The order by command will be added to the script. 
 
-To remove a condition use the **Remove** button       on the right. 
+To remove a condition use the **Remove** button (images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
 ### Miscellaneous
 
