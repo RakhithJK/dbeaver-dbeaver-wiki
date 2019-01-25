@@ -8,7 +8,7 @@ To open **Visual Query Builder** click the **Open Query Builder** button ![](ima
 
 Start creating a query from selecting query data source: drag-and-drop tables you want to work with from the **Database Navigator** pane into the **Visual Query Builder** area. All the connections existing between the tables will be shown automatically.
 
-![](images/visual_query_builder/query_builder_tables.png)
+![](images/visual_query_builder/query_builder_tables0.png)
 
 To create a new join between the tables press the left mouse button when the cursor is over the column of one table, holding the right mouse button pressed drag the cursor to the column of another table and release the right mouse button. The connection between the selected columns of the tables will be created visually and in the SQL script a new join will be added. 
 
@@ -26,6 +26,8 @@ To open **Query Settings Editor** use **Visual builder query settings** button !
 
 ### Columns
 
+![](images/visual_query_builder/query_settings_columns.png)
+
 **Columns** tab of the **Query Settings Editor** contains all the columns you added by selecting column names in **Visual Builder** main window. In this tab you can add and remove columns using **Add** and **Remove** buttons correspondingly.
  
 To add a column, press **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) and a new instance will be added to the table. Click on the first cell in **Column or Expression** column and select a column from the list of available columns displayed in the dropdown list appeared. 
@@ -40,6 +42,8 @@ You can also define a user-friendly name of the column to be displayed in the re
 
 **Conditions** tab is used for managing query conditional expressions.
 
+![](images/visual_query_builder/query_settings_conditions.png)
+
 To add a new conditional expression use the **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) on the right - a new instance will be added and the default conditional expression WHERE will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
 * **Left Operand** setting defines the left operand of the conditional expression. To set the left operand, click the cell in the **Left Operand** column and a drop down list of all available  columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
@@ -48,11 +52,13 @@ To add a new conditional expression use the **Add** button ![](images/visual_que
 
 * **Right Operand** setting defines the right operand of the conditional expression. To set the right operand, click the cell in the **Right Operand** column and a drop down list of all available columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
 
-To remove a conditional expression, click on the row containing the expression and press the **Remove** button (images/visual_query_builder/query_builder_remove_icon.png) on the right. 
+To remove a conditional expression, click on the row containing the expression and press the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
 ### Joins
 
 All the joins existing between the tables in **Visual Query Builder** main window are displayed in the **Joins** tab of **Query Settings Editor**.
+
+![](images/visual_query_builder/query_settings_joins.png)
 
 Joins cannot be  added or removed by means of **Query Settings Editor**, however, the following join settings can be adjusted here: 
 
@@ -61,7 +67,9 @@ Joins cannot be  added or removed by means of **Query Settings Editor**, however
 
 ### Sorting
 
-In **Sorting** tab you can set the order of rows in the result table. 
+In **Sorting** tab you can set the order of rows in the result table.
+
+![](images/visual_query_builder/query_settings_sorting.png) 
 
 To add a new sorting condition press  the **Add** button (images/visual_query_builder/query_builder_add_icon.png) on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
@@ -73,7 +81,9 @@ To remove a condition use the **Remove** button (images/visual_query_builder/que
 
 ### Miscellaneous
 
-In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch check-box.** |
+In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch check-box.** 
+
+![](images/visual_query_builder/query_settings_misc.png) 
 
 ## Executing Visual Query
 
