@@ -9,6 +9,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 1. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
 1. Check all plugins and finish the installation process:
     <img src="images/development/eclipse/dbv_repo.png" width="400"/>
+1. Do the same for `http://eclipse-color-theme.github.com/update`
 
 1. Restart Eclipse
 1. Checkout DBeaver repository somewhere with `git clone https://github.com/dbeaver/dbeaver.git` command.
