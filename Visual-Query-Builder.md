@@ -4,7 +4,7 @@
 
 To open **Visual Query Builder** click the **Open Query Builder** button ![](images/visual_query_builder/visual_query_builder_icon.png) in the [SQL Editor](https://github.com/dbeaver/dbeaver/wiki/SQL-Editor) tool bar. The **Visual Query Builder** will appear on the right.
 
-![](images/visual_query_builder/query_builder_window1.png)
+![](images/visual_query_builder/query_builder_window.png)
 
 ## Creating Visual Query
 
