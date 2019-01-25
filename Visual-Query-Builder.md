@@ -71,13 +71,13 @@ In **Sorting** tab you can set the order of rows in the result table.
 
 ![](images/visual_query_builder/query_settings_sorting.png) 
 
-To add a new sorting condition press  the **Add** button (images/visual_query_builder/query_builder_add_icon.png) on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
+To add a new sorting condition press  the **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) on the right and the default conditional expression ORDER BY will be added to the SQL script area automatically. This default conditional expression can be then adjusted to the one you need:
 
 * Once a new condition is added, click the first cell in **Conditions or Expressions** column and a drop down list of all available columns will appear. Select the required column by clicking on its name. 
 
 * In **Order** column you can define whether the rows of the selected column should be sorted in ascending or descending order in the result table. To set the order, click the cell in **Order** column and select the required option from.The order by command will be added to the script. 
 
-To remove a condition use the **Remove** button (images/visual_query_builder/query_builder_remove_icon.png) on the right. 
+To remove a condition use the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
 ### Miscellaneous
 
@@ -87,4 +87,4 @@ In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by sele
 
 ## Executing Visual Query
 
-To execute a query, use **Execute SQL statement** button to get the results in the same tab or **Execute SQL statement in new tab** button to get the results in a new tab. Both buttons are located in the **Visual Query Builder** vertical toolbar.
+To execute a query, use **Execute SQL statement** button ![](images/visual_query_builder/query_builder_run_icon.png)  to get the results in the same tab or **Execute SQL statement in new tab** button ![](images/visual_query_builder/query_builder_run1_icon.png) to get the results in a new tab. Both buttons are located in the **Visual Query Builder** vertical toolbar.
