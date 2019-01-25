@@ -34,11 +34,15 @@ To open **Query Settings Editor** use **Visual builder query settings** button !
  
 To add a column, press **Add** button ![](images/visual_query_builder/query_builder_add_icon.png) and a new instance will be added to the table. Click on the first cell in **Column or Expression** column and select a column from the list of available columns displayed in the dropdown list appeared. 
 
+![](images/visual_query_builder/query_settings_columns_dd.png)
+
 To remove a column, click on the row containing its name and press the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right.
 
 To change the display order of columns in the result table use **Move Up/Down** buttons ![](images/visual_query_builder/query_builder_move_icon.png).
 
 You can also define a user-friendly name of the column to be displayed in the result table. To set a user-friendly name click on a cell in **Alias** column and insert the name. The change will be immediately displayed in the SQL script area. 
+
+![](images/visual_query_builder/query_settings_columns_al.png)
 
 ### Conditions
 
@@ -50,9 +54,15 @@ To add a new conditional expression use the **Add** button ![](images/visual_que
 
 * **Left Operand** setting defines the left operand of the conditional expression. To set the left operand, click the cell in the **Left Operand** column and a drop down list of all available  columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
 
+![](images/visual_query_builder/query_settings_conditions_lo.png)
+
 * **Operation** setting defines the comparison rule between the left and the right operands of the conditional expression. To set a comparison rule, click the cell in the **Operation** column and select the rule you need from the drop down list appeared.
 
+![](images/visual_query_builder/query_settings_conditions_op.png)
+
 * **Right Operand** setting defines the right operand of the conditional expression. To set the right operand, click the cell in the **Right Operand** column and a drop down list of all available columns will be displayed. Select a column you want to use as the left operand in your conditional expression or insert a digit. 
+
+![](images/visual_query_builder/query_settings_conditions_ro.png)
 
 To remove a conditional expression, click on the row containing the expression and press the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
@@ -65,7 +75,12 @@ All the joins existing between the tables in **Visual Query Builder** main windo
 Joins cannot be  added or removed by means of **Query Settings Editor**, however, the following join settings can be adjusted here: 
 
 * **Type** - defines the type of the join. Click the cell in the **Type** column - a drop down with available join types will be displayed. Select the required option  from the list by clicking on it.
+
+![](images/visual_query_builder/query_settings_joins_dd.png)
+
 * **Alias** - defines a user friendly name of the join. To define this setting click on the cell in **Alias** column and input the name.
+
+![](images/visual_query_builder/query_settings_joins_al.png)
 
 ### Sorting
 
@@ -77,7 +92,11 @@ To add a new sorting condition press  the **Add** button ![](images/visual_query
 
 * Once a new condition is added, click the first cell in **Conditions or Expressions** column and a drop down list of all available columns will appear. Select the required column by clicking on its name. 
 
+![](images/visual_query_builder/query_settings_sorting_dd.png)
+
 * In **Order** column you can define whether the rows of the selected column should be sorted in ascending or descending order in the result table. To set the order, click the cell in **Order** column and select the required option from.The order by command will be added to the script. 
+
+![](images/visual_query_builder/query_settings_sorting_or.png)
 
 To remove a condition use the **Remove** button ![](images/visual_query_builder/query_builder_remove_icon.png) on the right. 
 
