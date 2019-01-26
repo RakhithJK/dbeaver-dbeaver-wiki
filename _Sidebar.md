@@ -27,6 +27,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
+  - [[Visual Query Builder]]
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
