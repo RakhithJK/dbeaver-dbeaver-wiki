@@ -106,7 +106,7 @@ To remove a condition use the **Remove** button ![](images/visual_query_builder/
 
 ### Miscellaneous
 
-In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch check-box.** 
+In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch** check-box. 
 
 ![](images/visual_query_builder/query_settings_misc.png) 
 
