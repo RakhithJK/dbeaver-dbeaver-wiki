@@ -6,9 +6,12 @@ EE version includes all features of CE version plus:
   - Apache Cassandra
   - MongoDB
   - Redis
+  - InfluxDB
   - WMI (Windows Management Instrumentation)
 - Additional EE plugins:
   - Office formats support (XLS) for data export
+  - Visual Query Builder
+  - Analytical charts rendering
   - Persistent query database. Search in query history
   - JSON format viewer/editor (in MongoDB and relational databases)
   - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
