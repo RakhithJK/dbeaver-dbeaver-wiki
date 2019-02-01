@@ -8,11 +8,11 @@ You can easily visualize your data by creating a chart bar both in **SQL Editor*
 
 To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the vertical toolbar of query results area. 
 
-IMG_SQLEditor_Screen_With_ResultsTableToolbar
+![](images/charts/chart_button_SQLeditor_toolbar.png)
 
 A chart will be created.
 
-IMG_SQLEditor_Screen_With_BarChartGenerated
+![](images/charts/chart_SQLeditor_generated.png)
 
 ## Creating Charts In Data Editor
 
@@ -24,7 +24,7 @@ There are three places where the **Chart** button is located in the **Data Edito
 * Vertical toolbar of the **Grouping Panel**
 * View menu of the **Grouping Panel**
 
-IMG_ DataEditorScreen_With_GroupingPanel_All_Three_Buttons_Highlighted
+![](images/charts/chart_button_DE_locations.png)
 
 ## Editing Chart Settings
 
