@@ -16,7 +16,7 @@ A chart will be created.
 
 ## Creating Charts In Data Editor
 
-To build a bar chart in **Data Editor**, press the **Charts** button and a chart will be created.
+To build a bar chart in **Data Editor**, press the **Charts** button ![](images/charts/charts_icon.png) and a chart will be created.
 
 There are three places where the **Chart** button is located in the **Data Editor**:
 
