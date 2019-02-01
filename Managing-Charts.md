@@ -1,12 +1,12 @@
 The default grid view of query resulting data is not very much impressive, especially to business analysts and other end users. The **Charts** feature lets you quickly and easily  turn your SELECT queries' output into a colorized bar chart.
 
-IMG_sample_bar_chart
+![](images/charts/sample_bar_chart.png)
 
 You can easily visualize your data by creating a chart bar both in **SQL Editor** and **Data Editor**. 
 
 ## Creating Charts In SQL Editor
 
-To build a bar chart in **SQL Editor**, press the **Charts** button in the vertical toolbar of query results area. 
+To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the vertical toolbar of query results area. 
 
 IMG_SQLEditor_Screen_With_ResultsTableToolbar
 
@@ -54,6 +54,7 @@ You can also set the following chart options:
 
 You can export а chart into PNG format by selecting the **Save as...** option in the chart's context menu.
 
-IMG_ChartContextMenu_SaveAsOptionHighlighted
+## Printing Charts 
 
+You can print а chart by selecting the **Print...** option in the chart's context menu.
 
