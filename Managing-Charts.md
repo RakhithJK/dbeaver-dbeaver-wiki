@@ -28,7 +28,7 @@ There are three places where the **Chart** button is located in the **Data Edito
 
 ## Editing Chart Settings
 
-To edit chart settings select the **Charts...** option in the chart's context menu. 
+To edit chart settings select the **Charts...** option in the chart's context menu and the **Chart Editor** will be opened. 
 
 ![](images/charts/charts_context_menu.png)
 
