@@ -6,7 +6,7 @@ You can easily visualize your data by creating a chart bar both in **SQL Editor*
 
 ## Creating Charts In SQL Editor
 
-To build a bar chart in **SQL Editor**, press the **Charts** button in the vertical toolbar of query results area. 
+To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the vertical toolbar of query results area. 
 
 IMG_SQLEditor_Screen_With_ResultsTableToolbar
 
