@@ -10,13 +10,13 @@ To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/c
 
 ![](images/charts/chart_button_SQLeditor_toolbar.png)
 
-A chart will be created.
+A bar chart will be created.
 
 ![](images/charts/chart_SQLeditor_generated.png)
 
 ## Creating Charts In Data Editor
 
-To build a bar chart in **Data Editor**, press the **Charts** button ![](images/charts/charts_icon.png) and a chart will be created.
+To build a bar chart in **Data Editor**, press the **Charts** button ![](images/charts/charts_icon.png) and a bar chart will be created.
 
 There are three places where the **Chart** button is located in the **Data Editor**:
 
