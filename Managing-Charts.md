@@ -30,7 +30,7 @@ There are three places where the **Chart** button is located in the **Data Edito
 
 To edit chart settings select the **Charts...** option in the chart's context menu. 
 
-IMG_ChartContextMenu_ChartsOptionHighlighted + IMG_ChartEditor
+![](images/charts/charts_context_menu.png)
 
 The following chart settings can be adjusted:
 
