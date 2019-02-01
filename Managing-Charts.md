@@ -22,7 +22,7 @@ There are three places where the **Chart** button is located in the **Data Edito
 
 * Verical toolbar of the **Data Editor**
 * Vertical toolbar of the **Grouping Panel**
-* View menu of the **Grouping Panel**
+* **View** menu of the **Grouping Panel**
 
 ![](images/charts/chart_button_DE_locations.png)
 
