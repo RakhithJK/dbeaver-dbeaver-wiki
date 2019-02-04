@@ -34,9 +34,9 @@ Note, that by default, the data for axis Y is taken from the first column of the
 
 ## Creating Charts In Grouping Panel 
 
-Such analytical tool as the [Grouping Panel](https://github.com/dbeaver/dbeaver/wiki/Panels#grouping-panel) also supports the **Charts** feature. In a chart built for a table containing the grouping results for one or more columns of a data table, you can easily change axes X and axes Y source data by switching the columns in the *Charts Editor*.
+Such analytical tool as the [Grouping Panel](https://github.com/dbeaver/dbeaver/wiki/Panels#grouping-panel) also supports the **Charts** feature. In a chart built for a table containing the grouping results for one or more columns of a data table, you can easily change axes X and axes Y source data by switching the columns in the **Charts Editor**.
 
-To build a chart here, use the **Charts** button ![](images/charts/charts_icon.png) from the left vertical toolbar or from the **View** menu.
+To build a chart in **Grouping Panel**, use the **Charts** button ![](images/charts/charts_icon.png) from the left vertical toolbar or from the **View** menu.
 
 ![](images/charts/chart_button_GP.png)
 
