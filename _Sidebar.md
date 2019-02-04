@@ -16,6 +16,7 @@
     - [[Data Refresh]]
     - [[Data Viewing and Editing]]
     - [[Panels]]
+    - [[Managing Charts]]
     - [[Data Search]]
     - [[SQL Generation]]
     - [[Work with XML]]
