@@ -46,9 +46,9 @@ The following chart settings can be adjusted:
 
 You can also set the following chart options: 
 
-* Sample count
-* Row count
-* Sample function
+* Sample count - maximum number of columns used for building a chart;
+* Row count - maximum number of rows used for building a chart;
+* Sample function - an aggregate function where the values of multiple rows are grouped together to form a single summary value displayed on axis Y.
 
 ## Exporting Charts 
 
