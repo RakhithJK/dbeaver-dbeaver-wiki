@@ -6,6 +6,8 @@ You can easily visualize your data by creating a chart bar both in **SQL Editor*
 
 ## Creating Charts In SQL Editor
 
+Visual representation of vast data permits the analytical reasoning process to become faster and more focused. Charts make it easy for analysts to perceive salient aspects of their data quickly.
+
 To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the vertical toolbar of query results area. 
 
 ![](images/charts/chart_button_SQLeditor_toolbar.png)
