@@ -8,7 +8,7 @@ You can easily visualize your data by creating a chart bar both in **SQL Editor*
 
 Visual representation of vast data permits the analytical reasoning process to become faster and more focused. Charts make it easy for analysts to perceive salient aspects of their data quickly.
 
-To build a bar chart in **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the vertical toolbar of query results area. 
+To build a bar chart in the **SQL Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the left vertical toolbar of the query results area. 
 
 ![](images/charts/chart_button_SQLeditor_toolbar.png)
 
@@ -18,15 +18,27 @@ A bar chart will be created.
 
 ## Creating Charts In Data Editor
 
-To build a bar chart in **Data Editor**, press the **Charts** button ![](images/charts/charts_icon.png) and a bar chart will be created.
+Charts can be very helpful for visualizing structured analytical data stored as **Views**, for example. 
 
-There are three places where the **Chart** button is located in the **Data Editor**:
+You can also create a chart for any table but you have to structure its data by sorting and applying various filters to its columns first. All the structural changes you make will then affect the chart you build, this way you can adjust the chart representation to the desired one. 
 
-* Verical toolbar of the **Data Editor**
-* Vertical toolbar of the **Grouping Panel**
-* **View** menu of the **Grouping Panel**
+To build a chart in the **Data Editor**, press the **Charts** button ![](images/charts/charts_icon.png) in the left vertical toolbar.
 
-![](images/charts/chart_button_DE_locations.png)
+![](images/charts/chart_button_DE_toolbar.png)
+
+А bar chart will be created.
+
+![](images/charts/chart_DE_generated.png)
+
+Note, that by default, the data for axis Y is taken from the first column of the table containing numeric values. 
+
+## Creating Charts In Grouping Panel 
+
+Such analytical tool as the [Grouping Panel](https://github.com/dbeaver/dbeaver/wiki/Panels#grouping-panel) also supports the **Charts** feature. In a chart built for a table containing the grouping results for one or more columns of a data table, you can easily change axes X and axes Y source data by switching the columns in the *Charts Editor*.
+
+To build a chart here, use the **Charts** button ![](images/charts/charts_icon.png) from the left vertical toolbar or from the **View** menu.
+
+![](images/charts/chart_button_GP.png)
 
 ## Editing Chart Settings
 
