@@ -64,6 +64,16 @@ You can also set the following chart options:
 * Row count - maximum number of rows used for building a chart;
 * Sample function - an aggregate function where the values of multiple rows are grouped together to form a single summary value displayed on axis Y.
 
+The following sample functions are suppoerted:
+
+Name|Description
+----|-----------
+**AVG** | Average value
+**SUM** | The sum of all values
+**FIRST** | The first value
+**LAST** | The last value
+**COUNT** | Total count of all values
+
 ## Exporting Charts 
 
 You can export а chart into PNG format by selecting the **Save as...** option in the chart's context menu.
