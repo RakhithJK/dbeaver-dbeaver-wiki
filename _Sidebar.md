@@ -55,9 +55,9 @@
 - Transactions
   - [[Auto and Manual Commit Modes]]
   - [[Transaction Log]]
-  - [[Pending Transactions]]
+  - [[Pending transactions]]
 - [[Database drivers]]
-- [[Mock Data Generation in DBeaver]]
+- [[Mock Data generation|Mock Data generation in DBeaver]]
 - [[Data export/import|Data transfer]]
 - [[Data migration|Data migration]]
 - [[Database compare]]
