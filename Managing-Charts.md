@@ -1,5 +1,7 @@
 The default grid view of query resulting data is not very much impressive, especially to business analysts and other end users. The **Charts** feature lets you quickly and easily  turn your SELECT queries' output into a colorized bar chart.
 
+*Note: Visual Query Builder presents only in DBeaver [[Enterprise Edition]]*
+
 ![](images/charts/sample_bar_chart.png)
 
 You can easily visualize your data by creating a chart bar both in **SQL Editor** and **Data Editor**. 
