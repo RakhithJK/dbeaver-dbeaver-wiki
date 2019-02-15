@@ -1,0 +1,114 @@
+DBeaver supports data migration from tables of one database to tables of another one. 
+
+To perform data transfer, please, follow the steps below.
+ 
+## Step 1: Define the data source
+
+In the **Database Navigator** select one or more tables you want to export. In the context menu choose "Export Data".
+(Note: you also can export data from custom SQL queries results. For that in the results context menu choose "Export results").
+
+IMG
+
+## Step 2: Define data transfer target type 
+
+In the opened dialog box choose **Database** type as the data target transfer and press **Next**. 
+
+IMG
+
+## Step 3: Define extraction settings  
+
+IMG
+
+The following data extraction options are available:
+
+Option|Description
+----|-----
+**Maximum threads**|Defines a number of threads 
+**Extract type**|Select **Single query** if….  Select  **By segments** if 
+**Open new connections**|Select this checkbox if...
+**Select row count**|Select this check box if...
+
+Set data extraction options and press **Next**.
+
+## Step 4: Define data mapping
+
+IMG
+
+For proper table mapping the following options are available:
+
+* **Target container** defines a target, that is a database where the data will be transferred to. Press   button to browse for a one.
+* **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing    .
+* **Target** - contains names of the tables where the data will be transferred to.  
+
+* **Mapping** - contains the list of actions to be applied to the source data on data transfer. The following options are available: 
+
+   **_Create_**- if this type of mapping is selected, then source data will be populated into a newly created table or column of the target container.  
+   **_Skip_** - if this type of mapping is selected, then source data will not be transferred to the target container.  
+   **_Existing_** - if this type of mapping is selected, then the source data will be transferred to the table that already exists in the target container.  
+   **_Unassigned_** - this value is set by default when there is no target defined.  
+
+If cells are marked as      it means that there are no tables whose names match the names of source tables in the target database, otherwise the names will be filled in automatically. 
+
+You can define a target table  by clicking on a cell with its name and entering a new one or choosing from the list of tables existing  in the target scheme. 
+
+IMG
+
+You can also select a target table from the list of tables already existing in the target container by pressing the **Browse** button  IMG .
+
+IMG
+
+You can also define a target column in the target table. To define a target column, release the list of source table columns by pressing IMG in the **Source** column, then click the name of target column and enter a new one or select from the list of available columns.  
+
+If you want tables with the same names to be created in the target container, press the **Auto assign** button IMG and **Target** column will be automatically populated with the names matching the names of columns in the source tables.
+
+IMG
+
+You can also define the names of columns in the target tables by clicking a row with the table name and  pressing the **Columns** button. A new dialog box will appear.
+
+IMG
+
+The following elements are available here:
+
+* **Source column** -this column contains names of  columns existing in the selected source table;
+* **Source type** - this column contains the list of data types assigned to the columns in the selected source table;
+* **Target column** - this column contains names of target table columns where the data from source column will be transferred to. To change the name, click the cell and enter a new name.
+* **Target type** - this column contains the list of data types that will be assigned to the columns in the target table.   
+
+   **IMPORTANT**: Sometimes data types that are supported on the source database are not supported on the target or vice versa.   
+   To set a data type for a target column, click the cell and select one from the list of data types available in the target container. 
+
+* **Mapping** - this column contains the list of actions to be applied to the data on data transfer. 
+
+To change mapping type click a cell in **Mapping** column of **Table mapping dialog box** and select the required mapping type. 
+
+IMG
+
+You can also use the following keyboard shortcuts for easy navigation within the mapping table area when a name of any source table is highlighted:
+
+Shortcut|Action
+----|-----
+<b>Up</b>|Moves one row up.
+<b>Down</b>|Moves one row down.
+<b>Right</b>|Releases the list of source table columns. 
+<b>Left</b>|Swaps the list of source table columns.
+<b>Space</b>|Auto-assigns the target.  
+<b>Del</b>|Sets mapping type to skip.
+
+Configure data mapping and press **Next**.
+
+## Step 5: Define data loading preferences
+
+IMG 
+
+The following data loading settings are available:
+
+Option|Description
+----|-----
+**Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table.
+**Open new connections**|Use this option to speed up data transfer. 
+**Use transactions**|This option allows ... 
+**Commit after insert of**|This option defines the number of rows ...
+**Open table editor on finish**|Select this check-box if you want the table editor to be opened when data tanfer is over.
+**Show finish message**|Select this check-box if you want to be notified with a dialog box when data transfer is over.
+
+Set data loading preferences and press **Finish**.
