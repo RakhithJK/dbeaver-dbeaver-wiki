@@ -52,11 +52,11 @@ IMG
 
 If cells are marked as <img src="images/dt/dbt_step3_Target_red.png"> it means that in the target table there are no source tables with matching names, otherwise the names will be filled in automatically. 
 
-You can define a target table  by clicking on a cell in the **Target** column with its name and entering a new one, or press the **New** button <img src="images/dt/dbt_step3_New_button.png"> and enter a new name in the opened dialog box. 
+You can define a target table by clicking on a cell in the **Target** column and entering its name, or press the **New** button <img src="images/dt/dbt_step3_New_button.png"> and enter a new name in the opened dialog box. 
 
 IMG
 
-You can also choose from the dropdown list of tables existing in the target scheme.
+You can also choose a name for a target table from the dropdown list.
 
 <img src="images/dt/dbt_step3_Target_list.png">
 
@@ -64,11 +64,11 @@ You can also select a target table from the list of tables already existing in t
 
 IMG
 
-You can also define a target column in the target table. To define a target column, release the list of source table columns by pressing <img src="images/dt/dbt_step3_release_icon.png"> in the **Source** column, then click the name of the target column  and enter a new one or select from the list of available columns.  To collaps the list, press <img src="images/dt/dbt_step3_collaps_icon.png">.
+You can also define mapping settings for each column of the target table. To define mapping setting for a column in a target table, release the list of source table columns by pressing <img src="images/dt/dbt_step3_release_icon.png"> next to the table's name in the **Source** column, then click the name of the target column and enter a new one or select one from the dropdown list.  To collaps the list, press <img src="images/dt/dbt_step3_collaps_icon.png">.
 
-If you want tables with the same names to be created in the target container, press the **Auto assign** button <img src="images/dt/dbt_step3_AutoAssign_button.png"> and **Target** column will be automatically populated with the names matching the source names.
+If you want tables of the target container to have the same names as source tables, press the **Auto assign** button <img src="images/dt/dbt_step3_AutoAssign_button.png"> and **Target** column will be automatically populated.
 
-You can also define the names of target columns and their data types by clicking a row with the table name and pressing the **Columns** button <img src="images/dt/dbt_step3_Columns_btn.png">. A new dialog box will appear.
+You can also define the names of target columns, as well as their data types, by clicking a row with a table name and pressing the **Columns** button <img src="images/dt/dbt_step3_Columns_btn.png">. A new dialog box will appear.
 
 <img src="images/dt/dbt_step3_Columns_editor.png">
 
@@ -80,7 +80,7 @@ The following elements are available here:
 * **Target type** - this column contains the list of data types that will be assigned to the columns in the target table.   
 
    **IMPORTANT**: Sometimes data types that are supported on the source database are not supported on the target or vice versa.   
-   To set a data type for a target column, click the cell and select one from the list of data types available in the target container. 
+   To set a data type for a column in a target table, click the cell in the **Target Type** column and select one from the dropdown list of data types supported on the target database. 
 
 * **Mapping** - this column contains the list of actions to be applied to the data on data transfer. 
 
@@ -88,7 +88,7 @@ To change mapping type click a cell in **Mapping** column of **Table mapping dia
 
 <img src="images/dt/dbt_step3_Mapping_options.png">
 
-You can also use the following keyboard shortcuts for easy navigation within the mapping table area when a name of any source table is highlighted:
+You can also use the following keyboard shortcuts for easy navigation within the mapping table area of **Table mapping** screen when a name of any source table is highlighted:
 
 Shortcut|Action
 ----|-----
