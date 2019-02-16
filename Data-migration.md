@@ -32,40 +32,45 @@ Set data extraction options and press **Next**.
 
 ## Step 4: Define data mapping
 
-IMG
+<img src="images/dt/dbt_step3.png" width="400"/>
 
 For proper table mapping the following options are available:
 
-* **Target container** defines a target, that is a database where the data will be transferred to. Press   button to browse for a one.
-* **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing    .
+* **Target container** defines a target, that is a database where the data will be transferred to. Press <img src="images/dt/dbt_step3_Browse_btn.png"/> button to browse for a one.
+* **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing <img src="images/dt/dbt_step3_release_icon.png"/>.
+
+IMG
+
 * **Target** - contains names of the tables where the data will be transferred to.  
 
 * **Mapping** - contains the list of actions to be applied to the source data on data transfer. The following options are available: 
 
-   **_Create_**- if this type of mapping is selected, then source data will be populated into a newly created table or column of the target container.  
-   **_Skip_** - if this type of mapping is selected, then source data will not be transferred to the target container.  
-   **_Existing_** - if this type of mapping is selected, then the source data will be transferred to the table that already exists in the target container.  
+   **_Create_**- the source data will be populated into a newly created table or column of the target container.  
+   **_Skip_** - the source data will not be transferred to the target container.  
+   **_Existing_** - the source data will be transferred to the table that already exists in the target container.  
    **_Unassigned_** - this value is set by default when there is no target defined.  
 
-If cells are marked as      it means that there are no tables whose names match the names of source tables in the target database, otherwise the names will be filled in automatically. 
+If cells are marked as <img src="images/dt/dbt_step3_Target_red.png"> it means that in the target table there are no source tables with matching names, otherwise the names will be filled in automatically. 
 
-You can define a target table  by clicking on a cell with its name and entering a new one or choosing from the list of tables existing  in the target scheme. 
-
-IMG
-
-You can also select a target table from the list of tables already existing in the target container by pressing the **Browse** button  IMG .
+You can define a target table  by clicking on a cell in the **Target** column with its name and entering a new one, or press the **New** button <img src="images/dt/dbt_step3_New_button.png"> and enter a new name in the opened dialog box. 
 
 IMG
 
-You can also define a target column in the target table. To define a target column, release the list of source table columns by pressing IMG in the **Source** column, then click the name of target column and enter a new one or select from the list of available columns.  
+You can also choose from the dropdown list of tables existing in the target scheme.
 
-If you want tables with the same names to be created in the target container, press the **Auto assign** button IMG and **Target** column will be automatically populated with the names matching the names of columns in the source tables.
+<img src="images/dt/dbt_step3_Target_list.png">
 
-IMG
-
-You can also define the names of columns in the target tables by clicking a row with the table name and  pressing the **Columns** button. A new dialog box will appear.
+You can also select a target table from the list of tables already existing in the target container by pressing the **Browse** button <img src="images/dt/dbt_step3_Browse_button2.png">.
 
 IMG
+
+You can also define a target column in the target table. To define a target column, release the list of source table columns by pressing <img src="images/dt/dbt_step3_release_icon.png"> in the **Source** column, then click the name of the target column  and enter a new one or select from the list of available columns.  To collaps the list, press <img src="images/dt/dbt_step3_collaps_icon.png">.
+
+If you want tables with the same names to be created in the target container, press the **Auto assign** button <img src="images/dt/dbt_step3_AutoAssign_button.png"> and **Target** column will be automatically populated with the names matching the source names.
+
+You can also define the names of target columns and their data types by clicking a row with the table name and pressing the **Columns** button <img src="images/dt/dbt_step3_Columns_btn.png">. A new dialog box will appear.
+
+<img src="images/dt/dbt_step3_Columns_editor.png">
 
 The following elements are available here:
 
@@ -81,7 +86,7 @@ The following elements are available here:
 
 To change mapping type click a cell in **Mapping** column of **Table mapping dialog box** and select the required mapping type. 
 
-IMG
+<img src="images/dt/dbt_step3_Mapping_options.png">
 
 You can also use the following keyboard shortcuts for easy navigation within the mapping table area when a name of any source table is highlighted:
 
@@ -98,7 +103,7 @@ Configure data mapping and press **Next**.
 
 ## Step 5: Define data loading preferences
 
-IMG 
+<img src="images/dt/dbt_step4.png">
 
 The following data loading settings are available:
 
