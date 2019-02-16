@@ -5,19 +5,19 @@ To perform data transfer, please, follow the steps below.
 ## Step 1: Define the data source
 
 In the **Database Navigator** select one or more tables you want to export. In the context menu choose "Export Data".
-(Note: you also can export data from custom SQL queries results. For that in the results context menu choose "Export results").
+(Note: you also can export data from the custom SQL queries results. For that in the results context menu choose "Export results").
 
-IMG
+<img src="images/dt/dt-export_menu.png" width="400"/>
 
 ## Step 2: Define data transfer target type 
 
 In the opened dialog box choose **Database** type as the data target transfer and press **Next**. 
 
-IMG
+<img src="images/dt/dbt_step1.png" width="400"/>
 
 ## Step 3: Define extraction settings  
 
-IMG
+<img src="images/dt/dbt_step2.png" width="400"/>
 
 The following data extraction options are available:
 
