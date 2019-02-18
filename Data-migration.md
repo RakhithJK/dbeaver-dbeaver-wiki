@@ -34,13 +34,12 @@ Set data extraction options and press **Next**.
 
 <img src="images/dt/dbt_step3.png" width="400"/>
 
-Define the target container by pressing the Browse button <img src="images/dt/dbt_step3_Browse_btn1"/> and selecting a target database or schema.
-
-<img src="images/dt/dbt_step3_Browse_4_target_container" width="400"/> 
-
 For proper table mapping the following options are available:
 
-* **Target container** defines a target, that is a database where the data will be transferred to. Press <img src="images/dt/dbt_step3_Browse_btn.png"/> button to browse for a one.
+* **Target container** defines a target, that is a database where the data will be transferred to. Press <img src="images/dt/dbt_step3_Browse_btn.png1"/> button to browse for a one.
+
+<img src="images/dt/dbt_step3_Browse_4_target_container.png" width="400"/> 
+
 * **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing <img src="images/dt/dbt_step3_release_icon.png"/>.
 
 <img src="images/dt/dbt_step3_Table_released_button.png"/>
@@ -96,7 +95,7 @@ You can also view the SQL script that will be run on data transfer by pressing t
 
 <img src="images/dt/dbt_step3_DDL_pressed.png"/>
 
-You can also use the following keyboard shortcuts for easy navigation within the mapping table area of **Table mapping** screen when a name of any source table is highlighted:
+The following keyboard shortcuts for easy navigation within the mapping table area of **Table mapping** screen are supported:
 
 Shortcut|Action
 ----|-----
