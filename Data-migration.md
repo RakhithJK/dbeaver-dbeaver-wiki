@@ -23,10 +23,10 @@ The following data extraction options are available:
 
 Option|Description
 ----|-----
-**Maximum threads**|Defines a number of threads 
-**Extract type**|Select **Single query** if….  Select  **By segments** if 
-**Open new connections**|Select this checkbox if...
-**Select row count**|Select this check box if...
+**Maximum threads**|Defines a number of threads to be used for data transfer. 
+**Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this options is selected you can set the *Segment size* value, that is to define a number of rows to be transferred in each segment.
+**Open new connections**|Select this checkbox and a new connection will be opened and data transfer will not interfere with other calls to the database whose data is being transferred.
+**Select row count**|Select this check box if you want to see a progress bar displaying data migration process.
 
 Set data extraction options and press **Next**.
 
@@ -110,10 +110,13 @@ The following data loading settings are available:
 Option|Description
 ----|-----
 **Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table.
-**Open new connections**|Use this option to speed up data transfer. 
-**Use transactions**|This option allows ... 
-**Commit after insert of**|This option defines the number of rows ...
+**Open new connections**|Use this option to speed up data transfer. Select this checkbox and a new connection will be opened and data transfer will not interfere with other calls to the database where data is being transferred to.
+**Use transactions**|This option allows to speed up data transfer and define the number of rows for each transaction by setting **Commit after insert of** parameter. 
 **Open table editor on finish**|Select this check-box if you want the table editor to be opened when data tanfer is over.
 **Show finish message**|Select this check-box if you want to be notified with a dialog box when data transfer is over.
 
-Set data loading preferences and press **Finish**.
+## Step 6: Confirm
+
+IMG
+ 
+Check out data transfer settings and press **Finish**.
