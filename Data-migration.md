@@ -38,7 +38,7 @@ For proper table mapping the following options are available:
 
 * **Target container** defines a target, that is a database where the data will be transferred to. Press <img src="images/dt/dbt_step3_Browse_btn1.png"/> button to browse for a one.
 
-<img src="images/dt/dbt_step3_Browse_4_target_container.png"/> 
+<img src="images/dt/dbt_step3_Browse_4_target_container.png width="600""/> 
 
 * **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing <img src="images/dt/dbt_step3_release_icon.png"/>.
 
