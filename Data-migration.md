@@ -31,19 +31,19 @@ The following data extraction options are available:
 Option|Description
 ----|-----
 **Maximum threads**|Defines a number of threads to be used for data transfer. 
-**Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this options is selected you can set the *Segment size* value, that is to define a number of rows to be transferred in each segment.
-**Open new connections**|Select this checkbox and a new connection will be opened and data transfer will not interfere with other calls to the database whose data is being transferred.
-**Select row count**|Select this check box if you want to see a progress bar displaying data migration process.
+**Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this options is selected you can set the **Segment size** value, that is to define a number of rows to be transferred in each segment.
+**Open new connections**|If selected, a new connection will be opened and data transfer will not interfere with other calls to the database whose data is being transferred.
+**Select row count**|If selected, a progress bar displaying data migration process will be shown.
 
 Set data extraction options and press **Next**.
 
 ## Step 4: Define data mapping
 
+For proper table mapping the following options are available:
+
 
 <img src="images/dt/dbt_step3.png" width="400"/>
 
-
-For proper table mapping the following options are available:
 
 * **Target container** - defines a database or a scheme where the data will be transferred to. Press <img src="images/dt/dbt_step3_Browse_btn1.png"/> button and choose the container.
 
@@ -80,17 +80,17 @@ You can also choose a name for a target table from the drop-down list.
 <img src="images/dt/dbt_step3_Target_list.png"/>
 
 
-You can also select a target table from the list of tables already existing in the target container by pressing the **Browse** button <img src="images/dt/dbt_step3_Browse_btn2.png">.
+Or select from the list of tables already existing in the target container by pressing the **Browse** button <img src="images/dt/dbt_step3_Browse_btn2.png">.
 
 
 <img src="images/dt/dbt_step3_Choose_target_table.png"/> 
 
 
-To define mapping setting for a column in a target table, release the list of source table columns by pressing <img src="images/dt/dbt_step3_release_icon.png"/> next to the table's name in the **Source** column, then click the name of the target column and enter a new one or select one from the dropdown list.  To collaps the list, press <img src="images/dt/dbt_step3_collaps_icon.png"/>.
+To define mapping setting for a column in a target table, release the list of source table columns by pressing <img src="images/dt/dbt_step3_release_icon.png"/> next to the table's name in the **Source** column, then click the name of the target column and enter a new one or select one from the dropdown list. To collaps the list, press <img src="images/dt/dbt_step3_collaps_icon.png"/>.
 
-If you want tables of the target container to have the same names as source tables, press the **Auto assign** button <img src="images/dt/dbt_step3_AutoAssign_button.png"/> and **Target** column will be automatically populated.
+If you want tables of the target container to be named like those of source, press the **Auto assign** button <img src="images/dt/dbt_step3_AutoAssign_button.png"/> and the **Target** column will be automatically populated.
 
-You can also define the names of target columns, as well as their data types, by clicking a row with a table name and pressing the **Columns** button <img src="images/dt/dbt_step3_Columns_btn.png"/>. A new dialog box will appear.
+You can also define the names of target columns, as well as their data types, by clicking a row with a table name and pressing the **Columns** button <img src="images/dt/dbt_step3_Columns_btn.png"/>. 
 
 
 <img src="images/dt/dbt_step3_Columns_editor.png"/>
@@ -104,7 +104,7 @@ The following elements are available here:
 * **Target type** - this column contains the list of data types that will be assigned to the columns in the target table.   
 
    **IMPORTANT**: Sometimes data types that are supported on the source database are not supported on the target or vice versa.   
-   To set a data type for a column in a target table, click the cell in the **Target Type** column and select one from the dropdown list of data types supported on the target database. 
+   To set a data type for a column in a target table, click the cell in the **Target Type** column and select one from the dropdown list of data types supported on the target. 
 
 * **Mapping** - this column contains the list of actions to be applied to the data on data transfer. 
 
@@ -131,20 +131,24 @@ Configure data mapping and press **Next**.
 
 ## Step 5: Define data loading preferences
 
+The following data loading settings are available:
+
+
 <img src="images/dt/dbt_step4.png"/>
 
-The following data loading settings are available:
 
 Option|Description
 ----|-----
-**Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table.
-**Open new connections**|Use this option to speed up data transfer. Select this checkbox and a new connection will be opened and data transfer will not interfere with other calls to the database where data is being transferred to.
-**Use transactions**|This option allows to speed up data transfer and define the number of rows for each transaction by setting **Commit after insert of** parameter. 
-**Open table editor on finish**|Select this check-box if you want the table editor to be opened when data tanfer is over.
-**Show finish message**|Select this check-box if you want to be notified with a dialog box when data transfer is over.
+**Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
+**Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and data transfer will not interfere with other calls to the database where data is being transferred to.
+**Use transactions**|This option allows to speed up data transfer and to define the number of rows for each transaction by setting **Commit after insert of** parameter. 
+**Open table editor on finish**|If selected, the table editor to be opened when data tanfer is over.
+**Show finish message**|If selected, a notification message will be shown when transfer is over.
 
 ## Step 6: Confirm
 
+
 <img src="images/dt/dbt_step5_Confirm.png"/>
+
  
 Check out data transfer settings and press **Finish**.
