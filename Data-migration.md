@@ -23,7 +23,9 @@ In the opened dialog box choose **Database** type as the data target transfer an
 
 The following data extraction options are available:
 
-<img src="images/dt/dbt_step2.png" width="600"/>
+
+<img src="images/dt/dbt_step2.png" width="400"/>
+
 
 
 Option|Description
