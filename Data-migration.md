@@ -94,7 +94,7 @@ To change mapping type click a cell in **Mapping** column of **Table mapping dia
 
 You can also view the SQL script that will be run on data transfer by pressing the DDL button  <img src="images/dt/dbt_step3_DDL_button.png"/>.
 
-<img src="images/dt/dbt_step3_Mapping_options.png"/>
+<img src="images/dt/dbt_step3_DDL_pressed.png"/>
 
 You can also use the following keyboard shortcuts for easy navigation within the mapping table area of **Table mapping** screen when a name of any source table is highlighted:
 
@@ -125,6 +125,6 @@ Option|Description
 
 ## Step 6: Confirm
 
-<img src="images/dt/dbt_step5_Confirm"/>
+<img src="images/dt/dbt_step5_Confirm.png"/>
  
 Check out data transfer settings and press **Finish**.
