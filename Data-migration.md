@@ -21,11 +21,10 @@ In the opened dialog box choose **Database** type as the data target transfer an
 
 ## Step 3: Define extraction settings  
 
-
-<img src="images/dt/dbt_step2.png" width="400"/>
-
-
 The following data extraction options are available:
+
+<img src="images/dt/dbt_step2.png" width="600"/>
+
 
 Option|Description
 ----|-----
