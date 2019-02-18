@@ -13,7 +13,7 @@ In the **Database Navigator** select one or more tables you want to export. In t
 
 ## Step 2: Define data transfer target type 
 
-In the opened dialog box choose **Database** type as the data target transfer and press **Next**. 
+In the opened dialog box choose **Database** type as the data transfer target and press **Next**. 
 
 
 <img src="images/dt/dbt_step1.png" width="400"/>
