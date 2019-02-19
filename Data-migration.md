@@ -142,7 +142,7 @@ Option|Description
 **Open table editor on finish**|If selected, the table editor to be opened when data tanfer is over.
 **Show finish message**|If selected, a notification message will be shown when transfer is over.
 
-## Step 6: Confirm
+## Step 5: Confirm
 
 
 <img src="images/dt/dbt_step5_Confirm.png"/>
