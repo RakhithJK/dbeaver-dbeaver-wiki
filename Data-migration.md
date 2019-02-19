@@ -19,25 +19,7 @@ In the opened dialog box choose **Database** type as the data transfer target an
 <img src="images/dt/dbt_step1.png" width="400"/>
 
 
-## Step 3: Define extraction settings  
-
-The following data extraction options are available:
-
-
-<img src="images/dt/dbt_step2.png" width="400"/>
-
-
-
-Option|Description
-----|-----
-**Maximum threads**|Defines a number of threads to be used for data transfer. 
-**Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this options is selected you can set the **Segment size** value, that is to define a number of rows to be transferred in each segment.
-**Open new connections**|If selected, a new connection will be opened and data transfer will not interfere with other calls to the database whose data is being transferred.
-**Select row count**|If selected, a progress bar displaying data migration process will be shown.
-
-Set data extraction options and press **Next**.
-
-## Step 4: Define data mapping
+## Step 3: Define data mapping
 
 For proper table mapping the following options are available:
 
@@ -129,13 +111,28 @@ Shortcut|Action
 
 Configure data mapping and press **Next**.
 
-## Step 5: Define data loading preferences
+## Step 4: Define export settings
 
-The following data loading settings are available:
-
+Data export settings are grouped into **Extraction settings** and **Data load settings**.
+ 
 
 <img src="images/dt/dbt_step4.png"/>
 
+
+### Extraction Settings
+
+Extraction settings define how the data will be pulled from the source. The following options are available:
+
+Option|Description
+----|-----
+**Maximum threads**|Defines a number of threads to be used for data transfer. 
+**Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this options is selected you can set the **Segment size** value, that is to define a number of rows to be transferred in each segment.
+**Open new connections**|If selected, a new connection will be opened and data transfer will not interfere with other calls to the database whose data is being transferred.
+**Select row count**|If selected, a progress bar displaying data migration process will be shown.
+
+### Data load settings
+
+Data load settings define how the extracted data will be pushed to the target. The following options are available.
 
 Option|Description
 ----|-----
