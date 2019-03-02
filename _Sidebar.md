@@ -82,6 +82,7 @@
 
 #### Troubleshooting
 - [[Reset UI settings]]
+- [[Reset workspace]]
 - [[Posting issues]]
 - [[Log files]]
 - [Thread dump](Making-a-thread-dump)
