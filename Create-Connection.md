@@ -42,7 +42,7 @@ Then, in the **Create new connection** wizard:
 3. If necessary, specify advanced settings, see **Advanced Settings** section below, and click **Next**.
 4. In the final screen, you can set the connection name, type and initial settings (such as bootstrap queries, transaction state, global filters, etc.).
 
-   ![](images/ug/Wizard-finish-connection-creation.png) 
+   ![](images/ug/Wizard-connection-details.png) 
 
 5. To test if the connection works, click **Test Connection**.
 6. Click **Finish**. The connection appears in the tree of connections in the Database Navigator and DBeaver actually connects to the database.
