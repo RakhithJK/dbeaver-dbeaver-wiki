@@ -28,7 +28,7 @@ Button|Name|Description Chart_button
 ------|----|-----------
 ![](images/ug/Grid-button.png)|**Grid**|Switches to grid view of data
 ![](images/ug/Text-button.png)|**Text**|Switches to plain text view of data
-![](images/ug/Chart_button.png)|**Chart**|Switches to chart view. For more details on Charts, see [Managing Charts](https://github.com/dbeaver/dbeaver/wiki/Managing-Charts)
+![](images/ug/Chart_button.png)|**Chart**|Switches to chart view. For more details on charts, see [Managing Charts](https://github.com/dbeaver/dbeaver/wiki/Managing-Charts) article.
 ![](images/ug/Record-button.png)|**Record**|- Same as pressing <kbd>Tab</kbd><br/>- Switches the positions of rows and columns so that columns appear as rows, and rows hide in one **Value** column, see details in the _Table vs. Record Views_ section of [Data Appearance](https://github.com/dbeaver/dbeaver/wiki/Data-Appearance) article.
 
 The bottom toolbar provides the following buttons:
