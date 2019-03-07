@@ -28,7 +28,7 @@ Then, in the **Create new connection** wizard:
 
 If you prefer the classic list view of the available drivers, use the **Classic** button.
 
-![](images/ug/Wizard-select-connection_view.png) 
+![](images/ug/Wizard-select-connection-view.png) 
 
 2. In the Connection Settings screen, on the General tab, set all primary connection settings:
 
