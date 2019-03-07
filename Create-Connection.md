@@ -30,7 +30,7 @@ If you prefer the classic list view of the available drivers, use the **Classic*
 
 ![](images/ug/Wizard-select-connection_view.png) 
 
-2. In the Connection Settings screen, on the General tab, set all primary connection settings and then click **Next**:
+2. In the Connection Settings screen, on the General tab, set all primary connection settings:
 
    ![](images/ug/Wizard-MySQL-settings.png)  
 
