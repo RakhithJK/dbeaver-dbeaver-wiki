@@ -40,27 +40,26 @@ Then, in the **Create new connection** wizard:
    For example, embedded drivers (such as SQLite, Derby Embedded, HSQLDB, H2 Embedded), unlike remote ones, require only the path to the database. 
 
 3. If necessary, specify advanced settings, see **Advanced Settings** section below, and click **Next**.
-4. In the final screen, you can set the connection name, type and initial settings (such as bootstrap queries, transaction state, global filters, etc.).
-
-   ![](images/ug/Wizard-connection-details.png) 
-
-5. To test if the connection works, click **Test Connection**.
-6. Click **Finish**. The connection appears in the tree of connections in the Database Navigator and DBeaver actually connects to the database.
-
- 
+4. To test if the connection works, click **Test Connection**.
+5. Click **Finish**. The connection appears in the tree of connections in the Database Navigator and DBeaver actually connects to the database.
 
 # Advanced Settings
-## Driver Properties
-Each driver has its own set of additional properties. Refer to the driver documentation to get information about available properties and their values. 
- 
-![](images/ug/Wizard-driver-properties.png)  
-
 ## Network Settings (SSH, SOCKS, SSL)
 If your database cannot be accessed directly, you can use SSH tunnel:
 
 ![](images/ug/Wizard-network-settings.png)  
 
 If a connection has network settings specified, such a connection appears in the application with a special 'arrow' icon such as this: ![](images/ug/DB-icon-network-settings.png)
+
+## Connection Details (name, type, etc.)
+You can also set the connection name, type and initial settings (such as bootstrap queries, transaction state, global filters, etc.).
+
+![](images/ug/Wizard-connection-details.png) 
+
+## Driver Properties
+Each driver has its own set of additional properties. Refer to the driver documentation to get information about available properties and their values. 
+ 
+![](images/ug/Wizard-driver-properties.png)  
 
 # Variables in parameters
 
