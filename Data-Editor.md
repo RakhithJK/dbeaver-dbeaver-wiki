@@ -24,8 +24,8 @@ Button|Name|Description
 
 The side bar contains the following tabs:
 
-Name|Description
-----|-----------
+Button|Name|Description
+------|----|-----------
 ![](images/ug/Grid-button.png)|**Grid**|Switches to grid view of data
 ![](images/ug/Text-button.png)|**Text**|Switches to plain text view of data
 Chart |
