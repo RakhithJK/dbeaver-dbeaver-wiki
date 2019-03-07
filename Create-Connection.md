@@ -17,7 +17,7 @@ In other cases, to create a connection, do one of the following:
   ![](images/ug/New-connection-option.png)
 
 Then, in the **Create new connection** wizard:
-1. Choose a driver for the new connection: click the name of the suitable database type in the list. Then click **Next**.
+1. Choose a driver for the new connection: click the name of the suitable database type in the gallery. Then click **Next**.
    
    ![](images/ug/Wizard-select-connection.png)  
 
@@ -25,6 +25,10 @@ Then, in the **Create new connection** wizard:
    If you cannot find a driver for your database then probably there is no suitable driver and you need to create one. Please see [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers) article.  
 
    NOTE: The list of database drivers diaplays the number of exising connections next to each driver. No number is displayed if there are no connections.
+
+If you prefer the classis list view of the available drivers, use the **Classic** button.
+
+![](images/ug/Wizard-select-connection_view.png) 
 
 2. In the Connection Settings screen, on the General tab, set all primary connection settings and then click **Next**:
 
