@@ -6,10 +6,6 @@ Properties of sub-entities appear in side tabbed editors – to open such an edi
 
 ![](images/ug/Properties-Editor-markup.png)
 
-The top pane can be wrapped to the **Information** side tab appearing together with sub-entity tabs on the left. To do so, click the Move properties to tab / Detach properties to top panel button (![](images/ug/Move-properties-button.png)) in the toolbar:
-
-![](images/ug/Information-tab.png)
-
 The toolbar at the bottom of the editor provides the following tools for the majority of sub-entities except for some specific ones like Permissions (in PostreSQL) or SQL based views (DDL and Source):
 
 Button|Name|Description
