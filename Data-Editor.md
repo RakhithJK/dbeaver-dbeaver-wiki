@@ -22,6 +22,15 @@ Button|Name|Description
 ![](images/ug/Configure-auto-refresh.png)|**Configure auto-refresh**|Allows configuring data auto-refresh settings, see [Data Refresh](https://github.com/dbeaver/dbeaver/wiki/Data-Refresh) article for details
 ![](images/ug/History-navigation.png)|Forward and backward -  history navigation buttons|Navigate forward and backward in the Data Editor history, see _History_ section of [Navigation](https://github.com/dbeaver/dbeaver/wiki/Navigation) article for more information. The buttons are equivalent to pressing the key combinations: <kbd>Alt+Left</kbd> (backward) and <kbd>Alt+right</kbd> (forward).
 
+The side bar contains the following tabs:
+
+Name|Description
+----|-----------
+![](images/ug/Grid-button.png)|**Grid**|Switches to grid view of data
+![](images/ug/Text-button.png)|**Text**|Switches to plain text view of data
+Chart |
+![](images/ug/Record-button.png)|**Record**|- Same as pressing <kbd>Tab</kbd><br/>- Switches the positions of rows and columns so that columns appear as rows, and rows hide in one **Value** column, see details in the _Table vs. Record Views_ section of [Data Appearance](https://github.com/dbeaver/dbeaver/wiki/Data-Appearance) article.
+
 The bottom toolbar provides the following buttons:
 
 Button|Name|Description
@@ -39,11 +48,8 @@ Button|Name|Description
 ![](images/ug/Move-to-last-row-button.png)|**Move to last row**|Moves the focus (highlighting) from the current to the last row of the table
 ![](images/ug/Fetch-next-page-button.png)|**Fetch next page of results**|Fetches the next portion of data (next N rows) making it ready for display, see _Scrolling Results Page_ section of [Navigation](https://github.com/dbeaver/dbeaver/wiki/Navigation) article for more information
 ![](images/ug/Fetch-all-rows-button.png)|**Fetch all rows**|Fetches the whole result set making it ready for display, see _Scrolling Results Page_ section of [Navigation](https://github.com/dbeaver/dbeaver/wiki/Navigation) article for more information
-![](images/ug/Record-button.png)|**Record**|- Same as pressing <kbd>Tab</kbd><br/>- Switches the positions of rows and columns so that columns appear as rows, and rows hide in one **Value** column, see details in the _Table vs. Record Views_ section of [Data Appearance](https://github.com/dbeaver/dbeaver/wiki/Data-Appearance) article
 ![](images/ug/Panels-button.png)|**Panels**|Opens panels on the right side of the Data Editor, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels) for information
 ![](images/ug/Configure-columns-visibility-icon.png)|**Configure**|Opens a dropdown menu with settings
-![](images/ug/Grid-button.png)|**Grid**|Switches to grid view of data
-![](images/ug/Text-button.png)|**Text**|Switches to plain text view of data
 ![](images/ug/json-button.png)|**JSON**|- Available in EE version only for MongoDB documents and JSON tables<br/>- Switches to JSON view of data
 ![](images/ug/xml-button.png)|**XML**|- Available in EE version only for XML tables<br/>- Switches to XML view of data
 ![](images/ug/Mock-data-button.png)|**Generate Mock Data**|Opens the Mock Data Generator window, see TBD for details
