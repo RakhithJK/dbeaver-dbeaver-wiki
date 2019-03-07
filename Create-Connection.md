@@ -26,7 +26,7 @@ Then, in the **Create new connection** wizard:
 
    NOTE: The list of database drivers diaplays the number of exising connections next to each driver. No number is displayed if there are no connections.
 
-If you prefer the classis list view of the available drivers, use the **Classic** button.
+If you prefer the classic list view of the available drivers, use the **Classic** button.
 
 ![](images/ug/Wizard-select-connection_view.png) 
 
