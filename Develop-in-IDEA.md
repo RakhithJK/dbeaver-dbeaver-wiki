@@ -60,4 +60,6 @@ Let's start!
 DBeaver is Eclipse RCP and must be started using Eclipse Equinox Launcher bundle. This is a special jar file which resides in Eclipse plugins folder and we need to add it to dependencies directly in order to be able to debug.
 
 1. Add launcher config as jar dependency for module `dbeaver`. Locate the jar `org.eclipse.equinox.launcher_*.jar` in the `eclipse-ide-path/plugins/` folder. Like this: ![](images/development/idea/launcher-dependency.png)
-1. Open debug configuration "Debug DBeaver Community": ![](images/development/idea/debug-config.png)
+1. Open debug configuration "Debug DBeaver Community" and change path in parameters `-configuration` and `-dev`.  
+Replace path before `.metadata` with path to your Eclipse workspace. Eventually it should look like this this:  
+![](images/development/idea/debug-config.png)
