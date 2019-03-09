@@ -29,7 +29,8 @@ Let's start!
 1. `git clone https://github.com/dbeaver/dbeaver-idea-project.git`
 1. Optional: `git clone https://github.com/dbeaver/dbeaver.wiki.git` (skip it if you don't need WIKI)
 1. Start IDEA->Open. select folder `dbeaver-ce/dbeaver-idea-project`
-1. Now you can see DBeaver modules structure. You can edit code but you can't compile because there are no Eclipse dependencies configured.
+1. Now you can see DBeaver modules structure: ![](images/development/idea/project-structure.png)
+1. You can edit code but you can't compile because there are no Eclipse dependencies configured.
 
 #### Prepare Eclipse IDE and workspace
 
