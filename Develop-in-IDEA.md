@@ -51,6 +51,7 @@ Let's start!
    - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.poi*/ooxml-lib`. 
    - `eclipse-ide-path/plugins/org.jkiss.bundle.jfreechart*/lib`. 
    - `eclipse-ide-path/plugins/org.jkiss.bundle.sshj*/lib`. 
+1. Eventually you see something like this: ![](images/development/idea/global-libraries.png)
 1. Now you should be able to compile the project. Just hit <kbd>CTRL+F9</kbd> and wait.
 
 #### Running and debugging
