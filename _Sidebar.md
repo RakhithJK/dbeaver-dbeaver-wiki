@@ -94,12 +94,12 @@
 - [[Windows Silent Install]]
 
 #### Development
-- [Build from sources](Build-from-sources)
-- [Develop in Eclipse](Develop-in-Eclipse)
-- [Develop in IDEA](Develop-in-IDEA)
-- [Features structure](Features-structure)
-- [Resources localization](Localization)
-- [Automatic Tests](Auto-Tests)
+- [[Build from sources|Build-from-sources]]
+- [[Develop in Eclipse|Develop-in-Eclipse]]
+- [[Develop in IDEA|Develop-in-IDEA]]
+- [[Features structure|Features-structure]]
+- [[Resources localization|Localization]]
+- [[Automatic Tests|Auto-Tests]]
 
 #### Other
 - [[Enterprise Edition]]
