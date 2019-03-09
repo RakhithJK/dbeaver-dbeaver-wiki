@@ -45,5 +45,12 @@ Let's start!
 1. Go to `Global libraries`.
 1. Create new library `ECLIPSE` (name and case are important)
 1. Click "Add" button. Select folder `eclipse-ide-path/plugins`.
+1. Recent IDEA should add all Eclipse jars as dependencies. But in in some IDEA versions you will also need to add some other folders manually:  
+   - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.batik*/lib`. 
+   - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.poi*/lib`. 
+   - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.poi*/ooxml-lib`. 
+   - `eclipse-ide-path/plugins/org.jkiss.bundle.jfreechart*/lib`. 
+   - `eclipse-ide-path/plugins/org.jkiss.bundle.sshj*/lib`. 
+1. Now you should be able to compile the project. Just hit <kbd>CTRL+F9</kbd> and wait.
 
 #### Running and debugging
