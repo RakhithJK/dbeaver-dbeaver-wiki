@@ -13,10 +13,6 @@ You can use one of the two tools to select elements in diagrams:
 
   ![](images/ug/ERD-Select-tool.png)
   
-* Marquee – multi-selection tool that allows selecting a rectangular area with one or more elements inside (rubber band selection rectangle), but unlike the Select tool, it does not allow clicking separate elements to select. To select a rectangular area, click outside elements and draw to cover all elements you need:  
-
-  ![](images/ug/ERD-Marquee-tool.png)
- 
 ## Structure Adjustment
 NOTE: All changes to existing database schemas cannot be saved and are intended for exploration purposes only.  
 You can do the following structure changes in diagrams.
