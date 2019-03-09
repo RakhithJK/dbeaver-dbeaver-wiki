@@ -96,6 +96,7 @@
 #### Development
 - [Build from sources](Build-from-sources)
 - [Develop in Eclipse](Develop-in-Eclipse)
+- [Develop in IDEA](Develop-in-IDEA)
 - [Features structure](Features-structure)
 - [Resources localization](Localization)
 - [Automatic Tests](Auto-Tests)
