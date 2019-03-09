@@ -35,10 +35,15 @@ Let's start!
 
 1. Perform all steps described in [[Develop in Eclipse]] article. Use just cloned `dbeaver-ce/dbeaver` as sources root.
 1. Eventually you should be able to compile and run DBeaver from Eclipse
+1. Remember where you Eclipse IDE is located (let's say `eclipse-ide-path`)
 
 #### Configuring dependencies and compile
 
 1. Now we need to add Eclipse dependencies in IDEA project configuration.
-1. 
+1. Open `File->Project structure...`.
+1. Make sure you have proper project Java SDK configured (Java 8+)
+1. Go to `Global libraries`.
+1. Create new library `ECLIPSE` (name and case are important)
+1. Click "Add" button. Select folder `eclipse-ide-path/plugins`.
 
 #### Running and debugging
