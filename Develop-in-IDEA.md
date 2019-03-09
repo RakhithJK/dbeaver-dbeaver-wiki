@@ -29,7 +29,8 @@ Let's start!
 1. `git clone https://github.com/dbeaver/dbeaver-idea-project.git`
 1. Optional: `git clone https://github.com/dbeaver/dbeaver.wiki.git` (skip it if you don't need WIKI)
 1. Start IDEA->Open. select folder `dbeaver-ce/dbeaver-idea-project`
-1. Now you can see DBeaver modules structure. You can edit code but you can't compile because there are no Eclipse dependencies configured.
+1. Now you can see DBeaver modules structure: <img src="images/development/idea/project-structure.png" width="400"/>
+1. You can edit code but you can't compile because there are no Eclipse dependencies configured.
 
 #### Prepare Eclipse IDE and workspace
 
@@ -55,3 +56,7 @@ Let's start!
 1. Now you should be able to compile the project. Just hit <kbd>CTRL+F9</kbd> and wait.
 
 #### Running and debugging
+
+DBeaver is Eclipse RCP and must be started using Eclipse Equinox Launcher bundle. This is a special jar file which resides in Eclipse plugins folder and we need to add it to dependencies directly in order to be able to debug.
+
+1. Add launcher config as jar dependency for module `dbeaver`. Locate the jar `org.eclipse.equinox.launcher_*.jar` in the `eclipse-ide-path/plugins/` folder. Like this: ![](images/development/idea/launcher-dependency.png)
