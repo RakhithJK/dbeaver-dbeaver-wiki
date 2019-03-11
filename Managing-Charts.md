@@ -76,6 +76,10 @@ Name|Description
 **LAST** | The last value
 **COUNT** | Total count of all values
 
+## Copying to clipboard 
+
+You can copy a chart to clipboard by selecting the **Copy to clipboard** option in the chart's context menu.
+
 ## Exporting Charts 
 
 You can export а chart into PNG format by selecting the **Save as...** option in the chart's context menu.
