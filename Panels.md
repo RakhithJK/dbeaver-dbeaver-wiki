@@ -85,7 +85,7 @@ You can also add or remove columns using the same Grouping Configuration window.
 
    ![](images/ug/Grouping-add-column.png)
 
-For MySQL databases you can also add a column with an expression - the expression will be calculated in the resulting column:
+For MySQL/MariaDB databases you can also add a column with an expression - the expression will be calculated in the resulting column:
 
 ![](images/ug/Grouping-column-expression.png)
 
