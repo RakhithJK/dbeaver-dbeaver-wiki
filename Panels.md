@@ -24,7 +24,7 @@ The Value viewer panel displays just one value that is currently in focus and al
  
 ![](images/ug/Value-Viewer.png)
 
-The **Apply cell value** (![](images/ug/Apply-cell-value-button.png]]) and **Auto-apply value** (![](images/ug/Auto-apply-value-button.png)) buttons in the toolbar of the panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the Data Editor.
+The **Apply cell value** (![](images/ug/Apply-cell-value-button.png) and **Auto-apply value** (![](images/ug/Auto-apply-value-button.png)) buttons in the toolbar of the panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the Data Editor.
 
 The **Auto-save value** button enables automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.
 
