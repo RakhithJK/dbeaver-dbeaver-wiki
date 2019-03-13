@@ -12,3 +12,11 @@ SELECT GeomFromEWKT('SRID=4326;POLYGON((0 0,0 1,1 1,1 0,0 0))');
 ### Test databases
 
 https://knowledge.safe.com/questions/70649/fme-basic-training-postgis-database-connection.html
+
+Parameter|Value
+---|---
+Host|postgis.train.safe.com
+Port|5432
+Database|fmedata
+Username|fmedata
+Password|fmedata
