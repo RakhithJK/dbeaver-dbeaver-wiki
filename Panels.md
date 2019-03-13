@@ -16,7 +16,7 @@ To open the other panels, click the down arrow next to the **Panels** button and
 Panels also open if you try to inline-edit a cell with a complex data type.
 
 To close panels, click the **Panels** button again or click the standard Close (cross) icon in the upper right corner of each panel.  
-You can also show and hide panels by clicking the Configure button (![](images/ug/Configure-columns-visibility-icon.png)) in the bottom toolbar and then **Toggle result panels** on the Configure dropdown menu.
+You can also show and hide panels by clicking the **Configure** button (![](images/ug/Configure-columns-visibility-icon.png)) in the bottom toolbar and then **Toggle result panels** on the Configure dropdown menu.
 
 ## Value Viewer
 
