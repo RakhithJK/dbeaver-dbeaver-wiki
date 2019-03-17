@@ -24,7 +24,7 @@ To create a data format profile press the **Manage Profiles** button. In the ope
 
 ![](images/ug/DataFormatting_CreateNewProfile.png)
 
-To delete a data format profile press the **Manage Profiles** button. In the opened dialog window select the profile you want to delete and press the button **Delete Profile**.
+To delete a data format profile press the **Manage Profiles** button, then in the opened dialog window select the profile you want to delete and press the button **Delete Profile**.
 
 ![](images/ug/DataFormatting_DeleteProfile.png)
 
@@ -97,7 +97,7 @@ To restore the default data format settings, press the **Restore Defaults** butt
 ![](images/ug/DataFormatting_RestoreDefaults.png)
 
 ## Datasource Settings
-Press **Datasource settings** link to change data format settings for a particular datasource and adjust the settings in the opened dialog box. 
+Press **Datasource settings** link to change data format settings for a particular datasource, then adjust the settings in the opened dialog box. 
 
 ![](images/ug/DataFormatting_DatasourceSsettings_Workflow.png)
 
