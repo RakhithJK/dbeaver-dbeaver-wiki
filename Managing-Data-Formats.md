@@ -1,4 +1,4 @@
-The DBeaver formatting functions allow you to set up database locale and change datasource format settings to your preferred ones.
+The DBeaver formatting functions allow you to set up database locale and change datasource format settings to your preferrences.
 
 To change data format setting use option Window -> Preferences in main menu.
 
