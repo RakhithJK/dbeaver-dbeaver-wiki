@@ -8,7 +8,7 @@ In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Fo
 
 ![](images/ug/Preferences_DataFormats.png)
 
-Or, in the **Project Navigator** area right-click a connection and select **Edit Connection** option. In the right area of the opened **Data formatting preferences** dialog window go to Result Sets -> Data Formatting, and select **Datasource settings** check box in the left area.
+Or, in the **Project Navigator** area right-click a connection and select **Edit Connection** menu option. In the right area of the opened **Data formatting preferences** dialog window go to Result Sets -> Data Formatting, and select **Datasource settings** check box in the left area.
 
 ## Data Format Profiles
 
