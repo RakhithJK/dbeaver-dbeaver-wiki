@@ -26,7 +26,7 @@ To create a data format profile press the **Manage Profiles** button. In the ope
 
 To delete a data format profile press the **Manage Profiles** button. In the opened dialog window select the profile you want to delete and press the button **Delete Profile**.
 
-![](images/ug/DDataFormatting_DeleteProfile.png)
+![](images/ug/DataFormatting_DeleteProfile.png)
 
 ## Changing Data Formats
 
