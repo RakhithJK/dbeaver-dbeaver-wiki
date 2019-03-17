@@ -1,18 +1,18 @@
 The DBeaver formatting functions allow you to set up database locale and change datasource format settings. This feature can be very useful on database migration, for example. 
 
-To change data format setting use option Window -> Preferences in main menu.
+To change data format settings use option Window -> Preferences in main menu.
 
 ![](images/ug/DataFormatting_Preferences.png)
 
-In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Formats
+In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Formats.
 
 ![](images/ug/Preferences_DataFormats.png)
 
-Or, in the **Database Navigator** area right-click a connection and select **Edit Connection** menu option. 
+Or, in the [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) right-click a connection and select **Edit Connection** menu option. 
 
 ![](images/ug/Database_Navigator_Edit_Connection_menu_option.png)
 
-In the right area of the opened **Data formatting preferences** dialog window go to Result Sets -> Data Formatting, and select **Datasource settings** check box in the left area to customize the data format settings.
+In the right area of the opened **Data formatting preferences** dialog window go to Result Sets -> Data Formatting and select the **Datasource settings** check box in the left area to customize the data format settings.
 
 ![](images/ug/DataFormatting_DatasourceSsettings.png)
 
@@ -39,7 +39,7 @@ The following groups of data format settings can be adjusted:
 To define this setting select a language, country and variant if available.
 
 
-### Native Format Mode
+### Native Date/Time Mode
 
 ![](images/ug/DataFormatting_NativeSettings.png)
 
@@ -52,6 +52,7 @@ You can change the format of the following data types:
 ![](images/ug/DataFormatting_FormatSettings.png)
 
 The format of the following data types can be customized:
+
 * Date
 * Time
 * Timestamp
@@ -85,18 +86,18 @@ The following parameters can be configured from thisy type of data:
 
 * **Rounding mode** - Specifies a rounding behavior for numerical operations capable of discarding precision. Each rounding mode indicates how the least significant returned digit of a rounded result is to be calculated. To learn more, please refer to [Oracle documentation](https://docs.oracle.com/javase/7/docs/api/java/math/RoundingMode.html).
 
-To change the data type format, change the value displayed in the **Pattern** area and observe the expected result in the **Sample** field.
+To change the data type format, change the value displayed in the **Pattern** area,save the changes made by pressing the **Apply** button and observe the expected result in the **Sample** field.
 
 ![](images/ug/DataFormatting_PatternChange.png)
 
-To save the changes made, press the **Apply** button.
-
 ## Restoring Default Data Formats
+
 To restore the default data format settings, press the **Restore Defaults** button.
 
 ![](images/ug/DataFormatting_RestoreDefaults.png)
 
 ## Datasource Settings
+
 Press **Datasource settings** link to change data format settings for a particular datasource, then adjust the settings in the opened dialog box. 
 
 ![](images/ug/DataFormatting_DatasourceSsettings_Workflow.png)
