@@ -2,7 +2,7 @@ The DBeaver formatting functions allow you to set up database locale and change 
 
 To change data format setting use option Window -> Preferences in main menu.
 
-![](images/ug/Window_Menu_Preferences.png)
+![](images/ug/DataFormatting_Preferences.png)
 
 In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Formats
 
@@ -93,6 +93,8 @@ To save the changes made, press the **Apply** button.
 
 ## Restoring Default Data Formats
 To restore the default data format settings, press the **Restore Defaults** button.
+
+![](images/ug/DataFormatting_RestoreDefaults.png)
 
 ## Datasource Settings
 Press **Datasource settings** link to change data format settings for a particular datasource and adjust the settings in the opened dialog box. 
