@@ -22,11 +22,11 @@ Data format profiles allow you to apply a set of data format preferences to the 
 
 To create a data format profile press the **Manage Profiles** button. In the opened dialog window press button **New Profile**, define the name and press **Create**.
 
-![](images/ug/DataFormats_CreateProfile.png)
+![](images/ug/DataFormatting_CreateNewProfile.png)
 
 To delete a data format profile press the **Manage Profiles** button. In the opened dialog window select the profile you want to delete and press the button **Delete Profile**.
 
-![](images/ug/DataFormats_DeleteProfile.png)
+![](images/ug/DDataFormatting_DeleteProfile.png)
 
 ## Changing Data Formats
 
