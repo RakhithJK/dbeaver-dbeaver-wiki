@@ -14,4 +14,8 @@ To auto-format XML/JSON script press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kb
 
 Use <kbd>Ctrl</kbd>+<kbd>S</kbd> keyboard shortcut to save the changes made.
 
-It is also possible to save XML/JSON content to a local file and upload it from a local file via **Value** panel toolbar buttons. To learn more, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer)
+It is also possible to save XML/JSON content to a local file and upload it from a local file via **Value** panel toolbar buttons. 
+
+![](images/ug/Value_Viewer_Editor_Toolbar.png)
+
+To learn more, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer)
