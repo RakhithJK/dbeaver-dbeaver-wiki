@@ -24,16 +24,19 @@ The Value viewer panel displays just one value that is currently in focus and al
  
 ![](images/ug/Value-Viewer.png)
 
-The **Content viewer settings** button ![](images/ug/XML_editor_icon.png) opens a menu allowing to change the content view.
+The tolbar of Value panel contains the following buttons:
 
-The **Save to file...** button ![](images/ug/XML_editor_save_to_file_icon.png) allows saving the content to a local file. This button is only available for XML and JSON data.
+Button|Name|Description
+------|----|-----------
+![](images/ug/XML_editor_icon.png)|**Content viewer settings**|Opens a menu with a set of options for content view change.
+![](images/ug/XML_editor_save_to_file_icon.png)|**Save to file...**|Allows saving the content to a local file. **NOTE**: This button is only available for XML, JSON and Binary content.
+![](images/ug/XML_editor_load_from_file_icon.png)|**Load from file...**| Allows uploading data from a local file. **NOTE**: This button is only available for XML,JSON and Binary content.
+![](images/ug/Apply-cell-value-button.png)|**Apply cell value**|Displays in the data table the changes made in the Value viewer. **NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the Data Editor.
+![](images/ug/Auto-apply-value-button.png)|**Auto-apply value**|Еnables automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.
 
-The **Load from file...** button ![](images/ug/XML_editor_load_from_file_icon.png) allows uploading data from file. This button is only available for XML and JSON data.
+NOTE: The buttons in the toolbar of the Value panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](https://github.com/dbeaver/dbeaver/wiki/Data-Editor).
 
-The **Apply cell value** ![](images/ug/Apply-cell-value-button.png) and **Auto-apply value** ![](images/ug/Auto-apply-value-button.png) buttons in the toolbar of the panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the Data Editor.
-
-The **Auto-save value** button enables automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.
-
+The **Auto-save value** button 
 ## Metadata Panel
 The Metadata panel displays metadata for each cell in the row containing the cell currently in focus. You can just view the metadata.
 
