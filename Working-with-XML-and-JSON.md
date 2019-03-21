@@ -1,6 +1,6 @@
 DBeaver supports XML and JSON column types (in relational databases) by using standard JDBC interfaces. This feature was added in JDBC4 so you will need JDBC4 compliant driver for your database.
 
-In the Data Editor, you can edit XML/JSON data right in the table cells, however, a big amount of data may require a larger editor.
+In the Data Editor, you can edit XML/JSON data right in the table cells, however, a big amount of data may require a larger editor, you may want to save XML/JSON scripts to a local file or upload this type of data from a local file.
 
 To open the full-size XML/JSON editor click the cell containing data in XML/JSON format and press <kbd>Shift</kbd>+<kbd>Enter</kbd>. 
 
@@ -13,3 +13,9 @@ To auto-format XML/JSON script press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kb
 ![](images/ug/JSON_editor_format.png)
 
 Use <kbd>Ctrl</kbd>+<kbd>S</kbd> keyboard shortcut to save the changes made.
+
+It is also possible to save XML/JSON content to a local file and upload it from a local file via **Value** panel toolbar buttons. 
+
+![](images/ug/Value_Viewer_Editor_Toolbar.png)
+
+To learn more, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer)
