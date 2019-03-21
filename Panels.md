@@ -34,7 +34,7 @@ Button|Name|Description
 ![](images/ug/Apply-cell-value-button.png)|**Apply cell value**|Displays in the data table the changes made in the Value viewer. **NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the Data Editor.
 ![](images/ug/Auto-apply-value-button.png)|**Auto-apply value**|Еnables automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.
 
-NOTE: The buttons in the toolbar of the Value panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](https://github.com/dbeaver/dbeaver/wiki/Data-Editor).
+**NOTE**: The buttons in the toolbar of the Value panel only affect the display of the changes made in the Value viewer back in the Data table but do not save them in the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](https://github.com/dbeaver/dbeaver/wiki/Data-Editor).
 
 The **Auto-save value** button 
 ## Metadata Panel
