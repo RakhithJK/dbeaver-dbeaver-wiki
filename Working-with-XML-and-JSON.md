@@ -14,7 +14,7 @@ To auto-format XML/JSON script press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kb
 
 Use <kbd>Ctrl</kbd>+<kbd>S</kbd> keyboard shortcut to save the changes made.
 
-It is also possible to save XML/JSON content to a local file and upload it from a local file via **Value** panel toolbar buttons. 
+You can also edit XML/JSON content, save it locally and upload it from a local file with the help of **Value** panel toolbar. 
 
 ![](images/ug/Value_Viewer_Editor_Toolbar.png)
 
