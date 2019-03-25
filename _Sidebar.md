@@ -19,7 +19,7 @@
     - [[Managing Charts]]
     - [[Data Search]]
     - [[SQL Generation]]
-    - [[Work with XML]]
+    - [[Working with XML and JSON]]
   - [[ER Diagrams]]
     - [[Database Structure Diagrams]]
     - [[Custom Diagrams]]
