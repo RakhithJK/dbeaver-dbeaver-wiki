@@ -20,6 +20,7 @@
     - [[Data Search]]
     - [[SQL Generation]]
     - [[Working with XML and JSON]]
+    - [[Managing Data Formats]]
   - [[ER Diagrams]]
     - [[Database Structure Diagrams]]
     - [[Custom Diagrams]]
