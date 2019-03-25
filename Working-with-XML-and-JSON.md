@@ -18,4 +18,18 @@ You can also edit XML/JSON content, save it locally and upload it from a local f
 
 ![](images/ug/Value_Viewer_Editor_Toolbar.png)
 
-To learn more, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer)
+To upload data from a local file, press the **Load from file...** button ![](images/ug/XML_editor_load_from_file_icon.png).
+
+To save the content to a local file, press the **Save to file...** button![](images/ug/XML_editor_save_to_file_icon.png).
+
+To switch between the formats, press the **Content viewer settings** button ![](images/ug/XML_editor_icon.png) and select the format.
+
+![](images/ug/XML_editor_menu.png)
+
+Use **Word Wrap** feature that wraps the text within a screen.
+
+![](images/ug/JSON_editor_word_wrap.png)
+
+Use **Auto-format** feature to automatically changes the appearance of XML/JSON script (fix spaces around operators / commas, fix indentation, etc) and make it more readable.
+
+![](images/ug/JSON_editor_auto_format.png)
