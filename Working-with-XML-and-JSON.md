@@ -20,7 +20,7 @@ You can also edit XML/JSON content, save it locally and upload it from a local f
 
 To upload data from a local file, press the **Load from file...** button ![](images/ug/XML_editor_load_from_file_icon.png).
 
-To save the content to a local file, press the **Save to file...** button![](images/ug/XML_editor_save_to_file_icon.png).
+To save the content to a local file, press the **Save to file...** button ![](images/ug/XML_editor_save_to_file_icon.png).
 
 To switch between the formats, press the **Content viewer settings** button ![](images/ug/XML_editor_icon.png) and select the format.
 
