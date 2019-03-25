@@ -33,3 +33,5 @@ Use **Word Wrap** feature that wraps the text within a screen.
 Use **Auto-format** feature to automatically change the appearance of XML/JSON script (fix spaces around operators / commas, fix indentation, etc) and make it more readable.
 
 ![](images/ug/JSON_editor_auto_format.png)
+
+To learn more about **Value** panel, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer).
