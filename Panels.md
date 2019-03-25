@@ -24,7 +24,7 @@ The Value viewer panel displays just one value that is currently in focus and al
  
 ![](images/ug/Value-Viewer.png)
 
-The tolbar of Value panel contains the following buttons:
+The toolbar of Value panel contains the following buttons:
 
 Button|Name|Description
 ------|----|-----------
