@@ -50,15 +50,15 @@ The following dashboard representation parameters can be adjusted:
 
 Parameter|Description
 ----|-----
-Name|
-Description|
-Update periods(ms)|
-Maximum items|
-View|
-Show legend|
-Show grid|
-Show domain axis|
-Show range axis|
+Name|Defines a name of a dashboard.
+Description| Defines dashboard description.
+Update periods(ms)| Defines how often data should be fetched from the database. The default value is 1000 ms. 
+Maximum items|Defines maximum number of fetched items. The default value is 300.
+View| Defines vsual representation of the dashboard. The following options are available: Bar, Pie, Time series.
+Show legend| If this check-box selected, the legend is displayed on the dashboard.
+Show grid| If this check-box, the grid is displayed on the dashboard.
+Show domain axis| If this check-box, the domain axis is displayed. 
+Show range axis|If this check-box, the range axis is displayed. 
 
 ## Adjusting Dashboard Configuration
 
@@ -68,25 +68,21 @@ The following dashboard parameters can be configured:
 
 Parameter|Description
 ----|-----
-ID|
-Name|
-Database|
-Data type|
-Calc type|
-Value type|
-Interval|
-Fetch type|
-Description|
-Queries|
-Default view|
-Update period(ms)|
-Maximum items|
+ID| Defines dashboard's ID. Make sure that ID has numeric values in it.
+Name|Defines dasboard's name.
+Database|Defines the database driver. To learn moe about database drivers, see Database Drivers.
+Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if.... Select statistics type if....
+Calc type|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if... Select delta if...
+Value type|Defines the value type. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data.
+Interval|Defines time interval for running a query. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
+Fetch type|Defines...
+Description| Defines the description of a dashboard. Use this field to make it easy to understand what a dashboard is about.
+Queries|Defines a SQL query to be run by the dashboard.
+Default view|Defines the default visual representation of a dashboard on the dashboard panel. The following options are available: Bar, Pie, Time series(the default option).
+Update period(ms)|Defines how often the dashboard's rendering should be updated.
+Maximum items| Defines maximum number of items to be fetched for the dashboard.
 
 **Note** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as templates to create new dashboards with any query you want. To learn about creating new dashboards, see Creating New Dashboards section. 
-
-## Printing Dashboards
-
-If you want to print out a screenshot of a dashboard, right-click the dashboard to be printed and select the **Print…** option.
 
 ## Detaching Dashboards 
 
@@ -100,14 +96,18 @@ To detach a single dashboard make a double left click over it. You can also righ
 
 You can change representation of a dashboard and view it as a Pie, Bar or Time series. To change the view of a dashboard, right click on it and select option **View as** menu option and select the view you prefer.
 
-## Saving Dashboards
-
-If you want to save a screenshot of a dashboard locally in PNG format, right click on it and select the **Save as ...** option in the context menu displayed. 
-                                                                                                                                                                                                                          
 ## Copying Dashboards to Clipboard 
 
 To copy a dashboard into the clipboard, right click on the dashboard and use *Copy to Clipboard* menu option.
 
+## Saving Dashboards
+
+If you want to save a screenshot of a dashboard locally in PNG format, right click on it and select the **Save as ...** option in the context menu displayed. 
+
+## Printing Dashboards
+
+If you want to print out a screenshot of a dashboard, right-click the dashboard to be printed and select the **Print…** option.
+                                                                                                                                                                                                                          
 ## Zooming 
 
 For Time series and Bar dashboard representation the following zooming options are available:
@@ -116,5 +116,13 @@ For Time series and Bar dashboard representation the following zooming options a
 * Zoom Out
 * Zoom Reset
 
+# Managing Dashboards 
 
+## Creating New Dashboards
+
+To create a dashboard from scratch
+
+To create a dashboard from template
+
+## Deleting Dashboards
 
