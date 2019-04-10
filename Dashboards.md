@@ -118,7 +118,7 @@ For Time series and Bar dashboard representation the following zooming options a
 
 # Managing Dashboards 
 
-## Creating New Dashboards
+## Creating Dashboards
 
 To create a dashboard from scratch
 
