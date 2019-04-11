@@ -19,10 +19,10 @@ The following controls are available in the dashboard panel toolbar:
 
 Icon|Name|Description
 ----|-----|-----
-![](images/ug/dashboards/Dashboard_Settings_icon.png)|Settings|Allows managing dashboards' configuration.
-![](images/ug/dashboards/Dashboard_Add_icon.png)|Add dashboard| Allows to add dashboards to the dashboard panel.
-![](images/ug/dashboards/Dashboard_Remove_icon.png)|Remove dashboard| Allows to remove dashboards from the dashboard panel.
-![](images/ug/dashboards/Dashboard_Reset_icon.png)|Reset dashboards| Allows to restart dashboard calculation.
+![](images/ug/dashboards/Dashboard_Settings_icon.png)|**Settings**|Allows managing dashboards' configuration.
+![](images/ug/dashboards/Dashboard_Add_icon.png)|**Add dashboard**| Allows to add dashboards to the dashboard panel.
+![](images/ug/dashboards/Dashboard_Remove_icon.png)|**Remove dashboard**| Allows to remove dashboards from the dashboard panel.
+![](images/ug/dashboards/Dashboard_Reset_icon.png)|**Reset dashboards**| Allows to restart dashboard calculation.
 
 ## Adding Dashboards 
 
@@ -62,15 +62,15 @@ The following dashboard representation parameters can be adjusted:
 
 Parameter|Description
 ----|-----
-Name|Defines a name of a dashboard.
-Description| Defines dashboard's description.
-Update periods(ms)| Defines how often dashboard's rendering should be updated. The default value is 1000 ms. 
-Maximum items|Defines maximum number of fetched items. The default value is 300.
-View| Defines visual representation of the dashboard. The following options are available: Bar, Pie, Time series.
-Show legend| If this check-box is selected, the legend will be displayed on the dashboard.
-Show grid| If this check-box is selected, the grid will be displayed on the dashboard.
-Show domain axis| If this check-box is selected, the domain axis will be displayed on the dashboard. 
-Show range axis|If this check-box is selected, the range axis will be displayed on the dashboard. 
+**Name**|Defines a name of a dashboard.
+**Description**| Defines dashboard's description.
+**Update periods(ms)**| Defines how often dashboard's rendering should be updated. The default value is 1000 ms. 
+**Maximum items**|Defines maximum number of fetched items. The default value is 300.
+**View**| Defines visual representation of the dashboard. The following options are available: Bar, Pie, Time series.
+**Show legend**| If this check-box is selected, the legend will be displayed on the dashboard.
+**Show grid**| If this check-box is selected, the grid will be displayed on the dashboard.
+**Show domain axis**| If this check-box is selected, the domain axis will be displayed on the dashboard. 
+**Show range axis**|If this check-box is selected, the range axis will be displayed on the dashboard. 
 
 ## Adjusting Dashboard Configuration
 
@@ -82,21 +82,28 @@ The following dashboard parameters can be configured:
 
 Parameter|Description
 ----|-----
-ID| Defines dashboard's ID. Make sure that ID has numeric values in it.
-Name|Defines dasboard's name.
-Database|Defines the database driver. To learn moe about database drivers, see [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers).
-Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the actual value returned by the server. Select statistics type if your dashboard will show historical data.
-Calc type|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if you're interested in the current value. Select delta if you want to track the difference between the current value and the previous one. This may be very useful when you work with statistics data, for example.
-Value type|Defines the value to be shown on the range domain. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data, for example, memory usage is convinient to be tracked in KBytes.
-Interval|Defines time interval to be shown on the domain axis. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
-Fetch type|Defines whether the query should fetch data from rows or columns.
-Description| Defines the description of a dashboard. Use this field to make it easy to understand what kind of information the dashboard represents.
-Queries|Defines an SQL query whose fetched data will be used to build the chart displayed on the dashboard.
-Default view|Defines the default visual representation of a dashboard on the dashboard panel. The following options are available: Bar, Pie, Time series(the default option).
-Update period(ms)|Defines how often the dashboard's rendering should be updated.
-Maximum items| Defines maximum number of items to be fetched for the dashboard.
+**ID**| Defines dashboard's ID. Make sure that ID has numeric values in it.
+**Name**|Defines dasboard's name.
+**Database**|Defines the database driver. To learn moe about database drivers, see [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers).
+**Data type**|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the actual value returned by the server. Select statistics type if your dashboard will show historical data.
+**Calc type**|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if you're interested in the current value. Select delta if you want to track the difference between the current value and the previous one. This may be very useful when you work with statistics data, for example.
+**Value type**|Defines the value to be shown on the range domain. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data, for example, memory usage is convinient to be tracked in KBytes.
+**Interval**|Defines time interval to be shown on the domain axis. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
+**Fetch type**|Defines whether the query should fetch data from rows or columns.
+**Description**| Defines the description of a dashboard. Use this field to make it easy to understand what kind of information the dashboard represents.
+**Queries**|Defines an SQL query whose fetched data will be used to build the chart displayed on the dashboard.
+**Default view**|Defines the default visual representation of a dashboard on the dashboard panel. The following options are available: Bar, Pie, Time series(the default option).
+**Update period(ms)**|Defines how often the dashboard's rendering should be updated.
+**Maximum items**| Defines maximum number of items to be fetched for the dashboard.
 
 **Note** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as templates to create new dashboards with any query you want. To learn about creating new dashboards, see Creating New Dashboards section. 
+
+##Setting Connection Prefereces
+
+By default, if there is no active connection to the database and you open its dashboards panel, all the dashboards on the panel will be empty.
+
+You can force database connection on the dashboard panel's activation by pressing the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) on the dashboards panel's toolbar and then selecting the **Connect on activation** check-box.
+
 
 ## Detaching Dashboards 
 
@@ -118,7 +125,7 @@ You can change representation of a dashboard and view it as a Pie, Bar or Time s
 
 ## Copying Dashboards to Clipboard 
 
-To copy a dashboard into the clipboard, right click on the dashboard and use *Copy to Clipboard* menu option.
+To copy a dashboard into the clipboard, right click on the dashboard and use **Copy to Clipboard** menu option.
 
 ![](images/ug/dashboards/context_menu_Copy_to_clipboard.png)
 
