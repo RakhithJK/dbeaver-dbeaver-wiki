@@ -30,7 +30,7 @@ To add a dashboard to the dashboards panel, press the **Add dashboard** button !
 
 ![](images/ug/dashboards/Adding_dashboard_By_Toolbar_Btn.png)
 
-**Note** Different databases have different sets of predefined dashboards. DBeaver is delivered with sets of predefined dashboards for such databases as Postgress SQL, MySQL, Oracle, and Exasol. It is also possible to create new custom dashboards, for more details see Managing Dashboards.
+**Note:** Different databases have different sets of predefined dashboards. DBeaver is delivered with sets of predefined dashboards for such databases as Postgress SQL, MySQL, Oracle, and Exasol. It is also possible to create new custom dashboards, for more details see Managing Dashboards.
 
 You can also add a dashboard by right-click in any place of the dashboards panel and then select the **Add dashboard** menu option.
 
@@ -96,7 +96,7 @@ Parameter|Description
 **Update period(ms)**|Defines how often the dashboard's rendering should be updated.
 **Maximum items**| Defines maximum number of items to be fetched for the dashboard.
 
-**Note** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as templates to create new dashboards with any query and other settings. To learn about creating new dashboards, see Managing Dashboards section. 
+**Note:** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as templates to create new dashboards with any query and other settings. To learn about creating new dashboards, see Managing Dashboards section. 
 
 ## Setting Connection Prefereces
 
