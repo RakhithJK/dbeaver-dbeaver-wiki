@@ -50,13 +50,13 @@ You can reset all dashboards displayed in the dashboard panel by a single click 
 
 To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press the **Reset dashboards** button in the dashboard panel toolbar.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_Reset.png)
 
 ## Changing Dashboard Representation
 
 To adjust dashboard representation settings right click on a dashboard and select the **Settings** menu option, and in the opened dialog change the required parameters. 
 
-![](images/ug/*.png)
+IMG
 
 The following dashboard representation parameters can be adjusted:
 
@@ -76,7 +76,7 @@ Show range axis|If this check-box is selected, the range axis is displayed.
 
 To adjust dashboard configuration right-click on a dashboard and select the **Settings** menu option, in the opened dialog box press the **Configuration** button. 
 
-![](images/ug/*.png)
+IMG
 
 The following dashboard parameters can be configured:
 
