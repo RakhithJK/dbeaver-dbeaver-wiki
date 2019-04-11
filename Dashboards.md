@@ -5,26 +5,28 @@ By default, DBeaver is delivered with a number of predefined sets of dashboards 
 # Managing Dashboards Panel
 
 Dashboard panel is a collection of real-time dashboards, that is dashboards that are continuously updated. 
-Dashboards displayed on the dashboard panel are actually a combination of continiously run SQL SELECT queries and charts continiously built on the fetched data.
+Dashboards displayed on the dashboard panel are actually a combination of continiously run SQL SELECT queries and charts continiously built on the data fetched.
 
 ## Opening Dashboard Panel
 
-To open Dashboard panel click the **Open Dashboard** button  in the main toolbar. The default configuration of the dashboard panel for the current database connection will appear. To learn more about database connections, see Database Connections.
+To open Dashboard panel click the **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) in the main toolbar. The default configuration of the dashboard panel for the current database connection will appear. To learn more about database connections, see [Database Connections](https://github.com/dbeaver/dbeaver/wiki/Database-Connections).
 
-You can also right-click a connection name in the **Database Navigator** editor and select **Open Dashboard** menu option or use keyboard shortcut Ctrl+Alt+Shift+B and the dashboards panel will be opened. 
+You can also right-click a connection name in the **Database Navigator** editor and select **Open Dashboard** menu option or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> and the dashboards panel will be opened. 
+
+![](images/ug/dashboards/Open_Dashboard_Menu_Option.png)
 
 The following controls are available in the dashboard panel toolbar:
 
 Icon|Name|Description
 ----|-----|-----
-![](images/ug/*.png)|Settings|
-![](images/ug/*.png)|Add dashboard| Allows to add a dashboard to the dashboard panel.
-![](images/ug/*.png)|Remove dashboard| Allows to remove a dashboard from the dashboard panel.
-![](images/ug/*.png)|Reset dashboards| Allows to restart dashboard calculation.
+![](images/ug/dashboards/Dashboard_Settings_icon.png)|Settings|Allows managing dashboards' configuration.
+![](images/ug/dashboards/Dashboard_Add_icon.png)|Add dashboard| Allows to add dashboards to the dashboard panel.
+![](images/ug/dashboards/Dashboard_Remove_icon.png)|Remove dashboard| Allows to remove dashboards from the dashboard panel.
+![](images/ug/dashboards/Dashboard_Reset_icon.png)|Reset dashboards| Allows to restart dashboard calculation.
 
 ## Adding Dashboards 
 
-To add a dashboard to the Dashboard panel press button **Add dashboard** ![](images/ug/*.png) in the dashboard panel's toolbar and choose one of the dashboards from the list of available dashboards. 
+To add a dashboard to the Dashboard panel press button **Add dashboard** ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboard panel's toolbar and choose one of the dashboards from the list of available dashboards. 
 
 ![](images/ug/*.png)
 
@@ -36,7 +38,7 @@ You can also add a dashboard by right-click in any place of the dashboard panel 
 
 ## Removing Dashboards
 
-To remove a dashboard from the Dashboard panel, click on the dashboard you want to remove and press the button **Remove dashboard** ![](images/ug/*.png) in the dashboard panel toolbar  or select **Remove dashboard** option in the dashboard's context menu.
+To remove a dashboard from the Dashboard panel, click on the dashboard you want to remove and press the button **Remove dashboard** ![](images/ug/dashboards/Dashboard_Remove_icon.png) in the dashboard panel toolbar  or select **Remove dashboard** option in the dashboard's context menu.
 
 ![](images/ug/*.png)
 
@@ -44,7 +46,7 @@ To remove a dashboard from the Dashboard panel, click on the dashboard you want 
 
 If you want to restart dashboard calculation you can reset it.
 
-You can reset all dashboards displayed in the dashboard panel by a single click on the **Reset dashboards** ![](images/ug/*.png) button in the dashboard panel toolbar.
+You can reset all dashboards displayed in the dashboard panel by a single click on the **Reset dashboards** ![](images/ug/dashboards/Dashboard_Reset_icon.png)  button in the dashboard panel toolbar.
 
 To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press the **Reset dashboards** button in the dashboard panel toolbar.
 
@@ -83,13 +85,13 @@ Parameter|Description
 ID| Defines dashboard's ID. Make sure that ID has numeric values in it.
 Name|Defines dasboard's name.
 Database|Defines the database driver. To learn moe about database drivers, see Database Drivers.
-Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if.... Select statistics type if....
-Calc type|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if... Select delta if...
-Value type|Defines the value type. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data.
-Interval|Defines time interval for running a query. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
-Fetch type|Defines...
-Description| Defines the description of a dashboard. Use this field to make it easy to understand what a dashboard is about.
-Queries|Defines a SQL query to be run by the dashboard.
+Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the current state of the server. Select statistics type if your dashboard will show historical data.
+Calc type|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if you're interested in the current value. Select delta if you want to track the difference between the current value and the previous one. This may be very useful when you work with statistics data, for example.
+Value type|Defines the value to be shown on the range domain. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data, for example, memory usage is convinient to be tracked in KBytes.
+Interval|Defines time interval to be shown on the domain axis. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
+Fetch type|Defines whether the query should fetch data from rows or columns.
+Description| Defines the description of a dashboard. Use this field to make it easy to understand what kind of information the dashboard represents.
+Queries|Defines an SQL query whose fetched data will be used to build the chart displayed on the dashboard.
 Default view|Defines the default visual representation of a dashboard on the dashboard panel. The following options are available: Bar, Pie, Time series(the default option).
 Update period(ms)|Defines how often the dashboard's rendering should be updated.
 Maximum items| Defines maximum number of items to be fetched for the dashboard.
