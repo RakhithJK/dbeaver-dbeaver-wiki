@@ -26,7 +26,7 @@ Icon|Name|Description
 
 ## Adding Dashboards 
 
-To add a dashboard to the Dashboard panel press button **Add dashboard** ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboard panel's toolbar and choose one of the dashboards from the list of available dashboards. 
+To add a dashboard to the Dashboard panel press button **Add dashboard** ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboard panel's toolbar, choose one of the dashboards from the list of available dashboards and press the **Add** button. 
 
 ![](images/ug/dashboards/Adding_dashboard_By_Toolbar_Btn.png)
 
