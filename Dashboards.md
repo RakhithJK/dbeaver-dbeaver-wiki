@@ -2,7 +2,7 @@
 
 By default, DBeaver is delivered with a number of predefined sets of dashboards for such data bases as PostgreSQL, MySQL, Oracle and Exasol. Custom dashboards are also supported. To learn more about custom dashboards, see Creating a New Dashboard section below.
 
-# Managing Dashboards Panel
+# Managing Dashboard Panel
 
 Dashboard panel is a collection of real-time dashboards, that is dashboards that are continuously updated. 
 Dashboards displayed on the dashboard panel are actually a combination of continiously run SQL SELECT queries and charts continiously built on the data fetched.
@@ -28,19 +28,19 @@ Icon|Name|Description
 
 To add a dashboard to the Dashboard panel press button **Add dashboard** ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboard panel's toolbar and choose one of the dashboards from the list of available dashboards. 
 
-![](images/ug/*.png)
+![](images/ug/dashboards/Adding_dashboard_By_Toolbar_Btn.png)
 
 **Note** Different databases have different sets of predefined dashboards. DBeaver is delivered with sets of predefined dashboards for such databases as Postgress SQL, MySQL, Oracle, and Exasol. It is also possible to create new custom dashboards, for more details see Creating New Dashboards.
 
 You can also add a dashboard by right-click in any place of the dashboard panel and then select the **Add dashboard** menu option.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/Adding_dashboard_By_Menu_Optn.png)
 
 ## Removing Dashboards
 
 To remove a dashboard from the Dashboard panel, click on the dashboard you want to remove and press the button **Remove dashboard** ![](images/ug/dashboards/Dashboard_Remove_icon.png) in the dashboard panel toolbar  or select **Remove dashboard** option in the dashboard's context menu.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/Adding_dashboard_By_Menu_Optn.png)
 
 ## Resetting Dashboards
 
@@ -104,35 +104,35 @@ If you have several monitors and would like to place a dashboard into a separate
 
 To detach the whole dashboard panel right click on the dashboard's tab name and select the **Detach**menu option.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_Detach.png) 
 
 To detach a single dashboard make a double left click over it. You can also right click the dashboard and choose the View Dashboard option in the context menu opened.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_View_dashboard.png) 
 
 ## Changing Dashboard View
 
 You can change representation of a dashboard and view it as a Pie, Bar or Time series. To change the view of a dashboard, right click on it and select option **View as** menu option and select the view you prefer.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_View_as.png) 
 
 ## Copying Dashboards to Clipboard 
 
 To copy a dashboard into the clipboard, right click on the dashboard and use *Copy to Clipboard* menu option.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_Copy_to_clipboard.png)
 
 ## Saving Dashboards
 
 If you want to save a screenshot of a dashboard locally in PNG format, right click on it and select the **Save as ...** option in the context menu displayed. 
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_Save_as.png)
 
 ## Printing Dashboards
 
 If you want to print out a screenshot of a dashboard, right-click the dashboard to be printed and select the **Print…** option.
 
-![](images/ug/*.png)
+![](images/ug/dashboards/context_menu_Print.png)
                                                                                                                                                                                                                           
 ## Zooming 
 
@@ -141,6 +141,8 @@ For Time series and Bar dashboard representation the following zooming options a
 * Zoom In
 * Zoom Out
 * Zoom Reset
+
+![](images/ug/dashboards/context_menu_Zoom.png)
 
 # Managing Dashboards 
 
