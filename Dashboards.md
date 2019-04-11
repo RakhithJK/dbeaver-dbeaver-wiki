@@ -98,7 +98,7 @@ Parameter|Description
 
 **Note** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as templates to create new dashboards with any query and other settings. To learn about creating new dashboards, see Managing Dashboards section. 
 
-##Setting Connection Prefereces
+## Setting Connection Prefereces
 
 By default, if there is no active connection to the database and you open its dashboards panel, all the dashboards on the panel will be empty.
 
