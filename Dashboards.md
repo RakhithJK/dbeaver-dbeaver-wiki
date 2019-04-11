@@ -40,7 +40,7 @@ You can also add a dashboard by right-click in any place of the dashboard panel 
 
 To remove a dashboard from the Dashboard panel, click on the dashboard you want to remove and press the button **Remove dashboard** ![](images/ug/dashboards/Dashboard_Remove_icon.png) in the dashboard panel toolbar  or select **Remove dashboard** option in the dashboard's context menu.
 
-![](images/ug/dashboards/Adding_dashboard_By_Menu_Optn.png)
+![](images/ug/dashboards/context_menu_Remove.png)
 
 ## Resetting Dashboards
 
