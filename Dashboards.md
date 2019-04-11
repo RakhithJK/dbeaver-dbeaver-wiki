@@ -56,27 +56,27 @@ To reset a particular dashboard right-click on it and select **Reset dashboards*
 
 To adjust dashboard representation settings right click on a dashboard and select the **Settings** menu option, and in the opened dialog change the required parameters. 
 
-IMG
+![](images/ug/dashboards/RepresentationSettings_DialogBox.png)
 
 The following dashboard representation parameters can be adjusted:
 
 Parameter|Description
 ----|-----
 Name|Defines a name of a dashboard.
-Description| Defines dashboard description.
-Update periods(ms)| Defines how often data should be fetched from the database. The default value is 1000 ms. 
+Description| Defines dashboard's description.
+Update periods(ms)| Defines how often dashboard's rendering should be updated. The default value is 1000 ms. 
 Maximum items|Defines maximum number of fetched items. The default value is 300.
-View| Defines vsual representation of the dashboard. The following options are available: Bar, Pie, Time series.
-Show legend| If this check-box is selected, the legend is displayed on the dashboard.
-Show grid| If this check-box is selected, the grid is displayed on the dashboard.
-Show domain axis| If this check-box is selected, the domain axis is displayed. 
-Show range axis|If this check-box is selected, the range axis is displayed. 
+View| Defines visual representation of the dashboard. The following options are available: Bar, Pie, Time series.
+Show legend| If this check-box is selected, the legend will be displayed on the dashboard.
+Show grid| If this check-box is selected, the grid will be displayed on the dashboard.
+Show domain axis| If this check-box is selected, the domain axis will be displayed on the dashboard. 
+Show range axis|If this check-box is selected, the range axis will be displayed on the dashboard. 
 
 ## Adjusting Dashboard Configuration
 
-To adjust dashboard configuration right-click on a dashboard and select the **Settings** menu option, in the opened dialog box press the **Configuration** button. 
+To adjust dashboard configuration right-click on a dashboard and select the **Settings** menu option, in the opened dialog box press the **Configuration** menu option. 
 
-IMG
+![](images/ug/dashboards/ConfigurationSettings_DialogBox.png)
 
 The following dashboard parameters can be configured:
 
@@ -84,8 +84,8 @@ Parameter|Description
 ----|-----
 ID| Defines dashboard's ID. Make sure that ID has numeric values in it.
 Name|Defines dasboard's name.
-Database|Defines the database driver. To learn moe about database drivers, see Database Drivers.
-Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the current state of the server. Select statistics type if your dashboard will show historical data.
+Database|Defines the database driver. To learn moe about database drivers, see [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers).
+Data type|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the actual value returned by the server. Select statistics type if your dashboard will show historical data.
 Calc type|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if you're interested in the current value. Select delta if you want to track the difference between the current value and the previous one. This may be very useful when you work with statistics data, for example.
 Value type|Defines the value to be shown on the range domain. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data, for example, memory usage is convinient to be tracked in KBytes.
 Interval|Defines time interval to be shown on the domain axis. The following time intervals are available: millicecond(the default option), second, minute, hour, day, week, month, year.
