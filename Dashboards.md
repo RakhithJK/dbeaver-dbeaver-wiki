@@ -155,7 +155,7 @@ For Time series and Bar dashboard representations the following zooming options 
 
 ## Creating Dashboards
 
-You can create a new custom dashboard either from scratch or from already existing dashboards. 
+You can create a new custom dashboard either from scratch or from any of already existing dashboards. 
 
 ### To create a dashboard from scratch:
 
