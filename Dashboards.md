@@ -160,8 +160,8 @@ You can create a new custom dashboard either from scratch or from already existi
 ### To create a dashboard from scratch:
 
 1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
-2. In the opened dialog box click **Manage**.
-3. In the **Manage dashboards** window click **New dashboard**.
+2. In the opened dialog box click **Manage...** button.
+3. In the **Manage dashboards** window click **New dashboard...** button.
 4. Set up all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
 
 ![](images/ug/dashboards/New_dashboard_from_scratch.png)
@@ -169,7 +169,7 @@ You can create a new custom dashboard either from scratch or from already existi
 ### To create a dashboard from template:
 
 1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
-2. In the opened dialog box click **Manage**.
+2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window select any of the existing dashboards from the list and click **Copy**.
 4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
 
@@ -178,13 +178,13 @@ You can create a new custom dashboard either from scratch or from already existi
 ## Editing Dashboards
 
 If you need to change dashboard's name , ID or any other configurational setting, you can edit a dashboard.
-**Note:** Only custom dashboards can be edited, predefined dashboards are read-only, but you can use them as templates and create a custom dashboard whose parameters will be editable. To learn how to create dashboards from templates, see Creating Dashboards.
+**Note:** Only custom dashboards can be edited, predefined dashboards are read-only, but you can use them as templates and create a custom dashboard whose parameters will be editable. To learn how to create dashboards from templates, see [Creating Dashboards](https://github.com/dbeaver/dbeaver/wiki/Dashboards#creating-dashboards).
 
 ### To edit dashboard's configuration:
 
 1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
-2. In the opened dialog box click **Manage**.
-3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Edit**.
+2. In the opened dialog box click **Manage...** button.
+3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Edit...**.
 4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
 
 ![](images/ug/dashboards/Editting_dashboard.png)
@@ -198,7 +198,7 @@ If you want to delete a dashboard, follow the steps described below.
 ### To delete a dashboard:
 
 1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
-2. In the opened dialog box click **Manage**.
+2. In the opened dialog box click **Manage...** dashboards.
 3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Delete**.
 
 ![](images/ug/dashboards/Deleting_dashboard.png)
