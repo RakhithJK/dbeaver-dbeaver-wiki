@@ -180,6 +180,7 @@ You can create a new custom dashboard either from scratch or from any of already
 ## Editing Dashboards
 
 If you need to change dashboard's name , ID or any other configurational setting, you can edit a dashboard.
+
 **Note:** Only custom dashboards can be edited, predefined dashboards are read-only, but you can use them as templates and create a custom dashboard whose parameters will be editable. To learn how to create dashboards from templates, see [Creating Dashboards](https://github.com/dbeaver/dbeaver/wiki/Dashboards#creating-dashboards).
 
 ### To edit dashboard's configuration:
