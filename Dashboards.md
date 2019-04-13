@@ -153,6 +153,8 @@ For Time series and Bar dashboard representations the following zooming options 
 
 # Managing Dashboards 
 
+You can extend the list of predefined default dashboards by creating your own custom dashboards. This section describes dashboards' list management.
+
 ## Creating Dashboards
 
 You can create a new custom dashboard either from scratch or from any of already existing dashboards. 
