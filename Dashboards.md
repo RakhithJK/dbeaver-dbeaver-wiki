@@ -9,7 +9,7 @@ Dashboards displayed on the dashboards panel are actually a combination of conti
 
 ## Opening Dashboard Panel
 
-To open dashboards panel click the **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) in the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](https://github.com/dbeaver/dbeaver/wiki/Database-Connections).
+To open dashboards panel **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) in the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](https://github.com/dbeaver/dbeaver/wiki/Database-Connections).
 
 You can also right-click a connection name in the **Database Navigator** editor and select **Open Dashboard** menu option or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> and the dashboards panel will be opened. 
 
@@ -26,7 +26,7 @@ Icon|Name|Description
 
 ## Adding Dashboards 
 
-To add a dashboard to the dashboards panel, press the **Add dashboard** button ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboards panel's toolbar, choose one of the dashboards from the list of available dashboards and press the **Add** button. 
+To add a dashboard to the dashboards panel, press **Add dashboard** button ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboards panel's toolbar, choose one of the dashboards from the list of available dashboards and press **Add** button. 
 
 ![](images/ug/dashboards/Adding_dashboard_By_Toolbar_Btn.png)
 
@@ -38,7 +38,7 @@ You can also add a dashboard by right-click in any place of the dashboards panel
 
 ## Removing Dashboards
 
-To remove a dashboard from the dashboards panel, click on the dashboard you want to remove and press the button **Remove dashboard** ![](images/ug/dashboards/Dashboard_Remove_icon.png) in the dashboards panel toolbar or select **Remove dashboard** option in the dashboard's context menu.
+To remove a dashboard from the dashboards panel, click on the dashboard you want to remove and press button **Remove dashboard** ![](images/ug/dashboards/Dashboard_Remove_icon.png) in the dashboards panel toolbar or select **Remove dashboard** option in the dashboard's context menu.
 
 ![](images/ug/dashboards/context_menu_Remove.png)
 
@@ -46,9 +46,9 @@ To remove a dashboard from the dashboards panel, click on the dashboard you want
 
 If you want to restart dashboard's calculation you can reset it.
 
-You can reset all the dashboards displayed in the dashboards panel by a single click on the **Reset dashboards** ![](images/ug/dashboards/Dashboard_Reset_icon.png)  button in the dashboard panel's toolbar.
+You can reset all the dashboards displayed in the dashboards panel by a single click on **Reset dashboards** ![](images/ug/dashboards/Dashboard_Reset_icon.png) button in the dashboard panel's toolbar.
 
-To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press the **Reset dashboards** button in the dashboards panel's toolbar.
+To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press **Reset dashboards** button in the dashboards panel's toolbar.
 
 ![](images/ug/dashboards/context_menu_Reset.png)
 
@@ -102,7 +102,7 @@ Parameter|Description
 
 By default, if there is no active connection to the database and you open its dashboards panel, all the dashboards on the panel will be empty.
 
-You can force database connection on the dashboard panel's activation by pressing the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) on the dashboards panel's toolbar and then selecting the **Connect on activation** check-box.
+You can force database connection on the dashboard panel's activation by pressing **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) on the dashboards panel's toolbar and then selecting the **Connect on activation** check-box.
 
 
 ## Detaching Dashboards 
@@ -161,7 +161,7 @@ You can create a new custom dashboard either from scratch or from any of already
 
 ### To create a dashboard from scratch:
 
-1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
+1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window click **New dashboard...** button.
 4. Set up all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
@@ -170,7 +170,7 @@ You can create a new custom dashboard either from scratch or from any of already
 
 ### To create a dashboard from template:
 
-1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
+1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window select any of the existing dashboards from the list and click **Copy**.
 4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
@@ -185,7 +185,7 @@ If you need to change dashboard's name , ID or any other configurational setting
 
 ### To edit dashboard's configuration:
 
-1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
+1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Edit...**.
 4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](https://github.com/dbeaver/dbeaver/wiki/Dashboards#adjusting-dashboard-configuration).
@@ -200,7 +200,7 @@ If you want to delete a dashboard, follow the steps described below.
 
 ### To delete a dashboard:
 
-1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
+1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** dashboards.
 3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Delete**.
 
