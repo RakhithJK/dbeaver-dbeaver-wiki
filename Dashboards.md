@@ -194,7 +194,7 @@ If you need to change dashboard's name , ID or any other configurational setting
 
 ## Deleting Dashboards
 
-**Note** Predefined dashboards cannot be deleted, but any of the custom dashboards can be deleted. 
+**Note:** Predefined dashboards cannot be deleted, but any of the custom dashboards can be deleted. 
 
 If you want to delete a dashboard, follow the steps described below.
 
