@@ -41,7 +41,7 @@
   - [[File Search]]
   - [[DB Full-Text Search]]
   - [[DB Metadata Search]]
-- [[Dashboards &amp% DB monitoring|Dashboards]]
+- [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
 - [[Bookmarks]]
 - [[Shortcuts]]
