@@ -83,6 +83,7 @@
 - [[Clickhouse]]
 
 #### Troubleshooting
+- [[Command-Line]]
 - [[Reset UI settings]]
 - [[Reset workspace]]
 - [[Posting issues]]
@@ -92,7 +93,6 @@
 #### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
-- [[Command-Line]]
 - [[Windows Silent Install]]
 
 #### Development
