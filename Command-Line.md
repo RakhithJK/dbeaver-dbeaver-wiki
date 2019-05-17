@@ -62,4 +62,4 @@ prop.propName|Advanced connection parameters (depend on driver)|`prop.connectTim
 id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjunction with `create=false`)
 connect|Connect to this database|`connect=false`
 openConsole|Open SQL console for this database (sets `connect` to true)|`openConsole=true`
-create|Create new connection|`create=false` (true by default, if set to false then existing connection configuration will be used)
+create|Create new connection|`create=false` (true by default). If set to false then existing connection configuration will be used. name or id parameter must be specified.
