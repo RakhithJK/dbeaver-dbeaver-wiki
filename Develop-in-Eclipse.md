@@ -5,46 +5,52 @@ It consists of a set of Eclipse plugins, features and products.
 
 You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2018-09/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2018-09. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
+
 1. Open main menu Help -> Install New Software
-1. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
-1. Check all plugins and finish the installation process:
-    <img src="images/development/eclipse/dbv_repo.png" width="400"/>
-1. Do the same for `http://eclipse-color-theme.github.com/update`
 
-1. Restart Eclipse
-1. Checkout DBeaver repository somewhere with `git clone https://github.com/dbeaver/dbeaver.git` command.
-1. In Eclipse run Import wizard
-    <img src="images/development/eclipse/context-menu-import.png" width="250"/>
+2. Copy `http://dbeaver.io/eclipse-repo/` into "Work with" field and press enter
 
-1. Choose "General->Existing Maven Projects".
-    <img src="images/development/eclipse/import-maven-1.png" width="400"/>
+3. Check all plugins and finish the installation process:
+    ![](images/development/eclipse/dbv_repo.png)
 
-1. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.
-    <img src="images/development/eclipse/import-maven-2.png" width="400"/>
+4. Do the same for `http://eclipse-color-theme.github.com/update`
 
-1. Eclipse will perform project configuration process. This may take a few minutes.
-    <img src="images/development/eclipse/import-maven-3.png" width="400"/>
+5. Restart Eclipse
 
-1. If Eclipse will ask about additional plugin install - just agree:
-    <img src="images/development/eclipse/import-maven-4.png" width="400"/> 
-    <img src="images/development/eclipse/import-maven-5.png" width="400"/> 
-    <img src="images/development/eclipse/import-maven-6.png" width="400"/> 
+6. Checkout DBeaver repository somewhere with `git clone https://github.com/dbeaver/dbeaver.git` command.
 
-1. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
-1. Switch to Hierarchical projects presentations
-    <img src="images/development/eclipse/eclipse-project-hierarchy.png" width="400"/> 
+7. In Eclipse run Import wizard
+    ![](images/development/eclipse/context-menu-import.png)
 
-1. If some modules build will fail (they will be marked with red cross) - update Maven project
-    <img src="images/development/eclipse/eclipse-maven-update.png" width="400"/> 
+8. Choose "General->Existing Maven Projects".
+    ![](images/development/eclipse/import-maven-1.png)
+
+9. Select DBeaver checkout directory. Check all plugins and features Eclipse will find and finish the wizard.
+    ![](images/development/eclipse/import-maven-2.png)
+
+10. Eclipse will perform project configuration process. This may take a few minutes.
+    ![](images/development/eclipse/import-maven-3.png)
+
+11. If Eclipse will ask about additional plugin install - just agree:
+    ![](images/development/eclipse/import-maven-4.png)
+    ![](images/development/eclipse/import-maven-5.png)
+    ![](images/development/eclipse/import-maven-6.png)
+
+12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
+13. Switch to Hierarchical projects presentations
+    ![](images/development/eclipse/eclipse-project-hierarchy.png)
+
+14. If some modules build will fail (they will be marked with red cross) - update Maven project
+    ![](images/development/eclipse/eclipse-maven-update.png)
 
 
 ## Running and Debugging in Eclipse
 
 1. Import DBeaver launch configuration using Eclipse Import wizard:  
-    <img src="images/development/eclipse/import-launch-configuration.png" width="400"/> 
-1. Click on Debug icon in the main toolbar->Debug configurations.
-1. Choose DBeaver.product and click Debug button
-    <img src="images/development/eclipse/debug-dialog.png" width="400"/> 
+    ![](images/development/eclipse/import-launch-configuration.png)
+2. Click on Debug icon in the main toolbar->Debug configurations.
+3. Choose DBeaver.product and click Debug button
+    ![](images/development/eclipse/debug-dialog.png)
 
 If product won't start with `No application id has been found` error try this workaround:
 https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found  
