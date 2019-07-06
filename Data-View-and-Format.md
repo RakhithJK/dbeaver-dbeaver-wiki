@@ -120,7 +120,7 @@ For complex data types (that themselves represent a structure), such as objects,
 
 ![](images/ug/Structurize.png)
 
-To do so, right-click a cell in the column and, on the context menu, click **View/Format -> Structurize complex types**.
+To do so, right-click a cell in the column and, on the context menu, click **View/Format -> Visualize complex columns**.
 
 ## Configuring Numeric and Time Data Formats
 You can specify the exact format of Time, Timestamp, Date, and Number data used in the currently open database or globally. To specify a format, right-click any cell in the table and, on the context menu, click **View/Format -> Data formats**. The Properties window opens displaying the **Data Formats** page:
