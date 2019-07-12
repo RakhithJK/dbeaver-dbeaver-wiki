@@ -52,5 +52,7 @@ P2 repository URL: https://dbeaver.io/update/sshj/latest/
 
 ### Git integration
 
-Choose Oxygen (or other Eclipse version item) in available items:
-  ![](images/p2-install-git.png)
+Integrates Git version control into DBeaver UI and workflow.  
+
+P2 repository URL: https://dbeaver.io/update/git/latest/
+
