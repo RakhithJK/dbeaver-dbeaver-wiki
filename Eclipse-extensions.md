@@ -14,6 +14,7 @@ Most of extensions can be found on [[Eclipse Marketplace|https://marketplace.ecl
 - [[Office formats support (XLSX)|https://marketplace.eclipse.org/content/dbeaver-office-integration]]
 - [[Vector graphics support (SVG)|https://marketplace.eclipse.org/content/dbeaver-svg-support]]
 - [[SSHJ and advanced cryptography|https://marketplace.eclipse.org/content/dbeaver-sshj-support]]
+- [[Git support|https://marketplace.eclipse.org/content/dbeaver-git]]
 - [[SQL debugger|https://marketplace.eclipse.org/content/dbeaver-sql-debugger]]
 
 # Install Process
