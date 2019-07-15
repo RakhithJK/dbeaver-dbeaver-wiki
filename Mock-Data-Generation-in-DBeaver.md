@@ -1,6 +1,6 @@
 Sometimes in software development we need to generate mock, but valid, data for testing. Populating a database manually is a time-consuming and exhausting process. It can be very complicated when you need to generate not just 5–10 users, but thousands of entities of different types. DBeaver Mock Data generator helps you generate test data much easier.
 
-[[/images/mockdata_menu.png]] [[/images/mockdata_button.png]]
+![](images/mockdata_menu.png) ![](images/mockdata_button.png)
 
 > _Disclaimer:_ The idea behind Mock Data is to generate mock data in a table but it should **NOT TO BE USED IN PRODUCTION ENVIRONMENTS**. Please make sure you have a backup of your database before running the Mock Data generation process.
 
@@ -14,7 +14,7 @@ Th following are features of DBeaver Mock Data generator:
 * Automatically associates a column with a generator based on the column characteristics
 * Saves or overwrites old database data
 
-[[/images/mockdata_wizard_2.png]]
+![](images/mockdata_wizard_2.png)
 
 The following are mock data generators for data types with their configurable parameters:
 * Boolean
@@ -62,9 +62,9 @@ The following are mock data generators for data types with their configurable pa
 * NULL values
 * FK - data from the referenced table according to the constraint
 
-[[/images/mockdata_template.png]]
+![](images/mockdata_template.png)
 
-[[/images/mockdata_progress.png]]
+![](images/mockdata_progress.png)
 
 ***
 <sup>*</sup> These features are available in the [DBeaver Enterprise Edition](https://dbeaver.com/) only.
