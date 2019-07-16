@@ -55,7 +55,7 @@ Shortcut|Action
 <kbd>F4</kbd>|Open editor of selected element(s)
 <kbd>F5</kbd>|Refresh selected element(s)
 <kbd>Delete</kbd>|Delete selected element(s) (if supported)
-<kbd>CTRL+D</kbd>|Add bookmark on selected element
+<kbd>CTRL+ALT+SHIFT+D</kbd>|Add bookmark on selected element
 <kbd>Alt+Enter</kbd>|Show properties of selected element
 <kbd>F3</kbd> <kbd>CTRL+[</kbd>|Open SQL editor for current connection ([***](#cur_connection)). Shows script selector popup.
 <kbd>CTRL+F3</kbd> <kbd>CTRL+]</kbd>|Open new SQL editor for current connection ([***](#cur_connection)). Always creates new script.
