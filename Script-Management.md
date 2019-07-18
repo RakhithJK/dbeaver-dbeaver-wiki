@@ -5,7 +5,7 @@ To save a script to the current project space, just press <kbd>Ctrl+S</kbd> or r
 
 ![](images/ug/Save-Script.png)
 
-You can find the script saved this way in the [Project Explorer](https://github.com/dbeaver/dbeaver/wiki/Project-Explorer) view in the **Scripts** folder.
+You can find the script saved this way in the [Project Explorer](../Project-Explorer) view in the **Scripts** folder.
 
 To save a script to the file system, right-click the script, click **File -> Save SQL script** on the context menu and then select the folder in the file system.  
 You can also, click **SQL Editor -> Save SQL script** on the main menu:

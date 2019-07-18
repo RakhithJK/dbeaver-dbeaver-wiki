@@ -8,7 +8,7 @@ In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Fo
 
 ![](images/ug/Preferences_DataFormats.png)
 
-Or, in the [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) right-click a connection and select **Edit Connection** menu option. 
+Or, in the [Database Navigator](../Database-Navigator) right-click a connection and select **Edit Connection** menu option. 
 
 ![](images/ug/Database_Navigator_Edit_Connection_menu_option.png)
 

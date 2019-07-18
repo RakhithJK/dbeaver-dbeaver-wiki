@@ -1,4 +1,4 @@
-Database Navigator is the main view to work with the structure and content of databases. To open Database Navigator, on the Windows menu, click **Database Navigator**. For information on how to change the view layout, please see the [Application Window Overview](https://github.com/dbeaver/dbeaver/wiki/Application-Window-Overview) article.
+Database Navigator is the main view to work with the structure and content of databases. To open Database Navigator, on the Windows menu, click **Database Navigator**. For information on how to change the view layout, please see the [Application Window Overview](../Application-Window-Overview) article.
 
 ![](images/ug/Database-Navigator.png)
 
@@ -9,15 +9,15 @@ The tree contains the following objects:
 * Database objects - various depending on the database type, such as Tables ![](images/ug/table-icon.png), Views ![](images/ug/view-icon.png), Columns ![](images/ug/column-icon-1.png) ![](images/ug/column-icon-2.png), Indexes ![](images/ug/Index-icon.png), etc.
 
 To open the view menu of Database Navigator, click the View Menu button (![](images/ug/View-menu-icon.png)) in the upper-right corner of the window. 
-For more information on where to find the view toolbar and menu, please see the [Views](https://github.com/dbeaver/dbeaver/wiki/Views) article.
+For more information on where to find the view toolbar and menu, please see the [Views](../Views) article.
 
 The menu contains the following items:
 
 Icon|Menu item|Description
 ----|---------|-----------
-![](images/ug/Driver-Manager-icon.png) |**Driver Manager**|Opens the Driver Manager window that allows creating, editing and deleting drivers for databases. See [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers) for information about managing database drivers.
-![](images/ug/New-connection-icon.png) |**New Connection**|Opens the Create new connection wizard. See [Create Connection](https://github.com/dbeaver/dbeaver/wiki/Create-Connection) for information about creating connections.
-(empty) | **Active Project** |Displays a submenu which allows you to choose a project. See [Projects](https://github.com/dbeaver/dbeaver/wiki/Projects) and [Projects view](https://github.com/dbeaver/dbeaver/wiki/Projects-View) for information about projects.
+![](images/ug/Driver-Manager-icon.png) |**Driver Manager**|Opens the Driver Manager window that allows creating, editing and deleting drivers for databases. See [Database Drivers](../Database-drivers) for information about managing database drivers.
+![](images/ug/New-connection-icon.png) |**New Connection**|Opens the Create new connection wizard. See [Create Connection](../Create-Connection) for information about creating connections.
+(empty) | **Active Project** |Displays a submenu which allows you to choose a project. See [Projects](../Projects) and [Projects view](../Projects-View) for information about projects.
 ![](images/ug/New-Folder-icon.png) |**New Folder** |Opens a dialog box for creating a new folder
 ![](images/ug/Collapse-All-icon.png) | **Collapse All** |Collapses the tree to the root level
 ![](images/ug/Link-with-Editor-icon.png) | **Link with editor** | Enabled when at least one editor is open, otherwise disabled - highlights the object in the tree that has its editor open
@@ -46,7 +46,7 @@ Menu item|Description
 **View [objects]**|-	For objects that DBeaver can create and delete, opens the object in a separate editor<br/>-	For objects that DBeaver cannot create and delete, opens the object in a separate viewer
 **Edit [object]**|-	For objects that DBeaver can create and delete, opens the object in a separate editor<br/>-	For objects that DBeaver cannot create and delete, opens the object in a separate viewer
 **Create new [object]**|Opens an editor in which you can specify properties and save the new object
-**Filter**|Opens a submenu of one or more filtering options (depending on the object):<br/>-	Hide [object]<br/>-	Show only [object]<br/>-	Configure [objects] filter<br/>-	Toggle filter<br/>-	Clear filter<br/> See [Filters](https://github.com/dbeaver/dbeaver/wiki/Filter-Database-Objects) for information.
+**Filter**|Opens a submenu of one or more filtering options (depending on the object):<br/>-	Hide [object]<br/>-	Show only [object]<br/>-	Configure [objects] filter<br/>-	Toggle filter<br/>-	Clear filter<br/> See [Filters](../Filter-Database-Objects) for information.
 **Copy Advanced Info**|Copies the full name of an object
 **Read Data in SQL Console**|Opens an SQL console displaying the object`s data
 **Copy Advanced Info**|Copies the full name of an object
@@ -57,4 +57,4 @@ Menu item|Description
 **Import Table Data**|Opens a window with existing database connections in which you can select a table to import data from 
 **Tools**|Opens a submenu that provides tools for database backup and restore, vacuum, etc.
 
-For information on how to filter database objects in Database Navigator, please see the [Filter Database Objects](https://github.com/dbeaver/dbeaver/wiki/Filter-Database-Objects) article.
+For information on how to filter database objects in Database Navigator, please see the [Filter Database Objects](../Filter-Database-Objects) article.

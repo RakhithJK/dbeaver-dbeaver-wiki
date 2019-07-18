@@ -1,13 +1,13 @@
 Connection types define how DBeaver behaves regarding:
 * Default transactions commit mode - with or without automatic commit of changes to the database.
 
-  NOTE: You can override the default commit behavior during your work with connections by changing the commit mode, see [Auto and Manual Commit Modes](https://github.com/dbeaver/dbeaver/wiki/Auto-and-Manual-Commit-Modes).  
+  NOTE: You can override the default commit behavior during your work with connections by changing the commit mode, see [Auto and Manual Commit Modes](Auto-and-Manual-Commit-Modes).
 
 * SQL statements execution (with or without user confirmation). If set to require user confirmation for SQL execution, DBeaver shows a confirmation message every time you attempt to execute a ‘transaction’ type of query (INSERT/DELETE/UPDATE, etc.):
 
   ![](images/ug/Confirm-query-execution-dialog.png)
 
-For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. Colored are database connections that use a certain connection type in the [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) and [Projects](https://github.com/dbeaver/dbeaver/wiki/Projects) views as well as editors related to these connections:
+For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. Colored are database connections that use a certain connection type in the [Database Navigator](Database-Navigator) and [Projects](Projects) views as well as editors related to these connections:
 
 ![](images/ug/Colored_connections.png)
 
@@ -21,6 +21,7 @@ There are three default connection types – **Development**, **Test**, and **Pr
 By default, the **Development** connection is preset for all database connections. You can change the connection type to one of the default connection types or to a custom type, if there are any.
 
 To change the connection type:
+
 1. In the connection properties window, on the **General** page, click the **Connection type** field and then click the connection type in the dropdown list:
 
    ![](images/ug/Choose-connection-type.png)  
@@ -29,6 +30,7 @@ To change the connection type:
 
 ### Create Connection Type
 To create a connection type:
+
 1. In the connection properties window (<kbd>F4</kbd>  on a connection), on the **General** page, click **Edit** next to the **Connection type** field. The Properties for connection types window opens:
 
    ![](images/ug/Properties-for-connection-types_window.png)  
@@ -46,12 +48,14 @@ To create a connection type:
 
 ### Edit Connection Type
 To edit a connection type:
+
 1. In the connection properties window (<kbd>F4</kbd>  on a connection), on the **General** page, click **Edit** next to the **Connection type** field.
 2. Specify the settings for the new connection type the same way as when you create a connection type, see 'Create Connection Types' section above.
 3. When you finish editing the connection types, click **Apply** to apply the changes and keep the window open or click **Apply and Close** to apply the changes and close the window. To discard all changes and return to the previous state, click **Restore Defaults**.
 
 ### Delete Connection Type
 To delete a connection type:
+
 1. In the connection properties window (<kbd>F4</kbd> on a connection), on the **General** page, click **Edit** next to the **Connection type** field. The Properties for connection types window opens.
 2. In the Properties window, in the list of connection types, click the connection type to set focus to it and then click the delete button under the list: ![](images/ug/Delete-connection-type-button.png)
 3. Click **Yes** in the confirmation dialog box to confirm the deletion. Otherwise, click **No**.

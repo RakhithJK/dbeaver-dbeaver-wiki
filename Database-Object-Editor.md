@@ -1,11 +1,11 @@
-The Database object, or metadata, editor is available for multiple database objects such as tables, views and schemas. To open the metadata editor for an object, in the [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) or in the [Projects](https://github.com/dbeaver/dbeaver/wiki/Projects) view:
+The Database object, or metadata, editor is available for multiple database objects such as tables, views and schemas. To open the metadata editor for an object, in the [Database Navigator](../Database-Navigator) or in the [Projects](../Projects) view:
 * Double-click the database object
 * Click the database object and press <kbd>Enter</kbd> or <kbd>F4</kbd>
 
 The editor has three tabs:
 * **Properties** tab appears for all objects, contains properties of the database object and its sub-entities, see further in this article 
-* **Data** tab appears for tables and views and represents the [Data Editor](https://github.com/dbeaver/dbeaver/wiki/Data-Editor)
-* **ER Diagram** tab appears for tables and schemas and displays ERD (Entity Relation Diagrams), see [ER Diagrams](https://github.com/dbeaver/dbeaver/wiki/ER-Diagrams) and [Database Structure Diagrams](https://github.com/dbeaver/dbeaver/wiki/Database-Structure-Diagrams)
+* **Data** tab appears for tables and views and represents the [Data Editor](../Data-Editor)
+* **ER Diagram** tab appears for tables and schemas and displays ERD (Entity Relation Diagrams), see [ER Diagrams](../ER-Diagrams) and [Database Structure Diagrams](../Database-Structure-Diagrams)
 
 The tabs have the following common parts:
 

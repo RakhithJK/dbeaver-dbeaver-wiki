@@ -53,7 +53,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
     ![](images/development/eclipse/debug-dialog.png)
 
 If product won't start with `No application id has been found` error try this workaround:
-https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found  
+[https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found](https://stackoverflow.com/questions/13575695/eclipse-rcp-no-application-id-has-been-found)  
 > What you need to do is go to your Run Configurations (Run -> Run Configurations). Select the Plug-ins tab and then hit "Add Required Plug-ins". Apply, then Run, and it should work now.
 
 That's it.

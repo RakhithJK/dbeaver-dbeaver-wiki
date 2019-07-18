@@ -1,4 +1,4 @@
-You can configure custom filters to filter database objects in the [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator) and [Database Object Editor](https://github.com/dbeaver/dbeaver/wiki/Database-Object-Editor).
+You can configure custom filters to filter database objects in the [Database Navigator](Database-Navigator) and [Database Object Editor](Database-Object-Editor).
 
 To configure a custom filter:
 1. In the Database Navigator, right-click the object and on the context menu click **Filter -> Configure [objects] filter**. In the Database Object editor, in the toolbar of the **Properties** tab, click the Filter settings button (![](images/ug/Filter-button.png)).

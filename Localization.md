@@ -10,7 +10,7 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 
 ### Environment setup
 - Clone DBeaver repository
-  - Install [[GitHub Desktop|https://desktop.github.com/]]
+  - Install [GitHub Desktop](https://desktop.github.com/)
   - In the top menu select File -> Clone Repository
   - In the appeared popup window select the URL tab and paste DBeaver URL: `https://github.com/dbeaver/dbeaver.git`
   - Press Clone
@@ -18,7 +18,7 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 ### Localizing tools
 #### Eclipse IDE
 - Install Eclipse (any version, any package)
-- Install [[ResourceBundle Editor|http://essiembre.github.io/eclipse-rbe/]] plugin.
+- Install [ResourceBundle Editor](http://essiembre.github.io/eclipse-rbe/) plugin.
   - Main menu Help -> `Install New Software` -> `https://raw.githubusercontent.com/essiembre/eclipse-rbe/master/eclipse-rbe-update-site/site.xml`
 - Main menu -> File -> Import... -> General -> Existing Projects into Workspace -> Browse
 - Choose your DBeaver clone directory and import all projects
@@ -45,7 +45,7 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 or 
 
 Create a Pull Request with your changes (in branch `devel`)
-https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+[https://help.github.com/articles/creating-a-pull-request-from-a-fork/](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 ### Properties
 
@@ -75,8 +75,9 @@ MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/
 
 Once you have changed resource you might want to test your changes.
 You can:
-- Run DBeaver directly from [[Eclipse workspace|Develop-in-Eclipse]]
-- [[Build DBeaver from source|Build-from-sources]] and run executable
+
+- Run DBeaver directly from [Eclipse workspace](../Develop-in-Eclipse)
+- [Build DBeaver from source](../Build-from-sources) and run executable
 
 ### Changing interface language
 

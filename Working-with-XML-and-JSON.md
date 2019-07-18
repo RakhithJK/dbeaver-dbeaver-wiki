@@ -34,4 +34,4 @@ Use **Auto Format** feature to automatically change the appearance of XML/JSON s
 
 ![](images/ug/JSON_editor_auto_format.png)
 
-To learn more about **Value** panel, see [Panels](https://github.com/dbeaver/dbeaver/wiki/Panels#value-viewer).
+To learn more about **Value** panel, see [Panels](../Panels#value-viewer).

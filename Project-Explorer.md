@@ -2,7 +2,7 @@ The Project Explorer view displays detailed contents of the currently active pro
 
 ![](images/ug/Project_Explorer-view.png)
 
-For information on how to change the view layout, please see the [Application Window Overview](https://github.com/dbeaver/dbeaver/wiki/Application-Window-Overview) article.
+For information on how to change the view layout, please see the [Application Window Overview](../Application-Window-Overview) article.
 
 The title of the Project Explorer includes the name of the project: Project – [Project name]. **General** is a project that initially exists in the system by default.
 
