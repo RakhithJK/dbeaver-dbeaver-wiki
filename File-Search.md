@@ -8,7 +8,7 @@ The Search window opens displaying the File Search tab:
 
 You can apply case sensitive search, search by regular expressions, search among particular file types (**File name patterns** field), and use the find and replace function.
 
-After you click **Search**, the results appear in a [Search](https://github.com/dbeaver/dbeaver/wiki/Search) view. The results represent a tree or list of files with the search combination highlighted:
+After you click **Search**, the results appear in a [Search](../Search) view. The results represent a tree or list of files with the search combination highlighted:
 
 ![](images/ug/File-search-results-view.png)
 

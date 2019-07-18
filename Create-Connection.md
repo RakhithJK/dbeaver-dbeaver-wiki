@@ -22,7 +22,7 @@ Then, in the **Create new connection** wizard:
    ![](images/ug/Wizard-select-connection.png)  
 
    To quickly find the needed driver, you can type a hint in the text field above the list of drivers.  
-   If you cannot find a driver for your database then probably there is no suitable driver and you need to create one. Please see [Database Drivers](https://github.com/dbeaver/dbeaver/wiki/Database-drivers) article.  
+   If you cannot find a driver for your database then probably there is no suitable driver and you need to create one. Please see [Database Drivers](../Database-drivers) article.  
 
    NOTE: The list of database drivers diaplays the number of exising connections next to each driver. No number is displayed if there are no connections.
 

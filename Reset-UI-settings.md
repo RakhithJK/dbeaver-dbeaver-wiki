@@ -8,6 +8,7 @@ So default workbench.xmi file locations is:
 - MacOS and Linux: `~/.dbeaver4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi`
 
 To reset settings:
+
 1. Close DBeaver
-1. Open terminal and run `del` (Windows) or `rm` (Linux/MacOS) followed by workbench.xmi path.
-1. Start DBeaver
+2. Open terminal and run `del` (Windows) or `rm` (Linux/MacOS) followed by workbench.xmi path.
+3. Start DBeaver

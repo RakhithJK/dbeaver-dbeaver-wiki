@@ -4,7 +4,7 @@ The Projects view displays all projects created in the system and provides tools
 
 ![](images/ug/Projects-view.png)
 
-For information on how to change the view layout, please see the [Application Window Overview](https://github.com/dbeaver/dbeaver/wiki/Application-Window-Overview) article.
+For information on how to change the view layout, please see the [Application Window Overview](../Application-Window-Overview) article.
 
 The projects are organized into a tree and all have the same high-level structure:
 * **Connections** – repeat the content of the Database Navigator view for this project. You can perform the same actions over the objects of the databases as in Database Navigator.
@@ -26,8 +26,8 @@ Icon|Item|Description
 The toolbar is located in the title bar of the window, its buttons duplicate the view menu items except for the **Refresh Projects** one.
 
 To open the context menu for an object in the tree, right-click the object.
-For information about context menu items of all objects under the **Connections** node of the tree, please see [Database Navigator](https://github.com/dbeaver/dbeaver/wiki/Database-Navigator).  The context menus of other nodes in the tree contain some basic items for copy-pasting, renaming, deleting objects, managing their properties, creating folders, etc.
+For information about context menu items of all objects under the **Connections** node of the tree, please see [Database Navigator](../Database-Navigator).  The context menus of other nodes in the tree contain some basic items for copy-pasting, renaming, deleting objects, managing their properties, creating folders, etc.
 * The **Set Active Project** menu item (for a project root node) makes the project active, that is visible in the Database Navigator. 
 * The **Link File (SQL Script)** and **Link Folder** menu items allow creating links to files and folders in the file system.
 
-For information about managing projects, please see [Projects](https://github.com/dbeaver/dbeaver/wiki/Projects) article.
+For information about managing projects, please see [Projects](../Projects) article.

@@ -29,9 +29,9 @@ You can hide or show the toolbar in the application window. To do it, on the Win
 There are two shortcut bars - on the left and on the right side of the workspace zone. Shortcut bars host shortcuts of views and editors and appear if at least one view or editor is minimized, otherwise they are hidden.
 
 # Workspace: Views and Editors
-Views are windows within the workspace that provide presentations and ways to navigate the information. For more information about particular views, see [Views](https://github.com/dbeaver/dbeaver/wiki/Views) article.
+Views are windows within the workspace that provide presentations and ways to navigate the information. For more information about particular views, see [Views](../Views) article.
 
-Editors are windows in which you can interact with the content of files and databases. For more information about particular editors, see [Editors](https://github.com/dbeaver/dbeaver/wiki/Editors) article.
+Editors are windows in which you can interact with the content of files and databases. For more information about particular editors, see [Editors](../Editors) article.
 
 Both views and editors can appear as separate windows or as tabs stacked with other views/editors in a tabbed window. The following image shows the title bar of a tabbed window. If tabs do not fit in the title bar of a tabbed window, they become hidden. To see the list of hidden tabs, click the Show List icon that also indicates their number:
 

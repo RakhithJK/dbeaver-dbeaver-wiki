@@ -1,6 +1,6 @@
 It is possible to install DBeaver in silent mode using Windows Installer command line parameters.  
 This might be very useful for mass install automation (SSCM and other similar systems).  
-Installer was improved in DBeaver 5.3.3, special thanks to https://github.com/Drizin/NsisMultiUser team.  
+Installer was improved in DBeaver 5.3.3, special thanks to [https://github.com/Drizin/NsisMultiUser](https://github.com/Drizin/NsisMultiUser) team.  
 
 ### Parameters 
 

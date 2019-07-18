@@ -23,8 +23,8 @@ OR you can install it manually the same way as in CE version (see above)
 This extension supports data export in Office formats (XLS). IT works for all platforms and all popular Offices - MS Office, Open Office, Libre Office, MacOS X.  
 It is included in EE version.  
 
-Marketplace URL: https://marketplace.eclipse.org/content/dbeaver-office-integration  
-P2 repository URL: https://dbeaver.io/update/office/latest/
+Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-office-integration](https://marketplace.eclipse.org/content/dbeaver-office-integration)  
+P2 repository URL: [https://dbeaver.io/update/office/latest/](https://dbeaver.io/update/office/latest/)
 
   ![](images/office-open-excel.png)
 
@@ -33,26 +33,24 @@ P2 repository URL: https://dbeaver.io/update/office/latest/
 This extension supports SQL debugger in PostgreSQL.  
 It is included in EE version.  
 
-Marketplace URL: https://marketplace.eclipse.org/content/dbeaver-sql-debugger
-P2 repository URL: https://dbeaver.io/update/debug/latest/
+Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-sql-debugger](https://marketplace.eclipse.org/content/dbeaver-sql-debugger)
+P2 repository URL: [https://dbeaver.io/update/debug/latest/](https://dbeaver.io/update/debug/latest/)
 
 ### SVG format support
 
 This extension supports ERD export in SVG (vector) format.  
 It is included in EE version.  
 
-Marketplace URL: https://marketplace.eclipse.org/content/dbeaver-svg-support  
-P2 repository URL: https://dbeaver.io/update/svg/latest/
+Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-support](https://marketplace.eclipse.org/content/dbeaver-svg-support)  
+P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/update/svg/latest/)
 
 ### Advanced SSH tunnel libraries
 
 Needed to support more key formats (e.g. ed25519).  
 
-P2 repository URL: https://dbeaver.io/update/sshj/latest/
+P2 repository URL: [https://dbeaver.io/update/sshj/latest/](https://dbeaver.io/update/sshj/latest/)
 
 ### Git integration
 
-Integrates Git version control into DBeaver UI and workflow.  
-
-P2 repository URL: https://dbeaver.io/update/git/latest/
-
+Choose Oxygen (or other Eclipse version item) in available items:
+  ![](images/p2-install-git.png)
