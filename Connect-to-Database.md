@@ -1,6 +1,6 @@
-To be able to work with the content and structure of a database, you need to connect to it. When you create a new connection to a database, DBeaver automatically connects to the new database, see [Create Connection](../Create-Connection).
+To be able to work with the content and structure of a database, you need to connect to it. When you create a new connection to a database, DBeaver automatically connects to the new database, see [Create Connection](Create-Connection).
 
-To connect to a database using an existing connection, in the [Database Navigator](../Database-Navigator) or [Projects](../Projects) view, click the connection and then click the Connect button in the toolbar or click **Database -> Connect** on the main menu:
+To connect to a database using an existing connection, in the [Database Navigator](Database-Navigator) or [Projects](Projects) view, click the connection and then click the Connect button in the toolbar or click **Database -> Connect** on the main menu:
 
 ![](images/ug/Connect-to-DB.png)
 
