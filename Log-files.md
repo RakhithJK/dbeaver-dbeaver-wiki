@@ -10,11 +10,12 @@ Also you can open full log (all error messages) if you need:
 
 DBeaver writes different log files. Most of them are Eclipse logs.  
 Usually log files reside in the workspace.  
-Default workspace location is in the user home subfolder `.dbeaver4`. (`${HOME}/.dbeaver4`). 
-- On Windows you usually can find it in `C:\Users\YourName\.dbeaver4`.  
-- On Linux just type `cd ~/.dbeaver/.metadata`
+
+Default workspace location is in the user home subfolder `DBeaverData`. 
+- On Windows you usually can find it in `%APPDATA%\DBeaverData\workspace6\.metadata`.  
+- On Linux just type `cd $XDG_DATA_HOME/DBeaverData/workspace6/.metadata`
 - On MacOS: 
-  - Type `cd ~/.dbeaver4/.metadata`
+  - Type `cd ~/Library/DBeaverData/workspace6/.metadata`
   - Type `open .`
   - To view hidden folders press <kbd>Cmd+Shift+.</kbd> in the folder view.
 
@@ -30,3 +31,9 @@ Two typical places to find emergency logs:
 
 If you are reporting about some error please attach logs (not complete file but valuable part of it).  
 Logs are very useful, big number of errors can't be reproduced/fixed without full error stacktrace.
+
+#### Old (before DBeaver 6.1.3) workspace location
+
+- Windows: `C:\Users\YourName\.dbeaver4`.  
+- Linux: `~/.dbeaver/`
+- MacOS: `cd ~/.dbeaver4/`
