@@ -15,8 +15,7 @@ Default workspace location is in the user home subfolder `DBeaverData`.
 - On Windows you usually can find it in `%APPDATA%\DBeaverData\workspace6\.metadata`.  
 - On Linux just type `cd $XDG_DATA_HOME/DBeaverData/workspace6/.metadata`
 - On MacOS: 
-  - Type `cd ~/Library/DBeaverData/workspace6/.metadata`
-  - Type `open .`
+  - Type `open ~/Library/DBeaverData/workspace6/.metadata` in terminal or `~/Library/DBeaverData/workspace6/.metadata` in Spotlight Search.
   - To view hidden folders press <kbd>Cmd+Shift+.</kbd> in the folder view.
 
 Two standard log files:
