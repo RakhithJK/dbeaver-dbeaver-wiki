@@ -5,8 +5,8 @@ To reset all UI settings (this includes menus, shortcuts, view and toolbar layou
 1. Shutdown DBeaver
 2. Go to directory to workspace folder `.metadata\.plugins\org.eclipse.e4.workbench\`
   - Windows: <kbd>Win+R</kbd>, enter `%APPDATA%\DBeaverData\workspace6\.metadata\.plugins\org.eclipse.e4.workbench\`
-  - Linux: `cd $XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/`
   - MacOS: `open ~/Library/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/`
+  - Linux: `cd $XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/`
 3. Delete file `workbench.xmi`
 4. Start DBeaver
 
