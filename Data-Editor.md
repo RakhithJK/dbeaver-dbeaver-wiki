@@ -1,5 +1,5 @@
 The Data editor appears:
-* As the **Data** tab of the [Database Object Editor](../Database-Object-Editor) available only for tables and views.
+* As the **Data** tab of the [Database Object Editor](Database-Object-Editor) available only for tables and views.
 * As the **Results** tab when you run a custom SQL query in [SQL Editor](../SQL-Editor)
 
 The Data editor allows viewing and editing the data of a database table or view.
@@ -9,7 +9,7 @@ The central part of the Data editor is the data table. The editor also provides 
 
 To learn how many rows the data table contains, click the **Calculate total row count** button in the bottom toolbar. The number of rows appears in a status field next to the button: ![](images/ug/Calculate-rows-button.png)
 
-To learn about ways to navigate data in the data table, see [Navigation](../Navigation) article.
+To learn about ways to navigate data in the data table, see [Navigation](Navigation) article.
 
 The top toolbar contains the following buttons:
 
