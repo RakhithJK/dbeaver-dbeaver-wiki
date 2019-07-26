@@ -1,6 +1,6 @@
 You can view a database structure in the standard ERD (Entity Relation Diagram) form. ER diagrams are available for all tables and schemas (databases).  
 
-ER diagram for a table shows the table itself and its relations with other tables inside the schema. To view the ER diagram for a table or view, double-click the table or view in the [Database Navigator](../Database-Navigator) and then, in the [Database Object Editor](../Database-Object-Editor), switch to the **ER Diagram** tab:
+ER diagram for a table shows the table itself and its relations with other tables inside the schema. To view the ER diagram for a table or view, double-click the table or view in the [Database Navigator](Database-Navigator) and then, in the [Database Object Editor](Database-Object-Editor), switch to the **ER Diagram** tab:
 
 ![](images/ug/ERD-Db-Structure.png)
 

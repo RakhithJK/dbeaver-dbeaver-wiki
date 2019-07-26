@@ -1,9 +1,9 @@
-ER diagrams appear on the rightmost tab of the [Database Object Editor](../Database-Object-Editor):
+ER diagrams appear on the rightmost tab of the [Database Object Editor](Database-Object-Editor):
 
 ![](images/ug/ER-Diagrams-Editor.png)
 
-Entity Relation Diagrams (ERD) are graphic presentations of database entities and relations between them. DBeaver allows viewing diagrams of existing tables and whole database schemas, see [Database Structure Diagrams](../Database-Structure-Diagrams), as well as create custom diagrams, see
-[Custom Diagrams](../Custom-Diagrams).
+Entity Relation Diagrams (ERD) are graphic presentations of database entities and relations between them. DBeaver allows viewing diagrams of existing tables and whole database schemas, see [Database Structure Diagrams](Database-Structure-Diagrams), as well as create custom diagrams, see
+[Custom Diagrams](Custom-Diagrams).
 
 Both types of diagrams provide the same tools to adjust their view and structure. They can be printed and exported to image file formats.
 
@@ -16,14 +16,14 @@ You can use one of the two tools to select elements in diagrams:
 ## Structure Adjustment
 NOTE: All changes to existing database schemas cannot be saved and are intended for exploration purposes only.  
 You can do the following structure changes in diagrams.
-*  Add new tables to a diagram by drag-n-dropping them onto the diagram field from the [Database Navigator](../Database-Navigator).
+*  Add new tables to a diagram by drag-n-dropping them onto the diagram field from the [Database Navigator](Database-Navigator).
 *  Rearrange tables in the diagram by dragging them all over the space. You can select several tables and drag them to a new location.
 *  Auto-arrange tables into a compact view after manual rearrangements: click the **Arrange Diagram** (![](images/ug/Arrange-diagrams.png)) in the toolbar or on the context menu (right-click anywhere on the diagram tab).
-*  (Available for [Custom Diagrams](../Custom-Diagrams) only) - connect tables with a connector: click the **Show Palette** button (![](images/ug/Show-pallette-icon.png)) in the upper-left corner of the diagram tab and then, in the Palette panel, click **Connection**:
+*  (Available for [Custom Diagrams](Custom-Diagrams) only) - connect tables with a connector: click the **Show Palette** button (![](images/ug/Show-pallette-icon.png)) in the upper-left corner of the diagram tab and then, in the Palette panel, click **Connection**:
 
    ![](images/ug/ERD-Connections.png)
    Now click the tables that you want to connect with each other in turn one by one, and then to stop the connection line double-clicking the last table.  
-*  (Available for [Custom Diagrams](../Custom-Diagrams) only) - remove tables and connections: right-click the table or conection and click **Delete** on the context menu or just click the table or connection and press <kbd>Delete</kbd>.
+*  (Available for [Custom Diagrams](Custom-Diagrams) only) - remove tables and connections: right-click the table or conection and click **Delete** on the context menu or just click the table or connection and press <kbd>Delete</kbd>.
 
 ## View Adjustment
 You can adjust the view of any diagram in the following ways:
@@ -47,7 +47,7 @@ You can adjust the view of any diagram in the following ways:
 To see changes made to the database schema by other users, you might need to refresh the diagram: click **Refresh Diagram** (![](images/ug/Refresh-projects-icon.png)) in the toolbar.
 
 ## Notes
-You can create notes only in [Custom Diagrams](../Custom-Diagrams). To create a note, click the **Show Palette** button (![](images/ug/Show-pallette-icon.png)) in the upper-left corner of the diagram tab, then, in the Palette panel, click **Note** and then click anywhere in the diagram tab. Now you can double-click **Note** box to enter the note text:
+You can create notes only in [Custom Diagrams](Custom-Diagrams). To create a note, click the **Show Palette** button (![](images/ug/Show-pallette-icon.png)) in the upper-left corner of the diagram tab, then, in the Palette panel, click **Note** and then click anywhere in the diagram tab. Now you can double-click **Note** box to enter the note text:
 
 ![](images/ug/ERD-Notes.png)
 

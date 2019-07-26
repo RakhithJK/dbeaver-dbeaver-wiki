@@ -1,4 +1,4 @@
-**Dashboards** tool allows DBAs and programmers to quickly identify performance, disk space issues, number of connections and other important KPIs associated with a single database connection. To learn more about database connections, see [Database Connections](../Database-Connections). 
+**Dashboards** tool allows DBAs and programmers to quickly identify performance, disk space issues, number of connections and other important KPIs associated with a single database connection. To learn more about database connections, see [Database Connections](Database-Connections).
 
 By default, DBeaver is delivered with a number of predefined sets of dashboards for such data bases as PostgreSQL, MySQL, Oracle and Exasol. Custom dashboards are also supported. To learn more about custom dashboards, see Managing Dashboards section below.
 
@@ -9,7 +9,7 @@ Dashboards displayed on the dashboards panel are actually a combination of conti
 
 ## Opening Dashboard Panel
 
-To open dashboards panel **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) in the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](../Database-Connections).
+To open dashboards panel **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) in the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](Database-Connections).
 
 You can also right-click a connection name in the **Database Navigator** editor and select **Open Dashboard** menu option or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> and the dashboards panel will be opened. 
 
@@ -84,7 +84,7 @@ Parameter|Description
 ----|-----
 **ID**| Defines dashboard's ID. Make sure that ID has numeric values in it.
 **Name**|Defines dasboard's name.
-**Database**|Defines the database driver. To learn moe about database drivers, see [Database Drivers](../Database-drivers).
+**Database**|Defines the database driver. To learn moe about database drivers, see [Database Drivers](Database-drivers).
 **Data type**|Defines the data type. The following options are availabe: timerseries (the default option) and statistics. Select timeseries type if you want to track the actual value returned by the server. Select statistics type if your dashboard will show historical data.
 **Calc type**|Defines how the data should be calculated. The following options are available: value (the default option) and delta. Select value if you're interested in the current value. Select delta if you want to track the difference between the current value and the previous one. This may be very useful when you work with statistics data, for example.
 **Value type**|Defines the value to be shown on the range domain. The following options are available: decimal (the default option), integer, percent, bytes. Choose the value type in accordance with your data, for example, memory usage is convinient to be tracked in KBytes.
@@ -164,7 +164,7 @@ You can create a new custom dashboard either from scratch or from any of already
 1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window click **New dashboard...** button.
-4. Set up all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](../Dashboards#adjusting-dashboard-configuration).
+4. Set up all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](Dashboards#adjusting-dashboard-configuration).
 
 ![](images/ug/dashboards/New_dashboard_from_scratch.png)
 
@@ -173,7 +173,7 @@ You can create a new custom dashboard either from scratch or from any of already
 1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window select any of the existing dashboards from the list and click **Copy**.
-4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](../Dashboards#adjusting-dashboard-configuration).
+4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](Dashboards#adjusting-dashboard-configuration).
 
 ![](images/ug/dashboards/New_dashboard_from_template.png)
 
@@ -181,14 +181,14 @@ You can create a new custom dashboard either from scratch or from any of already
 
 If you need to change dashboard's name , ID or any other configurational setting, you can edit a dashboard.
 
-**Note:** Only custom dashboards can be edited, predefined dashboards are read-only, but you can use them as templates and create a custom dashboard whose parameters will be editable. To learn how to create dashboards from templates, see [Creating Dashboards](../Dashboards#creating-dashboards).
+**Note:** Only custom dashboards can be edited, predefined dashboards are read-only, but you can use them as templates and create a custom dashboard whose parameters will be editable. To learn how to create dashboards from templates, see [Creating Dashboards](Dashboards#creating-dashboards).
 
 ### To edit dashboard's configuration:
 
 1. Press **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) in the dashboards panel toolbar.
 2. In the opened dialog box click **Manage...** button.
 3. In the **Manage dashboards** window select any of the custom dashboards from the list and click **Edit...**.
-4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](../Dashboards#adjusting-dashboard-configuration).
+4. Adjust all configurational parameters as required and press **OK**. To learn more about dashboard's configuration parameters, see  [Adjusting Dashboard Configuration](Dashboards#adjusting-dashboard-configuration).
 
 ![](images/ug/dashboards/Editting_dashboard.png)
 

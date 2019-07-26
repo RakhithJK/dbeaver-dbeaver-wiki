@@ -1,4 +1,4 @@
-The [Projects view](../Projects-View) allows creating new projects as well as renaming and deleting projects that are not active.  
+The [Projects view](Projects-View) allows creating new projects as well as renaming and deleting projects that are not active.
 NOTE: You cannot rename or delete a project that is set as active. 
 
 ## Creating Project

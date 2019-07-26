@@ -1,4 +1,4 @@
-You might need to disconnect from a database to free up resources or close transactions. To disconnect from a database, in the [Database Navigator](../Database-Navigator) or [Projects](../Projects) view, click the connection and then click the Disconnect button in the toolbar or click **Database -> Disconnect** on the main menu:
+You might need to disconnect from a database to free up resources or close transactions. To disconnect from a database, in the [Database Navigator](Database-Navigator) or [Projects](Projects) view, click the connection and then click the Disconnect button in the toolbar or click **Database -> Disconnect** on the main menu:
 
 ![](images/ug/Disconnect-from-DB.png)
 

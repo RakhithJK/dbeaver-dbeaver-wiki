@@ -76,8 +76,8 @@ MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/
 Once you have changed resource you might want to test your changes.
 You can:
 
-- Run DBeaver directly from [Eclipse workspace](../Develop-in-Eclipse)
-- [Build DBeaver from source](../Build-from-sources) and run executable
+- Run DBeaver directly from [Eclipse workspace](Develop-in-Eclipse)
+- [Build DBeaver from source](Build-from-sources) and run executable
 
 ### Changing interface language
 

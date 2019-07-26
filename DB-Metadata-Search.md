@@ -10,8 +10,8 @@ Now you need to choose the database connection against which to run the search â
 In the **Object Types** field, you can select the database objects among which DBeaver will run the metadata search â€“ select or clear the checkboxes.  
 You can specify if the metadata should start with or contain or be similar to the search combination (**Name match** field). You can also set the maximum number of results to display (**Max results** field) and apply **Case-sensitive** search.
 
-After you click **Search**, the results open in a [Search](../Search) view:
+After you click **Search**, the results open in a [Search](Search) view:
 
 ![](images/ug/Metadata-search-results-view.png)
 
-Double-clicking a row in the Search view opens the respective object in a dedicated [Database Object editor](../Database-Object-Editor).
+Double-clicking a row in the Search view opens the respective object in a dedicated [Database Object editor](Database-Object-Editor).

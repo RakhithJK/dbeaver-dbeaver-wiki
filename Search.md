@@ -1,7 +1,7 @@
 DBeaver provides:
-* [File search](../File-Search) (search among file contents)
-* [Database full-text search](../DB-Full-Text-Search)
-* [Database metadata search](../DB-Metadata-Search)
+* [File search](File-Search) (search among file contents)
+* [Database full-text search](DB-Full-Text-Search)
+* [Database metadata search](DB-Metadata-Search)
 
 To use search, click the Search button in the main toolbar:
 
@@ -23,7 +23,7 @@ Button|Name|Description
 ![](images/ug/Previous-Searches-button.png)|**Show Previous Searches**|-	Clicking the button itself opens the Previous Searches window.<br/>- Clicking the arrow next to the button opens a dropdown menu.<br/>See the _Search History_ section further in this article.
 ![](images/ug/Pin-Search-View-button.png)|**Pin the Search View**|Ties the current search results to the Search view. If you click this button, the current results stay in the view while the results of the next search appear in a new Search view. Otherwise, every new search replaces the previous results with new results.
 
-For information about specific tools of File search, see the [File Search](../File-Search) article.
+For information about specific tools of File search, see the [File Search](File-Search) article.
 
 If the search is short, the results appear almost instantly. But if it takes some time, the Search view indicates the progress in the following ways:
 * The **Cancel Current Search** button in the toolbar has the Active state (![](images/ug/Cancel-Search-active.png))
