@@ -57,7 +57,7 @@ By default, the panel applies and displays results for two functions – **Count
 * Median
 * Mode
 
-To remove an individual function, click the function and then click **Remove function** (![](images/ug/Remove-function-button.png]]) in the toolbar of the panel, or right-click the function and click **Remove function** on the context menu. To remove all functions, click **Reset** (![](images/ug/Reset-function-button.png)) in the toolbar or on the context menu.
+To remove an individual function, click the function and then click **Remove function** (![](images/ug/Remove-function-button.png)) in the toolbar of the panel, or right-click the function and click **Remove function** on the context menu. To remove all functions, click **Reset** (![](images/ug/Reset-function-button.png)) in the toolbar or on the context menu.
 
 You can copy the value of a particular function to the clipboard - right-click the row and click **Copy Value** on the context menu.  
 You can also copy all functions with their values - right-click in the table and click **Copy All** on the context menu. 
@@ -96,4 +96,4 @@ For MySQL/MariaDB databases you can also add a column with an expression - the e
 ![](images/ug/Grouping-column-expression.png)
 
 To remove a column, in the Grouping Configuration window, in the **Columns** area, click the column name, then **Remove** and **OK**. To remove all columns, click **Clear** and **OK**.  
-Another way to remove a column is to click the column and then the **Remove grouping column** button (![](images/ug/Grouping-remove-columns.png]]) in the panel`s toolbar. Clicking the **Clear grouping** button (![](images/ug/Clear-columns-button.png)) removes all results from the Grouping panel.
+Another way to remove a column is to click the column and then the **Remove grouping column** button (![](images/ug/Grouping-remove-columns.png)) in the panel`s toolbar. Clicking the **Clear grouping** button (![](images/ug/Clear-columns-button.png)) removes all results from the Grouping panel.

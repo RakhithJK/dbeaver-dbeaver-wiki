@@ -6,7 +6,7 @@
 
 To open **Visual Query Builder** click the **Open Query Builder** button ![](images/visual_query_builder/visual_query_builder_icon.png) in the [SQL Editor](SQL-Editor) tool bar. The **Visual Query Builder** will appear on the right.
 
-![](images/visual_query_builder/query_builder_window.png)
+![](images/visual_query_builder/query_builder_window1.png)
 
 ## Creating Visual Query
 

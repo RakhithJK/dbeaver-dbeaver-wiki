@@ -2,7 +2,7 @@ The main tool for managing the appearance of the data table is the Result Set Or
 
 ![](images/ug/Result-Set-Settings-window.png)
 
-To open this window, click the Custom Filters button (![](images/ug/Filter-button.png]]) in the top toolbar of the editor or click the Configure button (![](images/ug/Configure-columns-visibility-icon.png)) and then click **Order/Filter** on the dropdown menu.
+To open this window, click the Custom Filters button (![](images/ug/Filter-button.png)) in the top toolbar of the editor or click the Configure button (![](images/ug/Configure-columns-visibility-icon.png)) and then click **Order/Filter** on the dropdown menu.
 
 The Result Set Order/Filter Settingswindow provides tools to:
 * Order data inside columns
@@ -54,13 +54,13 @@ To display or hide columns in the data table, in the Result Set Order/Filter Set
 
    ![](images/ug/Unhide-columns.png)  
 
-2. Use the Show All (![](images/ug/Show-all-button.png]])  and Show None (![](images/ug/Show-None-button.png)) buttons at the bottom of the window.
+2. Use the Show All (![](images/ug/Show-all-button.png))  and Show None (![](images/ug/Show-None-button.png)) buttons at the bottom of the window.
 
 ## Sorting Columns in Data Table
 
 You can modify the order of columns in the data table in two ways:
 1.	Click the icon in the column header and drag-and-drop the column to a new position.
-2.	To sort column alphabetically, in the Result Set Order/Filter Settings window (open by clicking the Custom Filters button (![](images/ug/Filter-button.png]]) in the top toolbar of the editor), click the Sort button (![](images/ug/Sort-button.png))
+2.	To sort column alphabetically, in the Result Set Order/Filter Settings window (open by clicking the Custom Filters button (![](images/ug/Filter-button.png)) in the top toolbar of the editor), click the Sort button (![](images/ug/Sort-button.png))
 3.	In the Result Set Order/Filter Settings window, click the column to set focus to it and then move it using the navigation buttons: (![](images/ug/Move-up-down-buttons.png))
 
 ## Grid vs. Plain Text Views

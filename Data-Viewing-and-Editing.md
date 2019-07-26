@@ -15,7 +15,7 @@ The cell becomes editable, now you can change its value.
 
 To set the cell value to NULL, right-click the cell and click **Set to NULL** on the context menu.
 
-To save the changes, click the **Save** button (![](images/ug/Save-button-Data-Editor.png]]) in the bottom toolbar. To discard the changes, click the **Cancel** button (![](images/ug/Cancel-button-Data-Editor.png)) in the bottom toolbar.
+To save the changes, click the **Save** button (![](images/ug/Save-button-Data-Editor.png)) in the bottom toolbar. To discard the changes, click the **Cancel** button (![](images/ug/Cancel-button-Data-Editor.png)) in the bottom toolbar.
 
 NOTE: Both the **Save** and **Cance**l buttons become editable only when you make changes in a cell and then jump to another cell.
 
@@ -42,7 +42,7 @@ You can copy any row or several rows currently in focus. To copy rows, highlight
 
 To delete a row or rows, set focus to the rows and click the **Delete current row** button (![](images/ug/Delete-current-row-button.png)) in the bottom toolbar. The rows are colored red, which means that they are marked for deletion and will be deleted when you save the changes.
 
-To save any of such changes, click the **Save** button (![](images/ug/Save-button-Data-Editor.png]]) in the bottom toolbar. To discard the changes, click the **Cancel** button (![](images/ug/Cancel-button-Data-Editor.png)) in the bottom toolbar.
+To save any of such changes, click the **Save** button (![](images/ug/Save-button-Data-Editor.png)) in the bottom toolbar. To discard the changes, click the **Cancel** button (![](images/ug/Cancel-button-Data-Editor.png)) in the bottom toolbar.
 
 ## Copying/Pasting Cells
 

@@ -40,7 +40,7 @@ For local breakpoints, stop will be done only for server process launched by the
    * Receive responses from the process;
    * Translate responses to the client.
 
-![](images/debug-local.png|Debug with local breakpoint)
+![](images/debug-local.png "Debug with local breakpoint")
 
 # How to start debug with global breakpoint
 Whenever the breakpoint is global, stop will be done for any server process launched by anyone. No modifications or additional calls from the debugged process are required. When you create a session with a global breakpoint, the following steps take place:
