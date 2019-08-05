@@ -2,7 +2,7 @@ This guide describes how to manage/secure DBeaver database connections.
 It is designed for System administrators. Regular users should check [[this|Connect-to-database]] guide.
 
 ### Provide predefined connections
-DBeaver keeps information about project preject folder. By default all projects reside in [[workspace|Workspace-Location]].  
+DBeaver keeps connections information in project folder. By default all projects reside in [[workspace|Workspace-Location]].  
 Default project folder is [[workspace|Workspace-Location]]\General.  
 
 #### DBeaver 6.1.3+
