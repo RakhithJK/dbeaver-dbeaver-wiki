@@ -2,8 +2,17 @@ This guide describes how to manage/secure DBeaver database connections.
 It is designed for System administrators. Regular users should check [[this|Connect-to-database]] guide.
 
 ### Provide predefined connections
-DBeaver keeps information about project connections in file `dbeaver-data-sources.xml`. You can find it in project folder (by default all projects reside in [[workspace|Workspace-Location]].  
+DBeaver keeps information about project preject folder. By default all projects reside in [[workspace|Workspace-Location]].  
 Default project folder is [[workspace|Workspace-Location]]\General.  
+
+#### DBeaver 6.1.3+
+DBeaver keeps information about project connections in file `.dbeaver/data-sources.json`.  
+All secured information (user name, password, secret keys, etc) is stored in the encrypted file `.dbeaver/credentials-config.json`.  
+
+DBeaver can load multiple connection files. Any files in project folder matching `.dbeaver/data-sources*.json` pattern will be loaded on startup. So you can create a file, say, `.dbeaver/data-sources-2.json` in the project folder and DBeaver will see it.
+
+#### DBeaver < 6.1.3
+DBeaver keeps information about project connections in file `dbeaver-data-sources.xml`. 
 
 DBeaver can load multiple connection files. Any files in project folder matching `.dbeaver-data-sources*.xml` pattern will be loaded on startup. So you can create a file, say, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
 
@@ -43,19 +52,20 @@ Postgre Import XML 2,localhost,5432,,postgres2,jdbc:postgresql://localhost:5432/
 ### Secure connections from editing
 It is possible to make connection settings read-only (protected by password)
 - Generate MD5 hash of your password. You can do it from command line using Linux utility md5sum (`md5sum <<<"your password"`) or you can do it online - just google "MD5 hash online".
-- Add attribute `lockPassword` in connection descriptor (in `.dbeaver-data-sources.xml` file in `<dataSource>` tag. So it will look like this:
+- Add field`lockPassword` in connection descriptor (in `.dbeaver/data-sources.json` in `connections` element. So it will look like this:
+
+```json
+postgres-jdbc-161537836e8-3e0957d039995715": {
+   "provider": "postgresql",
+   "driver": "postgres-jdbc",
+   "name": "PostgreSQL - postgres",
+   "save-password": true,
+   "show-system-objects": true,
+   "read-only": false,
+   "folder": "PG",
+   "lockPassword": "2ba81a47c5512d9e23c435c1f29373cb"
+...
+}
 ```
-<data-source 
-  id="postgresql-1294077257514--1782558860" 
-  provider="postgresql" 
-  driver="postgres-jdbc" 
-  name="Postgre - sample" 
-  create-date="1294077257524" 
-  update-date="1468749632751" 
-  login-date="1469021247956" 
-  save-password="true" 
-  show-system-objects="true" 
-  read-only="false" 
-  lockPassword="2ba81a47c5512d9e23c435c1f29373cb">
-```
+
 - Now if user will try to change connection settings he/she will be asked for password
