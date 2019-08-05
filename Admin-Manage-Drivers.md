@@ -1,6 +1,6 @@
 ### Configure drivers with pre-installed jars
 
-You can customize drivers configuration in `${HOME}/.dbeaver4/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml` file.
+You can customize drivers configuration in [[workspace|Workspace-Location]]/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml file.
 If you have some pre-installed jar files you can reference them in drivers.xml. 
 Example:
 ```xml
@@ -8,16 +8,16 @@ Example:
 ```
 Also in drivers.xml you can use following variables to specify relative paths:
 
-| Variable | Meaning |
------------|-------------|
-|drivers_home|Standard DBeaver drivers location (`${HOME}/.dbeaver-drivers` by default)|
-|dbeaver_home|DBeaver installation folder|
-|home|User home folder|
-|workspace|DBeaver workspace path (`${HOME}/.dbeaver4` by default)|
+Variable | Meaning 
+-----------|-------------
+drivers_home | Standard DBeaver drivers location - ($workspace/drivers by default)
+dbeaver_home | DBeaver installation folder
+home | User home folder
+workspace | DBeaver workspace path
 
 For instance: 
 ```xml
-<library type="jar" path="${dbeaver_home}\drivers\my-driver.jar" custom="true"/>
+<library type="jar" path="${workspace}\drivers\my-driver.jar" custom="true"/>
 ```
 
 Full drivers.xml example:
