@@ -18,7 +18,7 @@ drivers | Auto downloaded database drivers
 
 You can specify custom workspace location by passing parameter `-data <path>` in the command line. `<path>` can be absolute or relative directory path.
 
-### Old (before DBeaver 6.1.3) workspace location
+### Old (before DBeaver 6.1.3) default workspace location
 
 OS | Location
 ---|---
