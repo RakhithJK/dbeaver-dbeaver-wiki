@@ -7,8 +7,13 @@ Windows | %APPDATA%\DBeaverData\
 MacOS | ~/Library/DBeaverData/
 Linux | $XDG_DATA_HOME/DBeaverData/
 
+#### Folders
 
 Folder | Location
 ---|---
 workspace6 | Workspace files for DBeaver 6.1+
 drivers | Auto downloaded database drivers
+
+### Custom location
+
+You can specify custom workspace location by passing parameter `-data <path>` in the command line. `<path>` can be absolute or relative directory path.
