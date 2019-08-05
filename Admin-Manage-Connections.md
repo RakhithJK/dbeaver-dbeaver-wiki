@@ -2,7 +2,8 @@ This guide describes how to manage/secure DBeaver database connections.
 It is designed for System administrators. Regular users should check [[this|Connect-to-database]] guide.
 
 ### Provide predefined connections
-DBeaver keeps information about project connections in file `.dbeaver-data-sources.xml`. You can find it in project folder (by default all projects reside in workspace, default workspace location is `%HOMEPATH%\.dbeaver4` (or `${HOME}/.dbeaver4`). Default project folder is `%HOMEPATH%\.dbeaver4\General`.  
+DBeaver keeps information about project connections in file `dbeaver-data-sources.xml`. You can find it in project folder (by default all projects reside in [[workspace|Workspace-Location]].  
+Default project folder is [[workspace|Workspace-Location]]\General.  
 
 DBeaver can load multiple connection files. Any files in project folder matching `.dbeaver-data-sources*.xml` pattern will be loaded on startup. So you can create a file, say, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
 
