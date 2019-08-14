@@ -7,6 +7,7 @@ With DBeaver you are able to manipulate with your data like in a regular spreads
 Out-of-the box DBeaver supports more than 80 databases.
 
 Having usability as its main goal, DBeaver offers:
+
 - Carefully designed and implemented User Interface
 - Support of Cloud datasources
 - Support for Enterprise security standard
