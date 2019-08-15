@@ -7,6 +7,8 @@ EE version includes all features of CE version plus:
   - MongoDB
   - Redis
   - InfluxDB
+  - Google BigTable
+  - AWS DynamoDB
   - WMI (Windows Management Instrumentation)
 - Additional EE plugins:
   - Office formats support (XLS) for data export
