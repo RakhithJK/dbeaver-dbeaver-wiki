@@ -13,12 +13,13 @@ EE version includes all features of CE version plus:
 - Additional EE plugins:
   - Office formats support (XLS) for data export
   - Visual Query Builder
+  - Schema/table compare, diff DDL generation
   - Analytical charts rendering
   - Persistent query database. Search in query history
-  - JSON format viewer/editor (in MongoDB and relational databases)
   - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
   - Advanced Mock data generators
   - Version control support
-- A possibility for us to support and develop the Community version, add new features faster, provide better support and much more.
+  - Automatic proxy configuration (PAC) 
+  - A possibility for us to support and develop the Community version, add new features faster, provide better support and much more.
 
 Even if you do not need enterprise features you can purchase a license as a form of donation. Thank you!
