@@ -3,7 +3,7 @@ Some keyboard shortcuts may stop working, toolbars layout may be broken, etc, et
 To reset all UI settings (this includes menus, shortcuts, view and toolbar layouts):
 
 1. Shutdown DBeaver
-2. Go to directory to workspace folder `.metadata\.plugins\org.eclipse.e4.workbench\`
+2. Go to the default workspace folder `.metadata\.plugins\org.eclipse.e4.workbench\`
   - Windows: <kbd>Win+R</kbd>, enter `%APPDATA%\DBeaverData\workspace6\.metadata\.plugins\org.eclipse.e4.workbench\`
   - MacOS: `open ~/Library/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/`
   - Linux: `cd $XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/`
