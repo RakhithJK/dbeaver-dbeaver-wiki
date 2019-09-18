@@ -1,4 +1,4 @@
-The installation process depends on the distribution type and your Operational System - see [https://dbeaver.io/download/](https://dbeaver.io/download/)
+The installation process depends on the distribution type and your Operational System.
 
 ### Windows / MacOS Installer
 The installer distribution is the recommended way to install DBeaver on Windows and MacOS X. It is the most lightweight method due to the advanced archiving technology that is uses and that is not available in the case of installation using ZIP archive. Besides this, the installer automatically upgrades DBeaver to the new version, if a previous version is already installed.
