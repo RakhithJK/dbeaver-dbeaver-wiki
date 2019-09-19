@@ -4,7 +4,7 @@ ER diagrams appear on the rightmost tab of the [Database Object Editor](Database
 
 Entity Relation Diagrams (ERD) are graphic presentations of database entities and relations between them. DBeaver allows viewing diagrams of existing tables and whole database schemas, see [Database Structure Diagrams](Database-Structure-Diagrams), as well as create custom diagrams, see
 [Custom Diagrams](Custom-Diagrams).  
-By default DBeaver uses [[IDEF1X|https://en.wikipedia.org/wiki/IDEF1X]] notation.
+By default DBeaver uses [IDEF1X](https://en.wikipedia.org/wiki/IDEF1X) notation.
 
 Both types of diagrams provide the same tools to adjust their view and structure. They can be printed and exported to image file formats.
 
