@@ -20,6 +20,7 @@ Th following are features of DBeaver Mock Data generator:
 ![](images/mockdata_wizard_2.png)
 
 The following are mock data generators for data types with their configurable parameters:
+
 * Boolean
     * Random
     * Sequence (initial, order)
