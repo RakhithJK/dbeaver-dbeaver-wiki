@@ -11,6 +11,7 @@ NOTE:
 
 ### ZIP Archive
 When installing DBeaver manually, without using an installer:
+
 1. Install [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
 3. Extract the contents of the archive.  
 NOTE: Do not unzip the archive over a previous DBeaver version. 
@@ -21,11 +22,13 @@ NOTE: All configurations, scripts and other necessary data are stored in a separ
 
 ### Debian Package
 To install DBeaver using a Debian package:
+
 1. Run `sudo dpkg -i dbeaver-<version>.deb`.  
 2. Execute `dbeaver &`.  
 
 ### RPM Package
 To install DBeaver using RPM package:
+
 1. Run `sudo rpm -ivh dbeaver-<version>.rpm`.  
 2. Execute `dbeaver &`.  
 
