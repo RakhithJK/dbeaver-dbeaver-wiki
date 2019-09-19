@@ -4,6 +4,7 @@
 db4.dev.dbeaver.com server
 
 [Install]
+```
 Execute ./db2setup or ./db2_install (install without GUI).
 Follow the steps of installation.
 ```
