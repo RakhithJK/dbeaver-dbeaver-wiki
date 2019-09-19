@@ -7,6 +7,7 @@ Sometimes in software development we need to generate mock, but valid, data for 
 > _Disclaimer:_ The idea behind Mock Data is to generate mock data in a table but it should **NOT TO BE USED IN PRODUCTION ENVIRONMENTS**. Please make sure you have a backup of your database before running the Mock Data generation process.
 
 Th following are features of DBeaver Mock Data generator:
+
 * Works for all the RDBMS that are supported by DBeaver (DB2, MS SQL Server, MySQL, Oracle, PostgreSQL, SQLite, etc.)
 * Generates data that matches your database schema:
     * Generated data matches the database column types.
