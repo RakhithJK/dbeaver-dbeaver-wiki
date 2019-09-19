@@ -3,7 +3,7 @@ It is designed for System administrators. Regular users should check [this](Conn
 
 ### Provide predefined connections
 DBeaver keeps connections information in project folder. By default all projects reside in [[workspace|Workspace-Location]].  
-Default project folder is [[workspace|Workspace-Location]]\workspace6\General.  
+Default project folder is [workspace](Workspace-Location)\workspace6\General.  
 
 #### DBeaver 6.1.3+
 DBeaver keeps information about project connections in file `.dbeaver/data-sources.json`.  
