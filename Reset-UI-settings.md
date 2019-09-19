@@ -3,6 +3,7 @@ Extra toolbar elements, missing menu items, broken keyboard shortcuts, broken lo
 
 To reset DBeaver UI just delete file file `workbench.xmi` in DBeaver workspace/.metadata.
 By default workbench.xmi file locations is:
+
 - Windows: `%APPDATA%\DBeaverData\workspace6\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi`
 - MacOS: `~/Library/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi`
 - Linux: `$XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi`
