@@ -5,6 +5,7 @@ The installer distribution is the recommended way to install DBeaver on Windows 
 To install DBeaver, run the installer executable and follow the instructions in its screens.
 
 NOTE:
+
 * The installer does not change any system settings or the Java installation. 
 * The included JRE will be accessible only for DBeaver.  
 
