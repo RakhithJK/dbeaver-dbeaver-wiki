@@ -3,6 +3,7 @@ Panels provide additional space in the [Data editor](Data-Editor) in which you c
 ![](images/ug/Panels.png)
 
 This additional pane appears only when you open one of the four panels:
+
 * Calc
 * Grouping
 * Metadata
@@ -50,6 +51,7 @@ You can select several columns and rows in standard ways - by pressing and holdi
 To see data grouped by columns, click the Group by columns button (![](images/ug/Group-by-columns-button.png)). To remove the grouping by columns and see summary values for all columns, click the same button again.
 
 By default, the panel applies and displays results for two functions – **Count** and **Count Distinct**. To add other functions, click the **Add function** (![](images/ug/Add-function-button.png)) button in the toolbar of the panel or right-click one of the rows in the Aggregate panel and click **Add function** on the context menu and then click the name of the function. The following functions are available:
+
 * Sum
 * Average
 * Minimum
@@ -75,6 +77,7 @@ If you add several columns to the panel, DBeaver groups data in the order in whi
 ![](images/ug/Grouping-Panel.png)
 
 By default, the COUNT function is used. You can add other functions as well. To add a function:
+
 1. Click the **Edit grouping columns** button in the panel`s toolbar.
 2. In the Grouping Configuration window, in the **Functions** area, click **Add**, then type the function into the new row:
    * You can use auto-complete options DBeaver provides.
@@ -86,6 +89,7 @@ By default, the COUNT function is used. You can add other functions as well. To 
 To remove a function, in the same Grouping Configuration window, click the function and click **Remove** and then **OK**. To remove all functions, click **Clear** and then **OK**.
 
 You can also add or remove columns using the same Grouping Configuration window. To add a column:
+
 1. Click the **Edit grouping columns** button in the panel`s toolbar.
 2. In the Grouping Configuration window, in the **Columns** area, click **Add**, then type the column name into the new row (you can use auto-complete options DBeaver provides), and then click **OK**:  
 
