@@ -9,6 +9,7 @@ Follow the steps of installation.
 ```
 
 ### Usage
+
 ```
 Start db2 service:
 ./db2start
