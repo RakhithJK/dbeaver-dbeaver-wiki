@@ -1,5 +1,5 @@
 This guide describes how to manage/secure DBeaver database connections.
-It is designed for System administrators. Regular users should check [[this|Connect-to-database]] guide.
+It is designed for System administrators. Regular users should check [this](Connect-to-database) guide.
 
 ### Provide predefined connections
 DBeaver keeps connections information in project folder. By default all projects reside in [[workspace|Workspace-Location]].  
