@@ -28,3 +28,10 @@ Two typical places to find emergency logs:
 
 If you are reporting about some error please attach logs (not complete file but valuable part of it).  
 Logs are very useful, big number of errors can't be reproduced/fixed without full error stacktrace.
+
+### Java fatal logs
+
+In rare cases DBeaver process dies and doesn't leave any valuable logs. This caused by Java VM crash.  
+JVM creates a fatal log file for each crash (log gile `hs_err_PID.log`). This log usually resides in the same directory where dbeaver launcher is (e.g. dbeaver.exe).  
+But in some cases it is a write-protected directory and log file will be created in other folder.  
+Instruction how to find Java  fatal log file: https://docs.oracle.com/javase/9/troubleshoot/fatal-error-log.htm
