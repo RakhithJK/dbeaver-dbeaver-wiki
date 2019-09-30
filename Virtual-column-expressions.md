@@ -11,7 +11,7 @@ Expression `column1 + column2` will produce sum of two numeric columns or concat
 ## Standard functions
 
 Standard functions declared in namespaces.  
-You can refer functions in namespaces as variables (`nsName.functionName(parameters`).
+You can refer functions in namespaces as variables - `nsName.functionName(parameters`).
 
 ### math
 
