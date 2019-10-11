@@ -7,8 +7,8 @@ To save a script to the current project space, just press <kbd>Ctrl+S</kbd> or r
 
 You can find the script saved this way in the [Project Explorer](Project-Explorer) view in the **Scripts** folder.
 
-To save a script to the file system, right-click the script, click **File -> Save SQL script** on the context menu and then select the folder in the file system.  
-You can also, click **SQL Editor -> Save SQL script** on the main menu:
+To save a script to the file system, right-click the script, click **File -> Export SQL script** on the context menu and then select the folder in the file system.
+You can also, click **SQL Editor -> Export SQL script** on the main menu:
 
 ![](images/ug/Save-script-to-file.png)
 
