@@ -5,7 +5,7 @@ OS | Location
 ---|---
 Windows | `%APPDATA%\DBeaverData\`
 MacOS | `~/Library/DBeaverData/`
-Linux | `$XDG_DATA_HOME/DBeaverData/` (`~/.local/share` if not set)
+Linux | `$XDG_DATA_HOME/DBeaverData/` ($XDG_DATA_HOME=`~/.local/share` if not set)
 
 #### Folders
 
