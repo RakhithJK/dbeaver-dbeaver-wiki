@@ -26,6 +26,9 @@ This is easier (as you don't need to remember master password) but less secure (
 
 You may specify a password for a project. It will encrypt all project's configurations with this password. Also you will be able to share your project settings with other users (you will need to pass the project password as well).
 
-In order 
+In order to enable project password open project properties. You can do this by:
+- Click on main menu File->Project security
+- Click on "Configure" icon in project explorer view toolbar and switch to Project Security tab
+- Press <kbd>ALT+Enter</kbd> on a project element in `Projects` view and switch to Project Security tab
 
 #### "Encrypt configuration" option
