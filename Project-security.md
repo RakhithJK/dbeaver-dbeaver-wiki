@@ -17,9 +17,15 @@ DBeaver doesn't store this password anywhere, it only encrypts user credentials 
 
 Side effect of this configuration - you cannot share your connections (with password) between different users. Because user credentials are stored in a completely separate location and they are protected by local user password.
 
-### Use Windows Integration password provider
+#### Use Windows Integration password provider
 
 You can disable default password provider and enable "Windows Integration" provider. This provider doesn't need master password but it uses randomly generated password stored in local user secure storage (in Windows).
 This is easier (as you don't need to remember master password) but less secure (anybody who have access to your Windows user account will have access to DBeaver stored credentials).
 
 ## Project password
+
+You may specify a password for a project. It will encrypt all project's configurations with this password. Also you will be able to share your project settings with other users (you will need to pass the project password as well).
+
+In order 
+
+#### "Encrypt configuration" option
