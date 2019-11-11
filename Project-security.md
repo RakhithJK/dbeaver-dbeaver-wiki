@@ -17,6 +17,8 @@ DBeaver doesn't store this password anywhere, it only encrypts user credentials 
 
 Side effect of this configuration - you cannot share your connections (with password) between different users. Because user credentials are stored in a completely separate location and they are protected by local user password.
 
+![](images/ug/workspace-security-preferences.png)
+
 #### Use Windows Integration password provider
 
 You can disable default password provider and enable "Windows Integration" provider. This provider doesn't need master password but it uses randomly generated password stored in local user secure storage (in Windows).
@@ -30,5 +32,9 @@ In order to enable project password open project properties. You can do this by:
 - Click on main menu File->Project security
 - Click on "Configure" icon in project explorer view toolbar and switch to Project Security tab
 - Press <kbd>ALT+Enter</kbd> on a project element in `Projects` view and switch to Project Security tab
+
+![](images/ug/project-security-preferences.png)
+
+On project security page click on "Set Password" button to enable project password. Click on Clear to disable it (you will need to enter current project password to clear it).
 
 #### "Encrypt configuration" option
