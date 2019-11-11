@@ -17,7 +17,7 @@ DBeaver doesn't store this password anywhere, it only encrypts user credentials 
 
 Side effect of this configuration - you cannot share your connections (with password) between different users. Because user credentials are stored in a completely separate location and they are protected by local user password.
 
-![](images/ug/project-security-preferences.png)
+![](images/ug/workspace-security-preferences.png)
 
 #### Use Windows Integration password provider
 
