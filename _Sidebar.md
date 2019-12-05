@@ -3,6 +3,8 @@
 - [[Application Window Overview]]
 - [[Views]]
   - [[Database Navigator]]
+    - [[Filter Database Objects]]
+    - [[Configure Filters]]
   - [[Projects View]]
   - [[Project Explorer]]
   - [[Query Manager]]
@@ -21,9 +23,6 @@
   - [[SQL Generation]]
   - [[Working with XML and JSON]]
   - [[Managing Data Formats]]
-- [[ER Diagrams]]
-  - [[Database Structure Diagrams]]
-  - [[Custom Diagrams]]
 - [[SQL Editor]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
@@ -34,9 +33,9 @@
   - [Client Side Commands](Client-side-scripting)
   - Debug
     - [PostgreSQL Debugger](PGDebugger)
-- Filters
-  - [[Filter Database Objects]]
-  - [[Configure Filters]]
+- [[ER Diagrams]]
+  - [[Database Structure Diagrams]]
+  - [[Custom Diagrams]]
 - [[Search]]
   - [[File Search]]
   - [[DB Full-Text Search]]
