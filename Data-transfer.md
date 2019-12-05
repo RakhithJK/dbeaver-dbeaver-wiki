@@ -56,5 +56,5 @@ Note: avoid changing data in tables you selected for import while import is runn
 In the end you will see status message:
 <img src="images/dt/dt_message-success.png" width="200"/>
 
-## Migrating table(s) data to another database table(s)
+Related topic: [[Migrating table(s) data to another database table(s)|Data-Migration]]
 
