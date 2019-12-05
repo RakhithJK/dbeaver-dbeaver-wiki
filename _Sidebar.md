@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]]<img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Managing Charts]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with XML and JSON]]
@@ -28,7 +28,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
-  - [[Visual Query Builder]]<img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Visual Query Builder]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
@@ -42,8 +42,8 @@
   - [[DB Metadata Search]]
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
-  - [[Project-security]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
-  - [[Team-work (Git) | Project-team-work]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
+  - [[Project-security]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Team-work (Git) | Project-team-work]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Bookmarks]]
 - [[Shortcuts]]
 
@@ -66,10 +66,10 @@
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
   - [[Mock Data generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
-  - [[Task scheduler]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
-- [[Database schema compare]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
+  - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
-#### NoSQL Databases <img src="images/ee.png" vspace="0" height="18"/>
+#### NoSQL Databases <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
