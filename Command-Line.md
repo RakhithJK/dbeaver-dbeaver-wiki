@@ -17,6 +17,7 @@ Name|Value|Example
 -disconnectAll|Closes all open connections|
 -reuseWorkspace|Force reuse of single workspace by multiple DBeaver instances|
 -newInstance|Force new DBeaver instance creation (do not try to reuse already running one)|
+-runTask|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 
 ## System parameters
 
