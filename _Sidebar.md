@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]] <img src="images/ee.png" width="20"/>
+  - [[Managing Charts]] <img src="images/ee.png" width="16"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with XML and JSON]]
@@ -28,7 +28,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
-  - [[Visual Query Builder]] <img src="images/ee.png" width="20"/>
+  - [[Visual Query Builder]] <img src="images/ee.png" width="16"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
@@ -42,8 +42,8 @@
   - [[DB Metadata Search]]
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
-  - [[Project-security]] <img src="images/ee.png" width="20"/>
-  - [[Team-work (Git) | Project-team-work]] <img src="images/ee.png" width="20"/>
+  - [[Project-security]] <img src="images/ee.png" width="16"/>
+  - [[Team-work (Git) | Project-team-work]] <img src="images/ee.png" width="16"/>
 - [[Bookmarks]]
 - [[Shortcuts]]
 
@@ -65,11 +65,11 @@
   - [[Data migration|Data migration]]
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
-  - [[Mock Data generation|Mock Data generation in DBeaver]] <img src="images/ee.png" width="20"/>
-  - [[Task scheduler]] <img src="images/ee.png" width="20"/>
-- [[Database schema compare]] <img src="images/ee.png" width="20"/>
+  - [[Mock Data generation|Mock Data generation in DBeaver]] <img src="images/ee.png" width="16"/>
+  - [[Task scheduler]] <img src="images/ee.png" width="16"/>
+- [[Database schema compare]] <img src="images/ee.png" width="16"/>
 
-#### NoSQL Databases <img src="images/ee.png" width="20"/>
+#### NoSQL Databases <img src="images/ee.png" width="16"/>
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
