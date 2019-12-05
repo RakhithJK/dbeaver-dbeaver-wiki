@@ -61,6 +61,7 @@
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
+  - [[Database backup/restore|Backup Restore]]
 - [[Mock Data generation|Mock Data generation in DBeaver]]
 - [[Database compare]]
 
