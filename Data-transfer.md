@@ -31,30 +31,30 @@ In the end you will see status message:
 You can import data from CSV file(s) directly into your database table(s).
 
 1. Select a table(s) to which you want to import data. In the context menu choose "Import Data":
-<img src="images/dt/dt-import-menu.png"/>
+<img src="images/dt/dt-import-menu.png" width="400"/>
 
 2. Choose import format (CSV):
-<img src="images/dt/dt-import-format.png"/>
+<img src="images/dt/dt-import-format.png" width="400"/>
 
 3. Select input CSV file for each table you want to import:
-<img src="images/dt/dt-import-files.png"/>
+<img src="images/dt/dt-import-files.png" width="400"/>
 
 4. Set CSV-to-table mappings. 
 You need to set some column in CSV file for each database table column.
 You can skip some column at all (in target table column value will be set to NULL).
 You can set some constant value for table column if there is no source column for it in CSV.
-<img src="images/dt/dt-import-mappings.png"/>
+<img src="images/dt/dt-import-mappings.png" width="400"/>
 
 5. Set options for loading data in database. These options may affect performance:
-<img src="images/dt/dt-options-load.png"/>
+<img src="images/dt/dt-options-load.png" width="400"/>
 
 6. Review what file(s) and to what table(s) you will import:
-<img src="images/dt/dt-import-final.png"/>
+<img src="images/dt/dt-import-final.png" width="400"/>
 
 7. Press finish. See extraction progress. Actual data loading will be performed in background, you can keep working with your database during export process.
 Note: avoid changing data in tables you selected for import while import is running.
 In the end you will see status message:
-<img src="images/dt/dt_message-success.png"/>
+<img src="images/dt/dt_message-success.png" width="400"/>
 
 ## Migrating table(s) data to another database table(s)
 
