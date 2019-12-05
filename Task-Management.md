@@ -29,3 +29,7 @@ By clicking on `Edit` or by double-clicking on task you can open tasks edit wiza
 ### Create task from task management view
 You can create task from scratch using tasks view. Open tasks view and `Create new task` button in the view toolbar or in the context menu.
 In task wizard you can choose task category, task type and name. On the next wizard pages actual tool configuration pages will be shown (they depend on chosen task type).
+
+### Scheduling tasks
+
+You can schedule tasks for later/regular execution. See [[Task Scheduler]] article.
