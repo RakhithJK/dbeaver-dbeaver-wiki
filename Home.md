@@ -17,7 +17,7 @@ Having usability as its main goal, DBeaver offers:
 
 # Contacts
 
-For technical support, feature suggestions and any other questions, please contact support@dbeaver.com
+For technical support, feature suggestions and any other questions, please contact dbeaver@jkiss.org
 
 <div align="center"><img src="images/dbeaver-head.png" width="300"/></div>
 
