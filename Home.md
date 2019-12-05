@@ -15,7 +15,7 @@ Having usability as its main goal, DBeaver offers:
 - Great number of features 
 - Multiplatform support
 
-![](images/dbeaver-head.png)
+<img src="images/dbeaver-head.png" width="300"/>
 
 # Contacts
 
