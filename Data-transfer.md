@@ -5,13 +5,13 @@ We'll describe most typical use cases.
 
 1. Select a table(s) you want to export. In the context menu choose "Export Data".  
 (Note: you also can export data from custom SQL queries results. For that in results context menu choose "Export results").
-![](images/dt/dt-export_menu.png)
+![](images/dt/dt-export_menu.png|width=300)
 
 2. Choose export format. DBeaver support many different output formats including CSV, HTML, XLSX, etc:
-![](images/dt/dt-export-format.png)
+![](images/dt/dt-export-format.png|width=300)
 
 3. Set data extraction options (how data will be read from tables). This may affect extraction performance:
-![](images/dt/dt-options-extract.png)
+![](images/dt/dt-options-extract.png|width=300)
 
 4. Set export format option. They are specific to the data format you chose on step 2:
 ![](images/dt/dt-options-format.png)
