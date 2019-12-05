@@ -54,7 +54,7 @@ You can set some constant value for table column if there is no source column fo
 7. Press finish. See extraction progress. Actual data loading will be performed in background, you can keep working with your database during export process.
 Note: avoid changing data in tables you selected for import while import is running.
 In the end you will see status message:
-<img src="images/dt/dt_message-success.png"/>
+<img src="images/dt/dt_message-success.png" width="200"/>
 
 ## Migrating table(s) data to another database table(s)
 
