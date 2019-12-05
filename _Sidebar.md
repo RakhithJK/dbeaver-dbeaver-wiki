@@ -58,9 +58,10 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
+- Tasks
+  - [[Data export/import|Data transfer]]
+  - [[Data migration|Data migration]]
 - [[Mock Data generation|Mock Data generation in DBeaver]]
-- [[Data export/import|Data transfer]]
-- [[Data migration|Data migration]]
 - [[Database compare]]
 
 #### Customizing DBeaver
