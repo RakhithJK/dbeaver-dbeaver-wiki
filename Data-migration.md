@@ -8,7 +8,7 @@ In the **Database Navigator** select one or more tables you want to export. In t
 (Note: you also can export data from the custom SQL queries results. For that in the results context menu choose "Export results").
 
 
-![](images/dt/dt-export_menu.png)
+<img src="images/dt/dt-export_menu.png" width="450"/>
 
 
 ## Step 2: Define data transfer target type 
