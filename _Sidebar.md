@@ -60,12 +60,13 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
-- [[Tasks]]
+- Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
   - [[MockData generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
+  - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
