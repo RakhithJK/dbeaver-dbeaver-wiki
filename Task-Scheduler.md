@@ -21,6 +21,7 @@ Then click on `Schedule` button. If everything was configured correctly then you
 ![](images/ug/tools/task-schedule-success.png)
 
 If anything will fo wrong you will see error message dialog. Error details can be viewed in [[Error Log|Log-files]] view.
+
 You can change scheduler settings at any moment by choosing `Edit scheduled task` command from context menu. You can also cancel scheduling by clicking on `Remove schedule`.
 
 ### See schedule details/logs in Windows Task Scheduler
@@ -32,6 +33,12 @@ You can see/change scheduled task details in Windows Task Scheduler. In task vie
 All DBeaver tasks are located in folder `DBeaver`.
 
 ### Monitoring task execution
+
+You can see task execution logs in the right side of tasks view. By double clicking on task run item you can see full log with all details/errors/warnings:
+
+![](images/ug/tools/task-run-logs.png)
+
+DBeaver keeps task run logs in [[workspace|Workspace Location]] directory, subfolder `.metadata/task-stats`.
 
 ### Running tasks from command line
 
