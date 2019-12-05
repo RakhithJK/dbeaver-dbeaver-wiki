@@ -1,3 +1,5 @@
+**Note: This functionality is available only in [[Enterprise-Edition]].**
+
 DBeaver support local storage for connection secure data. It includes:
 - Database server user credentials
 - SSH tunnel user credentials
