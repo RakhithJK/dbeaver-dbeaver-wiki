@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
+  - [[Managing Charts]]<img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with XML and JSON]]
@@ -28,7 +28,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
-  - [[Visual Query Builder]]&nbsp;<img src="images/ee.png" vspace="0" border="0" height="18" style="vertical-align: baseline;"/>
+  - [[Visual Query Builder]]<img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
