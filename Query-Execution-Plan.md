@@ -12,3 +12,8 @@ To reevaluate the plan, click the **Reevaluate** button (![](images/ug/Refresh-p
 To see the source script on which the plan is based, click the **View Source** button (![](images/ug/View-Source-button.png)).
 
 ### Advanced plan view <img src="images/ee.png" width="32"/>
+
+In DBeaver [[Enterprise Edition]] you can use advanced (graph) execution plan visualization.  
+This visualization shows most expensive (cost-based) plan nodes. You can hide all irrelevant nodes, see node details, use horizontal or vertical pln layout, export it to image or save as json to pass plan information to a colleague.
+
+![](images/ug/Exec-plan-graph.png)
