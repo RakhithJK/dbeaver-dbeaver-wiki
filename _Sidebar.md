@@ -77,6 +77,9 @@
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
 - [Redis](https://dbeaver.com/databases/redis/)
+- [[AWS DynamoDB]]
+- [[Google BigTable]]
+- [[SQLite Crypt]]
 
 #### Customizing DBeaver
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
