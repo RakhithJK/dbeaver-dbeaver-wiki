@@ -72,7 +72,7 @@
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
-#### NoSQL Databases <img src="images/ee.png" vspace="0" border="0" height="18"/>
+#### Enterprise Databases <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
