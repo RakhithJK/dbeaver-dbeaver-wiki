@@ -20,11 +20,12 @@ Then click on `Schedule` button. If everything was configured correctly then you
 
 ![](images/ug/tools/task-schedule-success.png)
 
+If anything will fo wrong you will see error message dialog. Error details can be viewed in [[Error Log]] view.
 You can change scheduler settings at any moment by choosing `Edit scheduled task` command from context menu. You can also cancel scheduling by clicking on `Remove schedule`.
 
 ### See schedule details/logs in Windows Task Scheduler
 
-You can see/change scheduled task detaisl in Windows Task Scheduler. In task view context menu click on `Open scheduler settings` command:
+You can see/change scheduled task details in Windows Task Scheduler. In task view context menu click on `Open scheduler settings` command:
 
 ![](images/ug/tools/task-schedule-windows-task-manager.png)
 
