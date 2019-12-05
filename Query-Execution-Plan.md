@@ -11,4 +11,4 @@ You can click the rows of the execution plan to see their details (statistics) i
 To reevaluate the plan, click the **Reevaluate** button (![](images/ug/Refresh-projects-icon.png)).
 To see the source script on which the plan is based, click the **View Source** button (![](images/ug/View-Source-button.png)).
 
-### Advanced plan view <img src="images/ee.png"/>
+### Advanced plan view <img src="images/ee.png" width="32"/>
