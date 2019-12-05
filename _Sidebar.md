@@ -29,6 +29,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
+  - [[Query Execution Plan]]
   - [[Visual Query Builder]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
