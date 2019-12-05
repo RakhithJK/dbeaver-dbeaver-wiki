@@ -67,23 +67,16 @@
   - [[Task scheduler]]
 - [[Database schema compare]]
 
-#### Customizing DBeaver
-- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
-- [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
-
-#### Databases
-- [[Generic]]
-- [[MySQL/MariaDB|Database: MySQL]]
-- [[PostgreSQL]]
-- [[Oracle]]
-- [[Exasol]]
-- [[DB2]]
+#### NoSQL Databases
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
 - [Redis](https://dbeaver.com/databases/redis/)
-- [[Clickhouse]]
+
+#### Customizing DBeaver
+- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
+- [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
 #### Troubleshooting
 - [[Command-Line]]
@@ -102,7 +95,6 @@
 - [[Build from sources|Build-from-sources]]
 - [[Develop in Eclipse|Develop-in-Eclipse]]
 - [[Develop in IDEA|Develop-in-IDEA]]
-- [[Features structure|Features-structure]]
 - [[Resources localization|Localization]]
 - [[Automatic Tests|Auto-Tests]]
 
