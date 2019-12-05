@@ -42,6 +42,10 @@ DBeaver keeps task run logs in [[workspace|Workspace Location]] directory, subfo
 
 ### Running tasks from command line
 
+Task scheduler uses DBeaver [[command line|Command-Line] interface to perform task execution. Command line parameter `-runTask TASK_ID` launches saved task execution (immediately).
+`TASK_ID` has form `@projectName:taskName`. You can omit project name part if you have only one project in your workspace.
+Use `dbeaver-cli` executable to run tasks.
+If you will use `dbeaver` executable (by any reason) then you need to add command line parameter `-nosplash` to avoid splash screen appearance.
 
 ### Configuring CRON scheduler
 
