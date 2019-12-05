@@ -1,4 +1,4 @@
-__Note: since version 6.2 Mock data generators were moved to EE version, see https://github.com/dbeaver/dbeaver/issues/6592__
+**Note: since version 6.2 mockData generator extension is available only in [[Enterprise-Edition]] version.**
 
 Sometimes in software development we need to generate mock, but valid, data for testing. Populating a database manually is a time-consuming and exhausting process. It can be very complicated when you need to generate not just 5–10 users, but thousands of entities of different types. DBeaver Mock Data generator helps you generate test data much easier.
 
