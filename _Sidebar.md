@@ -65,7 +65,7 @@
   - [[Data migration|Data migration]]
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
-  - [[Mock Data generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
+  - [[MockData generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
