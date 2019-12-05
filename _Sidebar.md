@@ -58,12 +58,14 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
-- Tasks
+- [[Tasks]]
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
   - [[Database backup/restore|Backup Restore]]
-- [[Mock Data generation|Mock Data generation in DBeaver]]
-- [[Database compare]]
+  - [[Database maintenance tools|Maintenance tools]]
+  - [[Mock Data generation|Mock Data generation in DBeaver]]
+  - [[Task scheduler]]
+- [[Database schema compare]]
 
 #### Customizing DBeaver
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
