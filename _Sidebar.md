@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]]
+  - [[Managing Charts]] <img src="images/ee.png"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with XML and JSON]]
@@ -28,7 +28,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
-  - [[Visual Query Builder]]
+  - [[Visual Query Builder]] <img src="images/ee.png"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
@@ -42,6 +42,8 @@
   - [[DB Metadata Search]]
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
+  - [[Project-security]] <img src="images/ee.png"/>
+  - [[Team-work (Git) | Project-team-work]] <img src="images/ee.png"/>
 - [[Bookmarks]]
 - [[Shortcuts]]
 
@@ -63,11 +65,11 @@
   - [[Data migration|Data migration]]
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
-  - [[Mock Data generation|Mock Data generation in DBeaver]]
-  - [[Task scheduler]]
-- [[Database schema compare]]
+  - [[Mock Data generation|Mock Data generation in DBeaver]] <img src="images/ee.png"/>
+  - [[Task scheduler]] <img src="images/ee.png"/>
+- [[Database schema compare]] <img src="images/ee.png"/>
 
-#### NoSQL Databases
+#### NoSQL Databases <img src="images/ee.png"/>
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [MongoDB](https://dbeaver.com/databases/mongo/)
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
