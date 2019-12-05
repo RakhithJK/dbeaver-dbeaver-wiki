@@ -42,8 +42,8 @@
   - [[DB Metadata Search]]
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
-  - [[Project-security]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
-  - [[Team-work (Git) | Project-team-work]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Project security]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Team work (Git) | Project-team-work]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Bookmarks]]
 - [[Shortcuts]]
 
