@@ -34,7 +34,7 @@ You can see and change scheduled task details in the Windows Task Scheduler. Cli
 
 All DBeaver tasks are located in a folder `DBeaver`.
 
-### Monitoring task execution
+### Monitoring for task execution
 
 You can look through the task execution logs in the right side of the tasks view. By double clicking on a task run item you can see the full log with all details/errors/warnings:
 
