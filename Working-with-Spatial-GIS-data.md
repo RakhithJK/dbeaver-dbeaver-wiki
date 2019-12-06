@@ -5,6 +5,7 @@ Spatial data is geometry or geography value which can be represented on a map or
 ## Spatial data viewer
 
 ![](images/ug/Data-view-gis.png)
+![](images/ug/Data-view-gis-presentation.png)
 
 ## Converting longitude/latitude to geography points
 
