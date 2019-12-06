@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Managing Charts]] <img src="images/ee.png" vspace="0" border="0" height="16"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with spatial/GIS data]]
@@ -30,7 +30,7 @@
   - [[SQL Formatting]]
   - [[SQL Execution]]
   - [[Query Execution Plan]]
-  - [[Visual Query Builder]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Visual Query Builder]] <img src="images/ee.png" vspace="0" border="0" height="16"/>
   - [[Script Management]]
   - [Client Side Commands](Client-side-scripting)
   - Debug
