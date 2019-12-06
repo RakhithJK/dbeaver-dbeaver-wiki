@@ -18,7 +18,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]] <img src="images/ee.png" vspace="0" border="0" height="18" class="align-center"/>
+  - [[Managing Charts]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with spatial/GIS data]]
