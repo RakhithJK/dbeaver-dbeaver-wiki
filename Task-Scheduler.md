@@ -40,11 +40,11 @@ You can look through the task execution logs in the right side of the tasks view
 
 ![](images/ug/tools/task-run-logs.png)
 
-DBeaver keeps the task run logs in the [[workspace|Workspace Location]] directory, subfolder `.metadata/task-stats`.
+DBeaver keeps the task run logs in the [workspace](Workspace Location) directory, subfolder `.metadata/task-stats`.
 
 ### Running tasks from the command line
 
-The task scheduler uses the DBeaver [[command line|Command-Line]] interface to perform task execution. Command line parameter `-runTask TASK_ID` launches saved task execution (immediately).  
+The task scheduler uses the DBeaver [command line](Command-Line) interface to perform task execution. Command line parameter `-runTask TASK_ID` launches saved task execution (immediately).  
 `TASK_ID` has form `@projectName:taskName`. You can omit project name part if you have only one project in your workspace.
 Use `dbeaver-cli` executable to run tasks.  
 Draw your attention that if you use `dbeaver` executable (by any reason) you will need to add command line parameter `-nosplash` to avoid splash screen appearance.
