@@ -1,4 +1,4 @@
-**Note: This functionality is available only in [[Enterprise-Edition]].**
+**Note: This functionality is available only in [Enterprise-Edition](Enterprise-Edition).**
 
 DBeaver can schedule task execution for regular executions.
 In version 6.x DBeaver supports only native Windows Task Scheduler. You can configure scheduler (CRON) manually on other OSes by calling `dbeaver-cli` command line tool (see below).
@@ -22,7 +22,7 @@ Then click on a `Schedule` button. If everything is configured correctly you wil
 
 ![](images/ug/tools/task-schedule-success.png)
 
-If anything goes wrong you will see an error message dialog. Error details can be viewed in the [[Error Log|Log-files]] view.
+If anything goes wrong you will see an error message dialog. Error details can be viewed in the [Error Log](Log-files) view.
 
 You can change scheduler settings at any moment by choosing `Edit scheduled task` command from the context menu. You can also cancel scheduling by clicking on `Remove schedule`.
 
