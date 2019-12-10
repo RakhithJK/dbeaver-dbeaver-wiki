@@ -40,7 +40,7 @@ You can look through the task execution logs in the right side of the tasks view
 
 ![](images/ug/tools/task-run-logs.png)
 
-DBeaver keeps the task run logs in the [workspace](Workspace Location) directory, subfolder `.metadata/task-stats`.
+DBeaver keeps the task run logs in the [workspace](Workspace-Location) directory, subfolder `.metadata/task-stats`.
 
 ### Running tasks from the command line
 
