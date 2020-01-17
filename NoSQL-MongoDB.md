@@ -1,4 +1,4 @@
-**Note: MongoDB extension is available only in [[Enterprise-Edition]] version.**
+**Note: MongoDB extension is available only in [Enterprise Edition](Enterprise-Edition) version.**
 
 ### Browsing Mongo collections
 You can view/edit Mongo collections content as standard relational tables (grid/plain text presentations) or as JSON documents.  

@@ -1,8 +1,8 @@
-**Note: This functionality is available only in [[Enterprise-Edition]].**
+**Note: This functionality is available only in [Enterprise Edition](Enterprise-Edition).**
 
 The default grid view of query resulting data is not very much impressive, especially to business analysts and other end users. The **Charts** feature lets you quickly and easily  turn your SELECT queries' output into a colorized bar chart.
 
-*Note: Analytical Charts present only in DBeaver [[Enterprise Edition]]*
+*Note: Analytical Charts present only in DBeaver [Enterprise Edition](Enterprise-Edition)*
 
 ![](images/charts/sample_bar_chart.png)
 

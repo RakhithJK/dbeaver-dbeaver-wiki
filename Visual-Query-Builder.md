@@ -1,4 +1,4 @@
-**Note: This functionality is available only in [[Enterprise-Edition]].**
+**Note: This functionality is available only in [Enterprise Edition](Enterprise-Edition).**
 
 **Query Builder** is a user-friendly visualization tool that will help you make sense of your complex database designs. It can be useful when you need to understand the various relationships between different tables. Also, it can be helpful for those who is not much familiar with SQL scripting or if you don't want to insert script commands manually. The tool creates SQL scripts automatically based on visual schema you create. 
 

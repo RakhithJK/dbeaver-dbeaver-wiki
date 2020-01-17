@@ -1,4 +1,4 @@
-**Note: This functionality is available only in [[Enterprise-Edition]].**
+**Note: This functionality is available only in [Enterprise Edition](Enterprise-Edition).**
 
 ### Manual license import
 

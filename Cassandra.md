@@ -1,4 +1,4 @@
-**Note: Cassandra extension is available only in [[Enterprise-Edition]] version.**
+**Note: Cassandra extension is available only in [Enterprise Edition](Enterprise-Edition) version.**
 
 ### Browsing Cassandra tables
 
