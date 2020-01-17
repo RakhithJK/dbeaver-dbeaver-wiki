@@ -3,6 +3,10 @@
 ### License import
 
 DBeaver EE asks user to import license file if this file cannot be found in the local license storage.
+For individual users this is the most simple and convenient way to import product license.
+
+![](images/license-not-found.png)
+
 There are several ways to automate license management process:
 
 #### Put the license file to the predefined locations
