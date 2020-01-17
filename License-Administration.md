@@ -14,6 +14,7 @@ There are several ways to automate license management process. It makes sense fo
 #### Put the license file to the predefined locations
 
 On start DBeaver will look for license file in the following locations: 
+
 - Windows
     - `%HOMEPATH%\.dbeaver-ee-license.dat`
     - `%APPDATA%\DBeaverData\workspace6\.metadata\.dbeaver-ee-license.dat`
@@ -25,7 +26,9 @@ On start DBeaver will look for license file in the following locations:
     - `$XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.dbeaver-ee-license.dat`
 
 
-#### Passing license file through [[Command-Line|command line]]
+#### Passing license file through command line
 
 You can add command line parameter `license <license-path>` to the DBeaver EE shortcut.
 Also you can add this parameter to `dbeaver.ini` config file.
+
+[[Command-Line|command line]] reference.
