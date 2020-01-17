@@ -18,7 +18,7 @@ Name|Value|Example
 -reuseWorkspace|Force reuse of single workspace by multiple DBeaver instances|
 -newInstance|Force new DBeaver instance creation (do not try to reuse already running one)|
 -runTask <img src="images/ee.png" vspace="0" border="0" height="18"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
--license ![](images/ee.png)|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
+-license <img src="images/ee.png" vspace="0" border="0" height="18"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
 
 ## System parameters
