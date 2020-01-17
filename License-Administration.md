@@ -31,4 +31,4 @@ On start DBeaver will look for license file in the following locations:
 You can add command line parameter `license <license-path>` to the DBeaver EE shortcut.
 Also you can add this parameter to `dbeaver.ini` config file.
 
-[Command line](Command-line) reference.
+[Command line](Command-Line) reference.
