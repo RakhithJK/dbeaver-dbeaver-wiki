@@ -98,6 +98,7 @@
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
+- [[License Manager]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Development
 - [[Build from sources|Build-from-sources]]
