@@ -8,7 +8,7 @@ We'll describe most typical use cases.
 <img src="images/dt/dt-export_menu.png" width="450"/>
 
 2. Choose export format. DBeaver support many different output formats including CSV, HTML, XLSX, etc:
-<img alt src="images/dt/dt-export-format.png">
+<img src="images/dt/dt-export-format.png" width="450"/>
 
 3. Set data extraction options (how data will be read from tables). This may affect extraction performance:
 <img src="images/dt/dt-options-extract.png" width="450"/>
