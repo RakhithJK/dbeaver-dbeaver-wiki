@@ -65,8 +65,8 @@ That's it.
 - `plugins` - main sources location
   - `org.jkiss.dbeaver.model` - model API and base classes. Doesn't contain any UI dependencies, just pure data model.
   - `org.jkiss.dbeaver.core` - main DBeaver module. Most of base UI classes are here.
-  - `org.jkiss.dbeaver.core.application` - relatively small module which configures standalone DBeaver application.
-  - `org.jkiss.dbeaver.core.eclipse` - main Eclipse plugin. Adds some extra menus/views to standard Eclipse IDE.
+  - `org.jkiss.dbeaver.ui.app.standalone` - relatively small module which configures standalone DBeaver application.
+  - `org.jkiss.dbeaver.ui.app.eclipse` - main Eclipse plugin. Adds some extra menus/views to standard Eclipse IDE.
   - `org.jkiss.dbeaver.ext.*` - DBeaver extensions
 - `product` - final products (standalone and Eclipse plugin) configuration.
 
