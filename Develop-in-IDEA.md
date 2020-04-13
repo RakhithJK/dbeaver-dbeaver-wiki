@@ -68,4 +68,4 @@ Replace path before `.metadata` with path to your Eclipse workspace. Eventually 
 ### Problems
 
 Most likely something will go wrong as these instructions are quite long. Don't be afraid, rechecks configuration, try again.
-IF nothing helps - don't hesitate to ask in <a href="/dbeaver/dbeaver/issues/">tickets</a> or by <a href="mailto:dbeaver@jkiss.org">email</a>.
+If nothing helps - don't hesitate to ask in <a href="/dbeaver/dbeaver/issues/">tickets</a>.
