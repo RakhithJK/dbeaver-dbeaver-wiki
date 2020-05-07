@@ -92,6 +92,7 @@
 - [[Reset workspace]]
 - [[Posting issues]]
 - [[Log files]]
+- [JDBC trace](JDBC-Tracing)
 - [Thread dump](Making-a-thread-dump)
 
 #### Admin Guide
