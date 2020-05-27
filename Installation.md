@@ -7,12 +7,12 @@ To install DBeaver, run the installer executable and follow the instructions in 
 NOTE:
 
 * The installer does not change any system settings or the Java installation. 
-* The included JRE will be accessible only for DBeaver.  
+* The included JDK will be accessible only for DBeaver.  
 
 ### ZIP Archive
 When installing DBeaver manually, without using an installer:
 
-1. Install [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
+1. Install [Java](https://adoptopenjdk.net/).
 3. Extract the contents of the archive.  
 NOTE: Do not unzip the archive over a previous DBeaver version. 
 If you already have any version of DBeaver extracted in the same location - remove it before unzipping the new version.  
@@ -37,7 +37,7 @@ NOTE: To upgrade DBeaver to the next version, use `sudo rpm -Uvh dbeaver-<versio
 ### MacOS DMG
 You can try DMG or ZIP archive if you cannot use PKG installer for some reason.  
 To install DBeaver on MacOS, just drag-and-drop the DMG archive to your disk.  
-NOTE: DBeaver requires Java 1.8 to be installed, so you need to install [JDK 1.8+](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) prior to installing DBeaver.
+NOTE: DBeaver requires Java 1.8+ to be installed, so you need to install [JDK](https://adoptopenjdk.net/) prior to installing DBeaver.
 
 You can also use [brew](http://macappstore.org/dbeaver-community/): 
 ```sh
