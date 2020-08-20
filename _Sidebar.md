@@ -44,6 +44,7 @@
   - [[DB Metadata Search]]
 - [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Data compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[MockData generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
   - [[Project security]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
@@ -71,8 +72,6 @@
   - [[Database maintenance tools|Maintenance tools]]
   - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
-- [[MockData generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/ee.png" vspace="0" height="18"/>
-- [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Enterprise Databases <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Apache Hive/Spark/Impala|Apache Hive]]
