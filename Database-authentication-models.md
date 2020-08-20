@@ -12,7 +12,7 @@ Parameter | Description
 ---|---
 Model ID | postgres_pgpass
 
-### Kerberos
+### Kerberos <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 Parameter | Description
 ---|---
@@ -25,7 +25,7 @@ krb5.keytab_path | Keytab file path
 krb5.use_kinit | Force kinit utulity usage
 krb5.kdc_over_tcp | Force TCP/IP protocol usage (UDP is used by default)
 
-### Oracle Wallet
+### Oracle Wallet <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 Oracle Wallet authentication
 
