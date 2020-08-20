@@ -42,7 +42,18 @@ Parameter | Description
 ---|---
 Model ID | oracle_os
 
-### AWS IAM authentication
+### Oracle native database auth
+
+Oracle native database authentication
+
+Parameter | Description
+---|---
+Model ID | oracle_native
+
+
+### AWS IAM auth <img src="images/ee.png" vspace="0" border="0" height="18"/>
+
+AWS IAM authentication
 
 Parameter | Description
 ---|---
