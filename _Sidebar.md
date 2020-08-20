@@ -42,6 +42,8 @@
   - [[File Search]]
   - [[DB Full-Text Search]]
   - [[DB Metadata Search]]
+- [[Schema compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[Data compare]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
   - [[Project security]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
