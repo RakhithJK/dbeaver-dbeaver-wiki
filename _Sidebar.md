@@ -88,7 +88,7 @@
 - [[SQLite Crypt]]
 
 #### Customizing DBeaver
-- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]]
+- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
 #### Troubleshooting
@@ -113,5 +113,5 @@
 - [[Resources localization|Localization]]
 - [[Automatic Tests|Auto-Tests]]
 
-#### Other
-- [[Enterprise Edition]]
+#### Other <!--CMD:SKIP-->
+- [[Enterprise Edition]] <!--CMD:SKIP-->
