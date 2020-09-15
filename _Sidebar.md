@@ -106,12 +106,12 @@
 - [[Windows Silent Install]]
 - [[License Administration]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
-#### Development
-- [[Build from sources|Build-from-sources]]
-- [[Develop in Eclipse|Develop-in-Eclipse]]
-- [[Develop in IDEA|Develop-in-IDEA]]
-- [[Resources localization|Localization]]
-- [[Automatic Tests|Auto-Tests]]
+#### Development <!--CMD:SKIP-->
+- [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
+- [[Develop in Eclipse|Develop-in-Eclipse]] <!--CMD:SKIP-->
+- [[Develop in IDEA|Develop-in-IDEA]] <!--CMD:SKIP-->
+- [[Resources localization|Localization]] <!--CMD:SKIP-->
+- [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 
 #### Other <!--CMD:SKIP-->
 - [[Enterprise Edition]] <!--CMD:SKIP-->
