@@ -29,7 +29,15 @@ DynamoDB is document-oriented database. Each table may have its own set of attri
 
 ### Viewing table data
 
+You can open table editor and see table data.  
+You may need to switch to the "Data" tab.
+By default DBeaver converts DynamoDB documents into table format but you can switch to another data representation.  
+![](images/database/dynamodb/data-view.png)
+
+### Viewing data in JSON document format
+
+![](images/database/dynamodb/data-view-json.png)
 
 ### Executing queries
 
-
+![](images/database/dynamodb/sql-query-simple.png)
