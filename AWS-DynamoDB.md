@@ -19,4 +19,17 @@ For 3rd-party account access you must specify 3rd party account ID (12-digits nu
 
 Press "Test Connection" to validate your connection settings.
 
-### 
+### Database navigation
+
+DynamoDB has simple metadata structure. Basically you can access only Table and Global tables.  
+Table has primary attributes (a kind of primary key) and indexes.  
+DynamoDB is document-oriented database. Each table may have its own set of attributes and sub-attributes.  
+
+![](images/database/dynamodb/database-structure.png)
+
+### Viewing table data
+
+
+### Executing queries
+
+
