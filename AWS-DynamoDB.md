@@ -19,4 +19,25 @@ For 3rd-party account access you must specify 3rd party account ID (12-digits nu
 
 Press "Test Connection" to validate your connection settings.
 
-### 
+### Database navigation
+
+DynamoDB has simple metadata structure. Basically you can access only Table and Global tables.  
+Table has primary attributes (a kind of primary key) and indexes.  
+DynamoDB is document-oriented database. Each table may have its own set of attributes and sub-attributes.  
+
+![](images/database/dynamodb/database-structure.png)
+
+### Viewing table data
+
+You can open table editor and see table data.  
+You may need to switch to the "Data" tab.
+By default DBeaver converts DynamoDB documents into table format but you can switch to another data representation.  
+![](images/database/dynamodb/data-view.png)
+
+### Viewing data in JSON document format
+
+![](images/database/dynamodb/data-view-json.png)
+
+### Executing queries
+
+![](images/database/dynamodb/sql-query-simple.png)
