@@ -6,9 +6,9 @@ DBeaver uses MongoDB Java driver 3.8.0 to operate with server. It supports Mongo
 ### Connecting to MongoDB Server
 You can connect directly to a server or use SSH tunneling or SOCKS proxy.  
 
-[[!mongodb-connection-init.png]]
-mongodb-connection-props.png
-mongodb-connection-ssh.png
+![](images/database/mongodb/mongodb-connection-init.png)
+![](images/database/mongodb/mongodb-connection-props.png)
+![](images/database/mongodb/mongodb-connection-ssh.png)
 
 ### Browsing Mongo collections
 
@@ -16,11 +16,11 @@ You can view/edit MongoDB collections content as standard relational tables (gri
 Presentation can be switched in the Results Viewer toolbar.  
 In grid DBeaver will try to unify all documents in some particular collection (as they have the same structure/the same set of properties).  
 
-mongodb-data-json.png
+![](images/database/mongodb/mongodb-data-json.png)
 
-mongodb-data-grid.png
+![](images/database/mongodb/mongodb-data-grid.png)
 
-mongodb-data-edit.png
+![](images/database/mongodb/mongodb-data-edit.png)
 
 ### Executing JavaScript
 JS statements can be executed in SQL editor as usual.
