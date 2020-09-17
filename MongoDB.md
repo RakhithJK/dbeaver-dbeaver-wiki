@@ -5,8 +5,10 @@ DBeaver uses MongoDB Java driver 3.8.0 to operate with server. It supports Mongo
 
 ### Connecting to MongoDB Server
 You can connect directly to a server or use SSH tunneling or SOCKS proxy.  
+You can specify server address as host/port/database configuration or you can enter target database URL with all necessary parameters:
 
 ![](images/database/mongodb/mongodb-connection-init.png)
+![](images/database/mongodb/mongodb-connection-url.png)
 ![](images/database/mongodb/mongodb-connection-props.png)
 ![](images/database/mongodb/mongodb-connection-ssh.png)
 
