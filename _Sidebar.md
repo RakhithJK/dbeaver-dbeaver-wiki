@@ -77,7 +77,7 @@
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
-- [Redis](https://dbeaver.com/databases/redis/)
+- [[Redis]]
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [[Google Bigtable]]
 - [[Couchbase]]
