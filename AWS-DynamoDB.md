@@ -32,12 +32,19 @@ DynamoDB is document-oriented database. Each table may have its own set of attri
 You can open table editor and see table data.  
 You may need to switch to the "Data" tab.
 By default DBeaver converts DynamoDB documents into table format but you can switch to another data representation.  
+You can use data filters in order to find documents.  
 ![](images/database/dynamodb/data-view.png)
 
 ### Viewing data in JSON document format
 
+You view, search and edit JSON documents. Double-click on a document to activate editor.  
 ![](images/database/dynamodb/data-view-json.png)
 
 ### Executing queries
+
+DBeaver support simple SQL dialect for DynamoDB.  
+You can use WHERE clause in the same fashion as in regular SQL in order to find or filter documents.  
+
+You can also use JSON requests syntax to query documents. See [[Amazon DynamoDB query reference|https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html]].
 
 ![](images/database/dynamodb/sql-query-simple.png)
