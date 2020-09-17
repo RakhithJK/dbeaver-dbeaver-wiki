@@ -48,3 +48,7 @@ You can use WHERE clause in the same fashion as in regular SQL in order to find 
 You can also use JSON requests syntax to query documents. See [[Amazon DynamoDB query reference|https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html]].
 
 ![](images/database/dynamodb/sql-query-simple.png)
+
+### Exporting and importing data
+
+You can export data from DynamoDB table in different file formats (CSV, XLSX, XML, JSON, etc) or export data directly to another table.  
