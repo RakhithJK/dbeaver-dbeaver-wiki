@@ -1,6 +1,5 @@
-**Note: Cassandra extension is available only in [Enterprise Edition](Enterprise-Edition) version.**
-
 ### Overview 
+
 DBeaver EE supports Cassandra schema browser, data viewer and CQL queries execution.
 Also it supports various administrative tools.
 
