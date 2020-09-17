@@ -74,7 +74,7 @@
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
-- [MongoDB](https://dbeaver.com/databases/mongo/)
+- [[MongoDB]]
 - [Cassandra](https://dbeaver.com/databases/cassandra/)
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
 - [Redis](https://dbeaver.com/databases/redis/)
