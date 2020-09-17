@@ -1,4 +1,4 @@
-### Overview<
+### Overview
 DBeaver EE supports MongoDB schema browser, data viewer, SQL and JavaScript queries execution. 
 Also it supports various administrative tools (like server sessions manager).  
 DBeaver uses MongoDB Java driver 3.8.0 to operate with server. It supports MongoDB servers from 2.x to 4.x.  
