@@ -75,7 +75,7 @@
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
-- [Cassandra](https://dbeaver.com/databases/cassandra/)
+- [[Cassandra]]
 - [InfluxDB](https://dbeaver.com/databases/influxdb/)
 - [Redis](https://dbeaver.com/databases/redis/)
 - [[Apache Hive/Spark/Impala|Apache Hive]]
