@@ -1,4 +1,4 @@
-### Overview<
+### Overview
 
 DBeaver EE supports InfluxDB schema browser, data viewer and InfluxQL queries execution.  
 DBeaver uses InfluxDB Java driver 2.12 to operate with the server over HTTP/HTTPS (standard InfluxDB protocol).  
