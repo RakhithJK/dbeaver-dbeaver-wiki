@@ -21,3 +21,5 @@ Couchbase uses <a href="https://docs.couchbase.com/server/current/getting-starte
 ```sql
 SELECT country FROM `travel-sample` WHERE name = "Excel Airways";
 ```
+
+![](images/database/couchbase/couchbase-queries.png)
