@@ -1,6 +1,6 @@
 DBeaver supports the following commands:
 
-| Command | Database | Description |
+Command | Database | Description |
 -----------|-------------|-------------|
 @set&nbsp;var&nbsp;=&nbsp;value | All | Sets a script variable.<br/> You can use expressions as a value. Variables can be used as SQL queries input parameters.
 @unset&nbsp;var | All | Unsets a script variable.
