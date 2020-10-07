@@ -15,3 +15,4 @@ DBeaver fetches portions of data from each table and then finds the differences.
 
 ### Result diff
 
+![](images/ug/tools/data-compare-diff.png)
