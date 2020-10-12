@@ -85,6 +85,7 @@
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [[Netezza]]
 - [[SQLite Crypt]]
+- [[Informix]]
 
 #### Customizing DBeaver
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
