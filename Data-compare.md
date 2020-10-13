@@ -4,7 +4,7 @@ DBeaver visualizes these differences using table diff view.
 
 ### Running data compare tool
 
-- Select two tables in the [[Database Navigator]]. From the same database or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL).
+- Select two tables in the [[Database Navigator]] from the same database or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL).
 - In the context menu choose Compare/Migrate->Compare Data
 
 DBeaver uses best unique key or index (usually it is a Primary Key) to identify rows.  
