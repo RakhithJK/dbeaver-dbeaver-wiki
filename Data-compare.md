@@ -1,6 +1,6 @@
 You can compare data of two tables using Data Compare tool.  
 It is very useful when you need to compare two tables which have almost identical data with just a few differences.  
-DBeaver visualize these differneces using table diff view.
+DBeaver visualizes these differences using table diff view.
 
 ### Running data compare tool
 
