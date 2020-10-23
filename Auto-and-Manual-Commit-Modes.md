@@ -32,7 +32,7 @@ Clicking the statistics field opens the [Transaction Log](Transaction-Log).
 
 ## Smart Commit Mode
 
-When smart commit is enabled and you are in manual commit mode then DBeaver will monitor your activity.  
+When smart commit is enabled and you are in auto-commit mode then DBeaver will monitor your activity.  
 Once you will try to execute any data modifying query (UPDATE, INSERT, DELETE, UPSERT, MERGE, etc) DBeaver will switch to manual commit mode before executing your query. Also if you will edit table data and save your changes - DBeaver will also switch to manual mode before actual data modification.
 
 If option "Return to auto-commit on transaction end" is on then DBeaver will switch back to auto-commit mode once you execute Commit or Rollback command (using main toolbar or main menu actions).
