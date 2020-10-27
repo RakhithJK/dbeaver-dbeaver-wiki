@@ -19,8 +19,7 @@ You can open SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 ## Results Panel
 The results panel displays tabs with results in various formats. The tabs resulting from script execution represent instances of the [Data Editor](Data-Editor). You can create, edit and execute SQL scripts in the script panel and then see the results in the result tabs.
 
-The results panel provides **Output** and **Log** views of results.  
-The execution **Log** tab contains all queries executed in the current SQL editor:
+The results panel provides **Output** and **Log** views of results. The execution **Log** tab contains all queries executed in the current SQL editor:
 
 ![](images/ug/SEL-Editor-Exec-Log.png)
 
