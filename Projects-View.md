@@ -1,6 +1,4 @@
-You might need to classify and group database connections into projects. 
-
-Projects store objects related not to a particular database but to all database connections. These are usually files stored on the file system.
+You might need to classify and group database connections into projects. Projects store objects related not to a particular database but to all database connections. These are usually files stored on the file system.
 
 The Projects view displays all projects created in the system and provides tools to manage them. To open the Projects view, on the **Window** menu, click **Projects** (or use <kbd>ALT+W+P</kbd> shortcut).
 
