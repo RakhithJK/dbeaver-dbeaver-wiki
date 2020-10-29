@@ -19,7 +19,7 @@ Button|Name|Description
 ![](images/ug/Remove-all-filters-orderings.png)|**Remove all filters/orderings**|Removes all filters and orderings applied to the data
 ![](images/ug/Save-filter-settings-for-current-object.png)|**Save filter settings for current object**|Saves the current filter settings for the database object to apply next time when you reopen it in the editor, see details in [Data Filters](Data-Filters) article
 ![](images/ug/Filter-button.png)|**Custom Filters**|Opens the Result Set Order/Filter Settings window, see [Data Appearance](Data-Appearance) article for more information
-![](images/ug/Configure-auto-refresh.png)|**Configure auto-refresh**|Allows configuring data auto-refresh settings, see [Data Refresh](Data-Refresh) article for details
+![](images/ug/Reset-button.png)|**Configure auto-refresh**|Allows configuring data auto-refresh settings, see [Data Refresh](Data-Refresh) article for details
 ![](images/ug/History-navigation.png)|Forward and backward -  history navigation buttons|Navigate forward and backward in the Data Editor history, see _History_ section of [Navigation](Navigation) article for more information. The buttons are equivalent to pressing the key combinations: <kbd>Alt+Left</kbd> (backward) and <kbd>Alt+right</kbd> (forward).
 
 The side bar contains the following tabs:
