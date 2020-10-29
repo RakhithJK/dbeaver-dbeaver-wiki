@@ -4,7 +4,7 @@ To change data format settings use option Window -> Preferences in main menu.
 
 ![](images/ug/DataFormatting_Preferences.png)
 
-In the Preferences dialog box go to Database -> Editors -> DataEditor -> Data Formats.
+In the Preferences dialog box go to Editors -> Data Editor -> Data Formats.
 
 ![](images/ug/Preferences_DataFormats.png)
 
@@ -12,7 +12,7 @@ Or, in the [Database Navigator](Database-Navigator) right-click a connection and
 
 ![](images/ug/Database_Navigator_Edit_Connection_menu_option.png)
 
-In the right area of the opened **Data formatting preferences** dialog window go to Result Sets -> Data Formatting and select the **Datasource settings** check box in the left area to customize the data format settings.
+In the right area of the opened **Data formatting preferences** dialog window go to Data editor -> Data Formats and select the **Datasource settings** check box in the left area to customize the data format settings.
 
 ![](images/ug/DataFormatting_DatasourceSsettings.png)
 
