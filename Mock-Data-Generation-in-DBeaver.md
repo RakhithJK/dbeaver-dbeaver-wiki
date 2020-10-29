@@ -2,7 +2,9 @@
 
 Sometimes in software development we need to generate mock, but valid, data for testing. Populating a database manually is a time-consuming and exhausting process. It can be very complicated when you need to generate not just 5–10 users, but thousands of entities of different types. DBeaver Mock Data generator helps you generate test data much easier.
 
-![](images/mockdata_menu.png) ![](images/mockdata_button.png)
+![](images/mockdata_menu.png) 
+
+![](images/mockdata_button.png)
 
 > _Disclaimer:_ The idea behind Mock Data is to generate mock data in a table but it should **NOT TO BE USED IN PRODUCTION ENVIRONMENTS**. Please make sure you have a backup of your database before running the Mock Data generation process.
 
