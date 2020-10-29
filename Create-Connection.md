@@ -30,6 +30,10 @@ If you prefer the classic list view of the available drivers, use the **Classic*
 
 ![](images/ug/Wizard-select-connection-view.png) 
 
+You can choose Simple mode on this step. Simple mode gives simplified access to the database. Basically with the ability to view data only in schemas and tables.
+
+![](images/ug/Simple-mode-connection-view.png) 
+
 2. In the Connection Settings screen, on the General tab, set all primary connection settings:
 
    ![](images/ug/Wizard-MySQL-settings.png)  
