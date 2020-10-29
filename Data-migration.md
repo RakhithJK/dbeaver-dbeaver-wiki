@@ -35,10 +35,6 @@ For proper table mapping the following options are available:
 
 * **Source** - contains names of all the tables selected at step 1. You can also see the list of columns existing in the source table by pressing ![](images/dt/dbt_step3_release_icon.png)
 
-
-![](images/dt/dbt_step3_Table_released_button.png)
-
-
 * **Target** - contains names of the tables where the data will be transferred to.  
 
 * **Mapping** - contains the list of actions to be applied to the source data on data transfer. The following options are available: 
@@ -93,9 +89,13 @@ To change mapping type click a cell in **Mapping** column of **Table mapping dia
 
 ![](images/dt/dbt_step3_Mapping_options.png)
 
-You can also view the SQL script that will be run on data transfer by pressing the DDL button  ![](images/dt/dbt_step3_DDL_button.png).
+You can also view the SQL script that will be run on data transfer by pressing the **Target DDL** button  ![](images/dt/dbt_step3_DDL_button.png).
 
 ![](images/dt/dbt_step3_DDL_pressed.png)
+
+If you want to see in advance the preview of the imported data, you can select the **Preview data** button
+
+![](images/dt/dbt_step3_Preview_data.png)
 
 The following keyboard shortcuts for easy navigation within the mapping table area of **Table mapping** screen are supported:
 
@@ -137,7 +137,7 @@ Option|Description
 **Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and data transfer will not interfere with other calls to the database where data is being transferred to.
 **Use transactions**|This option allows to speed up data transfer and to define the number of rows for each transaction by setting **Commit after insert of** parameter. 
-**Open table editor on finish**|If selected, the table editor to be opened when data tanfer is over.
+**Open table editor on finish**|If selected, the table editor to be opened when data transfer is over.
 **Show finish message**|If selected, a notification message will be shown when transfer is over.
 
 ## Step 5: Confirm
@@ -146,4 +146,4 @@ Option|Description
 ![](images/dt/dbt_step5_Confirm.png)
 
  
-Check out data transfer settings and press **Finish**.
+Check out data transfer settings and press **Start** or save as [task](Task-Management).
