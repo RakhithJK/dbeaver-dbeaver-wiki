@@ -52,7 +52,7 @@ Button|Name|Description
 ![](images/ug/Configure-columns-visibility-icon.png)|**Configure**|Opens a dropdown menu with settings
 ![](images/ug/json-button.png)|**JSON**|- Available in EE version only for MongoDB documents and JSON tables<br/>- Switches to JSON view of data
 ![](images/ug/xml-button.png)|**XML**|- Available in EE version only for XML tables<br/>- Switches to XML view of data
-![](images/ug/Mock-data-button.png)|**Generate Mock Data**|Available in EE version only. Opens the [Mock Data Generator](Mock-Data-Generation-in-DBeaver) window, see TBD for details
+![](images/ug/Mock-data-button.png)|**Generate Mock Data**|Available in EE version only. Opens the [Mock Data Generator](Mock-Data-Generation-in-DBeaver) window
 ![](images/ug/Row-count-details-button.png)|Rows count details|Opens the Status details dialog box showing the timing details of fetching table rows
 ![](images/ug/Calculate-total-rows-button.png)|**Calculate total row count**|Calculates the total number of rows in the table
 
