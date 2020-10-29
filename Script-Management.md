@@ -12,8 +12,12 @@ You can also, click **SQL Editor -> Export SQL script** on the main menu:
 
 ![](images/ug/Save-script-to-file.png)
 
+Unsaved data are highlighted in color on the left side of the editor, as well as an asterisk in the name of the script.
+
+![](images/ug/Script-changes.png)
+
 ## Loading Scripts
-To load a script stored in the file system to the SQL Editor, press <kbd>CTRL+SHIFT+O</kbd>, or click **SQL Editor -> Load SQL script** on the main menu, or right-click the script panel and click **File -> Load SQL script** on the context menu:
+To load a script stored in the file system to the SQL Editor, press <kbd>CTRL+SHIFT+O</kbd>, or click **SQL Editor -> Import SQL script** on the main menu, or right-click the script panel and click **File -> Import SQL script** on the context menu:
 
 ![](images/ug/Load-script.png)
 
