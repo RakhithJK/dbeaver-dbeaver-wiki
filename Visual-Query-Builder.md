@@ -6,7 +6,11 @@
 
 ## Opening Visual Query Builder 
 
-To open **Visual Query Builder** click the **Open Query Builder** button ![](images/visual_query_builder/visual_query_builder_icon.png) in the [SQL Editor](SQL-Editor) tool bar. The **Visual Query Builder** will appear on the right.
+To open **Visual Query Builder** click the **Open Query Builder** button in the [SQL Editor](SQL-Editor) tool bar. 
+
+![](images/visual_query_builder/Open-Query-Builder.png)
+
+The **Visual Query Builder** will appear on the right.
 
 ![](images/visual_query_builder/query_builder_window1.png)
 
@@ -49,6 +53,16 @@ To change the display order of columns in the result table use **Move Up/Down** 
 You can also define a user-friendly name of the column to be displayed in the result table. To set a user-friendly name click on a cell in **Alias** column and insert the name. The change will be immediately displayed in the SQL script area. 
 
 ![](images/visual_query_builder/query_settings_columns_al.png)
+
+If you want a **grouping** condition to be added to your expression, then you can click on the checkbox in the column row. The expression will update automatically. The other previously selected columns will become aggregate. If there are no other columns, then the expression COUNT(*) will be automatically added.
+
+![](images/visual_query_builder/query_builder_grouping_checkbox.png)
+
+You can select other aggregation functions from the drop-down list. Or enter your own version in the cell.
+
+![](images/visual_query_builder/query_builder_grouping_functions.png)
+
+When removing columns from the list, they will be removed from the grouping expression as well. When adding new columns to the list, it is added to the grouping expression.
 
 ### Conditions
 
@@ -108,7 +122,11 @@ To remove a condition use the **Remove** button ![](images/visual_query_builder/
 
 ### Miscellaneous
 
-In **Miscellaneous** tab it is possible to autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch** check-box. 
+In **Miscellaneous** tab it is possible to:
+ 
+* Enable or disable the automatic generation of aliases for tables by selecting the **Add table aliases** check-box.
+* Disable auto-completion for table names by selecting the **Use fully qualified table names** check-box.
+* Enable Autosave on SQL-editor switch by selecting the **Autosave on SQL-editor switch** check-box. 
 
 ![](images/visual_query_builder/query_settings_misc.png) 
 
