@@ -17,6 +17,7 @@ Name|Value|Example
 -disconnectAll|Closes all open connections|
 -reuseWorkspace|Force reuse of single workspace by multiple DBeaver instances|
 -newInstance|Force new DBeaver instance creation (do not try to reuse already running one)|
+-var <img src="images/ee.png" vspace="0" border="0" height="18"/>|Custom variables for runTask. You can change existing variables in the task, you cannot add new task variables with this parameter. Used right before -runTask. Template: "variableName=variableValue"|`-var film=sakila.film`.<br/>
 -runTask <img src="images/ee.png" vspace="0" border="0" height="18"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 -license <img src="images/ee.png" vspace="0" border="0" height="18"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
