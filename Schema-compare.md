@@ -31,3 +31,5 @@ By default DDL diff is generated. It contains series of create/alter/drop statem
 You can enable/disable particular changes in the tree on the left side of diff page:
 
 ![](images/ug/tools/schema_compare_result_ddl.png)
+
+You can also switch to another diff report representation (diagram, json, plaintext).
