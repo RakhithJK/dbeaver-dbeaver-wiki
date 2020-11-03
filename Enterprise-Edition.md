@@ -11,7 +11,7 @@ EE version includes all features of CE version plus:
   - AWS DynamoDB
   - WMI (Windows Management Instrumentation)
 - Additional EE plugins:
-  - Office formats support (XLS) for data export
+  - Office formats support (XLS) for data import
   - Visual Query Builder
   - Schema/table compare, diff DDL generation
   - Analytical charts rendering

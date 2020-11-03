@@ -4,7 +4,7 @@ The main tool for managing the appearance of the data table is the Result Set Or
 
 To open this window, click the Custom Filters button (![](images/ug/Filter-button.png)) in the top toolbar of the editor or click the Configure button (![](images/ug/Configure-columns-visibility-icon.png)) and then click **Order/Filter** on the dropdown menu.
 
-The Result Set Order/Filter Settingswindow provides tools to:
+The Result Set Order/Filter Settings window provides tools to:
 * Order data inside columns
 * Manage the display of columns in the table
 * Manage the order of columns in the table
@@ -95,14 +95,14 @@ Besides coloring rows by a value, you can colorize values in columns by data typ
 
 ![](images/ug/Colored-Data-Types.png)
 
-You can change the color preferences in the Preferences window: click **Window -> Preferences** on the main menu. Then, in the window, in the navigation pane on the left, expand **General** and then **Appearance**, and then click **Colors and Fonts**:
+You can change the color preferences in the Preferences window: click **Window -> Preferences** on the main menu. Then, in the window, in the navigation pane on the left, expand **User Interface** and then **Appearance**, and then click **Colors and Fonts**:
 
 ![](images/ug/Color-Preferences.png)
 
 To remove coloring by data types, on the context menu, click **View/Format -> Colorize Data Types** again.
 
 ## Transforming Data Presentation
-For string and numeric data types, DBeaver provides tools to transform the data presentation into a number of formats, such as URL and Binary for strings and Epoch Time, Number Radix, etc. for numbers. To change the data presentation in a certain column, right-click a cell in the column, then, on the context menu, click **View/Format -> View as** and then click the presentation type name:
+For string and numeric data types, DBeaver provides tools to transform the data presentation into a number of formats, such as URL and Binary for strings and Epoch Time, Number Radix, etc. for numbers. To change the data presentation in a certain column, right-click a cell in the column, then, on the context menu, click **View/Format -> Set {column name} format** and then click the presentation type name:
 
 ![](images/ug/View-as.png)
 
