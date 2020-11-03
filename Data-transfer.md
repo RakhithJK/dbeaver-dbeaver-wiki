@@ -10,19 +10,18 @@ We'll describe most typical use cases.
 2. Choose export format. DBeaver support many different output formats including CSV, HTML, XLSX, etc:
 ![](images/dt/dt-export-format.png)
 
-3. Set data extraction options (how data will be read from tables). This may affect extraction performance:
+3. Set data extraction options (how data will be read from tables). This may affect extraction performance.
+And set export format option. They are specific to the data format you chose on step 2:
 ![](images/dt/dt-options-extract.png)
 
-4. Set export format option. They are specific to the data format you chose on step 2:
-![](images/dt/dt-options-format.png)
-
-5. Set options for output files or clipboard:
+6. Set options for output files or clipboard. 
+Note: Timestamp pattern here is used for target file name pattern:
 ![](images/dt/dt-options-output.png)
 
-6. Review what and to what format you will export:
+7. Review what and to what format you will export. You can also save all your settings as a task in this step or change task variables:
 ![](images/dt/dt-export-final.png)
 
-7. Press finish. See extraction progress. Actual data extraction will be performed in background, you can keep working with your database during export process.
+8. Press finish. See extraction progress. Actual data extraction will be performed in background, you can keep working with your database during export process.
 Note: avoid changing data in tables you selected for export while export is running.
 In the end you will see status message:
 ![](images/dt/dt_message-success.png)
@@ -34,9 +33,10 @@ You can import data from CSV file(s) directly into your database table(s).
 ![](images/dt/dt-import-menu.png)
 
 2. Choose import format (CSV):
+
 ![](images/dt/dt-import-format.png)
 
-3. Select input CSV file for each table you want to import:
+3. Select input CSV file for each table you want to import and you can change Importer settings (format specific) on this step: 
 ![](images/dt/dt-import-files.png)
 
 4. Set CSV-to-table mappings. 
@@ -48,13 +48,13 @@ You can set some constant value for table column if there is no source column fo
 5. Set options for loading data in database. These options may affect performance:
 ![](images/dt/dt-options-load.png)
 
-6. Review what file(s) and to what table(s) you will import:
+6. Review what file(s) and to what table(s) you will import. You can also save all your settings as a task in this step:
 ![](images/dt/dt-import-final.png)
 
 7. Press finish. See extraction progress. Actual data loading will be performed in background, you can keep working with your database during export process.
 Note: avoid changing data in tables you selected for import while import is running.
 In the end you will see status message:
-![](images/dt/dt_message-success.png)
+![](images/dt/dt_message-success_import.png)
 
 Related topic: [Migrating table(s) data to another database table(s)](Data-Migration)
 
