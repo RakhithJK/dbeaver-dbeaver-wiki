@@ -92,7 +92,7 @@
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
 #### Troubleshooting
-- [[Command-Line]]
+- [[Command Line]]
 - [[Reset UI settings]]
 - [[Reset workspace]]
 - [[Posting issues]]
