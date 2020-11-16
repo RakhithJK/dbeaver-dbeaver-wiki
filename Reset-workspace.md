@@ -10,7 +10,9 @@ To reset all UI settings (this includes menus, shortcuts, view and toolbar layou
 3. Delete file `workbench.xmi`
 4. Start DBeaver
 
-If that doesn't help then you can try to remove `.metadata` folder (see location above). 
-This will erase all your UI settings (but all connections, settings and scripts will remain as is). 
+
+If that doesn't help then you can try to remove `.metadata/.plugins/org.eclipse.core.resources` folder.
+
+If that doesn't help then remove `.metadata` folder. It will erase all your UI settings (but all connections, settings and scripts will remain as is). 
 
 That's it.
