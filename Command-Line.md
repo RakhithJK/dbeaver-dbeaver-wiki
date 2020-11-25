@@ -35,7 +35,7 @@ Name|Value|Example
 ### VM arguments
 
 You can pass any advanced Java parameters supported by your local JVM (Oracle, OpenJDK, IBM, etc).  
-Parameters supported by Oracle JVM (1.8): https://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html
+Parameters supported by Oracle JVM (11): https://docs.oracle.com/en/java/javase/11/tools/java.html
 
 Parameters supported by all JVMs:
 

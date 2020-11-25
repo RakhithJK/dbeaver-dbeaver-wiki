@@ -42,7 +42,7 @@ Let's start!
 
 1. Now we need to add Eclipse dependencies in IDEA project configuration.
 1. Open `File->Project structure...`.
-1. Make sure you have proper project Java SDK configured (Java 8+)
+1. Make sure you have proper project Java SDK configured (Java 11+)
 1. Go to `Global libraries`.
 1. Create new library `ECLIPSE` (name and case are important)
 1. Click "Add" button. Select folder `eclipse-ide-path/plugins`.
