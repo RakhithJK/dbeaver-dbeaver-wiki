@@ -34,7 +34,7 @@ You can change scheduler settings at any moment by choosing Edit scheduled task 
 from the context menu. You can also cancel the schedule by clicking on Remove schedule.
 
 ### macOS or GNU/Linux
-First things first, you need to open the tasks view. There are three ways to do that:
+The first thing you need to open the tasks view. There are three ways to do that:
 
 1. Database -> Tasks -> Database Tasks  
    ![](images/ug/tools/task-schedule-macos-tasks_view-1.png)
