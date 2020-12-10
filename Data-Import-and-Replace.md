@@ -2,7 +2,8 @@
 Sometimes there are situations when you want to ignore the current primary key value when importing into a table.
 Some databases have syntax constructs in addition to the INSERT INTO that may help.
 
-The choice of the replacement method is in the import settings - in "Data load settings".  
+The choice of the replacement method is in the import settings - in "Data load settings". 
+ 
 ![](images/dt/dt-replace-method-load-settings.png)
 
 By default, the selection is `<None`>, you can select other options from the drop-down list. 
