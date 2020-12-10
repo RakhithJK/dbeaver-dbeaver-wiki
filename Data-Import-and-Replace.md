@@ -64,12 +64,14 @@ Insert examples:
 
 "INSERT IGNORE"
 ```sql
-INSERT IGNORE INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0');
+INSERT IGNORE INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0');
 ```
 
 "REPLACE INTO"
 ```sql
-REPLACE INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0');
+REPLACE INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0');
 ```
 
 ### SQLite
@@ -80,12 +82,14 @@ Insert examples:
 
 "INSERT OR IGNORE"
 ```sql
-INSERT OR IGNORE INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0');
+INSERT OR IGNORE INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0');
 ```
 
 "INSERT OR REPLACE"
 ```sql
-INSERT OR REPLACE INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0');
+INSERT OR REPLACE INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0');
 ```
 
 
@@ -97,12 +101,14 @@ Insert examples:
 
 "ON CONFLICT DO NOTHING"
 ```sql
-INSERT INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0') ON CONFLICT DO NOTHING;
+INSERT INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0') ON CONFLICT DO NOTHING;
 ```
 
 "ON CONFLICT DO UPDATE SET"
 ```sql
-INSERT INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0') 
+INSERT INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0') 
 ON CONFLICT (language_id) 
 DO UPDATE SET (language_id, name, last_update) = (EXCLUDED.language_id, EXCLUDED.name, EXCLUDED.last_update);
 ```
@@ -115,7 +121,8 @@ Insert examples:
 
 "UPDATE OR INSERT INTO"
 ```sql
-UPDATE OR INSERT INTO language_insert(language_id, name, last_update) VALUES(1, 'English', '2006-02-15 05:02:19.0');
+UPDATE OR INSERT INTO language_insert(language_id, name, last_update) 
+VALUES(1, 'English', '2006-02-15 05:02:19.0');
 ```
 
 ### Oracle
