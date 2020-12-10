@@ -7,7 +7,8 @@ The choice of the replacement method is in the import settings - in "Data load s
 ![](images/dt/dt-replace-method-load-settings.png)
 
 By default, the selection is `<None`>, you can select other options from the drop-down list. 
-The options available depend on the target database you are importing to.  
+The options available depend on the target database you are importing to.
+  
 ![](images/dt/dt-all-replace-methodslist.png)
 
 The database can only support the replace method or only the ignore method. In this case, the list of methods will consist of only one item except `<None`>. If the base does not support replacement methods or we have not added an implementation yet, then the combo with the list will be disabled.
@@ -46,12 +47,14 @@ Let's take a new .csv file with the following content and try to use replace met
 6,German,"2006-02-15 05:02:19.0"
 ```
 
-If we set the "INSERT IGNORE" method in the settings, the result of the insert will look like this:  
+If we set the "INSERT IGNORE" method in the settings, the result of the insert will look like this: 
+ 
 ![](images/dt/dt-ignore-method-select.png)
 
 There will be no insertion errors, the first three lines will not change, and the fourth to sixth lines will be added to the table.
 
-If we set the "REPLACE INTO" method in the settings, the result of the insert will look like this:  
+If we set the "REPLACE INTO" method in the settings, the result of the insert will look like this: 
+ 
 ![](images/dt/dt-replace-method-select.png)
 
 There will be no insertion errors, the first three lines will be replaced and the fourth to sixth lines will be added to the table.
