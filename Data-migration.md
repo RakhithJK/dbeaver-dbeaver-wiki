@@ -135,8 +135,10 @@ Data load settings define how the extracted data will be pushed to the target. T
 Option|Description
 ----|-----
 **Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
+**Replace method**|Select this drop-down list if you want change import behavior in case of duplicate primary key value. [Data Import and Replace page](Data-Import-and-Replace)
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and data transfer will not interfere with other calls to the database where data is being transferred to.
 **Use transactions**|This option allows to speed up data transfer and to define the number of rows for each transaction by setting **Commit after insert of** parameter. 
+**Disable batches**|Select this check-box if you want disable the use of batch imports. Import will be made row by row.Enabling this function will show all import errors, but make the import process slower.
 **Open table editor on finish**|If selected, the table editor to be opened when data transfer is over.
 **Show finish message**|If selected, a notification message will be shown when transfer is over.
 
