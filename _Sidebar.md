@@ -80,6 +80,7 @@
 - [[InfluxDB]]
 - [[Redis]]
 - [[AWS DynamoDB]]
+- [[AWS DocumentDB]]
 - [[Google Bigtable]]
 - [[Couchbase]]
 - [[CouchDB]]
