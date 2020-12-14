@@ -1,7 +1,7 @@
 
 AWS DocumentDB is based on the [[MongoDB]] engine.  
 It has several minor differences in the query processing and network configuration.  
-However most features which work for MongoDB will work for DocumentDB as well.  
+However most features which work for MongoDB will work for DocumentDB as well. Please refer to [[MongoDB]] article. 
 
 ### Connections
 
@@ -13,4 +13,9 @@ In DBeaver you can use SSH tab on the connection settings page. Just enter proxy
 
 ### Queries
 
-You 
+DBeaver processes DocDB SQL queries exactly like in [[MongoDB]]. It supports SELECT, UPDATE, INSERT and DELETE queries.  
+SELECT queries support WHERE, ORDER BY, GROUP BY and HAVING clauses.
+
+DocumentDB restricts `eval` function so all JavaScript queries will be parsed on the client side and then evaluated at DocDB cluster one by one.
+Most of JS functions works exactly like in Mongo Shell.
+
