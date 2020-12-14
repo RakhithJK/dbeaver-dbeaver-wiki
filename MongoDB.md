@@ -61,5 +61,10 @@ SET propsName.val1=123
 WHERE propName.subProp='value'
 ```
 
-Nested JSON properties can be divided by dot.
+SELECT queries support WHERE, ORDER BY, GROUP BY and HAVING clauses. 
 
+Nested JSON fields can be divided by dot.
+If your field contains any special characters (e.g. spaces, dashes, etc) you must enclose it with double quotes. For example:
+```sql
+SELECT title FROM movies WHERE info."imdb-details".rating > 6
+```
