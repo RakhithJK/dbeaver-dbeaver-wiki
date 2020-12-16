@@ -54,4 +54,4 @@ The linked table opens in the same editor, filtered by the cell value:
 NOTE: The table name in green above the table indicates which table is currently open in the editor.
 
 To navigate back and forth between the initial and linked tables, use the history navigation buttons (![](images/ug/History-navigation.png)) in the top toolbar of the editor.  
-You can open a linked table in a separate editor. To do so, simultaneously hold the <kbd>Ctrl</kbd> key and click the Navigate link icon (![](images/ug/Navigate-link-icon2.png)) in the cell.
+You can open a linked table in a separate editor. To do so, simultaneously hold the <kbd>Ctrl</kbd> key (or <kbd>⌘ command</kbd> key on macOS) and click the Navigate link icon (![](images/ug/Navigate-link-icon2.png)) in the cell.
