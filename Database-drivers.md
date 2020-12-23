@@ -100,6 +100,7 @@ Driver supports indexes|Driver supports table indexes
 Driver supports stored code | Whether this driver supports stored code (procedures, functions, packages, etc)
 Driver supports references | Driver supports table references (foreign keys)
 Driver supports SELECT count(*) clause | Driver supports SELECT count(*) clause
+Driver supports views | Driver supports table views
 Split procedures and functions | Show procedures and functions in different folders
 Script delimiter | Literal for SQL queries separation in scripts
 Script delimiter redefiner | SQL clause which redefines script delimiter value
@@ -110,7 +111,9 @@ Meta model type | Type of metadata reading model - standard or indexed
 All Objects Pattern | SQL pattern for all metadata objects
 Omit catalog(s) | Do not read and use catalog (aka database) information
 Omit single catalog | Hide catalog (database) if there is only one catalog on server
+Omit schema(s) | Do not read and use schemas information
 Omit single schema | Hide schema if there is only one schema on server
+Use schema filters | Use JDBC schema filters when database doesn't support catalogs. Otherwise just read all database schemas and filter on client-side
 Omit type cache | Do not use data types provided by driver
 Shutdown parameter | Database shutdown URL parameter
 Create database parameter | Database create URL parameter
@@ -139,7 +142,9 @@ Escape LIKE masks in search queries | Use to access JDBC metadata API. Enabled b
 Parameter|Description
 ----|-----
 Drop column short syntax | Use 'ALTER TABLE DROP column-name' instead of standard syntax
+Drop column - use brackets | Use 'ALTER TABLE DROP (column-name)' instead of standard syntax
 Use legacy SQL dialect for DDL | Use legacy SQL dialect for DDL
+Add COLUMN keyword in alter table query | Add COLUMN keyword after keyword ADD and before column name in alter table query
 
 ###### Formatting (SQL values formats)
 
