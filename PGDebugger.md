@@ -27,7 +27,7 @@ After that, run the following command in the database or databases that you wish
 You can find the source code in [this repository](https://github.com/EnterpriseDB/pldebugger). 
 Installation instructions are located in the README file.
 
-### Running debugger in DBeaver interface
+## Running debugger in DBeaver interface
 
 Open the source code of the function you want to debug. To toggle breakpoints, 
 place the caret on the line you want the function to be stopped at and use shortcut `Shift + Control + B`. 
