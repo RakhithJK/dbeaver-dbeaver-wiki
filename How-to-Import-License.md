@@ -110,8 +110,7 @@ If you buy DBeaver EE license extension and Dbeaver has an internet access, the 
 
 ## License Manager
 
-License Manager provides you with information about your licenses.
-Here you can find:
+License Manager provides you with the following information about your licenses:
 
 * License ID e. g. DB-821MPZFO-ZA8W;
 * License type: Trial/Academic/Subscription/Standard;
