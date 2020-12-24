@@ -10,11 +10,11 @@ The License Key is a unique identification number that contains License ID e. g.
 
 ## Import from email
 
-You can just copy-paste License Key to import the license into the License Manager. Please, note that you need to copy-paste full license text (not just license ID). License text starts with “–” and ends with “==” characters.
+You can just copy-paste License Key to import the license into the License Manager. Please, note that you need to copy-paste full license text (not just license ID). The license text starts with “–” and ends with “==” characters.
 
 ![](images/license/purchase-receipt.png)
 
-Sometimes an email client can corrupt the formatting of License Key that can cause an error.
+Sometimes an email client can corrupt the formatting of the License Key that can cause an error.
 
 ![](images/license/formatting-error.png)
 
@@ -31,7 +31,7 @@ Secondly, you should open the **Licenses** tab, where you can find all your lice
 
 
 
-To open License details and copy the License Key you press the **View** button. Here you can find your license status, type, maintenance period, end support date. Also, you can reassign the license to another user.
+To open the License details and copy the License Key you press the **View** button. You can see the License details where you can find your license status, type, maintenance period, end support date. Also, you can reassign the license to another user.
 
 
 
@@ -41,11 +41,11 @@ To open License details and copy the License Key you press the **View** button. 
 At the bottom of the page you can find the License Key required to start using DBeaver EE.
 There are two options how to copy your License Key from the personal account:
 
-1. Press **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to clipboard.
+1. Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to clipboard.
 
 ![](images/license/copy-to-clipboard.png)
 
-2. Press **DOWNLOAD LICENSE** button, then press OK. 
+2. Press the **DOWNLOAD LICENSE** button, then press OK. 
 
 .txt file with your License Key will be downloaded to your download folder. The file name is License ID, e. g. DB-821MPZFO-ZA8W.
 
@@ -60,11 +60,11 @@ Help -> DBeaver License Info
 
 ![](images/license/help.png)
 
-License information window can look different depending on whether have you already a valid license or not.
+The License information window can look different depending on whether have you already a valid license or not.
 
 ![](images/license/license-info.png)
 
-Then you click **License Manager**. Here you can find all your imported licenses and information about them.
+Then you click **License Manager** where you can find all your imported licenses and information about them.
 
 ![](images/license/lm.png)
 
@@ -76,7 +76,7 @@ If you copied the License Key to clipboard, press the **Paste** button and then 
 
 ![](images/license/paste-lic.png)
 
-If you downloaded .txt file with the License Key, press **Load** button and then select the file from Downloads. The License Key will be pasted automatically.
+If you downloaded the .txt file with the License Key, press the **Load** button and then select the file from Downloads. The License Key will be pasted automatically.
 
 ![](images/license/load-lic.png)
 
@@ -90,7 +90,7 @@ You have successfully imported your license. Now you can close License Manager a
 
 Subscription license requires an internet access on the workstation for the first activation and each prolongation.
 
-If you try to import Subscription license the following error can appear:
+If you do not have an active internet connection or work behind a corporate firewall while importing the Subscription license, the following error can appear:
 
 *Invalid subscription*
 
