@@ -36,7 +36,7 @@ ruler, as demonstrated in the screenshot below:
 
 ![](images/debug/pldebugger-toggle-breakpoint.png)
 
-**NB.** You must toggle breakpoints only when _Show headers_ option is **not** on.
+**NB.** You must toggle breakpoints only when _Show header_ option is **not** on.
 
 Then you need to set up a debugging configuration. 
 Locate the downward-facing arrow right to the bug icon, click on it, then
