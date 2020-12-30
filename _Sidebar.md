@@ -73,6 +73,7 @@
   - [[Database maintenance tools|Maintenance tools]]
   - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Composite tasks]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
