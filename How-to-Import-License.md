@@ -41,11 +41,11 @@ To open the License details and copy the License Key you press the **View** butt
 At the bottom of the page you can find the License Key required to start using DBeaver EE.
 There are two options how to copy your License Key from the personal account:
 
-1. Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to clipboard.
+1) Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to clipboard.
 
 ![](images/license/copy-to-clipboard.png)
 
-2. Press the **DOWNLOAD LICENSE** button, then press OK. 
+2) Press the **DOWNLOAD LICENSE** button, then press OK. 
 
 .txt file with your License Key will be downloaded to your download folder. The file name is License ID, e. g. DB-821MPZFO-ZA8W.
 
