@@ -27,7 +27,7 @@ When creating a composite task, you need to specify which tasks the composite ta
 
 This can be done by:
 
-1. By adding an existing task:
+1. By adding an existed task:
 
 ![](images/comp-task-add-existing.gif)
 
@@ -41,7 +41,7 @@ This can be done by:
 
 As a side note, you absolutely can add a composite task to your new composite task.
 
-In the same dialog, you can edit tasks, 
+You can edit tasks in the same dialog, 
 delete a task from a composite task, change the execution order: 
 
 ![](images/comp-task-edit.gif)
