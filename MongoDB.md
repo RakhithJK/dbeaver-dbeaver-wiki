@@ -68,3 +68,38 @@ If your field contains any special characters (e.g. spaces, dashes, etc) you mus
 ```sql
 SELECT title FROM movies WHERE info."imdb-details".rating > 6
 ```
+
+#### Working with dates
+
+If you need to operate with dates then you must specify them in ISO format. It is possible in both Jsava Script and SQL dialects:
+```js
+db.dates.insert([
+	{value: new Date("2016-05-18T16:00:00Z")},
+	{value: new Date("2017-05-18T16:00:00Z")},
+	{value: new Date("2018-05-18T16:00:00Z")},
+	{value: new Date("2019-05-18T16:00:00Z")},
+	{value: new Date("2020-05-18T16:00:00Z")}	
+])
+```
+
+```js
+db.dates.find({
+	value: { $gte: new Date('2018-05-18T16:00:00Z') }
+}).toArray()
+```
+
+```sql
+SELECT value FROM dates
+WHERE value > ISODate('2018-05-18T16:00:00.000Z')
+ORDER BY value DESC
+```
+
+#### Working with object IDs
+
+When you need to find document by ID you must use function `ObjectId`:
+
+```sql
+SELECT * FROM documents
+WHERE _id = ObjectId('5f9c458018e3c69d0adc0fbd')
+ORDER BY value DESC
+```
