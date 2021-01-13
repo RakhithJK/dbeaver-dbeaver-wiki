@@ -62,6 +62,19 @@ The format of the following data types can be customized:
 
 The default value for this data type is *yyyy-MM-dd*.
 
+Pattern|Description
+-------|-----------
+yyyy or y|Year of era (4 digits)
+yy|Year of era (2 last digits)
+YYYY|Week-year
+M|Month in year without leading zeros
+MM|Month in year
+MMM|Short month name in year
+MMMM|Month name in year
+D|Day in year
+d|Day in month without leading zeros
+dd|Day in month
+
 #### Time 
 The default value for this data type is *HH:mm:ss*
 
