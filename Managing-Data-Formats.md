@@ -94,7 +94,7 @@ mm|Minute in hour
 s|Second in minute without leading zeros
 ss|Second in minute
 S|Millisecond
-ffffff|The millionths of a second
+ffffff|Microseconds
 
 #### Timestamp 
 The default value for this data type is *yyyy-MM-dd HH:mm:ss*
