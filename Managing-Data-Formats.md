@@ -94,9 +94,12 @@ mm|Minute in hour
 s|Second in minute without leading zeros
 ss|Second in minute
 S|Millisecond
+ffffff|The millionths of a second
 
 #### Timestamp 
 The default value for this data type is *yyyy-MM-dd HH:mm:ss*
+
+[Link on Java date pattern documentation](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
 
 #### Numbers
 
