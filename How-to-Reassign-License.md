@@ -10,7 +10,7 @@ Secondly, you should open the **Licenses tab**, where you can find all your lice
 
 ![](images/license/lic-tab.png)
 
-You select which license you need to reassign and press the **View** button near its license ID. You can see the License details where you can find your license status, type, maintenance period, end support date.
+You select which license you need to reassign and press the **VIEW** button near its license ID. You can see the License details where you can find your license status, type, maintenance period, end support date.
 
 ![](images/license/lic-details.png)
 
