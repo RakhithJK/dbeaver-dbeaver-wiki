@@ -21,3 +21,5 @@ A pop-up opens, and you can enter new license owner data: email, first and last 
 ![](images/license/form.png)
 
 The license will remain in your personal account. Also, new license owner will be able to find the license in the personal account. If new license owner didn`t have an account on our website, the account would be created. New user will receive a welcome email with a link to set up a password.
+
+![](images/license/lic-tab-newpng.png)
