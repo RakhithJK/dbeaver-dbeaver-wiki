@@ -128,7 +128,7 @@ The only limitation is that you have to specify aliases for both source and targ
 ```sql
 SELECT *
 FROM <source> <source-alias>
-INNER JOIN <target> <target-alias> ON <source-alias>.column = <target.alias>.column
+INNER JOIN <target> <target-alias> ON <source-alias>.column = <target-alias>.column
 ```
 
 Note that executing following script will not result in merged document but separate documents for `Track` and `Album`:
