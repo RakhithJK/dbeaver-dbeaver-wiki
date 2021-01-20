@@ -1,7 +1,7 @@
 **Note: This functionality is available only in [[Enterprise Edition]].**
 
 As the name suggests, the _composite task_ is a type of task that consists of other tasks. 
-Just like the other type of tasks, the composite tasks can be scheduled via [task scheduler](Task-Scheduler.md).
+Just like the other type of tasks, the composite tasks can be scheduled via [[Task-Scheduler]].
 Let's take a look at what they can offer.
 
 ### Creating a _composite task_
