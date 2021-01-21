@@ -8,7 +8,7 @@ After purchase DBeaver EE license or getting Trial/Academic license you receive 
 Also, it is available in your personal account on our site https://dbeaver.com/.
 The License Key is a unique identification number that contains License ID e. g. DB-821MPZFO-ZA8W, Start date and license owner’s name and company name. It is very important to import your License Key correctly.
 
-## Import from email
+### Import from email
 
 You can just copy-paste License Key to import the license into the License Manager. Please, note that you need to copy-paste full license text (not just license ID). The license text starts with “–” and ends with “==” characters.
 
@@ -20,7 +20,7 @@ Sometimes an email client can corrupt the formatting of the License Key that can
 
 Therefore, you need to import your License Key from your personal account on our site https://dbeaver.com/.
 
-## Import from the personal account
+### Import from the personal account
 
 Firstly, you need to Sign in https://dbeaver.com/signin/.
 
@@ -86,7 +86,7 @@ Then press the **Import** button and your license will be added in License Manag
 
 You have successfully imported your license. Now you can close License Manager and start using Dbeaver EE.  
 
-## Import of Subscription license
+### Import of Subscription license
 
 Subscription license requires an internet access on the workstation for the first activation and each prolongation.
 
@@ -100,7 +100,7 @@ If you do not have an active internet connection or work behind a corporate fire
 
 In this case you need to check that DBeaver EE has an internet access or to configure firewall.
 
-## License extension
+### License extension
 
 Standard DBeaver EE license is a perpetual license with a limited period of support (1 year or 2 years). 
 
@@ -108,7 +108,7 @@ After the end of the selected support period you can continue to use DBeaver Ent
 
 If you buy DBeaver EE license extension and Dbeaver has an internet access, the license in DBeaver EE will be updated automatically. Otherwise, you have to import the license key from the personal account once again.
 
-## License Manager
+### License Manager
 
 License Manager provides you with the following information about your licenses:
 
