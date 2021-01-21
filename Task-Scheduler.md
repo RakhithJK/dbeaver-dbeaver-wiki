@@ -109,3 +109,15 @@ You can omit the project name part if you have only one project in your workspac
 On Windows, you can use `dbeaver-cli` executable to run tasks.
 Draw your attention that if you use `dbeaver` executable (by any reason)
 you will need to add command line parameter `-nosplash` to avoid splash screen appearance.
+
+## Troubleshooting
+### Windows Task Scheduler: incorrect date format
+If you encounter an error on Windows which looks like this: 
+```ERROR: Invalid Start Date (Date should be in %some_format% format).```,
+
+do the following:
+
+1. Open file `dbeaver.ini` in the directory with your DBeaver installation
+1. Place the line `-Ddbeaver.scheduler.windows.dateFormat=%some_format%` (where %some_format% is a format from the error message) below the `-vmargs` line.
+
+This flag is available starting from the 7.3.4 EA version of DBeaverEnterprise and might be removed in the future.
