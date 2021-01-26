@@ -20,6 +20,8 @@ Generally any combination of longitude/latitude (as float point numbers) can be 
 - Oracle <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - SQL Server <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
+## Viewing string or binary data on a map 
+
 You can also see your geodata on the map if you select the data cell setting "View/Format", then "Set columnName format" and among the formats - Geometry. 
 This works for both string and binary type of columns.
 
