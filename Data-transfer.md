@@ -48,6 +48,8 @@ You can set some constant value for table column if there is no source column fo
 5. Set options for loading data in database. These options may affect performance:
 ![](images/dt/dt-options-load.png)
 
+About replace method option you can [read here](Data-Import-and-Replace).
+
 6. Review what file(s) and to what table(s) you will import. You can also save all your settings as a task in this step:
 ![](images/dt/dt-import-final.png)
 
@@ -56,5 +58,5 @@ Note: avoid changing data in tables you selected for import while import is runn
 In the end you will see status message:
 ![](images/dt/dt_message-success_import.png)
 
-Related topic: [Migrating table(s) data to another database table(s)](Data-Migration)
+Related topic: [Migrating table(s) data to another database table(s)](Data-migration)
 

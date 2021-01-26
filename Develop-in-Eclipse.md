@@ -3,7 +3,7 @@ It consists of a set of Eclipse plugins, features and products.
 
 ## Opening workspace in Eclipse
 
-You will need to setup "<a href="https://www.eclipse.org/downloads/packages/release/2020-03/r/eclipse-ide-rcp-and-rap-developers">Eclipse for RCP and RAP developers</a>". Currently default Eclipse version is Eclipse 2020-03. Build may fail on newer or older versions.
+You will need to setup [Eclipse IDE for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2020-12/r/eclipse-ide-rcp-and-rap-developers). Currently default Eclipse version is _2020-12_. Build may fail on newer or older versions.
 Then you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
 
 1. Open main menu Help -> Install New Software
@@ -38,7 +38,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 
 12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
 13. Switch to Hierarchical projects presentations
-    ![](images/development/eclipse/eclipse-project-hierarchy.png)
+    ![](images/development/eclipse/eclipse-project-hierarchy.gif)
 
 14. If some modules build will fail (they will be marked with red cross) - update Maven project
     ![](images/development/eclipse/eclipse-maven-update.png)

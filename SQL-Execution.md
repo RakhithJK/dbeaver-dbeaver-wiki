@@ -16,7 +16,26 @@ To execute a query under cursor in a separate tab, press <kbd>CTRL+\ </kbd> or r
 To execute the whole script, press <kbd>Alt+X</kbd> or click **Execute -> Execute SQL Script** on the context menu or **SQL Editor -> Execute SQL Script** on the main menu or in the main toolbar. This executes all queries in the current editor (or selected queries) as a script. DBeaver parses queries one by one using a statement delimiter (“;” by default) and executes them consecutively. You can configure the script execution behavior in the SQL editor preferences (Right-click the script and click **Preferences** on the context menu).
 
 To execute a script opening each query results in a separate tab, press <kbd>Ctrl+Alt+Shift+X</kbd> or click **Execute -> Execute Statements In Separate Tabs** on the context menu or **SQL Editor -> Execute Statements In Separate Tabs** on the main menu or in the main toolbar. The executes all queries in the script, but opens multiple result tabs. Each script query is executed in a separate thread (that is, all queries are executed simultaneously).
-NOTE: Be careful with this feature. If you execute a huge script with a large number of queries, it might cause unexpected problems. 
+NOTE: Be careful with this feature. If you execute a huge script with a large number of queries, it might cause
+unexpected problems.
+
+## Result tabs
+
+Single query may generate several result sets represented by tabs. These tabs are linked to the query they are executed from.
+
+* To close an individual tab, press <kbd>CTRL+Shift+&bsol;</kbd> or middle-click on a tab header. 
+* To close all tabs expect current, click **Close all result tabs except this** on the context menu of this tab.
+* To close all tabs of desired query, click **Close all result tabs of same query** on the context menu of this tab.
+
+### Naming
+
+Tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, where:
+* **A** is _an index of query_
+* **B** is _an index of result set of this query_
+
+### Pinning
+
+Tabs can be moved around by dragging them with mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left, can be moved among other pinned tabs, but can't be mixed with unpinned tabs, also pinned tabs can't be closed without being unpinned first and can't be overwritten by executing a query in it (by making this tab active).
 
 ## Dynamic Parameter Bindings
 

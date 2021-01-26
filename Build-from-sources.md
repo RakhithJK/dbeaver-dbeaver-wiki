@@ -2,7 +2,7 @@
 
 #### Prerequisites:
 
- 1. Java (JDK) 8+.
+ 1. Java (JDK) 11+.
  2. Apache Maven 3+
  3. Internet access
 

@@ -68,10 +68,12 @@
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
+  - [[Data Import and Replace]]
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
   - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[Composite tasks]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
@@ -79,6 +81,7 @@
 - [[InfluxDB]]
 - [[Redis]]
 - [[AWS DynamoDB]]
+- [[AWS DocumentDB]]
 - [[Google Bigtable]]
 - [[Couchbase]]
 - [[CouchDB]]
@@ -104,7 +107,11 @@
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
+
+#### License management <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[License Administration]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[How to Import License]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[How to Reassign License]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->

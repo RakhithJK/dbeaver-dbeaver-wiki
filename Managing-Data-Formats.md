@@ -62,15 +62,48 @@ The format of the following data types can be customized:
 
 The default value for this data type is *yyyy-MM-dd*.
 
+Pattern|Description
+-------|-----------
+yyyy or y|Year of era (4 digits)
+yy|Year of era (2 last digits)
+YYYY|Week year
+M|Month in year without leading zeros
+MM|Month in year
+MMM|Short month name in year
+MMMM|Month name in year
+D|Day in year
+d|Day in month without leading zeros
+dd|Day in month
+E|Day name in week
+G|Era designator
+z|General time zone
+Z|RFC 822 time zone
+
 #### Time 
 The default value for this data type is *HH:mm:ss*
+
+Pattern|Description
+-------|-----------
+H|Hour in day (0-23) without leading zeros
+h|Hour in day in am/pm (1-12) without leading zeros
+HH|Hour in day (0-23)
+hh|Hour in day in am/pm (1-12)
+a|Am/pm marker
+m|Minute in hour without leading zeros
+mm|Minute in hour
+s|Second in minute without leading zeros
+ss|Second in minute
+S|Millisecond
+ffffff|Microseconds
 
 #### Timestamp 
 The default value for this data type is *yyyy-MM-dd HH:mm:ss*
 
+[Link on Java date pattern documentation](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
+
 #### Numbers
 
-The following parameters can be configured from thisy type of data:
+The following parameters can be configured from this type of data:
 
 * **Use Grouping** - Long numbers can be hard to read if they have too many digits. For example, the factorial of 30 is 33 digits long! Select this check-box to enable Grouping mode, in which digits are displayed in clumps of 3 or 4 (depending on the current radix) separated by commas.
 
