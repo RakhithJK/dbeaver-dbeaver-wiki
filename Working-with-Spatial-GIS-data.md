@@ -24,5 +24,7 @@ You can also see your geodata on the map if you select the data cell setting "Vi
 This works for both string and binary type of columns.
 
 ![](images/ug/Data-view-gis-string-to-spatial.png)
+String column type to spatial.
 
 ![](images/ug/Data-view-gis-binary-to-spatial.png)
+Binary column type to spatial.
