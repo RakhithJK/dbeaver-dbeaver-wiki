@@ -19,3 +19,10 @@ Generally any combination of longitude/latitude (as float point numbers) can be 
 - SAP HANA
 - Oracle <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - SQL Server <img src="images/ee.png" vspace="0" border="0" height="18"/>
+
+You can also see your geodata on the map if you select the data cell setting "View/Format", then "Set columnName format" and among the formats - Geometry. 
+This works for both string and binary type of columns.
+
+![](images/ug/Data-view-gis-string-to-spatial.png)
+
+![](images/ug/Data-view-gis-binary-to-spatial.png)
