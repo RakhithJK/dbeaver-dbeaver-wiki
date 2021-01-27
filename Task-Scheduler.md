@@ -113,7 +113,7 @@ you will need to add command line parameter `-nosplash` to avoid splash screen a
 ## Troubleshooting
 ### Windows Task Scheduler: incorrect date format
 If you encounter an error on Windows which looks like this: 
-```ERROR: Invalid Start Date (Date should be in %some_format% format).```,
+`ERROR: Invalid Start Date (Date should be in %some_format% format).`,
 
 do the following:
 
