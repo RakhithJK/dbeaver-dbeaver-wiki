@@ -15,6 +15,7 @@ Generally any combination of longitude/latitude (as float point numbers) can be 
 
 - PostgreSQL (PostGIS)
 - MySQL
+- SQLite (GeoPackage)
 - H2GIS
 - SAP HANA
 - Oracle <img src="images/ee.png" vspace="0" border="0" height="18"/>
