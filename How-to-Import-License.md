@@ -1,3 +1,10 @@
+* [Import from email](#Import-from-email)
+* [Import from the personal account](#Import-from-the-personal-account)
+* [Insert the License key to License Manager](#Insert-the-License-key-to-License-Manager)
+* [Import of Subscription license](#Import-of-Subscription-license)
+* [Import of License extension](#License-extension)
+* [License Manager](#License-Manager)
+
 To start using DBeaver EE you can
 
 * request a [Trial license](https://dbeaver.com/trial/) for 2 weeks;
@@ -53,7 +60,7 @@ There are two options how to copy your License Key from the personal account:
 
 Then you need to insert copied License Key to License Manager in Dbeaver EE.
 
-## Insert the License key to License Manager
+### Insert the License key to License Manager
 
 To start using DBeaver EE with your License Key you need to open License Manager in DBeaver EE:
 Help -> DBeaver License Info
