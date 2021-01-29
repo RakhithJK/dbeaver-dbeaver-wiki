@@ -22,7 +22,7 @@ Therefore, you need to import your License Key from your personal account on our
 
 ### Import from the personal account
 
-Firstly, you need to Sign in https://dbeaver.com/signin/.
+Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses** tab, where you can find all your licenses. 
 
