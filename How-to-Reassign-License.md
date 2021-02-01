@@ -16,7 +16,7 @@ You select which license you need to reassign and press the **VIEW** button near
 
 Also, there is the license owner field that contains license owner's details. To reassign the license, you need to press the **CHANGE OWNER DATA** button near this field.
 
-A pop-up opens, and you can enter new license owner data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed. The license key will be changed too.
+A pop-up opens, and you can enter new license owner data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed. The license key that contains  license owner’s name and company name will be changed too.
 
 ![](images/license/form.png)
 
