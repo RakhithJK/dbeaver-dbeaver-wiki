@@ -1,4 +1,4 @@
-If you buy a bunch of DBeaver EE licenses, you need to assign each license to the end user.
+If you buy a bunch of DBeaver EE licenses, you may need to assign each license to the end user.
 
 If an employee subsequently is leaving the company or the team that is using DBeaver, the license admin may need to reassign the license to another employee.
 
