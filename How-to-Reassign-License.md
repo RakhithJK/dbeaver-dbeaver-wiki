@@ -1,4 +1,4 @@
-If you buy a bunch of DBeaver EE licenses, you may need to assign each license to the end user.
+After purchase a bunch of DBeaver EE licenses you have to assign each license to an end user.
 
 If an employee subsequently is leaving the company or the team that is using DBeaver, the license admin may need to reassign the license to another employee.
 
@@ -20,6 +20,8 @@ A pop-up opens, and you can enter new license owner data: email, first and last 
 
 ![](images/license/form.png)
 
-The license will remain in your personal account. Also, new license owner will be able to find the license in the personal account but there will be no the CHANGE OWNER DATA button since only the license admin can assign a license. If new license owner hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
+The license will remain in your personal account. The end user's email will be in the name column on the Licenses tab.
+
+Also, new license owner will be able to find the license in the personal account but there will be no the CHANGE OWNER DATA button since only the license admin can assign a license to the end user. If new license owner hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
 
 ![](images/license/lic-tab-newpng.png)
