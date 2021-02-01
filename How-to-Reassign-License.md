@@ -4,7 +4,7 @@ Sometimes the named user is leaving the company or the team that is using DBeave
 
 You can reassign the license to another user in your personal account.
 
-Firstly, you need to Sign in https://dbeaver.com/signin/.
+Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses tab**, where you can find all your licenses. 
 
