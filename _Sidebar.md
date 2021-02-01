@@ -59,7 +59,10 @@
   - [[Connect to Database]]
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
+
   - [[SSH tunnels]]
+  - [[Proxy configuration]]
+  - [[SSL configuration]]
   - [[Kerberos authentication]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Connection Types]]
 - Transactions
