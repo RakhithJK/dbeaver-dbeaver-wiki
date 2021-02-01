@@ -1,6 +1,6 @@
-You can buy DBeaver EE license and then you need to reassign it to the end user.
+If you buy a bunch of DBeaver EE licenses, you need to assign each license to the end user.
 
-Sometimes the named user is leaving the company or the team that is using DBeaver EE so the license admin may need to reassign the license to another employee.
+If an employee subsequently is leaving the company or the team that is using DBeaver, the license admin may need to reassign the license to another employee.
 
 You can reassign the license to another user in your personal account.
 
@@ -14,7 +14,7 @@ You select which license you need to reassign and press the **VIEW** button near
 
 ![](images/license/lic-details.png)
 
-Also, you can find the license owner` s email, name and company. To reassign the license, you need to press the **CHANGE OWNER DATA** button.
+Also, you can find the license owner s email, name and company. To reassign the license, you need to press the **CHANGE OWNER DATA** button.
 
 A pop-up opens, and you can enter new license owner data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed.
 
