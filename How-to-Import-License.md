@@ -1,9 +1,9 @@
-* [Import from email](#Import-from-email)
-* [Import from the personal account](#Import-from-the-personal-account)
-* [Insert the License key to License Manager](#Insert-the-License-key-to-License-Manager)
-* [Import of Subscription license](#Import-of-Subscription-license)
-* [Import of License extension](#License-extension)
-* [License Manager](#License-Manager)
+* [Import from email](#import-from-email)
+* [Import from the personal account](#import-from-the-personal-account)
+* [Insert the License key to License Manager](#insert-the-license-key-to-license-Manager)
+* [Import of Subscription license](#import-of-subscription-license)
+* [Import of License extension](#license-extension)
+* [License Manager](#license-manager)
 
 To start using DBeaver EE you can
 
