@@ -22,6 +22,6 @@ A pop-up opens, and you can enter new license owner data: email, first and last 
 
 The license will remain in your personal account. The end user's email will be in the name column on the Licenses tab.
 
-![](images/license/licenses-tab-new.png)
+![](images/license/lic-tab-new.png)
 
 Also, new license owner will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). If new license owner hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
