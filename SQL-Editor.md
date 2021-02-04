@@ -69,4 +69,4 @@ You can easily associate the SQL Editor with the connection that is currently in
 
 The reverse action is also possible: you can set the focus of the Database Navigator to the active connection of the SQL Editor - press <kbd>Ctrl+Shift+,</kbd> or click the arrow next to the **Set connection from navigator** button in DBeaver`s main toolbar and then click **Link with editor**:
 
-![](images/ug/Link-with-Editor-from SQLEditor.png)
+![](images/ug/Link-with-Editor-from-SQLEditor.png)
