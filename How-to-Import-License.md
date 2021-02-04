@@ -33,7 +33,7 @@ Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses** tab, where you can find all your licenses. 
 
-![](images/license/licenses-tab.png)
+![](images/license/lic-tab.png)
 
 
 
@@ -43,7 +43,7 @@ To open the License details and copy the License Key you press the **View** butt
 
 
 
-![](images/license/license-details.png)
+![](images/license/lic-details.png)
 
 At the bottom of the page you can find the License Key required to start using DBeaver EE.
 There are two options how to copy your License Key from the personal account:
