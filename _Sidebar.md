@@ -59,10 +59,11 @@
   - [[Connect to Database]]
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
-  - [[SSH tunnels]]
-  - [[Proxy configuration]]
-  - [[SSL configuration]]
-  - [[Kerberos authentication]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - Advanced settings <!--CMD:SKIP-->
+    - [[SSH tunnels]] <!--CMD:SKIP-->
+    - [[Proxy configuration]] <!--CMD:SKIP-->
+    - [[SSL configuration]] <!--CMD:SKIP-->
+    - [[Kerberos authentication]] <img src="images/ee.png" vspace="0" border="0" height="18"/> <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
