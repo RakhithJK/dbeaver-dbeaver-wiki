@@ -59,7 +59,6 @@
   - [[Connect to Database]]
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
-- Advanced configuration
   - [[SSH tunnels]]
   - [[Proxy configuration]]
   - [[SSL configuration]]
