@@ -1,6 +1,6 @@
 * [Import from email](#import-from-email)
 * [Import from the personal account](#import-from-the-personal-account)
-* [Insert the License key to License Manager](#insert-the-license-key-to-license-Manager)
+* [Insert the License key to License Manager](#insert-the-license-key-to-license-manager)
 * [Import of Subscription license](#import-of-subscription-license)
 * [Import of License extension](#license-extension)
 * [License Manager](#license-manager)
