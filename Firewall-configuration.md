@@ -1,3 +1,5 @@
+## External resources access
+
 Sometimes DBeaver needs to access external internet resources for such tasks as:
 
 - 3rd party JDBC drivers download
