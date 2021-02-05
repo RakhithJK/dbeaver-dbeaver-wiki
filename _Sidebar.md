@@ -107,6 +107,7 @@
 - [[Log files]]
 - [JDBC trace](JDBC-Tracing)
 - [Thread dump](Making-a-thread-dump)
+- [[Firewall configuration]]
 
 #### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
