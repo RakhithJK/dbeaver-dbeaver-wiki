@@ -18,7 +18,8 @@ DBeaver's support of spatial data covers the following databases:
 _Will be written soon._
 ### Defining custom tile layer
 _Feature is under active development and will be out with version 7.3.5. Stay tuned._
-## Viewing string or binary data on a map 
+
+## Viewing string or binary data from any Database on a map 
 
 You can also see your geodata on the map if you select the data cell setting "View/Format", then "Set columnName format" and among the formats - Geometry. 
 This works for both string and binary types of columns.
