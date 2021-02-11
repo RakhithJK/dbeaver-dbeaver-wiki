@@ -15,9 +15,26 @@ DBeaver's support of spatial data covers the following databases:
 ![](images/ug/Data-view-gis-presentation.png)
 
 ### Tile layer management
-_Will be written soon._
+DBeaver ships with several predefined map tiles. Tiles can be chosen with  the combo below the viewer:
+
+![](images/ug/Leaflet-Tiles-Combo.gif)
+
+You can choose which tile layers you want to see in the combo in the _manage_ dialogue:
+
+![](images/ug/Leaflet-Tiles-Manage-Dialogue-Choose-Tiles-to-Show.gif)
+
+In the same manage dialogue, you can add new tile layers, edit layers you added previously, 
+or delete them:
+
+![](images/ug/Leaflet-Tiles-Manage-Dialogue-User-Defined-Tiles.gif)
 ### Defining custom tile layer
-_Feature is under active development and will be out with version 7.3.5. Stay tuned._
+At this point, you may be wondering what to put in the Layers definition box. Here is a brief explanation.
+
+DBeaver's spatial data viewer uses Leaflet (version 1.4.0 at the moment) under the hood. 
+When providing Layers definition, you type the arguments for function L.tileLayer(), 
+which installs a new tile layer. [More on that](https://leafletjs.com/reference-1.4.0.html#tilelayer) 
+function in the official Leaflet documentation. You can also see the definition of 
+predefined tiles to help you get started.  
 
 ## Viewing string or binary data from any Database on a map 
 
