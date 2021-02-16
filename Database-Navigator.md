@@ -20,7 +20,7 @@ Icon|Menu item|Description
 (empty) | **Active Project** |Displays a submenu which allows you to choose a project. See [Projects](Projects) and [Projects view](Projects-View) for information about projects.
 ![](images/ug/New-Folder-icon.png) |**New Folder** |Opens a dialog box for creating a new folder
 ![](images/ug/Collapse-All-icon.png) | **Collapse All** |Collapses the tree to the root level
-![](images/ug/Link-with-Editor-icon.png) | **Link with editor** | Enabled when at least one editor is open, otherwise disabled - highlights the object in the tree that has its editor open
+![](images/ug/Link-with-Editor-icon.png) | **Link with editor** | Synchronizes the active editor with the element in the database navigator
 
 The toolbar is located in the title bar of the window. Its buttons duplicate the menu items, except for the **Active Project**. 
 
