@@ -7,7 +7,7 @@ The Projects view displays all projects created in the system and provides tools
 For information on how to change the view layout, please see the [Application Window Overview](Application-Window-Overview) article.
 
 The projects are organized into a tree and all have the same high-level structure:
-* **Connections** – repeat the content of the Database Navigator view for this project. You can perform the same actions over the objects of the databases as in Database Navigator.
+* **Connections** – repeat the content of the Database Navigator view for this project. You can perform the same actions over the objects of the databases as in the Database Navigator.
 * **Bookmarks** – contains bookmarks – shortcuts to database objects, see … 
 * **ER Diagrams** - contains ER diagrams that you can drag-and-drop here from other folders
 * **Scripts** – contains scripts that you can drag-and-drop here from other folders
