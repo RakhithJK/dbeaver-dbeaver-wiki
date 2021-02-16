@@ -24,7 +24,7 @@ Icon|Menu item|Description
 
 The toolbar is located in the title bar of the window. Its buttons duplicate the menu items, except for the **Active Project**. 
 
-To open the context menu for an object, right-click the object in the tree. The following table summarizes context menu items for all types of objects that may appear in the tree. Note that the presence or absence of context menu items for an object depends on the database and object types.
+To open the context menu for an object, right-click the object in the tree. The following table summarizes the context menu items for all types of objects that may appear in the tree. Note that the presence or absence of the context menu items for an object depends on the database and object types.
 
 Menu item|Description
 ---------|-----------
