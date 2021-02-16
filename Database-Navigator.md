@@ -15,7 +15,7 @@ The menu contains the following items:
 
 Icon|Menu item|Description
 ----|---------|-----------
-![](images/ug/Driver-Manager-icon.png) |**Driver Manager**|Opens the Driver Manager window that allows creating, editing and deleting drivers for databases. See [Database Drivers](Database-drivers) for information about managing database drivers.
+![](images/ug/Driver-Manager-icon.png) |**Driver Manager**|Opens the Driver Manager window that allows you to create, edit and delete drivers for databases. See [Database Drivers](Database-drivers) for information about managing database drivers.
 ![](images/ug/New-connection-icon.png) |**New Connection**|Opens the Create new connection wizard. See [Create Connection](Create-Connection) for information about creating connections.
 (empty) | **Active Project** |Displays a submenu which allows you to choose a project. See [Projects](Projects) and [Projects view](Projects-View) for information about projects.
 ![](images/ug/New-Folder-icon.png) |**New Folder** |Opens a dialog box for creating a new folder
