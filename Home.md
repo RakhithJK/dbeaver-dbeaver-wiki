@@ -2,7 +2,7 @@
 
 DBeaver is a universal database management tool for everyone who needs to work with data in a professional way. 
 
-With DBeaver you are able to manipulate with your data like in a regular spreadsheet, create analytical reports based on records from different data storages, and export information in an appropriate format. For advanced database users DBeaver suggests a powerful SQL-editor, plenty of administration features, abilities of data and schema migration, monitoring database connection sessions, and a lot more.
+With DBeaver you are able to manipulate your data like in a regular spreadsheet, create analytical reports based on records from different data storages, and export information in an appropriate format. For advanced database users DBeaver suggests a powerful SQL-editor, plenty of administration features, abilities of data and schema migration, monitoring database connection sessions, and a lot more.
 
 Out-of-the box DBeaver supports more than 80 databases.
 
