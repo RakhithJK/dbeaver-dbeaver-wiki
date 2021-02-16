@@ -1,13 +1,13 @@
 The installation process depends on the distribution type and your Operational System.
 
 ### Windows / MacOS Installer
-The installer distribution is the recommended way to install DBeaver on Windows and MacOS X. It contains all required dependencies. Besides this, the installer automatically upgrades DBeaver to the new version, if a previous version is already installed.
-To install DBeaver, run the installer executable and follow the instructions in its screens.
+The installer distribution is the recommended way to install DBeaver on Windows and MacOS X. It contains all required dependencies. In addition, the installer automatically upgrades DBeaver to the new version if a previous version has already been installed.
+To install DBeaver, run the installer executable and follow the instructions on its screens.
 
 NOTE:
 
 * The installer does not change any system settings or the Java installation. 
-* The included JDK will be accessible only for DBeaver.  
+* The included JDK will be accessible only to DBeaver.  
 
 ### ZIP Archive
 When installing DBeaver manually, without using an installer:
