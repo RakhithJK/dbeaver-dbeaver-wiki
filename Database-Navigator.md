@@ -43,7 +43,7 @@ Menu item|Description
 **SQL Editor**|Opens a new SQL editor for the connection
 **Recent SQL Editor**|Opens the most recently opened SQL editor
 **Edit Connection**|Opens the Connection Configuration window that allows configuring connection settings
-**View [objects]**|Opens the object in a separate editor
+**View [objects]**|Opens the object in a separate viewer
 **Edit [object]**|Opens the object in a separate editor
 **Create new [object]**|Opens an editor in which you can specify properties and save the new object
 **Filter**|Opens a submenu of one or more filtering options (depending on the object):<br/>-	Hide [object]<br/>-	Show only [object]<br/>-	Configure [objects] filter<br/>-	Toggle filter<br/>-	Clear filter<br/> See [Filters](Filter-Database-Objects) for information.
