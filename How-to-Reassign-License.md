@@ -14,14 +14,14 @@ You select which license you need to reassign and press the **VIEW** button near
 
 ![](images/license/lic-details.png)
 
-Also, there is the license owner field that contains license owner's details. To reassign the license, you need to press the **CHANGE OWNER DATA** button near this field.
+Also, there is the license end user field that contains license end user's details. To reassign the license, you need to press the **CHANGE END USER** button near this field.
 
-A pop-up opens, and you can enter new license owner data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed. The license key that contains  license owner’s name and company name will be changed too.
+A pop-up opens, and you can enter new license end user data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed. The license key that contains  license end user’s name and company name will be changed too.
 
 ![](images/license/form.png)
 
-The license will remain in your personal account. The end user's email will be in the name column on the Licenses tab.
+The license will remain in your personal account. The end user's email will be in the end user column on the Licenses tab.
 
 ![](images/license/lic-tab-new.png)
 
-Also, new license owner will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). If new license owner hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
+Also, new license end user will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). There will be no the CHANGE END USER button since only the license customer can assign a license to the end user. If new license end user hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
