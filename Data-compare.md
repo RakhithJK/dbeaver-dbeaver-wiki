@@ -9,7 +9,7 @@ to copy differing rows or individual values or export them using [Data Transfer]
    Data Compare Wizard will appear. Here you can preview selected tables or choose other ones. Then you can navigate
    to the second page.
 3. After reaching the second page one may wonder about the purpose of it - don't worry, it's not that difficult: you
-   should choose columns that will be used as a **unique key** during comparison (the amount of keys must be equal).
+   should choose columns that will be used as a **unique key** during comparison (the amount of columns must be equal).
    If the _keys_ chosen wrong, it may lead to invalid results. By default, if the table has unique key in it, it will
    be chosen automatically during the initial setup:
    ![](images/ug/tools/data-compare-wizard-constraints.png)
