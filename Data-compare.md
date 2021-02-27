@@ -12,7 +12,7 @@ to copy differing rows or individual values or export them using [Data Transfer]
    should choose columns that will be used as a _unique key_ during comparison. If the _keys_ chosen wrong, it may lead
    to invalid results. By default, if the table has unique key in it, it will be chosen automatically during the initial setup:
    ![](images/ug/tools/data-compare-wizard-constraints.png)
-   Without unique keys, the rows cannot be compared properly, since there's no way to distinguish between individual rows:
+   Without unique keys the rows cannot be compared properly, since there's no way to distinguish between individual rows.
 4. After reaching to the last page, you can tweak limits (e.g. you only care about `N` first rows) and exclude categories
    of the resulting rows (e.g. you are not interested in modified rows). Also, you can press <kbd>Save task</kbd> button
    save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it,
