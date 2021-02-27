@@ -1,18 +1,35 @@
-You can compare data of two tables using Data Compare tool.  
-It is very useful when you need to compare two tables which have almost identical data with just few differences.  
-DBeaver visualizes the differences using table diff view.
+Sometimes you need to compare data from two sources (tables) which have almost identical data with just few differences.
+There may be a plenty reasons to do so: quick visualize all the differences and navigate through them by your sight,
+to copy differing rows or individual values or export them using [Data Transfer](Data-transfer). 
 
-### Running data compare tool
+### Preparing the tool
+1. You will need to choose one or two desired tables in the [Database Navigator](Database-Navigator) - it may be the
+   tables from the same databases or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL).
+2. Then choose <kbd>Database</kbd> &rArr; <kbd>Compare/Migrate</kbd> &rArr; <kbd>Data Compare</kbd> and the
+   Data Compare Wizard will appear. Here you can preview selected tables or choose other ones. Then you can navigate
+   to the second page.
+3. After reaching the second page one may wonder about the purpose of it - don't worry, it's not that difficult: you
+   should choose columns that will be used as a _unique key_ during comparison. If the _keys_ chosen wrong, it may lead
+   to invalid results. By default, if the table has unique key in it, it will be chosen automatically during initial setup.
+   Without unique keys, rows cannot be compared properly, since there's no way to distinguish between individual rows.
+4. After reaching to the last page, you can tweak limits (e.g. you only care about `N` first rows) and exclude categories
+   of the resulting rows (e.g. you are not interested in modified rows). Also, you can press <kbd>Save task</kbd> button
+   save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it,
+   _although it is not very useful right now, but we have plans to support exporting results as an SQL script and more._ 
 
-- Select two tables in the [[Database Navigator]] from the same database or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL);
-- Choose Compare/Migrate->Simple compare in the context menu.
+### Viewing the results
+After finishing the wizard, you can press <kbd>Start</kbd> button to begin actual process of comparison - it may take
+some time depending on the databases you're comparing, the amount of data in them, and your network speed (*).
 
-DBeaver uses the best unique key or index (usually it is a Primary Key) to identify rows.  
-Tables without unique key cannot be compared properly because there is no way to compare individual rows.  
-Unique keys must have the same number of columns.  
+When the results are ready, DBeaver will play _beep_ sound, and the editor will open:
+![](images/ug/tools/data-compare-editor.png)
+Here you can examine the differences, swap the panels using <kbd>Swap Containers</kbd> button in the toolbar,
+or preview summary including statistics by using <kbd>Show Summary</kbd> button in the toolbar too. Everything you can
+do in the regular data editor is it possible to perform here - you can copy data or transfer it to other database, except
+you cannot modify values.
 
-DBeaver fetches portions of data from each table and then finds differences.  
+_* - Please note that the actual preview is only available when Data Compare is launched through the wizard - otherwise only
+statistics will be written into the [Task Log](Task-Management#Execution-log)._
 
-### Result diff
-
-![](images/ug/tools/data-compare-diff.png)
+### Under the hood
+This section is under construction. It will include information about the engine's implementation details and more.
