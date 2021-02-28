@@ -12,7 +12,8 @@ DBeaver's support of spatial data covers the following databases:
 ## Spatial data viewer
 
 ![](images/ug/Data-view-gis.png)
-![](images/ug/Data-view-gis-presentation.png)
+
+![](images/ug/Data-view-gis-presentation.png) <!--CMD:SKIP-->
 
 ### Tile layer management
 DBeaver ships with several predefined map tiles. Tiles can be chosen with the combo below the viewer:
