@@ -19,7 +19,7 @@ The License Key is a unique identification number that contains License ID e. g.
 
 You can just copy-paste License Key to import the license into the License Manager. Please, note that you need to copy-paste full license text (not just license ID). The license text starts with “–” and ends with “==” characters.
 
-![](images/license/purchase-receipt.png)
+![](images/license/email.png)
 
 Sometimes an email client can corrupt the formatting of the License Key that can cause an error.
 
@@ -33,7 +33,7 @@ Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses** tab, where you can find all your licenses. 
 
-![](images/license/lic-tab.png)
+![](images/license/tab-licenses.png)
 
 
 
@@ -43,20 +43,20 @@ To open the License details and copy the License Key you press the **View** butt
 
 
 
-![](images/license/lic-details.png)
+![](images/license/view-lic.png)
 
 At the bottom of the page you can find the License Key required to start using DBeaver EE.
 There are two options how to copy your License Key from the personal account:
 
 1)Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to clipboard.
 
-![](images/license/copy-to-clipboard.png)
+![](images/license/copy.png)
 
 2)Press the **DOWNLOAD LICENSE** button, then press OK. 
 
 .txt file with your License Key will be downloaded to your download folder. The file name is License ID, e. g. DB-821MPZFO-ZA8W.
 
-![](images/license/download-license.png)
+![](images/license/download.png)
 
 Then you need to insert copied License Key to License Manager in Dbeaver EE.
 
@@ -81,11 +81,11 @@ Next you press the **Import** button to paste your License Key.
 
 If you copied the License Key to clipboard, press the **Paste** button and then **Import**. 
 
-![](images/license/paste-lic.png)
+![](images/license/paste.png)
 
 If you downloaded the .txt file with the License Key, press the **Load** button and then select the file from Downloads. The License Key will be pasted automatically.
 
-![](images/license/load-lic.png)
+![](images/license/load.png)
 
 Then press the **Import** button and your license will be added in License Manager.
 
