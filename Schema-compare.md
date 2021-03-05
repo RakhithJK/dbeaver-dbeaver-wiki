@@ -4,14 +4,14 @@ You can compare two schemas/databases structure and generate report as:
 - DDL script (series of create/alter/drop statements)
 - Diff diagram (sort of ER diagram)
 - Liquibase change log
-- Liquibase change report (json or plaintext)
+- Liquibase change report (json, yaml or plaintext)
 
 ### Selecting objects to compare
 
 - Select two objects (schemas, databases or tables) you want to compare
 - Open context menu
 - Open sub-menu `Compare/Migrate`
-- Click on `Compare/Update structure` element
+- Click on `Compare/Migrate Schema` element
 
 ![](images/ug/tools/schema_compare_navigator.png)
 
@@ -21,6 +21,10 @@ Re-validate that you chosen right objects to compare.
 You can also specify which changes to process: creates, drops, alters. By default all change types are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
+
+Also you can exclude the specific compared types of objects. For example, if you do not want to see in the final result comparison of sequences, views, external keys etc.
+
+![](images/ug/tools/schema_compare_settings_types.png)
 
 ### Compare results
 
@@ -32,4 +36,12 @@ You can enable/disable particular changes in the tree on the left side of diff p
 
 ![](images/ug/tools/schema_compare_result_ddl.png)
 
-You can also switch to another diff report representation (diagram, json, plaintext).
+You can also switch to another diff report representation (diagram, json, yaml, plaintext).
+
+![](images/ug/tools/schema_compare_report_type.png)
+
+### Compare schemaless bases
+
+Some bases (like SQLite and Firebird) do not have catalogs and schemes that could be selected for comparison. In this case (and only for these databases), it is possible to compare the entire Datassource entirely.
+
+![](images/ug/tools/schema_compare_schemaless.png)
