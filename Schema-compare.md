@@ -42,6 +42,6 @@ You can also switch to another diff report representation (diagram, json, yaml, 
 
 ### Compare schemaless bases
 
-Some bases (like SQLite and Firebird) do not have catalogs and schemes that could be selected for comparison. In this case (and only for these databases), it is possible to compare the entire Datassource entirely.
+Some bases (like SQLite and Firebird) do not have catalogs and schemes that could be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource entirely.
 
 ![](images/ug/tools/schema_compare_schemaless.png)
