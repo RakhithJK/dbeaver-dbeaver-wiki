@@ -17,7 +17,7 @@ The data updates dynamically. To remove a filter, click the Remove All Filters/O
 
 You can save the current filter settings for the database object to apply next time when you reopen it in the editor. To save the current filter settings, click the Save filter settings for current object button (![](images/ug/Save-filter-settings-for-current-object.png)) in the top toolbar.
 
-## Advanced filters configuration
+# Advanced filters configuration
 
 The main tool for managing the appearance of the data table is the Result Set Order/Filter Settings window.
 
