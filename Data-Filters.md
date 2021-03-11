@@ -1,5 +1,5 @@
 
-You can apply custom filters to any table contents or query results. There are several ways in which you can filter data in the table.
+You can apply custom filters to table contents or query results. There are several ways in which you can filter data in the table.
 
 One of the ways is to use the filter field above the table next to the top toolbar. To filter data, enter an SQL expression into the field and click the Apply filter criteria button (![](images/ug/Apply-filter-criteria-button.png)) next to the field or press <kbd>Enter</kbd>.
 
@@ -9,13 +9,13 @@ You can apply ready-to-use SQL expressions or SQL expression templates via the c
 
 ![](images/ug/Filters-menu.png)
  
-The third way is to filter data by a cell value using the filter icon in the column header. To filter data this way, click the filter icon in the column header and then double-click the cell value in the Filter by column value dialog box:
+The third way is to filter data by a cell value using the filter icon in the column header. To filter data this way, click the filter icon in the column header and then double-click the cell value in the Filter by the column value dialog box:
 
 ![](images/ug/Filter-via-column-header.png)
 
 The data updates dynamically. To remove a filter, click the Remove All Filters/Orderings button (![](images/ug/Remove-all-filters-orderings.png)) in the top toolbar of the editor.
 
-You can save the current filter settings for the database object to apply next time when you reopen it in the editor. To save the current filter settings, click the Save filter settings for current object button (![](images/ug/Save-filter-settings-for-current-object.png)) in the top toolbar.
+You can save the current filter settings for the database object to apply the next time you reopen it in the editor. To save the current filter settings, click the Save filter settings for current object button (![](images/ug/Save-filter-settings-for-current-object.png)) in the top toolbar.
 
 # Advanced filters configuration
 
@@ -39,7 +39,7 @@ Another tool for managing the data appearance is the column headers. In the data
 * You can click the column type icon and then drag and drop the column to a different position in the table.
 * You can click the column name and then drag the cursor to the right or left to highlight multiple columns. 
 * Clicking the ordering icon allows you to order the data in the column in ascending or descending order - see the 'Ordering Data in Columns' section, further in this article
-* Clicking the filter icon allows you to filter filter the data by a cell value, see [TBA]
+* Clicking the filter icon allows you to filter the data by a cell value, see [TBA]
 
 ## Ordering Data in Columns
 You can order data in columns in one of the following ways:
@@ -68,7 +68,7 @@ Also, to remove all ordering settings, click the Remove All Filters/Orderings bu
 
 ## Managing Display of Columns in Data Table
 
-To hide a single column, right-click the column or any cell in it and click **View/Format -> Hide column** on the context menu. To unhide a hidden column, open the Result Set Order/Filter Settings window (see the image at the beginning of this article) and select the checkbox next to the column name or click the Reset button (![](images/ug/Reset-button.png)).
+To hide a single column, right-click the column or any cell in it and click **View/Format -> Hide column** on the context menu. To unhide a hidden column, open the Result Set Order/Filter Settings window (see the image at the beginning of this article) and select the checkbox next to the column name, or click the Reset button (![](images/ug/Reset-button.png)).
 
 To display or hide columns in the data table, in the Result Set Order/Filter Settings window:
 1. Select the checkboxes next to the columns that you want to see in the table and clear the checkboxes next to those that you want to hide.
