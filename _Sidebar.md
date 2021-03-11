@@ -125,6 +125,7 @@
 - [[Develop in IDEA|Develop-in-IDEA]] <!--CMD:SKIP-->
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
+- [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
 
 #### Other <!--CMD:SKIP-->
 - [[Enterprise Edition]] <!--CMD:SKIP-->
