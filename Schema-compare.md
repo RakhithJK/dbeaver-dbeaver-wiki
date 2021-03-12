@@ -45,3 +45,18 @@ You can also switch to another diff report representation (diagram, json, yaml, 
 Some bases (like SQLite and Firebird) do not have catalogs and schemes that could be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource entirely.
 
 ![](images/ug/tools/schema_compare_schemaless.png)
+
+### Databases supporting schema comparison
+* MySQL/MariaDB
+* Oracle
+* PostgreSQL
+* SQLServer
+* Snowflake
+* SQLite
+* Firebird
+* Redshift
+* DB2
+* Informix
+* Derby
+* Greenplum
+* Netezza
