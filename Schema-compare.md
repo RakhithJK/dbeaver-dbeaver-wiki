@@ -60,3 +60,5 @@ Some bases (like SQLite and Firebird) do not have catalogs and schemes that coul
 * Derby
 * Greenplum
 * Netezza
+* Cockroach
+* Vertica
