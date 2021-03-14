@@ -17,13 +17,17 @@ Cloud configuration si different for each cloud service provider.
 
 ![](images/ug/cloud-explorer/main-toolbar.png)
 
-- [[Configuring AWS cloud|AWS Cloud Explorer]]
+#### [[Configuring AWS cloud|AWS Cloud Explorer]]
 
-![AWS Cloud Explorer](images/ug/cloud-explorer/aws-cloud-configuration.png)
 
 ### Explorer
 
+One you configure cloud configuration you can open Cloud Explorer dialog and start adding database connections.
+In the top drop-down of explorer dialog you can select active cloud configuration or click "Edit" to change cloud configuration.
 
+In the center of dialog you can see cloud databases in hierarchical view. All databases are grouped by database/service type.
+When you expand one of top elements DBeaver will start to search cloud databases in configured availability zones/regions.
+![](images/ug/cloud-explorer/aws-cloud-explorer.png)
 
 ### Database cloud information
 
