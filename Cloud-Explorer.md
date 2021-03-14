@@ -17,7 +17,7 @@ Cloud configuration si different for each cloud service provider.
 
 ![](images/ug/cloud-explorer/main-toolbar.png)
 
-#### [[Configuring AWS cloud|AWS Cloud Explorer]]
+### [[Configuring AWS cloud|AWS Cloud Explorer]]
 
 
 ### Explorer
@@ -27,7 +27,14 @@ In the top drop-down of explorer dialog you can select active cloud configuratio
 
 In the center of dialog you can see cloud databases in hierarchical view. All databases are grouped by database/service type.
 When you expand one of top elements DBeaver will start to search cloud databases in configured availability zones/regions.
-![](images/ug/cloud-explorer/aws-cloud-explorer.png)
+
+![](images/ug/cloud-explorer/aws-cloud-databases.png)
+
+If you have big number of databases in your cloud then you can search or filter them using filter text above the cloud navigator.
+
+You can drag-and-drop cloud databases directly to [[database navigator view|Database Navigator]] or [[projects view]].
+You can also check any number of databases in the Cloud Explorer using checkbox control on the left side of Cloud Explorer tree and then click on "Add to Project" button in the right bottom corner.
+
 
 ### Database cloud information
 
