@@ -105,6 +105,11 @@
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
+#### DBeaver Enterprise
+- [[Enterprise Edition]]
+- [[Lite Edition]]
+- [[Ultimate Edition]]
+
 #### Troubleshooting
 - [[Command Line]]
 - [[Reset UI settings]]
@@ -132,8 +137,3 @@
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
-
-#### DBeaver Enterprise
-- [[Enterprise Edition]]
-- [[Lite Edition]]
-- [[Ultimate Edition]]
