@@ -38,3 +38,8 @@ You can also check any number of databases in the Cloud Explorer using checkbox 
 
 ### Database cloud information
 
+You can always see you cloud database configuration in a special tab on the connection settings dialog.
+This information depends on a cloud and on a database type.
+You can also click on the external link to open your database configuration in cloud provider web console.
+
+![](images/ug/cloud-explorer/cloud-database-info-tab.png)
