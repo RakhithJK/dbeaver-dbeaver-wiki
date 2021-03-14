@@ -133,5 +133,7 @@
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
 
-#### Other <!--CMD:SKIP-->
-- [[Enterprise Edition]] <!--CMD:SKIP-->
+#### DBeaver Enterprise
+- [[Enterprise Edition]]
+- [[Lite Edition]]
+- [[Ultimate Edition]]
