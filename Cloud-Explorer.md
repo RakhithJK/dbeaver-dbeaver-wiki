@@ -8,8 +8,18 @@ Authentication is managed in centralized mode - you use your cloud account to ge
 
 ### Cloud configuration
 
+Before you begin to work with cloud explorer you need to configure your cloud provider access.
+Configuration includes access credentials, availability zones which will be used to search databases and some other cloud-specific settings.
+Cloud configuration si different for each cloud service provider.
+
+![](images/ug/cloud-explorer/main-toolbar.png)
+
+- [[Configuring AWS cloud|AWS Cloud Explorer]]
+
+![AWS Cloud Explorer](images/ug/cloud-explorer/aws-cloud-configuration.png)
 
 ### Explorer
+
 
 
 ### Database cloud information
