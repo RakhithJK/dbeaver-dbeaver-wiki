@@ -4,19 +4,19 @@ to copy differing rows or individual values or export them using [Data Transfer]
 
 ### Preparing the tool
 1. You will need to choose one or two desired tables in the [Database Navigator](Database-Navigator) - it may be the
-   tables from the same databases or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL).
-2. Then choose <kbd>Database</kbd> &rArr; <kbd>Compare/Migrate</kbd> &rArr; <kbd>Data Compare</kbd> from the menu and the
-   Data Compare Wizard will appear. Here you can preview selected tables or choose other ones. Then you can navigate
-   to the second page.
-3. After reaching the second page one may wonder about the purpose of it - don't worry, it's not that difficult: you
-   should choose columns that will be used as a **unique key** during comparison (the amount of columns must be equal).
-   If the _keys_ chosen wrong, it may lead to invalid results. By default, if the table has unique key in it, it will
-   be chosen automatically during the initial setup:
-   ![](images/ug/tools/data-compare-wizard-constraints.png)
-   Without unique keys the rows cannot be compared properly, since there's no way to distinguish between individual rows.
-4. After reaching the last page, you can tweak limits (e.g. you only care about `N` first rows) and exclude categories
-   of the resulting rows (e.g. you are not interested in modified rows). Also, you can press <kbd>Save task</kbd> button
-   save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it.
+  tables from the same databases or from different databases or even from different RDBMS (e.g. PostgreSQL and MySQL).
+1. Then choose <kbd>Database</kbd> &rArr; <kbd>Compare/Migrate</kbd> &rArr; <kbd>Data Compare</kbd> from the menu and the
+  Data Compare Wizard will appear. Here you can preview selected tables or choose other ones. Then you can navigate
+  to the second page.
+1. After reaching the second page one may wonder about the purpose of it - don't worry, it's not that difficult: you
+  should choose columns that will be used as a **unique key** during comparison (the amount of columns must be equal).
+  If the _keys_ chosen wrong, it may lead to invalid results. By default, if the table has unique key in it, it will
+  be chosen automatically during the initial setup:
+  ![](images/ug/tools/data-compare-wizard-constraints.png)
+  Without unique keys the rows cannot be compared properly, since there's no way to distinguish between individual rows.
+1. After reaching the last page, you can tweak limits (e.g. you only care about `N` first rows) and exclude categories
+  of the resulting rows (e.g. you are not interested in modified rows). Also, you can press <kbd>Save task</kbd> button
+  save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it.
 
 ### Viewing the results
 After finishing the wizard, you can press <kbd>Start</kbd> button to begin actual process of comparison - it may take
