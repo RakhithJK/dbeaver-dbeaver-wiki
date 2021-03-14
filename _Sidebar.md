@@ -79,15 +79,21 @@
   - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[Composite tasks]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- [[Cloud Explorer]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
+  - [[AWS|AWS Cloud Explorer]]
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
 - [[Redis]]
-- [[AWS DynamoDB]]
-- [[AWS DocumentDB]]
-- [[Google Bigtable]]
+- AWS (Amazon Web Services)
+  - [[DynamoDB|AWS DynamoDB]]
+  - [[DocumentDB|AWS DocumentDB]]
+  - [[Athena|AWS Athena]]
+  - [[Keyspaces|AWS Keyspaces]]
+- GCP (Google Cloud Platform)
+  - [[Bigtable|Google Bigtable]]
 - [[Couchbase]]
 - [[CouchDB]]
 - [[Apache Hive/Spark/Impala|Apache Hive]]
