@@ -7,17 +7,21 @@ EE version includes all features of CE version plus:
   - MongoDB
   - Redis
   - InfluxDB
+  - Couchbase
+  - CouchDB
   - Google BigTable
   - AWS DynamoDB
+  - AWS Keyspaces
   - WMI (Windows Management Instrumentation)
 - Additional EE plugins:
   - Office formats support (XLS) for data import
   - Visual Query Builder
   - Schema/table compare, diff DDL generation
+  - Data compare
   - Analytical charts rendering
   - Persistent query database. Search in query history
   - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
-  - Advanced Mock data generators
+  - Mock data generators
   - Version control support
   - Automatic proxy configuration (PAC) 
   - A possibility for us to support and develop the Community version, add new features faster, provide better support and much more.
