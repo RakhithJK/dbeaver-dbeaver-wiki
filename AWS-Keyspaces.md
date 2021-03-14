@@ -11,8 +11,7 @@ AWS Keyspaces uses AWS IAM authentication.
 You need specify your IAM credentials and AWS region. There is no some specific endpoint - there is only one cluster per account per AWS region.  
 Also there is no need to configure SSH or SSL - DBeaver uses default AWS settings to access Keyspace cluster.  
 
-![](images/database/cassandra/cassandra-connection-init.png)
-![](images/database/cassandra/cassandra-connection-tcp.png)
+![](images/database/keyspaces/keyspaces-connection-init.png)
 
 ### Browsing Keyspaces tables
 
