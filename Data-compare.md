@@ -16,8 +16,7 @@ to copy differing rows or individual values or export them using [Data Transfer]
    Without unique keys the rows cannot be compared properly, since there's no way to distinguish between individual rows.
 4. After reaching the last page, you can tweak limits (e.g. you only care about `N` first rows) and exclude categories
    of the resulting rows (e.g. you are not interested in modified rows). Also, you can press <kbd>Save task</kbd> button
-   save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it,
-   _although it is not very useful right now, but we have plans to support exporting results as an SQL script and more._ 
+   save configuration in a [Task](Task-Management) to use it later, or [Schedule](Task-Scheduler) it.
 
 ### Viewing the results
 After finishing the wizard, you can press <kbd>Start</kbd> button to begin actual process of comparison - it may take
