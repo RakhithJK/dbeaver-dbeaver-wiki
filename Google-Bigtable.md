@@ -4,3 +4,7 @@ Supported features:
   - Data filters
   - SQL queries execution
   - Data export and import
+
+## DynamoDB connection
+
+![](images/database/bigtable/connection-page.png)
