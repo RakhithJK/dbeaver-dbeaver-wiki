@@ -5,6 +5,6 @@ Supported features:
   - SQL queries execution
   - Data export and import
 
-## DynamoDB connection
+## Bigtable connection
 
 ![](images/database/bigtable/connection-page.png)
