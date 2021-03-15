@@ -32,3 +32,8 @@ To install DBeaver using RPM package:
 2. Execute `dbeaver &`.  
 
 NOTE: To upgrade DBeaver to the next version, use `sudo rpm -Uvh dbeaver-<version>.rpm` parameter.
+
+## Automatic updates
+_This feature is available only on Windows and macOS._
+
+DBeaver automatically checks for new versions from time to time. If new version is available, it will prompt you to decide whether you want to stay or upgrade. If the second option is chosen, an installer will be downloaded and run upon completion, gracefully closing currently running application to avoid data loss.
