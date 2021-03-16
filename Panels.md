@@ -32,8 +32,8 @@ Button|Name|Description
 ![](images/ug/XML_editor_icon.png)|**Content viewer settings**|Opens a menu with a set of options for content view change.
 ![](images/ug/XML_editor_save_to_file_icon.png)|**Save to file...**|Allows saving the content to a local file. **NOTE**: This button is only available for XML, JSON and Binary content.
 ![](images/ug/XML_editor_load_from_file_icon.png)|**Load from file...**| Allows uploading data from a local file. **NOTE**: This button is only available for XML,JSON and Binary content.
-![](images/ug/Apply-cell-value-button.png)|**Apply cell value**|Displays in the data table the changes made in the Value viewer. **NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](Data-Editor)..
-![](images/ug/Auto-apply-value-button.png)|**Auto-apply value**|Еnables automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.**NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](Data-Editor).
+![](images/ug/Apply-cell-value-button.png)|**Apply cell value**|Displays the data table changes in the Value viewer. **NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button on the bottom toolbar of the [Data Editor](Data-Editor)..
+![](images/ug/Auto-apply-value-button.png)|**Auto-apply value**|Еnables the automatic display of changes made in the Value viewer in the data table. When auto-saving is enabled, the changes appear in the data table at the same time when they are made in the Value viewer.**NOTE**: This button does not save changes made to the database. To save the changes in the database, you need to use the **Save** button in the bottom toolbar of the [Data Editor](Data-Editor).
 
 ## Metadata Panel
 The Metadata panel displays metadata for each cell in the row containing the cell currently in focus. You can just view the metadata.
@@ -80,8 +80,8 @@ By default, the COUNT function is used. You can add other functions as well. To 
 
 1. Click the **Edit grouping columns** button in the panel`s toolbar.
 2. In the Grouping Configuration window, in the **Functions** area, click **Add**, then type the function into the new row:
-   * You can use auto-complete options DBeaver provides.
-   * You need to indicate the column name in brackets. COUNT is the only function that supports `*` instead of column name.
+   * You can use the auto-complete options DBeaver provides.
+   * You need to indicate the column name in brackets. COUNT is the only function that supports `*` instead of the column name.
 3. Click **OK**:
   
    ![](images/ug/Grouping-new-function.png)
