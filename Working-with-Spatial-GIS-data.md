@@ -1,4 +1,4 @@
-Spatial data is a geometry or geography value that can be represented on a map or as a graph. Geometry object consists of series of points. [More details](https://en.wikipedia.org/wiki/Spatial_database).  
+Spatial data is a geometry or geography value that can be represented on a map or a graph. The geometry object consists of a series of points. [More details](https://en.wikipedia.org/wiki/Spatial_database).  
 
 DBeaver's support of spatial data covers the following databases:
 - PostgreSQL (PostGIS)
@@ -16,7 +16,7 @@ DBeaver's support of spatial data covers the following databases:
 ![](images/ug/Data-view-gis-presentation.png) <!--CMD:SKIP-->
 
 ### Tile layer management
-DBeaver ships with several predefined map tiles. Tiles can be chosen with the combo below the viewer:
+DBeaver ships with several predefined map tiles. The tiles can be chosen with the combo below the viewer:
 
 ![](images/ug/Leaflet-Tiles-Combo.gif)
 
@@ -24,7 +24,7 @@ You can choose which tile layers you want to see in the combo in the _manage_ di
 
 ![](images/ug/Leaflet-Tiles-Manage-Dialogue-Choose-Tiles-to-Show.gif)
 
-In the same manage dialogue, you can add new tile layers, edit layers you added previously, 
+In the same manage dialogue, you can add new tile layers, edit layers you previously added, 
 or delete them:
 
 ![](images/ug/Leaflet-Tiles-Manage-Dialogue-User-Defined-Tiles.gif)
