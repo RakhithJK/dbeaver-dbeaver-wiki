@@ -54,7 +54,7 @@ Pressing <kbd>Ctrl+V</kbd> on a cell pastes the copied content into the cell app
 
 ## Defining Virtual Keys
 
-To be able to persist column value changes, a table must have some unique key (primary key or unique index). Some databases (Oracle, DB2, PostgreSQL) support a special virtual unique column that DBeaver can use to save changes. In other cases, you can define a virtual key – a set of columns that forms a unique combination of values.
+To be able to save column value changes, a table must have some unique key (primary key or unique index). Some databases (Oracle, DB2, PostgreSQL) support a special virtual unique column that DBeaver can use to save changes. In other cases, you can define a virtual key – a set of columns that forms a unique combination of values.
 When you try to save changes in a table without a unique key, DBeaver displays the following error message:
 
 ![](images/ug/Virtual-key-warning.png)
