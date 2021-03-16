@@ -68,7 +68,7 @@ You can also copy all functions with their values - right-click in the table and
 
 The Grouping panel provides tools to calculate statistics based on a table of a custom SQL query.
 It uses GROUP BY queries to extract unique values for COUNT (default), SUM, AVG, MIN, MAX and other analytics functions displaying the results in dedicated columns.  
-To obtain the grouping results for one or more columns of a data table, open the Grouping panel, then, in the results table, put the cursor onto the data type icon of the table header so that the cursor turns into a hand pointer (![](images/ug/hand-pointer.png)), and drag-n-drop the column(s) onto the panel:
+To obtain the grouping results for one or more columns of a data table, open the Grouping panel, then, in the results table, put the cursor onto the data type icon of the table header so that the cursor turns into a hand pointer (![](images/ug/hand-pointer.png)), and drag-n-drop the column(s) into the panel:
 
 ![](images/ug/Grouping-drag-n-drop.png)
 
