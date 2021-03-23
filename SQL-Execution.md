@@ -9,9 +9,9 @@ You can execute one query, a highlighted portion of a script, or a whole script.
  
   ![](images/ug/Execute-main-menu.png)
 
-To execute a query under cursor or selected text, press <kbd>Ctrl+Enter</kbd> or right-click the query and click **Execute -> Execute SQL Statement** on the context menu. You can do the same using the main toolbar or main menu: **SQL Editor -> Execute SQL Statement**. This executes the SQL query under cursor or selected text and fills the results pane with the query results.
+To execute a query under the cursor or selected text, press <kbd>Ctrl+Enter</kbd> or right-click the query and click **Execute -> Execute SQL Statement** on the context menu. You can do the same using the main toolbar or main menu: **SQL Editor -> Execute SQL Statement**. This executes the SQL query under the cursor or selected text and fills the results pane with the query results.
 
-To execute a query under cursor in a separate tab, press <kbd>CTRL+\ </kbd> or right-click the query and click **Execute -> Execute SQL in new tab** on the context menu. The same can be done using the main toolbar or the main menu: **SQL Editor -> Execute SQL in new tab**. This executes the SQL query under cursor or selected text and creates a new results tab.
+To execute a query under the cursor in a separate tab, press <kbd>CTRL+\ </kbd> or right-click the query and click **Execute -> Execute SQL in new tab** on the context menu. The same can be done using the main toolbar or the main menu: **SQL Editor -> Execute SQL in new tab**. This executes the SQL query under the cursor or selected text and creates a new results tab.
 
 To execute the whole script, press <kbd>Alt+X</kbd> or click **Execute -> Execute SQL Script** on the context menu or **SQL Editor -> Execute SQL Script** on the main menu or in the main toolbar. This executes all queries in the current editor (or selected queries) as a script. DBeaver parses queries one by one using a statement delimiter (“;” by default) and executes them consecutively. You can configure the script execution behavior in the SQL editor preferences (Right-click the script and click **Preferences** on the context menu).
 
@@ -21,7 +21,7 @@ unexpected problems.
 
 ## Result tabs
 
-Single query may generate several result sets represented by tabs. These tabs are linked to the query they are executed from.
+A single query may generate several result sets represented by tabs. These tabs are linked to the query they are executed from.
 
 * To close an individual tab, press <kbd>CTRL+Shift+&bsol;</kbd> or middle-click on a tab header. 
 * To close all tabs expect current, click **Close all result tabs except this** on the context menu of this tab.
@@ -35,7 +35,7 @@ Tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, wh
 
 ### Pinning
 
-Tabs can be moved around by dragging them with mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left, can be moved among other pinned tabs, but can't be mixed with unpinned tabs, also pinned tabs can't be closed without being unpinned first and can't be overwritten by executing a query in it (by making this tab active).
+Tabs can be moved around by dragging them with a mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left. They can be moved among other pinned tabs, but can't be mixed with unpinned tabs. Pinned tabs cannot be closed without being unpinned first, and cannot be overwritten by executing a query in it (by making this tab active).
 
 ## Dynamic Parameter Bindings
 
@@ -43,11 +43,11 @@ You can use dynamic parameters in your SQL queries. The parameter format is :nam
 
 ![](images/ug/Bind-parameters-dialog.png)
 
-You can also use anonymous parameters (?), but you will need to enable them in SQL editor preferences:
+You can also use anonymous parameters (?), but you will need to enable them in the SQL editor preferences:
 
 ![](images/ug/Anonymous-SQL-params-Preferences.png)
 
-You can open SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
+You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 
 ## SQL Expression Evaluation
 To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command basically performs a query of **SELECT [expression] FROM DUAL** type:
@@ -60,7 +60,7 @@ If you want to know how many rows an SQL query will produce, you need to apply t
 ![](images/ug/Row-Count.png)
 
 ## Query Export
-It might be useful to export a query if you have a very long-running query and you do not need to see its results in the results panel. You can directly export the current query results to a file/table by right-clicking the query and then clicking **Execute -> Export From Query** on the context menu:
+It might be useful to export a query if you have a long-running query and you do not need to see its results in the results panel. You can directly export the current query results to a file/table by right-clicking the query and then clicking **Execute -> Export From Query** on the context menu:
 
 ![](images/ug/Export-from-Query.png)
 
@@ -70,8 +70,8 @@ The Data transfer wizard opens. Go through its steps to complete the export of t
 
 ## Client-side commands
 
-You can use special commands in SQL scripts.  
-These commands are executed on DBeaver side, not on server-side.
+You can use special commands in the SQL scripts.  
+These commands are executed on DBeaver's side, not on the server-side.
 
 Name|Description
 ----|-----
