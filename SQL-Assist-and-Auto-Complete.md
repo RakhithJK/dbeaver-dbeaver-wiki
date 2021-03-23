@@ -5,7 +5,7 @@ To perform some object name auto-complete, press <kbd>Ctrl+Space</kbd> or right-
 ![](images/ug/SQL-Assist.png)
 
 When you start typing an SQL keyword in a statement, DBeaver offers auto-complete options as well.  
-Another auto-complete function is search for completion only within already entered identifiers - press <kbd>Ctrl+Shift+Space</kbd>.  
+Another auto-complete function is that it searches for the last entered identifier - type the first letter and press <kbd>Ctrl+Shift+Space</kbd>.  
 
 
 You can also press <kbd>Ctrl+Space</kbd> after the asterisk in the query like "SELECT * FROM tableName" or like "INSERT INTO tableName (*)" (brackets are important) (you can use ()[]{} brackets) - the asterisk will be replaced with a list of all the table columns.  
