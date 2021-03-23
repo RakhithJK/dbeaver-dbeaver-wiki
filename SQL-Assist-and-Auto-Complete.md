@@ -8,4 +8,4 @@ When you start typing an SQL keyword in a statement, DBeaver offers auto-complet
 Another auto-complete function is that it searches for the last entered identifier - type the first letter and press <kbd>Ctrl+Shift+Space</kbd>.  
 
 
-You can also press <kbd>Ctrl+Space</kbd> after the asterisk in the query like "SELECT * FROM tableName" or like "INSERT INTO tableName (*)" (brackets are important) (you can use ()[]{} brackets) - the asterisk will be replaced with a list of all the table columns.  
+You can also press <kbd>Ctrl+Space</kbd> after the asterisk in the query similar to `SELECT * FROM tableName` or similar to `INSERT INTO tableName (*)` (brackets are important) (you can use ()[]{} brackets) - the asterisk will be replaced with a list of all the table columns.  
