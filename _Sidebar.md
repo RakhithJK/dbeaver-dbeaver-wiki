@@ -5,6 +5,7 @@
   - [[Database Navigator]]
     - [[Filter Database Objects]]
     - [[Configure Filters]]
+    - [[Simple and Advanced View]]
   - [[Projects View]]
   - [[Project Explorer]]
   - [[Query Manager]]
