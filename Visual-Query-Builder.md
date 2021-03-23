@@ -1,6 +1,6 @@
 **Note: This functionality is available only in [Enterprise Edition](Enterprise-Edition).**
 
-**Query Builder** is a user-friendly visualization tool that will help you make sense of your complex database designs. It can be useful when you need to understand the various relationships between different tables. Also, it can be helpful for those who is not much familiar with SQL scripting or if you don't want to insert script commands manually. The tool creates SQL scripts automatically based on visual schema you create. 
+**Query Builder** is a user-friendly visualization tool that will help you make sense of your complex database designs. It can be useful when you need to understand the various relationships between different tables. Also, it can be helpful for those who are not very familiar with SQL scripting or if you do not want to insert script commands manually. The tool creates SQL scripts automatically based on the visual schema you have created. 
 
 *Note: Visual Query Builder presents only in DBeaver [Enterprise Edition](Enterprise-Edition)
 
@@ -16,7 +16,7 @@ The **Visual Query Builder** will appear on the right.
 
 ## Creating Visual Query
 
-Start creating a query from selecting query data source: drag-and-drop tables you want to work with from the **Database Navigator** pane into the **Visual Query Builder** area. All the connections existing between the tables will be shown automatically.
+Start creating a query by selecting a query data source: drag-and-drop tables you want to work with from the **Database Navigator** pane into the **Visual Query Builder** area. All the connections existing between the tables will be shown automatically.
 
 ![](images/visual_query_builder/query_builder_tables0.png)
 
