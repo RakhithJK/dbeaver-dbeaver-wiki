@@ -121,3 +121,20 @@ do the following:
 1. Place the line `-Ddbeaver.scheduler.windows.dateFormat=%some_format%` (where %some_format% is a format from the error message) below the `-vmargs` line.
 
 This flag is available starting from the 7.3.4 EA version of DBeaverEnterprise and might be removed in the future.
+
+### macOS 10.15+: Unable to read or write to crontab
+
+When scheduling tasks on macOS 10.15 or newer, the OS will prompt you to elevate DBeaver's permissions to administer your computer.
+If you don't grant these permissions, DBeaver fails to schedule your tasks with an error `Unable to read or write to crontab`.
+To bypass this, simply restart DBeaver and try to schedule the task again, and you will be prompted to elevate the permissions again.
+If you never prompted to do that in the first place, you can grant `Full disk access` permissions in macOS settings. Here is how to do that:
+
+1. Open `System Preferences`.
+1. Click on `Security & Privacy`.
+1. Choose the `Privacy` tab.
+1. Choose the `Full Disk Access` folder.
+1. Unlock the preferences lock to the bottom if it is locked.
+1. Click the + button.
+1. Select DBeaverEE in the file picker that opens.
+1. Click `Open`.
+1. Close the lock.
