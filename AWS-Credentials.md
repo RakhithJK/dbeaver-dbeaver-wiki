@@ -14,8 +14,14 @@ When you use default credentials type then AWS will try to determine credentials
 1. Amazon ECS container credentials
 1. Amazon EC2 instance profile credentials
 
+Essentially using default credentials it is the simplest way to integrate with various SSO providers and web identity providers as they usually provide credentials thru config files.
+
 Please read [[AWS credentials documentation|https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html]] for detailed explanation
 
 ### Access keys
+
+It is the most simple way to authenticate. You jsut enter IAM user access key and secret key. You can save them locally or (more secure) enter them every time you connect to a database.
+
+Official AWS instructions: [[Managing access keys for IAM users|https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html]]
 
 ### AWS Profiles
