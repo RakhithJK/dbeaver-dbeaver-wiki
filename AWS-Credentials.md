@@ -16,7 +16,7 @@ When you use default credentials type then AWS will try to determine credentials
 
 Essentially using default credentials it is the simplest way to integrate with various SSO providers and web identity providers as they usually provide credentials thru config files.
 
-Please read [[AWS credentials documentation|https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html]] for detailed explanation
+Please read [[AWS credentials documentation|https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html]] for detailed explanation.  
 
 ### Access keys
 
@@ -25,3 +25,6 @@ It is the most simple way to authenticate. You jsut enter IAM user access key an
 Official AWS instructions: [[Managing access keys for IAM users|https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html]]
 
 ### AWS Profiles
+
+Similar to default credentials but you also can choose what credentials profile you want to use.  
+Official AWS instruction on [[crednetials config files|https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html]]
