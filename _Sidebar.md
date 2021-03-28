@@ -82,6 +82,7 @@
   - [[Composite tasks]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[Cloud Explorer]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[AWS|AWS Cloud Explorer]]
+  - [[AWS-Credentials]]
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
