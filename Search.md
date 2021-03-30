@@ -7,7 +7,7 @@ To use search, click the Search button in the main toolbar:
 
 ![](images/ug/Search-menu.png)
 
-Please see dedicated articles for information about search of different types. This article describes common features of the three search types.
+Please see dedicated articles for information about searching for different types. This article describes common features of the three search types.
 
 ## Search View
 Search results for any of the search types appear in a separate Search view. The following image shows the Search view for the database full text search:
@@ -40,11 +40,11 @@ To open the results of a previous search query, do one of the following:
  
   ![](images/ug/Search-history-menu.png)
 
-* Click the **Show Previous Searches** button itself or the arrow next to it and then **History** on the dropdown menu to open the Previous Searches window. Then, in the window, click the query and then either **Open** to open it in the active Search view or **Open in New** to open it in a new view:  
+* Click the **Show Previous Searches** button itself or the arrow next to it and then **History** on the dropdown menu to open the Previous Searches window. Then, in the window, click the query and then either click **Open** to open it in the active Search view or click **Open in New** to open it in a new view:  
 
   ![](images/ug/Previous-Searches-window.png)
  
-To remove one or more previous search queries:
+To remove one or more of the previous search queries:
 1. Click the **Show Previous Searches** button in the toolbar or click the arrow next to it and then **History** on the dropdown menu. The Previous Searches window opens.
 2. Click the query to remove or select several of them by clicking and simultaneously holding the <kbd>Ctrl</kbd> key.
 3. Click **Remove**.
