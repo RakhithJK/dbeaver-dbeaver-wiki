@@ -1,4 +1,4 @@
-To do a full text search in the database contents, click the arrow next to the Search icon in the main toolbar and then click **File Search** on the dropdown menu:
+To do a full text search in the database, click the arrow next to the Search icon in the main toolbar and then click **File Search** on the dropdown menu:
 
 ![](images/ug/Full-Text-Search-menu.png)
 
