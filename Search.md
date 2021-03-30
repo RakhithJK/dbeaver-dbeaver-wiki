@@ -18,7 +18,7 @@ The view contains a toolbar that provides common tools for all types of search a
 
 Button|Name|Description
 ------|----|-----------
-![](images/ug/Run-Current-Search-button.png)|**Run the Current Search Again**|Repeats the search the results of which are displayed in the Search view
+![](images/ug/Run-Current-Search-button.png)|**Run the Current Search Again**|Refreshes the search results
 ![](images/ug/Cancel-Search-grey.png)/![](images/ug/Cancel-Search-active.png)|**Cancel Current Search**|- Active state (red) indicates that the search is still in progress and appears if the search takes some time to complete. Clicking the button in this state stops the current search.<br/>- Inactive state (grey) indicates that the search is complete. The button in this state is non-actionable.
 ![](images/ug/Previous-Searches-button.png)|**Show Previous Searches**|-	Clicking the button itself opens the Previous Searches window.<br/>- Clicking the arrow next to the button opens a dropdown menu.<br/>See the _Search History_ section further in this article.
 ![](images/ug/Pin-Search-View-button.png)|**Pin the Search View**|Ties the current search results to the Search view. If you click this button, the current results stay in the view while the results of the next search appear in a new Search view. Otherwise, every new search replaces the previous results with new results.
