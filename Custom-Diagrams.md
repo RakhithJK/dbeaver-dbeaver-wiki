@@ -12,7 +12,7 @@ You can create a custom diagram in one of the ways:
 
    ![](images/ug/ERD-Create-from-Project-Explorer.png)
 
-In both cases, in the Diagram Create Wizard, specify the diagram name and (optionally) choose initial diagram contents (set of tables):  
+In both cases, in the Diagram Create Wizard, specify the diagram name and (optional) choose initial diagram contents (set of tables):  
 
 ![](images/ug/ERD-Create-custom-diagram.png)
 
@@ -22,6 +22,6 @@ You can also add notes and custom relations (associations) using the ERD palette
 
 1. Add required tables and relationships between them and move them around to create a well-shaped structure (see _Structure Adjustment_ section of the [ER Diagrams](ER-Diagrams) article).
 2. Add notes (see the _Notes_ section of the [ER Diagrams](ER-Diagrams) article).
-3. Stretch the notes to cover the intended tables, then send the notes to back, and then set color to the tables and notes (see the _View Adjustment_ section of the [ER Diagrams](ER-Diagrams) article).
+3. Stretch the notes to cover the intended tables, then send the notes to the back, and then set colour to the tables and notes (see the _View Adjustment_ section of the [ER Diagrams](ER-Diagrams) article).
 
 Undo/redo functions are fully supported in diagram editing.
