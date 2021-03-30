@@ -8,11 +8,11 @@ To save a script to the current project space, just press <kbd>Ctrl+S</kbd> or r
 You can find the script saved this way in the [Project Explorer](Project-Explorer) view in the **Scripts** folder.
 
 To save a script to the file system, right-click the script, click **File -> Export SQL script** on the context menu and then select the folder in the file system.
-You can also, click **SQL Editor -> Export SQL script** on the main menu:
+You can also click **SQL Editor -> Export SQL script** on the main menu:
 
 ![](images/ug/Save-script-to-file.png)
 
-Unsaved data are highlighted in color on the left side of the editor, as well as an asterisk in the name of the script.
+Unsaved data are highlighted in color on the left side of the editor, in addition to having an asterisk in the name of the script.
 
 ![](images/ug/Script-changes.png)
 
@@ -35,4 +35,4 @@ If you want to revert all changes made to the current SQL script and return it t
 
 ## SQL Console
 In some cases you might want to execute a query and do not save it in a script. For example when you read table data using "Read data in SQL console" or open procedure/function source from DDL editor.
-SQL console doesn't has an associated .sql file. Its contents will be lost when you close it.
+SQL console does not have an associated .sql file. Its contents will be lost when you close it.
