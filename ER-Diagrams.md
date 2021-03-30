@@ -29,12 +29,12 @@ You can do the following structural changes in the diagrams.
 ## View Adjustment
 You can adjust the view of any diagram in the following ways:
 * Enable/disable the diagram grid: Click **Toggle Grid** (![](images/ug/Toggle-grid.png)) in the toolbar.
-* Modify attributes visibility: Right-click the diagram and, on the context menu, click **Show Attributes** and then one of the options:
+* Modify attributes visibility: Right-click the diagram and, on the context menu, click **Show Attributes** and then select one of the options:
   - **All** - all attributes  
   - **Any keys** - primary and foreign keys  
   - **Primary key** - only primary keys  
   - **None** - no attributes  
-* Modify attributes presentation: Right-click the diagram and, on the context menu, click **View Styles** and then one of the options:
+* Modify attributes presentation: Right-click the diagram and, on the context menu, click **View Styles** and then select one of the options:
   - **Show Icons**
   - **Show Data Types**
   - **Show Nullability**
