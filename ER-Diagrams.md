@@ -61,7 +61,7 @@ To remove the filter, click the cross icon next to the search field.
 You can export (save) a diagram as an image (PNG, GIF, BMP formats) or as a file in GraphML format. To export a diagram, click **Save diagram in external format** (![](images/ug/ERD-Export.png)) in the toolbar.
 
 ## Diagram Printing
-To print a diagram, press <kbd>CTRL+P</kbd> or click **Print Diagram** (![](images/ug/Print-icon.png)) in the toolbar.
+To print a diagram, press <kbd>CTRL+P</kbd> or click **Print Diagram** (![](images/ug/Print-icon.png)) on the toolbar.
 
 ## Settings
-To modify the diagram settings, click **Configuration** (![](images/ug/Configure-columns-visibility-icon.png)) in the toolbar.
+To modify the diagram settings, click **Configuration** (![](images/ug/Configure-columns-visibility-icon.png)) on the toolbar.
