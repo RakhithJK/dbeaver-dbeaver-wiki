@@ -38,7 +38,7 @@ Then you will need to install a few additional Eclipse plugins which DBeaver dep
 
 12. Restart Eclipse. Eclipse will build project automatically or you can press `Ctrl+B`
 13. Switch to Hierarchical projects presentations
-    ![](images/development/eclipse/eclipse-project-hierarchy.gif)
+    ![](images/development/eclipse/eclipse-project-hierarchy.png)
 
 14. If some modules build will fail (they will be marked with red cross) - update Maven project
     ![](images/development/eclipse/eclipse-maven-update.png)

@@ -18,16 +18,12 @@ DBeaver's support of spatial data covers the following databases:
 ### Tile layer management
 DBeaver ships with several predefined map tiles. The tiles can be chosen with the combo below the viewer:
 
-![](images/ug/Leaflet-Tiles-Combo.gif)
+![](images/ug/Leaflet-Tiles-Combo.png)
 
-You can choose which tile layers you want to see in the combo in the _manage_ dialogue:
-
-![](images/ug/Leaflet-Tiles-Manage-Dialogue-Choose-Tiles-to-Show.gif)
-
+You can choose which tile layers you want to see in the combo in the _manage_ dialogue.
 In the same manage dialogue, you can add new tile layers, edit layers you previously added, 
-or delete them:
+or delete them.
 
-![](images/ug/Leaflet-Tiles-Manage-Dialogue-User-Defined-Tiles.gif)
 ### Defining custom tile layer
 At this point, you may be wondering what to put in the Layers definition box. Here is a brief explanation.
 
