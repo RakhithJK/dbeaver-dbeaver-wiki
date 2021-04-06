@@ -8,7 +8,7 @@ Sometimes in software development we need to generate mock, but valid, data for 
 
 > _Disclaimer:_ The idea behind Mock Data is to generate mock data in a table but it should **NOT TO BE USED IN PRODUCTION ENVIRONMENTS**. Please make sure you have a backup of your database before running the Mock Data generation process.
 
-Th following are features of DBeaver Mock Data generator:
+Th following are features of the DBeaver Mock Data generator:
 
 * Works for all the RDBMS that are supported by DBeaver (DB2, MS SQL Server, MySQL, Oracle, PostgreSQL, SQLite, etc.)
 * Generates data that matches your database schema:
@@ -57,7 +57,7 @@ The following are mock data generators for data types with their configurable pa
         * Price preset <sup>*</sup>
     * Template with parametrized directives for other generators <sup>*</sup>:
         * address() - US postal address
-        * city() - one of the world largest cities
+        * city() - one of the world's largest cities
         * country() - country
         * domain() - one of the top Internet domains
         * email(gender,surname) - e-mail address (gender is ALL|FEMALE|MALE, surname is true|false)
