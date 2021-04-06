@@ -8,14 +8,14 @@ DBeaver supports local storage for connection secure data. It includes:
 By default, user names and passwords are stored in file `credentials-config.json`. 
 This file is encrypted using the AES key. However it is really secure as this key is not secure (can be found in DBeaver sources) and thus this file can be un-encrypted by 3rd party people using some 3rd party software.
 
-In the DBeaver Enterprise, the security support is much strafer.
+In the DBeaver Enterprise, the security support is much safer because of its stronger encryption.
 
 ## Master password for local configuration
 
 It is possible to set a master password for all projects in a local workspace.
 Go to Preferences->Database->Security and enable the option `Use secure passwords storage`.
 There are several password storage providers (you can see them on page General->Security->Secure Storage), `DBeaver Enterprise Password Provider` is the default one (in standalone DBeaver). It will ask you to specify master password.
-DBeaver doesn't store this password anywhere, it only encrypts user credentials in a special local storage. It is not possible to decrypt these password without password (at least easily).
+DBeaver doesn't store this password anywhere, it only encrypts user credentials in a special local storage. It is not possible to decrypt this password without a password (at least easily).
 
 The side effect of this configuration is that you cannot share your connections (with password) between different users because user credentials are stored in a completely separate location and they are protected by a local user password.
 
