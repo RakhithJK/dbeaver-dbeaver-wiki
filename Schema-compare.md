@@ -18,11 +18,12 @@ You can compare two schema/database structures and generate a report in the foll
 ### Compare settings
 
 Re-validate that you have chosen the correct objects to compare.
-You can also specify which changes to process: creates, drops, alters. By default all change types are enabled.
+You can also specify the types of changes to be processed: creates, drops or alters. By default all types of changes are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
 
-Also you can exclude the specific compared types of objects. For example, if you do not want to see in the final result comparison of sequences, views, external keys etc.
+Also you can exclude the specific compared types of objects.  
+For example, you can do this if you do not want to see the sequences, views or external keys in the final comparison result.
 
 ![](images/ug/tools/schema_compare_settings_types.png)
 
@@ -30,7 +31,7 @@ Also you can exclude the specific compared types of objects. For example, if you
 
 Click on `Compare Schemas` to generate diff report.  
 
-By default DDL diff is generated. It contains series of create/alter/drop statements which will modify the schema on the right side and thus will make it identical to the schema on the left side.  
+By default DDL diff is generated. It contains a series of create, alter and/or drop statements which will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
 You can enable/disable particular changes in the tree on the left side of the diff page:
 
