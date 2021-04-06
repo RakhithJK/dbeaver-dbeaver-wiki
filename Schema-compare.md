@@ -1,6 +1,6 @@
 ## Schema compare/migration
 
-You can compare two schemas/databases structure and generate report as:
+You can compare two schema/database structures and generate a report as:
 - DDL script (series of create/alter/drop statements)
 - Diff diagram (sort of ER diagram)
 - Liquibase change log
@@ -17,7 +17,7 @@ You can compare two schemas/databases structure and generate report as:
 
 ### Compare settings
 
-Re-validate that you chosen right objects to compare.
+Re-validate that you have chosen the correct objects to compare.
 You can also specify which changes to process: creates, drops, alters. By default all change types are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
@@ -30,9 +30,9 @@ Also you can exclude the specific compared types of objects. For example, if you
 
 Click on `Compare Schemas` to generate diff report.  
 
-By default DDL diff is generated. It contains series of create/alter/drop statements which will modify schema on the right side and thus will make it identical to the schema on the left side.  
+By default DDL diff is generated. It contains series of create/alter/drop statements which will modify the schema on the right side and thus will make it identical to the schema on the left side.  
 
-You can enable/disable particular changes in the tree on the left side of diff page:
+You can enable/disable particular changes in the tree on the left side of the diff page:
 
 ![](images/ug/tools/schema_compare_result_ddl.png)
 
