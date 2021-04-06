@@ -6,7 +6,7 @@ Alternatively, you can click the **Search** button on the main menu and then cli
 
 ![](images/ug/DB-Metadata-Search-window.png)
  
-Now you need to choose the database connection against which to run the search – expand the tree in the **Objects Source** field to the database connections level and click the required database connection.  
+Now you need to choose the database connection against which to run the search. You only need to select the database connection(s) in the **Objects Source** field.  
 In the **Object Types** field, you can select the database objects among which DBeaver will run the metadata search – select or clear the checkboxes.  
 You can specify if the metadata should start with, contain or be similar to the search combination (**Name match** field). You can also set the maximum number of results to display (**Max results** field) and apply **Case-sensitive** search.
 
