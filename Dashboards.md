@@ -1,10 +1,10 @@
 **Dashboards** tool allows DBAs and programmers to quickly identify performance, disk space issues, number of connections and other important KPIs associated with a single database connection. To learn more about database connections, see [Database Connections](Database-Connections).
 
-By default, DBeaver is delivered with a number of predefined sets of dashboards for such data bases as PostgreSQL, MySQL, Oracle and Exasol. Custom dashboards are also supported. To learn more about custom dashboards, see Managing Dashboards section below.
+By default, DBeaver is delivered with a number of predefined sets of dashboards for such data bases as PostgreSQL, MySQL, Oracle and Exasol. Custom dashboards are also supported. To learn more about custom dashboards, see the Managing Dashboards section below.
 
 # Managing Dashboards Panel
 
-Dashboards panel is a collection of real-time dashboards, that is dashboards that are continuously updated. 
+Dashboards panel is a collection of real-time dashboards, which are dashboards that are updated continuously. 
 Dashboards displayed on the dashboards panel are actually a combination of continiously run SQL SELECT queries and charts continiously built on the data fetched.
 
 ## Opening Dashboard Panel
