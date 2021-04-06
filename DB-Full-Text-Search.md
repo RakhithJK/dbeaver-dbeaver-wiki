@@ -9,9 +9,9 @@ Alternatively, you can click the **Search** button on the main menu and then cli
 Now you need to choose the database connection or database objects against which to run the search – expand the tree in the **Databases** field to the database connections level or further down and select the checkboxes next to the required connections or database objects.  
 NOTE: The **Search** button is enabled only when you select the right level of checkboxes – database connections or lower nodes.
 
-You can apply case-sensitive search, fast search and search in numbers and LOBs.
+You can apply a case-sensitive search, fast search and search in numbers and LOBs.
 
-After you click **Search**, the results open in a [Search](Search) view:
+After you click **Search**, the results will open in [Search](Search) view:
 
 ![](images/ug/Search-results-view.png)
 
