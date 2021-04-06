@@ -1,6 +1,6 @@
 ## Schema compare/migration
 
-You can compare two schema/database structures and generate a report as:
+You can compare two schema/database structures and generate a report in the following formats:
 - DDL script (series of create/alter/drop statements)
 - Diff diagram (sort of ER diagram)
 - Liquibase change log
