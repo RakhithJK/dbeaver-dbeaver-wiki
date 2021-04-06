@@ -19,10 +19,10 @@ The following controls are available in the dashboards panel toolbar:
 
 Icon|Name|Description
 ----|-----|-----
-![](images/ug/dashboards/Dashboard_Settings_icon.png)|**Settings**|Allows managing dashboards' configuration.
-![](images/ug/dashboards/Dashboard_Add_icon.png)|**Add dashboard**| Allows to add dashboards to the dashboard panel.
-![](images/ug/dashboards/Dashboard_Remove_icon.png)|**Remove dashboard**| Allows to remove dashboards from the dashboard panel.
-![](images/ug/dashboards/Dashboard_Reset_icon.png)|**Reset dashboards**| Allows to restart dashboard calculation.
+![](images/ug/dashboards/Dashboard_Settings_icon.png)|**Settings**| Opens dashboard's configuration.
+![](images/ug/dashboards/Dashboard_Add_icon.png)|**Add dashboard**| Adds dashboard to the dashboard panel.
+![](images/ug/dashboards/Dashboard_Remove_icon.png)|**Remove dashboard**| Removes dashboard from the dashboard panel.
+![](images/ug/dashboards/Dashboard_Reset_icon.png)|**Reset dashboards**| Restarts dashboard's calculation.
 
 ## Adding Dashboards 
 
