@@ -30,7 +30,7 @@ To build a SELECT query you need to select columns in the tables you added. To s
 
 ## Adjusting Query Settings
 
-**Visual Query Builder** also allows setting the query conditions and adjusting the representation of query results by means of **Query Settings Editor**.
+**Visual Query Builder** also allows you to set the query conditions and adjust the representation of query results by means of **Query Settings Editor**.
 
 To open **Query Settings Editor** use **Visual builder query settings** button ![](images/visual_query_builder/query_builder_settings_icon.png) in the vertical tool bar on the left.
 
