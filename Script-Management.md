@@ -12,7 +12,7 @@ You can also click **SQL Editor -> Export SQL script** on the main menu:
 
 ![](images/ug/Save-script-to-file.png)
 
-Unsaved data are highlighted in color on the left side of the editor, in addition to having an asterisk in the name of the script.
+Unsaved data is highlighted in color on the left side of the editor, in addition to having an asterisk in the name of the script.
 
 ![](images/ug/Script-changes.png)
 
@@ -34,5 +34,5 @@ Then enter the new name in the Rename SQL script dialog box and click **OK**:
 If you want to revert all changes made to the current SQL script and return it to its initial state (reload from disk), right-click anywhere in the script panel and click **File -> Revert** on the context menu. 
 
 ## SQL Console
-In some cases you might want to execute a query and do not save it in a script. For example when you read table data using "Read data in SQL console" or open procedure/function source from DDL editor.
+In some cases you might want to execute a query and not save it in a script. For example, when you read table data using "Read data in SQL console" or open procedure/function source from DDL editor.
 SQL console does not have an associated .sql file. Its contents will be lost when you close it.
