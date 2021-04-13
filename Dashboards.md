@@ -1,4 +1,4 @@
-**Dashboards** tool allows DBAs and programmers to quickly identify performance, disk space issues, number of connections and other important KPIs associated with a single database connection. To learn more about database connections, see [Database Connections](Database-Connections).
+**Dashboards** tool allows DBAs and programmers to quickly identify performance, disk space issues, the number of connections and other important KPIs associated with a single database connection. To learn more about database connections, see [Database Connections](Database-Connections).
 
 By default, DBeaver is delivered with a number of predefined sets of dashboards for such data bases as PostgreSQL, MySQL, Oracle and Exasol. Custom dashboards are also supported. To learn more about custom dashboards, see the Managing Dashboards section below.
 
@@ -9,13 +9,13 @@ Dashboards displayed on the dashboards panel are actually a combination of conti
 
 ## Opening Dashboard Panel
 
-To open dashboards panel press the **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) on the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](Database-Connections).
+To open the dashboards panel press the **Open Dashboard** button ![](images/ug/dashboards/Open_Dashboard_icon.png) on the main toolbar. The default configuration of the dashboards panel for the current database connection will appear. To learn more about database connections, see [Database Connections](Database-Connections).
 
 You can also right-click a connection name in the **Database Navigator** editor and select the **Open Dashboard** menu option or use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> and the dashboards panel will be opened. 
 
 ![](images/ug/dashboards/Open_Dashboard_Menu_Option.png)
 
-The following controls are available in the dashboards panel toolbar:
+The following controls are available on the dashboards panel toolbar:
 
 Icon|Name|Description
 ----|-----|-----
@@ -26,7 +26,7 @@ Icon|Name|Description
 
 ## Adding Dashboards 
 
-To add a dashboard to the dashboards panel, press **Add dashboard** button ![](images/ug/dashboards/Dashboard_Add_icon.png) in the dashboards panel's toolbar, choose one of the dashboards from the list of available dashboards and press the **Add** button. 
+To add a dashboard to the dashboards panel, press **Add dashboard** button ![](images/ug/dashboards/Dashboard_Add_icon.png) on the dashboards panel's toolbar, choose one of the dashboards from the list of available dashboards and press the **Add** button. 
 
 ![](images/ug/dashboards/Adding_dashboard_By_Toolbar_Btn.png)
 
@@ -44,17 +44,17 @@ To remove a dashboard from the dashboards panel, click on the dashboard you want
 
 ## Resetting Dashboards
 
-If you want to restart dashboard's calculation you can reset it.
+If you want to restart the dashboard's calculation you can reset it.
 
-You can reset all the dashboards displayed in the dashboards panel by a single click on **Reset dashboards** ![](images/ug/dashboards/Dashboard_Reset_icon.png) button in the dashboard panel's toolbar.
+You can reset all the dashboards displayed on the dashboards panel by a single click on **Reset dashboards** ![](images/ug/dashboards/Dashboard_Reset_icon.png) button on the dashboard panel's toolbar.
 
-To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press **Reset dashboards** button in the dashboards panel's toolbar.
+To reset a particular dashboard right-click on it and select **Reset dashboards** menu option or left click a dashboard and press **Reset dashboards** button on the dashboards panel's toolbar.
 
 ![](images/ug/dashboards/context_menu_Reset.png)
 
 ## Changing Dashboard Representation
 
-To adjust dashboard representation settings right click on a dashboard and select the **Settings** menu option, then, in the opened dialog change the parameters you want. 
+To adjust dashboard representation settings, right click on a dashboard and select the **Settings** menu option, then, in the opened dialog change the parameters you want. 
 
 ![](images/ug/dashboards/RepresentationSettings_DialogBox.png)
 
@@ -96,7 +96,7 @@ Parameter|Description
 **Update period(ms)**|Defines how often the dashboard's rendering should be updated.
 **Maximum items**| Defines the maximum number of items to be fetched for the dashboard.
 
-**Note:** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use as them templates to create new dashboards with any query and other settings. To learn about creating new dashboards, see the Managing Dashboards section. 
+**Note:** Predefined dashboards are read-only and cannot be re-configured, but you can copy them and use them templates to create new dashboards with any query and other settings. To learn about creating new dashboards, see the Managing Dashboards section. 
 
 ## Setting Connection Prefereces
 
@@ -168,7 +168,7 @@ You can create a new custom dashboard either from scratch or from any existing d
 
 ![](images/ug/dashboards/New_dashboard_from_scratch.png)
 
-### To create a dashboard from template:
+### To create a dashboard from a template:
 
 1. Press the **Settings** button ![](images/ug/dashboards/Dashboard_Settings_icon.png) on the dashboards panel toolbar.
 2. In the opened dialog box click the **Manage...** button.
