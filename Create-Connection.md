@@ -30,7 +30,7 @@ If you prefer the classic list view of the available drivers, use the **Classic*
 
 ![](images/ug/Wizard-select-connection-view.png) 
 
-You can choose Simple mode on this step. Simple mode gives simplified access to the database. Basically with the ability to view data only in schemas and tables.
+You can choose the Simple mode on this step. Simple mode gives simplified access to the database, which is basically with the ability to view data only in schemas and tables.
 
 ![](images/ug/Simple-mode-connection-view.png) 
 
