@@ -2,7 +2,7 @@ ER diagrams appear on the rightmost tab of the [Database Object Editor](Database
 
 ![](images/ug/ER-Diagrams-Editor.png)
 
-Entity Relation Diagrams (ERD) are graphic presentations of database entities and the relations between them. DBeaver allows the viewing diagrams of existing tables and whole database schemas, see [Database Structure Diagrams](Database-Structure-Diagrams). DB also allows the creation of custom diagrams, see
+Entity Relation Diagrams (ERD) are graphic presentations of database entities and the relations between them. DBeaver allows you to view the diagrams of existing tables and whole database schemas, see [Database Structure Diagrams](Database-Structure-Diagrams). DB also allows the creation of custom diagrams, see
 [Custom Diagrams](Custom-Diagrams).  
 By default DBeaver uses [IDEF1X](https://en.wikipedia.org/wiki/IDEF1X) notation.
 
@@ -40,12 +40,12 @@ You can adjust the view of any diagram in the following ways:
   - **Show Nullability**
   - **Show Comments**
   - **Show Fully qualified names**
-* Change the color of entities/notes: Right-click the header of the entity or comment and then click **Set color** on the context menu. Then you can select the color and click **OK**. 
+* Change the color of the entities/notes: Right-click the header of the entity or comment and then click **Set color** on the context menu. Then you can select the color and click **OK**. 
 * For elements located in front of/behind others, bring an element to the front or send it to the back: Right-click the element and then click **Bring to front** / **Send to back** on the context menu.
 * Zoom the diagram in/out: Click the **Zoom In**/**Zoom Out** buttons or choose the scaling value in the dropdown list in the toolbar: ![](images/ug/ERD-zoom.png)
 
 ## Refresh
-To see changes made to the database schema by other users, you might need to refresh the diagram: click **Refresh Diagram** (![](images/ug/Refresh-projects-icon.png)) in the toolbar.
+To see changes made by others to the database schema, you might need to refresh the diagram: click **Refresh Diagram** (![](images/ug/Refresh-projects-icon.png)) in the toolbar.
 
 ## Notes
 You can create notes only in [Custom Diagrams](Custom-Diagrams). To create a note, click the **Show Palette** button (![](images/ug/Show-pallette-icon.png)) in the upper-left corner of the diagram tab. Then, in the Palette panel, click **Note** and click anywhere in the diagram tab. Now you can double-click the **Note** box to enter the note text:
