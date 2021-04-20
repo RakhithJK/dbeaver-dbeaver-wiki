@@ -1,4 +1,4 @@
-Transaction Log shows all transactions (queries of ‘transaction’ type such as INSERT/DELETE/UPDATE and others) made during the current DBeaver session. To open the Transaction Log, click the **Transaction log** button (![](images/ug/Transaction-log-button.png)) in the toolbar or the statistics field to the left of it.
+The Transaction Log shows all transactions (queries of ‘transaction’ type such as INSERT/DELETE/UPDATE and others) made during the current DBeaver session. To open the Transaction Log, click the **Transaction log** button (![](images/ug/Transaction-log-button.png)) in the toolbar or the statistics field to the left of it.
 
 ![](images/ug/Transaction-Log.png)
 
