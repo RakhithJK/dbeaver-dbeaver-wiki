@@ -3,7 +3,7 @@ Connection types define how DBeaver behaves regarding:
 
   NOTE: You can override the default commit behavior during your work with connections by changing the commit mode, see [Auto and Manual Commit Modes](Auto-and-Manual-Commit-Modes).
 
-* SQL statements execution (with or without user confirmation). If set to require user confirmation for SQL execution, DBeaver shows a confirmation message every time you attempt to execute a ‘transaction’ type of query (INSERT/DELETE/UPDATE, etc.):
+* SQL statements execution (with or without user confirmation): If set to the required user confirmation for SQL execution, DBeaver shows a confirmation message every time you attempt to execute a ‘transaction’ type of query (INSERT/DELETE/UPDATE, etc.):
 
   ![](images/ug/Confirm-query-execution-dialog.png)
 
@@ -11,7 +11,7 @@ For your convenience, DBeaver supports color-coding of connection types so that 
 
 ![](images/ug/Colored_connections.png)
 
-To manage connection types for a database connection, in the Database Navigator or Projects view, click the connection to set focus to it and then press <kbd>F4</kbd> to open the connection properties window. Then, in the properties window, in the navigation pane on the left, click **General** to see the general settings. You can see **Connection Type** field among the settings:
+To manage connection types for a database connection, in the Database Navigator or Projects view, click the connection to set the focus on it and then press <kbd>F4</kbd> to open the connection properties window. Then, in the properties window, in the navigation pane on the left, click **General** to see the general settings. You can see **Connection Type** field among the settings:
 
 ![](images/ug/Connection-Properties-General.png)
 
