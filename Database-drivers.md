@@ -1,27 +1,27 @@
-You can use pre-configured database driver or create new driver.
+You can use a pre-configured database driver or create a new driver.
 
-DBeaver has a lot of pre-configured driver including SQL, NoSQL, key-value databases, graph databases, search engines, etc.
+DBeaver has a lot of pre-configured drivers including SQL, NoSQL, key-value databases, graph databases, search engines, etc.
 But sometimes you need to connect to a database which was not configured in DBeaver yet.
 
-All you need is JDBC driver of your database. The rest is easy.
+All you need is a JDBC driver of your database. The rest is easy.
 
 ### Obtaining JDBC driver
 
-JDBC driver is a program (in Java) which can connect and operate with some local or remote database server. It usually provides all needed functionality to cover 100% of database functionality. Usually, JDBC driver are provided by database vendors to let customers ability to work with their databases.
+JDBC driver is a program (in Java) which can connect and operate with some local or remote database server. It usually provides all needed functionality to cover 100% of database functionality. The JDBC driver is usually provided by database vendors to allow customers to work with their databases.
 
-JDBC driver consists of one or multiple `jar` files. Jar file is a library which contains program code and some other files.
-You need to download driver's jar files before adding them in DBeaver. Sometimes jar files are included in database server distribution - in that case you need to refer your database documentation or ask your DBA.
+The JDBC driver consists of one or multiple `jar` files. The Jar file is a library which contains program code and some other files.
+You need to download the driver's jar files before adding them to DBeaver. Sometimes the jar files are included in the database server distribution - in that case you need to refer to your database documentation or ask your DBA.
 
 ### Adding driver configuration in DBeaver
 
 ##### Open driver manager dialog
 
-You can open driver manager from main menu:  
+You can open the driver manager from the main menu:  
 ![](images/ug/drivers/database-menu.png)  
 or from Database Navigator drop-down menu.  
 ![](images/ug/drivers/driver-manager.png)
 
-##### Add new driver
+##### Add a new driver
 
 Just click the button New and create a new driver.
 On the driver edit dialog you need to enter all required information:
@@ -34,22 +34,22 @@ On the driver edit dialog you need to enter all required information:
 Parameter|Description
 ----|-----
 Driver Name|Name of your driver. It can be any name you like
-Driver Type|Driver provider. In 99% cases you will need Generic driver (JDBC provider)
-Class Name|JDBC driver class name. You can get it from the documentation or find it in jar files (see "Find Class" button description)
-URL Template|Template of driver URL. You can leave it empty. But in this case you will be ready to set JDBC URL for each your connection. It is better to define a valid template, this will greatly simplify connections creation. See "URL Templates" for the detailed description
-Default Port|Default database port. You can get it from documentation or leave it empty
-Embedded|Enable it for server-less databases. This flag affects a few config options related to network/connections management
-No Authentication|This means that driver doesn't require authentication (no user/password fields will be shown)
+Driver Type|Driver provider. In 99% cases you will need a generic driver (JDBC provider)
+Class Name|JDBC driver class name. You can get it from the documentation or find it in the jar files (see "Find Class" button description)
+URL Template|Template of driver URL. You can leave it empty. But in this case you will be ready to set JDBC URL for each your connection. It is better to define a valid template, which will greatly simplify the connections creation. See "URL Templates" for a detailed description
+Default Port|Default database port. You can get it from the documentation or leave it empty
+Embedded|Enable it for server-less databases. This flag affects a few config options related to the network/connections management
+No Authentication|This means that driver does not require authentication (no user/password fields will be shown)
 Category|Driver category, deprecated
 ID|Driver unique ID, ignore it
-Description|Driver description, it is shown on some dialogs/wizards as a hint
+Description|Driver description, it is shown in some dialogs/wizards as a hint
 
 ##### Libraries
 
-This is the list of jar files, binary libraries (dll or so) and any other files required by driver. In most cases you need only jar files.  
-Click "Add File" to add single jar file, "Add Folder" to add folder with Java classes/resources and "Add Artifact" to add Maven artifact (see below).  
+This is the list of jar files, binary libraries (dll or so) and any other files required by the driver. In most cases you only need the jar files.  
+Click "Add File" to add a single jar file, "Add Folder" to add to the folder with Java classes/resources and "Add Artifact" to add the Maven artifact (see below).  
 
-After you add jar files you will be able to find all JDBC driver classes which present in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them then you need to refer to the driver's documentation.
+After you add the jar files you will be able to find all JDBC driver classes which present in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
 
 ##### Maven artifacts
 
