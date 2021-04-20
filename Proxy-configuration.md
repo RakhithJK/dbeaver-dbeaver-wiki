@@ -29,7 +29,7 @@ Go to Preferences->General->Network Connections:
 ![](images/ug/network/global-proxy.png)
 
 Switch to Manual or Native proxy (native proxy settings will use an active web browser proxy configuration).  
-Note: in order to activate/update license DBeaver needs to access the website `dbeaver.com` only. You may ask your network administrator to add `dbeaver.com` to the white list.  
+Note: in order to activate/update a license DBeaver only needs to access the website `dbeaver.com`. You may ask your network administrator to add `dbeaver.com` to the white list.  
 
 ## How to configure a proxy for external databases access
 
