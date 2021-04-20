@@ -7,7 +7,7 @@ Connection types define how DBeaver behaves regarding:
 
   ![](images/ug/Confirm-query-execution-dialog.png)
 
-For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. Colored are database connections that use a certain connection type in the [Database Navigator](Database-Navigator) and [Projects](Projects) views as well as editors related to these connections:
+For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. The screenshot below visualizes how the color coordinated database connections are used in [Database Navigator](Database-Navigator) and [Projects](Projects) views as well as editors related to these connections:
 
 ![](images/ug/Colored_connections.png)
 
