@@ -5,7 +5,8 @@ Go to Preferences->User Interface:
 
 ![](images/ug/UI-Language-Preferences.png)
 
-Select language in the drop-down list ant click "Apply and Close" button 
+Select language in the drop-down list ant click "Apply and Close" button.  
+If DBeaver is installed in a read-only directory then automatic language change is not possible. In this case try to edit configuration file (see below).
 
 ### Changing interface language in configuration file
 
