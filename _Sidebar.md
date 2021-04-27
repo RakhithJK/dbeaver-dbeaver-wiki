@@ -104,6 +104,7 @@
 - [[Informix]]
 
 #### Customizing DBeaver
+- [[Changing interface language|UI-Language]]
 - [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
