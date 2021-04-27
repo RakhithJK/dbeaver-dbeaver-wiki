@@ -1,13 +1,22 @@
 
-### Changing interface language
+### Changing interface language in Preferences
 
-You can change language of user interface in DBeaver:
-- Preferences->Database->Language
-- In dbeaver.ini before the line `-vmargs` add the following lines
+Go to Preferences->User Interface:
+
+![](images/ug/UI-Language-Preferences.png)
+
+Select language in the drop-down list ant click "Apply and Close" button 
+
+### Changing interface language in configuration file
+
+Locate `dbeaver.ini` file, it is the same directory where DBeaver is installed.
+
+Open `dbeaver.ini` in a text editor and add the following lines before the line `-vmargs` 
 ```
 -nl
 XX
 ```
+
 where XX is two-letter language code:
 
 Language | Code
