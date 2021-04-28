@@ -111,7 +111,23 @@ Draw your attention that if you use `dbeaver` executable (by any reason)
 you will need to add command line parameter `-nosplash` to avoid splash screen appearance.
 
 ## Troubleshooting
+### Windows scheduler overview
+There are two implementations of Windows scheduler present:
+1. CLI-based (**Legacy**): uses `schtasks.exe` to communicate with the scheduler; sensitive to locale-dependent data, such as unicode names, date-time format.
+2. COM-based (**New**): uses COM API to communicate with the scheduler; more flexible and provides more features than CLI version.
+   
+COM-based implementation is used by default starting from the 21.1 version of DBeaver EE.
+
+### Windows Task Scheduler: COM exception
+#### Non-legacy scheduler only
+If you encounter an error on Windows which contains following text: `com.sun.jna.platform.win32.COM.COMException`,
+
+do the following:
+1. Open file `dbeaver.ini` in the directory with your DBeaver installation
+1. Place the line `-Ddbeaver.scheduler.windows.legacy=true` below the `-vmargs` line. 
+
 ### Windows Task Scheduler: incorrect date format
+#### Legacy scheduler only
 If you encounter an error on Windows which looks like this: 
 `ERROR: Invalid Start Date (Date should be in %some_format% format).`,
 
