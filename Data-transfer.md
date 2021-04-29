@@ -10,15 +10,15 @@ We will describe most typically used cases.
 2. Choose export format. DBeaver supports many different output formats including CSV, HTML, XLSX, etc:
 ![](images/dt/dt-export-format.png)
 
-3. Set data extraction options (how the data will be read from the tables). This may affect the extraction performance.
+3. Set data extraction options (how the data will be read from the tables). This may affect the extraction's performance.
 And set export format option. They are specific to the data format you chose on step 2:
 ![](images/dt/dt-options-extract.png)
 
 6. Set options for output files or clipboard. 
-Note: Timestamp pattern is used here for target file name pattern:
+Note: Timestamp pattern is used here to target the file name pattern:
 ![](images/dt/dt-options-output.png)
 
-7. Review what and to what format you will export. You can also save all your settings as a task in this step or change the task variables:
+7. Review what you want to format and into which format you will export it. You can also save all your settings as a task in this step or change the task variables:
 ![](images/dt/dt-export-final.png)
 
 8. Press finish. See extraction progress. You can keep working with your database during the export process as the extraction will be performed in the background.
@@ -45,7 +45,7 @@ You can skip columns (the value will be set to NULL in the target table column).
 You can set constant values for the table column if there is no source column for it in the CSV.
 ![](images/dt/dt-import-mappings.png)
 
-5. Set options for loading data in the database. These options may affect performance:
+5. Set options for loading data in the database. These options may affect the loading's performance:
 ![](images/dt/dt-options-load.png)
 
 About the replacing method option, you can [read here](Data-Import-and-Replace).
