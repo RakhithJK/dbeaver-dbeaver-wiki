@@ -1,28 +1,28 @@
 You can perform data export/import or migration for database table(s).
-We'll describe most typical use cases.
+We will describe most typically used cases.
 
 ## Exporting table data to CSV format
 
-1. Select a table(s) you want to export. In the context menu choose "Export Data".  
-(Note: you also can export data from custom SQL queries results. For that in results context menu choose "Export results").
+1. Select a table or tables you want to export. In the context menu choose "Export Data".  
+(Note: you can also export data from custom SQL queries results. To do that, choose "Export results" in the results context menu).
 ![](images/dt/dt-export_menu.png)
 
-2. Choose export format. DBeaver support many different output formats including CSV, HTML, XLSX, etc:
+2. Choose export format. DBeaver supports many different output formats including CSV, HTML, XLSX, etc:
 ![](images/dt/dt-export-format.png)
 
-3. Set data extraction options (how data will be read from tables). This may affect extraction performance.
+3. Set data extraction options (how the data will be read from the tables). This may affect the extraction performance.
 And set export format option. They are specific to the data format you chose on step 2:
 ![](images/dt/dt-options-extract.png)
 
 6. Set options for output files or clipboard. 
-Note: Timestamp pattern here is used for target file name pattern:
+Note: Timestamp pattern is used here for target file name pattern:
 ![](images/dt/dt-options-output.png)
 
-7. Review what and to what format you will export. You can also save all your settings as a task in this step or change task variables:
+7. Review what and to what format you will export. You can also save all your settings as a task in this step or change the task variables:
 ![](images/dt/dt-export-final.png)
 
-8. Press finish. See extraction progress. Actual data extraction will be performed in background, you can keep working with your database during export process.
-Note: avoid changing data in tables you selected for export while export is running.
+8. Press finish. See extraction progress. You can keep working with your database during the export process as the extraction will be performed in the background.
+Note: avoid changing data in tables you have selected to be exported while the exporting is in progress.
 In the end you will see status message:
 ![](images/dt/dt_message-success.png)
 
@@ -36,26 +36,26 @@ You can import data from CSV file(s) directly into your database table(s).
 
 ![](images/dt/dt-import-format.png)
 
-3. Select input CSV file for each table you want to import and you can change Importer settings (format specific) on this step: 
+3. Select input CSV file for each table you want to import and you can change the Importer settings (format specific) at this step: 
 ![](images/dt/dt-import-files.png)
 
 4. Set CSV-to-table mappings. 
-You need to set some column in CSV file for each database table column.
-You can skip some column at all (in target table column value will be set to NULL).
-You can set some constant value for table column if there is no source column for it in CSV.
+You need to set a column in the CSV file for each database table column.
+You can skip columns (the value will be set to NULL in the target table column).
+You can set constant values for the table column if there is no source column for it in the CSV.
 ![](images/dt/dt-import-mappings.png)
 
-5. Set options for loading data in database. These options may affect performance:
+5. Set options for loading data in the database. These options may affect performance:
 ![](images/dt/dt-options-load.png)
 
-About replace method option you can [read here](Data-Import-and-Replace).
+About the replacing method option, you can [read here](Data-Import-and-Replace).
 
-6. Review what file(s) and to what table(s) you will import. You can also save all your settings as a task in this step:
+6. Review which file(s) and to which table(s) you will import. You can also save all your settings as a task in this step:
 ![](images/dt/dt-import-final.png)
 
-7. Press finish. See extraction progress. Actual data loading will be performed in background, you can keep working with your database during export process.
-Note: avoid changing data in tables you selected for import while import is running.
-In the end you will see status message:
+7. Press finish. See extraction progress. You can keep working with your database during the export process as the data loading will be performed in the background.
+Note: avoid changing data in tables you have selected to be imported while the import is in progress.
+In the end you will see the status message:
 ![](images/dt/dt_message-success_import.png)
 
 Related topic: [Migrating table(s) data to another database table(s)](Data-migration)
