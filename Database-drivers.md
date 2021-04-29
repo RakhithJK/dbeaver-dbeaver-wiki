@@ -49,15 +49,15 @@ Description|Driver description, it is shown in some dialogs/wizards as a hint
 This is the list of jar files, binary libraries (dll or so) and any other files required by the driver. In most cases you only need the jar files.  
 Click "Add File" to add a single jar file, "Add Folder" to add to the folder with Java classes/resources and "Add Artifact" to add the Maven artifact (see below).  
 
-After you add the jar files you will be able to find all JDBC driver classes which present in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
+After you add the jar files you will be able to find all JDBC driver classes which are present in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
 
 ##### Maven artifacts
 
-DBeaver can download driver jars directly from Maven repository (it is a global public repository of Java libraries, usually open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change driver version in runtime without any driver properties reconfiguration.
+DBeaver can download driver jars directly from the Maven repository (it is a global public repository of Java libraries, usually an open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change the driver version in runtime without any driver properties reconfiguration.
 
 ### Saving driver, adding connection
 
-After you finished configuring your driver just press Ok button.  
+After you have finished configuring your driver, just press the Ok button.  
 Now you can [[create connection]].
 
 If you need to change some driver properties later you can access them directly from connection properties dialog:
@@ -68,7 +68,7 @@ If you need to change some driver properties later you can access them directly 
 
 JDBC drivers use URLs to identify remote servers - strings similar to classic web URLs.
 Usually, URL has form `jdbc:vendor:host:port/database`, for example `jdbc:postgresql:localhost:5432/postgres'.
-It is not very convenient to edit such long and unobvious string.
+It is not very convenient to edit such a long and an unobvious string.
 DBeaver can construct this URL from connection parameters (like host, port, etc).
 
 For example above the URL template is: jdbc:postgresql://{host}:{port}/{database}  
@@ -87,8 +87,8 @@ Parameter|Description
 
 ### Advanced settings
 
-For most driver you don't need to change any advanced properties.
-But in some cases you can use this as a driver tuning, e.g. for better performance or for structure fixing.
+For most drivers you do not need to change any advanced properties.
+But in some cases you can use this as driver tuning, e.g. for better performance or for structure fixing.
 
 ![](images/ug/drivers/driver-properties.png)
 
@@ -112,8 +112,8 @@ All Objects Pattern | SQL pattern for all metadata objects
 Omit catalog(s) | Do not read and use catalog (aka database) information
 Omit single catalog | Hide catalog (database) if there is only one catalog on server
 Omit schema(s) | Do not read and use schemas information
-Omit single schema | Hide schema if there is only one schema on server
-Use schema filters | Use JDBC schema filters when database doesn't support catalogs. Otherwise just read all database schemas and filter on client-side
+Omit single schema | Hide schema if there is only one schema on the server
+Use schema filters | Use JDBC schema filters when the database does not support catalogs. Otherwise just read all database schemas and filter on client-side
 Omit type cache | Do not use data types provided by driver
 Shutdown parameter | Database shutdown URL parameter
 Create database parameter | Database create URL parameter
@@ -135,7 +135,7 @@ Dual table name | Name of dummy 'DUAL' table which is used for expressions evalu
 Active object type | Type of selectable object (schema, catalog)
 Driver supports results scrolling | Driver supports resultset scrolling
 Quote reserved words | Quote columns/table names if they conflicts with reserved SQL keywords
-Escape LIKE masks in search queries | Use to access JDBC metadata API. Enabled by default but should be disabled for some (broken) driverss
+Escape LIKE masks in search queries | Use to access JDBC metadata API. Enabled by default but should be disabled for some (broken) drivers
 
 ###### DDL (DDL generation options)
 
@@ -156,6 +156,6 @@ Time format | Format pattern for time columns
 
 ### Summary
 
-If you have configured some driver, it works good and you think that it makes sense to have this driver configuration in standard DBeaver, please send your configuration to us. Just create a feature request issue on GitHub and copy/paste driver description to the ticket (in any suitable form).
+If you have configured some driver, it works well and you think that it makes sense to have this driver configuration in standard DBeaver, please send your configuration to us. Just create a feature request issue on GitHub and copy/paste driver description to the ticket (in any suitable form).
 
 Thank you :)
