@@ -49,7 +49,7 @@ Description|Driver description, it is shown in some dialogs/wizards as a hint
 This is the list of jar files, binary libraries (dll or so) and any other files required by the driver. In most cases you only need the jar files.  
 Click "Add File" to add a single jar file, "Add Folder" to add to the folder with Java classes/resources and "Add Artifact" to add the Maven artifact (see below).  
 
-After you add the jar files you will be able to find all JDBC driver classes which are present in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
+After you add the jar files you will be able to find all JDBC driver classes which are found in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
 
 ##### Maven artifacts
 
@@ -158,4 +158,4 @@ Time format | Format pattern for time columns
 
 If you have configured some driver, it works well and you think that it makes sense to have this driver configuration in standard DBeaver, please send your configuration to us. Just create a feature request issue on GitHub and copy/paste driver description to the ticket (in any suitable form).
 
-Thank you :)
+Thank you.
