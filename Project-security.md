@@ -6,7 +6,7 @@ DBeaver supports local storage for connection secure data. It includes:
 - Proxy user credentials
 
 By default, user names and passwords are stored in file `credentials-config.json`. 
-This file is encrypted using the AES key. However it is really secure as this key is not secure (can be found in DBeaver sources) and thus this file can be un-encrypted by 3rd party people using some 3rd party software.
+This file is encrypted using the AES key. However the key is insecure because it is found in the DB open-sources and thus this file can be un-encrypted by 3rd party people using some 3rd party software.
 
 In the DBeaver Enterprise, the security support is much safer because of its strong encryption.
 
