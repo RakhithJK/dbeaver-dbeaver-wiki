@@ -57,7 +57,7 @@ To edit a connection type:
 To delete a connection type:
 
 1. In the connection properties window (<kbd>F4</kbd> on a connection), on the **General** page, click **Edit** next to the **Connection type** field. The Properties for connection types window opens.
-2. In the Properties window, in the list of connection types, click the connection type to set focus to it and then click the delete button under the list: ![](images/ug/Delete-connection-type-button.png)
+2. In the Properties window, in the list of connection types, click the connection type to set the focus on it and then click the delete button under the list: ![](images/ug/Delete-connection-type-button.png)
 3. Click **Yes** in the confirmation dialog box to confirm the deletion. Otherwise, click **No**.
 4. Click **Apply** to apply the changes and keep the window open or click **Apply and Close** to apply the changes and close the window.
 
