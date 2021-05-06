@@ -1,12 +1,12 @@
 ## Localization (i18n + l10n)
 
-DBeaver uses standard properties-based i18n model.
+DBeaver uses a standard properties-based i18n model.
 All translatable resources reside in *.properties file. Each plugin (bundle) has its own set of resources.
-Almost all plugins have at least `bundles.properties` resource. Bigger plugins have additional resources in src folder.
-See full list of property files below.
+Almost all plugins have at least a `bundles.properties` resource. Bigger plugins have additional resources in the src folder.
+See the full list of property files below.
 
-bundle.properties contains original string in English language.
-All translated resources are placed in bundle_XX.properties files where XX is two-letter language code.
+bundle.properties contains an original string in the English language.
+All translated resources are placed in bundle_XX.properties files where XX is a two-letter language code.
 
 ### Environment setup
 - Clone DBeaver repository
@@ -33,13 +33,13 @@ All translated resources are placed in bundle_XX.properties files where XX is tw
 ### Push your changes
 
 - Open GitHub Desktop 
-- At the top select Current branch and press New Branch button
+- At the top, select Current branch and press the New Branch button
 - Create a new branch with a name related to l10n
 - Commit to the new branch
 - Publish brunch/push (right button at the top)
 - Fetch origin (right button at the top)
 - In the main menu select Branch -> Create Pull Request
-- On the opened GitHub page add some meaningful text for your pull request name and press Create pull request button
+- On the opened GitHub page add some meaningful text for your pull request name and press the Create pull request button
 - Return to GitHub Desktop and switch to devel branch
 
 or 
