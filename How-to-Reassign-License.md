@@ -1,4 +1,4 @@
-After purchase a bunch of DBeaver EE licenses you have to assign each license to an end user.
+After purchasing a bunch of DBeaver EE licenses, you have to assign each license to an end user.
 
 If an employee subsequently is leaving the company or the team that is using DBeaver, the license admin may need to reassign the license to another employee.
 
@@ -10,13 +10,13 @@ Secondly, you should open the **Licenses tab**, where you can find all your lice
 
 ![](images/license/tab-licenses.png)
 
-You select which license you need to reassign and press the **VIEW** button near its license ID. You can see the License details where you can find your license status, type, maintenance period, end support date.
+Select which license you need to reassign and press the **VIEW** button near its license ID. You can see the License details where you can find your license status, type, maintenance period, and end support date.
 
 ![](images/license/view-lic.png)
 
-Also, there is the license end user field that contains license end user's details. To reassign the license, you need to press the **CHANGE END USER** button near this field.
+Also, there is the license end user field that contains the license end user's details. To reassign the license, you need to press the **CHANGE END USER** button near this field.
 
-A pop-up opens, and you can enter new license end user data: email, first and last name, company. After filling the form, you need to press the **SAVE** button and the license owner will be changed. The license key that contains  license end user’s name and company name will be changed too.
+A pop-up opens, and you can enter the new license end user's data: email; first and last name; and company. After filling in the form, you need to press the **SAVE** button and the license owner will be changed. The license key that contains the license end user’s name and company name will be changed too.
 
 ![](images/license/change-form.png)
 
@@ -24,4 +24,4 @@ The license will remain in your personal account. The end user's email will be i
 
 ![](images/license/tab-new.png)
 
-Also, new license end user will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). There will be no the CHANGE END USER button since only the license customer can assign a license to the end user. If new license end user hasn't been signed up on our website, the account will be created automatically. New user will receive a welcome email with a link to set up a password.
+Also, the new license end user will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). There will be no CHANGE END USER button since only the license customer can assign a license to the end user. If the new license end user has not been signed up on our website, the account will be created automatically. The new user will receive a welcome email with a link to set up a password.
