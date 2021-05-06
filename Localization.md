@@ -1,6 +1,6 @@
 ## Localization (i18n + l10n)
 
-DBeaver uses a standard properties-based i18n model.
+DBeaver uses the standard properties-based i18n model.
 All translatable resources reside in *.properties file. Each plugin (bundle) has its own set of resources.
 Almost all plugins have at least a `bundles.properties` resource. Bigger plugins have additional resources in the src folder.
 See the full list of property files below.
@@ -73,7 +73,7 @@ MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/
 
 ### Testing you changes
 
-Once you have changed resource you might want to test your changes.
+Once you have changed one of these resources you might want to test your changes.
 You can:
 
 - Run DBeaver directly from [Eclipse workspace](Develop-in-Eclipse)
