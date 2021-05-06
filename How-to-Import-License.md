@@ -11,9 +11,9 @@ To start using DBeaver EE you can
 * request an [Academic license](https://dbeaver.com/academic-license/) if you are a student or a teacher;
 * [buy](https://dbeaver.com/buy/) a Subscription license, Standard DBeaver EE license or DBeaver EE license extension.
 
-After purchasing the DBeaver EE license or getting the Trial/Academic license, you will receive a License Key by email. 
+After purchasing the DBeaver EE license or getting the Trial/Academic license, you will receive a License text by email. 
 It will also be available in your personal account on our [site](https://dbeaver.com/).
-The License Key is a unique identification number that contains License ID e. g. DB-821MPZFO-ZA8W, the start date and license owner’s name and company name. It is very important to import your License Key correctly.
+This License text will contain your License ID e. g. DB-821MPZFO-ZA8W, the start date and license owner’s name and company name. It is very important to import your License correctly.
 
 ### Import from email
 
