@@ -17,7 +17,7 @@ This License text will contain your License ID e. g. DB-821MPZFO-ZA8W, the start
 
 ### Import from email
 
-You can just copy-paste License Key to import the license into the License Manager. Please note that you need to copy-paste the full license text (not just license ID). The license text starts with “–” and ends with “==” characters.
+You can just copy-paste the License Key to import the license into the License Manager. Please note that you need to copy-paste the full license text (not just license ID). The license text starts with “–” and ends with “==” characters.
 
 ![](images/license/email.png)
 
@@ -95,7 +95,7 @@ You have successfully imported your license. Now you can close the License Manag
 
 ### Import of Subscription license
 
-Subscription license requires an internet access on the workstation for the first activation and each prolongation.
+Subscription license requires internet access on the workstation for the first activation and each prolongation.
 
 If you do not have an active internet connection or work behind a corporate firewall while importing the Subscription license, the following error can appear:
 
@@ -105,15 +105,15 @@ If you do not have an active internet connection or work behind a corporate fire
 
 *Check your internet connection and/or firewall settings and restart application.*
 
-In this case you need to check that DBeaver EE has an internet access or to configure firewall.
+In this case you need to check that DBeaver EE has internet access or you will need to configure your firewall.
 
 ### License extension
 
-Standard DBeaver EE license is a perpetual license with a limited period of support (1 year or 2 years). 
+The standard DBeaver EE license is a perpetual license with a limited period of support (1 year or 2 years). 
 
 After the end of the selected support period you can continue to use DBeaver Enterprise Edition without support and updates or buy a license extension or a new license.
 
-If you buy DBeaver EE license extension and Dbeaver has an internet access, the license in DBeaver EE will be updated automatically. Otherwise, you have to import the license key from the personal account once again.
+If you buy the DBeaver EE license extension and Dbeaver has internet access, the license in DBeaver EE will be updated automatically. Otherwise, you have to import the license key from your personal account once again.
 
 ### License Manager
 
@@ -125,9 +125,9 @@ License Manager provides you with the following information about your licenses:
 * License owner`s name and company name;
 * License owner`s email;
 * Start time is the date the license was received;
-* End time is the date of license expiration (standard perpetual licenses don`t have it)
+* End time is the date the license expires (standard perpetual licenses do not have this)
 * Number of users: single user or multiuser for group licenses;
-* Support period is a period while you have access to the internal support system on the site and a possibility to download new product versions;
+* Support period is the period you have access to the internal support system on the site and the possibility to download new product versions;
 * State: valid or expired.
 
 ![](images/license/lm-imported.png)
