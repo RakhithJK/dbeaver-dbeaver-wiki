@@ -6,7 +6,7 @@ Example:
 ```xml
 <library type="jar" path="absolute-jar-folder-path\driver-jar.jar" custom="true"/>
 ```
-Also in drivers.xml you can use following variables to specify relative paths:
+Also in drivers.xml you can use the following variables to specify relative paths:
 
 Variable | Meaning 
 -----------|-------------
@@ -45,12 +45,12 @@ Full drivers.xml example:
 ### Provide predefined drivers configuration
 
 In some cases you may need to provide drivers configuration or driver jar files for a number of DBeaver installations automatically.  
-This can be done by adding special parameter in the `dbeaver.ini` file:
+This can be done by adding a special parameter in the `dbeaver.ini` file:
 `-Ddbeaver.drivers.configuration-file=c:\some-path\dbeaver-drivers-config.xml`
 
 This file has the same structure as `drivers.xml` file (see above) and it will be loaded _before_ `drivers.xml`.  
 
-You can specify partial driver configuration. For example if you need to configure only jar path then it may look like this:
+You can specify partial driver configuration. For example if you need to configure only the jar path then it may look like this:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <drivers>
