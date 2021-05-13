@@ -25,7 +25,7 @@ You can also specify the types of changes to be processed: creates, drops or alt
 For comparison, table containers should be used. 
 Schemes - if the database supports the schemas. 
 Databases if the database supports catalogs and does not support the schemes. 
-Or datasourses, if there is no support schemas, nor catalog support.
+Or datasourses, if there is no support schemas, nor catalog support (example is below in "Compare schemaless bases").
 
 ![](images/ug/tools/schema_compare_container_error.png)
 
