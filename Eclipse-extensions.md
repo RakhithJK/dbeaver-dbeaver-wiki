@@ -1,14 +1,14 @@
 You can install a lot of optional extensions (plugins) in DBeaver.
 Most of extensions can be found on [Eclipse Marketplace](https://marketplace.eclipse.org/) website.
 
-### DBeaver-specific extensions
+## DBeaver-specific extensions
 - [Office formats support (XLSX)](https://marketplace.eclipse.org/content/dbeaver-office-integration)
 - [Vector graphics support (SVG)](https://marketplace.eclipse.org/content/dbeaver-svg-support)
 - [SSHJ and advanced cryptography](https://marketplace.eclipse.org/content/dbeaver-sshj-support)
 - [Git support](https://marketplace.eclipse.org/content/dbeaver-git-support) - Git version control integration
 - [SQL debugger](https://marketplace.eclipse.org/content/dbeaver-sql-debugger)
 
-# Popular extensions for Eclipse and DBeaver
+## Popular 3rd party extensions for Eclipse and DBeaver
 
 - [Darkest Dark theme](https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle) - the best Dark theme for DBeaver
 - [Eclipse Color Theme](https://marketplace.eclipse.org/content/eclipse-color-theme) - use it if you don't like Darkest Dark theme by some reason
