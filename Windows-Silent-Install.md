@@ -1,6 +1,6 @@
-It is possible to install DBeaver in silent mode using Windows Installer command line parameters.  
+It is possible to install DBeaver in silent mode using the Windows Installer command line parameters.  
 This might be very useful for mass install automation (SSCM and other similar systems).  
-Installer was improved in DBeaver 5.3.3, special thanks to [https://github.com/Drizin/NsisMultiUser](https://github.com/Drizin/NsisMultiUser) team.  
+Installer was improved in DBeaver 5.3.3, special thanks to the [https://github.com/Drizin/NsisMultiUser](https://github.com/Drizin/NsisMultiUser) team.  
 
 ### Parameters 
 
@@ -25,7 +25,7 @@ Code|Meaning
 2 | (un)installation aborted by script
 666660 | invalid command-line parameters
 666661 | elevation is not allowed by defines
-666662 | uninstaller detected there's no installed version
+666662 | uninstaller detected there is no installed version
 666663 | executing uninstaller from the installer failed
 666666 | cannot start elevated instance
 other | Windows error code when trying to start elevated instance"
