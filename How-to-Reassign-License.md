@@ -24,4 +24,4 @@ The license will remain in your personal account. The end user's email will be i
 
 ![](images/license/tab-new.png)
 
-Also, the new license end user will be able to find the license in the personal account and to [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). There will be no CHANGE END USER button since only the license customer can assign a license to the end user. If the new license end user has not been signed up on our website, the account will be created automatically. The new user will receive a welcome email with a link to set up a password.
+Also, the new license end user will be able to find the license in the personal account and [import it](https://dbeaver.com/docs/wiki/How-to-Import-License/). There will be no CHANGE END USER button because it is only the license customer who can assign a license to the end user. If the new license end user has not been signed up on our website, the account will be created automatically. The new user will receive a welcome email with a link to set up a password.
