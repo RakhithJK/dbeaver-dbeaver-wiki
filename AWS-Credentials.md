@@ -13,6 +13,7 @@ When you use default credentials type then AWS will try to determine credentials
 1. The shared credentials and config files
 1. Amazon ECS container credentials
 1. Amazon EC2 instance profile credentials
+1. Amazon SSO credentials
 
 Essentially using default credentials it is the simplest way to integrate with various SSO providers and web identity providers as they usually provide credentials thru config files.
 
@@ -28,3 +29,9 @@ Official AWS instructions: [Managing access keys for IAM users](https://docs.aws
 
 Similar to default credentials but you also can choose what credentials profile you want to use.  
 Official AWS instruction on [crednetials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html)
+
+### [Single Sign On](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
+
+DBeaver uses AWS CLI tools in order to initiate SSO login.
+
+
