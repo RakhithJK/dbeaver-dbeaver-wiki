@@ -83,6 +83,7 @@
 - [[Cloud Explorer]] <img src="images/ee.png" vspace="0" border="0" height="18"/>
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
+  - [[AWS SSO]]
 
 #### Enterprise Databases support <img src="images/ee.png" vspace="0" border="0" height="18"/>
 - [[MongoDB]]
