@@ -6,10 +6,10 @@ You don't need to specify any user credentials explicitly in DBeaver connections
 ## AWS CLI
 
 You need to install AWS CLI (Command Line Interface) utilities to enable SSO authorization.  
-[AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+[AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+
+## AWS SSO configuration
 
 ## Connection configuration
 
 
-
-## AWS SSO configuration
