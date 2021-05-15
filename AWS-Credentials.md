@@ -30,8 +30,8 @@ Official AWS instructions: [Managing access keys for IAM users](https://docs.aws
 Similar to default credentials but you also can choose what credentials profile you want to use.  
 Official AWS instruction on [crednetials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html)
 
-### [Single Sign On](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
+### [[Single Sign On|AWS-SSO]]
 
-DBeaver uses AWS CLI tools in order to initiate SSO login.
-
-
+If your AWS account has configured SSO portal then you can use web-based SSO authorization.
+SSO support can be enabled for Default and Profile-based AWS authoriation types.  
+You need to turn on "Enable SSO" option.  
