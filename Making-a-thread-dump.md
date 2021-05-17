@@ -9,7 +9,7 @@ jstack $(ps aux | grep -m1 dbeaver | awk '{print $2}') > thread-dump.txt
 Just open task manager (CTRL+Escape), find DBeaver in the process list and copy the process ID value. On Windows 8+ you need to switch to "Details" tab.
 Run
 ```
-jstack <PID> > thead-dump.txt
+jstack <PID> > thread-dump.txt
 ```
 in the Command Prompt.
 
