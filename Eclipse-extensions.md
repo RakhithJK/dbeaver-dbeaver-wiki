@@ -1,5 +1,5 @@
 You can install a lot of optional extensions (plugins) in DBeaver.
-Most of extensions can be found on [Eclipse Marketplace](https://marketplace.eclipse.org/) website.
+Most of the extensions can be found on the [Eclipse Marketplace](https://marketplace.eclipse.org/) website.
 
 ## DBeaver-specific extensions
 - [Office formats support (XLSX)](https://marketplace.eclipse.org/content/dbeaver-office-integration)
@@ -11,27 +11,27 @@ Most of extensions can be found on [Eclipse Marketplace](https://marketplace.ecl
 ## Popular 3rd party extensions for Eclipse and DBeaver
 
 - [Darkest Dark theme](https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle) - the best Dark theme for DBeaver
-- [Eclipse Color Theme](https://marketplace.eclipse.org/content/eclipse-color-theme) - use it if you don't like Darkest Dark theme by some reason
+- [Eclipse Color Theme](https://marketplace.eclipse.org/content/eclipse-color-theme) - if for some reason you do not like the Darkest theme, you can use this one
 - [Subversion support](https://marketplace.eclipse.org/content/subclipse) - Subversion integration
-- [Embedded Shell](https://marketplace.eclipse.org/content/easyshell) - Allows to run shell commands directly from DBeaver
+- [Embedded Shell](https://marketplace.eclipse.org/content/easyshell) - Allows you to run shell commands directly from DBeaver
 - [Editor vertical indents](https://marketplace.eclipse.org/content/indent-guide) - Adds vertical indents to all text editors
 
 
 # Install Process
 
-In DBeaver EE you can use drag-n-drop from Marketplace web site (see button `Install`) into DBeaver main window. This will launch Marketplace installation wizard automatically.
-In DBeaver Community or other DBeaver-based products which do not include marketplace clients you can use following instructions:
+In DBeaver EE you can use drag-n-drop from the Marketplace web site (see button `Install`) in the DBeaver main window. This will launch the Marketplace installation wizard automatically.
+In the DBeaver Community or other DBeaver-based products which do not include marketplace clients, you can use the following instructions:
 
 ## Extension installation in CE version:
 
 1. Copy URL of extension update site:
 ![](images/marketplace/copy-p2-url.png)
-1. In DBeaver main menu open `Help -> Install New Software`
+1. In the DBeaver main menu open `Help -> Install New Software`
 1. Paste update site URL into `Work with` field and press <kbd>Enter</kbd>
 1. Check items you wish to install (in most cases just all items)
 ![](images/marketplace/install-new-software.png)
-1. Click Next. You may need to accept extension license before installation
+1. Click Next. You may need to accept the extension license before installing
 ![](images/marketplace/accept-license.png)
-1. Some extensions may contain unsigned bundles. Install such extensions only if you really trust author.
+1. Some extensions may contain unsigned bundles. Only install such extensions if you really trust the author.
 ![](images/marketplace/unisgned-bundles.png)
-1. Click Next->Finish. Installation will take some time. Restart DBeaver.
+1. Click Next->Finish. The installation will take some time. Restart DBeaver.
