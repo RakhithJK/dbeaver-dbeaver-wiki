@@ -17,7 +17,7 @@ DBeaver keeps information about project connections in the `dbeaver-data-sources
 DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver-data-sources*.xml` pattern will be loaded on startup. So you can create a file, for example, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
 
 ### Importing connections from CSV/XML
-You can import connection from the CSV or XML files.
+You can import a connection from CSV or XML files.
 
 The CSV file must have a header row (first line of file) with column names (see list of supported columns below).
 The XML file should contain a top-level element and a set of nested elements. The connections config must be specified in the attributes of the nested elements. Attribute names are the same as the CSV column names.
@@ -32,8 +32,8 @@ The XML file should contain a top-level element and a set of nested elements. Th
 |database|Database/schema name|
 |user|User name|
 |password|User password|
-You can specify just the URL or set host/port/etc setting.  
-User name/password are options.
+You can specify just the URL or the host/port/etc setting.  
+User name/password are optional.
 
 #### Sample CSV
 ```
