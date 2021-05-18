@@ -1,7 +1,7 @@
 <a href="https://dbeaver.com">DBeaver Enterprise Edition</a> (EE) is a commercial version of DBeaver CE.
-EE version includes all features of CE version plus:
+The EE version includes all features of the CE version plus:
 
-- All popular JDBC drivers are included in EE distribution so you won't need to download/configure them separately.
+- All popular JDBC drivers are included in the EE distribution so you will not need to download/configure them separately.
 - Support of NoSQL databases:
   - Apache Cassandra
   - MongoDB
