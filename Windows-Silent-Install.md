@@ -14,7 +14,7 @@ Parameter|Description
 /currentuser | (un)install for current user only, case-insensitive
 /uninstall | (installer only) run uninstaller, requires /allusers or /currentuser, case-insensitive
 
-In order to install with /allusers parameter current user must have administrator permissions.
+In order to install with the `/allusers` parameter the current user must have the administrator's permissions.
 
 ### Installer return codes (decimal):
 
