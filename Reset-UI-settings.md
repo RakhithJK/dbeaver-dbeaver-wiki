@@ -1,5 +1,5 @@
 After multiple version and /or upgrades/incorrect shutdowns, DBeaver UI may become corrupted.
-You could experience glitches such as extra toolbar elements, menu items might go missing, keyboard shortcuts and localisation strings could be broken, etc. 
+You could experience glitches such as extra toolbar elements might appear, menu items might go missing, keyboard shortcuts and localization strings could be broken, etc. 
 
 To reset DBeaver UI just delete the file `workbench.xmi` in DBeaver workspace/.metadata.
 By default workbench.xmi file locations is:
