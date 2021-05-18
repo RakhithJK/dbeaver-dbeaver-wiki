@@ -13,7 +13,7 @@ There are several ways to automate the license management process. It makes sens
 
 #### Put the license file to the predefined locations
 
-On start DBeaver will look for license file in the following locations: 
+While DBeaver is starting up, it will look for a license file in the following locations: 
 
 - Windows
     - `%HOMEPATH%\.dbeaver-ee-license.dat`
