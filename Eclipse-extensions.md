@@ -11,7 +11,7 @@ Most of the extensions can be found on the [Eclipse Marketplace](https://marketp
 ## Popular 3rd party extensions for Eclipse and DBeaver
 
 - [Darkest Dark theme](https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle) - the best Dark theme for DBeaver
-- [Eclipse Color Theme](https://marketplace.eclipse.org/content/eclipse-color-theme) - if for some reason you do not like the Darkest theme, you can use this one
+- [Eclipse Color Theme](https://marketplace.eclipse.org/content/eclipse-color-theme) - if for some reason you do not like the Darkest Dark theme, you can use this one
 - [Subversion support](https://marketplace.eclipse.org/content/subclipse) - Subversion integration
 - [Embedded Shell](https://marketplace.eclipse.org/content/easyshell) - Allows you to run shell commands directly from DBeaver
 - [Editor vertical indents](https://marketplace.eclipse.org/content/indent-guide) - Adds vertical indents to all text editors
