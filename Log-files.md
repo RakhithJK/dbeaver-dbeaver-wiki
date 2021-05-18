@@ -1,6 +1,6 @@
 ### Error Log view
 
-There is an Error Log view (main menu Window->Show View->Error Log) which contains all errors which occurred during the DBeaver runtime.  
+There is an Error Log view (main menu Window->Show View->Error Log) which contains all errors which occur during the DBeaver runtime.  
 You can double click on warning/error in the log viewer and see the error stacktrace. Please attach it to the bug report.  
 Also, you can open the full log (all error messages) if you need:  
 
@@ -26,8 +26,8 @@ Two typical places to find emergency logs:
 - `<install-path>/configuration`
 - `${HOME}/.eclipse/org.jkiss.dbeaver.product_<dbeaver-version>`
 
-If you are reporting some error, please attach the faulty part of the log, not the complete file.  
-Logs are very useful, big number of errors cannot be reproduced/fixed without full error stacktrace.
+If you are reporting an error, please attach the applicable part of the log - not the complete file.  
+Logs are very useful. Many errors cannot be reproduced and fixed without a full error stacktrace (all the details).
 
 ### Java fatal logs
 
