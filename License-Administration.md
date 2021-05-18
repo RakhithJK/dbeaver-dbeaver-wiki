@@ -2,7 +2,7 @@
 
 ### Manual license import
 
-DBeaver EE asks the user to import the license file if the file cannot be found in the local license storage.
+DBeaver EE asks the user to import the license file if the file cannot be found locally.
 For individual users this is the most simple and convenient way to import the product license.
 
 ![](images/license-not-found.png)
