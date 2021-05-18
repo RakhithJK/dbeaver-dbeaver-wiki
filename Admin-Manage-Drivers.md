@@ -44,7 +44,7 @@ Full drivers.xml example:
 
 ### Provide predefined drivers configuration
 
-In some cases you may need to provide drivers configuration or driver jar files for a number of DBeaver installations automatically.  
+In some cases you may need to provide a driver's configuration or driver `jar` files for a number of DBeaver installations automatically.  
 This can be done by adding a special parameter in the `dbeaver.ini` file:
 `-Ddbeaver.drivers.configuration-file=c:\some-path\dbeaver-drivers-config.xml`
 
