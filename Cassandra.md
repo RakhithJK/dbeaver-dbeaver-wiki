@@ -25,7 +25,7 @@ You should note that Cassandra has a very advanced (comparing to relational data
 ### Executing CQL
 
 CQL [[Cassandra Query Language|http://cassandra.apache.org/doc/4.0/cql/]] is a very simple SQL language dialect.  
-It supports simple SELECT queries, DDL statements (like CREATE TABLE) and some other.
+It supports simple SELECT queries, DDL statements (like CREATE TABLE) and some other query types.
 
 You can use the standard DBeaver SQL editor to execute CQL queries.
 DBeaver supports Cassandra query execution, results scrolling, data export/import, mock data generation and other features.
