@@ -64,7 +64,7 @@ SELECT queries support `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN` and `HAVING` clau
 Nested JSON fields can be divided by dot.
 If your field contains any special characters (e.g. spaces, dashes, etc.), you must enclose it with double quotes. For example:
 ```sql
-SELECT title FROM movies WHERE info.'imdb-details'.rating > 6
+SELECT title FROM movies WHERE info."imdb-details".rating > 6
 ```
 
 #### Working with dates
