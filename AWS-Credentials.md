@@ -5,7 +5,7 @@ AWS IAM has endless ways to authorize and authenticate users. DBeaver supports a
 
 ### Default credentials
 
-When you use default credentials type then AWS will try to determine credentials by using the standard credential providers chain:
+When you use Default Credentials, AWS will then try to determine credentials by using the standard credential providers chain:
 
 1. Java system properties
 1. Environment variables
@@ -28,7 +28,7 @@ Official AWS instructions: [Managing access keys for IAM users](https://docs.aws
 ### AWS Profiles
 
 Similar to default credentials but you can also choose which credentials profile you want to use.  
-Official AWS instruction on [crednetials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html)
+The official AWS instructions can be found at [crednetials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html).
 
 ### [[Single Sign On|AWS-SSO]]
 
