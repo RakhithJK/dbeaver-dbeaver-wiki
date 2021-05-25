@@ -17,7 +17,7 @@ There is also no need to configure SSH or SSL - DBeaver uses default AWS setting
 
 You can browse, view, edit and filter Cassandra tables the same way as with regular (relational) tables.
 However, being a distributed key-value database, Keyspaces does not support any kind of referential integrity. There are no foreign keys, references, etc.  
-Note that Cassandra has a very advanced (comparing to relational databases) data type system. Each column may be a collection, map or set of values (with a very big number of values). In some cases this makes browsing data in the "Grid" mode inconvenient.
+You should note that Cassandra has a very advanced (comparing to relational databases) data type system. Each column may be a collection, map, or set of values (with a very big number of values). In some cases this makes browsing data in the "Grid" mode inconvenient.
 
 ![](images/database/cassandra/cassandra-schema.png)
 ![](images/database/cassandra/cassandra-data-grid.png)
@@ -32,5 +32,5 @@ DBeaver supports Cassandra query execution, results scrolling, data export/impor
 
 ### ERD
 
-Physical ERD (Entity Relation Diagram) does not make much sense for Keyspaces as there are not any foreign keys.
+Physical ERD (Entity Relation Diagram) does not make much sense for Keyspaces as there are no foreign keys.
 However, you can make you own [custom ERD](Custom-Diagrams) and connect Keyspaces tables with each other using logical associations.
