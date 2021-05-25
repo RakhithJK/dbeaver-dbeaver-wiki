@@ -16,6 +16,6 @@ In DBeaver you can use the SSH tab on the connection settings page. Just enter p
 DBeaver processes DocDB SQL queries exactly like in [[MongoDB]]. It supports SELECT, UPDATE, INSERT and DELETE queries.  
 SELECT queries support WHERE, ORDER BY, GROUP BY and HAVING clauses.
 
-DocumentDB restricts `eval` function so all JavaScript queries will be parsed on the client's side and then evaluated at a DocDB cluster one by one.
+DocumentDB restricts the `eval` function so all JavaScript queries will be parsed on the client's side and then evaluated at a DocDB cluster one by one.
 Most JS functions work exactly like in Mongo Shell.
 
