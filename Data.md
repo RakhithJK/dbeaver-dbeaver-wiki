@@ -1,4 +1,4 @@
-The Data tab of the Database Object Editor is a data editor that appears only for tables and views. The Data editor allows filtering and editing the data of a table or view.
+The Data tab of the Database Object Editor is a data editor that appears only for tables and views. The Data editor allows the filtering and editing of data of a table or view.
 
 The central part of the Data tab is a data table. Besides the data table, the editor contains two toolbars and a filter field:
 
@@ -8,9 +8,9 @@ In the data area, every column header contains three elements each having its ow
 
 <img src="https://www.dropbox.com/s/qvuhu74r1g3j4s0/Column%20in%20Data%20editor.png?raw=1"/>
 
-* Simply clicking the column name or column icon highlights the whole column.
-* You can click the column icon and then drag and drop the column to a different position in the table.
-* You can click the column name and then drag the cursor right or left to highlight multiple columns. 
+* Clicking the column name or column icon highlights the whole column
+* You can click the column icon and then drag and drop the column to a different position in the table
+* You can click the column name and then drag the cursor right or left to highlight multiple columns 
 * Clicking the ordering icon allows ordering the data in the column in ascending or descending order
 
 # Managing Data Table Appearance
