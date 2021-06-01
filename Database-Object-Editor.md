@@ -1,4 +1,4 @@
-The Database object, or metadata, editor is available for multiple database objects such as tables, views and schemas. To open the metadata editor for an object, in the [Database Navigator](Database-Navigator) or in the [Projects](Projects) view:
+The Database object, or metadata editor is available for multiple database objects such as tables, views and schemas. To open the metadata editor for an object, in the [Database Navigator](Database-Navigator) or in the [Projects](Projects) view:
 * Double-click the database object
 * Click the database object and press <kbd>Enter</kbd> or <kbd>F4</kbd>
 
@@ -11,7 +11,7 @@ The tabs have the following common parts:
 
 ![](images/ug/Metadata-editor.png)
 
-The object`s path shows the chain of all its parent entities. The entities are clickable: clicking an entity in the path, depending on its nature, either shows its children or opens an editor or a settings window.
+The object's path shows the chain of all its parent entities. The entities are clickable: clicking an entity in the path, depending on its nature, either shows its children or opens an editor or a settings window.
 
 The toolbar contains different tools on each of the three tabs.
 
