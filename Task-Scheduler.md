@@ -1,8 +1,8 @@
-**Note: This functionality is available only in [Enterprise Edition](Enterprise-Edition).**
+**Note: This functionality is available only in the [Enterprise Edition](Enterprise-Edition).**
 
 DBeaver can schedule task execution for regular executions.
 DBeaver supports `Windows Task Scheduler` on Windows and `cron` on macOS and GNU/Linux.
-On top of that as well, you can configure schedulers manually
+In addition, you can manually configure schedulers
 [using command line](#running-tasks-from-the-command-line-any-os).
 
 ## Scheduling tasks from the Tasks view
@@ -22,19 +22,19 @@ recurrence period, and start time there:
 ![](images/ug/tools/task-schedule-settings.png)
 ![](images/ug/tools/task-schedule-settings-monthly.png)
 
-To schedule the task, click on the Schedule button. If everything is configured correctly
+To schedule the task, click on the Schedule button. If everything is configured correctly,
 you will see the confirmation dialog:
 
 ![](images/ug/tools/task-schedule-success.png)
 
-If anything goes wrong you will see an error message dialog.
+If anything goes wrong, you will see an error message dialog.
 Error details can be viewed in the [Error Log](Log-files) view.
 
-You can change scheduler settings at any moment by choosing Edit scheduled task command
+You can change the scheduler settings at any moment by choosing Edit scheduled task command
 from the context menu. You can also cancel the schedule by clicking on Remove schedule.
 
 ### macOS or GNU/Linux
-The first thing you need to open the tasks view. There are three ways to do that:
+You first need to open the tasks view. There are three ways to do that:
 
 1. Database -> Tasks -> Database Tasks  
    ![](images/ug/tools/task-schedule-macos-tasks_view-1.png)
@@ -45,41 +45,40 @@ The first thing you need to open the tasks view. There are three ways to do that
 1. Click on 'Show View (Database Tasks)' icon  
    ![](images/ug/tools/task-schedule-macos-tasks_view-3.png)
 
-Select a task that you want to schedule in the tasks view. To open the scheduler dialog, either:
+Select a task you want to schedule in the tasks view. To open the scheduler dialog, either:
 
-1. Open context menu with right-click -> Scheduler -> Schedule task  
+1. Open the context menu with right-click -> Scheduler -> Schedule task  
    ![](images/ug/tools/task-schedule-macos-open_dialog-1.png)
 
-1. or click on 'Schedule task' icon  
+1. or click on the 'Schedule task' icon  
    ![](images/ug/tools/task-schedule-macos-open_dialog-2.png)
 
-The scheduler dialog will be opened. It has a lot of similarities with the corresponding dialog on Windows, but
-unfortunately, there are a bit fewer settings on macOS and GNU/Linux due to the limitations of `cron`.
-For instance, when configuring an hourly task, you can only choose the minute at which the task executes.
+The scheduler dialog will be opened. It has a lot of similarities with the corresponding dialog in Windows, but
+unfortunately, there are a fewer settings on macOS and GNU/Linux due to the limitations of `cron`.
+For instance, when configuring an hourly task, you can only choose the minute at which the task is to be executed.
 In the example below, the task executes at 1:42 PM, 2:42 PM, 3:42 PM, and so on:
 
 ![](images/ug/tools/task-schedule-macos-minutely_task.png)
 
-There is also no start date option, and, in case of minutely tasks, no start time either. The scheduler will execute the task at the specified recurrence, but there are no guarantees about when execution starts.
-It's also worth pointing out that even though you can specify seconds in the start time selector,
-they will be ignored. Most cron implementations do not support this type of granularity,
-and we are trying to be compliant with as many cron implementations as possible.
+There is also no start date option, and, in case of minutely tasks, no start time either. The scheduler will execute the task at the specified time, but there are no guarantees about when the execution will start.
+It is also worth pointing out that even though you can specify the seconds in the start time selector,
+they will be ignored. Even though we try to be compliant with as many cron implementations as possible, most cron implementations do not support this type of granularity.
 
-On macOS 10.15 or newer, when scheduling a task for the first time you will be prompted with
+On macOS 10.15 or newer versions, when scheduling a task for the first time you will be prompted with
 something like this:
 
 ![](images/ug/tools/task-schedule-macos-permissions.png)
 
-Click 'Yes' to proceed. The reason for that prompt is that `cron` settings (crontabs) are considered
-to be system settings by macOS, and DBeaver won't be able to change them without permission.
+Click 'Yes' to proceed. The reason for that prompt is that the `cron` settings (crontabs) are considered
+to be system settings by macOS, and DBeaver will not be able to change them without permission.
 
 After that, if everything is configured correctly you will see the confirmation message.
-Just like on Windows, you can change scheduler settings at any moment by choosing
-'Edit scheduled task' command from the context menu, or cancel schedule by clicking on 'Remove schedule'.
+Just like in Windows, you can change the scheduler settings at any moment by choosing the
+'Edit scheduled task' command from the context menu, or cancel the schedule by clicking on 'Remove schedule'.
 
 ## See schedule details
 ### Windows
-You can see and change scheduled task details in the Windows Task Scheduler.
+You can see and change the scheduled task details in the Windows Task Scheduler.
 Click on the Open scheduler settings command in the task view context menu:
 
 ![](images/ug/tools/task-schedule-windows-task-manager.png)
@@ -102,13 +101,13 @@ DBeaver keeps the task run logs in the [workspace](Workspace-Location) directory
 subfolder .metadata/task-stats.
 
 ## Running tasks from the command line (any OS)
-The task scheduler uses the DBeaver [command line](Command-Line) interface to perform task execution.
-Command line parameter `-runTask TASK_ID` launches saved task execution (immediately).
-TASK_ID has form `@projectName:taskName`.
+The task scheduler uses the DBeaver [command line](Command-Line) interface to perform task executions.
+Command line parameter `-runTask TASK_ID` launches saved task executions (immediately).
+TASK_ID has the form `@projectName:taskName`.
 You can omit the project name part if you have only one project in your workspace.
-On Windows, you can use `dbeaver-cli` executable to run tasks.
-Draw your attention that if you use `dbeaver` executable (by any reason)
-you will need to add command line parameter `-nosplash` to avoid splash screen appearance.
+In Windows, you can use `dbeaver-cli` executable to run tasks.
+Please note that if you use `dbeaver` executable (for any reason),
+you will need to add the command line parameter `-nosplash` to avoid a splash screen appearance.
 
 ## Troubleshooting
 ### Windows scheduler overview
@@ -120,30 +119,30 @@ COM-based implementation is used by default starting from the 21.1 version of DB
 
 ### Windows Task Scheduler: COM exception
 #### Non-legacy scheduler only
-If you encounter an error on Windows which contains following text: `com.sun.jna.platform.win32.COM.COMException`,
+If you encounter an error in Windows which contains the following text: `com.sun.jna.platform.win32.COM.COMException`,
 
 do the following:
-1. Open file `dbeaver.ini` in the directory with your DBeaver installation
+1. Open the file `dbeaver.ini` in the directory with your DBeaver installation
 1. Place the line `-Ddbeaver.scheduler.windows.legacy=true` below the `-vmargs` line. 
 
 ### Windows Task Scheduler: incorrect date format
 #### Legacy scheduler only
-If you encounter an error on Windows which looks like this: 
+If you encounter an error in Windows which looks like this: 
 `ERROR: Invalid Start Date (Date should be in %some_format% format).`,
 
 do the following:
 
-1. Open file `dbeaver.ini` in the directory with your DBeaver installation
+1. Open the file `dbeaver.ini` in the directory with your DBeaver installation
 1. Place the line `-Ddbeaver.scheduler.windows.dateFormat=%some_format%` (where %some_format% is a format from the error message) below the `-vmargs` line.
 
 This flag is available starting from the 7.3.4 EA version of DBeaverEnterprise and might be removed in the future.
 
 ### macOS 10.15+: Unable to read or write to crontab
 
-When scheduling tasks on macOS 10.15 or newer, the OS will prompt you to elevate DBeaver's permissions to administer your computer.
-If you don't grant these permissions, DBeaver fails to schedule your tasks with an error `Unable to read or write to crontab`.
-To bypass this, simply restart DBeaver and try to schedule the task again, and you will be prompted to elevate the permissions again.
-If you never prompted to do that in the first place, you can grant `Full disk access` permissions in macOS settings. Here is how to do that:
+When scheduling tasks on macOS 10.15 or newer versions, the OS will prompt you to elevate DBeaver's permissions to administer your computer.
+If you do not grant these permissions, DBeaver will fail to schedule your tasks with an error `Unable to read or write to crontab`.
+To bypass this, simply restart DBeaver and try to schedule the task again. You will be prompted to elevate the permissions again.
+If you were never prompted to do that in the first place, you can grant `Full disk access` permissions in the macOS settings. Here is how to do that:
 
 1. Open `System Preferences`.
 1. Click on `Security & Privacy`.
