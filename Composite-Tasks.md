@@ -1,4 +1,4 @@
-**Note: This functionality is available only in [[Enterprise Edition]].**
+**Note: This functionality is available only in the [[Enterprise Edition]].**
 
 As the name suggests, the _composite task_ is a type of task that consists of other tasks. 
 Just like the other type of tasks, the composite tasks can be scheduled via [[Task Scheduler]].
@@ -6,7 +6,7 @@ Let's take a look at what they can offer.
 
 ### Creating a _composite task_
 
-The first thing we need to open _Create a task_ dialog. You can do it in multiple ways:
+The first thing we need to open is the _Create a task_ dialog. You can do it in multiple ways:
 
 - From the context menu in the database navigator -> Tools -> Create new task... -> Composite task
 
@@ -26,7 +26,7 @@ When creating a composite task, you need to specify which tasks the composite ta
 
 This can be done:
 
-1. By adding an existed task. To do that, click the button with plus sign
+1. By adding an existing task. To do that, click the button with the plus sign
 
 2. By creating a new task and adding it simultaneously. To do that, click the button 
    below the aforementioned button with the plus sign
