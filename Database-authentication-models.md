@@ -1,12 +1,12 @@
 DBeaver supports many different authentication models for different databases.
-Default auth model is `native` - it need user name and password which are used to authenticate at the remote database server.
+The default authentification model is `native` - it needs a user name and password which are used to authenticate at the remote database server.
 
-Some database drivers support other database-specific authentication.
+Some database drivers support other database-specific authentications.
 
 ### PgPass
 
 PostgreSQL specific model. Uses local file PGPASS to obtain user name and/or password.  
-It doesn't have any additional parameters.
+It does not have any additional parameters.
 
 Parameter | Description
 ---|---
