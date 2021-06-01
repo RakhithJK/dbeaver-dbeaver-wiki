@@ -1,7 +1,7 @@
 The installation process depends on the distribution type and your Operational System.
 
 ### Windows / MacOS Installer
-The installer distribution is the recommended way to install DBeaver on Windows and MacOS X. It contains all required dependencies. In addition, the installer automatically upgrades DBeaver to the new version if a previous version has already been installed.
+The installer distribution is the recommended way to install DBeaver in Windows and MacOS X. It contains all required dependencies. In addition, the installer automatically upgrades DBeaver to the new version if a previous version has already been installed.
 To install DBeaver, run the installer executable and follow the instructions on its screens.
 
 NOTE:
@@ -34,6 +34,6 @@ To install DBeaver using RPM package:
 NOTE: To upgrade DBeaver to the next version, use `sudo rpm -Uvh dbeaver-<version>.rpm` parameter.
 
 ## Automatic updates
-_This feature is available only on Windows and macOS._
+_This feature is available only in Windows and macOS._
 
-DBeaver automatically checks for new versions from time to time. If check is not disabled and new version is available, it will prompt you to decide whether you want to stay or upgrade. If the second option is chosen, the installer will be downloaded and launched upon completion. Note that DBeaver itself will be gracefully closed to avoid data loss.
+From time to time, DBeaver automatically checks for new versions. If the check is not disabled and a new version is available, it will prompt you to decide whether you want to stay or upgrade. If the second option is chosen, the installer will be downloaded and launched upon completion. Note that DBeaver itself will be gracefully closed to avoid data loss.
