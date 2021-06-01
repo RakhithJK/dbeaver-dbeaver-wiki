@@ -2,19 +2,19 @@ This guide describes how to manage/secure the DBeaver database connections.
 It is designed for System administrators. Regular users should check [this](Connect-to-database) guide.
 
 ### Provide predefined connections
-DBeaver keeps connections information in the project folder. By default, all projects reside in [workspace](Workspace-Location).  
+DBeaver keeps connections information in the project folder. By default, all projects reside in the [workspace](Workspace-Location).  
 The default project folder is [workspace](Workspace-Location)\workspace6\General.  
 
 #### DBeaver 6.1.3+
 DBeaver keeps information about project connections in the `.dbeaver/data-sources.json`. file.  
 All secured information (user name, password, secret keys, etc) is stored in the encrypted file, `.dbeaver/credentials-config.json`.  
 
-DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver/data-sources*.json` pattern will be loaded on startup. So you can create a file, for example, `.dbeaver/data-sources-2.json` in the project folder and DBeaver will see it.
+DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver/data-sources*.json` pattern will be loaded on the startup. So you can create a file, for example, `.dbeaver/data-sources-2.json` in the project folder and DBeaver will see it.
 
 #### DBeaver < 6.1.3
 DBeaver keeps information about project connections in the `dbeaver-data-sources.xml`. file.  
 
-DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver-data-sources*.xml` pattern will be loaded on startup. So you can create a file, for example, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
+DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver-data-sources*.xml` pattern will be loaded on the startup. So you can create a file, for example, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
 
 ### Importing connections from CSV/XML
 You can import a connection from CSV or XML files.
@@ -32,7 +32,7 @@ The XML file should contain a top-level element and a set of nested elements. Th
 |database|Database/schema name|
 |user|User name|
 |password|User password|
-You can specify just the URL or the host/port/etc setting.  
+You can only specify the URL or the host/port/etc setting.  
 User name/password are optional.
 
 #### Sample CSV
