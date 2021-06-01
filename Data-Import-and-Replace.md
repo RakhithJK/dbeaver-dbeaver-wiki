@@ -11,11 +11,11 @@ The options available depend on the target database you are importing to.
   
 ![](images/dt/dt-all-replace-methodslist.png)
 
-The database can only support the replace method or only the ignore method. In this case, the list of methods will consist of only one item except `<None`>. If the base does not support replacement methods or we have not added an implementation yet, then the combo with the list will be disabled.
+The database can only support the replace method or the ignore method. In this case, the list of methods will consist of only one item except `<None`>. If the base does not support the replacement methods, or if we have not added an implementation yet, then the combo with the list will be disabled.
 
-Further you will find a list of databases supporting these methods and examples of syntax.
+Further, you will find a list of databases supporting these methods and examples of syntax.
 
-Let's take a look at an example of how this works. We use a simple small slightly modified Sakila (MySQL) table - sakila.language  
+Let's take a look at an example of how this works. We use a small, simple, slightly-modified Sakila (MySQL) table - sakila.language  
 
 ```sql 
 CREATE TABLE language_insert (
@@ -33,9 +33,9 @@ INSERT INTO sakila.language_insert (language_id,name,last_update) VALUES
 (3,'Japanese','2006-02-15 05:02:19.0'); 
 ```
 
-If we try to execute this request twice, then the second time we get the following error: SQL Error [1062] [23000]: Duplicate entry '1' for key 'language_insert.PRIMARY' (This message may look different in other databases).
+If we try to execute this request twice, we will get the following error: SQL Error [1062] [23000]: Duplicate entry '1' for key 'language_insert.PRIMARY' (This message may look different in other databases).
 
-Let's take a new .csv file with the following content and try to use replace methods
+Let's take a new .csv file with the following content and try to use the replace methods.
 
 ```sql
 "language_id","name","last_update"
