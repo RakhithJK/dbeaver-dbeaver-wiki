@@ -1,4 +1,4 @@
-Besides base [Eclipse](https://www.eclipse.org/) platform DBeaver uses following components:
+Besides the base [Eclipse](https://www.eclipse.org/) platform DBeaver uses the following components:
 
 - [JSch](http://www.jcraft.com/jsch/) – Java Secure Channel library (SSH tunnels support)
 - [JEXL](http://commons.apache.org/proper/commons-jexl/) – expression language libraries
