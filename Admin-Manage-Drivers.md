@@ -1,6 +1,6 @@
 ### Configure drivers with pre-installed jars
 
-You can customize drivers configuration in [workspace](Workspace-Location)/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml file.
+You can customize drivers configuration in the [workspace](Workspace-Location)/.metadata/.plugins/org.jkiss.dbeaver.core/drivers.xml file.
 If you have some pre-installed jar files you can reference them in drivers.xml. 
 Example:
 ```xml
