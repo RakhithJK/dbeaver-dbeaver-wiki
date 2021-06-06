@@ -3,11 +3,11 @@ DBeaver provides:
 * [Database full-text search](DB-Full-Text-Search)
 * [Database metadata search](DB-Metadata-Search)
 
-To use search, click the Search button in the main toolbar:
+To use search, click the Search button on the main toolbar:
 
 ![](images/ug/Search-menu.png)
 
-Please see dedicated articles for information about searching for different types. This article describes common features of the three search types.
+Please see the dedicated articles for information about searching for different types. This article describes common features of the three search types.
 
 ## Search View
 Search results for any of the search types appear in a separate Search view. The following image shows the Search view for the database full text search:
@@ -49,7 +49,7 @@ To remove one or more of the previous search queries:
 2. Click the query to remove or select several of them by clicking and simultaneously holding the <kbd>Ctrl</kbd> key.
 3. Click **Remove**.
 
-To clear the history by removing all previous queries, click the arrow next to the **Show Previous Searches** button in the toolbar and then click **Clear History** on the dropdown menu.
+To clear the history by removing all previous queries, click the arrow next to the **Show Previous Searches** button on the toolbar and then click **Clear History** on the dropdown menu.
 
 
 
