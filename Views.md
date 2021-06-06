@@ -11,7 +11,7 @@ Views provide their own toolbar and menu:
 
 ![](images/ug/DBnavigator-overview.png)
 
-To open the view menu, click the View Menu button in the upper-right corner of the view`s title bar, next to the Minimize button.
+To open the view menu, click the View Menu button in the upper-right corner of the view's title bar, next to the Minimize button.
 
 The toolbar contains buttons applicable to the objects displayed in the view. The set of enabled and disabled buttons depends on the object in focus.
 
