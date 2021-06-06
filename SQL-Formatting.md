@@ -24,7 +24,7 @@ or put the cursor at the end of the row you want to trim
 
 ![](images/ug/Format-Trim-Spaces-Cursor-On-End.png)
 
-This result you will get:
+You will get the following result:
 
 ![](images/ug/Format-Trim-Spaces-Result-One.png)
 
