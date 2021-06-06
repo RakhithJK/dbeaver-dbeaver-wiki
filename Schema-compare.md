@@ -8,9 +8,9 @@ You can compare two schema/database structures and generate a report in the foll
 
 ### Selecting objects to compare
 
-- Select two objects (schemas, databases or tables) you want to compare
-- Open context menu
-- Open sub-menu `Compare/Migrate`
+- Select the two objects (schemas, databases or tables) you want to compare
+- Open the context menu
+- Open the sub-menu `Compare/Migrate`
 - Click on `Compare/Migrate Schema` element
 
 ![](images/ug/tools/schema_compare_navigator.png)
@@ -18,14 +18,14 @@ You can compare two schema/database structures and generate a report in the foll
 ### Compare settings
 
 Re-validate that you have chosen the correct objects to compare.
-You can also specify the types of changes to be processed: creates, drops or alters. By default all types of changes are enabled.
+You can also specify the types of changes to be processed: creates, drops or alters. By default, all types of changes are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
 
-For comparison, table containers should be used. 
+For comparisons, table containers should be used. 
 Schemes - if the database supports the schemas. 
-Databases if the database supports catalogs and does not support the schemes. 
-Or datasourses, if there is no support schemas, nor catalog support (example is below in "Compare schemaless bases").
+Databases - if the database supports catalogs and does not support the schemes. 
+Datasources - if there is no support schemas, nor catalog support (you can find an example below in "Compare schemaless bases").
 
 ![](images/ug/tools/schema_compare_container_error.png)
 
@@ -36,7 +36,7 @@ For example, you can do this if you do not want to see the sequences, views or e
 
 ### Compare results
 
-Click on `Compare Schemas` to generate diff report.  
+Click on `Compare Schemas` to generate a diff report.  
 
 By default DDL diff is generated. It contains a series of create, alter and/or drop statements which will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
@@ -50,7 +50,7 @@ You can also switch to another diff report representation (diagram, json, yaml, 
 
 ### Compare schemaless bases
 
-Some bases (like SQLite and Firebird) do not have catalogs and schemes that could be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource entirely.
+Some bases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource entirely.
 
 ![](images/ug/tools/schema_compare_schemaless.png)
 
