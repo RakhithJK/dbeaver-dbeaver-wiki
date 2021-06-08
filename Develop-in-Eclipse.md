@@ -13,7 +13,7 @@ you will need to install a few additional Eclipse plugins which DBeaver depends 
 3. Check all plugins and finish the installation process:
     ![](images/development/eclipse/dbv_repo.png)
 
-4. Do the same for `http://eclipse-color-theme.github.com/update`
+4. Do the same for `http://eclipse-color-theme.github.io/update`
 
 5. Restart Eclipse
 
