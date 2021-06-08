@@ -1,4 +1,4 @@
-**Note: This functionality is available only in the [Enterprise Edition](Enterprise-Edition).**
+**Note: This functionality is available only in the [DBeaver Enterprise Edition](Enterprise-Edition).**
 
 DBeaver can schedule an execution for regular tasks.
 DBeaver supports `Windows Task Scheduler` on Windows and `cron` on macOS and GNU/Linux.
@@ -70,7 +70,7 @@ something like this:
 ![](images/ug/tools/task-schedule-macos-permissions.png)
 
 Click 'Yes' to proceed. The reason for that prompt is that the `cron` settings (crontabs) are considered
-to be system settings by macOS, and DBeaver will not be able to change them without permission.
+to be system settings by macOS, and DBeaver will not be able to change them without your permission.
 
 After that, if everything is configured correctly you will see the confirmation message.
 Just like in Windows, you can change the scheduler settings at any moment by choosing the
@@ -83,7 +83,7 @@ Click on the Open scheduler settings command in the task view context menu:
 
 ![](images/ug/tools/task-schedule-windows-task-manager.png)
 
-All DBeaver tasks are located in a folder DBeaver.
+All DBeaver tasks are located in a folder called `DBeaver`.
 
 ### macOS or GNU/Linux
 You can take a look at the crontab DBeaver uses to schedule tasks in `cron`
