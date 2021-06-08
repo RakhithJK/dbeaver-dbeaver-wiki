@@ -1,6 +1,6 @@
 **Note: This functionality is available only in the [Enterprise Edition](Enterprise-Edition).**
 
-DBeaver can schedule task execution for regular executions.
+DBeaver can schedule an execution for regular tasks.
 DBeaver supports `Windows Task Scheduler` on Windows and `cron` on macOS and GNU/Linux.
 In addition, you can manually configure schedulers
 [using command line](#running-tasks-from-the-command-line-any-os).
