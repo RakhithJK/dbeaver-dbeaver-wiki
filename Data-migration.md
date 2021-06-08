@@ -44,7 +44,7 @@ For proper table mapping, the following options are available:
    **_Existing_** - the source data will be transferred to the table that already exists in the target container.  
    **_Unassigned_** - this value is set by default when there is no target defined.  
 
-If the cells are marked as ![](images/dt/dbt_step3_Target_red.png), it means that in the target table there are no source tables with matching names, otherwise the names will be filled in automatically. 
+If the cells are marked with ![](images/dt/dbt_step3_Target_red.png), it means that in the target table there are no columns with matching names, otherwise the names will be filled in automatically. 
 
 You can define a target table by clicking on a cell in the **Target** column and entering its name, or press the **New** button ![](images/dt/dbt_step3_New_button.png) and enter a new name in the opened dialog box. 
 
@@ -57,7 +57,7 @@ You can also choose a name for a target table from the drop-down list.
 
 ![](images/dt/dbt_step3_Target_list.png)
 
-Or select from the list of tables already existing in the target container by pressing the **Browse** button ![](images/dt/dbt_step3_Browse_btn2.png)
+Or select a table from the existing tables in the target container by pressing the **Browse** button ![](images/dt/dbt_step3_Browse_btn2.png)
 
 
 ![](images/dt/dbt_step3_Choose_target_table.png)
@@ -137,10 +137,10 @@ Option|Description
 **Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
 **Replace method**|Select this drop-down list if you want to change the import behavior in case of a duplicate primary key value. [Data Import and Replace page](Data-Import-and-Replace)
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and the data transfer will not interfere with other calls to the database where data is being transferred to.
-**Use transactions**|This option allows to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter. 
+**Use transactions**|This option allows you to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter. 
 **Disable batches**|Select this check-box if you want to disable the use of batch imports. The import will be made row by row. Enabling this function will show all import errors, but make the import process slower.
-**Open table editor on finish**|If selected, the table editor to be opened when data transfer is over.
-**Show finish message**|If selected, a notification message will be shown when the transfer is over.
+**Open table editor on finish**|If selected, the table editor to be opened when data transfer is finished.
+**Show finish message**|If selected, a notification message will be shown when the transfer is finished.
 
 ## Step 5: Confirm
 
