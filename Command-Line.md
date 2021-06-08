@@ -46,7 +46,7 @@ Name|Value|Example
 
 ### Connection parameters
 All connection parameters must be supplied as a single command line argument, parameters are divided by pipe (`|`). Parameter name and value are divided by `=`.  
-Example: -con driver="sqlite|database=C:\db\SQLite\Chinook.db|name=SQLiteChin|openConsole=true|folder=SQLite"
+Example: -con "driver=sqlite|database=C:\db\SQLite\Chinook.db|name=SQLiteChin|openConsole=true|folder=SQLite"
 
 Name|Value|Example
 ----|-----|-------
