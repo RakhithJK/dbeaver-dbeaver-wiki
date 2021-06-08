@@ -8,7 +8,7 @@
 * Right click on the Column screen, select 'Create New Column'
 ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
   
-BTW: Another way to add a new column is to expand the table view in the Navigation pane (1) and 'Create New Column' from right click menu (2)
+BTW: Another way to add a new column is to expand the table view in the Navigation pane (1) and 'Create New Column' from the context menu (2)
   
 ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)
 * A new column is created with a default column name and Data Type. Adjust the column properties as you wish.
