@@ -50,6 +50,8 @@ The current database can be changed on the SQL Editor toolbar or on the Database
 ### Executing SQL
 You can use standard SQL statements (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) to manipulate Mongo data.
 
+SELECT queries support `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN` and `HAVING` clauses.
+
 ```sql
 SELECT * FROM test_col 
 WHERE propName.subProp='value'
@@ -59,8 +61,16 @@ SET propsName.val1=123
 WHERE propName.subProp='value'
 ```
 
-SELECT queries support `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN` and `HAVING` clauses. 
+#### Conditions
+SELECT queries with `WHERE` support `AND`, `OR`, `<`, `<=`, `>`, `>=`, `=` and `!=` operators:
 
+```sql
+SELECT * FROM Employees
+WHERE (Country = 'CA' OR Country = 'RU') AND Age > 20;
+```
+Please note that `AND` has higher precedence than `OR` and will evaluate first, so you need to surround it with parentheses.
+
+#### Nested fields
 Nested JSON fields can be divided by dot.
 If your field contains any special characters (e.g. spaces, dashes, etc.), you must enclose it with double quotes. For example:
 ```sql
