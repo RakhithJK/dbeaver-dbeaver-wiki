@@ -6,7 +6,7 @@ DBeaver supports native database backup/restore functions for the following data
 
 The native backup restore differs from the standard DBeaver [data transfer](Data-Transfer) feature. It uses database native dump formats and it may work much faster as it uses special utilities for the direct high-performance database access.
 
-These functions can be accessed from the context menu, Tools or main menu Database->Tools.
+These functions can be accessed from the Context Menu's Tools or the Main Menu's Database->Tools.
 ![](images/ug/tools/tools-menu.png)
 
 ### Native client configuration
