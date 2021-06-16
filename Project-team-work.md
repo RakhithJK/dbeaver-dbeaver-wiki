@@ -43,7 +43,7 @@ You can learn more [here](https://wiki.eclipse.org/EGit/User_Guide#GitHub_Tutori
 
 ![image](https://user-images.githubusercontent.com/31996417/106876376-ae70b580-66e8-11eb-945b-269954600385.png)
 
-5. Choose the type of the wizard you want to use and then finish repository cloning. The project should now appear in the Navigator/Project Explorer.
+5. Choose the type of wizard you want to use and then finish repository cloning. The project should now appear in the Navigator/Project Explorer.
 
 ![image](https://user-images.githubusercontent.com/31996417/122201831-1dcf9080-cea5-11eb-8adb-d0e527fe352c.png)
 
@@ -57,7 +57,7 @@ If some changes were made, e.g., Connection, Script or ERD was created, deleted 
 
 ![image](https://user-images.githubusercontent.com/31996417/122196400-e3172980-ce9f-11eb-9f37-a8f226e3cfc6.png)
 
-2. **Git Staging** tab is opened at the bottom of the screen. **Unstaged Changes** are shown here. Add needed changes to the index using **Add Selected files to the index** or **Add all files to the index** button (highlighted at the picture), input commit message and then Commit changes (`Commit` button or `Ctrl+Enter`). Commit appears at the History tab (Main menu: `Window - Show view - Other - Version Control(Team) - History`). 
+2. **Git Staging** tab is opened at the bottom of the screen. **Unstaged Changes** are shown here. Add needed changes to the index using **Add Selected files to the index** or **Add all files to the index** button (highlighted at the picture), input commit message and then Commit changes (**Commit** button or `Ctrl+Enter`). Commit appears at the History tab (Main menu: `Window - Show view - Other - Version Control(Team) - History`). 
 
 ![image](https://user-images.githubusercontent.com/31996417/122196920-5caf1780-cea0-11eb-849b-b81b010078b0.png)
 
