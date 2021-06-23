@@ -43,6 +43,7 @@ you will need to install a few additional Eclipse plugins which DBeaver depends 
 14. If some modules build fail (they will be marked with red cross) - update the Maven project
     ![](images/development/eclipse/eclipse-maven-update.png)
 
+15. If you cannot compile and see errors "Access Restriction" in the Error log then you can turn these errors into warnings. Open context menu on the "Access Restriction" error line->Quick Fix->Configure problem severity.
 
 ## Running and Debugging in Eclipse
 
