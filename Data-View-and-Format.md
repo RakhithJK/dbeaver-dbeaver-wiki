@@ -15,7 +15,7 @@ The Record view is useful if the table contains a big number of columns. To navi
 To return back to the standard table view, click the **Record** button again.
 
 ## Rows Coloring
-In the data editor, you can colour all rows that have the same value as a particular cell of a certain column. To do so, right-click the cell and click **View/Format -> Set the row colour for {column name = value}** on the context menu:
+In the data editor, you can colour all rows that have the same value as a particular cell of a certain column. To do so, right-click the cell and click <kbd>View/Format</kbd> &rArr; <kbd>Set the row colour for {column name = value}</kbd> on the context menu:
 
 ![](images/ug/Color_rows.png)
 
@@ -23,7 +23,31 @@ Then choose the colour in the palette window that appears and click **OK**. The 
 
 ![](images/ug/Colored_rows.png)
 
-To remove the coloring by a particular column, right-click the cell again and click **View/Format -> Clear colour for {column name = value}** on the context menu.
+To remove the coloring by a particular column, right-click the cell again and click <kbd>View/Format</kbd> &rArr; <kbd>Clear colour for {column name = value}</kbd> on the context menu.
+
+By choosing <kbd>View/Format</kbd> &rArr; <kbd>Row colors ...</kbd> from the context menu, you can gain more precise control of coloring conditions:
+
+![](images/ug/Row-coloring-customization.png)
+
+Here, you can define multiple conditions for single column using rich set of predefined operators, change background color and define a range between two values.
+
+Operators work as you may expect. Note that they're executed on the client-side, that means no extra queries are made in order to apply colors.
+
+### Value range / Gradient
+
+Value range allows you to paint your rows with gradient that fades from first value to second value:
+
+![](images/ug/Row-coloring-gradient.png)
+
+In this example we defined a range for column `AlbumId` that fades from `#80c6ff` to `#8000ff` between values `1` and `10`.
+
+### Using regex
+
+You can use regular expressions for matching complex values. Otherwise, you can be artistic and, for example, paint rows with odd values in your favorite color:
+
+![](images/ug/Row-coloring-gradient-regex.png)
+
+_Snippet for coloring odd rows: `^\d*[13579]$`; even rows: `^\d*[02468]$`_
 
 ## Coloring by Data Types
 Besides colouring rows by a value, you can colour the values in the columns by data types. To do so, right-click any cell in the table and, on the context menu, click **View/Format -> Colourize Data Types**. The values in the cells will be coloured in different colours according to the current colour preferences:
