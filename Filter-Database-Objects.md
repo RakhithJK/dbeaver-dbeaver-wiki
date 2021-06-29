@@ -6,7 +6,7 @@ One of the ways is to filter objects by the names of tables and views using the 
 
 ![](images/ug/DB-Nav-filter.png)
 
-To filter objects by name, type the name in the field. The tree dynamically updates to show connections/containers/tables/views with that name. To reset the filter, click the Clear icon  (![](images/ug/Clear-filter-icon.png)) on the right end of the field.
+To filter objects by name, type the object name in the field. The tree dynamically updates to show connections/containers/tables/views with that name. To reset the filter, click the Clear icon  (![](images/ug/Clear-filter-icon.png)) on the right end of the field.
 
 You can select the types of filtering objects in the drop-down list on the right. And also use the filter only for active connections.
 
