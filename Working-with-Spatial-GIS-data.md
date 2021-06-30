@@ -15,6 +15,14 @@ DBeaver's support of spatial data covers the following databases:
 
 ![](images/ug/Data-view-gis-presentation.png) <!--CMD:SKIP-->
 
+### Differentiating data on the map
+Every column in the table has it’s own color on the map. This helps you find needed information on the map if you know which column it belongs to.
+
+If you click on the object on the map the following information will be displayed:
+1. Name of the column in the header
+2. Displayable data (Strings, numbers, dates etc.) from every other column in the corresponding row
+
+
 ### Tile layer management
 DBeaver ships with several predefined map tiles. The tiles can be chosen with the combo below the viewer:
 
@@ -43,3 +51,21 @@ String column type to spatial.
 
 ![](images/ug/Data-view-gis-binary-to-spatial.png)
 Binary column type to spatial.
+
+## Additional features
+
+### Copying coordinates
+
+You can copy coordinates to clipboard from any point of the map, just right-click anywhere and select “Copy coordinates”. It copies the coordinates formatted as `latitude, longitude` to the clipboard.\
+**NOTE:** The coordinates are copied according to EPSG:4326 CRS and are just raw numbers. You may need to remove a comma and switch latitude and longitude places to correctly insert it into a database.
+
+### Miscellaneous buttons
+
+You can use buttons at the bottom of the view for additional features:
+* Open the generated temporary HTML file in your default browser.
+* Copy a current map to clipboard as picture
+* Save a current map as picture into a selected folder
+* Print a current map
+* Flip latitude and longitude coordinates in source data. This can be useful if the data in your table is saved in (latitude longitude) format while Leaflet reads it as (longitude, latitude). This button doesn’t change anything in source data, it just changes how this data is read to show accurate information on the map.
+
+ 
