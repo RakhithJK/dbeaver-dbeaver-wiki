@@ -1,6 +1,6 @@
 Spatial data is a geometry or geography value that can be represented on a map or a graph. A geometry object consists of a series of points. [Please find more details here](https://en.wikipedia.org/wiki/Spatial_database).  
 
-DBeaver's support of spatial data covers the following databases:
+DBeaver's support of spatial data covers following databases:
 - PostgreSQL (PostGIS)
 - MySQL
 - SQLite (GeoPackage)
