@@ -45,7 +45,7 @@
   - [[DB Metadata Search]]
 - [[Schema compare]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[Data compare]] <img src="images/commercial.png" vspace="4" align="top"/>
-- [[MockData generation|Mock Data generation in DBeaver]] <img src="images/commercial.png" vspace="0" height="18"/>
+- [[MockData generation|Mock Data generation in DBeaver]] <img src="images/commercial.png" vspace="0" vspace="4" align="top"/>
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
   - [[Project security]] <img src="images/commercial.png" vspace="4" align="top"/>
