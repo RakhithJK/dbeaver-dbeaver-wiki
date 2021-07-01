@@ -60,7 +60,7 @@ There are two options how to copy your License Key from the personal account:
 
 Then you need to insert the copied License Key to License Manager in Dbeaver EE.
 
-### Insert the License key to the License Manager
+### Insert the License key to License Manager
 
 To start using DBeaver EE with your License Key you need to open License Manager in DBeaver EE:
 Help -> DBeaver License Info
