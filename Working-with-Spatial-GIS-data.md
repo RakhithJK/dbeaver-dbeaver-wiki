@@ -6,8 +6,8 @@ DBeaver's support of spatial data covers the following databases:
 - SQLite (GeoPackage)
 - H2GIS
 - SAP HANA
-- Oracle <img src="images/ee.png" vspace="0" border="0" height="18"/>
-- SQL Server <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- Oracle <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+- SQL Server <img src="images/commercial.png" vspace="0" border="0" height="18"/>
 
 ## Spatial data viewer
 
