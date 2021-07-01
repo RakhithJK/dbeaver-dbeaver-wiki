@@ -19,7 +19,7 @@
   - [[Data Refresh]]
   - [[Data Viewing and Editing]]
   - [[Panels]]
-  - [[Managing Charts]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+  - [[Managing Charts]] <img src="images/commercial.png" align="top" vspace="4"/>
   - [[Data Search]]
   - [[SQL Generation]]
   - [[Working with spatial/GIS data]]
@@ -31,11 +31,11 @@
   - [[SQL Formatting]]
   - [[SQL Execution]]
   - [[Query Execution Plan]]
-  - [[Visual Query Builder]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+  - [[Visual Query Builder]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Script Management]]
-  - [Client Side Commands](Client-side-scripting)
+  - [[Client Side Commands|Client-side-scripting]]
   - Debug
-    - [PostgreSQL Debugger](PGDebugger)
+    - [[PostgreSQL Debugger|PGDebugger]]
 - [[ER Diagrams]]
   - [[Database Structure Diagrams]]
   - [[Custom Diagrams]]
@@ -43,13 +43,13 @@
   - [[File Search]]
   - [[DB Full-Text Search]]
   - [[DB Metadata Search]]
-- [[Schema compare]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[Data compare]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[MockData generation|Mock Data generation in DBeaver]]&nbsp;<img src="images/commercial.png" vspace="0" height="18"/>
+- [[Schema compare]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[Data compare]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[MockData generation|Mock Data generation in DBeaver]] <img src="images/commercial.png" vspace="0" height="18"/>
 - [[Dashboards, DB monitoring|Dashboards]]
 - [[Projects]]
-  - [[Project security]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-  - [[Team work (Git) | Project-team-work]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+  - [[Project security]] <img src="images/commercial.png" vspace="4" align="top"/>
+  - [[Team work (Git) | Project-team-work]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[Bookmarks]]
 - [[Shortcuts]]
 
@@ -64,7 +64,7 @@
     - [[SSH tunnels]] <!--CMD:SKIP-->
     - [[Proxy configuration]] <!--CMD:SKIP-->
     - [[SSL configuration]] <!--CMD:SKIP-->
-    - [[Kerberos authentication]] <img src="images/commercial.png" vspace="0" border="0" height="18"/> <!--CMD:SKIP-->
+    - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
@@ -78,14 +78,14 @@
   - [[Database backup/restore|Backup Restore]]
   - [[Database maintenance tools|Maintenance tools]]
   - [[Task management|Task management]]
-  - [[Task scheduler]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-  - [[Composite tasks]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[Cloud Explorer]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+  - [[Task scheduler]] <img src="images/commercial.png" vspace="4" align="top"/>
+  - [[Composite tasks]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[Cloud Explorer]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
 
-#### Enterprise Databases support <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+#### Enterprise Databases support <img src="images/commercial.png" vspace="4" align="top"/>
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
@@ -120,8 +120,8 @@
 - [[Reset workspace]]
 - [[Posting issues]]
 - [[Log files]]
-- [JDBC trace](JDBC-Tracing)
-- [Thread dump](Making-a-thread-dump)
+- [[JDBC trace|JDBC-Tracing]]
+- [[Thread dump|Making-a-thread-dump]]
 - [[Proxy configuration]]
 
 #### Admin Guide
@@ -129,10 +129,10 @@
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
 
-#### License management <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[License Administration]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[How to Import License]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
-- [[How to Reassign License]] <img src="images/commercial.png" vspace="0" border="0" height="18"/>
+#### License management <img src="images/commercial.png" vspace="4" align="top"/>
+- [[License Administration]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[How to Import License]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
