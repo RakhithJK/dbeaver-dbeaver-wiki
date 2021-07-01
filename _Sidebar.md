@@ -85,7 +85,7 @@
   - [[AWS Credentials]]
   - [[AWS SSO]]
 
-#### Enterprise Databases support <img src="images/commercial.png" vspace="4" align="top"/>
+#### Enterprise Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
@@ -129,7 +129,7 @@
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
 
-#### License management <img src="images/commercial.png" vspace="4" align="top"/>
+#### License management <img src="images/commercial_big.png" align="top" height="16">
 - [[License Administration]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Import License]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
