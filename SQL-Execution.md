@@ -37,18 +37,6 @@ Tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, wh
 
 Tabs can be moved around by dragging them with a mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left. They can be moved among other pinned tabs, but can't be mixed with unpinned tabs. Pinned tabs cannot be closed without being unpinned first, and cannot be overwritten by executing a query in it (by making this tab active).
 
-## Dynamic Parameter Bindings
-
-You can use dynamic parameters in your SQL queries. The parameter format is :name. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
-
-![](images/ug/Bind-parameters-dialog.png)
-
-You can also use anonymous parameters (?), but you will need to enable them in the SQL editor preferences:
-
-![](images/ug/Anonymous-SQL-params-Preferences.png)
-
-You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
-
 ## SQL Expression Evaluation
 To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command basically performs a query of **SELECT [expression] FROM DUAL** type:
 
@@ -68,6 +56,18 @@ The Data transfer wizard opens. Go through its steps to complete the export of t
 
 ![](images/ug/Data-transfer-window.png)
 
+## Dynamic Parameter Bindings
+
+You can use dynamic parameters in your SQL queries. The parameter format is :name. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
+
+![](images/ug/Bind-parameters-dialog.png)
+
+You can also use anonymous parameters (?), but you will need to enable them in the SQL editor preferences:
+
+![](images/ug/Anonymous-SQL-params-Preferences.png)
+
+You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
+
 ## Client-side commands
 
 You can use special commands in the SQL scripts.  
@@ -75,9 +75,10 @@ These commands are executed on DBeaver's side, not on the server-side.
 
 Name|Description
 ----|-----
-@set var = value|Sets default value for SQL parameter
-@echo text|Prints string into server output viewer
-@include file|Includes script file from file system
+`@set var = value`|Sets value for SQL parameter
+`@unset var = value`|Removes value for SQL parameter
+`@echo text`|Prints string into server output viewer
+`@include file`|Includes script file from file system
 
 
 ## Miscellaneous
