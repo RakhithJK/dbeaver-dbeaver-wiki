@@ -68,19 +68,6 @@ You can also use anonymous parameters (?), but you will need to enable them in t
 
 You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 
-## Client-side commands
-
-You can use special commands in the SQL scripts.  
-These commands are executed on DBeaver's side, not on the server-side.
-
-Name|Description
-----|-----
-`@set var = value`|Sets value for SQL parameter
-`@unset var = value`|Removes value for SQL parameter
-`@echo text`|Prints string into server output viewer
-`@include file`|Includes script file from file system
-
-
 ## Miscellaneous
 * To select the current query row count, press <kbd>Ctrl+Alt+Shift+C</kbd>.
 * To open the definition of the database object currently in focus (under cursor) in a viewer/editor, press <kbd>F4</kbd>.  
