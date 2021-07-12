@@ -8,7 +8,7 @@ You can compare two schema/database structures and generate a report in the foll
 
 ### Selecting objects to compare
 
-- Select the two objects (schemas, databases or tables) you want to compare
+- Select the two objects (schemas, databases, or tables) you want to compare
 - Open the context menu
 - Open the sub-menu `Compare/Migrate`
 - Click on `Compare/Migrate Schema` element
@@ -18,7 +18,7 @@ You can compare two schema/database structures and generate a report in the foll
 ### Compare settings
 
 Re-validate that you have chosen the correct objects to compare.
-You can also specify the types of changes to be processed: creates, drops or alters. By default, all types of changes are enabled.
+You can also specify the types of changes to be processed: creates, drops, or alters. By default, all types of changes are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
 
@@ -30,7 +30,7 @@ Datasources - if there is no support schemas, nor catalog support (you can find 
 ![](images/ug/tools/schema_compare_container_error.png)
 
 You can exclude the specific compared types of objects.  
-For example, you can do this if you do not want to see the sequences, views or external keys in the final comparison result.
+For example, you can do this if you do not want to see the sequences, views, or external keys in the final comparison result.
 
 ![](images/ug/tools/schema_compare_settings_types.png)
 
@@ -38,7 +38,7 @@ For example, you can do this if you do not want to see the sequences, views or e
 
 Click on `Compare Schemas` to generate a diff report.  
 
-By default DDL diff is generated. It contains a series of create, alter and/or drop statements which will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
+By default, DDL diff is generated. It contains a series of creating, alter and/or drop statements that will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
 You can enable/disable particular changes in the tree on the left side of the diff page:
 
@@ -70,3 +70,4 @@ Some bases (like SQLite and Firebird) do not have catalogs and schemes that can 
 * Netezza
 * Cockroach
 * Vertica
+* SAP HANA
