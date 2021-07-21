@@ -36,8 +36,9 @@ If you want to revert all changes made to the current SQL script and return it t
 ## Changing default scripts directory
 By default all of the scripts are saved to a "Scripts" folder located in your project inside the workspace directory. This can be changed by clicking the **Configure** button in [Project Explorer](Project-Explorer) view. There you can click on a folder's name an pick any other folder inside the Project.  
 ![Configure](https://i.imgur.com/n4HO5J0.png) ![Choose folder](https://i.imgur.com/MloxcCZ.png)  
+  
 
-## Adding external directory to Project explorer
+## Adding external directory
 You can also link an external directory to your project to either save your scripts into it, or to access scripts that were created outside of DBeaver.  
 To link an External directory right-click anywhere in the Project Explorer and pick **Create -> Link Folder**. There you can link any directory on your drive to a project. This will allow you to open any externally created scripts through Project explorer and to set this folder as default to save new scripts into.
 
