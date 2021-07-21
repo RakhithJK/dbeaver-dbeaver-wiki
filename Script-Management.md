@@ -35,6 +35,8 @@ If you want to revert all changes made to the current SQL script and return it t
 
 ## Changing default scripts directory
 By default all of the scripts are saved to a "Scripts" folder located in your project inside the workspace directory. This can be changed by clicking the **Configure** button in [Project Explorer](Project-Explorer) view. There you can click on a folder's name an pick any other folder inside the Project.  
+  
+ 
 ![Configure](https://i.imgur.com/n4HO5J0.png) ![Choose folder](https://i.imgur.com/MloxcCZ.png)  
   
 
