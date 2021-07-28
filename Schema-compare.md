@@ -79,7 +79,7 @@ Steps you need:
 - Find and open your dbeaver.ini file. It is located in the DBeaver root directory.
 - Find -vmargs command
 - Add after this command -Dliquibase.license.key=yourKey (example: -Dliquibase.license.key=ABwwGgQU...)
-- Open DBeaver EE(UE) and "Schema compare" window. Key will be checked at this step
+- Open DBeaver and "Schema compare" window. Key will be checked at this step
 (If PRO objects didn't appears in schema compare chagelog - check your logs. Maybe license expired or key is invalid)
 
 If the license key is valid, then the "Object types" dialog will be extended on PRO objects.
