@@ -84,3 +84,4 @@ Steps you need:
 
 If the license key is valid, then the "Object types" dialog will be extended on PRO objects.
 
+![](images/ug/tools/schema_compare_settings_PRO_types.png)
