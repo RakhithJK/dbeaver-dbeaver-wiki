@@ -80,7 +80,7 @@ Steps you need:
 - Find -vmargs command
 - Add after this command add new line with: -Dliquibase.license.key=yourKey (example: -Dliquibase.license.key=ABwwGgQU...)
 - Open DBeaver and "Schema compare" window. Key will be checked at this step
-(If PRO objects didn't appears in schema compare chagelog - check your logs. Maybe license expired or key is invalid)
+(If PRO objects didn't appear in schema compare changelog - check your logs. Maybe license expired or key is invalid)
 
 If the license key is valid, then the "Object types" dialog will be extended on PRO objects.
 
