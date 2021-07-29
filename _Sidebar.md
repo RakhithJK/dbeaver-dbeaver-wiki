@@ -30,6 +30,7 @@
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
+  - [[Variables panel]]
   - [[Query Execution Plan]]
   - [[Visual Query Builder]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Script Management]]
