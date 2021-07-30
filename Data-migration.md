@@ -137,9 +137,10 @@ Option|Description
 **Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
 **Replace method**|Select this drop-down list if you want to change the import behavior in case of a duplicate primary key value. [Data Import and Replace page](Data-Import-and-Replace)
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and the data transfer will not interfere with other calls to the database where data is being transferred to.
-**Use transactions**|This option allows you to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter. 
+**Use transactions**|This option allows you to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter.
+**Use multi-row insert**|Use multi-row insert with extended values number for higher performance. Database-specific setting.
 **Disable batches**|Select this check-box if you want to disable the use of batch imports. The import will be made row by row. Enabling this function will show all import errors, but make the import process slower.
-**Open table editor on finish**|If selected, the table editor to be opened when data transfer is finished.
+**Open table editor on finish**|If selected, the table editor is to be opened when data transfer is finished.
 **Show finish message**|If selected, a notification message will be shown when the transfer is finished.
 
 ## Step 5: Confirm
