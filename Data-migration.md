@@ -47,7 +47,7 @@ For proper table mapping, the following options are available:
 If the cells are marked with ![](images/dt/dbt_step3_Target_red.png), it means that in the target table there are no columns with matching names, otherwise the names will be filled in automatically. 
 
 You may also want to transform the values of some columns during the transfer. To do that, define column transformers by clicking on corresponding cells in the _Transform_ column. You can choose one of three options:
-![](https://imgur.com/a/YXORvQB)
+![](images/dt/dbt_step3_transformers.png)
 
 * _Set to NULL_. All values in the corresponding column will be set to null.
 * _Constant._ All values in the corresponding column will be set to the specified constant.
