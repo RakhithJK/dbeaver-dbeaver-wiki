@@ -101,3 +101,17 @@ For MySQL/MariaDB databases you can also add a column with an expression - the e
 
 To remove a column, in the Grouping Configuration window, in the **Columns** area, click the column name, then **Remove** and **OK**. To remove all columns, click **Clear** and **OK**.  
 Another way to remove a column is to click the column and then the **Remove grouping column** button (![](images/ug/Grouping-remove-columns.png)) in the panel`s toolbar. Clicking the **Clear grouping** button (![](images/ug/Clear-columns-button.png)) removes all results from the Grouping panel.
+
+## References panel
+
+The references panel allows you to see all the related information for the chosen row from other connected tables. The information is presented in an additional data viewer window, filtered to show the information related to the currently selected row. If a table opened in data viewer has a foreign key referencing another table, or it is referenced with a foreign key by another table, all of those connected tables can be picked from a dropdown list.
+
+![](images/reference-panel-list.png)
+
+When a table that is referenced by a foreign key in the current table is chosen, the information from the row corresponding to a referenced key will be shown, in this situation the record mode is enabled by default, but it can be turned off like in a normal data viewer.
+
+![](images/references-panel-fk.png)
+
+When a table that references the current table is chosen, the references panel will show all the rows that refer a selected primary key in the current table.
+
+![](images/references_panel-references.png)
