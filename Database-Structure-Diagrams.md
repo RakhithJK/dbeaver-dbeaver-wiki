@@ -20,6 +20,6 @@ Notation|Description
 ---------------|-----------
 ![](images/relations_in_erd/PK-to_table.png)|Solid line means that the foreign key column is also a primary key in referencing table
 ![](images/relations_in_erd/FK-to_table.png)|Dashed line means that the foreign key column is not a primary key in referencing table
-![](images/relations_in_erd/PK-FK-to_one_table.png)|If the relationship between two tables is other than one-to-one, the lines will start at the same point and also end at the same point
+![](images/relations_in_erd/PK-FK-to_one_table.png)|If the relationship between two tables is other than one-to-one, you will see multiple lines that all start at one point and all end at another point
 ![](images/relations_in_erd/black-dot.png)|Black dot represents the beginning of the line and is attached to a table that has a foreign key referencing another table
 ![](images/relations_in_erd/rectangle.png)|White rectangle  represents the end of the line and is attached to a referenced table. It only appears at the end of the dashed line
