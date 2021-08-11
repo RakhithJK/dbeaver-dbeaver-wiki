@@ -51,7 +51,7 @@ You may also want to transform the values of some columns during the transfer. T
 
 * _Set to NULL_. All values in the corresponding column will be set to null.
 * _Constant._ All values in the corresponding column will be set to the specified constant.
-* _Expression_. This transformer uses expressions to calculate the cell's value.
+* _Expression_. This transformer uses expressions (namely, JEXL expressions) to calculate the cell's value. You can use basic arithmetic operations and column names to construct an expression. 
 
 You can define a target table by clicking on a cell in the **Target** column and entering its name, or press the **New** button ![](images/dt/dbt_step3_New_button.png) and enter a new name in the opened dialog box. 
 
