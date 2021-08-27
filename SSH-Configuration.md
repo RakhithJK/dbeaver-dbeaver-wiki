@@ -6,9 +6,10 @@ DBeaver supports following SSH authentication methods:
  - Agent authentication
 
 Available agent authentication implementations:
- - [pageant](https://www.digitalocean.com/community/tutorials/how-to-use-pageant-to-streamline-ssh-key-authentication-with-putty)
+ - [pageant](https://www.digitalocean.com/community/tutorials/how-to-use-pageant-to-streamline-ssh-key-authentication-with-putty) _(Windows only)_
  - [ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
+Note that you have to run agent first before connecting to the database in DBeaver.
 
 ## Configuring SSH
 
@@ -27,6 +28,10 @@ Gateway host, sometimes known as jump host, is used in situations when you can't
 Just like SSH configuration, you have to enable it first. Gateway has the same configuration as for regular SSH tunnel:
 
 ![](images/ug/network/ssh/jump-server-configuration.png)
+
+### Practical use
+Imagine you have the following situation: your database is located on remote machine with IP address `100.100.100.100` and which is accessible through SSH. You can't access this IP directly from your machine because of your network settings or firewall, but you can access other machine with IP address `200.200.200.200` through SSH and **is able** to access desired remote machine.
+You will need to specify `100.100.100.100` as a host in regular SSH configuration and `200.200.200.200` as a host in gateway configuration to achieve such "connection order": `localhost` &rarr; `200.200.200.200` &rarr; `100.100.100.100`.
 
 ## Advanced options
 
