@@ -30,7 +30,7 @@ Just like SSH configuration, you have to enable it first. Gateway has the same c
 ![](images/ug/network/ssh/jump-server-configuration.png)
 
 ### Practical use
-Imagine you have the following situation: your database is located on remote machine with IP address `100.100.100.100` and which is accessible through SSH. You can't access this IP directly from your machine because of your network settings or firewall, but you can access other machine with IP address `200.200.200.200` through SSH and **is able** to access desired remote machine.
+Imagine you have the following situation: your database is located on remote machine with IP address `100.100.100.100` and which is accessible through SSH. You can't access this IP directly from your machine because of your network settings or firewall, but you can access other machine with IP address `200.200.200.200` through SSH and which **is able** to access desired remote machine.
 You will need to specify `100.100.100.100` as a host in regular SSH configuration and `200.200.200.200` as a host in gateway configuration to achieve such "connection order": `localhost` &rarr; `200.200.200.200` &rarr; `100.100.100.100`.
 
 ## Advanced options
