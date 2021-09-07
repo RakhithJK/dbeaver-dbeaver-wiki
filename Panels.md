@@ -1,4 +1,4 @@
-Panels provide additional space in the [Data editor](Data-Editor) in which you can manipulate data. The panels are handy if you work with complex types (structures, arrays), long text data, or BLOBs. Panels appear as tabs in an additional pane in the right part of the Data tab:
+Panels provide additional space in the [Data editor](Data-Editor) in which you can manipulate data. The panels are handy if you work with complex types (structures, arrays), long text data, or BLOBs. Panels appear as tabs in an additional pane in the right hand side of the Data tab:
 
 ![](images/ug/Panels.png)
 
