@@ -2,18 +2,18 @@
 
 ### Manual license import
 
-DBeaver EE asks user to import license file if this file cannot be found in the local license storage.
-For individual users this is the most simple and convenient way to import product license.
+DBeaver EE asks the user to import the license file if the file cannot be found locally.
+For individual users this is the most simple and convenient way to import the product license.
 
 ![](images/license-not-found.png)
 
 ### License management automation
 
-There are several ways to automate license management process. It makes sense for multi-user environment.
+There are several ways to automate the license management process. It makes sense for a multi-user environment.
 
 #### Put the license file to the predefined locations
 
-On start DBeaver will look for license file in the following locations: 
+While DBeaver is starting up, it will look for a license file in the following locations: 
 
 - Windows
     - `%HOMEPATH%\.dbeaver-ee-license.dat`
@@ -28,7 +28,7 @@ On start DBeaver will look for license file in the following locations:
 
 #### Passing license file through command line
 
-You can add command line parameter `license <license-path>` to the DBeaver EE shortcut.
+You can add the command line parameter `license <license-path>` to the DBeaver EE shortcut.
 Also you can add this parameter to `dbeaver.ini` config file.
 
 [Command line](Command-Line) reference.

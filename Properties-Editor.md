@@ -1,6 +1,6 @@
-The Properties tab of the [Database Object Editor](Database-Object-Editor) provides you with the tools to view and edit the database object`s properties.
+The Properties tab of the [Database Object Editor](Database-Object-Editor) provides you with the tools to view and edit the database object's properties.
 
-The content area of the Properties tab falls into two parts: the top pane displays properties of the current database object itself while the bottom pane contains properties of the object`s sub-entities or some complex properties like DDL (an SQL description of the current database object).
+The content area of the Properties tab falls into two parts: the top pane displays properties of the current database object itself while the bottom pane contains properties of the object's sub-entities or some complex properties like DDL (an SQL description of the current database object).
 
 Properties of the sub-entities appear in the side tabbed editors – to open such an editor, click the tabs on the left side of the area:
 

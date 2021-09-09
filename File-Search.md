@@ -1,4 +1,4 @@
-To search file contents for a string, click the Search button in the main toolbar or the arrow next to the Search button and then **File Search** on the dropdown menu:
+To search file contents for a string, click the Search button on the main toolbar or the arrow next to the Search button and then **File Search** on the dropdown menu:
 
 ![](images/ug/File=Search-menu.png)
 
@@ -6,7 +6,7 @@ The Search window opens displaying the File Search tab:
 
 ![](images/ug/Search-window.png)
 
-You can apply case sensitive search, search by regular expressions, search among particular file types (**File name patterns** field), and use the find and replace function.
+You can apply a case sensitive search, search by regular expressions, search among particular file types (**File name patterns** field), and use the find and replace function.
 
 After you click **Search**, the results appear in a [Search](Search) view. The results represent a tree or list of files with the search combination highlighted:
 

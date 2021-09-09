@@ -1,20 +1,20 @@
 You can create multiple SQL scripts for a single connection. Every script opens in its own SQL editor. 
 To open an SQL editor for some connection:
-* Click this connection in the [Database Navigator](Database-Navigator) view and press <kbd>F3</kbd> or click **SQL Editor -> SQL Editor** on the main menu. Alternatively, you click **SQL Editor** on the context menu of this connection. DBeaver opens the Choose SQL script editor with saved SQL scripts linked to this connection. CLick the SQL script to open it in a separate tab.
+* Click this connection in the [Database Navigator](Database-Navigator) view and press <kbd>F3</kbd> or click **SQL Editor -> SQL Editor** on the main menu. Alternatively, click **SQL Editor** on the context menu of this connection. DBeaver opens the Choose SQL script editor with saved SQL scripts linked to this connection. CLick the SQL script to open it in a separate tab.
 * Click **Recent SQL Editor** on the context menu for this connection or on the main menu (**SQL Editor -> Recent SQL Editor**). This opens the latest used SQL editor. You can also open the most recent SQL editor using <kbd>Ctrl+Enter</kbd> shortcut in the Database Navigator view.
 * If you need to create a new SQL script, on the main menu, click **SQL Editor -> New SQL Editor** or press <kbd>F3</kbd> and then click **New Script** in the Choose SQL Script window.
 
 DBeaver uses SQL syntax highlighting which depends on the database associated with the script. Different databases have different sets of reserved keywords and system functions.
 
-NOTE: SQL Editor for a connection is different from SQL console for a table or view (right-click the table and click **Read data in SQL console**) in that, unlike the console, it can save scripts and changes to them.
+NOTE: SQL Editor for a connection is different from SQL console for a table or view (right-click the table and click **Read data in SQL console**). Unlike the console, it can save scripts and changes made to them.
 
 You can see all your saved SQL scripts in the [Project Explorer](Project-Explorer) view in the **Scripts** folder.
 
-The SQL editor includes the script panel at the top and results panel at the bottom:
+The SQL editor includes the script panel at the top and the results panel at the bottom:
 
 ![](images/ug/SQL-Editor.png)
 
-You can open SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
+You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 
 ## Results Panel
 The results panel displays tabs with results in various formats. The tabs resulting from script execution represent instances of the [Data Editor](Data-Editor). You can create, edit and execute SQL scripts in the script panel and then see the results in the result tabs.
@@ -37,7 +37,7 @@ To position both panels horizontally, right-click anywhere in the script panel a
 To position both panels vertically, right-click anywhere in the script panel and, on the context menu, click **Layout -> Vertical**.
 
 ## Hyperlinks
-You can press and hold <kbd>Ctrl</kbd> and at the same time move the mouse over SQL text. If DBeaver recognizes some identifier as a table/view name, it presents it as a hyperlink. You can click the hyperlink to open this object`s editor:
+You can press and hold <kbd>Ctrl</kbd> and at the same time move the mouse over the SQL text. If DBeaver recognizes some identifier as a table/view name, it presents it as a hyperlink. You can click the hyperlink to open this object`s editor:
 
 ![](images/ug/SQL-Editor-hyperlink.png)  
 
@@ -63,7 +63,7 @@ If there are many schemas and they do not fit in the dialog box use the search f
 
 To configure the set of columns to be visible for each schema in the dialog box, click the **Configure columns** button (![](images/ug/Configure-columns-visibility-icon.png)).
 
-You can easily associate the SQL Editor with the connection that is currently in focus in the Database Navigator (the focus can be on any object of the connection - a table, a folder, etc.) - click the **Set connection from navigator** button in DBeaver`s main toolbar:
+You can easily associate the SQL Editor with the connection that is currently in focus in the Database Navigator (the focus can be on any object of the connection - a table, a folder, etc.) - click the **Set connection from navigator** button on DBeaver`s main toolbar:
 
 ![](images/ug/Set-connection-to-DBNavigator.png)
 

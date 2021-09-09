@@ -14,8 +14,8 @@ You can connect directly to a server or use SSH tunneling or SOCKS proxy.
 
 ### Browsing InfluxDB schema
 
-InfluxDB is <a href="https://docs.influxdata.com/influxdb/v1.6/concepts/crosswalk/">TimeSeries database</a>, it doesn't support tables, foreign keys and other relational entities.</p>
-DBeaver doesn't support data insert/update in InfluxDB. Basically for DBeaver database is in read-only state. You can browse schema and view/analyse data.  
+InfluxDB is <a href="https://docs.influxdata.com/influxdb/v1.6/concepts/crosswalk/">TimeSeries database</a>, it does not support tables, foreign keys and other relational entities.</p>
+DBeaver does not support data insert/update in InfluxDB. Database is basically a in read-only state for DBeaver. You can browse schema and view/analyse data.  
 While data itself is loaded by various sensors/data collectors in real time.  
 Instead of tables InfluxDB has <a href="https://docs.influxdata.com/influxdb/v1.6/concepts/key_concepts/#measurement">measurements</a>. Instead of columns it has <a href="https://docs.influxdata.com/influxdb/v1.6/concepts/key_concepts/#field-key">fields</a> and <a href="https://docs.influxdata.com/influxdb/v1.6/concepts/key_concepts/#tag-key">tags</a>.  
 

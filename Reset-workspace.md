@@ -1,5 +1,5 @@
-Sometimes (especially after multiple DBeaver versions upgrade) workspace become messy.  
-Some keyboard shortcuts may stop working, toolbars layout may be broken, etc, etc.  
+Sometimes (especially after multiple DBeaver versions upgrade) the workspace can become messy.  
+Some keyboard shortcuts may stop working, toolbar layouts may be broken, etc, etc.  
 To reset all UI settings (this includes menus, shortcuts, view and toolbar layouts):
 
 1. Shutdown DBeaver
@@ -11,8 +11,8 @@ To reset all UI settings (this includes menus, shortcuts, view and toolbar layou
 4. Start DBeaver
 
 
-If that doesn't help then you can try to remove `.metadata/.plugins/org.eclipse.core.resources` folder.
+If that does not help then you can try to remove the `.metadata/.plugins/org.eclipse.core.resources` folder.
 
-If that doesn't help then remove `.metadata` folder. It will erase all your UI settings (but all connections, settings and scripts will remain as is). 
+If that does not help then remove the `.metadata` folder. It will erase all your UI settings (but all connections, settings and scripts will remain as is). 
 
-That's it.
+That is it.

@@ -16,7 +16,7 @@ Folder | Location
 
 ### Custom location
 
-You can specify custom workspace location by passing parameter `-data <path>` in the command line. `<path>` can be absolute or relative directory path.
+You can specify a custom workspace location by passing parameter `-data <path>` in the command line. `<path>` can be an absolute or relative directory path.
 
 ### Old (before DBeaver 6.1.3) default workspace location
 

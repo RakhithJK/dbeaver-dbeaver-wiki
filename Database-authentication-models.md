@@ -1,18 +1,18 @@
 DBeaver supports many different authentication models for different databases.
-Default auth model is `native` - it need user name and password which are used to authenticate at the remote database server.
+The default authentification model is `native` - it needs a user name and password which are used to authenticate at the remote database server.
 
-Some database drivers support other database-specific authentication.
+Some database drivers support other database-specific authentications.
 
 ### PgPass
 
 PostgreSQL specific model. Uses local file PGPASS to obtain user name and/or password.  
-It doesn't have any additional parameters.
+It does not have any additional parameters.
 
 Parameter | Description
 ---|---
 Model ID | postgres_pgpass
 
-### Kerberos <img src="images/ee.png" vspace="0" border="0" height="18"/>
+### Kerberos <img src="images/commercial_big.png" align="top" vspace="2" height="24">
 
 Parameter | Description
 ---|---
@@ -25,7 +25,7 @@ krb5.keytab_path | Keytab file path
 krb5.use_kinit | Force kinit utulity usage
 krb5.kdc_over_tcp | Force TCP/IP protocol usage (UDP is used by default)
 
-### Oracle Wallet <img src="images/ee.png" vspace="0" border="0" height="18"/>
+### Oracle Wallet <img src="images/commercial_big.png" align="top" vspace="2" height="24">
 
 Oracle Wallet authentication
 
@@ -51,7 +51,7 @@ Parameter | Description
 Model ID | oracle_native
 
 
-### AWS IAM auth <img src="images/ee.png" vspace="0" border="0" height="18"/>
+### AWS IAM auth <img src="images/commercial_big.png" align="top" vspace="2" height="24">
 
 AWS IAM authentication
 

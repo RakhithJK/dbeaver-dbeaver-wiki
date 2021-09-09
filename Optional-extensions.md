@@ -9,19 +9,19 @@ You can install optional extensions (plugins) in DBeaver.
 3. Check items you wish to install
 4. Click Next->Finish. Restart DBeaver.
 
-**IMPORTANT:** installation won't work if DBeaver is installed in write-protected folder (like `Program Files`, `/Applications`, `/usr/`). To proceed you need to run DBeaver from some non write-protected folder or run it as Administrator/root.
+**IMPORTANT:** The installation will not work if DBeaver is installed in a write-protected folder (like `Program Files`, `/Applications`, `/usr/`). To proceed you need to run DBeaver from some non write-protected folder or run it as the Administrator/root.
 
 ### Extension installation in EE
 
-You can do this from online Eclipse Marketplace (open Marketplace UI from main menu).
-OR you can install it manually the same way as in CE version (see above)
+You can do this from the online Eclipse Marketplace (open Marketplace UI from main menu).
+OR you can install it manually the same way as in the CE version (see above)
 
 ## Extensions
 
 ### Office integration
 
-This extension supports data export in Office formats (XLS). IT works for all platforms and all popular Offices - MS Office, Open Office, Libre Office, MacOS X.  
-It is included in EE version.  
+This extension supports data export in Office formats (XLS). It works for all platforms and all popular Offices - MS Office, Open Office, Libre Office, MacOS X.  
+It is included in the EE version.  
 
 Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-office-integration](https://marketplace.eclipse.org/content/dbeaver-office-integration)  
 P2 repository URL: [https://dbeaver.io/update/office/latest/](https://dbeaver.io/update/office/latest/)
@@ -31,7 +31,7 @@ P2 repository URL: [https://dbeaver.io/update/office/latest/](https://dbeaver.io
 ### Debugger support
 
 This extension supports SQL debugger in PostgreSQL.  
-It is included in EE version.  
+It is included in the EE version.  
 
 Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-sql-debugger](https://marketplace.eclipse.org/content/dbeaver-sql-debugger)
 P2 repository URL: [https://dbeaver.io/update/debug/latest/](https://dbeaver.io/update/debug/latest/)
@@ -39,7 +39,7 @@ P2 repository URL: [https://dbeaver.io/update/debug/latest/](https://dbeaver.io/
 ### SVG format support
 
 This extension supports ERD export in SVG (vector) format.  
-It is included in EE version.  
+It is included in the EE version.  
 
 Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-support](https://marketplace.eclipse.org/content/dbeaver-svg-support)  
 P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/update/svg/latest/)

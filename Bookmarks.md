@@ -4,8 +4,8 @@ Bookmarks are quick access links to objects of a database. They appear in the pr
 
 To create a bookmark:
 
-1. In the [Database Navigator](Database-Navigator) or under **Connections** node of the Projects view, click the database object of interest to set focus on it.
-2. Press <kbd>CTRL+d</kbd>. The **Bookmark Name** dialog box appears.
+1. In the [Database Navigator](Database-Navigator) or under **Connections** node of the Projects view, click the database object of interest to focus on it.
+2. Press <kbd>CTRL+ALT+SHIFT+D</kbd>. The **Bookmark Name** dialog box appears.
 3. In the **Bookmark Name** field, enter the bookmark name, then in the **Bookmark folder** field, click the folder, and then click **OK**:  
 
    ![](images/ug/Bookmark-dialog.png)

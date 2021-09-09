@@ -30,7 +30,7 @@ If you prefer the classic list view of the available drivers, use the **Classic*
 
 ![](images/ug/Wizard-select-connection-view.png) 
 
-You can choose Simple mode on this step. Simple mode gives simplified access to the database. Basically with the ability to view data only in schemas and tables.
+You can choose the Simple mode on this step. Simple mode gives simplified access to the database, which is basically with the ability to view data only in schemas and tables.
 
 ![](images/ug/Simple-mode-connection-view.png) 
 
@@ -60,6 +60,8 @@ If your database cannot be accessed directly, you can use SSH tunnel:
 DBeaver supports following SSH authentication methods: user/password, public key authentication and agent authentication. Supported implementations for agent authentications are [pageant](https://www.digitalocean.com/community/tutorials/how-to-use-pageant-to-streamline-ssh-key-authentication-with-putty) and [ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 If a connection has network settings specified, such a connection appears in the application with a special 'arrow' icon such as this: ![](images/ug/DB-icon-network-settings.png)
+
+#### More information about SSH configuration can be found on [SSH configuration](SSH-Configuration) page.
 
 ## Connection Details (name, type, etc.)
 You can also set the connection name, type and initial settings (such as bootstrap queries, transaction state, global filters, etc.).

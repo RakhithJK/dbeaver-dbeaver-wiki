@@ -1,7 +1,7 @@
 ## Prerequisites for Debugging
-To enable interactive debugging of PL/SQL procedures on a Postgres server, you need to use _plugin_debugger_. 
+To enable interactive debugging of PL/SQL procedures on a Postgres server, you need to use the _plugin_debugger_. 
 The _plugin_debugger_ is a typical interactive debugger delivered as an extension. 
-It requires a shared library preload in Postgres to operate the shared_preload_libraries parameter in settings. 
+It requires a shared library preload in Postgres to operate the shared_preload_libraries parameter in the settings. 
 The debugger is developed and maintained by  EnterpriseDB. Its source code is available for examination and improvement.
  
 The debugger provides the required server API for debugging PL/SQL procedures with:
@@ -27,16 +27,16 @@ After that, run the following command in the database or databases that you wish
 You can find the source code in [this repository](https://github.com/EnterpriseDB/pldebugger). 
 Installation instructions are located in the README file.
 
-## Running debugger in DBeaver interface
+## Running debugger in the DBeaver interface
 
 Open the source code of the function you want to debug. To toggle breakpoints, 
-place the caret on the line you want the function to be stopped at and use shortcut `Shift + Control + B`. 
-Alternatively, you can toggle breakpoint with your mouse by clicking on a 
+place the caret on the line you want the function to be stopped at and use a shortcut `Shift + Control + B`. 
+Alternatively, you can toggle the breakpoint with your mouse by clicking on a 
 ruler, as demonstrated in the screenshot below:
 
 ![](images/debug/pldebugger-toggle-breakpoint.png)
 
-**NB.** You must toggle breakpoints only when _Show header_ option is **not** on.
+**NB.** You must only toggle the breakpoints when _Show header_ option is **not** on.
 
 Then you need to set up a debugging configuration. 
 Locate the downward-facing arrow right to the bug icon, click on it, then

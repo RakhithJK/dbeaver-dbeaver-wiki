@@ -20,7 +20,7 @@ Manual commit mode is on if you can see the Manual commit view of the mode selec
 
 In manual commit mode, when you execute SQL statements (<kbd>Ctrl+Enter</kbd>), the number of database modifying statements that pend commitment to the database appears in the statistics field next to the mode selection button: ![](images/ug/Pending-transactions-button.png).
 
-If you hover you mouse over the field, you can see statistics of your SQL statements:
+If you hover your mouse over the field, you can see the statistics of your SQL statements:
 
 ![](images/ug/Statements-statistics.png)
 
@@ -32,12 +32,12 @@ Clicking the statistics field opens the [Transaction Log](Transaction-Log).
 
 ## Smart Commit Mode
 
-When smart commit is enabled and you are in auto-commit mode then DBeaver will monitor your activity.  
-Once you will try to execute any data modifying query (UPDATE, INSERT, DELETE, UPSERT, MERGE, etc) DBeaver will switch to manual commit mode before executing your query. Also if you will edit table data and save your changes - DBeaver will also switch to manual mode before actual data modification.
+When smart commit is enabled and you are in auto-commit mode, which allows DBeaver to monitor your activity.  
+When you try to execute any data modifying query (UPDATE, INSERT, DELETE, UPSERT, MERGE, etc) DBeaver will switch to manual commit mode before executing your query. Also if you edit any table data and save your changes - DBeaver will also switch to manual mode before the actual data modification.
 
-If option "Return to auto-commit on transaction end" is on then DBeaver will switch back to auto-commit mode once you execute Commit or Rollback command (using main toolbar or main menu actions).
+If the option "Return to auto-commit on transaction end" is on, then DBeaver will switch back to auto-commit mode once you have executed Commit or Rollback command (using the main toolbar or the main menu actions).
 
-Smart commit mode is very useful if most of the time you are working in read-only mode. It doesn't lock tables when you perform SELECT queries. Transaction will be started only when you start to modify your data.
+Smart commit mode is very useful if you work mostly in the read-only mode. It does not lock tables when you perform SELECT queries. The transaction will only be started when you start to modify your data.
 
 ## Transaction Isolation Level
 For both, Auto and Manual commit modes, you can select the transaction isolation level. To do so, click the arrow next to the mode icon and then click the required option in the dropdown list:

@@ -3,15 +3,15 @@ Connection types define how DBeaver behaves regarding:
 
   NOTE: You can override the default commit behavior during your work with connections by changing the commit mode, see [Auto and Manual Commit Modes](Auto-and-Manual-Commit-Modes).
 
-* SQL statements execution (with or without user confirmation). If set to require user confirmation for SQL execution, DBeaver shows a confirmation message every time you attempt to execute a ‘transaction’ type of query (INSERT/DELETE/UPDATE, etc.):
+* SQL statements execution (with or without user confirmation): If set to the required user confirmation for SQL execution, DBeaver shows a confirmation message every time you attempt to execute a ‘transaction’ type of query (INSERT/DELETE/UPDATE, etc.):
 
   ![](images/ug/Confirm-query-execution-dialog.png)
 
-For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. Colored are database connections that use a certain connection type in the [Database Navigator](Database-Navigator) and [Projects](Projects) views as well as editors related to these connections:
+For your convenience, DBeaver supports color-coding of connection types so that you know at once which behavior to expect when you use a certain connection. The screenshot below visualizes how the color coordinated database connections are used in [Database Navigator](Database-Navigator) and [Projects](Projects) views as well as editors related to these connections:
 
 ![](images/ug/Colored_connections.png)
 
-To manage connection types for a database connection, in the Database Navigator or Projects view, click the connection to set focus to it and then press <kbd>F4</kbd> to open the connection properties window. Then, in the properties window, in the navigation pane on the left, click **General** to see the general settings. You can see **Connection Type** field among the settings:
+To manage connection types for a database connection, in the Database Navigator or Projects view, click the connection to set the focus on it and then press <kbd>F4</kbd> to open the connection properties window. Then, in the properties window, in the navigation pane on the left, click **General** to see the general settings. You can see **Connection Type** field among the settings:
 
 ![](images/ug/Connection-Properties-General.png)
 
@@ -57,7 +57,7 @@ To edit a connection type:
 To delete a connection type:
 
 1. In the connection properties window (<kbd>F4</kbd> on a connection), on the **General** page, click **Edit** next to the **Connection type** field. The Properties for connection types window opens.
-2. In the Properties window, in the list of connection types, click the connection type to set focus to it and then click the delete button under the list: ![](images/ug/Delete-connection-type-button.png)
+2. In the Properties window, in the list of connection types, click the connection type to set the focus on it and then click the delete button under the list: ![](images/ug/Delete-connection-type-button.png)
 3. Click **Yes** in the confirmation dialog box to confirm the deletion. Otherwise, click **No**.
 4. Click **Apply** to apply the changes and keep the window open or click **Apply and Close** to apply the changes and close the window.
 

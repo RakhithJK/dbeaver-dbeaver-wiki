@@ -1,4 +1,4 @@
-## !!! This is outdated article. Debug plugin is included in DBeaver CE distribution since version 5.1 !!!
+## !!! This is an outdated article. Debug plugin has been included in the DBeaver CE distribution since version 5.1 !!!
 
 
 # Installing Debug plugin in DBeaver CE

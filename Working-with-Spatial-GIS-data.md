@@ -1,4 +1,4 @@
-Spatial data is a geometry or geography value that can be represented on a map or as a graph. Geometry object consists of series of points. [More details](https://en.wikipedia.org/wiki/Spatial_database).  
+Spatial data is a geometry or geography value that can be represented on a map or a graph. A geometry object consists of a series of points. [Please find more details here](https://en.wikipedia.org/wiki/Spatial_database).  
 
 DBeaver's support of spatial data covers the following databases:
 - PostgreSQL (PostGIS)
@@ -6,8 +6,8 @@ DBeaver's support of spatial data covers the following databases:
 - SQLite (GeoPackage)
 - H2GIS
 - SAP HANA
-- Oracle <img src="images/ee.png" vspace="0" border="0" height="18"/>
-- SQL Server <img src="images/ee.png" vspace="0" border="0" height="18"/>
+- Oracle <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>
+- SQL Server <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>
 
 ## Spatial data viewer
 
@@ -15,24 +15,28 @@ DBeaver's support of spatial data covers the following databases:
 
 ![](images/ug/Data-view-gis-presentation.png) <!--CMD:SKIP-->
 
+### Differentiating data on the map
+Every table column has its own color on the map. This helps you find needed information on the map if you know which column it belongs to.
+
+If you click on an object on the map the following information will be displayed:
+1. Name of the column in the header
+2. Displayable data (strings, numbers, dates etc.) from every other column in the corresponding row
+
+
 ### Tile layer management
-DBeaver ships with several predefined map tiles. Tiles can be chosen with the combo below the viewer:
+DBeaver ships with several predefined map tiles. The tiles can be chosen with the combo below the viewer:
 
-![](images/ug/Leaflet-Tiles-Combo.gif)
+![](images/ug/Leaflet-Tiles-Combo.png)
 
-You can choose which tile layers you want to see in the combo in the _manage_ dialogue:
+You can choose which tile layers you want to see in the combo in the _manage_ dialogue.
+In the same manage dialogue, you can add new tile layers, edit layers you previously added 
+or delete them.
 
-![](images/ug/Leaflet-Tiles-Manage-Dialogue-Choose-Tiles-to-Show.gif)
-
-In the same manage dialogue, you can add new tile layers, edit layers you added previously, 
-or delete them:
-
-![](images/ug/Leaflet-Tiles-Manage-Dialogue-User-Defined-Tiles.gif)
 ### Defining custom tile layer
 At this point, you may be wondering what to put in the Layers definition box. Here is a brief explanation.
 
 DBeaver's spatial data viewer uses Leaflet (version 1.4.0 at the moment) under the hood. 
-When providing Layers definition, you type the arguments for function L.tileLayer(), 
+You type arguments for function L.tileLayer() when providing Layers definition, 
 which installs a new tile layer. [More on that](https://leafletjs.com/reference-1.4.0.html#tilelayer) 
 function in the official Leaflet documentation. You can also see the definition of
 predefined tiles to help you get started.  
@@ -47,3 +51,21 @@ String column type to spatial.
 
 ![](images/ug/Data-view-gis-binary-to-spatial.png)
 Binary column type to spatial.
+
+## Additional features
+
+### Copying coordinates
+
+You can copy coordinates to clipboard from any point of the map: just right-click anywhere and select “Copy coordinates”. It copies the coordinates formatted as `latitude, longitude` to the clipboard.\
+**NOTE:** The coordinates are copied according to EPSG:4326 CRS and are just raw numbers. You may need to remove a comma and switch latitude and longitude places to correctly insert it into a database.
+
+### Miscellaneous buttons
+
+You can use buttons at the bottom of the view for additional features:
+* Open the generated temporary HTML file in your default browser.
+* Copy a current map to clipboard as picture
+* Save a current map as a picture into a selected folder
+* Print a current map
+* Flip latitude and longitude coordinates in source data. This can be useful if the data in your table is saved in (latitude longitude) format while Leaflet reads it as (longitude, latitude). This button doesn’t change anything in source data, it just changes how this data is read to show accurate information on the map.
+
+ 

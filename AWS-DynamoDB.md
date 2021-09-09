@@ -12,38 +12,38 @@
 
 DBeaver supports AWS Cloud and Standalone versions of DynamoDB.  
 For standalone server you need to enter endpoint (http or https URL).  
-For cloud server you must enter AWS region. DynamoDB exists in all available regions in your AWS account but tables are different.
+For cloud server you must enter the AWS region. DynamoDB exists in all available regions in your AWS account but the tables are different.
 
 AWS Access Key and Secret Key are used for authentication.  
-For 3rd-party account access you must specify 3rd party account ID (12-digits number) and 3rd party role name. This role will be used for permission management. You account must be added to whitelist in the 3rd party account.  
+For 3rd-party account access you must specify the 3rd party account ID (12-digits number) and the 3rd party role name. This role will be used for permission management. You account must be added to the whitelist in the 3rd party account.  
 
 Press "Test Connection" to validate your connection settings.
 
 ### Database navigation
 
-DynamoDB has simple metadata structure. Basically you can access only Table and Global tables.  
+DynamoDB has a simple metadata structure. Basically, you can only access Table and Global tables.  
 Table has primary attributes (a kind of primary key) and indexes.  
-DynamoDB is document-oriented database. Each table may have its own set of attributes and sub-attributes.  
+DynamoDB is a document-oriented database. Each table may have its own set of attributes and sub-attributes.  
 
 ![](images/database/dynamodb/database-structure.png)
 
 ### Viewing table data
 
-You can open table editor and see table data.  
+You can open table editor and see the table data.  
 You may need to switch to the "Data" tab.
-By default DBeaver converts DynamoDB documents into table format but you can switch to another data representation.  
+DBeaver converts DynamoDB documents into a table format by default, but you can switch to another data representation.  
 You can use data filters in order to find documents.  
 ![](images/database/dynamodb/data-view.png)
 
 ### Viewing data in JSON document format
 
-You view, search and edit JSON documents. Double-click on a document to activate editor.  
+You view, search and edit JSON documents. Double-click on a document to activate the editor.  
 ![](images/database/dynamodb/data-view-json.png)
 
 ### Executing queries
 
-DBeaver support simple SQL dialect for DynamoDB.  
-You can use WHERE clause in the same fashion as in regular SQL in order to find or filter documents.  
+DBeaver supports simple SQL dialect for DynamoDB.  
+You can use the WHERE clause in the same fashion as in regular SQL in order to find or filter documents.  
 
 You can also use JSON requests syntax to query documents. See [[Amazon DynamoDB query reference|https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html]].
 
@@ -51,4 +51,4 @@ You can also use JSON requests syntax to query documents. See [[Amazon DynamoDB 
 
 ### Exporting and importing data
 
-You can export data from DynamoDB table in different file formats (CSV, XLSX, XML, JSON, etc) or export data directly to another table.  
+You can export data from a DynamoDB table in different file formats (CSV, XLSX, XML, JSON, etc,) or export data directly to another table.  

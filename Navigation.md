@@ -25,7 +25,7 @@ To jump to the first or last row or move one row forward or backward, use the na
 To jump to a specific line, right-click anywhere in the table and click **Navigate** -> **Go to Line** on the context menu. Then in the Go to Row dialog box, enter the row number and click **OK**.
 
 ## History
-DBeaver remembers the history of such actions as applying filters to data, opening reference tables or other tables via links. You can navigate among such tables and filtered views:
+DBeaver remembers the history of actions such as applying filters to data, opening reference tables and other tables via links. You can navigate among such tables and filtered views:
 * Use the forward and backward buttons in the top toolbar: ![](images/ug/History-navigation.png)
 * Click <kbd>Ctrl+Left</kbd> or <kbd>Ctrl+Right</kbd>  
 
@@ -33,13 +33,13 @@ Hovering over these buttons displays the names of the tables or filtered views s
 
 ## Navigate Foreign Keys / Referencing Tables
 
-You can navigate by foreign keys or to referencing tables – those that reference the current table.
+You can navigate with foreign keys or reference tables – those that reference the current table.
 To open a referencing table, press <kbd>Ctrl+1</kbd> or right-click the cell and click **Navigate->Referencing tables->[table name]**:
 
 ![](images/ug/Referencing-tables-menu.png)
 
 The referencing table opens in the same editor. To navigate back and forth between the initial and referencing tables, use the history navigation buttons (![](images/ug/History-navigation.png)) in the top toolbar of the editor.
-In order to open referencing table in a new window use <kbd>Ctrl+Shift+1</kbd> shortcut to show menu.
+In order to open a referencing table in a new window use the <kbd>Ctrl+Shift+1</kbd> shortcut to the show menu.
 
 ## Navigation Links 
 In the data editor, you can navigate to linked tables – the ones that the current table references.

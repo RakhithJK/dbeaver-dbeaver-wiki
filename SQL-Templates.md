@@ -1,6 +1,6 @@
 Templates allow you to insert frequently used SQL statements into an SQL script.
 
-To see available templates, press <kbd>Ctrl+Alt+SPACE</kbd> or right-click the line in the script pane and click **SQL Template** on the context menu. A box appears with a list of available templates:
+To see available templates, press <kbd>Ctrl+Alt+SPACE</kbd> or right-click the line in the script pane and click **SQL Template** on the context menu. A box with a list of available templates appears:
 
 ![](images/ug/Available-templates.png)
 
@@ -16,7 +16,7 @@ For more information about managing templates, please visit [Eclipse Website](ht
 
 | Variable | Description |
 -----------|-------------|
-|${cursor} | Specifies the cursor position when the template edit mode is left. This is useful when the cursor should jump to different place than to the end of the template upon leaving the template edit mode. |
+|${cursor} | Specifies the cursor position when the template edit mode is left. This is useful when the cursor should jump to a different place than to the end of the template upon leaving the template edit mode. |
 |${year} | Takes the current year value |
 |${date} | Takes the current date value |
 |${time} | Takes the current time value |
