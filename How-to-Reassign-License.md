@@ -8,11 +8,11 @@ Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses tab**, where you can find all your licenses. 
 
-![](images/license/tab-licenses.png)
+![](images/license/lic-tab.png)
 
 Select which license you need to reassign and press the **VIEW** button near its license ID. You can see the License details where you can find your license status, type, maintenance period, and end support date.
 
-![](images/license/view-lic.png)
+![](images/license/lic-details.png)
 
 Also, there is the license end user field that contains the license end user's details. To reassign the license, you need to press the **CHANGE END USER** button near this field.
 
