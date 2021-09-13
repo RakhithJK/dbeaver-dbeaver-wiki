@@ -40,7 +40,7 @@
 - [[ER Diagrams]]
   - [[Database Structure Diagrams]]
   - [[Custom Diagrams]]
-  - [[Edit mode]]
+  - [[Edit mode]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[Search]]
   - [[File Search]]
   - [[DB Full-Text Search]]
