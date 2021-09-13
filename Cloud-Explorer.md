@@ -22,7 +22,7 @@ Cloud configuration is different for each cloud service provider.
 
 ### Explorer
 
-One you configure the cloud configuration you can open the Cloud Explorer dialog and start adding database connections.
+Once you configure the cloud configuration you can open the Cloud Explorer dialog and start adding database connections.
 In the top drop-down of explorer dialog you can select the active cloud configuration or click "Edit" to change the cloud configuration.
 
 In the center of the dialog you can see cloud databases in a hierarchical view. All databases are grouped by database/service type.
