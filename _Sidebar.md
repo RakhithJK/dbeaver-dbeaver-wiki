@@ -40,6 +40,7 @@
 - [[ER Diagrams]]
   - [[Database Structure Diagrams]]
   - [[Custom Diagrams]]
+  - [[Edit mode]]
 - [[Search]]
   - [[File Search]]
   - [[DB Full-Text Search]]
