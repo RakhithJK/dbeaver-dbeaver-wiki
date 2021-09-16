@@ -62,6 +62,7 @@
   - [[Connect to Database]]
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
+  - [[Change current user password]]
   - Advanced settings <!--CMD:SKIP-->
     - [[SSH Configuration]] <!--CMD:SKIP-->
     - [[Proxy configuration]] <!--CMD:SKIP-->
