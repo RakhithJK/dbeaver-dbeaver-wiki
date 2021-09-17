@@ -1,22 +1,6 @@
-You can change the current user password in Navigator Tree for connected connections.
+DBeaver has a possibility to change credentials for the current database user. 
 
-1. Right-click on connected connection.
-2. Mouse over the label "Security" and click on "Change user password".
-
-![](images/ug/Connection-Security-Change.png)
-
-3. A new password input dialog opens. Enter the new password and confirm it.
-
-![](images/ug/Change-User-Password-Dialog.png)
-
-4. Confirm the password change in the current connection settings so that it is saved in the settings for future connections. 
-(This dialog will not appear if the entered password was incorrect).
-
-![](images/ug/Change-User-Password-Save-Settings.png)
-
-Password will be changed.
-
-Databases, which support this setting:
+Databases, which support this feature:
 - PostgreSQL
 - Greenplum
 - Cockroach
@@ -28,7 +12,29 @@ Databases, which support this setting:
 - Snowflake
 - Vertica
 
-### Changing user password if the current password is expired.
+### Changing expired user password
 
-In some databases, the session can be opened for an expired password, in which case the expired password can be changed using this password change tool. Such an opportunity, for example, exists for Oracle, PostgreSQL, and Netezza databases.
-Some databases do not support this opportunity.
+Different databases perform password management for users in a different ways. For some of them you can change the user password after the expiration date. It works for Oracle, PostgreSQL, and Netezza databases.
+
+For the rest databases user has to change the password before the expiration. Otherwise, it will be impossible to do in DBeaver.
+
+### How to change user password
+
+You can change the current user password in the Navigation Tree according to the instructions below:
+
+1. Connect to the database.
+2. Open the context menu by right-clicking on the connection in the Navigation tree.
+3. Select a "Security" point and click on a "Change user password" point in a sub-menu.
+
+![](images/ug/Connection-Security-Change.png)
+
+4. When a new password input dialog opens enter the new password and confirm it.
+
+![](images/ug/Change-User-Password-Dialog.png)
+
+5. Confirm the password change in the current connection settings so that it is saved in the settings for future connections. 
+(This dialog will not appear if the entered password was incorrect).
+
+![](images/ug/Change-User-Password-Save-Settings.png)
+
+Password will be changed.
