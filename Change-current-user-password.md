@@ -32,9 +32,9 @@ You can change the current user password in the Navigation Tree according to the
 
 ![](images/ug/Change-User-Password-Dialog.png)
 
-5. Confirm the password changing to keep the new password for further connections. 
+5. Confirm the password changes. 
 (This dialog will not appear if the entered password was incorrect).
 
 ![](images/ug/Change-User-Password-Save-Settings.png)
 
-Password will be changed.
+Password is changed.
