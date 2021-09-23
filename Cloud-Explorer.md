@@ -3,7 +3,7 @@
 Cloud Explorer provides a deep integration with classic cloud service providers such as Amazon, Google and Azure.  
 
 __Note: Cloud Explorer is supported only in [[DBeaver Ultimate Edition|https://dbeaver.com/products/dbeaver-ultimate-edition/]].__
-__Version 21.0 support only AWS (Amazon Cloud Services) cloud.__
+__Version 21.0 supports only AWS (Amazon Cloud Services) cloud.__
 
 It allows users to configure cloud access once and then easily browse, connect and manager all cloud databases with just a few clicks.  
 There is no need to configure each database connection manually, all database endpoint information reads directly from the cloud provider.
