@@ -48,7 +48,7 @@ you will need to install a few additional Eclipse plugins which DBeaver depends 
 
     ![](images/development/eclipse/eclipse-project-hierarchy.png)
 
-14. If some modules build to fail (they will be marked with red cross) - update the Maven project
+14. If some modules failed to build (they will be marked with red cross) - update the Maven project
 
     ![](images/development/eclipse/eclipse-maven-update.png)
 
