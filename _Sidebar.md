@@ -115,8 +115,8 @@
 
 #### DBeaver Enterprise
 - [[Enterprise Edition]]
-- [[Lite Edition]]
-- [[Ultimate Edition]]
+- [[Lite Edition]] <!--CMD:SKIP-->
+- [[Ultimate Edition]] <!--CMD:SKIP-->
 
 #### Troubleshooting
 - [[Command Line]]
