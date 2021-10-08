@@ -146,7 +146,7 @@ Option|Description
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and the data transfer will not interfere with other calls to the database where data is being transferred to.
 **Use transactions**|This option allows you to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter.
 **Use multi-row insert**|Use multi-row insert with extended values number for higher performance. Database-specific setting.
-**Skip bind values during insert**|This option can drastically increase performance for some drivers by skipping a process of binding values and setting them directly, but it opens up a vulnerability to SQL injections. Not recommended if you are not sure of imported file contents.
+**Skip bind values during insert**|This option can drastically increase performance for some drivers like Redshift by skipping a process of binding values and setting them directly, but it opens up a vulnerability to SQL injections. Not recommended if you are not sure of imported file contents.
 **Disable batches**|Select this check-box if you want to disable the use of batch imports. The import will be made row by row. Enabling this function will show all import errors, but make the import process slower.
 **Open table editor on finish**|If selected, the table editor is to be opened when data transfer is finished.
 **Show finish message**|If selected, a notification message will be shown when the transfer is finished.
