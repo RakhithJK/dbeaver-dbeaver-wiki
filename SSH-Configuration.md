@@ -33,11 +33,14 @@ Just like SSH configuration, you have to enable it first. Gateway has the same c
 Imagine you have the following situation: your database is located on remote machine with IP address `100.100.100.100` and which is accessible through SSH. You can't access this IP directly from your machine because of your network settings or firewall, but you can access other machine with IP address `200.200.200.200` through SSH and which **is able** to access desired remote machine.
 You will need to specify `100.100.100.100` as a host in regular SSH configuration and `200.200.200.200` as a host in gateway configuration to achieve such "connection order": `localhost` &rarr; `200.200.200.200` &rarr; `100.100.100.100`.
 
+### Availability note
+Jump servers are only available with Jsch implementation. See information [below](SSH-Configuration#advanced-options).
+
 ## Advanced options
 
 ![](images/ug/network/ssh/advanced-options.png)
 
-1. Optional port forwarding configuration, see more information [below](SSH-Configuration#port-forwarding).
+1. Optional port forwarding configuration, see information [below](SSH-Configuration#port-forwarding).
 1. Keep-alive interval. Can be used to "ping" remote machine to make sure that SSH connection is still alive.
 1. Connection timeout. If the destination SSH machine is quite slow and connect takes ages to complete, you can adjust the value of this parameter.
 

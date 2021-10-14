@@ -40,6 +40,7 @@
 - [[ER Diagrams]]
   - [[Database Structure Diagrams]]
   - [[Custom Diagrams]]
+  - [[Edit mode]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[Search]]
   - [[File Search]]
   - [[DB Full-Text Search]]
@@ -61,6 +62,7 @@
   - [[Connect to Database]]
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
+  - [[Change current user password]]
   - Advanced settings <!--CMD:SKIP-->
     - [[SSH Configuration]] <!--CMD:SKIP-->
     - [[Proxy configuration]] <!--CMD:SKIP-->
@@ -113,8 +115,8 @@
 
 #### DBeaver Enterprise
 - [[Enterprise Edition]]
-- [[Lite Edition]]
-- [[Ultimate Edition]]
+- [[Lite Edition]] <!--CMD:SKIP-->
+- [[Ultimate Edition]] <!--CMD:SKIP-->
 
 #### Troubleshooting
 - [[Command Line]]

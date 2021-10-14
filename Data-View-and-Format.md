@@ -89,3 +89,25 @@ You can specify the exact format of Time, Timestamp, Date, and Number data used 
 To configure only the format for the current database, select the **Datasource "[Connection name]" settings** checkbox. To configure the settings globally, to all databases that you have in DBeaver, click **Global settings**.  
 You can specify the locale for the data format in the **Locale** area. In the **Type** dropdown list, click the name of the data type and in the **Settings** table, click the required format.  
 To apply the changes and make them visible in the table, click **Apply and Close** and then refresh the window (<kbd>F5</kbd>).
+
+## Configuring Boolean presentation
+
+![](images/ug/Data-boolean-presentation-preferences.png)
+
+You can choose between two presentation modes<sup>1</sup>:
+ - Text-based
+ - Icon-based
+
+### Text-based presentation
+This is the most customizable mode. You can:
+1. Change **labels** under <kbd>Label</kbd> column.<br>
+Otherwise, you can use presets available in <kbd>Drop-down Menu</kbd><sup>2</sup>
+2. Change **alignment** of value inside grid cell.<sup>3</sup><br>
+Following variants are available: **left**, **center**, and **right**
+3. Change **color** of value using color picker under <kbd>Color</kbd> column<sup>4</sup>.<br>
+You can reset color to match current theme's contrast color in <kbd>Drop-down Menu</kbd><sup>2</sup> &rArr; <kbd>Colors</kbd> &rArr; <kbd>Use theme default color</kbd> 
+4. Change font **style** in <kbd>Drop-down Menu</kbd><sup>2</sup> &rArr; <kbd>Styles</kbd>.<br> 
+Following variants are available: normal, **bold**, and _italic_
+
+### Icon-based presentation
+This presentation only supports alignment changing.
