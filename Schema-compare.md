@@ -48,6 +48,16 @@ You can also switch to another diff report representation (diagram, json, yaml, 
 
 ![](images/ug/tools/schema_compare_report_type.png)
 
+### Compare logs
+
+If you want to get acquainted with the comparison logs, you first specify the logging level on the Preferences->Editors->Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get maximum information you can choose the level DEBUG.
+
+![](images/ug/tools/schema_compare_log_levels.png)
+
+After compare operations, you can click on the button `Show log`. A log will be open in the Editor and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open schema compare wizard in this case.
+
+![](images/ug/tools/schema_compare_show_logs.png)
+
 ### Compare schemaless bases
 
 Some bases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource entirely.
@@ -80,8 +90,22 @@ Steps you need:
 - Find -vmargs command
 - Add a new line after this command: -Dliquibase.license.key=yourKey (example: -Dliquibase.license.key=ABwwGgQU...)
 - Open DBeaver and "Schema compare" window. Key will be checked at this step
-(If PRO objects didn't appear in schema compare changelog - check your logs. Maybe license expired or key is invalid)
 
-If the license key is valid, then the "Object types" dialog will be extended on PRO objects.
+You can also add the Liquibase Pro key via UI in Preferences->Editors->Schema Compare preference page.
+Use the `Import Liquibase Pro Key` button to open the Import key dialog.
+
+![](images/ug/tools/schema_compare_import_LB_key_button.png)
+
+You can add your key in the Liquibase Key text field manually, throw the `Paste` button, or use the `Load` button to download a file.
+You can check the license state with the `Check Key State` button. After pressing the button, you can see the result of the checking in the `Messages` field.
+
+![](images/ug/tools/schema_compare_import_LB_dialog_ivalid_state.png)
+
+![](images/ug/tools/schema_compare_import_LB_dialog_valid_state.png)
+
+We advise you to restart the program after adding a key for more correct program work. Settings сhanges will not be applied to the comparison wizard if it is already open in another window. The key will be saved in the DBeaver settings. If you specified the key in the .ini file, as well as installed another key through the Import Key dialog, then the key from the .ini file will be in priority.
+
+If the license key is valid, then the `Object types` dialog will be extended on PRO objects.
+(If PRO objects didn't appear in schema compare changelog - check your logs. Maybe license expired or key is invalid)
 
 ![](images/ug/tools/schema_compare_settings_PRO_types.png)
