@@ -18,14 +18,14 @@ You can compare two schema/database structures and generate a report in the foll
 ### Compare settings
 
 Re-validate that you have chosen the correct objects to compare.
-You can also specify the types of changes to be processed: creates, drops, or alters. By default, all types of changes are enabled.
+You can also specify the types of changes to be processed: create, drop, or alter. By default, all types of changes are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
 
 For comparisons, table containers should be used. 
 Schemes - if the database supports the schemas. 
 Databases - if the database supports catalogs and does not support the schemes. 
-Datasources - if there is no support schemas, nor catalog support (you can find an example below in "Compare schemaless bases").
+Datasources - if there is no support schemas or catalog support (you can find an example below in "Compare schemaless bases").
 
 ![](images/ug/tools/schema_compare_container_error.png)
 
@@ -50,11 +50,11 @@ You can also switch to another diff report representation (diagram, json, yaml, 
 
 ### Compare logs
 
-If you want to get acquainted with the comparison logs, you first specify the logging level on the Preferences->Editors->Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get maximum information you can choose the level DEBUG.
+If you want to get acquainted with the comparison logs, you first specify the logging level on the Preferences->Editors->Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get maximum information you can choose the DEBUG level.
 
 ![](images/ug/tools/schema_compare_log_levels.png)
 
-After compare operations, you can click on the button `Show log`. A log will be open in the Editor and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open schema compare wizard in this case.
+After comparing operations, you can click on the `Show log` button. A log will be open in the Editor and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open the schema compare wizard in this case.
 
 ![](images/ug/tools/schema_compare_show_logs.png)
 
@@ -89,7 +89,7 @@ Steps you need:
 - Find and open your dbeaver.ini file. It is located in the DBeaver root directory.
 - Find -vmargs command
 - Add a new line after this command: -Dliquibase.license.key=yourKey (example: -Dliquibase.license.key=ABwwGgQU...)
-- Open DBeaver and "Schema compare" window. Key will be checked at this step
+- Open DBeaver and "Schema compare" window. The key will be checked at this step.
 
 You can also add the Liquibase Pro key via UI in Preferences->Editors->Schema Compare preference page.
 Use the `Import Liquibase Pro Key` button to open the Import key dialog.
