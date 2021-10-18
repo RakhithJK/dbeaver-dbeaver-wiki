@@ -1,3 +1,5 @@
+**Note: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
+
 Edit mode for ER Diagrams is a special feature that lets you create database objects while using the visual presentation of ER Diagrams. It can be accessed on ERD tab of any database object that supports it. Changes made to a diagram in edit mode will generate an SQL script that can be executed to persist all the changes made.
 You can enable Edit mode by either choosing it from the context menu or by clicking a button on the bottom toolbar.
 
