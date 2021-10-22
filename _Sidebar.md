@@ -25,6 +25,7 @@
   - [[Working with spatial/GIS data]]
   - [[Working with XML and JSON]]
   - [[Managing Data Formats]]
+  - [[Virtual column expressions]]
 - [[SQL Editor]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
