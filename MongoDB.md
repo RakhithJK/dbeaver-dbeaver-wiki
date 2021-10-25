@@ -25,9 +25,7 @@ In a grid, DBeaver will try to unify all documents in some particular collection
 ![](images/database/mongodb/mongodb-data-edit.png)
 
 ### Executing JavaScript
-JS statements can be executed in the SQL editor as usual.
-
-Mongo scripting reference
+JS statements can be executed in the SQL editor as usual. DBeaver supports all JS queries for MongoDB 2 and 3 as well as a subset of the `mongo` shell queries.
 
 The following example creates a user in the current database.
 ```js
