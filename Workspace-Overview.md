@@ -81,5 +81,6 @@ The current workspace for DBeaver can be switched by using the File -> Switch Wo
 ![](images/ug/Switch-workspace-from-file.png)
 
 The Switch Workspace --> Other... menu item will open the switch workspace dialog. The dialog will allow you to browse for or manually enter a new workspace location. The combo will also allow you to select your previously selected workspaces. 
+When you switch your workspace you can select settings (like "Preferences") that will be transferred to the new workspace.
 
 ![](images/ug/Switch-workspace-dialog.png)
