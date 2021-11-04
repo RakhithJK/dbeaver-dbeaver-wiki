@@ -14,7 +14,7 @@ NOTE: Table and schema diagrams are read-only. You can rearrange the layout, dra
 
 ## Relationship Notation
 
-Lines representing relationship between tables can look different depending on the nature of the relationship. Please note that any line can have only one beginning and one end. Even for one-to-many and other relationships that imply otherwise. In those situations you will just see more than one line.
+Lines representing the relationship between tables can look different depending on the nature of the relationship. Please note that any line can have only one beginning and one end. Even for one-to-many and other relationships that imply otherwise. In those situations you will just see more than one line.
 
 Notation|Description
 ---------------|-----------
