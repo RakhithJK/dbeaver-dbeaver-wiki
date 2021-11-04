@@ -16,7 +16,7 @@ Databases, which support this feature:
 
 Different databases perform password management for users in a different ways. For some of them you can change the user password after the expiration date. It works for Oracle, PostgreSQL, and Netezza databases.
 
-For the rest databases user has to change the password before the expiration. Otherwise, it will be impossible to do in DBeaver.
+For the rest, databases users have to change the password before the expiration. Otherwise, it will be impossible to do it in DBeaver.
 
 ### How to change user password
 
@@ -37,4 +37,4 @@ You can change the current user password in the Navigation Tree according to the
 
 ![](images/ug/Change-User-Password-Save-Settings.png)
 
-Password is changed.
+The password has been changed.
