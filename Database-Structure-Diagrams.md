@@ -18,8 +18,8 @@ Lines representing relationship between tables can look different depending on t
 
 Notation|Description
 ---------------|-----------
-![](images/relations_in_erd/PK-to_table.png)|Solid line means that the foreign key column is also a primary key in referencing table
-![](images/relations_in_erd/FK-to_table.png)|Dashed line means that the foreign key column is not a primary key in referencing table
+![](images/relations_in_erd/PK-to_table.png)|The solid line means that the foreign key column is also a primary key in a referencing table
+![](images/relations_in_erd/FK-to_table.png)|The dashed line means that the foreign key column is not a primary key in a referencing table
 ![](images/relations_in_erd/PK-FK-to_one_table.png)|If the relationship between two tables is other than one-to-one, you will see multiple lines that all start at the same one point and all merge at the end point.
-![](images/relations_in_erd/black-dot.png)|Black dot represents the beginning of the line and is attached to a table that has a foreign key referencing another table
-![](images/relations_in_erd/rectangle.png)|White rectangle  represents the end of the line and is attached to a referenced table. It only appears at the end of the dashed line
+![](images/relations_in_erd/black-dot.png)|The black dot represents the beginning of the line and is attached to a table that has a foreign key referencing another table
+![](images/relations_in_erd/rectangle.png)|The white rectangle  represents the end of the line and is attached to a referenced table. It only appears at the end of the dashed line
