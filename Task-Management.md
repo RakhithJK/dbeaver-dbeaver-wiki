@@ -5,7 +5,7 @@ Also, tasks can be [[scheduled|Task Scheduler]] for regular execution.
 
 ### Create a task from tool configuration
 You can save the tool configuration into a task and run your task later with a single click.
-For example, you can start [[Data Transfer]] wizard and configure the data export from several tables in the SQLite database into CSV files:
+For example, you can start the [[Data Transfer]] wizard and configure the data export from several tables in the SQLite database into CSV files:
 
 ![](images/ug/tools/task-save-from-tool.png)
 
@@ -17,7 +17,7 @@ Now click on the `Open Tasks view` link to open the task list:
 
 ![](images/ug/tools/task-view.png)
 
-You can configure Database Tasks View to see more or fewer View columns. Use right-click inside the Database Tasks tab and choose the `Configure columns` button from the menu.
+You can configure the Database Tasks View to see more or fewer View columns. Right-click inside the Database Tasks tab and choose the `Configure columns` button from the menu.
 
 ![](images/ug/tools/task-view-configure.png)
 
@@ -48,7 +48,7 @@ In the task wizard, you can choose the task category, task type, task folder, an
 
 ### Tasks folders
 
-For better structuring, you can store your tasks in folders. Create folder can also be from the context menu Database Tasks View.
+For better structuring, you can store your tasks in the folders. Create folder can also be from the context menu Database Tasks View.
 
 ![](images/ug/tools/task-folders-menu.png)
 
@@ -60,7 +60,7 @@ You can choose a project for the new task folder and add a new unique name.
 
 You can change the task folder for an existing task in the task Edit dialog (use button `Back`). Or you can drag your task to another task folder in the View.
 
-Task folder as a task can be deleted with the button `Delete`.
+The task folder as a task can be deleted with the button `Delete`.
 
 ### Scheduling tasks
 
