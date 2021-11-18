@@ -12,7 +12,7 @@ Parameters <kbd>Host</kbd> and <kbd>Port</kbd> may depend on the mail service yo
 
 Then you can use <kbd>Test connection</kbd> button to verify that host and credentials are valid.
 
-See [troubleshooting](E-Mail authorization troubleshooting) section for more information about resolving common authorization problems.
+See [troubleshooting](Authorization troubleshooting) section for more information about resolving common authorization problems.
 
 ### Setting up data transfer
 When at least one [profile](SMTP profile configuration) is present, you can actually set up e-mail sending. Create a regular export task, go to <kbd>Output</kbd> page and make sure the <kbd>Send results by E-Mail</kbd> option is enabled. By pressing <kbd>Configure</kbd> label near it, you can specify several recipients and subject for your mail:
