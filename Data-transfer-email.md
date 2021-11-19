@@ -1,6 +1,6 @@
 **Note: Following feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
 
-DBeaver offers a way to send exported data via [Data Transfer](Data-transfer) to E-Mail.
+DBeaver offers a way to send data exported via [Data Transfer](Data-transfer) by E-Mail.
 
 ### SMTP profile configuration
 
@@ -25,7 +25,7 @@ That's it. After task is completed, specified recipients will receive an e-mail 
 
 You may face various problem while setting up a new SMTP profile.
 
-There are described several common errors when using Gmail and solutions for them:
+Several common errors when using Gmail and solutions for them are described below:
 - `535-5.7.8 Username and Password not accepted`. If you are certain that you have entered valid credentials, then give a try allowing less secure apps. Otherwise, check username and password for correctness.<br>Read more at https://support.google.com/accounts/answer/6010255
 - `534-5.7.9 Application-specific password required`. You have two-factor authorization enabled. You will need to generate a special password for DBeaver to use.<br>Read more at https://support.google.com/accounts/answer/185833
 
