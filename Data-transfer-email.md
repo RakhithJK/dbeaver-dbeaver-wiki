@@ -19,14 +19,14 @@ When at least one [profile](#SMTP-profile-configuration) is present, you can act
 
 ![](images/ug/data-transfer/mail-configuration.png)
 
-That's it. After the task is completed, the specified recipients will receive an email containing the exported file in a specified format during the data transfer format.
+That's it. After the task is completed, the specified recipients will receive an email containing the exported file in a specified format during the data transfer.
 
 ### Authorization troubleshooting
 
 You may face various problems while setting up a new SMTP profile.
 
 Several common errors when using Gmail and solutions for them are described below:
-- `535-5.7.8 Username and Password not accepted`. If you are certain that you have entered valid credentials, then try allowing less secure apps. Check that the username and password are correct.<br>Read more at https://support.google.com/accounts/answer/6010255
+- `535-5.7.8 Username and Password not accepted`. Check that the username and password are correct. If you are certain that you have entered valid credentials, then try allowing less secure apps.<br>Read more at https://support.google.com/accounts/answer/6010255
 - `534-5.7.9 Application-specific password required`. You have two-factor authorization enabled. You will need to generate a special password for DBeaver to use.<br>Read more at https://support.google.com/accounts/answer/185833
 
-There were also several cases when antivirus' would block DBeaver from sending an e-mail.
+There were also several cases when antivirus' would block DBeaver from sending an email.
