@@ -76,6 +76,7 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
+- [[How to add additional artifacts to the library]]
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
@@ -143,6 +144,7 @@
 
 #### Miscellaneous
 - [[Connect to Oracle Database using JDBC OCI driver]]
+- [[Sample Database]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
