@@ -76,7 +76,7 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
-- [[How to add additional artifacts to the library]]
+- [[How to add additional artifacts to the driver]]
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
