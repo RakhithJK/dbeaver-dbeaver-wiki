@@ -1,5 +1,3 @@
-# How to add additional artifacts to the library
-
 ## Introduction
 
  DBeaver has the functionality to add and edit artifacts in existing drivers.
