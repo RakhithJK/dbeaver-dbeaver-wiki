@@ -2,7 +2,7 @@
 
 ## Introduction
 
- DBeaver has the functionality to add new artifacts into existing drivers.
+ DBeaver has the functionality to add and edit artifacts in existing drivers.
 
 ## How to open
 
