@@ -141,6 +141,9 @@
 - [[How to Import License]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
 
+#### Miscellaneous
+- [[Connect to Oracle Database using JDBC OCI driver]]
+
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
 - [[Develop in Eclipse|Develop-in-Eclipse]] <!--CMD:SKIP-->
