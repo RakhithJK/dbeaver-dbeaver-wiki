@@ -3,8 +3,8 @@
 You can compare two schema/database structures and generate a report in the following formats:
 - DDL script (series of create/alter/drop statements)
 - Diff diagram (sort of ER diagram)
-- Liquibase change log
-- Liquibase change report (json, yaml or plaintext)
+- Liquibase changelog
+- Liquibase change report (JSON, YAML, or plaintext)
 
 ### Selecting objects to compare
 
@@ -18,7 +18,7 @@ You can compare two schema/database structures and generate a report in the foll
 ### Compare settings
 
 Re-validate that you have chosen the correct objects to compare.
-You can also specify the types of changes to be processed: create, drop, or alter. By default, all types of changes are enabled.
+You can also specify the types of changes to be processed: create, drop, or alter. By default, all kinds of changes are enabled.
 
 ![](images/ug/tools/schema_compare_settings.png)
 
@@ -40,21 +40,21 @@ Click on `Compare Schemas` to generate a diff report.
 
 By default, DDL diff is generated. It contains a series of creating, alter and/or drop statements that will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
-You can enable/disable particular changes in the tree on the left side of the diff page:
+You can enable/disable certain changes in the tree on the left side of the diff page:
 
 ![](images/ug/tools/schema_compare_result_ddl.png)
 
-You can also switch to another diff report representation (diagram, json, yaml, plaintext).
+You can also switch to another diff report representation (diagram, JSON, YAML, plaintext).
 
 ![](images/ug/tools/schema_compare_report_type.png)
 
 ### Compare logs
 
-If you want to get acquainted with the comparison logs, you first specify the logging level on the Preferences->Editors->Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get maximum information you can choose the DEBUG level.
+To get acquainted with the comparison logs, you first specify the logging level on the Preferences-> Editors-> Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get complete information, you can choose the DEBUG level.
 
 ![](images/ug/tools/schema_compare_log_levels.png)
 
-After comparing operations, you can click on the `Show log` button. A log will be open in the Editor and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open the schema compare wizard in this case.
+After comparing operations, you can click on the `Show log` button. A log will be open in the Editor, and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open the schema compare wizard in this case.
 
 ![](images/ug/tools/schema_compare_show_logs.png)
 
@@ -103,9 +103,9 @@ You can check the license state with the `Check Key State` button. After pressin
 
 ![](images/ug/tools/schema_compare_import_LB_dialog_valid_state.png)
 
-We advise you to restart the program after adding a key for more correct program work. Settings сhanges will not be applied to the comparison wizard if it is already open in another window. The key will be saved in the DBeaver settings. If you specified the key in the .ini file, as well as installed another key through the Import Key dialog, then the key from the .ini file will be in priority.
+We advise you to restart the program after adding a key for correct program work. Settings сhanges will not be applied to the comparison wizard if it is already open in another window. The key will be saved in the DBeaver settings. If you specified the key in the .ini file and installed another key through the Import Key dialog, then the key from the .ini file will be in priority.
 
-If the license key is valid, then the `Object types` dialog will be extended on PRO objects.
-(If PRO objects didn't appear in schema compare changelog - check your logs. Maybe license expired or key is invalid)
+If the license key is valid, the `Object types` dialog will be extended on PRO objects.
+(If PRO objects didn't appear in the schema compare changelog - check your logs. Maybe license expired or key is invalid)
 
 ![](images/ug/tools/schema_compare_settings_PRO_types.png)
