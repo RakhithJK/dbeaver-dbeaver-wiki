@@ -11,12 +11,12 @@ as they must be identical. Currently, DBeaver uses the 12.2.0.1 version by defau
 so we recommend using the 12.2.0.1 version of the Instant Client.
 
 Install the Instant Client into some folder. We will refer to this folder as ORA_HOME for the rest of the article.
-Append ORA_HOME to PATH variable and restart DBeaver before proceeding.
+Append ORA_HOME to the PATH variable and restart DBeaver before proceeding.
 
 ## Configuration
 1. Place your _tnsnames.ora_ file into ORA_HOME/network/admin directory.
 2. In DBeaver, click Window -> Driver Manager -> New. This opens Create new driver dialog.
-3. In the Settings tab, add a Driver name of your liking. Set Class Name to 'oracle.jdbc.OracleDriver'.
+3. In the Settings tab, add a _Driver name_ of your liking. Set _Class Name_ to 'oracle.jdbc.OracleDriver'.
 Set URL Template to 'jdbc:oracle:oci:@tnsAlias', where 'tnsAlias' is alias from your _tnsnames.ora_ file.
 Make sure that the Driver Type is set to Generic.
 4. In the Libraries tab, you need to add Maven artifacts. To do that, click Add Artifact. Paste the following XML into
