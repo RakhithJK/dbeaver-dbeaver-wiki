@@ -16,11 +16,11 @@
 
 ## How to use
 
-For add mode, a **DBeaver** supports two modes **Dependency Declaration** and **Declare Artifacts Manually** editing mode supports only second **Declare Artifacts Manually**.
+For add mode, **DBeaver** supports two modes **Dependency Declaration** and **Declare Artifacts Manually**. The editing mode only supports the second **Declare Artifacts Manually**.
 
 ### Dependency Declaration
 
-Mode parses the inputted text and creates artifacts out of the results of parsing. It Supports multiple input formats written below.
+Mode parses the inputted text and creates artifacts out of the results of parsing. It supports the multiple input formats written below.
 
 ![Dependency Declaration](images/edit-maven-artifacts-dependency-declaration.png)
 
@@ -33,7 +33,7 @@ Mode parses the inputted text and creates artifacts out of the results of parsin
     ```
 
 * Maven
-  * For single artifact
+  * For a single artifact
 
     ``` XML
     <dependency>
@@ -67,6 +67,6 @@ Mode parses the inputted text and creates artifacts out of the results of parsin
 
 ### Declare Artifacts Manually
 
-It allows to manually set up parameters. Allows adding only one item per dialog.  
+It allows you to manually set up parameters. It allows you to add only one item per dialog.  
 
 ![Declare artifacts manually](images/edit-maven-artifacts-manual.png)
