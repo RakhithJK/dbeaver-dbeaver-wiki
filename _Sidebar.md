@@ -142,7 +142,7 @@
 - [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
 
 #### Miscellaneous
-- [[Connect to Oracle Database using JDBC OCI driver]]
+- [[How to connect to Oracle Database using JDBC OCI driver]]
 - [[Sample Database]]
 
 #### Development <!--CMD:SKIP-->
