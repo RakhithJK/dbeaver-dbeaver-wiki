@@ -13,7 +13,7 @@ To see the source script on which the plan is based, click the **View Source** b
 
 ### Advanced plan view <img src="images/commercial_big.png" align="top" vspace="2" height="24">
 
-In DBeaver [Enterprise Edition](Enterprise-Edition) you can use an advanced (graph) visualization of the execution plan.  
+In DBeaver [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions you can use an advanced (graph) visualization of the execution plan.  
 This visualization shows the most expensive (cost-based) plan nodes. You can hide all irrelevant nodes (see node details), use horizontal or vertical plan layouts, export it to an image or save it as JSON to send to a colleague.
 
 ![](images/ug/Exec-plan-graph.png)

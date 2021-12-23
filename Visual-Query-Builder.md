@@ -2,8 +2,6 @@
 
 **Query Builder** is a user-friendly visualization tool that will help you make sense of your complex database designs. It can be useful when you need to understand the various relationships between different tables. Also, it can be helpful for those who are not very familiar with SQL scripting or if you do not want to insert script commands manually. The tool creates SQL scripts automatically based on the visual schema you have created. 
 
-*Note: Visual Query Builder presents only in DBeaver [Enterprise Edition](Enterprise-Edition)
-
 ## Opening Visual Query Builder 
 
 To open **Visual Query Builder** click the **Open Query Builder** button in the [SQL Editor](SQL-Editor) tool bar. 

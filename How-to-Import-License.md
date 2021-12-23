@@ -5,13 +5,13 @@
 * [Import of License extension](#license-extension)
 * [License Manager](#license-manager)
 
-To start using DBeaver EE you can
+To start using commercial versions of DBeaver you can
 
 * request a [Trial license](https://dbeaver.com/trial/) for 2 weeks;
 * request an [Academic license](https://dbeaver.com/academic-license/) if you are a student or a teacher;
-* [buy](https://dbeaver.com/buy/) a Subscription license, Standard DBeaver EE license or DBeaver EE license extension.
+* [buy](https://dbeaver.com/buy/) a Subscription license, Standard DBeaver license or DBeaver license extension.
 
-After purchasing the DBeaver EE license or getting the Trial/Academic license, you will receive a License text by email. 
+After purchasing the DBeaver license or getting the Trial/Academic license, you will receive a License text by email. 
 It will also be available in your personal account on our [site](https://dbeaver.com/).
 This License text will contain your License ID e. g. DB-821MPZFO-ZA8W, the start date and license owner’s name and company name. It is very important to import your License correctly.
 
@@ -45,7 +45,7 @@ To open the License details and copy the License Key press the **View** button. 
 
 ![](images/license/lic-details.png)
 
-At the bottom of the page you can find the License Key required to start using DBeaver EE.
+At the bottom of the page you can find the License Key required to start using DBeaver.
 There are two options how to copy your License Key from the personal account:
 
 1)Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to the clipboard.
@@ -58,11 +58,11 @@ There are two options how to copy your License Key from the personal account:
 
 ![](images/license/download.png)
 
-Then you need to insert the copied License Key to License Manager in Dbeaver EE.
+Then you need to insert the copied License Key to License Manager in DBeaver.
 
 ### Insert the License key to License Manager
 
-To start using DBeaver EE with your License Key you need to open License Manager in DBeaver EE:
+To start using commercial versions of DBeaver with your License Key you need to open License Manager in DBeaver:
 Help -> DBeaver License Info
 
 ![](images/license/help.png)
@@ -91,7 +91,7 @@ Then press the **Import** button and your license will be added to the License M
 
 ![](images/license/lm-imported.png)
 
-You have successfully imported your license. Now you can close the License Manager and start using Dbeaver EE.  
+You have successfully imported your license. Now you can close the License Manager and start using DBeaver.  
 
 ### Import of Subscription license
 
@@ -105,15 +105,15 @@ If you do not have an active internet connection or work behind a corporate fire
 
 *Check your internet connection and/or firewall settings and restart application.*
 
-In this case you need to check that DBeaver EE has internet access or you will need to configure your firewall.
+In this case you need to check that DBeaver has internet access or you will need to configure your firewall.
 
 ### License extension
 
-The standard DBeaver EE license is a perpetual license with a limited period of support (1 year or 2 years). 
+The standard DBeaver license is a perpetual license with a limited period of support (1 year or 2 years). 
 
-After the end of the selected support period you can continue to use DBeaver Enterprise Edition without support and updates or buy a license extension or a new license.
+After the end of the selected support period you can continue to use commercial versions of DBeaver without support and updates or buy a license extension or a new license.
 
-If you buy the DBeaver EE license extension and Dbeaver has internet access, the license in DBeaver EE will be updated automatically. Otherwise, you have to import the license key from your personal account once again.
+If you buy the DBeaver license extension and DBeaver has internet access, the license in DBeaver will be updated automatically. Otherwise, you have to import the license key from your personal account once again.
 
 ### License Manager
 

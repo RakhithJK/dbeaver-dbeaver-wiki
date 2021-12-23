@@ -73,4 +73,4 @@ The following are mock data generators for data types with their configurable pa
 ![](images/mockdata_progress.png)
 
 ***
-<sup>*</sup> These features are available in the [DBeaver Enterprise Edition](https://dbeaver.com/) only.
+<sup>*</sup> These features are available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.
