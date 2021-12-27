@@ -144,6 +144,7 @@
 #### Miscellaneous
 - [[How to connect to Oracle Database using JDBC OCI driver]]
 - [[Sample Database]]
+- [[Importing CA Certificates into DBeaver's JRE]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
