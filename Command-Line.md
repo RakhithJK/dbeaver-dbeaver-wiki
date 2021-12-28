@@ -11,7 +11,7 @@ Name|Value|Example
 -help|Prints help message|
 -stop|Quits DBeaver|
 -dump|Prints DBeaver thread dump|
--f|Opens file in DBeaver UI|`-f c:\some-path\some-file.sql`
+-f|Opens file in DBeaver UI, if has command has -con argument, connects it to datasource|`-f c:\some-path\some-file.sql`
 -con|Opens database connection in DBeaver UI|See [connection parameters table](#connection-parameters)
 -closeTabs|Closes all open editor tabs|
 -disconnectAll|Closes all open connections|
