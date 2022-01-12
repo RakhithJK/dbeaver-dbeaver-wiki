@@ -109,3 +109,12 @@ If the license key is valid, the `Object types` dialog will be extended on PRO o
 (If PRO objects didn't appear in the schema compare changelog - check your logs. Maybe license expired or key is invalid)
 
 ![](images/ug/tools/schema_compare_settings_PRO_types.png)
+
+### Object types being compared by LiquibasePRO
+
+    Check Constraints
+    Procedures
+    Functions
+    Triggers
+    Synonyms (Oracle)
+    Package with the body (Oracle)
