@@ -112,9 +112,9 @@ If the license key is valid, the `Object types` dialog will be extended on PRO o
 
 ### Object types being compared by LiquibasePRO
 
-    Check Constraints
-    Procedures
-    Functions
-    Triggers
-    Synonyms (Oracle)
-    Package with the body (Oracle)
+- Check Constraints
+- Procedures
+- Functions
+- Triggers
+- Synonyms (Oracle)
+- Package with the body (Oracle)
