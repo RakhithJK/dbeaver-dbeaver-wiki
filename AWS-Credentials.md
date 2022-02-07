@@ -1,5 +1,5 @@
 DBeaver is integrated with AWS IAM authentication.  
-Thus it provides the possibility to authenticate in AWS in order to access your cloud databases.  
+Thus it provides the possibility to authenticate in AWS to access your cloud databases.  
 
 AWS IAM has endless ways to authorize and authenticate users. DBeaver supports all basic ones.
 
@@ -21,7 +21,7 @@ Please read the [AWS credentials documentation](https://docs.aws.amazon.com/sdk-
 
 ### Access keys
 
-It is the most simple way to authenticate. You only need to enter the IAM user access key and secret key. You can save them locally or (more securely) enter them every time you connect to a database.
+It is the most straightforward way to authenticate. You only need to enter the IAM user access key and secret key. You can save them locally or (more securely) enter them every time you connect to a database.
 
 Official AWS instructions: [Managing access keys for IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
 
@@ -32,6 +32,6 @@ The official AWS instructions can be found at [crednetials config files](https:/
 
 ### [[Single Sign On|AWS-SSO]]
 
-If your AWS account has configured SSO portal then you can use a web-based SSO authorization.
-SSO support can be enabled for Default and Profile-based AWS authoriation types.  
+If your AWS account has a configured SSO portal, you can use a web-based SSO authorization.
+SSO support can be enabled for Default and Profile-based AWS authorization types.  
 You need to turn on the "Enable SSO" option.  
