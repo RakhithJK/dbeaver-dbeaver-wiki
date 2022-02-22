@@ -1,3 +1,5 @@
+**NB: This feature is not available in the [Lite](Lite-Edition) edition.**
+
 ## Creating tasks
 The task is a saved configuration of a database tool. It can be started from the task management view or from the menu by a single click.
 You can create tasks for frequently used tools.
