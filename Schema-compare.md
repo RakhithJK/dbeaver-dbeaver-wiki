@@ -1,4 +1,6 @@
-## Schema compare/migration
+## Schema Compare/Migrate
+
+**NB: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
 
 You can compare two schema/database structures and generate a report in the following formats:
 - DDL script (series of create/alter/drop statements)
