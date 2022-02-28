@@ -28,10 +28,17 @@ Official AWS instructions: [Managing access keys for IAM users](https://docs.aws
 ### AWS Profiles
 
 Similar to default credentials but you can also choose which credentials profile you want to use.  
-The official AWS instructions can be found at [crednetials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html).
+The official AWS instructions can be found at [credentials config files](https://docs.aws.amazon.com/credref/latest/refdocs/creds-config-files.html).
 
 ### [[Single Sign On|AWS-SSO]]
 
 If your AWS account has a configured SSO portal, you can use a web-based SSO authorization.
 SSO support can be enabled for Default and Profile-based AWS authorization types.  
-You need to turn on the "Enable SSO" option.  
+You need to turn on the "Enable SSO" option.
+
+### AWS Secrets Manager
+If you have a configured AWS Secret you can use it to access you database. Secrets can be used for a RDS databases and Redshift.
+Instructions on how to create AWS Secret can be found [here](https://docs.aws.amazon.com/secretsmanager/latest/userguide/).
+Password field is required. 
+#### Note
+Secret needs to be in the same region as the database.
