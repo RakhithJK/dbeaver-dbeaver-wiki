@@ -36,7 +36,7 @@ Name|Value|Example
 ### VM arguments
 
 You can pass any advanced Java parameters supported by your local JVM (Oracle, OpenJDK, IBM, etc).  
-Parameters supported by Oracle JVM (11): https://docs.oracle.com/en/java/javase/11/tools/java.html
+Parameters supported by Oracle JVM (11): `https://docs.oracle.com/en/java/javase/11/tools/java.html`
 
 Parameters supported by all JVMs:
 
@@ -47,7 +47,7 @@ Name|Value|Example
 
 ### Connection parameters
 All connection parameters must be supplied as a single command line argument, parameters are divided by pipe (`|`). Parameter name and value are divided by `=`.  
-Example: -con "driver=sqlite|database=C:\db\SQLite\Chinook.db|name=SQLiteChin|openConsole=true|folder=SQLite"
+Example: `-con "driver=sqlite|database=C:\db\SQLite\Chinook.db|name=SQLiteChin|openConsole=true|folder=SQLite"`
 
 Name|Value|Example
 ----|-----|-------
