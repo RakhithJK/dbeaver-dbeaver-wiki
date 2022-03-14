@@ -72,3 +72,8 @@ id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjuncti
 connect|Connect to this database|`connect=false`
 openConsole|Open SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Create new connection|`create=false` (true by default). If set to false then an existing connection configuration will be used. The name or id parameter must be specified.
+## Configuring variables
+You can add new environment variables in DBeaver, they can be used to resolve templates afterwards.
+Name|Value|Example
+----|-----|-------
+-vars | Path to configuration file with environment variables, **recommended** for passing down private information like password | `-vars c:\some-path\some-file.conf`
