@@ -63,15 +63,15 @@ password|User password (optional)|`password=mysecret`
 auth|Authentication model ID. See [Auth models](Database-authentication-models) |`auth=postgres_pgpass`
 authProp.propName|Custom authentication parameters (depends on the driver and [auth model](Database-authentication-models))|`authProp.oracle.net.wallet_location=C:/temp/ora-wallet`
 savePassword|Does not ask user for a password on connection|`savePassword=true`
-showSystemObjects|Show/Hides system schemas, tables ,etc|`showSystemObjects=true`
-showUtilityObjects|Show/Hides utility schemas, tables ,etc|`showUtilityObjects=true`
+showSystemObjects|Shows/Hides system schemas, tables ,etc|`showSystemObjects=true`
+showUtilityObjects|Shows/Hides utility schemas, tables ,etc|`showUtilityObjects=true`
 folder|Put new connection in a folder|`folder=FolderName`
 autoCommit|Sets connection auto commit flag (default value depends on driver)|`autoCommit=true`
 prop.propName|Advanced connection parameters (depend on driver)|`prop.connectTimeout=30`
 id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjunction with `create=false`)
 connect|Connects to this database|`connect=false`
 openConsole|Open SQL console for this database (sets `connect` to true)|`openConsole=true`
-create|Create new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
+create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
 ## Configuring variables
 You can add new environment variables in DBeaver. They can be used to resolve templates variables afterward.
 Name|Value|Example
