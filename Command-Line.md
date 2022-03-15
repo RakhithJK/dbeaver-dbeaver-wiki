@@ -65,12 +65,12 @@ authProp.propName|Custom authentication parameters (depends on the driver and [a
 savePassword|Does not ask user for a password on connection|`savePassword=true`
 showSystemObjects|Shows/Hides system schemas, tables ,etc|`showSystemObjects=true`
 showUtilityObjects|Shows/Hides utility schemas, tables ,etc|`showUtilityObjects=true`
-folder|Put new connection in a folder|`folder=FolderName`
+folder|Puts a new connection in a folder|`folder=FolderName`
 autoCommit|Sets connection auto commit flag (default value depends on driver)|`autoCommit=true`
 prop.propName|Advanced connection parameters (depend on driver)|`prop.connectTimeout=30`
 id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjunction with `create=false`)
 connect|Connects to this database|`connect=false`
-openConsole|Open SQL console for this database (sets `connect` to true)|`openConsole=true`
+openConsole|Opens the SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
 ## Configuring variables
 You can add new environment variables in DBeaver. They can be used to resolve templates variables afterward.
