@@ -3,7 +3,7 @@
 Command line parameters might be passed directly to dbeaver[.exe] executable.  
 In Windows, you can use `dbeaver-cli.exe` executable (it does not spawn a new window so you can see the output messages).  
 
-Also, you can add parameters in the `dbeaver.ini` configuration file - in the beginning of the file and each parameter on its own line.
+Also, you can add parameters in the `dbeaver.ini` configuration file. You need to the beginning of the file, and each parameter has to be on its line.
 
 ## DBeaver control
 Name|Value|Example
@@ -11,14 +11,14 @@ Name|Value|Example
 -help|Prints help message|
 -stop|Quits DBeaver|
 -dump|Prints DBeaver thread dump|
--f|Opens file in DBeaver UI, if command has -con argument, connects it to datasource|`-f c:\some-path\some-file.sql`
+-f|Opens the file in DBeaver UI, if the command has -con argument, connects it to datasource|`-f c:\some-path\some-file.sql`
 -con|Opens database connection in DBeaver UI|See [connection parameters table](#connection-parameters)
 -closeTabs|Closes all open editor tabs|
 -disconnectAll|Closes all open connections|
 -reuseWorkspace|Forces reuse of single workspace by multiple DBeaver instances|
 -newInstance|Forces new DBeaver instance creation (do not try to reuse already running one)|
 -bringToFront|Brings the DBeaver window on top of other applications|
--var <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Customs variables for runTask. You can change existing variables in the task. You cannot add new task variables with this parameter. You can add several parameters at once to the command line, each starting with "-var". Used right before -runTask. Template: "-var variableName=variableValue"|`-var film=sakila.film`<br/>`-var actor=sakila.actor`<br/>`-runTask "exportFromSakila"`<br/>EE version only.
+-var <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Customs variables for runTask. You can change existing variables in the task. You cannot add new task variables with this parameter. You can add several parameters at once to the command line, each starting with "-var". Used right before -runTask. Template: `-var variableName=variableValue`|`-var film=sakila.film`<br/>`-var actor=sakila.actor`<br/>`-runTask "exportFromSakila"`<br/>EE version only.
 -runTask <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 -license <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
