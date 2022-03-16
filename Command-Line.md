@@ -11,7 +11,7 @@ Name|Value|Example
 -help|Prints help message|
 -stop|Quits DBeaver|
 -dump|Prints DBeaver thread dump|
--f|Opens file in DBeaver UI, if has command has -con argument, connects it to datasource|`-f c:\some-path\some-file.sql`
+-f|Opens file in DBeaver UI, if command has -con argument, connects it to datasource|`-f c:\some-path\some-file.sql`
 -con|Opens database connection in DBeaver UI|See [connection parameters table](#connection-parameters)
 -closeTabs|Closes all open editor tabs|
 -disconnectAll|Closes all open connections|
@@ -76,4 +76,4 @@ create|Creates new connection|`create=false` (true by default). If it is set as 
 You can add new environment variables in DBeaver. They can be used to resolve templates variables afterward.
 Name|Value|Example
 ----|-----|-------
--vars | Path to configuration file with environment variables, **recommended** for passing down private information like password | `-vars c:\some-path\some-file.conf`
+-vars | Path to configuration file with environment variables, **recommended** for passing down private information like password | `-vars c:\some-path\some-file.property`
