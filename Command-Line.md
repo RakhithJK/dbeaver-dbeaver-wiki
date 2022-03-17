@@ -75,17 +75,22 @@ openConsole|Opens the SQL console for this database (sets `connect` to true)|`op
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
 
 ## Supplying variables from the outside world
-You can define variables in a file and pass it to DBeaver using the `-vars` command-line argument to reference them later.
+You can create a file and fill it with pairs of named values and pass it to DBeaver using the `-vars` command-line argument.
 
-This file must consist of pairs of the name and its associated value, as shown in the example below:
+Variables from this file can be accessed by other command-line arguments, in the data transfer wizard, and in other places that support variable resolving.
+
+For example, you may want to put your credentials in that file to avoid showing them to everyone else:
+
 ```properties
-# Lines that start with that symbol are comments and ignored
+# Lines that start with the `#` symbol are comments and therefore ignored
 sampleVar1=abc
 someOtherVar=DBeaver is cool
 password=P4$$w0r3
 ```
 
-For example, you may want to define your credentials in such a way and reference them within the other commands (or even inside tasks):
+And use them like so:
 ```shell
 dbeaver.exe -vars C:\secrets.properties -con "driver=<xxx>|url=<xxx>|password=${password}"
 ```
+
+Here, the `-con` argument has the `${password}` variable that will be replaced with `P4$$w0r3` defined in the example file from above.
