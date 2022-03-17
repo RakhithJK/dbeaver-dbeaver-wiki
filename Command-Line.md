@@ -19,6 +19,7 @@ Name|Value|Example
 -newInstance|Forces new DBeaver instance creation (do not try to reuse already running one)|
 -bringToFront|Brings the DBeaver window on top of other applications|
 -var <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Customs variables for runTask. You can change existing variables in the task. You cannot add new task variables with this parameter. You can add several parameters at once to the command line, each starting with "-var". Used right before -runTask. Template: `-var variableName=variableValue`|`-var film=sakila.film`<br/>`-var actor=sakila.actor`<br/>`-runTask "exportFromSakila"`<br/>EE version only.
+-vars|Path to a file containing variables|`-vars c:\path\to\file.properties`<br>For more information see [the main article](#supplying-variables-from-the-outside-world)
 -runTask <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 -license <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
@@ -72,8 +73,19 @@ id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjuncti
 connect|Connects to this database|`connect=false`
 openConsole|Opens the SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
-## Configuring variables
-You can add new environment variables in DBeaver. They can be used to resolve templates variables afterward.
-Name|Value|Example
-----|-----|-------
--vars | Path to configuration file with environment variables, **recommended** for passing down private information like password | `-vars c:\some-path\some-file.property`
+
+## Supplying variables from the outside world
+You can define variables in a file and pass it to DBeaver to reference them later.
+
+This file must consist of pairs of the name and its associated value, as shown in the example below:
+```properties
+# Lines that start with that symbol are comments and ignored
+sampleVar1=abc
+someOtherVar=DBeaver is cool
+password=P4$$w0r3
+```
+
+For example, you may want to define your credentials in such a way and reference them within the other commands (or even inside tasks):
+```shell
+dbeaver.exe -con "driver=<xxx>|url=<xxx>|password=${password}"
+```
