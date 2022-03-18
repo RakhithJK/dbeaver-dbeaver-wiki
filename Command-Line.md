@@ -74,7 +74,7 @@ connect|Connects to this database|`connect=false`
 openConsole|Opens the SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
 
-## Supplying variables from the outside world
+## Declare external variables in a file
 You can create a file and fill it with pairs of named values and pass it to DBeaver using the `-vars` command-line argument.
 
 Variables from this file can be accessed by other command-line arguments, in the data transfer wizard, and in other places that support variable resolving.
