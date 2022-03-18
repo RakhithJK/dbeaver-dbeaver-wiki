@@ -19,7 +19,7 @@ Name|Value|Example
 -newInstance|Forces new DBeaver instance creation (do not try to reuse already running one)|
 -bringToFront|Brings the DBeaver window on top of other applications|
 -var <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Customs variables for runTask. You can change existing variables in the task. You cannot add new task variables with this parameter. You can add several parameters at once to the command line, each starting with "-var". Used right before -runTask. Template: `-var variableName=variableValue`|`-var film=sakila.film`<br/>`-var actor=sakila.actor`<br/>`-runTask "exportFromSakila"`<br/>EE version only.
--vars|Path to a file containing variables|`-vars c:\path\to\file.properties`<br>For more information see [the main article](#supplying-variables-from-the-outside-world)
+-vars|Path to a property file with variables|`-vars c:\path\to\file.properties`<br>For more information see [the main article](#supplying-variables-from-the-outside-world)
 -runTask <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 -license <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
