@@ -76,6 +76,7 @@
   - [[Transaction Log]]
   - [[Pending transactions]]
 - [[Database drivers]]
+- [[Kerberos Authentication]]
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
