@@ -57,6 +57,7 @@
 - [[Shortcuts]]
 
 #### Database Management
+- [[Sample Database]]
 - [[Database Connections]]
   - [[Create Connection]]
   - [[Edit Connection]]
@@ -142,9 +143,8 @@
 - [[How to Import License]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
 
-#### Miscellaneous
-- [[How to connect to Oracle Database using JDBC OCI driver]]
-- [[Sample Database]]
+#### Tutorials
+- [[Connecting to Oracle Database using JDBC OCI driver]]
 - [[Importing CA Certificates into DBeaver]]
 
 #### Development <!--CMD:SKIP-->
