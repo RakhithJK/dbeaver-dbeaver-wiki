@@ -30,6 +30,6 @@ kinit is a command-line/terminal tool that obtains and caches an initial ticket-
 
 ### Using password
 
-This method is almost the same as using a keytab file, but instead of providing and encrypted file you need to enter a password manually.
+This method is almost the same as using a keytab file, but instead of providing an encrypted file you need to enter a password manually.
 
 ![](images/kerberos_pasword.png)
