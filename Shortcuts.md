@@ -1,78 +1,74 @@
-This is a brief list of the most important DBeaver shortcuts.  
-You can redefine any (or almost any) of these shortcuts. Here is the list of the default values.  
-Most of the following commands are accessible from DBeaver's main menu, context menu or editor toolbar (or from all of them).  
-Use the context menu wherever it is possible - it usually shows all actions accessible at this moment.
+Here is a shortlist of the most useful hotkeys in DBeaver UI for Windows and Linux users. It will help you work faster and more efficiently in DBeaver. 
+
+
+### Connection
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|F4|F4|Open object editor|
+|Ctrl+Shift+D|⌃⇧D|Open database meta-object|
+|Ctrl+Alt+Enter|⌃⌥↩|Open a new SQL console. No script file will be created.|
+|Ctrl+]|⌃]|Create a new SQL script([***](#cur_connection))|
+|F3|F3|Open existing SQL script ([***](#cur_connection))|
+|Ctrl+Enter|⌃↩|Open most recent SQL script([***](#cur_connection)) for an active connection|
+
+
+### Data Editor
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+Insert|⌥Insert|Add new row|
+|Ctrl+D|⌃D|Copy values from the row above to the current row|
+|Ctrl+Alt+D|⌃⌥D|Copy values from the row below to the current row|
+|Alt+Delete|⌥⌦|Delete current row|
+|Ctrl+Alt+Insert|⌃⌥Insert|Duplicate current row|
+|Ctrl+S|⌃S|Apply data changes|
+|Ctrl+F|⌘F|Find and replace text|
+|Enter|↩|Edit cell value with inline editor|
+|Esc|Esc|Reset cell to the original value|
+|Ctrl+Shift+Y|⇧⌘Y|Changes the selection to lowercase|
+|Ctrl+Shift+X|⇧⌘X|Changes the selection to uppercase|
 
 ### SQL Editor
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+X|⌥X|Execute script([**](#cur_script))|
+|Ctrl+Enter|⌃↩|Execute SQL statement([*](#cur_query))|
+|Ctrl+|⌃|Execute SQL statement in a new tab|
+|Ctrl+Alt+Shift+X|⌃⌥⇧X|Execute script's statements in separate results tabs|
+|Ctrl+/|⌃/|Add or remove the single-line comment|
+|Ctrl+Shift+/|⌃⇧/|Add or remove the multi-line comment|
+|Ctrl+Space|⌃Space|Enable autocomplete|
 
-Shortcut|Action
---------|-----
-<kbd>CTRL+Enter</kbd>|Execute current query ([*](#cur_query))
-<kbd>CTRL+\\</kbd>|Execute current query in a new tab
-<kbd>ALT+X</kbd>|Execute current script ([**](#cur_script))
-<kbd>CTRL+ALT+'</kbd>|Execute selected SQL expression and print results
-<kbd>CTRL+SHIFT+E</kbd>|Explain current query execution plan
-<kbd>CTRL+ALT+SHIFT+X</kbd>|Execute queries of current script simultaneously, showing results in separate tabs
-<kbd>CTRL+9</kbd>|Switch active connection (for SQL script)
-<kbd>CTRL+Space</kbd> <kbd>Option+Space</kbd>|SQL completion proposals popup
-<kbd>CTRL+ALT+Space</kbd>|SQL templates proposals popup
-<kbd>CTRL+SHIFT+F</kbd>|Format current script ([**](#cur_script)) using current formatter
-<kbd>CTRL+/</kbd> <kbd>CTRL+SHIFT+/</kbd>|Toggle single/multi line comment
-<kbd>ALT+Up</kbd> <kbd>ALT+Down</kbd>|Jump to previous/next query
-<kbd>CTRL+6</kbd> <kbd>CTRL+SHIFT+6</kbd> <kbd>ALT+6</kbd>|Toggle editor/results panels (maximize/minimize/switch)
-<kbd>CTRL+SHIFT+X</kbd> <kbd>CTRL+SHIFT+Y</kbd>|Convert selected text into upper/lower case
-
-### Data viewer
-Shortcut|Action
---------|-----
-<kbd>TAB</kbd>|Switch to record/grid mode
-<kbd>CTRL+~</kbd>|Switch presentation (grid, plain text, json ,etc)
-<kbd>CTRL+1</kbd>|Foreign keys navigation menu
-<kbd>ALT+Space</kbd>|Navigate to the link in active cell
-<kbd>ALT+Left</kbd>|Navigate backward in history
-<kbd>ALT+Right</kbd>|Navigate forward in history
-<kbd>CTRL+2</kbd>|Toggle sorting by current column
-<kbd>F11</kbd>|Current column filters menu
-<kbd>CTRL+F11</kbd>|Current column filter dictionary panel
-<kbd>F7</kbd> <kbd>CTRL+7</kbd>|Toggle right panels on/off
-<kbd>F5</kbd>|Refresh results (re-run query)
-
-### Data editor
-Shortcut|Action
---------|-----
-<kbd>Enter</kbd>|Activate inline editor
-<kbd>SHIFT+Enter</kbd>|Open value editor dialog or separate value editor (for LOB values)
-<kbd>Delete</kbd> <kbd>ALT+Delete</kbd>|Delete row
-<kbd>ALT+Insert</kbd>|Add new row
-<kbd>CTRL+ALT+Insert</kbd>|Copy current row
-<kbd>Escape</kbd>|Cancel changes in current cell/row
+### Search
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Ctrl+H|⌃H|Open the Search dialog|
+|Ctrl+Alt+Shift+F|⌥⇧⌘L|Quick search in Windows|
 
 ### Database Navigator
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Ctrl+Shift+,|⌃⇧,|Link with editor|
+|F5|F5|Refresh the selected items|
+|F2|F2|Rename the selected item|
+|Ctrl+S|⌘S|Save changes to the current file|
+|Ctrl+Shift+S|⇧⌘S|Save changes to all open files|
 
-Shortcut|Action
---------|-----
-<kbd>F2</kbd>|Rename current element (if supported)
-<kbd>F4</kbd>|Open editor of selected element(s)
-<kbd>F5</kbd>|Refresh selected element(s)
-<kbd>Delete</kbd>|Delete selected element(s) (if supported)
-<kbd>CTRL+ALT+SHIFT+D</kbd>|Add bookmark on selected element
-<kbd>Alt+Enter</kbd>|Show properties of selected element
-<kbd>F3</kbd> <kbd>CTRL+[</kbd>|Open SQL editor for current connection ([***](#cur_connection)). Shows script selector popup.
-<kbd>CTRL+F3</kbd> <kbd>CTRL+]</kbd>|Open new SQL editor for current connection ([***](#cur_connection)). Always creates new script.
-<kbd>CTRL+Enter</kbd>|Open recent SQL editor for current connection ([***](#cur_connection)). Opens last modified script or creates a new script.
+### Utility
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Ctrl+Shift+C|⌃⇧C|Advanced Copy|
+|Ctrl+Shift+V|⌃⇧V|Paste with extra settings|
 
-### Other
+### Help
+|Shortcut for Windows&Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|F1|F1|Open the documentation|
 
-Shortcut|Action
---------|-----
-<kbd>ALT+~</kbd>|Shows database tools context menu
-<kbd>CTRL+0</kbd>|Switch active schema/catalog (available if SQL/database editor is open)
-<kbd>CTRL+SHIFT+C</kbd>|Advanced copy. Works in different contexts and performs "smart copy" operation (usually with parameters).
-<kbd>CTRL+SHIFT+V</kbd>|Advanced paste. Same as "smart copy" but for "paste".
+Remember that you can always change the keyboard shortcut in the DBeaver settings: _Window - Preferences - User Interface - Keys._ Select command and add a keyboard shortcut to the _Binding row._
+
 
 #### References
 
 <a id="cur_query"></a>`*` - Current query is the query under cursor or the selected text. Query is separated from other script queries by delimiter   (; by default) or by empty lines.  
 <a id="cur_script"></a>`**` - Current script is a set of all queries in the current SQL file. If there is a text selection then only queries in this selection are processed. Queries are separated from each other with a delimiter (; by default).  
 <a id="cur_connection"></a>`**` - Current connection detected from active window and selection. If active (focused) window is SQL editor or database object editor then the current connection is the same as in this editor. If the active window is the database navigator then the active connection is the "owner" connection of the currently selected element. In other cases there is no current connection and DBeaver will ask you to choose the connection explicitly.
-
