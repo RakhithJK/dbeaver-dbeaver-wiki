@@ -297,11 +297,11 @@ Ctrl+]|⌃]|Create a new SQL script([***](#cur_connection))|
 |Ctrl+F9|⌃F9|Compile|
 
 ### Utility
-|Shortcut for Windows&Linux|Shortcut for macOS|Action|
-|-------|-------|-------|
-|Ctrl+Shift+C|⌃⇧C|Advanced Copy|
-|Ctrl+Shift+V|⌃⇧V|Paste with extra settings|
-
+| Shortcut for Windows&Linux              | Shortcut for macOS |Action|
+|-------------------------------------|--------------------|-------|
+| Ctrl+Shift+C                        | ⌃⇧C                |Advanced Copy|
+| Ctrl+Shift+V                        | ⌃⇧V                |Paste with extra settings|
+| CTRL+ALT+PAGE_UP CTRL+ALT+PAGE_DOWN |                    |Switch between tabs in database object Properties view|
 ### Help
 |Shortcut for Windows&Linux|Shortcut for macOS|Action|
 |-------|-------|-------|
