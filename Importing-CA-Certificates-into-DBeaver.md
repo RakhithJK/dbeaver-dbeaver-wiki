@@ -43,4 +43,4 @@ It's pretty easy. Just find the path where you installed DBeaver and open the `j
 
 ### Step 3: Copy the cacerts
 
-Open the folder with the Java you found in step 1. Locate the `cacerts` files under `/lib/security`, then copy-paste it into `<PATH_FROM_STEP_2>/jre/security`, replacing the old file. Restart DBeaver, and you are ready to go.
+Open the folder with the Java you found in step 1. Locate the `cacerts` files under `/lib/security`, then copy-paste it into `<PATH_FROM_STEP_2>/lib/security`, replacing the old file. Restart DBeaver, and you are ready to go.
