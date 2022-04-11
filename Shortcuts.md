@@ -6,7 +6,7 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |F4|F4|Open object editor|
 |Ctrl+Shift+D|⌃⇧D|Open database meta-object|
 |Ctrl+Alt+Enter|⌃⌥↩|Open a new SQL console. No script file will be created.|
-Ctrl+]|⌃]|Create a new SQL script([***](#cur_connection))|
+|Ctrl+]|⌃]|Create a new SQL script([***](#cur_connection))|
 |F3|F3|Open existing SQL script ([***](#cur_connection))|
 |Ctrl+Enter|⌃↩|Open most recent SQL script([***](#cur_connection)) for an active connection|
 |Ctrl+Alt+Shift+K|⌃4|Commit changes in current session|
