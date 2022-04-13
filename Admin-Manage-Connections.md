@@ -72,7 +72,7 @@ It is possible to set the connection settings as read-only (protected by passwor
 
 ### Using environment variables
 
-You can use refernces on environment variables in most of connection configuration properties.  
+You can use references on environment variables in most of connection configuration properties.  
 For example:
 ```json
 "postgres-jdbc-161537836e8-3e0957d039995715": {
