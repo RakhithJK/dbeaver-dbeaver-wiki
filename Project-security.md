@@ -38,5 +38,3 @@ In order to enable a project password open the project properties. You can do th
 ![](images/ug/project-security-preferences.png)
 
 On the project security page click on the "Set Password" button to enable the project password. Click on Clear to disable it (you will need to enter a current project password to clear it).
-
-#### "Encrypt configuration" option
