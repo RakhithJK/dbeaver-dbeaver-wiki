@@ -134,6 +134,7 @@
 
 #### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
+- [[Managing variables|Admin-Variables]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
 - [[Workspace]] <!--CMD:SKIP-->
