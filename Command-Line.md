@@ -3,7 +3,7 @@
 Command line parameters might be passed directly to dbeaver[.exe] executable.  
 In Windows, you can use `dbeaver-cli.exe` executable (it does not spawn a new window so you can see the output messages).  
 
-Also, you can add parameters in the `dbeaver.ini` configuration file. You need to the beginning of the file, and each parameter has to be on its line.
+Also, you can add parameters in the `dbeaver.ini` configuration file. You need to write them to the beginning of the file, and each parameter has to be on its line.
 
 ## DBeaver control
 Name|Value|Example
