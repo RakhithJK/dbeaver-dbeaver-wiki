@@ -19,7 +19,7 @@ Name|Value|Example
 -newInstance|Forces new DBeaver instance creation (do not try to reuse already running one)|
 -bringToFront|Brings the DBeaver window on top of other applications|
 -var <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Customs variables for runTask. You can change existing variables in the task. You cannot add new task variables with this parameter. You can add several parameters at once to the command line, each starting with "-var". Used right before -runTask. Template: `-var variableName=variableValue`|`-var film=sakila.film`<br/>`-var actor=sakila.actor`<br/>`-runTask "exportFromSakila"`<br/>EE version only.
--vars|Path to a property file with variables|`-vars c:\path\to\file.properties`<br>For more information see [the main article](#declare-external-variables-in-a-file)
+-vars|Path to a property file with variables|`-vars c:\path\to\file.properties`<br>For more information see [the main article](Admin-Variables#declare-external-variables-in-a-file)
 -runTask <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Executes specified task|`-runTask "@projectName:taskName"`.<br/>EE version only. See [[task scheduler]].
 -license <img src="images/commercial_big.png" align="top" vspace="4" height="16"/>|Path to the EE license file|`-license "/etc/licenses/dbeaver.txt"`.<br/>EE version only.
 
@@ -75,22 +75,4 @@ openConsole|Opens the SQL console for this database (sets `connect` to true)|`op
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
 
 ## Declare external variables in a file
-You can create a file and fill it with pairs of named values and pass it to DBeaver using the `-vars` command-line argument.
-
-Variables from this file can be accessed by other command-line arguments, in the data transfer wizard, and in other places that support variable resolving.
-
-For example, you may want to put your credentials in that file to avoid showing them to everyone else:
-
-```properties
-# Lines that start with the `#` symbol are comments and therefore ignored
-sampleVar1=abc
-someOtherVar=DBeaver is cool
-password=P4$$w0r3
-```
-
-And use them like so:
-```shell
-dbeaver.exe -vars C:\secrets.properties -con "driver=<xxx>|url=<xxx>|password=${password}"
-```
-
-Here, the `-con` argument has the `${password}` variable that will be replaced with `P4$$w0r3` defined in the example file from above.
+See the [main article](Admin-Variables#declare-external-variables-in-a-file)
