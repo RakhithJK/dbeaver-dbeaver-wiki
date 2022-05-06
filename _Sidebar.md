@@ -36,6 +36,7 @@
   - [[Visual Query Builder]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Script Management]]
   - [[Client Side Commands|Client-side-scripting]]
+    - [[Export Command|Export-Command]]
   - Debug
     - [[PostgreSQL Debugger|PGDebugger]]
 - [[ER Diagrams]]
