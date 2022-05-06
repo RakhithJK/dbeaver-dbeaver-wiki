@@ -18,7 +18,7 @@ Command | Database | Description |
 The `@export` command allows you to open the data transfer wizard with prefilled settings.
 
 This article describes supported settings by that command, their purpose and allowed values.
-Generally, this article reflects everything that is accessible in the data transfer wizard.
+Generally, this article reflects every setting that is accessible in the data transfer wizard.
 Settings are written in the order they appear in the wizard, so you can always look at the wizard to quickly locate any of settings.
 
 The body of the command consists of JSON which looks like this:
