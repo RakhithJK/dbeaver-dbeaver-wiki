@@ -23,7 +23,7 @@ Settings are written in the order they appear in the wizard, so you can always l
 
 The body of the command consists of JSON which looks like this:
 
-```json
+```
 {
     "type": <ID of the processor>,
     "producer": {
@@ -40,7 +40,7 @@ The body of the command consists of JSON which looks like this:
 
 Due to certain limitations, it must be written on a single line, without line delimiters:
 
-```json
+```
 @export { "type": "csv", "producer": { ... }, "consumer": { ... }, "processor": { ... } }
 ```
 
