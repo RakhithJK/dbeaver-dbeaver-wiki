@@ -175,3 +175,31 @@ Here's the description of each attribute:
 |`splitByRowCount`|Max row on sheet|Split by row count|Integer|`1048575`|*Any*|
 |`splitByColNum`|Column group|Column number for grouping rows on sheet by column value|Integer|`0`|*Any*|
 |`dateFormat`|Excel date format|Excel date and time format (e.g. m/d/yy h:mm) it can be changed in Excel application|String|`m/d/yy`|`m/d/yy`, `d-mmm-yy`, `d-mmm`, `mmm-yy`, `h:mm AM/PM`, `h:mm:ss AM/PM`, `h:mm`, `h:mm:ss`, `m/d/yy h:mm`|
+
+<!--
+
+final StringBuilder sb = new StringBuilder();
+
+for (DataTransferProcessorDescriptor processor : DataTransferRegistry.getInstance().getNodeById("stream_consumer").getProcessors()) {
+    sb.append(String.format("### %s (`%s`)", processor.getName(), processor.getId().substring(7)));
+    sb.append("\n|Id|Name|Description|Type|Default Value|Allowed Values|\n|---|---|---|---|---|---|");
+    for (DBPPropertyDescriptor property : processor.getProperties()) {
+        final Object[] values = ((IPropertyValueListProvider<?>) property).getPossibleValues(null);
+        final String defaultValue = CommonUtils.toString(property.getDefaultValue());
+        sb.append(String.format("\n|`%s`|%s|%s|%s|%s|%s|",
+            property.getId(),
+            CommonUtils.escapeHtml(property.getDisplayName()),
+            CommonUtils.escapeHtml(property.getDescription()),
+            CommonUtils.escapeHtml(property.getDataType().getSimpleName()),
+            CommonUtils.isEmpty(defaultValue) ? CommonUtils.escapeHtml("*<empty>*") : String.format("`%s`", CommonUtils.escapeHtml(defaultValue)),
+            ArrayUtils.isEmpty(values) ? "*Any*" : Arrays.stream(values)
+                .map(x -> String.format("`%s`", CommonUtils.escapeHtml(CommonUtils.toString(x))))
+                .collect(Collectors.joining(", "))
+        ));
+    }
+    sb.append("\n\n");
+}
+
+DBWorkbench.getPlatformUI().copyTextToClipboard(sb.toString(), false);
+
+-->
