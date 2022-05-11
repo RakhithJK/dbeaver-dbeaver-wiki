@@ -73,7 +73,7 @@ id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjuncti
 connect|Connects to this database|`connect=false`
 openConsole|Opens the SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
-save|Saves new connection|When `create=true`, then `save=false` (default) makes new connection temporary, `save=true` means that new connection will be saved and accessible between DBeaver launches, 
+save|Saves new connection|When `create=true`, then `save=false` (default) makes new connection temporary, `save=true` means that new connection will be saved and accessible between DBeaver launches.
 
 ## Declare external variables in a file
 See the [main article](Admin-Variables#declare-external-variables-in-a-file)
