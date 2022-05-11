@@ -50,7 +50,7 @@ Name|Value|Example
 All connection parameters must be supplied as a single command line argument. The parameters are divided by pipe (`|`). The parameter name and value is divided by `=`.  
 Example: `-con "driver=sqlite|database=C:\db\SQLite\Chinook.db|name=SQLiteChin|openConsole=true|folder=SQLite"`
 
-Name|Value|Example
+Name|Description|Example
 ----|-----|-------
 name|Connection name|`Test connection`
 driver|Driver name or ID|`driver=sqlite`, `driver=mysql`, etc
@@ -73,6 +73,7 @@ id|Connection id|`oracle_thin-16a88e815bd-70598e648cedd28c` (useful in conjuncti
 connect|Connects to this database|`connect=false`
 openConsole|Opens the SQL console for this database (sets `connect` to true)|`openConsole=true`
 create|Creates new connection|`create=false` (true by default). If it is set as false, then an existing connection configuration will be used. The name or id parameter must be specified.
+save|Saves new connection|When `create=true`, then `save=false` (default) makes new connection temporary, `save=true` means that new connection will be saved and accessible between DBeaver launches, 
 
 ## Declare external variables in a file
 See the [main article](Admin-Variables#declare-external-variables-in-a-file)
