@@ -4,12 +4,32 @@ If you need to set some variable and `dbeaver.ini` have read-only permissions (t
 
 ### For linux:
 
-`~/.eclipse/org.jkiss.dbeaver.product_{version}/configuration/config.ini`
+You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `osgi.configuration.area`
 
-Your product version you can find when open DBeaver `Help -> About`
+![image](https://user-images.githubusercontent.com/46003534/168042031-526fe1df-702c-4bb0-9e75-df5dece2af93.png)
 
-## Example
+***
 
-For example, you can set system property with your custom path to point to the keystore in **config.ini**
+If **config.ini** does not exist, you can create it in configuration directory `nano config.ini`
 
-`-Djavax.net.ssl.truststore=<path>`
+***
+
+### For Windows:
+
+You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `osgi.configuration.area`
+
+Example output:
+
+```
+osgi.configuration.area=file:/C:/Users/user/AppData/Local/DBeaverUltimate/configuration/
+```
+
+## config.ini example
+
+For example, you can set system property with your custom path to point to the keystore that you created
+
+`-Djavax.net.ssl.truststore=/path/to/your/cert`
+
+Or for example you can change language 
+
+`osgi.nl=fr`
