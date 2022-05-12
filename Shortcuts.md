@@ -44,7 +44,7 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |Ctrl+1|⌃1|Foreign keys and tables referencing current table|
 |Ctrl+R|⌃R|Reject data changes|
 |Ctrl+Backspace|⌃⌫|Set cell to default value|
-|Ctrl+`|⌃`|Switch results presentation|
+|Ctrl+\`|⌃\`|Switch results presentation|
 |Tab|Tab|Toggle results Grid/Record view|
 |F7|F7|Toggle extra result panels|
 |Ctrl+2|⌃2|Toggle results sort order (ascending/descending/default)|
