@@ -1,22 +1,25 @@
 The `@export` command allows you to open the data transfer wizard with prefilled settings.
 
-This article describes supported settings by that command, their purpose and allowed values.
-Generally, this article reflects every setting that is accessible in the data transfer wizard.
-Settings are written in the order they appear in the wizard, so you can always look at the wizard to quickly locate any of settings.
+It may be helpful in case you're editing several SQL queries and want to quickly perform the export
+of the produced results without creating any additional data transfer tasks.
 
-The body of the command consists of JSON which looks like this:
+**Disclaimer**: This article describes supported settings by the `@export` command, their purpose, and allowed values.
+Generally, this article contains every setting accessible in the data transfer wizard.
+Settings are written in the order they appear in the wizard, so you can always look at the wizard to quickly locate any of these settings.
+
+The body of the command consists of JSON text, which looks like this:
 
 ```
 {
     "type": <ID of the processor>,
     "producer": {
-        <producer-specific settings>
+        <producer settings>
     },
     "consumer": {
         <consumer settings>
     },
     "processor": {
-        <processor settings>
+        <processor-specific settings>
     },
 }
 ```
@@ -34,17 +37,17 @@ Here's the description of each attribute:
 |`type`|Type of the processor.|
 |`producer`|Settings that affect how the data is extracted.<br>See the full table of supported settings in [the main section](#Producer-Settings).|
 |`consumer`|Settings that affect how the data is transformed before processing.<br>See the full table of supported settings in [the main section](#Consumer-Settings).|
-|`processor`|Settings that are specific to the chosen processor by the `type` attribute.<br>See the full table of supported processors in [the main section](#Processor-Settings).|
+|`processor`|Settings that affect how the data is processed. This includes formatting, transformations, etc.<br>These settings are specific to the processor specified by the `type` attribute.<br>See the full table of supported processors in [the main section](#Processor-Settings).|
 
 ### Producer Settings
 
 |Id|Name|Description|Type|Default Value|Allowed Values|
 |---|---|---|---|---|---|
-|`extractType`|Extract type|*Need clarification*|String|`SINGLE_QUERY`|`SINGLE_QUERY`, `SEGMENTS`|
-|`segmentSize`|Segment size|*Need clarification*|Integer|`100000`|*Any*|
+|`extractType`|Extract type|Data extraction mode. Denotes whether a single query or multiple segmented queries should be used to extract data.|String|`SINGLE_QUERY`|`SINGLE_QUERY`, `SEGMENTS`|
+|`segmentSize`|Segment size|Specifies how many rows are read per segment during data extraction.<br>See `extractType`|Integer|`100000`|*Any*|
 |`fetchSize`|Fetch size|Number of rows to fetch per one server round trip.<br>May greatly affect extraction performance.|Integer|`10000`|*Any*|
-|`openNewConnections`|Open new connection(s)|Open new physical connection for data reading.<br>Makes great sense if you are going to continue to work with your database during export process.|Boolean|`true`|*Any*|
-|`queryRowCount`|Select row count|Query row count before performing export.<br>This will let you to track export progress but may cause performance faults in some cases.|Boolean|`true`|*Any*|
+|`openNewConnections`|Open new connection(s)|Open new physical connection for data reading.<br>Makes great sense if you are going to continue to work with your database during the export process.|Boolean|`true`|*Any*|
+|`queryRowCount`|Select row count|Query row count before performing export.<br>This will let you track export progress but may cause performance faults in some cases.|Boolean|`true`|*Any*|
 
 ### Consumer Settings
 
@@ -65,8 +68,10 @@ Here's the description of each attribute:
 |`compressResults`|Compress|Specifies whether the output file should be compressed using ZIP.|Boolean|`false`|*Any*|
 |`splitOutFiles`|Split output file|Specifies whether the output file should be split using the `maxOutFileSize` threshold. If size exceeds this threshold, a separate file is created and so on.|Boolean|`false`|*Any*|
 |`maxOutFileSize`|Maximum file size|Maximum size of a single file.<br>See `splitOutFiles`|Integer|10000000|*Any*|
+<!--
 |`mappings`|Column mappings|Mappings of the columns. Allows to skip certain columns.|Object|*TBD*|*TBD*|
-|`eventProcessors`|Event processors|Special processors that are invoked after the transfer is finished.|*TBD*|*TBD*|*Any*|
+|`eventProcessors`|Event processors|Special processors invoked after the transfer is finished.|*TBD*|*TBD*|*Any*|
+-->
 
 ### Processor Settings
 
