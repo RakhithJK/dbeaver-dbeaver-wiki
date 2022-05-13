@@ -4,9 +4,9 @@ If you need to set some variable and `dbeaver.ini` have read-only permissions (t
 
 ### For linux:
 
-You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `osgi.configuration.area`
+You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `org.osgi.framework.storage`
 
-![image](https://user-images.githubusercontent.com/46003534/168042031-526fe1df-702c-4bb0-9e75-df5dece2af93.png)
+![image](https://user-images.githubusercontent.com/46003534/168237839-9c8a79ba-e49e-4639-9fe7-d898b3c3c324.png)
 
 ***
 
@@ -16,13 +16,19 @@ If **config.ini** does not exist, you can create it in configuration directory `
 
 ### For Windows:
 
-You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `osgi.configuration.area`
+You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `org.osgi.framework.storage`
 
 Example output:
 
 ```
-osgi.configuration.area=file:/C:/Users/user/AppData/Local/DBeaverUltimate/configuration/
+org.osgi.framework.storage=file:/C:/Users/user/.eclipse/org.jkiss.dbeaver.product_22.0.5_1535670467_win32_win32_x86_64
 ```
+
+***
+
+If **config.ini** does not exist, you can create it in configuration directory
+
+***
 
 ## config.ini example
 
