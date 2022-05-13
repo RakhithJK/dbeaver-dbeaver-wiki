@@ -147,6 +147,7 @@
 #### Tutorials
 - [[Connecting to Oracle Database using JDBC OCI driver]]
 - [[Importing CA Certificates into DBeaver]]
+- [[How to set variable if dbeaver.ini is read only]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
