@@ -1,5 +1,6 @@
-There are a lot of ways to use Kerberos in your database authentication. On this page you will learn a few of them. These are the easiest ones and are only possible in the Enterprise or Ultimate editions of DBeaver.
-This page describes only the part that you need to do on the client machine (the one on which DBeaver is installed) and it is implied that Kerberos KDC and the necessary configuration are already done on the server.
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
+
+There are a lot of ways to use Kerberos in your database authentication. On this page you will learn a few of them. This page describes only the part that you need to do on the client machine (the one on which DBeaver is installed) and it is implied that Kerberos KDC and the necessary configuration are already done on the server.
 
 ### Possible settings
 
