@@ -53,12 +53,12 @@ Here's the description of each attribute:
 
 |Id|Name|Description|Type|Default Value|Allowed Values|
 |---|---|---|---|---|---|
-|`formatterProfile`|Formatting Profile|Specifies the profile used for formatting data.|String|&lt;empty&gt;|*Any*|
+|`formatterProfile`|Formatting Profile|Specifies the profile used for formatting data.|String|*&lt;empty&gt;*|*Any*|
 |`valueFormat`|Value Formatting|Specifies how the data is interpreted.|String|`UI`|`UI`, `EDIT`, `NATIVE`|
 |`lobExtractType`|Binaries Policy|Specifies how binaries are processed.|String|`INLINE`|`SKIP`, `FILES`, `INLINE`|
 |`lobEncoding`|Binaries Encoding|Specifies how binaries are encoded.|String|`BINARY`|`BASE64`, `HEX`, `BINARY`, `NATIVE`|
 |`outputClipboard`|Copy to Clipboard|Specifies that the data should be copied to the clipboard rather written to files on a disk.|Boolean|`false`|*Any*|
-|`outputFolder`|Output Directory|Output directory pattern. Specifies there the output files should be located.<br>|String|N/A|*Any*|
+|`outputFolder`|Output Directory|Output directory pattern. Specifies there the output files should be located.<br>|String|*N/A*|*Any*|
 |`outputFilePattern`|Output Filename|Output filename pattern.|String|`${table}_${timestamp}`|*Any*|
 |`outputEncoding`|Output Encoding|Specifies the file encoding.|String|`UTF-8`|*Any*|
 |`outputEncodingBOM`|Insert BOM|Specifies whether the byte order mark should be written to the output file.<br>Common for encoding such as `UTF-16LE`, `UTF-16BE`, `UTF-32LE`, and `UTF-32LE`.|Boolean|`false`|*Any*|
@@ -67,7 +67,7 @@ Here's the description of each attribute:
 |`useSingleFile`|Write to the single file|Write all streams to the single file.<br>Only works against compatible processors.|Boolean|`false`|*Any*|
 |`compressResults`|Compress|Specifies whether the output file should be compressed using ZIP.|Boolean|`false`|*Any*|
 |`splitOutFiles`|Split output file|Specifies whether the output file should be split using the `maxOutFileSize` threshold. If size exceeds this threshold, a separate file is created and so on.|Boolean|`false`|*Any*|
-|`maxOutFileSize`|Maximum file size|Maximum size of a single file.<br>See `splitOutFiles`|Integer|10000000|*Any*|
+|`maxOutFileSize`|Maximum file size|Maximum size of a single file.<br>See `splitOutFiles`|Integer|`10000000`|*Any*|
 <!--
 |`mappings`|Column mappings|Mappings of the columns. Allows to skip certain columns.|Object|*TBD*|*TBD*|
 |`eventProcessors`|Event processors|Special processors invoked after the transfer is finished.|*TBD*|*TBD*|*Any*|
