@@ -13,7 +13,7 @@ AWS CLI version 2.2 is recommended.
 ## AWS SSO configuration
 
 If you are in a corporate environment where all AWS configurations are provided by system administrators then you do not need to configure SSO parameters.
-Otherwise you need to open the command shell (<kbd>win+R</kbd>), enter `aws configure sso`, press enter and provide the required parameters. 
+Otherwise, you need to open the command shell (<kbd>win+R</kbd>), enter `aws configure sso`, press enter, and provide the required parameters. 
 Read [configuration instructions](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) for the details.  
 
 Restart DBeaver after the AWS CLI SSO configuration will be finished.  
@@ -23,7 +23,7 @@ Restart DBeaver after the AWS CLI SSO configuration will be finished.
 In the DBeaver database connection dialog you need to:
 - Set Authentication to `AWS IAM`.
 - Set Credentials to `AWS Profile`.
-- Choose the profile which was configured with AWS SSO (see previous chapter).
-- Click on  `Enable SSO` check.
+- Choose the profile which was configured with AWS SSO (see the previous chapter).
+- Click on the `Enable SSO` check.
 
 Now you can connect. DBeaver will open a web browser with SSO authorization.  
