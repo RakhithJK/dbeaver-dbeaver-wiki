@@ -1,4 +1,4 @@
-If you need to set some variable and `dbeaver.ini` have read-only permissions (this can happen, for example, in a flatpack or snapcraft), you can use the `config.ini` 
+If you need to set some variable and `dbeaver.ini` have read-only permissions (this can happen, for example, in Flatpak or Snap), you can use the `config.ini`.
 
 ## config.ini path: 
 
@@ -10,7 +10,7 @@ You can find correct path to your configuration directory with **config.ini** wh
 
 ***
 
-If **config.ini** does not exist, you can create it in configuration directory `nano config.ini`
+If **config.ini** does not exist, you can create it in the configuration directory `nano config.ini`
 
 ***
 
@@ -26,16 +26,16 @@ org.osgi.framework.storage=file:/C:/Users/user/.eclipse/org.jkiss.dbeaver.produc
 
 ***
 
-If **config.ini** does not exist, you can create it in configuration directory
+If **config.ini** does not exist, you can create it in the configuration directory.
 
 ***
 
 ## config.ini example
 
-For example, you can set system property with your custom path to point to the keystore that you created
+For example, you can set system property with your custom path to point to the keystore you created.
 
 `-Djavax.net.ssl.truststore=/path/to/your/cert`
 
-Or for example you can change language 
+Or, for example, you can change the language. 
 
 `osgi.nl=fr`
