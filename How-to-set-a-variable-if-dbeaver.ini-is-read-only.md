@@ -2,7 +2,7 @@ If you need to set some variable and `dbeaver.ini` have read-only permissions (t
 
 ## config.ini path: 
 
-### For linux:
+### For Linux:
 
 You can find correct path to your configuration directory with **config.ini** when open DBeaver `Help -> Installation Information -> Configuration` then _**type filter text**_ `org.osgi.framework.storage`
 
