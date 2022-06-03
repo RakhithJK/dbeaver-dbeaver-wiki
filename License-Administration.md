@@ -2,8 +2,8 @@
 
 ### Manual license import
 
-Commercial versions of DBeaver ask the user to import the license file if the file cannot be found locally.
-For individual users this is the most simple and convenient way to import the product license.
+Commercial versions of DBeaver ask the user to import the license file if they cannot find it locally.
+It is the most simple and convenient way to import the product license for individual users.
 
 ![](images/license-not-found.png)
 
@@ -29,6 +29,6 @@ While DBeaver is starting up, it will look for a license file in the following l
 #### Passing license file through command line
 
 You can add the command line parameter `license <license-path>` to the DBeaver EE shortcut.
-Also, you can add this parameter to `dbeaver.ini` config file.
+Also, you can add this parameter to the `dbeaver.ini` config file.
 
 [Command line](Command-Line) reference.
