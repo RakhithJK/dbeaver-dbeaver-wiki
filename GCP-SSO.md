@@ -9,6 +9,8 @@ To enable SSO authorization, you need to install GCP CLI (Command Line Interface
 
 If DBeaver didn't find your executable CLI file (error message: "Authentication error: Error running GCP CLI. Is it installed on the local machine?)", you can add the path for your executable file manually in the Preferences -> Connections -> Cloud Configurations -> GCP Configuration
 
+![](images/ug/GCP_Preference_Page.png)
+
 ## GCP web browser-based authentication configuration
 
 
@@ -24,3 +26,4 @@ Now you can connect. DBeaver will open a web browser with SSO authorization. Cho
 
 As example:
 
+![](images/ug/GCP_connection_page_example.png)
