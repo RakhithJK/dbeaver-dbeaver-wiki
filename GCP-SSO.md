@@ -13,7 +13,7 @@ If DBeaver didn't find your executable CLI file (error message: "Authentication 
 
 ## GCP web browser-based authentication configuration
 
-
+First `gcloud auth print-access-token` request to your CLI will be used. If token will be not empty, then this token will be used for the authentication. If token will be empty, then command `gcloud auth login` will be executed, which will open the web-browser and offer to choose your Google account.
 
 ## Connection configuration
 
