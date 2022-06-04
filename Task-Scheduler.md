@@ -153,3 +153,20 @@ If you were never prompted to do that in the first place, you can grant `Full di
 1. Select DBeaverEE in the file picker that opens.
 1. Click `Open`.
 1. Close the lock.
+
+### Tasks from password-protected projects can't be run
+
+You need to pass a password for one or more projects via the command-line interface.
+
+To do so, you need to set the `dbeaver.project.password` parameter in [the external configuration](#Admin-Variables#declare-external-variables-in-a-file) file like so:
+```
+# You can specify a single password for all projects:
+dbeaver.project.password=p4$$w0rd
+
+# Otherwise, you can specify a list of passwords for given projects:
+dbeaver.project.password=@General:p4$$w0rd,@Other:12345
+```
+
+The syntax for a single entry is `@ <name of the project> : <password of the project>`; others are separated by the `,` symbol.
+
+Please note that `@` and `:` symbols are mandatory.
