@@ -158,7 +158,7 @@ If you were never prompted to do that in the first place, you can grant `Full di
 
 You need to pass a password for one or more projects via the command-line interface.
 
-To do so, you need to set the `dbeaver.project.password` parameter in [the external configuration](Admin-Variables#declare-external-variables-in-a-file) file like so:
+To do so, you need to set the `dbeaver.project.password` parameter in [the external configuration file](Admin-Variables#declare-external-variables-in-a-file) like so:
 ```
 # You can specify a single password for all projects:
 dbeaver.project.password=p4$$w0rd
