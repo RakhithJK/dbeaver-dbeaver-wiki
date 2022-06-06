@@ -138,6 +138,7 @@
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
 - [[Workspace]] <!--CMD:SKIP-->
+- [[Snap installation|Snap-installation]]
 
 #### License management <img src="images/commercial_big.png" align="top" height="16">
 - [[License Administration]] <img src="images/commercial.png" vspace="4" align="top"/>
