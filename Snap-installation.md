@@ -14,6 +14,11 @@ And connect what you need. For example:
 
 ```snap connect dbeaver-ce:ssh-keys``` for access to private keys
 
+Or you can do it in Ubuntu Software (dbeaver-ce - Permissions):
+
+![image](https://user-images.githubusercontent.com/46003534/172124852-bee2766f-fcee-4deb-9cab-7d132dc02aae.png)
+
+
 ### Problems with dbeaver-ce snap package:
 
 At the moment there is a well-known problem with opening the browser and gis maps via _dbeaver-ce_ snap package. Application crashes with an error:
