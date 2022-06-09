@@ -92,6 +92,8 @@
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
+  - [[GCP Credentials]]
+  - [[GCP SSO]]
 
 #### Enterprise Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
