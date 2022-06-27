@@ -42,7 +42,7 @@ the statistics will be written into the [Task Log](Task-Management#Execution-log
 ### Exporting the results
 
 You can export results as an SQL script containing statements that will turn the second table into the first one by
-`DELETE`-ing unrelated rows, `INSERT`-in new ones, and `UPDATE`-ing existing ones, to the data will look the same.
+`DELETE`-ing unrelated rows, `INSERT`-in new ones, and `UPDATE`-ing existing ones, so the data will look the same.
 
 You can export results either by:
 1. Setting the **Export compare results to file** option found on the last page
