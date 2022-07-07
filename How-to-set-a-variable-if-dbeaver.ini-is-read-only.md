@@ -34,7 +34,7 @@ If **config.ini** does not exist, you can create it in the configuration directo
 
 For example, you can set system property with your custom path to point to the keystore you created.
 
-`-Djavax.net.ssl.truststore=/path/to/your/cert`
+`javax.net.ssl.trustStore=/path/to/your/cert`
 
 Or, for example, you can change the language. 
 
