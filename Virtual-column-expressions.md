@@ -33,7 +33,7 @@ If you have JSON or XML columns in your table, you can add a virtual column with
 
 Use content.json(<columnName>)[parameter1][parameter2] pattern to create expression for JSON column.
 
-Example: `content.json(column1)['glossary']['GlossDiv']['title']`
+Expression example: `content.json(column1)['glossary']['GlossDiv']['title']`
 
 You can read more about JSON parameters in the link on the top. 
 
@@ -41,7 +41,7 @@ Use content.xml(columnName, "expression") or content.xml(columnName, "returnType
 The quotation is important for parsing processes.
 XML expression can return types: string, number, boolean, node, nodeset - all these types can be used (!in quotes) for return data type clarification. content.xml(columnName, "expression") returns string by default
 
-Example: `content.xml(column1, "nodeset", "/Employees/Employee[gender='Female']/name/text()")`
+Expression example: `content.xml(column1, "nodeset", "/Employees/Employee[gender='Female']/name/text()")`
 
 You can read more about XPath here: https://en.wikipedia.org/wiki/XPath
 
