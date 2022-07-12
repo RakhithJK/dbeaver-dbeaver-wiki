@@ -32,13 +32,17 @@ wktPoint|(longitude, latitude, srid)|Produces WKT (geometry) point out of two co
 If you have JSON or XML columns in your table, you can add a virtual column with an expression for these columns.
 
 Use content.json(<columnName>)[parameter1][parameter2] pattern to create expression for JSON column.
-Example: content.json(column1)['glossary']['GlossDiv']['title']
+
+Example: `content.json(column1)['glossary']['GlossDiv']['title']`
+
 You can read more about JSON parameters in the link on the top. 
 
 Use content.xml(columnName, "expression") or content.xml(columnName, "returnType", "expression") patterns to create expression for XML column.
-Quotation is important for parsing processes.
+The quotation is important for parsing processes.
 XML expression can return types: string, number, boolean, node, nodeset - all these types can be used (!in quotes) for return data type clarification. content.xml(columnName, "expression") returns string by default
-Example: content.xml(column1, "nodeset", "/Employees/Employee[gender='Female']/name/text()")
+
+Example: `content.xml(column1, "nodeset", "/Employees/Employee[gender='Female']/name/text()")`
+
 You can read more about XPath here: https://en.wikipedia.org/wiki/XPath
 
 ![](images/ug/grid_virtual_column_expression.png)
