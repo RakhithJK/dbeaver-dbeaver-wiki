@@ -34,6 +34,9 @@ Note: in order to activate/update a license DBeaver only needs to access the web
 ## How to configure a proxy for external databases access
 
 You can configure proxy settings for an individual connection.  
+
+**Note: Automatic proxy configuration is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
+
 You may set the proxy settings manually or use the active OS/web browser settings:
 
 ![](images/ug/network/connection-proxy.png)
