@@ -48,7 +48,7 @@ P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/up
 
 Needed to support more key formats (e.g. ed25519).  
 
-P2 repository URL: [https://dbeaver.io/update/sshj/latest/](https://dbeaver.io/update/sshj/latest/)
+Since version 21 SSHJ xtension is included in the base DBeaver distribution.
 
 ### Git integration
 
