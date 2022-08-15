@@ -12,7 +12,7 @@ All secured information (user name, password, secret keys, etc) is stored in the
 DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver/data-sources*.json` pattern will be loaded on the startup. So you can create a file, for example, `.dbeaver/data-sources-2.json` in the project folder and DBeaver will see it.
 
 #### DBeaver < 6.1.3 (Legacy)
-DBeaver keeps information about project connections in the `dbeaver-data-sources.xml`. file.  
+DBeaver keeps information about project connections in the `.dbeaver-data-sources.xml`. file.  
 
 DBeaver can load multiple connection files. Any files in the project folder matching the `.dbeaver-data-sources*.xml` pattern will be loaded on the startup. So you can create a file, for example, `.dbeaver-data-sources-2.xml` in the project folder and DBeaver will see it.
 
