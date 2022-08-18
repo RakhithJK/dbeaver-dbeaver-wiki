@@ -1,6 +1,6 @@
 Console View is an SQL Editor result tab where you can find the results for all executed queries in a text format.
 
-To enable Console View on you should press the corresponding button on the left SQL Editor toolbar.
+To enable Console View you should press the corresponding button on the left SQL Editor toolbar.
 
 ![](images/console_view/toggle-button.png)
 
