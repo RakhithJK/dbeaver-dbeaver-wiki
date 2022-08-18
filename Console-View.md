@@ -10,12 +10,13 @@ You can execute a single query or a script and see the result set with data, err
 
 Don't worry if you close the Console View tab. It will be restored on the new query execution.
 
+The context menu is available by right-clicking.
+
+![](images/console_view/context-menu.png)
+
 The toggle state of the Console View will be saved per script and restored when the script is opened.
 
 You can set up whether to enable or disable the Console View for new scripts by default in `Preferences->Editors->SQL Editor->Console View`.
 
 ![](images/console_view/prefs.png)
 
-The context menu is available by right-clicking.
-
-![](images/console_view/context-menu.png)
