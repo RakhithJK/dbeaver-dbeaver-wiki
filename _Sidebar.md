@@ -129,6 +129,7 @@
 - [[Command Line]]
 - [[Reset UI settings]]
 - [[Reset workspace]]
+- [[Troubleshooting system issues]]
 - [[Posting issues]]
 - [[Log files]]
 - [[JDBC trace|JDBC-Tracing]]
