@@ -3,7 +3,7 @@ Sometimes (due to some bug) DBeaver UI hangs, freezes or works incorrectly. It i
 #### Mac and Linux
 Run the following on your terminal:
 ```
-jstack $(ps aux | grep -m1 dbeaver | awk '{print $2}') > thread-dump.txt
+jstack $(ps aux | grep java | grep dbeaver | awk '{print $2}') > thread-dump.txt
 ```
 #### Windows
 Just open the task manager (CTRL+Escape), find DBeaver in the process list and copy the process ID value. In Windows 8+ you need to switch to the "Details" tab.
