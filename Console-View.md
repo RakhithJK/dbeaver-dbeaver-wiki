@@ -14,7 +14,7 @@ The context menu is available by right-clicking on the Console View area.
 
 ![](images/console_view/context-menu.png)
 
-Whether the console is enabled will be saved per sql script file and restored when the file is opened.
+For each sql script file, it will be saved whether the Сonsole View is enabled, and the state of the console view button will be restored when the file is opened.
 
 You can set up whether to enable or disable the Console View for new scripts by default in `Preferences->Editors->SQL Editor->Console View`.
 
