@@ -4,17 +4,17 @@ To enable Console View you should press the corresponding button on the left SQL
 
 ![](images/console_view/toggle-button.png)
 
-You can execute a single query or a script and see the result set with data, errors, and statistical information along with the corresponding query text.
+You can execute a single statement or a sql script and see the result set with data, errors, and statistical information along with the corresponding query text.
 
 ![](images/console_view/execution.png)
 
-Don't worry if you close the Console View tab. It will be restored on the new query execution.
+Don't worry if you close the Console View tab. It will be restored on the new statement execution.
 
-The context menu is available by right-clicking.
+The context menu is available by right-clicking on the Console View area.
 
 ![](images/console_view/context-menu.png)
 
-The toggle state of the Console View will be saved per script and restored when the script is opened.
+Whether the console is enabled will be saved per sql script file and restored when the file is opened.
 
 You can set up whether to enable or disable the Console View for new scripts by default in `Preferences->Editors->SQL Editor->Console View`.
 
