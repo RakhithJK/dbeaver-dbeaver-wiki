@@ -112,6 +112,7 @@
 - [[CouchDB]]
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [[Netezza]]
+- [[Oracle]]
 - [[SQLite Crypt]]
 - [[Informix]]
 
