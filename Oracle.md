@@ -2,6 +2,8 @@
 
 There are several ways to configure database connection and several ways to perform authentication.
 
+![](images/database/oracle/connection-page.png)
+
 ## Configuration types 
 
 ### Basic connections
