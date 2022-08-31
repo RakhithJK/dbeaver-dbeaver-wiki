@@ -69,5 +69,22 @@ Wallet password | Optional. Some wallets are password-protected
 
 ### Kerberos
 
+Kerberos is the most coplicated authentication in Oracle.
+
+Parameter | Description | Example
+----|-----|----
+Username | Database user name | c##testuser
+Kerberos user | Kerberos / Active directory user name | testuser@THE-REALM
+Realm | Kerberos realm | THE-REALM
+KDC server | KDC server address | krb5.your-domain.com
+Password | Kerberos user password | 
+
 
 ## Oracle Cloud connections
+
+Oracle cloud databases supports two ways to authenticate:
+### Plain URL connection
+
+### Oracle Wallet connection
+
+
