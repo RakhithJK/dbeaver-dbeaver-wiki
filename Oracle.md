@@ -39,6 +39,14 @@ Sample URL (Oracle Cloud):
 
 ### Database
 
+Parameter | Description | Example
+----|-----|----
+User name| Database user name | SYS
+Password | Database user password | 
+Role | Role for connection.<br/>Roles SYSDBA and SYSOPER are need for some administrative operations | Normal
+Save password | Saves user/password information in local DBeaver configuration | SID
+
+
 ### OS authentication
 
 ### Kerberos
