@@ -17,7 +17,7 @@ Post number | Server listener port | 1521 (default)
 Database | Service or SID name | ORCL
 Service/SID | It depends on server configuration.<br/>SID must be selected for some servers and Service Name for others | SID
 
-### TNS connections
+### TNS
 
 TNS configuration is the simplest but it requires you to have `tnsnames.ora` file somewhere on disk.
 tnsnames.ora contains information about all accessible Oracle server connections.
@@ -82,9 +82,25 @@ Password | Kerberos user password |
 
 ## Oracle Cloud connections
 
-Oracle cloud databases supports two ways to authenticate:
+DBeaver supports Oracle Cloud Autonomous databases connectivity.  
+There are two ways to authenticate:
+
 ### Plain URL connection
+
+- To use plain URL connection you must enable `Access control list` for the Oracle autonomous database. 
+- Then add your IP address to the IP list.  
+- Use Custom connection configuration (<a href="#custom">URL</a>). You can copy URL from Oracle Cloud database page (link "DB Connection").
 
 ### Oracle Wallet connection
 
+It is the default authentication type for Oracle Cloud.  
+. 
+- Download Wallet from Oracle Cloud web site
+- Expand wallet archive to some folder
+- Set <a href="#tns">TNS</a> configuration type
+- Set `TNS path` to the wallet location directory
+- Choose proper `Network Alias` from the drop-down
+- Set `Authentication` to Oracle Wallet
+- Set database uaer name and password (you can get them from Oracle Cloud database ifnormation page)
+- Set `Wallet location` to the wallet location directory
 
