@@ -46,11 +46,26 @@ Password | Database user password |
 Role | Role for connection.<br/>Roles SYSDBA and SYSOPER are need for some administrative operations | Normal
 Save password | Saves user/password information in local DBeaver configuration | SID
 
-
 ### OS authentication
+
+Oracle driver gets user information from current OS user.  
+You don't need to specify any credentials explicitly.
+
+### Oracle Wallet
+
+More secure way to connect is Oracle Wallet. Wallet is a directory with security keys and optionally some other connection information.
+Usually wallets are distributed as ZIP archives. You need to extract ZIP archive to some folder on disk and specify this folder in field `Wallet location`.
+
+Wallet may contain information about database user. But this is optional, sometimes you will need to specify user too.
+
+Parameter | Description | Example
+----|-----|----
+User name, Password, Role| See <a href="#database">Database authentication</a> | 
+Wallet location | Oracle wallet directory | C:\oracle\network\wallet\example
+Wallet password | Optional. Some wallets are password-protected
+
 
 ### Kerberos
 
-### Oracle Wallet
 
 ## Oracle Cloud connections
