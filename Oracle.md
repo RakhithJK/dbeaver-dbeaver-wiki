@@ -58,6 +58,8 @@ Usually wallets are distributed as ZIP archives. You need to extract ZIP archive
 
 Wallet may contain information about database user. But this is optional, sometimes you will need to specify user too.
 
+Also wallet may contain TNS configuration. If so then you can use TNS connection configuration easily by setting `TNS path` to the same value as `Wallet location`.
+
 Parameter | Description | Example
 ----|-----|----
 User name, Password, Role| See <a href="#database">Database authentication</a> | 
