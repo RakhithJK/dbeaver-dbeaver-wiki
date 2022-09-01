@@ -8,7 +8,7 @@ To fix the issue, we recommended having a graphical theme which is similar to sy
 ### `GTK-WARNING xxx:Theme parsing error` 
 This issue requires you to change the GTK-program-style `system settings-appearance-program style`(the setting location may vary for different systems).
 ### `gtk_box_gadget_distribute: assertion size 'size >=0 0' failed in GtkScrollbar`
-Requires you to remove the overlay scrollbars in `~/.config/gtk-3.0/settings.ini`.
+To fix this issue, you need to remove the overlay scrollbars in `~/.config/gtk-3.0/settings.ini`.
 ```
 [Settings]
 gtk-overlay-scrolling = false
