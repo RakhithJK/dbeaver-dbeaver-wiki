@@ -1,6 +1,6 @@
 ## Connecting to Oracle databases
 
-There are several ways to configure database connection and several ways to perform authentication.
+There are several ways to configure a database connection and several ways to perform an authentication.
 
 ![](images/database/oracle/connection-page.png)
 
@@ -15,22 +15,22 @@ Parameter | Description | Example
 Host | Server host name | 192.168.1.25
 Post number | Server listener port | 1521 (default)
 Database | Service or SID name | ORCL
-Service/SID | It depends on server configuration.<br/>SID must be selected for some servers and Service Name for others | SID
+Service/SID | It depends on the server configuration.<br/>SID must be selected for some servers and the Service Name for others | SID
 
 ### TNS
 
-TNS configuration is the simplest but it requires you to have `tnsnames.ora` file somewhere on disk.
+TNS configuration is the simplest but it requires you to have the `tnsnames.ora` file somewhere on your disk.
 tnsnames.ora contains information about all accessible Oracle server connections.
-DBeaver can determine default location of this file but sometimes you need to specify it manually
+DBeaver can determine the default location of this file but sometimes you will need to manually specify it.
 
 Parameter | Description | Example
 ----|-----|----
 Network Alias | Name of configuration from tnsnames.ora | ORCL1
-TNS names path | Path to `tnsnames.ora` file.<br/> By default it is get from TNS_ADMIN environment variable or from Windows registry | c:\oracle\network\admin
+TNS names path | Path to `tnsnames.ora` file.<br/> By default, it is got from the TNS_ADMIN environment variable or from Windows' registry | c:\oracle\network\admin
 
 ### Custom URL
 
-For more sophisticated configuration you can specify full JDBC URL manually (see [Data Sources and URLs](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28270)). 
+For more a sophisticated configuration, you can specify the full JDBC URL manually (see [Data Sources and URLs](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28270)). 
 
 Sample URL (Oracle Cloud):  
 `jdbc:oracle:thin:@(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=xxxxxxxxxxxxxxxxx_high.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adwc.uscom-east-1.oraclecloud.com, OU=Oracle BMCS US, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))`
@@ -43,22 +43,22 @@ Parameter | Description | Example
 ----|-----|----
 User name| Database user name | SYS
 Password | Database user password | 
-Role | Role for connection.<br/>Roles SYSDBA and SYSOPER are need for some administrative operations | Normal
-Save password | Saves user/password information in local DBeaver configuration | SID
+Role | Role for connection.<br/>Roles SYSDBA and SYSOPER are needed for some administrative operations | Normal
+Save password | Saves the user/password information in the local DBeaver configuration | SID
 
 ### OS authentication
 
-Oracle driver gets user information from current OS user.  
-You don't need to specify any credentials explicitly.
+The Oracle driver gets user information from the current OS user.  
+You do not need to explicitly specify any credentials.
 
 ### Oracle Wallet
 
-More secure way to connect is Oracle Wallet. Wallet is a directory with security keys and optionally some other connection information.
-Usually wallets are distributed as ZIP archives. You need to extract ZIP archive to some folder on disk and specify this folder in field `Wallet location`.
+A more secure way to connect is to use the Oracle Wallet. Wallet is a directory with security keys and some other optional connection information.
+Wallets are usually distributed as ZIP archives. You need to extract the ZIP archive to a folder on a disk and specify this folder in the `Wallet location` field.
 
-Wallet may contain information about database user. But this is optional, sometimes you will need to specify user too.
+Wallet may contain information about a database user. This, however, is optional. You will sometimes need to specify the user too.
 
-Also wallet may contain TNS configuration. If so then you can use TNS connection configuration easily by setting `TNS path` to the same value as `Wallet location`.
+Wallet may also contain a TNS configuration. If it does, you can use the TNS connection configuration easily by setting the `TNS path` to the same value as the `Wallet location`.
 
 Parameter | Description | Example
 ----|-----|----
@@ -69,7 +69,7 @@ Wallet password | Optional. Some wallets are password-protected
 
 ### Kerberos
 
-Kerberos is the most coplicated authentication in Oracle.
+Kerberos is the most complicated authentication in Oracle.
 
 Parameter | Description | Example
 ----|-----|----
@@ -87,20 +87,20 @@ There are two ways to authenticate:
 
 ### Plain URL connection
 
-- To use plain URL connection you must enable `Access control list` for the Oracle autonomous database. 
+- To use a plain URL connection you must enable the `Access control list` for the Oracle autonomous database. 
 - Then add your IP address to the IP list.  
-- Use Custom connection configuration (<a href="#custom">URL</a>). You can copy URL from Oracle Cloud database page (link "DB Connection").
+- Use the Custom connection configuration (<a href="#custom">URL</a>). You can copy the URL from the Oracle Cloud database page (link "DB Connection").
 
 ### Oracle Wallet connection
 
-It is the default authentication type for Oracle Cloud.  
+It is the default authentication type for the Oracle Cloud.  
 . 
-- Download Wallet from Oracle Cloud web site
-- Expand wallet archive to some folder
+- Download Wallet from the Oracle Cloud website
+- Expand the wallet archive to a folder
 - Set <a href="#tns">TNS</a> configuration type
-- Set `TNS path` to the wallet location directory
-- Choose proper `Network Alias` from the drop-down
-- Set `Authentication` to Oracle Wallet
-- Set database uaer name and password (you can get them from Oracle Cloud database ifnormation page)
-- Set `Wallet location` to the wallet location directory
+- Set the `TNS path` to the wallet location directory
+- Choose the proper `Network Alias` from the drop-down menu
+- Set `Authentication` to the Oracle Wallet
+- Set the database user name and password (you can get them from the Oracle Cloud database information page)
+- Set the `Wallet location` to the wallet location directory
 
