@@ -8,13 +8,13 @@ You can execute a single statement or a sql script and see the result set with d
 
 ![](images/sql_terminal/execution.png)
 
-The context menu is available by right-clicking on the Console View area.
+The context menu is available by right-clicking on the SQL Terminal area.
 
 ![](images/sql_terminal/context-menu.png)
 
 For each sql script file, it will be saved whether the SQL Terminal is enabled, and the state of the SQL Terminal button will be restored when the file is opened.
 
-You can set up whether to enable or disable the Console View for new scripts by default in `Preferences->Editors->SQL Editor->SQL Terminal`.
+You can set up whether to enable or disable the SQL Terminal for new scripts by default in `Preferences->Editors->SQL Editor->SQL Terminal`.
 
 ![](images/sql_terminal/prefs.png)
 
