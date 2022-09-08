@@ -8,42 +8,78 @@ Marketplace URL:https://marketplace.eclipse.org/content/dbeaver-git-support
 P2 repository URL:https://dbeaver.io/update/git/latest/
 ## Create Repository
 ### Share Existing Project
-1. Open **Projects tab**, then choose Project that you need to share and choose `Team - Share project` from the context menu
+This includes three main steps:
+1) creating local git repository
+2) creating remote git repository
+3) sharing your project
+
+These steps in detail:
+
+1. Open **Projects tab**, then choose Project that you need to share and choose `Team - Share project` from the context menu:
 
 ![image](https://user-images.githubusercontent.com/31996417/106870275-f93aff00-66e1-11eb-9a78-08cf2b3305a4.png)
 
-2. Create a new local repository or choose an existing one.
+2. Create a new local repository or choose an existing one:
 
 ![image](https://user-images.githubusercontent.com/31996417/106871019-d4935700-66e2-11eb-8fce-1fae7b5de90c.png)
 
-3. Create Repository at GitHub or use the URL of the existing one.
+3. Create a new GitHub repository. Please, pay attention to security. The repository shouldn't be **public** as there are credentials to the databases you are working with. Here you fill in the `Repository name`, `Description`, `Accessibility` and click **Create repository**: 
 
-4. Commit the project by right-clicking the project node and selecting `Team - Commit…` or `Ctrl+#` from the context menu. Enter a commit message (the first line should be headline-like, as it will appear in the history view) and hit the **Commit** button. If the commit was successful, the question icons will have turned into repository icons.
+![image](https://user-images.githubusercontent.com/49681450/189151679-b963497e-5277-4444-bbe8-37fabd06076d.png)
+
+4. Then, on the page of the repository at GitHub, click on the **Code** button and copy the URL:
+![image](https://user-images.githubusercontent.com/49681450/189152796-cad7251a-5684-48b9-919c-5d25cb8c26c3.png)
+
+
+5. On the DBeaver's side, paste the URL of the GitHub repository. You have to specify GitHub `User` and `Password`. Please, pay attention that you have to use your GitHub username, but instead of a password, you specify GitHub **access token**. We also recommend ticking `Store in Secure Store` in DBeaver below:
+
+![image](https://user-images.githubusercontent.com/49681450/189149843-ca95761f-cac9-4de9-aa9f-6f2520a225ac.png)
+
+6. GitHub access token locates at `Settings/Developer Settings/Personal access tokens`. You need to generate the new one and tick some options: all from `‘repo’` section (`repo:status`, `repo_deployment`, etc.), but if we speak about organization, you should also tick `‘read:org’` in section `admin:org`. Please, pay attention that you will see this token **only once**:
+
+![image](https://user-images.githubusercontent.com/49681450/189156244-99b0327c-e883-40e8-86c0-da167a852273.png)
+
+7. When you click **Finish** on the Source Git Repository form, you will have to generate a password for all the secure data in DBeaver. Please, remember it.
+
+
+8. Commit the project by right-clicking the project node and selecting `Team - Commit…` or `Ctrl+#` from the context menu. Enter a commit message (the first line should be headline-like, as it will appear in the history view) and hit the **Commit** button. If the commit was successful, the question icons will have turned into repository icons:
 
 ![image](https://user-images.githubusercontent.com/31996417/106871822-b548f980-66e3-11eb-9a00-1ddc4329c29e.png)
 
-Then push changes to a remote repository using **Push HEAD** button.
+9. Then push changes to a remote repository using **Push HEAD** button:
 
 You can learn more [here](https://wiki.eclipse.org/EGit/User_Guide#GitHub_Tutorial)
 
 ### Cloning existing repositories
+
+
+Please, pay attention that you need to have a GitHub account.
+
 1. Choose **Create Project from Git** button at **Projects** Tab or `File - Git - Create Project` in Main menu
 
 ![image](https://user-images.githubusercontent.com/31996417/122201593-da752200-cea4-11eb-9175-e131e3fb45e4.png)
 
-2. On the first page of the wizard enter the location of the remote repository:
+2. On the first page of the wizard enter the location of the remote repository. Make sure the repository's owner has given you access to it. Here you have to spicify GitHub `User` and `Password`. Please, pay attention that you have to use your GitHub username, but instead of a password, you specify GitHub **access token**. We also recommend ticking `Store in Secure Store` in DBeaver below: 
 
 ![image](https://user-images.githubusercontent.com/31996417/106876474-c9dbc080-66e8-11eb-9db2-b152ebaaf9a4.png)
 
-3. On the next page choose which branches should be cloned from the remote repository:
+3. The remote repository's location comes from the repository's page at GitHub. Please, click on the **Code** button and copy the URL:
+![image](https://user-images.githubusercontent.com/49681450/189152796-cad7251a-5684-48b9-919c-5d25cb8c26c3.png)
+
+4.  GitHub access token locates at `Settings/Developer Settings/Personal access tokens`. You need to generate the new one and tick some options. Please, tick all from `‘repo’` section (`repo:status`, `repo_deployment`, etc.), but if we speak about an organization, you should also tick `‘read:org’` in section `admin:org`. Please, pay attention that you will see this token **only once**:
+
+![image](https://user-images.githubusercontent.com/49681450/189156244-99b0327c-e883-40e8-86c0-da167a852273.png)
+
+
+5. On the next page choose which branches should be cloned from the remote repository:
 
 ![image](https://user-images.githubusercontent.com/31996417/106876529-d7914600-66e8-11eb-900d-267769a535b7.png)
 
-4. On the next page define where you want to store the repository on the local file system and define some initial settings.
+6. On the next page in DBeaver define where you want to store the repository on the local file system and define some initial settings:
 
 ![image](https://user-images.githubusercontent.com/31996417/106876376-ae70b580-66e8-11eb-945b-269954600385.png)
 
-5. Choose the type of wizard you want to use and then finish repository cloning. The project should now appear in the Navigator/Project Explorer.
+7. Choose the type of wizard you want to use and then finish repository cloning. The project should now appear in the Navigator/Project Explorer:
 
 ![image](https://user-images.githubusercontent.com/31996417/122201831-1dcf9080-cea5-11eb-8adb-d0e527fe352c.png)
 
