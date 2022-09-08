@@ -55,7 +55,7 @@ You can learn more [here](https://wiki.eclipse.org/EGit/User_Guide#GitHub_Tutori
 
 Please, pay attention that you need to have a GitHub account.
 
-1. Choose **Create Project from Git** button at **Projects** Tab or `File - Git - Create Project` in Main menu
+1. Choose **Create Project from Git** button at **Projects** Tab or `File - Git - Create Project` in Main menu:
 
 ![image](https://user-images.githubusercontent.com/31996417/122201593-da752200-cea4-11eb-9175-e131e3fb45e4.png)
 
@@ -64,6 +64,7 @@ Please, pay attention that you need to have a GitHub account.
 ![image](https://user-images.githubusercontent.com/31996417/106876474-c9dbc080-66e8-11eb-9db2-b152ebaaf9a4.png)
 
 3. The remote repository's location comes from the repository's page at GitHub. Please, click on the **Code** button and copy the URL:
+
 ![image](https://user-images.githubusercontent.com/49681450/189152796-cad7251a-5684-48b9-919c-5d25cb8c26c3.png)
 
 4.  GitHub access token locates at `Settings/Developer Settings/Personal access tokens`. You need to generate the new one and tick some options. Please, tick all from `‘repo’` section (`repo:status`, `repo_deployment`, etc.), but if we speak about an organization, you should also tick `‘read:org’` in section `admin:org`. Please, pay attention that you will see this token **only once**:
@@ -89,11 +90,11 @@ More information could be found [here](https://wiki.eclipse.org/EGit/User_Guide#
 
 If some changes were made, e.g., Connection, Script or ERD was created, deleted or changed and you want to update your remote repository, you should:
 
-1. Go to the Context menu of the project (**Projects** tab) and choose `Team - Commit`
+1. Go to the Context menu of the project (**Projects** tab) and choose `Team - Commit`:
 
 ![image](https://user-images.githubusercontent.com/31996417/122196400-e3172980-ce9f-11eb-9f37-a8f226e3cfc6.png)
 
-2. **Git Staging** tab is opened at the bottom of the screen. **Unstaged Changes** are shown here. Add needed changes to the index using **Add Selected files to the index** or **Add all files to the index** button (highlighted at the picture), input commit message and then Commit changes (**Commit** button or `Ctrl+Enter`). Commit appears at the History tab (Main menu: `Window - Show view - Other - Version Control(Team) - History`). 
+2. **Git Staging** tab is opened at the bottom of the screen. **Unstaged Changes** are shown here. Add needed changes to the index using **Add Selected files to the index** or **Add all files to the index** button (highlighted at the picture), input commit message and then Commit changes (**Commit** button or `Ctrl+Enter`). Commit appears at the History tab (Main menu: `Window - Show view - Other - Version Control(Team) - History`): 
 
 ![image](https://user-images.githubusercontent.com/31996417/122196920-5caf1780-cea0-11eb-849b-b81b010078b0.png)
 
