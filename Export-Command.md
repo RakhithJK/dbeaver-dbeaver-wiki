@@ -7,6 +7,8 @@ of the produced results without creating any additional data transfer tasks.
 Generally, this article contains every setting accessible in the data transfer wizard.
 Settings are written in the order they appear in the wizard, so you can always look at the wizard to quickly locate any of these settings.
 
+### Usage
+
 The body of the command consists of JSON text, which looks like this:
 
 ```
@@ -30,6 +32,17 @@ Due to certain limitations, it must be written on a single line, without line de
 @export { "type": "csv", "producer": { ... }, "consumer": { ... }, "processor": { ... } }
 ```
 
+
+**The command itself doesn't do anything**. It must be followed by any other query:
+
+```sql
+@export { "type": "csv", "producer": { ... }, "consumer": { ... }, "processor": { ... } }
+
+SELECT * FROM Album;
+```
+You can either execute each line separately, or execute the entire script at once.
+
+## Settings
 Here's the description of each attribute:
 
 |Attribute|Description|
