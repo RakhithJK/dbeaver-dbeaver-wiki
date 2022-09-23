@@ -73,6 +73,7 @@
     - [[SSL configuration]] <!--CMD:SKIP-->
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
     - [[Network Profiles]] <!--CMD:SKIP-->
+    - [[Separate Connections]] <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
