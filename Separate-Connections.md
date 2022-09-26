@@ -1,6 +1,6 @@
-By default, DBeaver creates separate connections for SQL Editor and Metadata read.
+By default DBeaver creates separate connections for SQL Editor and Metadata read.
 
-Opening separate metadata connection may increase performance because there will no UI locks during query execution.
+Opening separate metadata connection may increase performance because there will be no UI locks during query execution.
 
 You can set up opening separate connection for metadata read globally in Preferences->Connections->Metadata or per each connection in Connection configuration->Metadata.
 
