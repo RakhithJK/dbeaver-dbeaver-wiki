@@ -21,9 +21,18 @@ Instead of tables InfluxDB has <a href="https://docs.influxdata.com/influxdb/v1.
 
 ![](images/database/influxdb/inflixdb-schema.png)
 
-### Executing InfluxQL
+### Executing InfluxQL (versions < 2)
 <a href="https://docs.influxdata.com/influxdb/v1.6/query_language/">InfluxQL</a> is a query language similar to SQL.  
 DBeaver fully supports all InfluxQL statements. Query results are presented as grid or as graphs:  
-
+### Executing Flux (versions > 2)
+<a href="https://docs.influxdata.com/flux/v0.x/get-started/">Flux</a> is a query language that is used in the new versions of Influx. It is not similar to InfluxQL and doesn't use SQL syntax.
+#### Query example 
+```
+from(bucket: "example-bucket")
+    |> range(start: -1d)
+    |> filter(fn: (r) => r._measurement == "example-measurement")
+    |> mean()
+    |> yield(name: "_results")
+```
 ![](images/database/influxdb/inflixdb-ql.png)
 ![](images/database/influxdb/inflixdb-ql2.png)
