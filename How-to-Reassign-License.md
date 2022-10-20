@@ -20,7 +20,10 @@ A pop-up opens, and you can enter the new license end user's data: email; first 
 
 ![](images/license/ind.png)
 
-If you have a group or unlimited license, it is also possible to assign users. Also, if you click the checkbox 
+If you have a group or unlimited license, it is also possible to assign users. In addition, if you click the checkbox 'Allow User 1 to manage license users', this user will become a license manager and will be able to assign users.
+
+![](images/license/as-group.png)
+
 The license will remain in your personal account. The end user's email will be in the end-user column on the Assignment tab.
 
 ![](images/license/assignment2.png)
