@@ -122,4 +122,4 @@ License Manager provides you with the following information about your licenses:
 * Support period is the period you have access to the internal support system on the site and the possibility to download new product versions;
 * State: valid or expired.
 
-![](images/license/lm-imported.png)
+![](images/license/manager.png)
