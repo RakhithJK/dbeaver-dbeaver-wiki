@@ -1,8 +1,6 @@
-**Note: This functionality is available only in the [Enterprise Edition](Enterprise-Edition).**
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
 
 The default grid view of the query resulting data is not very impressive, especially to business analysts and other users. The **Charts** feature lets you quickly and easily  turn your SELECT queries' output into a colorized bar chart.
-
-*Note: Analytical Charts are only present in the DBeaver [Enterprise Edition](Enterprise-Edition)*
 
 ![](images/charts/sample_bar_chart.png)
 
@@ -89,4 +87,3 @@ You can export а chart into PNG format by selecting the **Save as...** option i
 ## Printing Charts 
 
 You can print а chart by selecting the **Print...** option in the chart's context menu.
-

@@ -1,6 +1,6 @@
 ## Develop and debug DBeaver in IntelliJ IDEA
 
-Well, this a tricky part.  
+Well, this is a tricky part.  
 
 ### Intro
 
@@ -13,9 +13,9 @@ Anyhow, here we will try to open the DBeaver project in IDEA, write code, compil
 
 #### How
 
-It is quite easy to open the project, see the module structure and even compile.  
+It is quite easy to open the project, see the module structure and even compile it.  
 But running/debugging is the trickiest part because it requires Eclipse runtime workspace and only Eclipse IDE can create one (IDEA does not support this and nobody can blame JetBrains for that).  
-So, we will still need Eclipse to configure the workspace for the debugger. But once you do this, you will no longer need to run Eclipse (until the plugins structure or versions change).  
+So, we will still need Eclipse to configure the workspace for the debugger. But once you do this, you will no longer need to run Eclipse (until the plugin structure or versions change).  
 
 Let's start!
 
@@ -34,11 +34,11 @@ Let's start!
 
 #### Prepare Eclipse IDE and workspace
 
-1. Perform all steps described in the [Develop in Eclipse](Develop-in-Eclipse) article. Use just cloned `dbeaver-ce/dbeaver` as the sources root.
-1. Eventually you should be able to compile and run DBeaver from Eclipse
+1. Perform all steps described in the [Develop in Eclipse](Develop-in-Eclipse) article. Use just cloned `dbeaver-ce/dbeaver` as the source root.
+1. Eventually, you should be able to compile and run DBeaver from Eclipse
 1. Remember where your Eclipse IDE is located (let's say `eclipse-ide-path`)
 
-#### Configuring dependencies and compile the application
+#### Configuring dependencies and compiling the application
 
 1. Now we need to add Eclipse dependencies in the IDEA project configuration.
 1. Open `File->Project structure...`.
@@ -54,19 +54,27 @@ Let's start!
    - `eclipse-ide-path/plugins/org.jkiss.bundle.sshj*/lib`. 
 1. If that is not enough, add all folders in `eclipse-ide-path/plugins/org.jkiss*`. Then manually download and add Mockito and JUnit.
 1. Eventually you will see something like this: ![](images/development/idea/global-libraries.png)
-1. Now you should be able to compile the project. Just hit <kbd>CTRL+F9</kbd> and wait.
+1. Now, you should be able to compile the project. Just hit <kbd>CTRL+F9</kbd> and wait.
 
 #### Running and debugging
 
-DBeaver is an Eclipse RCP and must be started using the Eclipse Equinox Launcher bundle. This is a special jar file which resides in the Eclipse plugins folder and we need to add it to dependencies directly in order to be able to debug.
+DBeaver is an Eclipse RCP and must be started using the Eclipse Equinox Launcher bundle. This is a special jar file that resides in the Eclipse plugins folder and we need to add it to dependencies directly in order to be able to debug.
 
 1. Add the launcher config as a jar dependency for module `dbeaver`. Locate the jar `org.eclipse.equinox.launcher_*.jar` in the `eclipse-ide-path/plugins/` folder. Like this: ![](images/development/idea/launcher-dependency.png)
 1. Open debug configuration "Debug DBeaver Community" and change the path in the parameters `-configuration` and `-dev`.  
-Replace the path before `.metadata` with path to your Eclipse workspace. Eventually it should look like this:  
+Replace the path before `.metadata` with a path to your Eclipse workspace. Eventually, it should look like this:  
 ![](images/development/idea/debug-config.png)
 1. Click ok and run the debugger. DBeaver must start. Now you can enjoy debugging in IDEA :)
-
-### Problems
-
-Most likely something will go wrong as these instructions are quite long. Do not be afraid to recheck the configuration and try again.
+## Additional information
+### Can't launch DBeaver debug on macOS/Linux
+Initial launch arguments are used for Windows launch. You need to change them manually. Open debug configuration "Debug DBeaver Community" and find these parameters.
+`-os
+win32
+-ws
+win32
+-arch
+x86_64` You may need to replace them. Fortunately, Eclipse debug configuration uses correct arguments automatically. Open Eclipse debug configuration which you created while completing [Develop in Eclipse](https://github.com/dbeaver/dbeaver/wiki/Develop-in-IDEA/Develop-in-Eclipse), press `Show Command Line`. Pressing this button will open a dialog window. The dialog will contain required arguments, copy them and paste them to the IDEA debug configuration.
+## Problems
+Most likely, something will go wrong as these instructions are quite long. Do not be afraid to recheck the configuration and try again.
 If nothing helps - do not hesitate to ask at <a href="/dbeaver/dbeaver/issues/">tickets</a>.
+

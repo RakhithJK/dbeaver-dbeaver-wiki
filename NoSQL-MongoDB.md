@@ -1,4 +1,4 @@
-**Note: MongoDB extension is available only in [Enterprise Edition](Enterprise-Edition) version.**
+**Note: MongoDB extension is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
 
 ### Browsing Mongo collections
 You can view/edit the Mongo collections content as standard relational tables (grid/plain text presentations) or as JSON documents.  

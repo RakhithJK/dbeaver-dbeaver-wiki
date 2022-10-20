@@ -29,7 +29,26 @@ A single query may generate several result sets represented by tabs. These tabs 
 
 ### Naming
 
-Tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, where:
+A tab is often named after the primary table of your query. For example, after executing the following query you will see a single tab called `Album` (assuming that your database has a table called `Album`):
+
+```sql
+SELECT * FROM Album;
+```
+
+If a query has joins or, in other words, has multiple source tables, a `(+)` is shown right to the table name. The following query will result in a tab called `Album(+)`:
+
+```sql
+SELECT * FROM Album al, Artist ar WHERE al.AlbumId = ar.ArtistId;
+```
+
+Additionally, you can change the name of a given tab via its context menu or by using a special comment:
+
+```sql
+-- title: DBeaver is cool
+SELECT * FROM Album;
+```
+
+In other cases, tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, where:
 * **A** is _an index of query_
 * **B** is _an index of result set of this query_
 

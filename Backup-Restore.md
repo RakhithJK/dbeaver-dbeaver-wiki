@@ -1,3 +1,5 @@
+**NB: This feature is not available in the [Lite](Lite-Edition) edition.**
+
 ## Database Backup/restore
 
 DBeaver supports native database backup/restore functions for the following databases:

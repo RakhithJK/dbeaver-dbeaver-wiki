@@ -1,6 +1,6 @@
 You can create multiple SQL scripts for a single connection. Every script opens in its own SQL editor. 
 To open an SQL editor for some connection:
-* Click this connection in the [Database Navigator](Database-Navigator) view and press <kbd>F3</kbd> or click **SQL Editor -> SQL Editor** on the main menu. Alternatively, click **SQL Editor** on the context menu of this connection. DBeaver opens the Choose SQL script editor with saved SQL scripts linked to this connection. CLick the SQL script to open it in a separate tab.
+* Click this connection in the [Database Navigator](Database-Navigator) view and press <kbd>F3</kbd> or click **SQL Editor -> SQL Editor** on the main menu. Alternatively, click **SQL Editor** on the context menu of this connection. DBeaver opens the Choose SQL script editor with saved SQL scripts linked to this connection. Click the SQL script to open it in a separate tab.
 * Click **Recent SQL Editor** on the context menu for this connection or on the main menu (**SQL Editor -> Recent SQL Editor**). This opens the latest used SQL editor. You can also open the most recent SQL editor using <kbd>Ctrl+Enter</kbd> shortcut in the Database Navigator view.
 * If you need to create a new SQL script, on the main menu, click **SQL Editor -> New SQL Editor** or press <kbd>F3</kbd> and then click **New Script** in the Choose SQL Script window.
 

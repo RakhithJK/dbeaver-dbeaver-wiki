@@ -1,6 +1,11 @@
 Sometimes (especially after multiple DBeaver versions upgrade) the workspace can become messy.  
 Some keyboard shortcuts may stop working, toolbar layouts may be broken, etc, etc.  
-To reset all UI settings (this includes menus, shortcuts, view and toolbar layouts):
+
+Press `Reset workspace state` in the `File` menu to reset all UI settings (this includes menus, shortcuts, view and toolbar layouts):
+
+![](images/reset-workspace.png)
+
+Also, you can do it manually:
 
 1. Shutdown DBeaver
 2. Go to the default workspace folder `.metadata\.plugins\org.eclipse.e4.workbench\`

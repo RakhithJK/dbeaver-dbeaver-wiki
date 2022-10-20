@@ -9,6 +9,6 @@ Command | Database | Description |
 `@unset var` | All | Unsets a script variable.
 `@echo message` | All | Prints message to output log. You can use a macro in a message (for example `${var}`).
 `@include fileName` | All | - Executes a specified file name,<br/> - Can be used in scripts, <br/> - Opens a new SQL console with the specified file and processes SQL queries as in a regular SQL editor.
+`@export { ... }` | All | Opens the data transfer wizard with predefined settings.<br>For more information see [the main article](Export-Command).
 `source fileName` | MySQL | The same as `@include` but in MySQL CLI syntax
 `define var = value` | Exasol | The same as `@set` but in Exasol EXAPlus syntax.
-

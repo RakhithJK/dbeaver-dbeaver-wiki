@@ -25,16 +25,19 @@
   - [[Working with spatial/GIS data]]
   - [[Working with XML and JSON]]
   - [[Managing Data Formats]]
+  - [[Virtual column expressions]]
 - [[SQL Editor]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
+  - [[SQL Terminal]]
   - [[Variables panel]]
   - [[Query Execution Plan]]
   - [[Visual Query Builder]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Script Management]]
   - [[Client Side Commands|Client-side-scripting]]
+    - [[Export Command|Export-Command]]
   - Debug
     - [[PostgreSQL Debugger|PGDebugger]]
 - [[ER Diagrams]]
@@ -56,6 +59,7 @@
 - [[Shortcuts]]
 
 #### Database Management
+- [[Sample Database]]
 - [[Database Connections]]
   - [[Create Connection]]
   - [[Edit Connection]]
@@ -69,6 +73,7 @@
     - [[SSL configuration]] <!--CMD:SKIP-->
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
     - [[Network Profiles]] <!--CMD:SKIP-->
+    - [[Separate Connections]] <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
@@ -84,10 +89,13 @@
   - [[Task management|Task management]]
   - [[Task scheduler]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Composite tasks]] <img src="images/commercial.png" vspace="4" align="top"/>
+  - [[Sending results by e-mail|Data transfer email]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[Cloud Explorer]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
+  - [[GCP Credentials]]
+  - [[GCP SSO]]
 
 #### Enterprise Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
@@ -105,6 +113,7 @@
 - [[CouchDB]]
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [[Netezza]]
+- [[Oracle]]
 - [[SQLite Crypt]]
 - [[Informix]]
 
@@ -122,6 +131,7 @@
 - [[Command Line]]
 - [[Reset UI settings]]
 - [[Reset workspace]]
+- [[Troubleshooting system issues]]
 - [[Posting issues]]
 - [[Log files]]
 - [[JDBC trace|JDBC-Tracing]]
@@ -130,14 +140,21 @@
 
 #### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
+- [[Managing variables|Admin-Variables]]
 - [[Managing drivers|Admin-Manage-Drivers]]
 - [[Windows Silent Install]]
 - [[Workspace]] <!--CMD:SKIP-->
+- [[Snap installation|Snap-installation]]
 
 #### License management <img src="images/commercial_big.png" align="top" height="16">
 - [[License Administration]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Import License]] <img src="images/commercial.png" vspace="4" align="top"/>
 - [[How to Reassign License]] <img src="images/commercial.png" vspace="4" align="top"/>
+
+#### Tutorials
+- [[Connecting to Oracle Database using JDBC OCI driver]]
+- [[Importing CA Certificates into DBeaver]]
+- [[How to set a variable if dbeaver.ini is read-only]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->

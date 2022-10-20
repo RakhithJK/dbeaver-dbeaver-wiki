@@ -7,9 +7,9 @@ By default, the menu bar contains the following menus:
 * **File** menu contains menu items for the creation of files, folders, projects, database connections, database projects, and ER diagrams as well as Import and Export items.  
 * **Edit** menu contains global commands like Cut, Copy, Paste, and Delete targeted at the active element.
 * **Navigate** menu allows navigating through scripts and database objects.
-* **Search** menu provides options to search among files, database objects and across data.
+* **Search** menu provides options to search among files, database objects, and across data.
 * **SQL Editor** menu is for opening SQL Editor and managing its appearance.
-* **Database** menu allows you to manage database drivers, connections and transactions as well as reconnect to and disconnect from a database.
+* **Database** menu allows you to manage database drivers, connections, and transactions as well as reconnect to and disconnect from a database.
 * **Window** menu includes items to manage the look of the DBeaver window: show/hide and minimize/maximize views and editors, display bars, split editors, and manage other preferences.
 * **Help** menu contains links to information and help resources, as well as menu items to check the version number and availability of updates.
 
@@ -26,7 +26,7 @@ You can customize the toolbar - this is done on **Window -> Customize Perspectiv
 You can hide or show the toolbar in the application window. To do it, on the Window menu, click **Appearance -> Hide  Toolbar / Show Toolbar**.
 
 # Shortcut Bar
-There are two shortcut bars - on the left and on the right side of the workspace zone. Shortcut bars host shortcuts of views and editors and appear if at least one view or editor is minimized, otherwise they are hidden.
+There are two shortcut bars - on the left and on the right side of the workspace zone. Shortcut bars host shortcuts of views and editors and appear if at least one view or editor is minimized, otherwise, they are hidden.
 
 # Views
 Views are windows within the workspace that provide presentations and ways to navigate the information.
@@ -41,7 +41,7 @@ To open a view:
 * On the Window menu, click **Show View** and then, on the submenu, click the name of the view.
 * For Database Navigator, Projects, and Project Explorer views, on the Window menu, just click the name of the view.
 
-Some views open together with editors or on demand, for example, Error Log view opens when an error occurs.
+Some views open together with editors or on-demand, for example, the Error Log view opens when an error occurs.
 
 ## Changing Views Layout
 You can move views around the workbench and dock them in different positions:
@@ -56,7 +56,7 @@ To dock a view to a position in the workspace, press and hold the title bar of t
 To maximize a view to the size of the whole workspace, do one of the following:
 * Click the Maximize button in the upper-right corner of the view.
 * Double-click the title bar of the view.
-* On the Window menu, click **Appearance -> Maximixe Active View or Editor**.
+* On the Window menu, click **Appearance -> Maximize Active View or Editor**.
 
 When one view is maximized, other views appear as shortcuts on the shortcut bar.
 
@@ -70,6 +70,17 @@ The shortcuts of views and editors may appear on the left or on the right shortc
 
 To minimize a view, do one of the following:
 * Click the Minimize button in the upper-right corner of the view.
-* On the Window menu, click **Appearance -> Maximixe Active View or Editor**.
+* On the Window menu, click **Appearance -> Maximize Active View or Editor**.
 
-To restore a minimized view to its previous position, on the shortcut bar, click the Restore button of the view or editor. To restore a minimized view to a new position, click the view / editor name button under the restore button.
+To restore a minimized view to its previous position, on the shortcut bar, click the Restore button of the view or editor. To restore a minimized view to a new position, click the view/editor name button under the restore button.
+
+## Switch workspace
+
+The current workspace for DBeaver can be switched by using the File -> Switch Workspace command. If you have already switched your workspace previously the previous workspaces will be available for selection in the Switch Workspace menu.
+
+![](images/ug/Switch-workspace-from-file.png)
+
+The Switch Workspace --> Other... menu item will open the switch workspace dialog. The dialog will allow you to browse for or manually enter a new workspace location. The combo will also allow you to select your previously selected workspaces. 
+When you switch your workspace you can select settings (like "Preferences") that will be transferred to the new workspace.
+
+![](images/ug/Switch-workspace-dialog.png)

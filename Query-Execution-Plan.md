@@ -1,5 +1,20 @@
 ## Execution Plan
 
+This feature is supported for the following data sources:
+
+* ClickHouse <img src="images/commercial.png" vspace="4" align="top"/>
+* DB2 LUW
+* Exasol
+* Firebird
+* Microsoft SQL Server <img src="images/commercial.png" vspace="4" align="top"/>
+* MySQL
+* Netezza <img src="images/commercial.png" vspace="4" align="top"/>
+* OceanBase
+* Ocient
+* Oracle
+* PostgreSQL
+* SAP HANA
+
 ### Simple plan view
 
 If a database driver supports the visualization of the execution plan, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the main toolbar: ![](images/ug/Exec-plan.png)
@@ -13,7 +28,7 @@ To see the source script on which the plan is based, click the **View Source** b
 
 ### Advanced plan view <img src="images/commercial_big.png" align="top" vspace="2" height="24">
 
-In DBeaver [Enterprise Edition](Enterprise-Edition) you can use an advanced (graph) visualization of the execution plan.  
+In DBeaver [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions you can use an advanced (graph) visualization of the execution plan.  
 This visualization shows the most expensive (cost-based) plan nodes. You can hide all irrelevant nodes (see node details), use horizontal or vertical plan layouts, export it to an image or save it as JSON to send to a colleague.
 
 ![](images/ug/Exec-plan-graph.png)

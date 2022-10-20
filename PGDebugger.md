@@ -1,8 +1,8 @@
 ## Prerequisites for Debugging
-To enable interactive debugging of PL/SQL procedures on a Postgres server, you need to use the _plugin_debugger_. 
+To enable interactive debugging of PL/pgSQL procedures on a Postgres server, you need to use the _plugin_debugger_. 
 The _plugin_debugger_ is a typical interactive debugger delivered as an extension. 
 It requires a shared library preload in Postgres to operate the shared_preload_libraries parameter in the settings. 
-The debugger is developed and maintained by  EnterpriseDB. Its source code is available for examination and improvement.
+The debugger is developed and maintained by EDB. Its source code is available for examination and improvement.
  
 The debugger provides the required server API for debugging PL/SQL procedures with:
 
