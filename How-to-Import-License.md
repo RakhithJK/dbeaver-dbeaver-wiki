@@ -19,11 +19,11 @@ This License text will contain your License ID e. g. DB-841MRZHY-ZH54, the start
 
 You can just copy-paste the License Key to import the license into the License Manager. Please note that you need to copy-paste the full license text (not just the license ID). The license text starts with “–” and ends with “==” characters.
 
-![](images/license/email.png)
+![](images/license/mail.png)
 
 Sometimes an email client can corrupt the formatting of the License Key that can cause an error.
 
-![](images/license/formatting-error.png)
+![](images/license/error.png)
 
 Therefore, you need to import your License Key from your personal account on our site https://dbeaver.com/.
 
@@ -33,7 +33,7 @@ Firstly, you need to [Sign in](https://dbeaver.com/signin/).
 
 Secondly, you should open the **Licenses** tab, where you can find all your licenses. 
 
-![](images/license/lic-tab.png)
+![](images/license/tab.png)
 
 
 
@@ -43,20 +43,20 @@ To open License details and copy the license key text click the license ID link.
 
 
 
-![](images/license/lic-details.png)
+![](images/license/details.png)
 
 At the bottom of the page you can find the License Key required to start using DBeaver.
 There are two options how to copy your License Key from the personal account:
 
 1)Press the **COPY TO CLIPBOARD** button, then press OK. The license text will be copied to the clipboard.
 
-![](images/license/copy.png)
+![](images/license/lic-copy.png)
 
 2)Press the **DOWNLOAD LICENSE** button, then press OK. 
 
 .txt file with your License Key will be downloaded to your download folder. The file name is License ID, e. g. DB-841MRZHY-ZH54.
 
-![](images/license/download.png)
+![](images/license/lic-download.png)
 
 Then you need to insert the copied License Key to License Manager in DBeaver.
 
@@ -65,26 +65,23 @@ Then you need to insert the copied License Key to License Manager in DBeaver.
 To start using commercial versions of DBeaver with your License Key you need to open License Manager in DBeaver:
 Help -> DBeaver License Info
 
-![](images/license/help.png)
+![](images/license/help-info.png)
 
 The License information window can look different depending on whether you already have a valid license or not.
 
-![](images/license/license-info.png)
+![](images/license/information.png)
 
 Then you open the License Manager and press the Import button to paste your License Key.
 
-![](images/license/import.png)
+![](images/license/lic-import.png)
 
-Next press the **Import** button to paste your License Key.
-
-![](images/license/import-license.png)
 
 If you copied the License Key to the clipboard, press the Paste button and then Import. 
 If you downloaded a .txt file with the License Key, press the Load button and then select the file from Downloads. The License Key will be pasted automatically.
 Then press the Import button and your license will be added to the License Manager. You have successfully imported your license.
 
 
-![](images/license/lm.png)
+![](images/license/manager.png)
 
 You have successfully imported your license. Now you can close the License Manager and start using DBeaver.  
 
