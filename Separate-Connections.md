@@ -11,9 +11,8 @@ Opening separate metadata connection may increase performance because there will
 
 You can set up opening separate connection for metadata read globally in Preferences->Connections->Metadata or per each connection in Connection configuration->Metadata.
 
-![](images/separate-connection-editor.png)
-
-The setting to turn on/off opening separate connection for each editor is available in Preferences->Editors->SQL Editor and Connection configuration->SQL Editor and Connection configuration->Metadata.
-
 ![](images/separate-connection-meta.png)
 
+The setting to turn on/off opening separate connection for each editor is available in Preferences->Editors->SQL Editor and Connection configuration->SQL Editor and Connection configuration->SQL Editor.
+
+![](images/separate-connection-editor.png)
