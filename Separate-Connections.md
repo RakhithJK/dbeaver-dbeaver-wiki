@@ -13,6 +13,8 @@ You can set up opening separate connection for metadata read globally in Prefere
 
 ![](images/separate-connection-meta.png)
 
-The setting to turn on/off opening separate connection for each editor is available in Preferences->Editors->SQL Editor and Connection configuration->SQL Editor and Connection configuration->SQL Editor.
+Opening separate connection for SQL Editor may allow you to have different execution context for each script.
+
+You can set up opening separate connection for each editor in Preferences->Editors->SQL Editor and Connection configuration->SQL Editor and Connection configuration->SQL Editor.
 
 ![](images/separate-connection-editor.png)
