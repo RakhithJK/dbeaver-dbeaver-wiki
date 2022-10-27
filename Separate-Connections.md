@@ -14,7 +14,7 @@ You can set up opening separate connection for each editor in Preferences->Edito
 
 ![](images/separate-connection-editor.png)
 
-### Default option
+### Options
 `Always` option means that DBeaver will create separate connections for SQL Editor and/or metadata read.
 
 If you choose `Never` option, then DBeaver will use single connection - no new connections will be opened.
