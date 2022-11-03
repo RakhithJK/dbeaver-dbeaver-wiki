@@ -15,6 +15,7 @@ Most of the extensions can be found on the [Eclipse Marketplace](https://marketp
 - [Subversion support](https://marketplace.eclipse.org/content/subclipse) - Subversion integration
 - [Embedded Shell](https://marketplace.eclipse.org/content/easyshell) - Allows you to run shell commands directly from DBeaver
 - [Editor vertical indents](https://marketplace.eclipse.org/content/indent-guide) - Adds vertical indents to all text editors
+- [CodeTogether](https://www.codetogether.com/download/) - Allows you to share the IDE and collaborate
 
 
 # Install Process
