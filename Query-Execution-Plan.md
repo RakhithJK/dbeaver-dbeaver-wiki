@@ -1,6 +1,9 @@
 ## Execution Plan
 
+
 This feature is supported for the following data sources:
+
+**The Execution plan for databases marked with a star is supported only in Lite, Enterprise and Ultimate editions**
 
 * ClickHouse <img src="images/commercial.png" vspace="4" align="top"/>
 * DB2 LUW
