@@ -11,7 +11,7 @@ Click on the arrow in the auto-refresh button
 ![image](https://user-images.githubusercontent.com/20579256/203995457-b755081f-18d4-46e8-b998-56a7ebd1eba2.png). 
 Now you can configure auto refresh in the two following ways:
 ### 1. Use a predetermined duration
-You can select via available predetermined periods.
+You can select via choosing an available predetermined period in the context menu.
 
 > ![image](https://user-images.githubusercontent.com/20579256/203997905-7662c487-743c-45ef-8704-ad6dc88e1b5a.png)
 
@@ -25,4 +25,4 @@ You can set your time duration between refreshes. To do that, select
 > b) Select the **Stop on error** checkbox if you want the refresh to stop when it encounters an error or clear it if the refresh should ignore mistakes.  
 > c) Click **OK**. 
 
-When you perform either of these two alternative options above, the system starts refreshing the data as scheduled, and the Configure auto-refresh button changes to the **Stop auto-refresh** button ![image](https://user-images.githubusercontent.com/20579256/204000522-e140952e-a256-42e5-8e15-ef4b71e5e331.png).  To stop the auto-refresh, click the **Stop auto-refresh** button or the arrow next to it and click **Stop** on the auto-refresh menu.
+When you perform either of these two alternative options above, the system starts refreshing the data as scheduled, and the Configure auto-refresh button changes to the **Stop auto-refresh** button ![image](https://user-images.githubusercontent.com/20579256/204000522-e140952e-a256-42e5-8e15-ef4b71e5e331.png). To stop the auto-refresh, click the **Stop auto-refresh** button or the arrow next to it and click **Stop** on the auto-refresh menu.
