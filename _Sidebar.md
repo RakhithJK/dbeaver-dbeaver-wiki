@@ -70,7 +70,6 @@
   - Advanced settings <!--CMD:SKIP-->
     - [[SSH Configuration]] <!--CMD:SKIP-->
     - [[Proxy configuration]] <!--CMD:SKIP-->
-    - [[SSL configuration]] <!--CMD:SKIP-->
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
     - [[Network Profiles]] <!--CMD:SKIP-->
     - [[Separate Connections]] <!--CMD:SKIP-->
@@ -154,6 +153,7 @@
 #### Tutorials
 - [[Connecting to Oracle Database using JDBC OCI driver]]
 - [[Importing CA Certificates into DBeaver]]
+- [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 
 #### Development <!--CMD:SKIP-->
