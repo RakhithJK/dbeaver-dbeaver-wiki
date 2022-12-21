@@ -1,1 +1,1 @@
-The `Pkix path building failed `error may occur due to incorrect SSL settings usage. As a general recommendation, we suggest **ignoring host name validation**. This checkbox is available in some databases' SSL tab of the Connection settings.
+The `Pkix path building failed `error may occur due to incorrect SSL settings usage. As a general recommendation, we suggest **ignoring host name validation**. This checkbox is available in some databases' SSL tabs of the Connection settings.
