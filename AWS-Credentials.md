@@ -1,3 +1,5 @@
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
+
 DBeaver is integrated with AWS IAM authentication.  
 Thus it provides the possibility to authenticate in AWS to access your cloud databases.  
 To use IAM authentication in DBeaver, in connection configuration `AWS RDS IAM` should be selected as an authentication method:
