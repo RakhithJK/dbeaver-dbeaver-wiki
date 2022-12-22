@@ -4,8 +4,8 @@ To perform a data transfer, please, follow the steps below.
  
 ## Step 1: Define the data source
 
-In the **Database Navigator** select one or more tables you want to export. In the context menu choose "Export Data".
-(Note: you also can export data from the custom SQL queries results. For that, choose "Export results" in the results context menu).
+In the **Database Navigator** select one or more tables you want to export. In the context menu choose **Export Data**.
+(Note: you also can export data from the custom SQL query results. For that, choose **Export data** in the results context menu).
 
 
 ![](images/dt/dt-export_menu.png)
@@ -130,7 +130,7 @@ Extraction settings define how the data will be pulled from the source. The foll
 
 Option|Description
 ----|-----
-**Maximum threads**|Defines a number of threads to be used for data transfer. 
+**Maximum threads**|Defines the number of threads to be used for data transfer. 
 **Extract type**|Select **Single query** option if your data load is not too big. Select **By segments** option if you need to migrate a solid amount of data. When this option is selected you can set the **Segment size** value, that is to define the number of rows to be transferred in each segment.
 **Open new connections**|If selected, a new connection will be opened and the data transfer will not interfere with other calls to the database whose data is being transferred.
 **Select row count**|If selected, a progress bar displaying data migration process will be shown.
@@ -141,13 +141,13 @@ Data load settings define how the extracted data will be pushed to the target. T
 
 Option|Description
 ----|-----
-**Truncate data load table before load**|Select this check-box only if you want all the data be cleared from the target table. Be very careful with this option!
+**Truncate data load table before load**|Select this checkbox only if you want all the data to be cleared from the target table. Be very careful with this option!
 **Replace method**|Select this drop-down list if you want to change the import behavior in case of a duplicate primary key value. [Data Import and Replace page](Data-Import-and-Replace)
 **Open new connections**|Use this option to speed up data transfer. If selected, a new connection will be opened and the data transfer will not interfere with other calls to the database where data is being transferred to.
 **Use transactions**|This option allows you to speed up the data transfer and to define the number of rows for each transaction by setting the **Commit after insert of** parameter.
 **Use multi-row insert**|Use multi-row insert with extended values number for higher performance. Database-specific setting.
 **Skip bind values during insert**|This option can drastically increase performance for some drivers like Redshift by skipping a process of binding values and setting them directly, but it opens up a vulnerability to SQL injections. Not recommended if you are not sure of imported file contents.
-**Disable batches**|Select this check-box if you want to disable the use of batch imports. The import will be made row by row. Enabling this function will show all import errors, but make the import process slower.
+**Disable batches**|Select this checkbox if you want to disable the use of batch imports. The import will be made row by row. Enabling this function will show all import errors, but make the import process slower.
 **Open table editor on finish**|If selected, the table editor is to be opened when data transfer is finished.
 **Show finish message**|If selected, a notification message will be shown when the transfer is finished.
 
