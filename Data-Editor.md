@@ -56,6 +56,8 @@ Button|Name|Description
 ![](images/ug/Row-count-details-button.png)|**Rows count details**|Opens the Status details dialog box showing the timing details of fetching table rows
 ![](images/ug/Calculate-total-rows-button.png)|**Calculate total row count**|Calculates the total number of rows in the table
 
+NOTE: Some of these buttons may be disabled and may not work if you are using a read-only connection, connecting to a read-only database or if you see the result of a complex query, such as joining two or more tables.
+
 Every cell in the data table has a context menu – right-click the cell to open the menu. The context menu provides the following items:
 
 Menu Item|Description
@@ -76,8 +78,8 @@ Menu Item|Description
 **View/Format**|Opens a submenu that provides tools for formatting and modifying the view of data, see [Data View and Format](Data-View-and-Format)
 **Navigate**|Opens a submenu that helps users navigate throughout the data table, see [Navigation](Navigation)
 **Layout**|Changes the layout of data, see the _Table vs. Record Views_ section of the [Data View and Format](Data-View-and-Format) article
-**Export Resultset**|Opens the Data Transfer wizard that guides you through the steps to select a format and export data<br/>NOTE: The system exports the whole result set including records that are not visible in the screen and preserves all applied data filters and ordering.
+**Export Resultset**|Opens the Data Transfer wizard that guides you through the steps to select a format and export data<br/>NOTE: The system exports the whole result set including records that are not visible on the screen and preserves all applied data filters and ordering.
 **Generate SQL**|Opens a submenu on which you can select the type of SQL query to generate
-**Refresh**|Refreshes the whole results set including all items that are not visible in the screen
+**Refresh**|Refreshes the whole results set including all items that are not visible on the screen
 
 For more information about using the Data Editor, please see the subsections of this article - open them via the contents tree on the right.
