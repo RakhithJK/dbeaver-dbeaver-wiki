@@ -44,6 +44,6 @@ You will need to choose one or more options provided below:
 |Name|Description|
 |---|---|
 |Task run history|Contains information about previously run tasks along with logs collected during their execution|
-|Query log history <img src="images/commercial.png" vspace="4" align="top" alt="Query history is not persisted between sessions in the community edition"/>|Contains information about previously run (user and meta) SQL queries|
+|Query log history <img src="images/commercial.png" title="Query history is not persisted between sessions in the community edition"/>|Contains information about previously run (user and meta) SQL queries|
 
 When you're happy with the options, click the `Apply and Restart` button to continue.
