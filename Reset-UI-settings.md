@@ -24,7 +24,7 @@ After accepting the confirmation, DBeaver will restart and greet you with a fres
 
 If you cannot launch DBeaver, you can reset the workspace manually.
 
-** Be careful**: only delete any other files if you know what you're doing, and follow the steps below. 
+> **Be careful**: only delete any other files if you know what you're doing, and follow the steps below. 
 
 To do so, do the following:
 1. - On **Windows**, open Explorer and navigate to `%APPDATA%\DBeaverData\workspace6\.metadata\.plugins`
