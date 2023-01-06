@@ -114,6 +114,7 @@
 - [[Netezza]]
 - [[Oracle]]
 - [[SQLite Crypt]]
+- [[Snowflake]]
 - [[Informix]]
 
 #### Customizing DBeaver
