@@ -31,7 +31,7 @@ To do so, do the following:
    - On **macOS**, open Finder and navigate to `~/Library/DBeaverData/workspace6/.metadata/.plugins`
    - On **Linux**, open file explorer and navigate to `$XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.plugins`
 1. First, you can try deleting the file `workbench.xmi` located in the `org.eclipse.e4.workbench` directory
-1. If it didn't help, you could delete all files in the `.plugins` directory or that directory itself
+1. If it didn't help, try deleting all files in the `.plugins` directory or that directory itself
 
 ## Clear History
 
