@@ -1,21 +1,21 @@
 **Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
 
 Databases that support this feature:
-- Cockroach <img src="images/commercial.png" vspace="4" align="top"/>
-- EnterpiseDB <img src="images/commercial.png" vspace="4" align="top"/>
-- Fujitsu <img src="images/commercial.png" vspace="4" align="top"/>
-- Greenplum <img src="images/commercial.png" vspace="4" align="top"/>
+- Cockroach
+- EnterpiseDB
+- Fujitsu
+- Greenplum
 - HANA
-- MySQL <img src="images/commercial.png" vspace="4" align="top"/>
+- MySQL
 - MariaDB
 - Oracle
-- PostgreSQL <img src="images/commercial.png" vspace="4" align="top"/>
+- PostgreSQL
 - PrestoDB
 - PrestoSQL (Kerberos can be used with SSL from JKS)
-- Redshift <img src="images/commercial.png" vspace="4" align="top"/>
-- Teradata (in progress) <img src="images/commercial.png" vspace="4" align="top"/>
-- Yellowbrick <img src="images/commercial.png" vspace="4" align="top"/>
-- YugabyteDB <img src="images/commercial.png" vspace="4" align="top"/>
+- Redshift
+- Teradata (in progress)
+- Yellowbrick
+- YugabyteDB
 
 There are a lot of ways to use Kerberos in your database authentication. On this page, you will learn a few of them. This page describes only the part that you need to do on the client machine (the one on which DBeaver is installed), and it is implied that Kerberos KDC and the necessary configuration are already done on the server.
 
