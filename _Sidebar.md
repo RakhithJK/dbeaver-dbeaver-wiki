@@ -165,3 +165,4 @@
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
+- [[Code contribution|Contribute-your-code]] <!--CMD:SKIP-->
