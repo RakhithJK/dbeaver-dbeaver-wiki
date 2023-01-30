@@ -44,12 +44,6 @@ It is included in the EE version.
 Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-support](https://marketplace.eclipse.org/content/dbeaver-svg-support)  
 P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/update/svg/latest/)
 
-### Advanced SSH tunnel libraries
-
-Needed to support more key formats (e.g. ed25519).  
-
-Since version 21 SSHJ xtension is included in the base DBeaver distribution.
-
 ### Git integration
 
 Choose Oxygen (or other Eclipse version item) in available items:
