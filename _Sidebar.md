@@ -120,10 +120,10 @@
 
 #### Customizing DBeaver
 - [[Changing interface language|UI-Language]]
-- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
+- [[DBeaver extensions - Office, Debugger, SVG|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
 
-#### DBeaver Enterprise
+#### DBeaver PRO
 - [[Enterprise Edition]]
 - [[Lite Edition]] <!--CMD:SKIP-->
 - [[Ultimate Edition]] <!--CMD:SKIP-->
