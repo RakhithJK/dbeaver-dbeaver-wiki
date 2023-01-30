@@ -14,6 +14,7 @@ Databases that support this feature:
 - PrestoSQL (Kerberos can be used with SSL from JKS)
 - Redshift
 - Teradata (in progress)
+- TimescaleDB
 - Yellowbrick
 - YugabyteDB
 
