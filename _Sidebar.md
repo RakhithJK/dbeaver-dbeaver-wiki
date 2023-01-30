@@ -97,7 +97,13 @@
   - [[GCP SSO]]
   - [[Azure|Azure Cloud Explorer]]
 
-#### Enterprise Databases support <img src="images/commercial_big.png" align="top" height="16">
+#### DBeaver PRO
+- [[Enterprise Edition]]
+- [[Lite Edition]] <!--CMD:SKIP-->
+- [[Ultimate Edition]] <!--CMD:SKIP-->
+- [[Team Edition]] <!--CMD:SKIP-->
+
+#### PRO Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
@@ -122,11 +128,6 @@
 - [[Changing interface language|UI-Language]]
 - [[DBeaver extensions - Office, Debugger, SVG|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
-
-#### DBeaver PRO
-- [[Enterprise Edition]]
-- [[Lite Edition]] <!--CMD:SKIP-->
-- [[Ultimate Edition]] <!--CMD:SKIP-->
 
 #### Troubleshooting
 - [[Command Line]]
