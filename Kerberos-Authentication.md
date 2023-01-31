@@ -2,7 +2,7 @@
 
 Databases that support this feature:
 - Cockroach
-- EnterpiseDB
+- EnterpiseDB (EDB)
 - Fujitsu
 - Greenplum
 - HANA
