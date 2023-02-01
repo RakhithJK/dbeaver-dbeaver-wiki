@@ -89,6 +89,7 @@
   - [[Task scheduler]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Composite tasks]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Sending results by e-mail|Data transfer email]] <img src="images/commercial.png" vspace="4" align="top"/>
+  - [[Uploading result to external storage|Data transfer external storage]]
 - [[Cloud Explorer]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
