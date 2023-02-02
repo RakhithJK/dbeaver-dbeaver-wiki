@@ -11,7 +11,7 @@ You can make any number of commits. We usually perform squash before merging cha
 
 ## Can I fix a bug by myself?
 
-If you think that some bug on our [board](https://github.com/dbeaver/dbeaver/issues) has to be fixed and for some reason it not in the nearest milestone then you could try to fix it by yourself. It makes sense to ask about it in the ticket because sometimes we don't resolve tickets for a reason.  
+If you think that some bug on our [board](https://github.com/dbeaver/dbeaver/issues) has to be fixed and for some reason it is not in the nearest milestone then you could try to fix it by yourself. It makes sense to ask about it in the ticket because sometimes we don't resolve tickets for a reason.  
 
 After all if you decided that you want to fix the bug then you make a pull request (see above), the team will review it and write a PR review if necessary. If PR is merged then the fix will appear in the next version of DBeaver community (which is realeased every two weeks).
 
