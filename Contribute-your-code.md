@@ -18,6 +18,7 @@ After all if you decided that you want to fix the bug then you make a pull reque
 ## What types of new features are acceptable
 
 Generally you could suggest anything you think is usefull in database management tool. However we usually do not implement features too specific for your development process or specific to your internal company processes.  
+
 Good options:
 - Add new database or driver support
 - Extend database metadata read/modify (e.g. add triggers read it a specific database)
@@ -26,9 +27,21 @@ Good options:
 - Localize DBeaver interface (extend existing localization or add a new language)
 - Add new database-specific tool (e.g. table analyze for a specific database)
 
-There are samples of all these features in our codebase (TBD).
+There are samples of all these features in our codebase.
+
+```
+TBD
+```
 
 ## Code guidelines
+
+Main rule: use the same codestyle which is already used in a particular source file.  
+
+- Historically there are several slightly different code styles in our codebase but if you modify an old file it is better to use the same codestyle which used in this file.  
+- Do not reformat code or optimize all imports in a file you are changing. It is very hard to review your commits otherwise (because of big number of changes)
+- Use our automatic codestyle checks in PRs (every PR you will make in `dbeaver/dbeaver` repository will be chacked and you can see the report of the check list)
+
+IntelliJ IDEA code style can be taken here: https://github.com/dbeaver/dbeaver-idea-project
 
 ## Code style
 
