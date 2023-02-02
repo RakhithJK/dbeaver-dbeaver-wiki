@@ -17,6 +17,17 @@ After all if you decided that you want to fix the bug then you make a pull reque
 
 ## What types of new features are acceptable
 
+Generally you could suggest anything you think is usefull in database management tool. However we usually do not implement features too specific for your development process or specific to your internal company processes.  
+Good options:
+- Add new database or driver support
+- Extend database metadata read/modify (e.g. add triggers read it a specific database)
+- Add new SQL generator
+- Add new data export format
+- Localize DBeaver interface (extend existing localization or add a new language)
+- Add new database-specific tool (e.g. table analyze for a specific database)
+
+There are samples of all these features in our codebase (TBD).
+
 ## Code guidelines
 
 ## Code style
