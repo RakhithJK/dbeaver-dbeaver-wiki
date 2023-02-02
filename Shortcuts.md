@@ -214,6 +214,12 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |Enter|↩|Opens task configuration|
 |Ctrl+Shift+A|⌃⇧A|Set as default object|
 
+### Properties Entity Editor
+|Shortcut for Windows/Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+Shift+Up|Alt+Shift+Up|Switch to the next entity property left-side tab|
+|Alt+Shift+Down|Alt+Shift+Down|Switch to the previous entity property left-side tab|
+
 ### Navigation tree
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |-------|-------|-------|
