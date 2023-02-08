@@ -1,4 +1,4 @@
-In DBeaver, you can build working SQL queries using human language thanks to integration with Open AI ([GPT-3](https://platform.openai.com/docs/models/gpt-3)). 
+In DBeaver, you can build working SQL queries using human language thanks to integration with OpenAI (ChatGPT). 
 
 **Note:** 
 - **To use this feature, you need to register on the OpenAI platform and [receive a secret key](#receive-api-key).** 
@@ -61,7 +61,7 @@ You'll see the **Preferences** window.
 
 
 
-- **API token** it's a secret key from the Open AI platform. [Where to find a secret key](#receive-api-key)
+- **API token** it's a secret key from the OpenAI platform. [Where to find a secret key](#receive-api-key)
 
 - **Model** is a ChatGPT tool for understanding and generating natural language. The best model for generating SQL queries is **code-davinci**.
 
