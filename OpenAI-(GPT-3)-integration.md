@@ -12,7 +12,7 @@ In DBeaver, you can build working SQL queries using human language thanks to int
 
 ## How it works
 
-You write what you want to get from the database in the GPT-3 Smart Completion window, and DBeaver translates your phrase into the correct SELECT query.
+You write what you want to get from the database in the **GPT-3 Smart Completion** window, and DBeaver translates your phrase into the correct SELECT query.
 
 <table>
 <tr>
@@ -44,18 +44,18 @@ You write what you want to get from the database in the GPT-3 Smart Completion w
 
 3. Confirm the metadata transfer to Open AI. 
 
-4. Write your question in the **GPT-3 Smart Completion** windows and press **Translate**.
+4. Write your question in the **GPT-3 Smart Completion** window and press **Translate**.
 
 
 ## Configure 
 
 You don't need to configure GPT-3 Smart Completion to use it. It's enough to [specify the API key](#get-started), and everything will work. However, if you have problems generating SQL queries or want to experiment, you can try changing some settings.
 
-To configure this feature, open **GPT-3 Smart Completion windows** and click on a **Gear button**.
+To configure this feature, open **GPT-3 Smart Completion** window and click on a **Gear button**.
 
 <img width="400" alt="Screenshot 2023-02-06 at 22 17 13" src="https://user-images.githubusercontent.com/12581569/217090227-c92d5d85-3908-4074-899f-d3c1518ae47b.png">
 
-You'll see the **Preference** windows.
+You'll see the **Preferences** window.
 
 <img width="500" alt="Screenshot 2023-02-06 at 17 55 00" src="https://user-images.githubusercontent.com/12581569/217090352-b2a376a5-6a54-46a2-a546-268735d554f0.png">
 
@@ -87,7 +87,7 @@ You'll see the **Preference** windows.
 You only need to install this extension in the DBeaver Community version. In other versions, it is already installed.
 
 1. From the main menu, select **Help —> Install New Software**.
-2. In the installation windows, in the **Work with** field select **DBeaver AI (GPT) integration** .
+2. In the installation window, in the **Work with** field select **DBeaver AI (GPT) integration** .
 3. Then select **AI (GPT) Support**, press **Next** and follow the installation process. 
 <img width="649" alt="Screenshot 2023-02-06 at 18 16 58" src="https://user-images.githubusercontent.com/12581569/217039750-323f6f4c-ed19-413f-a351-7b1f2c28921d.png">
 
