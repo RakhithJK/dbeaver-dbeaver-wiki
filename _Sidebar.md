@@ -29,7 +29,7 @@
 - [[SQL Editor]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
-  - [[OpenAI (ChatGPT) SQL Assistance|OpenAI (ChatGPT) integration]]
+  - [[OpenAI (ChatGPT) SQL Assistance|OpenAI-(ChatGPT)-integration]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
   - [[SQL Terminal]]
