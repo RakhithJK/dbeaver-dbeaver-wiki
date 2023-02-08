@@ -29,7 +29,7 @@ You write what you want to get from the database in the GPT-3 Smart Completion w
 </tr>
 <table>
 
-**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know about table and column names in your database. If you don't want to share this information, it's best not to use this feature.
+**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. If you don't want to share this information, it's best not to use this feature.
 
 
 ## Get started
