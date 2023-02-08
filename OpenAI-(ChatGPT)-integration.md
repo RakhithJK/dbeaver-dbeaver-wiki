@@ -27,7 +27,7 @@ You write what you want to get from the database in the **GPT-3 Smart Completion
 <img width="500" alt="Screenshot 2023-02-06 at 21 31 41" src="https://user-images.githubusercontent.com/12581569/217078973-40edfc00-6dae-451f-823f-66435799ebd9.png">
 </td>
 </tr>
-<table>
+</table>
 
 **Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. If you don't want to share this information, it's best not to use this feature.
 
