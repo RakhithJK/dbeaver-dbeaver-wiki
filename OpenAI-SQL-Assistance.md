@@ -6,7 +6,7 @@ In DBeaver, you can build working SQL queries using human language thanks to int
 
 [How it works](#how-it-works) | 
 [Get started](#get-started) |
-[Write questions](#write-question) |
+[Write questions](#how-to-write-questions) |
 [Configure](#configure) |
 [Receive API key](#receive-api-key) |
 [Install GPT-3 extension](#install-gpt-3-extension) 
