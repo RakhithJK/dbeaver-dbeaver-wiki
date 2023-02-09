@@ -51,7 +51,7 @@ You write what you want to get from the database in the **GPT-3 Smart Completion
 
 You need to write a phrase in English or any other language describing what you want to get from the database. You need to know the data in the database and the column names to get predictable results. You can correct the query step by step, add details and make it more accurate.
 
-For example,  using DBeaver sample SQLite database, you could write something like this:
+For example, using [DBeaver sample SQLite database](Sample-Database), you could write something like this:
 
 _show customers from Italy_
 
