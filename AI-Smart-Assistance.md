@@ -1,7 +1,7 @@
 In DBeaver, you can build working SQL queries using human language thanks to integration with OpenAI (ChatGPT, to be more precise - the [GPT-3 language model](https://platform.openai.com/docs/models/gpt-3)). 
 
 **Note:** 
-- **DBeaver Corp has nothing to do with OpenAI company. We just use public API to integrate with GPT completion engine.**
+- **DBeaver Corp has nothing to do with OpenAI company. We just use public API to integrate with the GPT completion engine.**
 - **To use this feature, you need to register on the OpenAI platform and [receive a secret key](#receive-api-key).** 
 - **To use this feature in the DBeaver Community version, you need to [install the GPT-3 extension](#install-gpt-3-extension).**
 
@@ -18,10 +18,10 @@ You write what you want to get from the database in the **GPT-3 Smart Completion
 
 Enter human language request:  
 
-![](images/ai/ai_smart_assistance_1.png|width=500)
+![](images/ai/ai_smart_assistance_1.png)
 
 Generated SQL query:  
-<img width="500" alt="Screenshot 2023-02-06 at 21 31 41" src="https://user-images.githubusercontent.com/12581569/217078973-40edfc00-6dae-451f-823f-66435799ebd9.png">
+![](images/ai/ai_smart_assistance_2.png)
 
 **Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion.  
 
@@ -30,11 +30,11 @@ Generated SQL query:
 
 1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar.
 
-<img width="500" alt="Screenshot 2023-02-08 at 11 13 51" src="https://user-images.githubusercontent.com/12581569/217501082-576100d7-cb34-4088-9a70-947403c73995.png">
+![](images/ai/ai_smart_assistance_3.png)
 
 2. On the first run, you'll see **Preferences** window. Copy the **Open AI secret key** to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key)
 
-<img width="500" alt="Screenshot 2023-02-06 at 22 03 48" src="https://user-images.githubusercontent.com/12581569/217086643-2f482f7f-d1a6-43f5-92d4-7071634b1b0c.png">
+![](images/ai/ai_smart_assistance_4.png)
 
 3. Confirm the metadata transfer to Open AI. 
 
@@ -90,11 +90,11 @@ You don't need to configure GPT-3 Smart Completion to use it. It's enough to [sp
 
 To configure this feature, open **GPT-3 Smart Completion** window and click on a **Gear button**.
 
-<img width="400" alt="Screenshot 2023-02-06 at 22 17 13" src="https://user-images.githubusercontent.com/12581569/217090227-c92d5d85-3908-4074-899f-d3c1518ae47b.png">
+![](images/ai/ai_smart_assistance_5.png)
 
 You'll see the **Preferences** window.
 
-<img width="500" alt="Screenshot 2023-02-06 at 17 55 00" src="https://user-images.githubusercontent.com/12581569/217090352-b2a376a5-6a54-46a2-a546-268735d554f0.png">
+![](images/ai/ai_smart_assistance_6.png)
 
 
 
@@ -126,7 +126,8 @@ You only need to install this extension in the DBeaver Community version. In oth
 1. From the main menu, select **Help —> Install New Software**.
 2. In the installation window, in the **Work with** field select **DBeaver AI (GPT) integration** .
 3. Then select **AI (GPT) Support**, press **Next** and follow the installation process. 
-<img width="649" alt="Screenshot 2023-02-06 at 18 16 58" src="https://user-images.githubusercontent.com/12581569/217039750-323f6f4c-ed19-413f-a351-7b1f2c28921d.png">
+
+![](images/ai/ai_smart_assistance_7.png)
 
 4. Restart DBeaver.
 
