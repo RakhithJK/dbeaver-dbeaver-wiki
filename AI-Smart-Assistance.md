@@ -18,7 +18,7 @@ You write what you want to get from the database in the **GPT-3 Smart Completion
 
 Enter human language request:  
 
-![](images/ai/ai_smart_assistance_1.png)
+![](images/ai/ai_smart_assistance_1.png|width=500)
 
 Generated SQL query:  
 <img width="500" alt="Screenshot 2023-02-06 at 21 31 41" src="https://user-images.githubusercontent.com/12581569/217078973-40edfc00-6dae-451f-823f-66435799ebd9.png">
