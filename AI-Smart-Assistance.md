@@ -15,22 +15,13 @@ In DBeaver, you can build working SQL queries using human language thanks to int
 
 You write what you want to get from the database in the **GPT-3 Smart Completion** window, and DBeaver translates your phrase into the correct SELECT query.
 
-<table>
-	<tr>
-		<th>Your phrase</th>
-		<th>SQL query and result</th>
-	</tr>
-	<tr>
-		<td>
-			<img width="500" alt="Screenshot 2023-02-06 at 21 30 40" src="https://user-images.githubusercontent.com/12581569/217078940-ac590005-04c3-43d6-a8eb-44038fddedf0.png">
-		</td>
-		<td>
-			<img width="500" alt="Screenshot 2023-02-06 at 21 31 41" src="https://user-images.githubusercontent.com/12581569/217078973-40edfc00-6dae-451f-823f-66435799ebd9.png">
-		</td>
-	</tr>
-</table>
+Enter human language request:  
+<img width="500" alt="Screenshot 2023-02-06 at 21 30 40" src="https://user-images.githubusercontent.com/12581569/217078940-ac590005-04c3-43d6-a8eb-44038fddedf0.png">
 
-**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. If you don't want to share this information, it's best not to use this feature.
+Generated SQL query:  
+<img width="500" alt="Screenshot 2023-02-06 at 21 31 41" src="https://user-images.githubusercontent.com/12581569/217078973-40edfc00-6dae-451f-823f-66435799ebd9.png">
+
+**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on first smart completion.  
 
 
 ## Get started
@@ -49,7 +40,7 @@ You write what you want to get from the database in the **GPT-3 Smart Completion
 
 ## How to write questions
 
-You need to write a phrase in English or any other language describing what you want to get from the database. You need to know the data in the database and the column names to get predictable results. You can correct the query step by step, add details and make it more accurate.
+You need to write a phrase in English or any other language describing what you want to get from the database. You should know at least something about your database structure. You can correct the query step by step, add details and make it more accurate.  
 
 For example, using [DBeaver sample SQLite database](Sample-Database), you could write something like this:
 
