@@ -1,6 +1,7 @@
 In DBeaver, you can build working SQL queries using human language thanks to integration with OpenAI (ChatGPT, to be more precise - the [GPT-3 language model](https://platform.openai.com/docs/models/gpt-3)). 
 
 **Note:** 
+- **DBeaver Corp has nothing to do with OpenAI company. We just use public API to integrate with GPT completion engine.**
 - **To use this feature, you need to register on the OpenAI platform and [receive a secret key](#receive-api-key).** 
 - **To use this feature in the DBeaver Community version, you need to [install the GPT-3 extension](#install-gpt-3-extension).**
 
