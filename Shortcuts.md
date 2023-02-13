@@ -62,6 +62,7 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Alt+Shift+C||Copy column(s) names|
 |Alt+Shift+H||Hide column(s)|
 |Alt+Shift+T||Show hidden columns|
+|Alt+Shift+F||Open filters settings|
 |Ctrl+Alt+F6||Open Calc panel|
 |Ctrl+Alt+F5||Open Grouping panel|
 |Ctrl+Alt+F4||Open Metadata panel|
