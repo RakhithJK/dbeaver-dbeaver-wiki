@@ -42,7 +42,7 @@ Generated SQL query:
 
 ## How to write questions
 
-You need to write a phrase in English or any other language describing what you want to get from the database. You should know at least something about your database structure. You can correct the query step by step, add details and make it more accurate.  
+You need to write a phrase in English or any other language describing what you want to get from the database. You should know at least something about your database structure. You can correct the query step by step, add details and make it more accurate. You can add some specific details, such as how to build a query or which tables or columns to use.
 
 For example, using [DBeaver sample SQLite database](Sample-Database), you could write something like this:
 
@@ -70,7 +70,7 @@ WHERE g.Name = 'Blues'
 ORDER BY c.LastName, c.FirstName;
 ```
 
-_show names of customers who purchased blues tracks, use joins_
+_get names of customers who purchased blues tracks, use joins_
 
 ```SQL
 SELECT DISTINCT c.FirstName, c.LastName
