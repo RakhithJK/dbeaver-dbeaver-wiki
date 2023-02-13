@@ -122,11 +122,41 @@ INNER JOIN Album al ON tr.AlbumId = al.AlbumId
 
 In version 22.x only COUNT function is supported.  
 
-### INSERT statements
+### INSERT statement
 
-### UPDATE statements
+You cannot use condition in INSERTS so just basic form is supported:
+```sql
+    INSERT INTO <collection-name> (field1, field2) VALUES (val1, val2);
+```
 
-### DELETE statements
+### UPDATE statement
+
+You can use any expressions in WHERE clause but you cannot use sub-selects or joins.
+
+```sql
+    UPDATE <collection-name> SET field2=val3 WHERE field1=val1;
+```
+
+### DELETE statement
+
+You can use any expressions in WHERE clause, but you cannot use sub-selects or joins.
+```sql
+    DELETE FROM <collection-name> WHERE field1=val1;
+```
+
+### CREATE TABLE statement
+
+You cannot specify column list in CREATE TABLE. Only collection name can be specified. 
+
+```sql
+    CREATE TABLE  <collection-name>;
+```
+
+### DROP TABLE statement
+
+```sql
+    DROP TABLE  <collection-name>;
+```
 
 ### Working with dates
 
