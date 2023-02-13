@@ -1,5 +1,7 @@
 Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and macOS users. It will help you work in DBeaver faster and more efficiently. Remember that you can always change the keyboard shortcut in the DBeaver settings. Go through: _Window - Preferences - User Interface - Keys_. Select command and add a keyboard shortcut to the _Binding row._
 
+If you mostly use keyboard, to get more shortcuts you can switch default key scheme to _DBeaver Keyboard Only_ key scheme in _Window - Preferences - User Interface - Keys_ settings.
+
 ### Connection
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |--------------------------|------------------|------|
@@ -48,6 +50,23 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |Tab|Tab|Toggle results Grid/Record view|
 |F7|F7|Toggle extra result panels|
 |Ctrl+2|⌃2|Toggle results sort order (ascending/descending/default)|
+|Ctrl+Alt+C||Select column|
+|Ctrl+Alt+R||Select row|
+|Shift+F11||Show column context menu|
+
+### Result Set (Additional shortcuts for _DBeaver Keyboard Only_ key scheme)
+|Shortcut for Windows/Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+Shift+Right||Move column(s) to the right|
+|Alt+Shift+Left||Move column(s) to the left|
+|Alt+Shift+C||Copy column(s) names|
+|Alt+Shift+H||Hide column(s)|
+|Alt+Shift+T||Show hidden columns|
+|Ctrl+Alt+F6||Open Calc panel|
+|Ctrl+Alt+F5||Open Grouping panel|
+|Ctrl+Alt+F4||Open Metadata panel|
+|Ctrl+Alt+F3||Open References panel|
+|Ctrl+Alt+F2||Open Value panel|
 
 ### Data Editor
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
