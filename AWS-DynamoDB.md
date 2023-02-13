@@ -1,3 +1,5 @@
+**NB: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
+
 ### Supported features:
 - Table data view
 - Table data edit in document (json) mode

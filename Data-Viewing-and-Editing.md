@@ -44,6 +44,8 @@ To delete a row or rows, set the focus to the rows and click the **Delete curren
 
 To save any such changes, click the **Save** button (![](images/ug/Save-button-Data-Editor.png)) on the bottom toolbar. To discard the changes, click the **Cancel** button (![](images/ug/Cancel-button-Data-Editor.png)) on the bottom toolbar.
 
+NOTE: Some of these buttons may be disabled and may not work if you are using a read-only connection, connecting to a read-only database or if you see the result of a complex query, such as joining two or more tables.
+
 ## Copying/Pasting Cells
 
 To copy the content of one or several cells to the clipboard in the TAB-delimited format, press <kbd>Ctrl+C</kbd> or right-click the cell or cell selection and click **Copy** on the context menu.  Then you can paste the copied selection into a spreadsheet editor (similar to Excel).

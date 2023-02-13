@@ -154,7 +154,7 @@ If macOS never prompted to do that in the first place, you could grant `Full dis
 1. Click `Open`.
 1. Close the lock.
 
-### Tasks from password-protected projects can't be run
+### Tasks from password-protected projects cannot be run
 
 You need to pass a password for one or more projects via the command-line interface.
 
