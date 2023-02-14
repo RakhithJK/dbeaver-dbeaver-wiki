@@ -50,24 +50,24 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Tab|Tab|Toggle results Grid/Record view|
 |F7|F7|Toggle extra result panels|
 |Ctrl+2|⌃2|Toggle results sort order (ascending/descending/default)|
-|Ctrl+Alt+C||Select column|
-|Ctrl+Alt+R||Select row|
-|Shift+F11||Show column context menu|
+|Ctrl+Alt+C||Select column(s)|
+|Ctrl+Alt+R||Select row(s)|
+|Shift+F11||Show context menu for column|
 
 ### Result Set (Additional shortcuts for _DBeaver Keyboard Only_ key scheme)
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |-------|-------|-------|
-|Alt+Shift+Right||Move column(s) to the right|
-|Alt+Shift+Left||Move column(s) to the left|
-|Alt+Shift+C||Copy column(s) names|
-|Alt+Shift+H||Hide column(s)|
+|Alt+Shift+Right||Move column(s) right|
+|Alt+Shift+Left||Move column(s) left|
+|Alt+Shift+C||Copy column names|
+|Alt+Shift+H||Hide columns|
 |Alt+Shift+T||Show hidden columns|
 |Alt+Shift+F||Open filters settings|
-|Ctrl+Alt+F6||Open Calc panel|
-|Ctrl+Alt+F5||Open Grouping panel|
-|Ctrl+Alt+F4||Open Metadata panel|
-|Ctrl+Alt+F3||Open References panel|
-|Ctrl+Alt+F2||Open Value panel|
+|Ctrl+Alt+F6||Show/hide results panel (Calc)|
+|Ctrl+Alt+F5||Show/hide results panel (Grouping)|
+|Ctrl+Alt+F4||Show/hide results panel (Metadata)|
+|Ctrl+Alt+F3||Show/hide results panel (References)|
+|Ctrl+Alt+F2||Show/hide results panel (Value)|
 
 ### Data Editor
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
