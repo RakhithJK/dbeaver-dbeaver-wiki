@@ -103,7 +103,7 @@
 - [[Enterprise Edition]]
 - [[Lite Edition]] <!--CMD:SKIP-->
 - [[Ultimate Edition]] <!--CMD:SKIP-->
-- [[Team Edition]] <!--CMD:SKIP-->
+- [[Team Edition|https://dbeaver.com/dbeaver-team-edition/]] <!--CMD:SKIP-->
 
 #### PRO Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
