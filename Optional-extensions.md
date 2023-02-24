@@ -41,7 +41,7 @@ P2 repository URL: [https://dbeaver.io/update/debug/latest/](https://dbeaver.io/
 This extension supports ERD export in SVG (vector) format.  
 It is included in the EE version.  
 
-Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-support](https://marketplace.eclipse.org/content/dbeaver-svg-support)  
+Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-format-support](https://marketplace.eclipse.org/content/dbeaver-svg-format-support)  
 P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/update/svg/latest/)
 
 ### Advanced SSH tunnel libraries

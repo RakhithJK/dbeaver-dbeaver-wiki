@@ -4,7 +4,7 @@ DBeaver offers a way to send data exported via [Data Transfer](Data-transfer) by
 
 ### SMTP profile configuration
 
-First, you will need to add an SMTP profile to send the email from. Go to <kbd>Window</kbd> &rArr; <kbd>Preferences</kbd> &rArr; <kbd>General</kbd> &rArr; <kbd>Mail</kbd> and create a new profile.
+First, you will need to add an SMTP profile to sen`d the email from. Go to <kbd>Window</kbd> &rArr; <kbd>Preferences</kbd> &rArr; <kbd>General</kbd> &rArr; <kbd>Mail</kbd> and create a new profile.
 
 Parameters <kbd>Host</kbd> and <kbd>Port</kbd> may depend on the mail service you use. If the service offers both SSL and TLS ports, use the latter one. Gmail, for example, uses host `smtp.gmail.com` and port `587`. An example of a configured profile:
 

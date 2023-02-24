@@ -3,7 +3,7 @@ Most of the extensions can be found on the [Eclipse Marketplace](https://marketp
 
 ## DBeaver-specific extensions
 - [Office formats support (XLSX)](https://marketplace.eclipse.org/content/dbeaver-office-integration)
-- [Vector graphics support (SVG)](https://marketplace.eclipse.org/content/dbeaver-svg-support)
+- [Vector graphics support (SVG)](https://marketplace.eclipse.org/content/dbeaver-svg-format-support)
 - [SSHJ and advanced cryptography](https://marketplace.eclipse.org/content/dbeaver-sshj-support)
 - [Git support](https://marketplace.eclipse.org/content/dbeaver-git-support) - Git version control integration
 - [SQL debugger](https://marketplace.eclipse.org/content/dbeaver-sql-debugger)
