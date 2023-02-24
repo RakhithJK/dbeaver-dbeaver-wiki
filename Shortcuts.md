@@ -1,5 +1,7 @@
 Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and macOS users. It will help you work in DBeaver faster and more efficiently. Remember that you can always change the keyboard shortcut in the DBeaver settings. Go through: _Window - Preferences - User Interface - Keys_. Select command and add a keyboard shortcut to the _Binding row._
 
+If you mostly use keyboard, to get more shortcuts you can switch default key scheme to _DBeaver Keyboard Only_ key scheme in _Window - Preferences - User Interface - Keys_ settings.
+
 ### Connection
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |--------------------------|------------------|------|
@@ -48,6 +50,24 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |Tab|Tab|Toggle results Grid/Record view|
 |F7|F7|Toggle extra result panels|
 |Ctrl+2|⌃2|Toggle results sort order (ascending/descending/default)|
+|Ctrl+Alt+C||Select column(s)|
+|Ctrl+Alt+R||Select row(s)|
+|Shift+F11||Show context menu for column|
+
+### Result Set (Additional shortcuts for _DBeaver Keyboard Only_ key scheme)
+|Shortcut for Windows/Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+Shift+Right||Move column(s) right|
+|Alt+Shift+Left||Move column(s) left|
+|Alt+Shift+C||Copy column names|
+|Alt+Shift+H||Hide columns|
+|Alt+Shift+T||Show hidden columns|
+|Alt+Shift+F||Open filters settings|
+|Ctrl+Alt+F6||Show/hide results panel (Calc)|
+|Ctrl+Alt+F5||Show/hide results panel (Grouping)|
+|Ctrl+Alt+F4||Show/hide results panel (Metadata)|
+|Ctrl+Alt+F3||Show/hide results panel (References)|
+|Ctrl+Alt+F2||Show/hide results panel (Value)|
 
 ### Data Editor
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
@@ -213,6 +233,12 @@ Here is a complete list of default hotkeys in DBeaver UI for Windows, Linux, and
 |Ctrl+Alt+Shift+D|⌃⌥⇧D|Add Bookmark|
 |Enter|↩|Opens task configuration|
 |Ctrl+Shift+A|⌃⇧A|Set as default object|
+
+### Properties Entity Editor
+|Shortcut for Windows/Linux|Shortcut for macOS|Action|
+|-------|-------|-------|
+|Alt+Shift+Up|Alt+Shift+Up|Switch to the next entity property left-side tab|
+|Alt+Shift+Down|Alt+Shift+Down|Switch to the previous entity property left-side tab|
 
 ### Navigation tree
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|

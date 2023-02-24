@@ -1,9 +1,9 @@
-### Overview
+## Overview
 DBeaver EE supports MongoDB schema browser, data viewer, SQL and JavaScript queries execution. 
 It also supports various administrative tools (like server sessions manager).  
 DBeaver uses MongoDB Java driver 3.8.0 to operate with a server. It supports MongoDB servers from 2.x to 4.x.  
 
-### Connecting to MongoDB Server
+## Connecting to MongoDB Server
 You can connect directly to a server or use SSH tunneling or SOCKS proxy.  
 You can specify server address as a host/port/database configuration or you can enter the target database URL with all necessary parameters:
 
@@ -12,7 +12,7 @@ You can specify server address as a host/port/database configuration or you can 
 ![](images/database/mongodb/mongodb-connection-props.png)
 ![](images/database/mongodb/mongodb-connection-ssh.png)
 
-### Browsing Mongo collections
+## Browsing Mongo collections
 
 You can view/edit MongoDB collections content as standard relational tables (grid/plain text presentations) or as JSON documents.  
 The presentation can be switched in the Results Viewer toolbar.  
@@ -24,7 +24,7 @@ In a grid, DBeaver will try to unify all documents in some particular collection
 
 ![](images/database/mongodb/mongodb-data-edit.png)
 
-### Executing JavaScript
+## Executing JavaScript
 JS statements can be executed in the SQL editor as usual. DBeaver supports all JS queries for MongoDB 2 and 3 as well as a subset of the `mongo` shell queries.
 
 The following example creates a user in the current database.
@@ -45,10 +45,13 @@ Note: the script will be executed in the current database.
 You can not set an explicit database name in your query.  
 The current database can be changed on the SQL Editor toolbar or on the Database Navigator.  
 
-### Executing SQL
+## Executing SQL
 You can use standard SQL statements (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) to manipulate Mongo data.
 
-SELECT queries support `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN` and `HAVING` clauses.
+### SELECT queries
+
+SELECT queries support `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN` and `HAVING` clauses.  
+MongoDB dialect doesn't support SQL sub-queries.  
 
 ```sql
 SELECT * FROM test_col 
@@ -73,37 +76,6 @@ Nested JSON fields can be divided by dot.
 If your field contains any special characters (e.g. spaces, dashes, etc.), you must enclose it with double quotes. For example:
 ```sql
 SELECT title FROM movies WHERE info."imdb-details".rating > 6
-```
-
-#### Working with dates
-
-If you need to operate with dates then you must specify them in an ISO format. It is possible in both the JavaScript and SQL dialect:
-```js
-db.dates.insert([
-    { value: new Date('2016-05-18T16:00:00Z') },
-    { value: new Date('2017-05-18T16:00:00Z') },
-    { value: new Date('2018-05-18T16:00:00Z') },
-    { value: new Date('2019-05-18T16:00:00Z') },
-    { value: new Date('2020-05-18T16:00:00Z') }	
-])
-```
-
-Querying data in JavaScript:
-```js
-db.dates.find({
-    value: { $gte: new Date('2018-05-18T16:00:00Z') }
-}).toArray()
-```
-
-Querying data in the SQL dialect (ISO and UNIX timestamp, in milliseconds):
-```sql
-SELECT value FROM dates
-WHERE value > ISODate('2018-05-18T16:00:00.000Z')
-ORDER BY value DESC
-
-SELECT value FROM dates
-WHERE value > ISODate(1526659200000)
-ORDER BY value DESC
 ```
 
 #### Working with object IDs
@@ -145,3 +117,75 @@ SELECT *
 FROM Track tr
 INNER JOIN Album al ON tr.AlbumId = al.AlbumId
 ```
+
+#### Aggregate functions
+
+In version 22.x only COUNT function is supported.  
+
+### INSERT statement
+
+You cannot use condition in INSERTS so just basic form is supported:
+```sql
+    INSERT INTO <collection-name> (field1, field2) VALUES (val1, val2);
+```
+
+### UPDATE statement
+
+You can use any expressions in WHERE clause but you cannot use sub-selects or joins.
+
+```sql
+    UPDATE <collection-name> SET field2=val3 WHERE field1=val1;
+```
+
+### DELETE statement
+
+You can use any expressions in WHERE clause, but you cannot use sub-selects or joins.
+```sql
+    DELETE FROM <collection-name> WHERE field1=val1;
+```
+
+### CREATE TABLE statement
+
+You cannot specify column list in CREATE TABLE. Only collection name can be specified. 
+
+```sql
+    CREATE TABLE  <collection-name>;
+```
+
+### DROP TABLE statement
+
+```sql
+    DROP TABLE  <collection-name>;
+```
+
+### Working with dates
+
+If you need to operate with dates then you must specify them in an ISO format. It is possible in both the JavaScript and SQL dialect:
+```js
+db.dates.insert([
+    { value: new Date('2016-05-18T16:00:00Z') },
+    { value: new Date('2017-05-18T16:00:00Z') },
+    { value: new Date('2018-05-18T16:00:00Z') },
+    { value: new Date('2019-05-18T16:00:00Z') },
+    { value: new Date('2020-05-18T16:00:00Z') }	
+])
+```
+
+Querying data in JavaScript:
+```js
+db.dates.find({
+    value: { $gte: new Date('2018-05-18T16:00:00Z') }
+}).toArray()
+```
+
+Querying data in the SQL dialect (ISO and UNIX timestamp, in milliseconds):
+```sql
+SELECT value FROM dates
+WHERE value > ISODate('2018-05-18T16:00:00.000Z')
+ORDER BY value DESC
+
+SELECT value FROM dates
+WHERE value > ISODate(1526659200000)
+ORDER BY value DESC
+```
+

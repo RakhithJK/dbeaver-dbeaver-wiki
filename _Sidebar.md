@@ -29,8 +29,10 @@
 - [[SQL Editor]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
+  - [[AI SQL Assistance (ChatGPT)|AI-Smart-Assistance]]
   - [[SQL Formatting]]
   - [[SQL Execution]]
+  - [[SQL Terminal]]
   - [[Variables panel]]
   - [[Query Execution Plan]]
   - [[Visual Query Builder]] <img src="images/commercial.png" vspace="4" align="top"/>
@@ -69,9 +71,9 @@
   - Advanced settings <!--CMD:SKIP-->
     - [[SSH Configuration]] <!--CMD:SKIP-->
     - [[Proxy configuration]] <!--CMD:SKIP-->
-    - [[SSL configuration]] <!--CMD:SKIP-->
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
     - [[Network Profiles]] <!--CMD:SKIP-->
+    - [[Separate Connections]] <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
@@ -88,14 +90,22 @@
   - [[Task scheduler]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Composite tasks]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Sending results by e-mail|Data transfer email]] <img src="images/commercial.png" vspace="4" align="top"/>
+  - [[Uploading result to external storage|Data transfer external storage]]
 - [[Cloud Explorer]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
   - [[GCP Credentials]]
   - [[GCP SSO]]
+  - [[Azure|Azure Cloud Explorer]]
 
-#### Enterprise Databases support <img src="images/commercial_big.png" align="top" height="16">
+#### DBeaver PRO
+- [[Enterprise Edition]]
+- [[Lite Edition]] <!--CMD:SKIP-->
+- [[Ultimate Edition]] <!--CMD:SKIP-->
+- [[Team Edition|https://dbeaver.com/dbeaver-team-edition/]] <!--CMD:SKIP-->
+
+#### PRO Databases support <img src="images/commercial_big.png" align="top" height="16">
 - [[MongoDB]]
 - [[Cassandra]]
 - [[InfluxDB]]
@@ -111,23 +121,21 @@
 - [[CouchDB]]
 - [[Apache Hive/Spark/Impala|Apache Hive]]
 - [[Netezza]]
+- [[Oracle]]
 - [[SQLite Crypt]]
+- [[Snowflake]]
 - [[Informix]]
 
 #### Customizing DBeaver
 - [[Changing interface language|UI-Language]]
-- [[DBeaver extensions - Office, Debugger, SVG, SSH|Optional extensions]] <!--CMD:SKIP-->
+- [[DBeaver extensions - Office, Debugger, SVG|Optional extensions]] <!--CMD:SKIP-->
 - [[Installing extensions - Themes, version control, etc|Eclipse extensions]]
-
-#### DBeaver Enterprise
-- [[Enterprise Edition]]
-- [[Lite Edition]] <!--CMD:SKIP-->
-- [[Ultimate Edition]] <!--CMD:SKIP-->
 
 #### Troubleshooting
 - [[Command Line]]
 - [[Reset UI settings]]
 - [[Reset workspace]]
+- [[Troubleshooting system issues]]
 - [[Posting issues]]
 - [[Log files]]
 - [[JDBC trace|JDBC-Tracing]]
@@ -150,6 +158,7 @@
 #### Tutorials
 - [[Connecting to Oracle Database using JDBC OCI driver]]
 - [[Importing CA Certificates into DBeaver]]
+- [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 
 #### Development <!--CMD:SKIP-->
@@ -159,3 +168,4 @@
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
+- [[Code contribution|Contribute-your-code]] <!--CMD:SKIP-->

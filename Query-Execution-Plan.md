@@ -1,5 +1,25 @@
 ## Execution Plan
 
+
+This feature is supported for the following data sources:
+
+**The Execution plan for databases marked with a star is supported only in Lite, Enterprise and Ultimate editions**
+
+* ClickHouse <img src="images/commercial.png" vspace="4" align="top"/>
+* Couchbase <img src="images/commercial.png" vspace="4" align="top"/>
+* DB2 LUW
+* Exasol
+* Firebird
+* HSQLDB 
+* Microsoft SQL Server <img src="images/commercial.png" vspace="4" align="top"/>
+* MySQL
+* Netezza <img src="images/commercial.png" vspace="4" align="top"/>
+* OceanBase
+* Ocient
+* Oracle
+* PostgreSQL
+* SAP HANA
+
 ### Simple plan view
 
 If a database driver supports the visualization of the execution plan, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the main toolbar: ![](images/ug/Exec-plan.png)

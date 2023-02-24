@@ -44,13 +44,15 @@ It is included in the EE version.
 Marketplace URL: [https://marketplace.eclipse.org/content/dbeaver-svg-format-support](https://marketplace.eclipse.org/content/dbeaver-svg-format-support)  
 P2 repository URL: [https://dbeaver.io/update/svg/latest/](https://dbeaver.io/update/svg/latest/)
 
-### Advanced SSH tunnel libraries
-
-Needed to support more key formats (e.g. ed25519).  
-
-P2 repository URL: [https://dbeaver.io/update/sshj/latest/](https://dbeaver.io/update/sshj/latest/)
-
 ### Git integration
 
 Choose Oxygen (or other Eclipse version item) in available items:
   ![](images/p2-install-git.png)
+
+### AI (GPT) integration
+
+With this extension, you can create working SQL queries using human language in the SQL editor. [Learn more about AI integration](AI-Smart-Assistance)
+
+P2 repository URL: [https://dbeaver.io/update/ai/latest/](https://dbeaver.io/update/ai/latest/)
+
+

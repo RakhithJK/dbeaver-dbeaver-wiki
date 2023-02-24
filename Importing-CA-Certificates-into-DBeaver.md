@@ -1,12 +1,6 @@
-When working in DBeaver under a corporate network, you can encounter an error similar to the following:
-
-```Java
-javax.net.ssl.SSLHandshakeException:PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target.
-```
-
-Here is how you can bypass it.
-
 ## Import certificates from your local Java
+
+**Note:** This article is relevant for you if you work behind the corporate firewall with a different root certificates set. In other cases, your issues can be caused by the incorrect [SSL Configuration](https://github.com/dbeaver/dbeaver/wiki/SSL-Configuration).
 
 It's possible that your system administrator has installed a local Java and imported the required certificates to its keystore. We can use them to fix the issue.
 
