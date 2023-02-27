@@ -51,8 +51,11 @@ Choose Oxygen (or other Eclipse version item) in available items:
 
 ### AI (GPT) integration
 
-With this extension, you can create working SQL queries using human language in the SQL editor. [Learn more about AI integration](AI-Smart-Assistance)
+With this extension, you can create working SQL queries using human language in the SQL editor. 
 
+[Learn more about AI integration](AI-Smart-Assistance)
+
+Marketplace URL: https://marketplace.eclipse.org/content/dbeaver-chatgpt  
 P2 repository URL: [https://dbeaver.io/update/ai/latest/](https://dbeaver.io/update/ai/latest/)
 
 
