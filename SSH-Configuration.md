@@ -51,3 +51,12 @@ Port forwarding is used to expose some socket sitting on a remote port to your l
 By default, it randomly chooses the local port and forwards it to the destination port set in <kbd>Connection settings</kbd> &rArr; <kbd>Main</kbd>
 
 It is not usually required to change this configuration, but it can be useful e.g. when you want to use a particular local port.
+
+### SSH + URL-based connections
+
+By defaul DBeaver opens random local port and forwards it to a target database port. It then implicitly replaces port configured in the connection with this random port.  
+So technically DBeaver will connect to something like `localhost:45678` (radnom port on localhost) instead of `database.server.domain:5432` (default PostgreSQL server port).  
+But if you use URL instead of manual connection configuration then you connect to `jdbc:postgresql://database.server.domain/postgresql`. DBeaver cannot replace port number automatically because you can use any type of sophisticated URLs. DBeaver just don't know how to chnge this URL.  
+
+If you use URL connection then you must configure port forwarding manually. In the Advanced Settings set both Local Port and Remote Port to 5432 (database server port, 5432 is the default value for PostgreSQL). It will work in most cases.  
+But it will fail if you have PostgreSQL server on your local machine because port 5432 is already occupied. In this case you can use any random port number for Loca Port (e.g. 15432). Use the same 5432 for Remote Port because it is real port number for remote PostgreSQL server.  
