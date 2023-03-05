@@ -84,8 +84,6 @@ JOIN Genre g ON t.GenreId = g.GenreId
 WHERE g.Name = 'Blues';
 ```
 
-
-
 ## Configure
 
 You don't need to configure ChatGPT smart completion to use it. It's enough to [specify the API key](#get-started), and everything will work. However, if you have problems generating SQL queries or want to experiment, you can try changing some settings.
@@ -98,6 +96,8 @@ You'll see the **Preferences** window.
 
 ![](images/ai/ai_smart_assistance_6.png)
 
+- **Enable smart completion** shows ChatGPT icon in SQL Editor. If this options is not selected, you can enable ChatGPT in Preferences.
+
 - **API token** it's a secret key from the OpenAI platform. [Where to find a secret key](#receive-api-key)
 
 - **Include source in query comment** — select this option if you want see the request in human language in the SQL Editor before the generated query.
@@ -109,6 +109,28 @@ You'll see the **Preferences** window.
 - **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less standard and more creative results, use 0.9.
 
 - **Write GPT queries to debug log** — select this option if you want to see requests to ChatGPT in the log files.
+
+### Settings in PRO versions
+
+There are some additional settings available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.
+
+![](images/ai/ai_smart_assistance_8.png)
+
+
+- **Send foreign keys information** and **Send unique keys and indexes information**  allow to understand the relationships between tables, which can help create complex queries to database with a complex structure.
+
+- **Format SQL query** add formatting.
+
+- **Table join rule** allows to use explicit JOIN or join with sub-queries.
+
+
+## Disable
+
+You can disable ChatGPT smart completion in PRO versions. In this case, it cannot be enabled in Preferences.
+
+How to do it:
+- set system variable `DBEAVER_AI_DISABLED` to `true`
+- or add the string `Dai.disabled=true` to the end of `dbeaver.ini`.
 
 
 ## Receive API key
