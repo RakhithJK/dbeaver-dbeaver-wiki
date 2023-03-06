@@ -9,8 +9,10 @@ In DBeaver, you can build working SQL queries using human language thanks to int
 [Get started](#get-started) |
 [Write questions](#how-to-write-questions) |
 [Configure](#configure) |
+[Disable](#disable) |
 [Receive API key](#receive-api-key) |
 [Install GPT extension](#install-gpt-extension)
+[Data privacy](#data-privacy)
 
 ## How it works
 
@@ -23,7 +25,7 @@ Enter human language request:
 Generated SQL query:  
 ![](images/ai/ai_smart_assistance_2.png)
 
-**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection.
+**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. Learn more about [data privacy](#data-privacy)
 
 
 ## Get started
@@ -152,3 +154,19 @@ You only need to install this extension in the DBeaver Community version. In oth
 4. Restart DBeaver.
 
 That's all done. Open the SQL editor, and in the left toolbar, you'll see the ChatGPT icon <img width="17" alt="Screenshot 2023-02-07 at 01 40 29" src="https://user-images.githubusercontent.com/12581569/217119031-3be579ea-51db-4648-88fa-de4a3cafdba8.png">.
+
+## Data privacy
+
+DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query.
+
+### Confirmation
+
+DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
+
+### Choosing the Scope
+
+You can choose which table to use (and what data to send) in the 'Scope' field.
+
+### Disable
+
+In PRO version you can disable ChatGPT feature using system variables. [How to disable it](#disable)
