@@ -185,5 +185,3 @@ Then select a table.
 ### Disable
 
 In PRO versions you can disable ChatGPT feature using system variables. [How to disable it](#disable)
-
-![](images/ai/ai_smart_assistance_11.png)
