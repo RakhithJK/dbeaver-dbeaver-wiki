@@ -157,21 +157,7 @@ That's all done. Open the SQL editor, and in the left toolbar, you'll see the Ch
 
 ## Data privacy
 
-DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query.
-
-The full text of the request can be seen in the log file, which you can enable in Preferences by selecting the **Write GPT queries to debug log** option.
-
-We don't send anything else besides that (no data from tables, etc.).
-
-### Confirmation
-
-DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
-
-![](images/ai/ai_smart_assistance_9.png)
-
-### Choose the Scope
-
-You can choose which table to use (and what data to send) in the **Scope** field.
+DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query. You can choose which table to use in the **Scope** field.
 
 Choose the **Custom** option.
 
@@ -182,6 +168,11 @@ Then select a table.
 ![](images/ai/ai_smart_assistance_11.png)
 
 
-### Disable
+DBeaver don't send anything else besides that (no data from tables, etc.). The full text of the request can be seen in the log file, which you can enable in **Preferences** by selecting the **Write GPT queries to debug log** option.
 
-In PRO versions you can disable ChatGPT feature using system variables. [How to disable it](#disable)
+DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
+
+![](images/ai/ai_smart_assistance_9.png)
+
+
+You can completely disable ChatGPT feature in PRO versions. [How to disable it](#disable)
