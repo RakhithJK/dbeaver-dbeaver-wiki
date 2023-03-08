@@ -109,6 +109,7 @@ Some bases (like SQLite and Firebird) do not have catalogs and schemes that can 
 ### Extra preferences
 
 For the objects in the report to be dressed in quotation marks, you can choose the `Quote all objects names` in the settings.
+
 ![](images/ug/tools/schema_compare_preferences.png)
 
 ### Liquibase Changelog generation
