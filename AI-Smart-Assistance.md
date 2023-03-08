@@ -4,6 +4,7 @@ In DBeaver, you can build working SQL queries using human language thanks to int
 - **DBeaver Corp has nothing to do with OpenAI company. We just use public API to integrate with the GPT completion engine.**
 - **To use this feature, you need to register on the OpenAI platform and [receive a secret key](#receive-api-key).**
 - **To use this feature in the DBeaver Community version, you need to [install the GPT extension](#install-gpt-extension).**
+- **This feature isn't available in [Lite](Lite-Edition) version.**
 
 [How it works](#how-it-works) |
 [Get started](#get-started) |
@@ -25,7 +26,7 @@ Enter human language request:
 Generated SQL query:  
 ![](images/ai/ai_smart_assistance_2.png)
 
-**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. Learn more about [data privacy](#data-privacy)
+**Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. [Learn more about data privacy](#data-privacy)
 
 
 ## Get started
@@ -114,7 +115,7 @@ You'll see the **Preferences** window.
 
 ### Settings in PRO versions
 
-There are some additional settings available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.
+There are some additional settings available in [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.
 
 ![](images/ai/ai_smart_assistance_8.png)
 
@@ -157,22 +158,19 @@ That's all done. Open the SQL editor, and in the left toolbar, you'll see the Ch
 
 ## Data privacy
 
-DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query. You can choose which table to use in the **Scope** field.
+DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query. DBeaver don't send anything else besides that (no data from tables). The full text of the request can be seen in the log file, which you can enable in **Preferences** by selecting the **Write GPT queries to debug log** option.
 
-Choose the **Custom** option.
+DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
+
+![](images/ai/ai_smart_assistance_9.png)
+
+You can choose which tables to use in the **Scope** field. Select the **Custom** option.
 
 ![](images/ai/ai_smart_assistance_10.png)
 
 Then select a table.
 
 ![](images/ai/ai_smart_assistance_11.png)
-
-
-DBeaver don't send anything else besides that (no data from tables, etc.). The full text of the request can be seen in the log file, which you can enable in **Preferences** by selecting the **Write GPT queries to debug log** option.
-
-DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
-
-![](images/ai/ai_smart_assistance_9.png)
 
 
 You can completely disable ChatGPT feature in PRO versions. [How to disable it](#disable)
