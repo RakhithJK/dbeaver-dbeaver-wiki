@@ -122,6 +122,16 @@ One or several table containers can be chosen. The report will contain creation 
 
 ![](images/ug/tools/schema_changelog_result.png)
 
+### Save operation as a task
+
+If you plan to constantly use the comparison or generation changelog/schema comparison, exporting the result as a file, you can save this as a task. The task can be completed anytime and put on the [schedule](Task-Scheduler). 
+
+![](images/ug/tools/schema_compare_as_task.png)
+
+Also, generating a changelog or schema comparison can be part of the [composite task](Composite-Tasks). For example, if you keep the log as a script with a certain name, then the implementation of this script can be set by the second operation of the composite task.
+
+![](images/ug/tools/schema_compare_as_composite_task.png)
+
 ### Using schema compare with Liquibase PRO key.
 
 If you have a Liquibase PRO key, then you can use it with DBeaver.
