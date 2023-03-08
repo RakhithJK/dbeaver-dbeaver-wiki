@@ -79,7 +79,9 @@
   - [[Auto and Manual Commit Modes]]
   - [[Transaction Log]]
   - [[Pending transactions]]
-- [[Database drivers]]
+- Drivers
+  - [[Database drivers]]
+  - [[JDBC-ODBC bridge|ODBC JDBC Driver]] <img src="images/commercial.png" vspace="4" align="top"/>
 - Tasks
   - [[Data export/import|Data transfer]]
   - [[Data migration|Data migration]]
