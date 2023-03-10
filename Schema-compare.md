@@ -109,7 +109,7 @@ For the objects in the report to be dressed in quotation marks, you can choose t
 
 ![](images/ug/tools/schema_compare_preferences.png)
 
-### Liquibase Changelog generation
+## Liquibase Changelog generation
 
 Suppose you want to create a report about your table container objects (similar to the metadata dump operation). In that case, you can choose in the navigator tree on your container - `Compare/Migrate` -> `Liquibase changelog` command. 
 
@@ -119,7 +119,7 @@ One or several table containers can be chosen. The report will contain creation 
 
 ![](images/ug/tools/schema_changelog_result.png)
 
-### Save operation as a task
+## Save operation as a task
 
 If you plan to constantly use the comparison or generation changelog/schema comparison, exporting the result as a file, you can save this as a task. The task can be completed anytime and put on the [schedule](Task-Scheduler). 
 
@@ -129,7 +129,7 @@ Also, generating a changelog or schema comparison can be part of the [composite 
 
 ![](images/ug/tools/schema_compare_as_composite_task.png)
 
-### Using schema compare with Liquibase PRO key.
+## Using schema compare with Liquibase PRO key.
 
 If you have a Liquibase PRO key, then you can use it with DBeaver.
 Steps you need:
