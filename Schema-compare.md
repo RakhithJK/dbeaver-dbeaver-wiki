@@ -1,26 +1,20 @@
 **NB: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
 
 ### Databases supporting schema comparison
-* MySQL/MariaDB
-* Oracle
-* PostgreSQL
-* SQLServer
-* Snowflake
-* SQLite
-* Firebird
-* Redshift
-* DB2
-* Informix
-* Derby
-* Greenplum
-* Netezza
-* Cockroach
-* Vertica
-* SAP HANA
-* Databricks
-* Teradata
-* YugabyteDB
-* EnterpriseDB
+|||
+|---------------|-------------|
+|	Cockroach	|	Oracle	|
+|	Databricks	|	PostgreSQL	|
+|	DB2	|	Redshift	|
+|	Derby	|	SAP HANA	|
+|	EnterpriseDB	|	Snowflake	|
+|	Firebird	|	SQLite	|
+|	Greenplum	|	SQLServer	|
+|	Informix	|	Teradata	|
+|	MySQL/MariaDB	|	Vertica	|
+|	Netezza	|	YugabyteDB	|
+
+## How it works
 
 You can compare two schema/database structures and generate a report in the following formats:
 - DDL script (series of create/alter/drop statements)
@@ -28,49 +22,58 @@ You can compare two schema/database structures and generate a report in the foll
 - Liquibase changelog
 - Liquibase change report (JSON, YAML, or plaintext)
 
-### Selecting objects to compare
+### What is possible to compare
 
-- Select the two objects (schemas, databases, or tables) you want to compare
-- Open the context menu
-- Open the sub-menu `Compare/Migrate`
-- Click on the `Compare/Migrate Schema` element
+In most cases, you can compare schemas, databases, or tables. However, some databases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasources.
+
+![](images/ug/tools/schema_compare_schemaless.png)
+
+Usually, you can compare the following database objects: columns, primary keys, foreign keys, indexes, and so on (it depends on your database). If you want to compare more objects, such as check constraints, procedures, functions, triggers, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
+
+## How to use Schema Compare
+
+### Step1. Select two entities to compare
+
+1. Select the two objects (schemas, databases, or tables) you want to compare in the **Database Navigator**.
+2. Open the context menu.
+3. Open the sub-menu **Compare/Migrate** and click on the **Compare/Migrate Schema**. You'll see the comparison window.
 
 ![](images/ug/tools/schema_compare_navigator.png)
 
-### Compare settings
+### Step 2. Check the selected entities
 
-Re-validate that you have chosen the correct objects to compare.
-You can click the `Settings` button to access the global preferences window.
-Or click the `Swap sources` button to change places of target and source containers in the view.
+Re-validate that you have chosen the correct objects to compare. You can change target and source containers by clicking the **Swap sources**. 
 
 ![](images/ug/tools/schema_compare_settings.png)
 
-For comparisons, table containers should be used.
- 
-Schemes - if the database supports the schemas. 
-Databases - if the database supports catalogs and does not support the schemes. 
-Datasources - if there is no support schemas or catalog support (you can find an example below in "Compare schemaless databases").
+**Note:** You must select only those schemas/directories/containers that contain tables:
+- Schemes - if the database supports the schemas. 
+- Databases - if the database supports catalogs and does not support the schemes. 
+- Datasources - if there is no support schemas or catalog support (you can find an example below in "Compare schemaless databases").
 
 ![](images/ug/tools/schema_compare_container_error.png)
 
-On the next page (after clicking on the `Next` button), you can see compare process settings.
-Enabling the `Export result to the file` checkbox will lead to the fact that the comparison/changelog results will be saved as a file.
-A hint about available variables for a pattern will arise when a cursor on the entry field of the file name is entered.
-Choose the report format in the `Report Engine` combo box. The changes will be immediately applied to the pattern of the file name.
+If everything is correct, click **Next**. You'll see the compare process settings.
+
+### Step 3. Specify compare settings
+
+1. If you want to export the comparison result in a file, select **Export result to the file** option, then specify the folder and file name. You can use variables there in the file name. Click on the field with a file name to see a hint about available variables.  
+
+2. Choose the report format in the **Report Engine** field. 
 
 ![](images/ug/tools/schema_compare_change_engine.png)
 
-You can also specify the changes to be processed: create, drop, or alter. By default, all kinds of changes are enabled. If you do not want to compare objects with equal names but in different cases (like "test" and "TesT") - you can enable the `Case insensitive compare`.
-(Note: This settings section is unavailable for the generation changelog process).
-
-Also, you can simply exclude the specific compared types of objects.  
+3. Also, you can simply exclude the specific compared types of objects.  
 For example, you can do this without seeing the sequences, views, or external keys in the final comparison result.
+
+4. You can also specify the changes to be processed: create, drop, or alter. By default, all kinds of changes are enabled. If you do not want to compare objects with equal names but in different cases (like "test" and "TesT") - you can enable the **Case insensitive compare**.
+(Note: This settings section is unavailable for the generation changelog process).
 
 ![](images/ug/tools/schema_compare_settings_types.png)
 
-### Compare results
+### Step 4. Look at the comparison results and save the report
 
-Click on `Proceed` to generate a diff report.  
+Click on **Proceed** to generate a diff report.  
 
 By default, DDL diff is generated. It contains a series of creating, altering, and/or dropping statements that will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
@@ -78,33 +81,27 @@ You can enable/disable certain changes in the tree on the left side of the diff 
 
 ![](images/ug/tools/schema_compare_result_ddl.png)
 
-Use the `Refresh Report` button after objects change in the left tree to refresh the report on the right side.
+Use the **Refresh Report** button after objects change in the left tree to refresh the report on the right side.
 
-You can view all changes in the SQL Editor with the help of the `Open in Editor` button.
+You can view all changes in the SQL Editor with the help of the **Open in Editor** button.
 
-If you definitely shore that compared changes should be applied to a target container, click on the `Migrate` button. And all generated SQL statements will be executed in a target container.
+If you are sure that compared changes should be applied to a target container, click the **Migrate** button. And all generated SQL statements will be executed in a target container.
 
-Click on the `Report type` combo box if you can switch to another diff report representation (diagram, JSON, YAML, plaintext).
+You can select another diff report representation (diagram, JSON, YAML, plaintext) in the **Report type**.
 
 ![](images/ug/tools/schema_compare_report_type.png)
 
-The `Save` button allows you to save the report as a file of the format chosen step earlier.
+Click **Save**. That's it. Your report is saved.
 
-### Compare logs
+## Compare logs
 
-To get acquainted with the comparison logs, you first specify the logging level on the Preferences-> Editors-> Schema Compare preference page. Specify one of the logging levels and click on `Apply`. By default, the logging level is the OFF level. To get complete information, you can choose the DEBUG level.
+To get acquainted with the comparison logs, you first specify the logging level on the **Preferences-> Editors-> Schema Compare** preference page. Specify one of the logging levels and click on **Apply**. By default, the logging level is the OFF level. To get complete information, you can choose the DEBUG level.
 
 ![](images/ug/tools/schema_compare_log_levels.png)
 
 After comparing operations, click the `Show log` button. A log will be open in the Editor, and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open the schema compare wizard in this case.
 
 ![](images/ug/tools/schema_compare_show_logs.png)
-
-### Compare schemaless bases
-
-Some bases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasource.
-
-![](images/ug/tools/schema_compare_schemaless.png)
 
 ### Extra preferences
 
