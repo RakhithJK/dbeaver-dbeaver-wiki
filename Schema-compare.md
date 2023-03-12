@@ -1,18 +1,18 @@
 **NB: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
 
 ### Databases supporting schema comparison
-|||
-|---------------|-------------|
-|	Cockroach	|	Oracle	|
+|-----------------------|-----------------------|
+|-----------------------|-----------------------|
+|	Cockroach	|	Oracle		|
 |	Databricks	|	PostgreSQL	|
-|	DB2	|	Redshift	|
-|	Derby	|	SAP HANA	|
+|	DB2		|	Redshift	|
+|	Derby	|		SAP HANA	|
 |	EnterpriseDB	|	Snowflake	|
-|	Firebird	|	SQLite	|
+|	Firebird	|	SQLite		|
 |	Greenplum	|	SQLServer	|
 |	Informix	|	Teradata	|
-|	MySQL/MariaDB	|	Vertica	|
-|	Netezza	|	YugabyteDB	|
+|	MySQL/MariaDB	|	Vertica		|	
+|	Netezza		|	YugabyteDB	|
 
 ## How it works
 
@@ -24,7 +24,7 @@ You can compare two schema/database structures and generate a report in the foll
 
 ### What is possible to compare
 
-In most cases, you can compare **schemas, databases, or tables**. However, some databases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire **datasources**.
+In most cases, you can compare **schemas, databases, or tables**. However, some databases (such as SQLite and Firebird) do not have catalogs and schemes that can be compared. In this case (and only for these databases), it is possible to compare the entire **datasources**.
 
 ![](images/ug/tools/schema_compare_schemaless.png)
 
@@ -36,7 +36,7 @@ Usually, you can compare the following database objects: **columns, primary keys
 
 1. Select the two objects (schemas, databases, or tables) you want to compare in the **Database Navigator**.
 2. Open the context menu.
-3. Open the sub-menu **Compare/Migrate** and click on the **Compare/Migrate Schema**. You'll see the comparison window.
+3. Open the sub-menu **Compare/Migrate** and click the **Compare/Migrate Schema**. You'll see the comparison window.
 
 ![](images/ug/tools/schema_compare_navigator.png)
 
@@ -59,21 +59,21 @@ If everything is correct, click **Next**. You'll see the comparison settings.
 
 1. If you want to export the comparison result in a file, select **Export result to the file** option, then specify the folder and file name. You can use variables in the file name. Click on the field with a file name to see a list of available variables.  
 
-2. Choose the report format in the **Report Engine** field. 
+2. Select the report format in the **Report Engine** field. 
 
 ![](images/ug/tools/schema_compare_change_engine.png)
 
-3. Also, you can simply exclude the specific compared types of objects.  
-For example, you can do this without seeing the sequences, views, or external keys in the final comparison result.
+3. You can simply exclude specific types of objects from comparison.  
+For example, it is possible not to show sequences, views, or external keys in the final comparison result.
 
-4. You can also specify the changes to be processed: create, drop, or alter. By default, all kinds of changes are enabled. If you do not want to compare objects with equal names but in different cases (like "test" and "TesT") - you can enable the **Case insensitive compare**.
-(Note: This settings section is unavailable for the generation changelog process).
+4. You can also specify which changes should be processed: create, drop, or alter. By default, all kinds of changes are enabled. If you do not want to compare objects with equal names but in different cases (like "test" and "TesT"), enable the **Case insensitive compare**.
+(Note: This settings section is unavailable for the generation changelog process.)
 
 ![](images/ug/tools/schema_compare_settings_types.png)
 
 ### Step 4. Look at the comparison results and save the report
 
-Click on **Proceed** to generate a diff report.  
+Click **Proceed** to generate a diff report.  
 
 By default, DDL diff is generated. It contains a series of creating, altering, and/or dropping statements that will modify the schema on the right side. Thus it will make it identical to the schema on the left side.  
 
@@ -111,7 +111,7 @@ For the objects in the report to be dressed in quotation marks, you can choose t
 
 ## Liquibase Changelog generation
 
-Suppose you want to create a report about your table container objects (similar to the metadata dump operation). In that case, you can choose in the navigator tree on your container - `Compare/Migrate` -> `Liquibase changelog` command. 
+Suppose you want to create a report about the objects in your table container (similar to the metadata dump operation). In that case, you can select in the navigator tree on your container `Compare/Migrate` -> `Liquibase changelog` command. 
 
 ![](images/ug/tools/schema_changelog_input.png)
 
@@ -129,7 +129,7 @@ Also, generating a changelog or schema comparison can be part of the [composite 
 
 ![](images/ug/tools/schema_compare_as_composite_task.png)
 
-## Using schema compare with Liquibase PRO key.
+## Using schema compare with Liquibase PRO key
 
 If you have a Liquibase PRO key, then you can use it with DBeaver.
 Steps you need:
