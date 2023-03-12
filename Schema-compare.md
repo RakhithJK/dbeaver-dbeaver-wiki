@@ -24,11 +24,11 @@ You can compare two schema/database structures and generate a report in the foll
 
 ### What is possible to compare
 
-In most cases, you can compare schemas, databases, or tables. However, some databases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire datasources.
+In most cases, you can compare **schemas, databases, or tables**. However, some databases (like SQLite and Firebird) do not have catalogs and schemes that can be selected for comparison. In this case (and only for these databases), it is possible to compare the entire **datasources**.
 
 ![](images/ug/tools/schema_compare_schemaless.png)
 
-Usually, you can compare the following database objects: columns, primary keys, foreign keys, indexes, and so on (it depends on your database). If you want to compare more objects, such as check constraints, procedures, functions, triggers, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
+Usually, you can compare the following database objects: **columns, primary keys, foreign keys, indexes**, and so on (it depends on your database). If you want to compare more objects, such as **check constraints, procedures, functions, triggers**, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
 
 ## How to use Schema Compare
 
@@ -47,17 +47,17 @@ Re-validate that you have chosen the correct objects to compare. You can change 
 ![](images/ug/tools/schema_compare_settings.png)
 
 **Note:** You must select only those schemas/directories/containers that contain tables:
-- Schemes - if the database supports the schemas. 
-- Databases - if the database supports catalogs and does not support the schemes. 
-- Datasources - if there is no support schemas or catalog support (you can find an example below in "Compare schemaless databases").
+- Schemas – if the database supports schemas. 
+- Databases – if the database supports catalogs and does not support schemas. 
+- Datasources - if there is no support for schemas or catalogs (for an example, see [Compare schemaless databases]()).
 
 ![](images/ug/tools/schema_compare_container_error.png)
 
-If everything is correct, click **Next**. You'll see the compare process settings.
+If everything is correct, click **Next**. You'll see the comparison settings.
 
 ### Step 3. Specify compare settings
 
-1. If you want to export the comparison result in a file, select **Export result to the file** option, then specify the folder and file name. You can use variables there in the file name. Click on the field with a file name to see a hint about available variables.  
+1. If you want to export the comparison result in a file, select **Export result to the file** option, then specify the folder and file name. You can use variables in the file name. Click on the field with a file name to see a list of available variables.  
 
 2. Choose the report format in the **Report Engine** field. 
 
