@@ -1,5 +1,15 @@
 **NB: This feature is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
 
+- [Supported databases](#databases-supporting-schema-comparison)
+- [How it works](#how-it-works)
+- [What is possible to compare](#what-is-possible-to-compare)
+- [How to use schema compare](how-to-use-schema-compare)
+- [Compare logs](#compare-logs)
+- [Liquibase changelog generation](#liquibase-changelog-generation)
+- [Save comparison as a task](#save-operation-as-a-task)
+- [Using schema compare with Liquibase PRO key](#using-schema-compare-with-liquibase-pro-key)
+- [Additional object types in Liquibase PRO](#object-types-being-compared-by-liquibasepro)
+
 ### Databases supporting schema comparison
 |-----------------------|-----------------------|
 |-----------------------|-----------------------|
@@ -26,11 +36,9 @@ You can compare two schema/database structures and generate a report in the foll
 
 In most cases, you can compare **schemas, databases, or tables**. However, some databases (such as SQLite and Firebird) do not have catalogs and schemes that can be compared. In this case (and only for these databases), it is possible to compare the entire **datasources**.
 
-![](images/ug/tools/schema_compare_schemaless.png)
-
 Usually, you can compare the following database objects: **columns, primary keys, foreign keys, indexes**, and so on (it depends on your database). If you want to compare [more objects](#object-types-being-compared-by-liquibasepro), such as **check constraints, procedures, functions, triggers**, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
 
-## How to use Schema Compare
+## How to use schema compare
 
 ### Step1. Select two entities to compare
 
