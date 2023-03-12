@@ -28,7 +28,7 @@ In most cases, you can compare **schemas, databases, or tables**. However, some 
 
 ![](images/ug/tools/schema_compare_schemaless.png)
 
-Usually, you can compare the following database objects: **columns, primary keys, foreign keys, indexes**, and so on (it depends on your database). If you want to compare more objects, such as **check constraints, procedures, functions, triggers**, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
+Usually, you can compare the following database objects: **columns, primary keys, foreign keys, indexes**, and so on (it depends on your database). If you want to compare [more objects](#object-types-being-compared-by-liquibasepro), such as **check constraints, procedures, functions, triggers**, you need to enable [Liquibase PRO](#using-schema-compare-with-liquibase-pro-key).
 
 ## How to use Schema Compare
 
@@ -49,9 +49,13 @@ Re-validate that you have chosen the correct objects to compare. You can change 
 **Note:** You must select only those schemas/directories/containers that contain tables:
 - Schemas – if the database supports schemas. 
 - Databases – if the database supports catalogs and does not support schemas. 
-- Datasources - if there is no support for schemas or catalogs (for an example, see [Compare schemaless databases]()).
+
 
 ![](images/ug/tools/schema_compare_container_error.png)
+
+- Datasources – if there is no support for schemas or catalogs.
+
+![](images/ug/tools/schema_compare_schemaless.png)
 
 If everything is correct, click **Next**. You'll see the comparison settings.
 
