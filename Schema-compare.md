@@ -105,6 +105,12 @@ You can select another diff report representation (diagram, JSON, YAML, plaintex
 
 Click **Save**. That's it. Your report is saved.
 
+### Quote objects names in the report
+
+For the objects in the report to be dressed in quotation marks, select the `Quote all objects names` option in Preferences.
+
+![](images/ug/tools/schema_compare_preferences.png)
+
 ## Compare logs
 
 To get acquainted with the comparison logs, you first specify the logging level on the **Preferences-> Editors-> Schema Compare** preference page. Specify one of the logging levels and click on **Apply**. By default, the logging level is the OFF level. To get complete information, you can choose the DEBUG level.
@@ -114,12 +120,6 @@ To get acquainted with the comparison logs, you first specify the logging level 
 After comparing operations, click the `Show log` button. A log will be open in the Editor, and the content of this log will depend on the logging level you choose in the settings. Log level сhanges from preferences will not be applied to the comparison wizard if it is already open in another window. Close and open the schema compare wizard in this case.
 
 ![](images/ug/tools/schema_compare_show_logs.png)
-
-### Extra preferences
-
-For the objects in the report to be dressed in quotation marks, you can choose the `Quote all objects names` in the settings.
-
-![](images/ug/tools/schema_compare_preferences.png)
 
 ## Liquibase Changelog generation
 
