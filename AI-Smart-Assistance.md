@@ -28,6 +28,23 @@ Generated SQL query:
 
 **Note: To translate a phrase into a query, DBeaver needs to send the database metadata to the OpenAI platform.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. [Learn more about data privacy](#data-privacy)
 
+### Additional settings
+
+#### Scope
+
+You can specify scope used to generate queries in the **Scope** field. You may need this if your database schema is large enough to eliminate problems when generating queries
+
+If you want to choose a table, select the **Custom** option.
+
+![](images/ai/ai_smart_assistance_10.png)
+
+Then select a table.
+
+![](images/ai/ai_smart_assistance_11.png)
+
+#### History
+
+You can see request history in the **History** field. If you are using the PRO version, you can see request history for previous sessions.
 
 ## Get started
 
@@ -126,16 +143,6 @@ There are some additional settings available in [Enterprise](Enterprise-Edition)
 
 - **Table join rule** allows to use explicit JOIN or join with sub-queries.
 
-
-## Disable
-
-You can disable ChatGPT smart completion in PRO versions. In this case, it cannot be enabled in Preferences.
-
-How to do it:
-- set system variable `DBEAVER_AI_DISABLED` to `true`
-- or add the string `Dai.disabled=true` to the end of `dbeaver.ini`.
-
-
 ## Receive API key
 
 1. Register on the [OpenAI platform](https://openai.com/api/).
@@ -156,6 +163,17 @@ You only need to install this extension in the DBeaver Community version. In oth
 
 That's all done. Open the SQL editor, and in the left toolbar, you'll see the ChatGPT icon <img width="17" alt="Screenshot 2023-02-07 at 01 40 29" src="https://user-images.githubusercontent.com/12581569/217119031-3be579ea-51db-4648-88fa-de4a3cafdba8.png">.
 
+## Disable
+
+You can temporarily remove ChatGPT icon from the SQL Editor toolbar. Move on Preferences —> Editors —> AI (GPT chat) and uncheck  **Enable smart completion** option. You can always enable it again.
+
+You can permanently disable ChatGPT smart completion only in PRO versions. In this case, it cannot be enabled in Preferences.
+
+How to do it:
+- set system variable `DBEAVER_AI_DISABLED` to `true`
+- or add the string `Dai.disabled=true` to the end of `dbeaver.ini`.
+
+
 ## Data privacy
 
 DBeaver needs to send the tables and column names of the current database schema to the OpenAI platform to convert your request into an SQL query. DBeaver don't send anything else besides that (no data from tables). The full text of the request can be seen in the log file, which you can enable in **Preferences** by selecting the **Write GPT queries to debug log** option.
@@ -164,13 +182,8 @@ DBeaver will ask for confirmation the first time you use ChatGPT completion for 
 
 ![](images/ai/ai_smart_assistance_9.png)
 
-You can choose which tables to use in the **Scope** field. Select the **Custom** option.
-
-![](images/ai/ai_smart_assistance_10.png)
-
-Then select a table.
-
-![](images/ai/ai_smart_assistance_11.png)
-
+If you don't want to send information about some tables, you can [choose which tables to use](#scope) in the **Scope** field.
 
 You can completely disable ChatGPT feature in PRO versions. [How to disable it](#disable)
+
+If you don't want to use ChatGPT in CE version, you can choose not to install the plugin and it will not be visible at all.
