@@ -56,3 +56,8 @@ Menu item|Description
 **Tools**|Opens a submenu that provides tools for database backup and restore, vacuum, etc.
 
 For information on how to filter database objects in Database Navigator, please see the [Filter Database Objects](Filter-Database-Objects) article.
+
+While working in the [SQL Editor](https://github.com/dbeaver/dbeaver/wiki/SQL-Editor), you can drag the desired object from the Database Navigator to the part of your query. Please pay attention to the selected object name. Running the query immediately with the selected object will cause an error because only the selected part of the script is being executed and fails as it's not a complete query. An extra step to deselect it by clicking somewhere in the SQL Editor is required to remove the selection. Nevertheless, we cannot deselect the object name automatically after dragging. This action is needed when you drag and drop an object into a complex query or long script, and it would be difficult to track what and where exactly you've just dropped, and you can get an unexpected error.
+![Drag Drop](https://user-images.githubusercontent.com/49681450/224941557-6563afb7-23cd-4bae-a968-3dd81602c6ef.PNG)
+
+
