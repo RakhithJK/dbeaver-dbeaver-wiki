@@ -1,4 +1,4 @@
-This guide describes a way to set up application preferences through configuration files without even booting it up.
+This guide describes how to set up application preferences through configuration files without even booting it up.
 
 ### Locating preference files
 
@@ -31,4 +31,4 @@ You can place the following preferences in the `org.jkiss.dbeaver.core.prefs` fi
 |`navigator.settings.default.showOnlyEntities`|boolean|N/A|`true`, `false`|Controls whether only schemas and tables must be shown.<br>Used if preset is set to `custom`.|
 |`navigator.settings.default.mergeEntities`|boolean|N/A|`true`, `false`|Controls whether all tables must be shown in a single list.<br>Used if preset is set to `custom`.|
 
-For more information, please see [Simple and Advanced View](Simple-and-Advanced-View).
+Please see [Simple and Advanced View](Simple-and-Advanced-View) for more information.
