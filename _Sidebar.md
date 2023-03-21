@@ -148,6 +148,7 @@
 - [[Managing connections|Admin-Manage-Connections]]
 - [[Managing variables|Admin-Variables]]
 - [[Managing drivers|Admin-Manage-Drivers]]
+- [[Managing preferences|Admin-Manage-Preferences]]
 - [[Windows Silent Install]]
 - [[Workspace]] <!--CMD:SKIP-->
 - [[Snap installation|Snap-installation]]
