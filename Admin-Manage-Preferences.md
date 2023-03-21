@@ -7,7 +7,7 @@ following path:
 `.metadata/.plugins/org.eclipse.core.runtime/.settings`
 
 You might not find a preference file you're interested in if it hasn't been created yet. In that case, you will need to
-create one yourself. See examples down below to figure out which preference file you need.
+create one yourself. See the examples below to figure out which preference file you need.
 
 ### Reading and modifying preference files
 
