@@ -56,6 +56,14 @@ In other cases, tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B*
 
 Tabs can be moved around by dragging them with a mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left. They can be moved among other pinned tabs, but can't be mixed with unpinned tabs. Pinned tabs cannot be closed without being unpinned first, and cannot be overwritten by executing a query in it (by making this tab active).
 
+### Detaching
+
+Tabs can be detached from the SQL editor into a separate view using the **Detach Tab** action found in the context menu of the desired tab. After the tab is detached, you can rearrange and move it anywhere you want (for example, you can put two tabs side-by-side for comparison).
+
+Additionally, you can detach it from the application window using **Detach** found in the context menu of an already detached tab.
+
+After the tab is detached, it's still synchronized with the SQL editor, meaning you can edit and refresh data as long as the SQL editor that produced that tab is open. Once you close it, tabs become read-only.
+
 ## SQL Expression Evaluation
 To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command basically performs a query of **SELECT [expression] FROM DUAL** type:
 
