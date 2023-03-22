@@ -8,7 +8,7 @@ Databases that support this feature:
 - HANA
 - MySQL
 - MariaDB
-- Oracle
+- [Oracle](#oracle)
 - PostgreSQL
 - PrestoDB
 - PrestoSQL (Kerberos can be used with SSL from JKS)
@@ -52,3 +52,8 @@ kinit is a command-line/terminal tool that obtains and caches an initial ticket-
 This method is almost the same as using a keytab file, but instead of providing an encrypted file, you need to enter a password manually.
 
 ![](images/kerberos_pasword.png)
+
+### Oracle
+
+Oracle JDBC driver 21 has broken KErberos authentication, at least for the most of old configurations.  
+Use older driver (12.x or 19.x) in order to use Kerberos authentication in Oracle.  
