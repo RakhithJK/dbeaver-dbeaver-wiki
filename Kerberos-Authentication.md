@@ -55,5 +55,5 @@ This method is almost the same as using a keytab file, but instead of providing 
 
 ### Oracle
 
-Oracle JDBC driver 21 has broken KErberos authentication, at least for the most of old configurations.  
+Oracle JDBC driver 21 has broken Kerberos authentication, at least for the most of old configurations.  
 Use older driver (12.x or 19.x) in order to use Kerberos authentication in Oracle.  
