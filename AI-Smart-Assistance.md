@@ -48,7 +48,7 @@ You can see request history in the **History** field. If you are using the PRO v
 
 ## Get started
 
-1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar.
+1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
 
 ![](images/ai/ai_smart_assistance_3.png)
 

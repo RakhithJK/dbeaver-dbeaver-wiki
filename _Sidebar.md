@@ -27,6 +27,7 @@
   - [[Managing Data Formats]]
   - [[Virtual column expressions]]
 - [[SQL Editor]]
+  - [[Toolbar Customization]]
   - [[SQL Templates]]
   - [[SQL Assist and Auto-Complete]]
   - [[AI SQL Assistance (ChatGPT)|AI-Smart-Assistance]]

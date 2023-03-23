@@ -1,6 +1,6 @@
 SQL Terminal is an SQL Editor result tab where you can find the results for all executed queries in a text format.
 
-To open SQL Terminal you should press the corresponding button on the left SQL Editor toolbar.
+To open SQL Terminal you should press the corresponding button on the left SQL Editor toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
 
 ![](images/sql_terminal/button.png)
 
