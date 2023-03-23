@@ -1,5 +1,5 @@
 You can see all of the currently assigned local variables for SQL Editor. You need to click a "Show SQL variables" button in the SQL editor.  
-A new tab alongside Output and Execution log panels will be opened with a list of assigned variables. On this panel, you can also show assigned parameters by clicking the corresponding button.
+A new tab alongside Output and Execution log panels will be opened with a list of assigned variables. On this panel, you can also show assigned parameters by clicking the corresponding button. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
   
 ![Show SQL variables button](https://i.imgur.com/EnjHqNK.png)
   
