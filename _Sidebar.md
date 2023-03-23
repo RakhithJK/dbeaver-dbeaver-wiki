@@ -73,7 +73,7 @@
     - [[Proxy configuration]]
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/>
     - [[Network Profiles]]
-    - [[Separate Connections]]
+    - [[Separate Connections]] <!--CMD:SKIP-->
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
