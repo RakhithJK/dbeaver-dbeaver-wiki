@@ -71,7 +71,7 @@
   - Advanced settings
     - [[SSH Configuration]]
     - [[Proxy configuration]]
-    - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
+    - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/>
     - [[Network Profiles]]
     - [[Separate Connections]]
 - [[Connection Types]]
