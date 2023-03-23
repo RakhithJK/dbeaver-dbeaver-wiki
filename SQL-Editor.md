@@ -16,11 +16,9 @@ The SQL editor includes the script panel at the top and the results panel at the
 
 You can open the SQL editor preferences by pressing <kbd>Alt+Enter</kbd>.
 
-Also you can customize your SQL Editor toolbar to bring more commands with `Preferences->User Interface->Toolbar Customization`. See [Toolbar Customization](Toolbar-Customization).
+Also SQL Editor has toolbar which is customizable. See [Toolbar Customization](Toolbar-Customization).
 
 ![](images/ui-customization.png)
-
-By default, only Execute SQL Statement, Execute SQL Script and Explain Execution plan are visible.
 
 ## Results Panel
 The results panel displays tabs with results in various formats. The tabs resulting from script execution represent instances of the [Data Editor](Data-Editor). You can create, edit and execute SQL scripts in the script panel and then see the results in the result tabs.
