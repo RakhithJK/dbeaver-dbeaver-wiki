@@ -22,7 +22,7 @@ This feature is supported for the following data sources:
 
 ### Simple plan view
 
-If a database driver supports the visualization of the execution plan, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the main toolbar: ![](images/ug/Exec-plan.png)
+If a database driver supports the visualization of the execution plan, you can see the execution plan of the current query (under cursor) by pressing <kbd>Ctrl+Shift+E</kbd> or clicking **Explain execution plan** on the context menu or in the SQL Editor toolbar: ![](images/ug/Exec-plan.png) (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
 The execution plan command generates a tree of query execution as one of the result tabs and is convenient in estimating if the query/script is quick/optimal enough: 
 
 ![](images/ug/Execution_plan.png)
