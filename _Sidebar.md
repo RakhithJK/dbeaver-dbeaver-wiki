@@ -68,12 +68,12 @@
   - [[Invalidate/Reconnect to Database|Invalidate-and-Reconnect-to-Database]]
   - [[Disconnect from Database]]
   - [[Change current user password]]
-  - Advanced settings <!--CMD:SKIP-->
-    - [[SSH Configuration]] <!--CMD:SKIP-->
-    - [[Proxy configuration]] <!--CMD:SKIP-->
+  - Advanced settings
+    - [[SSH Configuration]]
+    - [[Proxy configuration]]
     - [[Kerberos authentication]] <img src="images/commercial.png" vspace="4" align="top"/> <!--CMD:SKIP-->
-    - [[Network Profiles]] <!--CMD:SKIP-->
-    - [[Separate Connections]] <!--CMD:SKIP-->
+    - [[Network Profiles]]
+    - [[Separate Connections]]
 - [[Connection Types]]
 - Transactions
   - [[Auto and Manual Commit Modes]]
