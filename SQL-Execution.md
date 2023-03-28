@@ -1,6 +1,11 @@
 You can execute one query, a highlighted portion of a script, or a whole script. You can execute them using:
 * Shortcut key combinations (see details further in this article)
-* Tools in the main toolbar: ![](images/ug/Execute-buttons.png) (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+* Tools in the main toolbar: 
+
+![](images/ug/Execute-buttons.png) 
+
+(Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+
 * Context menu (right-click the query):
 
   ![](images/ug/execute-context-menu.png)
