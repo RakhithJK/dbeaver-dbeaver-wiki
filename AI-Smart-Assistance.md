@@ -46,19 +46,21 @@ Then select a table.
 
 You can see request history in the **History** field. If you are using the PRO version, you can see request history for previous sessions.
 
-## Get started
+## Getting started
 
-1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+1. If you're using the Community edition, [install the extension](#install-gpt-extension).
 
-![](images/ai/ai_smart_assistance_3.png)
+1. Open Window -> Preferences -> Editors -> AI. Click `Enable smart completion` if it's not on (which is the case in the PRO versions).
 
-2. On the first run, you'll see **Preferences** window. Copy the **Open AI secret key** to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key)
-
+1. Copy the **Open AI secret key** to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key).
 ![](images/ai/ai_smart_assistance_4.png)
 
-3. Confirm the metadata transfer to Open AI.
+1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+![](images/ai/ai_smart_assistance_3.png)
 
-4. Write your question in the **ChatGPT smart completion** window and press **Translate**.
+1. Confirm the metadata transfer to Open AI.
+
+1. Write your question in the **ChatGPT smart completion** window and press **Translate**.
 
 You can also select database objects to work with in the **Scope** field. This is useful if you have a large schema with many objects.
 
