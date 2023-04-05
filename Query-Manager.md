@@ -1,6 +1,6 @@
 Query Manager is a view that shows the history of all SQL queries that DBeaver has executed during the current session.
 
-NOTE: The DBeaver EE version persists all executed queries in the internal database so its execution history is available after the program restarts.
+**Note DBeaver saves query history after restarting only in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions.**
 
 To open the Query Manager, do one of the following:
 * Click the arrow next to the **Transaction Log** button in the toolbar and then click **Query Manager** on the dropdown menu:
@@ -17,7 +17,7 @@ The Query Manager logs all queries together with their execution statistics (exe
 
 You can modify the look of the Query Manager by filtering queries and setting the number of entries displayed per page, as well as specifying some storage settings, see the ‘Query Manager Properties’ section below.
 
-To erase all entries from the Query Manager, click the **Clear query manager log** button (![](images/ug/Clear-log-button.png)) in the view`s toolbar.
+To erase all entries from the Query Manager, click the **Clear query manager log** button (![](images/ug/Clear-log-button.png)) in the view`s toolbar. **In DBeaver PRO versions**, you can also open **Help —> Clear History** in the main menu and select **Query log history** option. The query history will disappear after the restart.
 
 ### Query Manager Properties
 To manage the look of the Query Manager, filter the entries, and modify the storage settings, click the **Set query manager filter** button (![](images/ug/Filter-button.png)) in the view`s toolbar. The Properties for Query Manager window opens:
