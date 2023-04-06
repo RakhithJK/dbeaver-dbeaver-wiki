@@ -15,7 +15,7 @@ The Query Manager logs all queries together with their execution statistics (exe
 
 ![](images/ug/Query-Manager.png)
 
-You can modify the look of the Query Manager by filtering queries and setting the number of entries displayed per page, as well as specifying some storage settings, see the ‘Query Manager Properties’ section below.
+You can modify the look of the Query Manager by filtering queries and setting the number of entries displayed per page, as well as specifying some storage settings. See the ‘Query Manager Properties’ section below.
 
 To erase all entries from the Query Manager, click the **Clear query manager log** button (![](images/ug/Clear-log-button.png)) in the view`s toolbar. **In DBeaver PRO versions**, you can also open **Help —> Clear History** in the main menu and select **Query log history** option. The query history will disappear after the restart.
 
@@ -24,7 +24,7 @@ To manage the look of the Query Manager, filter the entries, and modify the stor
 
 ![](images/ug/Query-Manager-properties.png)
 
-* To filter entries by object type, select or clear the checkboxes in the **Object Types** section. To filter entries by query type, select clear the checkboxes in the **Query Types** section.
+* Select or clear the checkboxes in the **Object Types** section to filter entries by object type. To filter entries by query type, select clear the checkboxes in the **Query Types** section.
 * To change the number of entries displayed per page, enter the new number in the **Entries per page** field.
 * To set DBeaver to save the query log in a file, select the **Save log to file(s)** checkbox and then specify the file location in the **Log files folder** field.
 
