@@ -56,6 +56,7 @@ You can see the request history in the **History** field. If you are using the P
 ![](images/ai/ai_smart_assistance_4.png)
 
 1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+
 ![](images/ai/ai_smart_assistance_3.png)
 
 1. Confirm the metadata transfer to Open AI.
@@ -126,7 +127,7 @@ You'll see the **Preferences** window.
 
 - **Execute SQL immediately** — select this option if you want to run SQL query just after translation.
 
-- **Model** is a GPT-3 tool for understanding and generating natural language. The best model for generating SQL queries is **code-davinci**.
+- **Model** is a GPT-3 tool for understanding and generating natural language. The best model for generating SQL queries is **gpt-3.5-turbo**.
 
 - **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less standard and more creative results, use 0.9.
 
