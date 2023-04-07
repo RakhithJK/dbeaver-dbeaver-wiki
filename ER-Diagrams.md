@@ -58,7 +58,7 @@ You can create notes only in [Custom Diagrams](Custom-Diagrams). To create a not
 To search among entities of a diagram, click the **Search items** button (![](images/ug/Search-icon.png)) in the toolbar, then type in the search combination. The entities that contain the search combination are highlighted in the diagram.
 To remove the filter, click the cross icon next to the search field.
 
-## Keybings
+## Bindings
 
 ### Navigation and selection:
 
