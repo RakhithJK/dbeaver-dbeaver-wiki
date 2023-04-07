@@ -68,7 +68,7 @@ To remove the filter, click the cross icon next to the search field.
 * Press `SPACEBAR` to select the current table.
 
 ### Table Manipulation:
-* Press `.` (period) to change the mode to move/resize tables when `ARROWS` to move/resize tables.
+* Press `.` (period) to change the mode to move/resize tables when use `ARROWS` to move/resize tables.
 
 ### Focus:
 
