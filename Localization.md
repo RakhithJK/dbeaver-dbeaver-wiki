@@ -81,6 +81,9 @@ You can:
 - Run DBeaver directly from [Eclipse workspace](Develop-in-Eclipse)
 - [Build DBeaver from source](Build-from-sources) and run executable
 
+### Localization proposals
+[Brazilian Portuguese Standardization proposals by @brlarini](Brazilian-Portuguese-Standardization-proposals)
+
 ### Changing user interface language
 
 See [Changing interface language](UI_Language)
