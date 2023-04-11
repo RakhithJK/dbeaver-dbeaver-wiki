@@ -31,6 +31,8 @@ KDC Server|The hostname of your KDC server. The Kerberos Key Distribution Center
 Password|The password of your Kerberos user.
 Use keytab|Check this box if you want to use a keytab file on your machine instead of entering a password.
 Use kinit|Check this box if you use the kinit tool on your machine. kinit is a tool that obtains and caches an initial ticket-granting ticket for the user. If this box is checked, you will only need to fill in your Kerberos username in most cases.
+Custom krb5.conf|Path to your local Kerberos configuration file.
+Debug Kerberos Connection|Check this box if you want to see full Kerberos connection information in your [log files](Log-files).
 
 
 ### Using the keytab file
@@ -38,12 +40,13 @@ Use kinit|Check this box if you use the kinit tool on your machine. kinit is a t
 A keytab is a file containing pairs of Kerberos principals and encrypted keys (which are derived from the Kerberos password). You can use a keytab file to authenticate various remote systems using Kerberos without entering a password. However, when you change your Kerberos password, you will need to recreate all your keytabs.
 Keytab files are commonly used to allow scripts to authenticate automatically using Kerberos without requiring human interaction or access to a password stored in a plain-text file. The script can then use the acquired credentials to access files stored on a remote system.
 For DBeaver, it means that when you use a keytab file, you still need to provide all of the credentials other than a password.
+You can find this setting in the "Extra configuration" part.
 
 ![](images/kerberos-keytab.png)
 
 ### Using kinit
 
-kinit is a command-line/terminal tool that obtains and caches an initial ticket-granting ticket for the Kerberos user. All of the credentials are provided either in a configuration file or in a command-line interface. This means that to authenticate with kinit in DBeaver, you only need to provide a kerberos username and check the box to use kinit.
+kinit is a command-line/terminal tool that obtains and caches an initial ticket-granting ticket for the Kerberos user. All of the credentials are provided either in a configuration file or in a command-line interface. This means that to authenticate with kinit in DBeaver, you only need to provide a kerberos username and check the box to use kinit. You can find this setting in the "Extra configuration" part.
 
 ![](images/kerberos-kinit.png)
 
@@ -52,6 +55,18 @@ kinit is a command-line/terminal tool that obtains and caches an initial ticket-
 This method is almost the same as using a keytab file, but instead of providing an encrypted file, you must manually enter a password.
 
 ![](images/kerberos_pasword.png)
+
+### Extra options
+
+Sometimes you may need to specify the path to the Kerberos configuration file. You can do it in the "Extra configuration" settings part.
+
+![](images/kerberos-config.png)
+
+
+If your database Kerberos authentication requiered the remote service name - you can add it in the "Service" field.
+For now, this setting is only available for the PrestoSQL connection.
+
+![](images/kerberos-keystore.png)
 
 ### Oracle
 
