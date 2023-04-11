@@ -63,26 +63,28 @@ To remove the filter, click the cross icon next to the search field.
 ### Navigation and selection:
 
 * Use `ARROWS` to navigate between tables.
-* Press `SHIFT` + `ARROWS` to select multiple tables.
-* Press `CTRL` + `ARROWS` to select additional tables using `SPACEBAR`.
+* Press `SHIFT`|`⇧` + `ARROWS` to select multiple tables.
+* Press `CTRL`|`⌃` + `ARROWS` to select additional tables using `SPACEBAR`.
 * Press `SPACEBAR` to select the current table.
 
 ### Table Manipulation:
 * Press `.` (period) to change the mode to move/resize tables when use `ARROWS` to move/resize tables.
 
+Note: To use this feature on macOS, you may need to enable accessibilitу permissions for DBeaver. This can be done in `System Preferences —> Security & Privacy —> Accessibility`.
+
 ### Focus:
 
-* Press `ENTER` to focus on attributes in the table.
-* Press `BACKSPACE` to leave the focus.
+* Press `ENTER`|`↩` to focus on attributes in the table.
+* Press `BACKSPACE`|`⌫` to leave the focus.
 * Use `|`, `?`, `\` to focus on associations.
-* Press `ALT/FN + 1` to focus on the diagram.
-* Press `ALT/FN + 2` to focus on the palette.
-* Press `ALT/FN + 3` to focus/open the outline.
-* Press `ALT/FN + 4` to focus on the parameter view.
+* Press `ALT/FN + 1`|`⌥/FN + 1` to focus on the diagram.
+* Press `ALT/FN + 2`|`⌥/FN + 2` to focus on the palette.
+* Press `ALT/FN + 3`|`⌥/FN + 3` to focus/open the outline.
+* Press `ALT/FN + 4`|`⌥/FN + 4` to focus on the parameter view.
 
 ### Other Functions:
 
-* Press `CTRL + ENTER` to open the selected table diagram.
+* Press `CTRL + ENTER` |`⌃ + ↩` to open the selected table diagram.
 
 
 ## Diagram Export
