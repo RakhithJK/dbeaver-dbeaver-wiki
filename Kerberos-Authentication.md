@@ -59,12 +59,13 @@ This method is almost the same as using a keytab file, but instead of providing 
 ### Extra options
 
 Sometimes you may need to specify the path to the Kerberos configuration file. You can do it in the "Extra configuration" settings part.
+You can also specify the path to Kerberos credential cache file near the "Use kinit" checkbox.
 
 ![](images/kerberos-config.png)
 
-
-If your database Kerberos authentication requiered the remote service name - you can add it in the "Service" field.
-For now, this setting is only available for the PrestoSQL connection.
+If your database Kerberos authentication requires the remote coordinator Kerberos service name, add it to the "Service" field.
+If SSL on the server is not trusted - you can check the "Use SSL from JKS" setting and manually add a path to your .jks file. A Java keystore (JKS) file is a secure file format used to hold certificate information for Java applications. SSL JKS password can be added in the "SSL JKS" field.
+For now, these settings are only available for the PrestoSQL connection.
 
 ![](images/kerberos-keystore.png)
 
