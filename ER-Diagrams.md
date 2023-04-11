@@ -68,7 +68,7 @@ To remove the filter, click the cross icon next to the search field.
 * Press `SPACEBAR` to select the current table.
 
 ### Table Manipulation:
-* Press `.` (period) to change the mode to move/resize tables when use `ARROWS` to move/resize tables.
+* Press `.` (period) to change the mode to move/resize tables, then use `ARROWS` and `ENTER`|`↩` to move/resize tables.
 
 Note: To use this feature on macOS, you may need to enable accessibilitу permissions for DBeaver. This can be done in `System Preferences —> Security & Privacy —> Accessibility`.
 
