@@ -171,6 +171,10 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Ctrl+Shift+O|⌃⇧O|Show server output console|
 |Ctrl+Alt+Shift+W|⌃⌥⇧W|Toggles text editor soft word wrap|
 
+### ER Diagram
+
+See [ER Diagrams documentation](ER-Diagrams#bindings) for a list of shortcuts.
+
 ### Visual Query Builder
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |-------|-------|-------|
