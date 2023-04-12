@@ -61,7 +61,7 @@ DBeaver supports following SSH authentication methods: user/password, public key
 
 If a connection has network settings specified, such a connection appears in the application with a special 'arrow' icon such as this: ![](images/ug/DB-icon-network-settings.png)
 
-#### More information about SSH configuration can be found on [SSH configuration](SSH-Configuration) page.
+**More information about SSH configuration can be found on [SSH configuration](SSH-Configuration) page.**
 
 ## Connection Details (name, type, etc.)
 You can also set the connection name, type and initial settings (such as bootstrap queries, transaction state, global filters, etc.).
