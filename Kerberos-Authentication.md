@@ -34,6 +34,8 @@ Use kinit|Check this box if you use the kinit tool on your machine. kinit is a t
 Custom krb5.conf|Path to your local Kerberos configuration file.
 Debug Kerberos Connection|Check this box if you want to see full Kerberos connection information in your [log files](Log-files).
 
+**Important Note.** Some settings can be saved in a session cache. If the settings change does not help to connect - restart the DBeaver.
+
 
 ### Using the keytab file
 
