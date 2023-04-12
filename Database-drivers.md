@@ -14,14 +14,14 @@ You need to download the driver's jar files before adding them to DBeaver. Somet
 
 ### Adding driver configuration in DBeaver
 
-##### Open driver manager dialog
+#### Open driver manager dialog
 
 You can open the driver manager from the main menu:  
 ![](images/ug/drivers/database-menu.png)  
 or from Database Navigator drop-down menu.  
 ![](images/ug/drivers/driver-manager.png)
 
-##### Add a new driver
+#### Add a new driver
 
 Just click the button New and create a new driver.
 On the driver edit dialog you need to enter all required information:
@@ -44,14 +44,14 @@ Category|Driver category, deprecated
 ID|Driver unique ID, ignore it
 Description|Driver description, it is shown in some dialogs/wizards as a hint
 
-##### Libraries
+#### Libraries
 
 This is the list of jar files, binary libraries (dll or so) and any other files required by the driver. In most cases you only need the jar files.  
 Click "Add File" to add a single jar file, "Add Folder" to add to the folder with Java classes/resources and "Add Artifact" to add the Maven artifact (see below).  
 
 After you add the jar files you will be able to find all JDBC driver classes which are found in these jars. Just click on the "Find Class" button and DBeaver will show all of them. In most cases there is just one driver class in the driver. If there are many of them, you need to refer to the driver's documentation.
 
-##### Maven artifacts
+#### Maven artifacts
 
 DBeaver can download driver jars directly from the Maven repository (it is a global public repository of Java libraries, usually an open-source). If your database driver is published on some public repository you can use this feature. Maven artifacts are better than plain jar files because you can see all existing driver versions and can change the driver version in runtime without any driver properties reconfiguration.
 
@@ -94,7 +94,7 @@ But in some cases you can use this as driver tuning, e.g. for better performance
 
 ![](images/ug/drivers/driver-properties.png)
 
-###### Main parameters
+#### Main parameters
 
 Parameter|Description
 ----|-----
@@ -125,7 +125,7 @@ Driver supports structure cache | Driver supports structure cache reading. Enabl
 Driver supports TRUNCATE operation | Driver supports TRUNCATE command. It is much faster than DELETE without criteria
 
 
-###### Queries (Custom driver queries)
+#### Queries (Custom driver queries)
 
 Parameter|Description
 ----|-----
@@ -139,7 +139,7 @@ Driver supports results scrolling | Driver supports resultset scrolling
 Quote reserved words | Quote columns/table names if they conflicts with reserved SQL keywords
 Escape LIKE masks in search queries | Use to access JDBC metadata API. Enabled by default but should be disabled for some (broken) drivers
 
-###### DDL (DDL generation options)
+#### DDL (DDL generation options)
 
 Parameter|Description
 ----|-----
@@ -148,7 +148,7 @@ Drop column - use brackets | Use 'ALTER TABLE DROP (column-name)' instead of sta
 Use legacy SQL dialect for DDL | Use legacy SQL dialect for DDL
 Add COLUMN keyword in alter table query | Add COLUMN keyword after keyword ADD and before column name in alter table query
 
-###### Formatting (SQL values formats)
+#### Formatting (SQL values formats)
 
 Parameter|Description
 ----|-----
