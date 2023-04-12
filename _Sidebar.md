@@ -143,7 +143,6 @@
 - [[Log files]]
 - [[JDBC trace|JDBC-Tracing]]
 - [[Thread dump|Making-a-thread-dump]]
-- [[Proxy configuration]]
 
 #### Admin Guide
 - [[Managing connections|Admin-Manage-Connections]]
