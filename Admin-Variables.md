@@ -1,6 +1,6 @@
 ## Variables
 
-#### Disclaimer: this article does **NOT** cover variables used in SQL editor.
+**Disclaimer: this article does **NOT** cover variables used in SQL editor.**
 
 ### What are variables
 
