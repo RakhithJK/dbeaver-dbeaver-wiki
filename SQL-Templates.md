@@ -12,7 +12,7 @@ The template SQL statement appears in the script.
 To edit/add/remove templates, click Configure (<img src="https://www.dropbox.com/s/h01225sper0kfjw/Configure%20columns%20icon.png?raw=1"/>) in the bottom toolbar, then click **Preferences -> SQL Editor -> Templates**. 
 For more information about managing templates, please visit [Eclipse Website](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Fconcepts%2Fconcept-editor-templates.htm).
 
-#### [Standard Eclipse templates](http://help.eclipse.org/juno/topic/org.eclipse.jdt.doc.user/concepts/concept-template-variables.htm?cp=1_2_6_0):  
+#### Standard Eclipse templates:  
 
 | Variable | Description |
 -----------|-------------|
