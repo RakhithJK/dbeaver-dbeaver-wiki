@@ -21,7 +21,7 @@ The side effect of this configuration is that you cannot share your connections 
 
 ![](images/ug/workspace-security-preferences.png)
 
-#### Use Windows Integration password provider
+### Use Windows Integration password provider
 
 You can disable the default password provider and enable a "Windows Integration" provider. This provider does not need a master password but it uses a randomly generated password stored in a local user secure storage (in Windows).
 This is easier (as you don't need to remember the master password) but less secure (anybody who has access to your Windows user account will have access to DBeaver's stored credentials).
