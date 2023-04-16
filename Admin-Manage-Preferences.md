@@ -46,9 +46,9 @@ navigator.sort.forlers.first | boolean | true | true or false | Show folders fir
 
 Name|Type|Default Value|Allowed Values|Description
 ----|----|-------------|--------------|-----------
-transaction.smart.commit
-transaction.smart.commit.recover
-transaction.show.notifications
-transaction.auto.close.enabled
-transaction.auto.close.ttl
+transaction.smart.commit | boolean | false | true or false | Enable smart commit mode
+transaction.smart.commit.recover | boolean | true | true or false | Return to auto-commit mode after transaction end
+transaction.auto.close.enabled | boolean | false | true or false | Automatically end (rollback) transaction after idle period
+transaction.auto.close.ttl | integer | 900 | integer value | Timeout before transaction close
+transaction.show.notifications | boolean | true | true or false | Show folders first
 
