@@ -42,7 +42,7 @@ navigator.show.folder.placeholders | boolean | true | true or false | Show place
 navigator.sort.case.insensitive | boolean | true | true or false | Sort items in case-insensitive mode
 navigator.sort.forlers.first | boolean | true | true or false | Show folders first
 
-### Default transaction settings
+### Default [[transaction settings|Auto-and-Manual-Commit-Modes]]
 
 Name|Type|Default Value|Allowed Values|Description
 ----|----|-------------|--------------|-----------
