@@ -19,16 +19,36 @@ some.key=value1
 some.other.key=value2
 ```
 
-### Configuring default navigator view for new connections
+### Default navigator view for new connections
 
 You can place the following preferences in the `org.jkiss.dbeaver.core.prefs` file:
 
-|Name|Type|Default Value|Allowed Values|Description|
-|----|----|-------------|--------------|-----------|
-|`navigator.settings.default.preset`|string|N/A or `simple` (Lite Edition)|`simple`, `advanced`|Sets the default view mode for new connections<br>Don't specify this preference if you want to configure a custom preset.|
-|`navigator.settings.default.showSystemObjects`|boolean|N/A|`true`, `false`|Controls whether system objects must be shown.<br>Used if preset is not specified.|
-|`navigator.settings.default.showUtilityObjects`|boolean|N/A|`true`, `false`|Controls whether utility objects must be shown.<br>Used if preset is not specified.|
-|`navigator.settings.default.showOnlyEntities`|boolean|N/A|`true`, `false`|Controls whether only schemas and tables must be shown.<br>Used if preset is not specified.|
-|`navigator.settings.default.mergeEntities`|boolean|N/A|`true`, `false`|Controls whether all tables must be shown in a single list.<br>Used if preset is not specified.|
+Name|Type|Default Value|Allowed Values|Description
+----|----|-------------|--------------|-----------
+navigator.settings.default.preset|string|N/A or `simple` (Lite Edition)|`simple`, `advanced`|Sets the default view mode for new connections<br>Don't specify this preference if you want to configure a custom preset.
+navigator.settings.default.showSystemObjects|boolean|N/A|`true`, `false`|Controls whether system objects must be shown.<br>Used if preset is not specified.
+navigator.settings.default.showUtilityObjects|boolean|N/A|`true`, `false`|Controls whether utility objects must be shown.<br>Used if preset is not specified.
+navigator.settings.default.showOnlyEntities|boolean|N/A|`true`, `false`|Controls whether only schemas and tables must be shown.<br>Used if preset is not specified.
+navigator.settings.default.mergeEntities|boolean|N/A|`true`, `false`|Controls whether all tables must be shown in a single list.<br>Used if preset is not specified.
 
 For more information, please see [Simple and Advanced View](Simple-and-Advanced-View).
+
+### Misceleneous navigator settings
+
+Name|Type|Default Value|Allowed Values|Description
+----|----|-------------|--------------|-----------
+navigator.settings.default.connectionPattern | string | host_or_database | expression with variables | Pattern for new connections title
+navigator.show.folder.placeholders | boolean | true | true or false | Show placeholders for special folders (e.g. Scripts)
+navigator.sort.case.insensitive | boolean | true | true or false | Sort items in case-insensitive mode
+navigator.sort.forlers.first | boolean | true | true or false | Show folders first
+
+### Default transaction settings
+
+Name|Type|Default Value|Allowed Values|Description
+----|----|-------------|--------------|-----------
+transaction.smart.commit
+transaction.smart.commit.recover
+transaction.show.notifications
+transaction.auto.close.enabled
+transaction.auto.close.ttl
+
