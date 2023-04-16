@@ -33,7 +33,7 @@ navigator.settings.default.mergeEntities|boolean|N/A|`true`, `false`|Controls wh
 
 For more information, please see [Simple and Advanced View](Simple-and-Advanced-View).
 
-### Misceleneous navigator settings
+### Miscellaneous [[navigator settings|Database-Navigator]]
 
 Name|Type|Default Value|Allowed Values|Description
 ----|----|-------------|--------------|-----------
