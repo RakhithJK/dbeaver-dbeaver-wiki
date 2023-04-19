@@ -9,7 +9,7 @@ To apply a template, in the SQL Editor, in the script pane:
 * Right-click the line where you want to insert a template expression, click **SQL Template** on the context menu, and then, in the list of templates, double-click the required template name.  
 The template SQL statement appears in the script.
   
-To edit/add/remove templates, click Configure (<img src="https://www.dropbox.com/s/h01225sper0kfjw/Configure%20columns%20icon.png?raw=1"/>) in the bottom toolbar, then click **Preferences -> SQL Editor -> Templates**. 
+To edit/add/remove templates, click Configure Icon in the bottom toolbar, then click **Preferences -> SQL Editor -> Templates**. 
 For more information about managing templates, please visit [Eclipse Website](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Fconcepts%2Fconcept-editor-templates.htm).
 
 **Standard Eclipse templates:**
