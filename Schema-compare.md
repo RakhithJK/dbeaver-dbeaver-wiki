@@ -23,6 +23,7 @@
 |	Informix	|	Teradata	|
 |	MySQL/MariaDB	|	Vertica		|	
 |	Netezza		|	YugabyteDB	|
+|	DB2i		|	         	|
 
 ## How it works
 
