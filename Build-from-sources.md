@@ -1,10 +1,9 @@
-## Build DBeaver from sources
-
 #### Prerequisites:
 
- 1. Java (JDK) 17+.
- 2. Apache Maven 3+
- 3. Internet access
+ 1. JDK 17+. <a href="https://adoptium.net/" target="_blank">OpenJDK 17</a> is our default Java at the moment.
+ 2. <a href="https://maven.apache.org/" target="_blank">Apache Maven 3.8.6+</a>
+ 3. git
+ 4. Internet access
 
 #### Build
 
