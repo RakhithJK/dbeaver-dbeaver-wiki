@@ -10,6 +10,6 @@
 ```sh
 git clone https://github.com/dbeaver/dbeaver.git dbeaver
 cd dbeaver
-mvn package
+mvn package -Pall-platforms
 ```
 Binaries are in `product/standalone/target/products`
