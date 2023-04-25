@@ -1,4 +1,4 @@
-DBeaver is integrated with Goofle Cloud IAM authentication.  
+DBeaver is integrated with Google Cloud IAM authentication.  
 Thus it provides the possibility to authenticate in GCP to access your cloud databases. 
 
 ### Default credentials
