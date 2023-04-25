@@ -110,6 +110,27 @@ Please note that if you use `dbeaver` executable (for any reason),
 you will need to add the command line parameter `-nosplash` to avoid a splash screen appearance.
 
 ## Troubleshooting
+
+### User credentials + enterprise security
+
+When you 
+- Enable enterprise security for database credentials
+- Use Mail server authentication to send data transfer results over email
+
+Then these settings won't be accessible in scheduled tasks by default. But you can use defult OS-specific enryption for that. Master password won't be used so it is a bit less secure configuration (credentials are still encrypted but they may be stolen if hacker will gain access to your computer).  
+ 
+To enable this you need to:
+![](images/secure-storage-OS.png)
+
+- Go to Prefefences->General->Security->Secure Storage
+- Disable "DBeaver Enterprise Password provider" and "UI prompt"
+- Update credentials you want to use for scheduled task:
+   - For Mail profile you can open mail settings and clikc Ok
+   - For database credentials got to Preferences->Connections->Entrprise security and toggle  "Use secure password storage" on and off to trigger stored credentials re-encryption
+
+
+
+
 ### Windows scheduler overview
 There are two implementations of the Windows scheduler present:
 1. CLI-based (**Legacy**): uses `schtasks.exe` to communicate with the scheduler; sensitive to locale-dependent data, such as Unicode names and date-time format.
