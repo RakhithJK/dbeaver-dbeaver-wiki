@@ -11,4 +11,4 @@ After that, in the data transfer wizard, change the output directory to the Driv
 
 It can be achieved by using [Task Scheduler](Task-Scheduler).
 
-**Note: This functionality is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**

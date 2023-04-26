@@ -1,4 +1,4 @@
-**Note: This functionality is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 DBeaver can schedule execution for regular tasks.
 DBeaver supports `Windows Task Scheduler` on Windows and `cron` on macOS and GNU/Linux.

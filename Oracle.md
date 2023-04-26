@@ -53,7 +53,7 @@ You do not need to explicitly specify any credentials.
 
 ### Oracle Wallet
 
-**Note: This functionality is available in Lite, Enterprise and Ultimate editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 A more secure way to connect is to use the Oracle Wallet. Wallet is a directory with security keys and some other optional connection information.
 Wallets are usually distributed as ZIP archives. You need to extract the ZIP archive to a folder on a disk and specify this folder in the `Wallet location` field.
@@ -71,7 +71,7 @@ Wallet password | Optional. Some wallets are password-protected
 
 ### Kerberos
 
-**Note: This functionality is available in Lite, Enterprise and Ultimate editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 Kerberos is the most complicated authentication in Oracle.
 

@@ -1,4 +1,4 @@
-**Note: This functionality is available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 As the name suggests, the _composite task_ is a type of task that consists of other tasks. 
 Just like the other type of tasks, the composite tasks can be scheduled via [[Task Scheduler]].
