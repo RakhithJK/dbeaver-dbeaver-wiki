@@ -125,7 +125,7 @@ To enable this you need to:
 - Go to Prefefences->General->Security->Secure Storage
 - Disable "DBeaver Enterprise Password provider" and "UI prompt"
 - Update credentials you want to use for scheduled task:
-   - For Mail profile you can open mail settings and clikc Ok
+   - For Mail profile you can open mail settings and click Ok
    - For database credentials got to Preferences->Connections->Entrprise security and toggle  "Use secure password storage" on and off to trigger stored credentials re-encryption
 
 
