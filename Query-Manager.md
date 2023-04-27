@@ -1,6 +1,6 @@
 Query Manager is a view that shows the history of all SQL queries that DBeaver has executed during the current session.
 
-**Note DBeaver saves query history after restarting only in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions.**
+**Note DBeaver saves query history after restarting only in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions.**
 
 To open the Query Manager, do one of the following:
 * Click the arrow next to the **Transaction Log** button in the toolbar and then click **Query Manager** on the dropdown menu:

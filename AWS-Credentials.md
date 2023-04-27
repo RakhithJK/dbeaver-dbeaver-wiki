@@ -1,4 +1,4 @@
-**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), and [Ultimate](Ultimate-Edition) editions only.**
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 DBeaver is integrated with AWS IAM authentication.  
 Thus it provides the possibility to authenticate in AWS to access your cloud databases.  

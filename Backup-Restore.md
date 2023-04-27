@@ -1,4 +1,4 @@
-**NB: This feature is not available in the [Lite](Lite-Edition) edition.**
+**NB: This feature is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 ## Database Backup/restore
 

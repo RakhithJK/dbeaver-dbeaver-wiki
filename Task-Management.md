@@ -1,4 +1,4 @@
-**NB: This feature is not available in the [Lite](Lite-Edition) edition.**
+**Note: This feature is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 ## Creating tasks
 The task is a saved configuration of a database tool. It can be started from the task management view or from the menu by a single click.
