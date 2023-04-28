@@ -3,7 +3,7 @@ It consists of a set of Eclipse plugins, features, and products.
 
 ## Opening workspace in Eclipse
 
-You will need to setup [Eclipse IDE for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2022-12/r/eclipse-ide-rcp-and-rap-developers). The current default Eclipse version is _2022-12. As the build may fail on older and newer versions,
+You will need to setup [Eclipse IDE for RCP and RAP Developers](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-ide-rcp-and-rap-developers). The current default Eclipse version is _2023-03_. As the build may fail on older and newer versions,
 you will need to install a few additional Eclipse plugins which DBeaver depends on (and which are not included in the standard Eclipse distribution):
 
 1. Open main menu Help -> Install New Software
