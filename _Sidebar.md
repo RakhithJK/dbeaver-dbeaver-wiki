@@ -57,6 +57,7 @@
 - [[Projects]]
   - [[Project security]] <img src="images/commercial.png" vspace="4" align="top"/>
   - [[Team work (Git) | Project-team-work]] <img src="images/commercial.png" vspace="4" align="top"/>
+- [[Security in PRO products | Security-in-DBeaver-PRO]]
 - [[Bookmarks]]
 - [[Shortcuts]]
 
