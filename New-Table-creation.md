@@ -6,7 +6,7 @@
 1. In the **Database Navigator**, right click the **Tables** and select **Create New Table**. <br/></br>
     ![](images/tutorial_images/1_CreateNewTable.png)</br>
 
-2. In the **Properties**, specify table name (by default, a new table is created with the name "NewTable"). <br/></br>
+2. In the **Properties**, specify the table name (by default, a new table is created with the name "NewTable"). <br/></br>
     ![](images/tutorial_images/2_NewTable_NoData.png)</br></br>
 
 3. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column**. <br/></br>
@@ -27,7 +27,8 @@ The **Edit Attribute** window (which appears after you click **Create New Column
 
 
 2. Select the column and save. </br></br>
-    ![](images/tutorial_images/9_PrimaryKey.png)</br></br>
+
+![](images/tutorial_images/9_PrimaryKey.png)</br></br>
 
 3. Once you save the changes, a window will appear displaying the newly created **Primary Key**. <br/></br>
 ![](images/tutorial_images/10a_TableAfterSaving.png)</br></br>
