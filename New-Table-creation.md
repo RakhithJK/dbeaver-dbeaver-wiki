@@ -25,7 +25,7 @@ The **Edit Attribute** window (which appears after you click **Create New Column
 1. Move to the **Keys** tab of the corresponding table, right-click on the screen, and **Create New Key**.</br></br>
 ![](images/tutorial_images/8_NewConstraint.png)</br></br>
    
-2. Select the column and save. </br>
+2. Select the column and save. </br></br>
 ![](images/tutorial_images/9_PrimaryKey.png)</br></br>
 
 3. Once you save the changes, a window will appear displaying the newly created **Primary Key**. <br/></br>
