@@ -14,8 +14,7 @@ There are several ways to automate the license management process. It makes sens
 #### Put the license file to the predefined locations
 
 
-
-While DBeaver is starting up, it will look for a license file in the following locations: 
+Add the license .dat file to the following locations: 
 
 - Windows
     - `%HOMEPATH%\.dbeaver-ee-license.dat`
@@ -28,7 +27,7 @@ While DBeaver is starting up, it will look for a license file in the following l
     - `$XDG_DATA_HOME/DBeaverData/workspace6/.metadata/.dbeaver-ee-license.dat`
 
 
-It's important to note that the license .dat file doesn't exist. It has to be created. The information from the license.txt file that exists should be copied to the newly created .dat file.
+**To create the license .dat file you need to download the license .txt file from the DBeaver website and change its file type  to the .dat one.**
 
 
 **Please follow the next steps:**

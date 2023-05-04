@@ -8,7 +8,7 @@ you will need to install a few additional Eclipse plugins which DBeaver depends 
 
 1. Open main menu Help -> Install New Software
 
-2. Copy `http://dbeaver.io/eclipse-repo/` into the "Work with" field and press enter
+2. Copy `https://p2.dev.dbeaver.com/eclipse-repo/` into the "Work with" field and press enter
 
 3. Check all plugins and finish the installation process:
 

@@ -1,5 +1,7 @@
 # Azure Cloud Explorer
 
+**Note: This functionality is available in [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+
 ## Cloud configuration
 
 You have to provide just the ID of the application (client) that is used for
