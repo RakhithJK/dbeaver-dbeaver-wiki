@@ -1,38 +1,45 @@
 ### New Table creation
-* Set focus to "Tables" in the Database Navigator, select 'Create New Table'.
-![](images/tutorial_images/1_CreateNewTable.png)
-* A new table is created with the default name "newtable". Go to the 'Properties' tab to rename it
-![](images/tutorial_images/2_NewTable_NoData.png)
-* As soon as you set the Table Name (1), move to the 'Columns' tab (2)
-![](images/tutorial_images/3_TableName.png)
-* Right click on the Column screen, select 'Create New Column'
-![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
+
+1. In the **Database Navigator**, right click the **Tables** and select **Create New Table**. <br/>
+
+    ![](images/tutorial_images/1_CreateNewTable.png)
+2. In the **Properties**, specify table name (by default, a new table is created with the name "NewTable"). <br/>
+
+    ![](images/tutorial_images/2_NewTable_NoData.png)
+3. As soon as you set the table name, right click on the **Column screen**, select **Create New Column** <br/>
+
+    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
   
-BTW: Another way to add a new column is to expand the table view in the Navigation pane (1) and 'Create New Column' from the context menu (2)
-  
-![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)
-* A new column is created with a default column name and Data Type. Adjust the column properties as you wish.
-![](images/tutorial_images/5_AddColumnToTheTable.png)
- 
-BTW: To tick the checkbox (e.g. "Not Null") click the field and select "yes" from the dropdown list 
-![](images/tutorial_images/5a_AddColumnToTheTable_Checkbox.png)
+    > Note: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu. <br/>
 
-* Add more columns
-![](images/tutorial_images/6_AddMoreColumns.png)
+    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)
 
-* Create a second table: right click menu on 'Tables' in Navigator -> Create New Table
-![](images/tutorial_images/7_CreateTheSecondTable.png), ![](images/tutorial_images/7a_TheSecondTable.png)
+### Columns
 
-### Primary Key creation
-* Move to the 'Constraints' tab of the corresponding table, right click on the screen -> 'Create New Constraint'
+* The **Edit Attribute** window (which appears after you click Create New Column) allows you to customize the settings of a column in a database table, such as its name, data type, length, not null, auto increment and default value. <br/>
+
+    ![](images/tutorial_images/5_ColumnEdit.png)
+
+### Primary Key creation  
+
+1. Move to the **Keys** tab of the corresponding table, right click on the screen, **Create New Key**.
 ![](images/tutorial_images/8_NewConstraint.png)
    
-* Select the column (1)and save (2)
-![](images/tutorial_images/9_PrimaryKey.png), ![](images/tutorial_images/9a_PrimaryKey.png)
+2. Select the column and save
+![](images/tutorial_images/9_PrimaryKey.png)
+Once you save the changes, a window will appear displaying the newly created **Primary Key**. <br/>
+![](images/tutorial_images/10a_TableAfterSaving.png)
 
-* **Save the tables**: select the table in Navigation pane (1) an press 'Ctrl+S' (or Top menu -> File -> Save, 'Persist' the changes (2).
-![](images/tutorial_images/10_Table_Save.png), ![](images/tutorial_images/10a_TableAfterSaving.png)
+3. To **Save the table**, select the desired table in the editor panel and press 'Ctrl+S' (or 'CMD+S' for Mac OS). Then, choose 'Persist' to save the changes. <br/>
+![](images/tutorial_images/10_Table_Save.png)
+> Note: You can also save changes using Top menu -> File -> Save, 'Persist' the changes. </br>
+Additionally, you can save changes using the "Save" button
+![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
 
 ### Foreign Key creation
-* Go to 'employees' table, 'Foreign Keys' tab. Right click on the screen -> Create New Foreign Key 
-![](images/tutorial_images/11_CreateNewForeignKey.png), ![](images/tutorial_images/11a_ForeignKey.png)
+1. Move to the **Foreign Keys** tab of the corresponding table, right click on the screen, **Create New Foreign Key**. <br/>
+    ![](images/tutorial_images/11_CreateNewForeignKey.png)
+2. Select the Reference table, Unique Key and save. <br/>
+    ![](images/tutorial_images/11a_ForeignKey.png)
+    > Note: If needed, specify the desired behavior for when a row is deleted or updated from the main table, using the 'on delete' and 'on update' clauses.
+3. Save the table.
