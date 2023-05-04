@@ -41,7 +41,7 @@ The **Edit Attribute** window (which appears after you click **Create New Column
 ![](images/tutorial_images/10a_TableAfterSaving.png)  
 
 
-3. To **Save the table**, select the desired table in the editor panel and press 'Ctrl+S' (or 'CMD+S' for Mac OS). Then, choose **Persist** to save the changes.  
+4. To **Save the table**, select the desired table in the editor panel and press 'Ctrl+S' (or 'CMD+S' for Mac OS). Then, choose **Persist** to save the changes.  
 
 ![](images/tutorial_images/10_Table_Save.png)</br></br>
 
