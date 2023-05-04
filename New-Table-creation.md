@@ -1,6 +1,6 @@
 
 ### You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.
-</br>
+</br></br>
 
 ### Tables
 1. In the **Database Navigator**, right click the **Tables** and select **Create New Table**. <br/></br>
