@@ -16,14 +16,12 @@
     ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)</br></br>
 
 **Note**: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu. <br/></br>
-
-    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)</br></br>
+![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)</br></br>
 
 
 ### Columns
 The **Edit Attribute** window (which appears after you click **Create New Column**) allows you to customize the settings of a column in a database table, such as its name, data type, length, not null, auto increment, and default value. <br/></br>
-
-    ![](images/tutorial_images/5_ColumnEdit.png)</br></br>
+![](images/tutorial_images/5_ColumnEdit.png)</br></br>
 
 
 ### Primary Keys
