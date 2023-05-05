@@ -1,5 +1,5 @@
 
-### You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.  
+#### You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.  
 
 
 ### Tables
