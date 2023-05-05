@@ -161,7 +161,7 @@
 
 #### Tutorials
 - [[Connecting to Oracle Database using JDBC OCI driver]]
-- [[Importing CA Certificates into DBeaver]]
+- [[Importing CA certificates from your local Java into DBeaver]]
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 
