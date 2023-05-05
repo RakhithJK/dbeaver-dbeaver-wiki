@@ -1,8 +1,8 @@
 
-#### You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.  
+You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.  
 
 
-### Tables
+## Tables
 1. In the **Database Navigator**, right click the **Tables** and select **Create New Table**.  
 
 ![](images/tutorial_images/1_CreateNewTable.png)</br>
@@ -20,13 +20,23 @@
 ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
 
-### Columns
-The **Edit Attribute** window (which appears after you click **Create New Column**) allows you to customize the settings of a column in a database table, such as its name, data type, length, not null, auto increment, and default value.  
+## Columns
+1. Click on **Create New Column**.  
+
+2. In the **Edit Attribute** window, customize the settings of a column in a database table.  
+
+3. Adjust the following settings as needed:
+* Name
+* Data type
+* Length
+* Not null
+* Auto increment
+* Default value
 
 ![](images/tutorial_images/5_ColumnEdit.png)  
 
 
-### Primary Keys
+## Primary Keys
 1. Move to the **Keys** tab of the corresponding table, right-click on the screen, and **Create New Key**.  
 
 ![](images/tutorial_images/8_NewConstraint.png)  
@@ -41,18 +51,18 @@ The **Edit Attribute** window (which appears after you click **Create New Column
 ![](images/tutorial_images/10a_TableAfterSaving.png)  
 
 
-4. To **Save the table**, select the desired table in the editor panel and press 'Ctrl+S' (or 'CMD+S' for Mac OS). Then, choose **Persist** to save the changes.  
+4. To **Save the table**, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
 
 ![](images/tutorial_images/10_Table_Save.png)</br></br>
 
 **Note**: You can also save changes using **Top menu** -> **File** -> **Save**, **Persist** the changes. </br> Additionally, you can save changes using the **Save** button ![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
 
-### Foreign Keys
-1. Move to the **Foreign Keys** tab of the corresponding table, right-click on the screen, and **Create New Foreign Key**.  
-
+## Foreign Keys
+1. In the corresponding table, click the **Foreign Keys** tab, right-click on the screen, and **Create New Foreign Key**.  
+  
 ![](images/tutorial_images/11_CreateNewForeignKey.png)  
 
-2. Select the Reference table, Unique Key, and save.  
+2. Select the **Reference table**, **Unique Key**, and save.  
 
 ![](images/tutorial_images/11a_ForeignKey.png)  
 
