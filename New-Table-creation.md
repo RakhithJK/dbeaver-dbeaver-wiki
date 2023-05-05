@@ -3,7 +3,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
 
 ## Tables
-1. In the **Database Navigator**, right click the **Tables** and select **Create New Table**.  
+1. In the **Database Navigator**, select the necessary database, right-click on **Tables** and choose **Create New Table**.  
 
 ![](images/tutorial_images/1_CreateNewTable.png)</br>
 
