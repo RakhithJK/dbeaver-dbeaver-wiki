@@ -21,17 +21,10 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
 
 ## Columns
-1. Click on **Create New Column**. In the **Edit Attribute** window, customize the settings of a column.  
+1. Click on **Create New Column**.
+2. In the **Edit Attribute** window, customize the settings of a column. Adjust the settings as needed, including the **Name**, **Data type**, **Length**, **Not null**, **Auto increment**, and **Default** value of the column.
 
 ![](images/tutorial_images/5_ColumnEdit.png)  
-
-2. Adjust the following settings as needed:
-* Name
-* Data type
-* Length
-* Not null
-* Auto increment
-* Default value  
 
 ## Primary Keys
 1. Move to the **Keys** tab of the corresponding table, right-click on the screen, and **Create New Key**.  
