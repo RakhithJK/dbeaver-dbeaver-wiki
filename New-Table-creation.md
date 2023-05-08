@@ -15,7 +15,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)</br></br>
 
-**Note**: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu.  
+   **Note**: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu.  
 
    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
