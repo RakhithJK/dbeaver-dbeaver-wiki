@@ -56,6 +56,6 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
    ![](images/tutorial_images/11a_ForeignKey.png)  
 
-   **Note**: If needed, specify the desired behavior for when a row is deleted or updated from the main table, using the **on delete** and **on update** clauses.
+   **Note**: If needed, specify the desired behavior for when a row is deleted or updated from the main table, using the **On Delete** and **On Update** clauses.
 
 3. Save the table.
