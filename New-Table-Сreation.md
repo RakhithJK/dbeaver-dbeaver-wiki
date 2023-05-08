@@ -5,32 +5,35 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 ## Tables
 1. In the **Database Navigator**, select the necessary database, right-click on **Tables** and choose **Create New Table**.  
 
-   ![](images/tutorial_images/1_CreateNewTable.png)</br>
+   ![](images/tutorial_images/1_CreateNewTable.png)
 
 2. In the **Properties**, specify the table name (by default, a new table is created with the name "NewTable").  
 
-   ![](images/tutorial_images/2_NewTable_NoData.png)</br></br>
+   ![](images/tutorial_images/2_NewTable_NoData.png)  
 
-3. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column**.  
+3. To **Save the table**, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
 
-   ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)</br></br>
+   ![](images/tutorial_images/10_Table_Save.png)
+
+   **Note**: You can also save changes using **Top menu** -> **File** -> **Save**, **Persist** the changes. Additionally, you can save changes using the **Save** button ![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
+
+## Columns
+1. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column**.  
+
+   ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
 
    **Note**: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu.  
 
    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
-
-## Columns
-1. Click on **Create New Column**.
 2. In the **Edit Attribute** window, customize the settings of a column. Adjust the settings as needed, including the **Name**, **Data type**, **Length**, **Not null**, **Auto increment**, and **Default** value of the column.
 
    ![](images/tutorial_images/5_ColumnEdit.png)  
 
 ## Primary Keys
-1. Move to the **Keys** tab of the corresponding table, right-click on the screen, and **Create New Key**.  
+1. In the **Properties**, move to the **Keys** tab of the corresponding table, right-click on the pane or window, and **Create New Key**.  
 
    ![](images/tutorial_images/8_NewConstraint.png)  
-
 
 2. Select the column and save.  
 
@@ -40,12 +43,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
    ![](images/tutorial_images/10a_TableAfterSaving.png)  
 
-
-4. To **Save the table**, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
-
-   ![](images/tutorial_images/10_Table_Save.png)
-
-   **Note**: You can also save changes using **Top menu** -> **File** -> **Save**, **Persist** the changes. Additionally, you can save changes using the **Save** button ![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
+4. Save the table.
 
 ## Foreign Keys
 1. In the corresponding table, click the **Foreign Keys** tab, right-click on the screen, and **Create New Foreign Key**.  
