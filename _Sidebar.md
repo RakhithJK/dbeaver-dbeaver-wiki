@@ -164,7 +164,7 @@
 - [[Importing CA certificates from your local Java into DBeaver]]
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
-- [[New Table Сreation]]
+- [[New Table Creation]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
