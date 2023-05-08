@@ -3,7 +3,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
 
 ## Tables
-1. In the **Database Navigator**, select the necessary database, right-click on **Tables** and choose **Create New Table**.  
+1. In the **Database Navigator**, select the necessary database, right-click on **Tables** and choose **Create New Table** from the context menu.  
 
    ![](images/tutorial_images/1_CreateNewTable.png)
 
@@ -18,7 +18,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
    **Note**: You can also save changes using **Top menu** -> **File** -> **Save**, **Persist** the changes. Additionally, you can save changes using the **Save** button ![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
 
 ## Columns
-1. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column**.  
+1. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column** from the context menu.  
 
    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
 
