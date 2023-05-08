@@ -43,8 +43,6 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
    ![](images/tutorial_images/10a_TableAfterSaving.png)  
 
-4. Save the table.
-
 ## Foreign Keys
 1. In the corresponding table, click the **Foreign Keys** tab, right-click on the screen, and **Create New Foreign Key** from the context menu.  
   
@@ -55,5 +53,3 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
    ![](images/tutorial_images/11a_ForeignKey.png)  
 
    **Note**: If needed, specify the desired behavior for when a row is deleted or updated from the main table, using the **On Delete** and **On Update** clauses.
-
-3. Save the table.
