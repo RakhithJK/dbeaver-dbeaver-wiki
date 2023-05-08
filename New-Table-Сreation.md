@@ -11,7 +11,7 @@ You can create tables, columns, primary keys, and foreign keys using DBeaver. Th
 
    ![](images/tutorial_images/2_NewTable_NoData.png)  
 
-3. To **Save the table**, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
+3. To Save the table, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
 
    ![](images/tutorial_images/10_Table_Save.png)
 
