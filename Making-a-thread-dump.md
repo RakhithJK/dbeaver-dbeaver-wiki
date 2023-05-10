@@ -1,9 +1,9 @@
-Sometimes (due to some bug) DBeaver UI hangs, freezes or works incorrectly. It is usually impossible to find the reason of such a problem without a thread dump. A thread dump is the information about the internal execution state of the Java program. To get thread dump:
+Sometimes (due to some bug) DBeaver UI hangs, freezes, or works incorrectly. It is usually impossible to find the reason for such an issue without a thread dump. A thread dump is information about the internal execution state of the Java program. To get thread dump:
 
 ### Mac and Linux
 Run the following on your terminal:
 ```
-jstack $(ps aux | grep java | grep dbeaver | awk '{print $2}') > thread-dump.txt
+jstack $(pgrep dbeaver) > ~/dbeaver-thread-dump.txt
 ```
 
 ### Windows
