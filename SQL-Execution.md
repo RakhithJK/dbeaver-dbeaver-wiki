@@ -94,7 +94,9 @@ You can use dynamic parameters and variables in your SQL queries. The parameter 
 
 ![](images/ug/Bind-parameters-dialog.png)
 
-This dialog appears every time you execute the query with parameters. If you want to set the value once and don't see Bind parameter(s) dialog again, you can use [@set command](https://github.com/dbeaver/dbeaver/wiki/Client-Side-Scripting) or add the variable and its value in the [Variables panel](https://github.com/dbeaver/dbeaver/wiki/Variables-panel).
+This dialog appears every time you execute the query with parameters.
+
+If you want to set the value once, you can use [@set command](https://github.com/dbeaver/dbeaver/wiki/Client-Side-Scripting) or add the variable and its value in the [Variables panel](https://github.com/dbeaver/dbeaver/wiki/Variables-panel). Then Bind parameter(s) dialog will not appear.
 
 You can also use anonymous parameters (?), but you will need to enable them in the SQL editor preferences:
 
