@@ -26,7 +26,7 @@ To apply any of these changes, you need to double-click on the chosen option wit
 ## Settings
 
 
-To open the settings for the spelling page, navigate through the following steps: **Preferences** -> **Editors** ->
+To open the settings for the spelling page, navigate through the following steps: **Window** -> **Preferences** -> **Editors** ->
 **Text Editors** -> **Spelling**.
 
 ![](images/spelling.png)
