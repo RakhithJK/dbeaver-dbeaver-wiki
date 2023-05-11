@@ -35,7 +35,7 @@ To open the settings for the spelling page, navigate through the following steps
 
 ### Activation
 
-The spelling function is enabled by default but can be customized to user requirements.
+The spelling function is enabled by default but can be customized to your requirements.
 
 Disable the spelling function by unchecking the box next to **Enable spell checking** in Preferences.
 
