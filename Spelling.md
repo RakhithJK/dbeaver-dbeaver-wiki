@@ -2,7 +2,7 @@
 in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition)
 and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
-DBeaver's spelling function is a feature designed to detect spelling errors. It allows you to upload custom dictionaries in any language and provides advanced options for a more refined text management experience.
+DBeaver's spelling function is a feature designed to detect spelling errors. It allows you to change the incorrect word, upload custom dictionaries in any language and provides advanced options for a more refined text management experience.
 
 ## Usage
 
