@@ -7,7 +7,7 @@ DBeaver's spelling function is a feature designed to detect spelling errors. It 
 ## Usage
 
 The spelling function is accessible in your SQL script files. Words that are not spelled correctly are underlined in
-green, alerting you to potential inaccuracies.
+grey, alerting you to potential inaccuracies.
 
 To manage these incorrect words, open the context menu by right-clicking on the word or using the **Ctrl+1** (or **⌘1**
 for Mac OS).
