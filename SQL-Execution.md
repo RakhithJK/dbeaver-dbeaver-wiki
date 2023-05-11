@@ -90,9 +90,13 @@ The Data transfer wizard opens. Go through its steps to complete the export of t
 
 ## Dynamic Parameter Bindings
 
-You can use dynamic parameters in your SQL queries. The parameter format is :name. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
+You can use dynamic parameters and variables in your SQL queries. The parameter format is `:name`. Also variables syntax could be used `${varname}`. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
 
 ![](images/ug/Bind-parameters-dialog.png)
+
+This dialog appears every time you execute the query with parameters.
+
+If you want to set the value once, you can use [@set command](https://github.com/dbeaver/dbeaver/wiki/Client-Side-Scripting) or add the variable and its value in the [Variables panel](https://github.com/dbeaver/dbeaver/wiki/Variables-panel). Then Bind parameter(s) dialog will not appear.
 
 You can also use anonymous parameters (?), but you will need to enable them in the SQL editor preferences:
 

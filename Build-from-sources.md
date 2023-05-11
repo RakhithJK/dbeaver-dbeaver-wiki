@@ -12,4 +12,4 @@ git clone https://github.com/dbeaver/dbeaver.git dbeaver
 cd dbeaver
 mvn package -Pall-platforms
 ```
-Binaries are in `product/standalone/target/products`
+Binaries are in `product/community/target/products`
