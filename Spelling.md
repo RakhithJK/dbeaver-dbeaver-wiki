@@ -59,7 +59,7 @@ dictionary, or use both simultaneously, according to your needs.
 In DBeaver's spelling settings you can add your own custom dictionary by specifying the path to it in the **User defined
 dictionary** field. This dictionary should be a **.txt** file with one word per line.
 
-If you want to disable the custom dictionary, remove the file at the specified path.
+If you want to disable the custom dictionary, clear the **User defined dictionary** field and apply the changes.
 
 ### Advanced Settings
 
