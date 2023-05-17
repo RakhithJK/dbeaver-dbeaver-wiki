@@ -100,6 +100,7 @@
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
+  - [[AWS Permissions]]
   - [[GCP Credentials]]
   - [[GCP SSO]]
   - [[Azure|Azure Cloud Explorer]]
