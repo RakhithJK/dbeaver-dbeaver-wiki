@@ -12,3 +12,4 @@ DocumentDB | [AmazonDocDBReadOnlyAccess](https://us-east-1.console.aws.amazon.co
 Keyspaces | [AmazonKeyspacesReadOnlyAccess](https://us-east-1.console.aws.amazon.com/iamv2/home?region=eu-central-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonKeyspacesReadOnlyAccess) | [AmazonKeyspacesFullAccess](https://us-east-1.console.aws.amazon.com/iamv2/home?region=eu-central-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonKeyspacesFullAccess)
 Athena | | [AmazonAthenaFullAccess](https://us-east-1.console.aws.amazon.com/iamv2/home?region=eu-central-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonAthenaFullAccess)
 Redis | | 
+SSO | | 
