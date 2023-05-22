@@ -65,7 +65,7 @@ transaction.show.notifications | boolean | true | true or false | Show folders f
 
  Name            | Type    | Default Value | Allowed Values                                                     | Description                                           
 -----------------|---------|---------------|--------------------------------------------------------------------|-------------------------------------------------------
- qm.queryTypes   | string  | N/A           | `USER`, `USER_FILTERED`, `USER_SCRIPT`, `UTIL`, `META`, `META_DDL` | Settings of the view for different query types.       
+ qm.queryTypes   | string  | N/A           | `USER`, `USER_FILTERED`, `USER_SCRIPT`,<br> `UTIL`, `META`, `META_DDL` | Settings of the view for different query types.       
  qm.objectTypes  | string  | N/A           | session,txn,query                                                  | Settings of the view for different object types.      
  qm.maxEntries   | integer | 200           | integer value                                                      | Settings of the number of entries displayed per page. 
  qm.storeLogs    | boolean | false         | boolean value                                                      | Setting that allows you to save logs.                 
@@ -144,5 +144,5 @@ transaction.show.notifications | boolean | true | true or false | Show folders f
  SQLEditor.ContentAssistant.show.values                | boolean | true          | `true`, `false`                        | The setting for show values in SQL assistant.                                  
  sql.proposals.insert.table.alias                      | string  | N/A           | `NONE`, `EXTENDED`                     | The setting for insert table aliases (in FROM clauses).                        
  SQLEditor.format.activeQuery                          | boolean | true          | `true`, `false`                        | Setting to enable format active query only.                                    
- sql.format.formatter                                  | string  | N/A           | `COMPACT`, `EXTERNAL`, `SQLWORKBENCHJ` | Formatter display setting.                                                     
+ sql.format.formatter                                  | string  | N/A           | `COMPACT`,<br>`EXTERNAL`,<br>`SQLWORKBENCHJ` | Formatter display setting.                                                     
  script.auto.folders                                   | boolean | false         | `true`, `false`                        | The setting for create script folder for each connection.                      
