@@ -8,7 +8,7 @@ DBeaver's spelling function is a feature designed to detect spelling errors. It 
 
 The spelling function is accessible in your SQL script files. Words that are not spelled correctly are underlined, which will alert you to potential inaccuracies.
 
-To change these incorrect words, open the context menu by right-clicking on the word and selecting **Quick Fix** or by using the **Ctrl+1** (or **⌘1** for Mac OS). 
+To change these incorrect words, open the context menu by right-clicking on the word and selecting **Quick Fix** or by using the <kbd>Ctrl+1</kbd> (or <kbd>⌘1</kbd> for Mac OS). 
 
 ![](images/spelling_context_menu.png)
 
@@ -21,7 +21,7 @@ The context menu offers several options:
 
 
 To apply any of these changes, you need to double-click on the chosen option with the left mouse button or press the
-**Tab** key.
+<kbd>Tab</kbd> key.
 
 ## Settings
 
