@@ -59,16 +59,7 @@ transaction.show.notifications | boolean | true | true or false | Show folders f
  database.meta.separate.connection | string  | N/A           | `ALWAYS`, `NEVER` | Controls whether to open a separate connection for metadata read. <br> Don't specify this preference if you want to use default settings. 
  database.meta.casesensitive       | boolean | true          | `true`, `false`   | Specifies the usage of case-sensitive names in DDL statements.                                                                            
  database.props.expensive          | boolean | true          | `true`, `false`   | Enables display of row count for tables.                                                                                                  
- database.meta.server.side.filters | boolean | true          | `true`, `false`   | Enables display of server-side object filters.                                                                                            
-
-### [Data transfer email](Data-transfer-email) settings
-
- Name                     | Type    | Default Value | Allowed Values | Description                                                                      
---------------------------|---------|---------------|----------------|----------------------------------------------------------------------------------
- mail.profiles.0.hostname | string  | N/A           | string value   | Hostname setting                                                                 
- mail.profiles.0.id       | string  | N/A           | string value   | The username and password setting. <br> Can only be changed in DBeaver settings. 
- mail.profiles.0.port     | integer | N/A           | integer value  | Port setting                                                                     
- mail.profiles.count      | integer | N/A           | integer value  | Profile serial number.                                                           
+ database.meta.server.side.filters | boolean | true          | `true`, `false`   | Enables display of server-side object filters.                                                                                                                                                  
 
 ### [Query manager](Query-Manager) settings
 
