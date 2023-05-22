@@ -79,9 +79,9 @@ You can customize users preferences before they run DBeaver. For example, you ca
 
 ### Roles in Team Edition
 
-The best way to manage user rights, restrictions and permissions is to use  [Team Edition](https://dbeaver.com/dbeaver-team-edition/).
+The best way to manage user access, restrictions, and permissions is to use  [Team Edition](https://dbeaver.com/dbeaver-team-edition/).
 
-Team Edition allows you to create users and assign them convenient roles, with predefined capabilities.
+Team Edition allows you to create users and assign them appropriate roles with predefined capabilities.
 
 You can add Viewers and Editors to work with prepared data, Managers to prepare data for them, Developers to work with scripts and connections, and administrators to manage everything.
 
