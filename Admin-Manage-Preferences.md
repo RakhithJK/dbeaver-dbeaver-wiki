@@ -17,11 +17,12 @@ Preference files consist of key-value pairs glued together with `=` and separate
 # file org.jkiss.dbeaver.test.prefs
 some.key=value1
 some.other.key=value2
-```
+```  
+
+You can place the following preferences in the `org.jkiss.dbeaver.core.prefs` file:  
 
 ### Default navigator view for new connections
 
-You can place the following preferences in the `org.jkiss.dbeaver.core.prefs` file:
 
 Name|Type|Default Value|Allowed Values|Description
 ----|----|-------------|--------------|-----------
