@@ -1,5 +1,3 @@
-## Overview
-
 This section provides instructions on managing database tables within **DBeaver**. It covers fundamental operations of
 database table manipulation, which includes:
 
