@@ -63,11 +63,10 @@ an exception is triggered and the operation is stopped.
 
 2) In the relevant sections, select the function or trigger you want to change.
 
-    ![](images/tutorial_images/17_View_Function_Trigger.png)
-
 3) Then, click **View Function** for functions or **View Trigger** for triggers. This action opens the selected item in
-   an editable
-   format.
+   an editable format.  
+
+    ![](images/tutorial_images/17_View_Function_Trigger.png)
 
 ### Delete
 
