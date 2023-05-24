@@ -12,7 +12,7 @@
    **Note**: If necessary, set the On Delete and On Update clauses to dictate what happens when you delete or update a row
 in the main table.
 
-3) After ypu hot **OK**, a window will appear displaying the newly created foreign key.
+3) After you hit **OK**, a window will appear displaying the newly created foreign key.
 
    ![](images/tutorial_images/11b_FK_After_Saving.png)
 4) Persist the changes.
