@@ -3,17 +3,17 @@
 1) Go to the **Columns** tab in the **[Properties editor](Properties-Editor)**, right-click on the
 pane of the object's sub-entities and select **Create New Column** from the context menu.  
 
-  ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)  
+    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)  
 
   You can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)** and selecting **Create New
 Column** from the context menu.  
 
-  ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
+    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
 2) Customize the settings of a column in the **Edit Attribute** window. Adjust the **Name**, **Data type**, **Identity**,
 **Collation**, **Not null**, **Default** value, and add a **Comment** as needed.  
 
-  ![](images/tutorial_images/5_Column_Edit.png)  
+    ![](images/tutorial_images/5_Column_Edit.png)  
 
 3) Persist the changes.
 
