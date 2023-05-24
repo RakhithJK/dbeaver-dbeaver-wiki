@@ -1,55 +1,20 @@
+## Overview
 
-You can create tables, columns, primary keys, and foreign keys using DBeaver. These tools allow you to organize data efficiently and ensure data integrity.  
+This section provides instructions on managing database tables within **DBeaver**. It covers fundamental operations of
+database table manipulation, which includes:
 
+* The creation, modification, and deletion of [tables](Tables).
+* The subsequent part details [columns](Columns) management, outlining procedures for defining, adjusting, and removing
+  columns in database tables.
+* Next, the document introduces [constraints](Constraints), explaining their significance for data integrity. Guidelines
+  for creating, modifying, and deleting constraints are provided.
+* The documentation then addresses [foreign keys](Foreign-Keys), detailing the steps to establish, alter, and remove
+  them.
+* The section on [indexes](Indexes) offers insight into their function in enhancing data retrieval efficiency.
+  Instructions for index creation, modification, and deletion are presented.
+* Lastly, the documentation discusses [triggers](Triggers). Procedures for establishing, modifying, and deleting
+  triggers
+  are described.
 
-## Tables
-1. In the **Database Navigator**, select the necessary database, right-click on **Tables** and choose **Create New Table** from the context menu.  
-
-   ![](images/tutorial_images/1_CreateNewTable.png)
-
-2. In the **Properties**, specify the table name (by default, a new table is created with the name "NewTable").  
-
-   ![](images/tutorial_images/2_NewTable_NoData.png)  
-
-3. To save the table, select the desired table in the editor panel and press **Ctrl+S** (or **CMD+S** for Mac OS). Then, choose **Persist** to save the changes.  
-
-   ![](images/tutorial_images/10_Table_Save.png)
-
-   **Note**: You can also save changes using **Top menu** -> **File** -> **Save**, **Persist** the changes. Additionally, you can save changes using the **Save** button ![](images/tutorial_images/10b_SaveButton.png) at the bottom of the editor panel.
-
-## Columns
-1. As soon as you set the table name, right-click on the **Column screen**, and select **Create New Column** from the context menu.  
-
-   ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)
-
-   **Note**: Another way to add a new column is to expand the table view in the **Database Navigator** and **Create New Column** from the context menu.  
-
-   ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
-
-2. In the **Edit Attribute** window, customize the settings of a column. Adjust the settings as needed, including the **Name**, **Data type**, **Length**, **Not null**, **Auto increment**, and **Default** value of the column.
-
-   ![](images/tutorial_images/5_ColumnEdit.png)  
-
-## Primary Keys
-1. In the **Properties**, move to the **Keys** tab of the corresponding table, right-click on the pane or window, and **Create New Key** from the context menu.  
-
-   ![](images/tutorial_images/8_NewConstraint.png)  
-
-2. Select the column and save.  
-
-   ![](images/tutorial_images/9_PrimaryKey.png)  
-
-3. Once you save the changes, a window will appear displaying the newly created **Primary Key**.  
-
-   ![](images/tutorial_images/10a_TableAfterSaving.png)  
-
-## Foreign Keys
-1. In the corresponding table, click the **Foreign Keys** tab, right-click on the screen, and **Create New Foreign Key** from the context menu.  
-  
-   ![](images/tutorial_images/11_CreateNewForeignKey.png)  
-
-2. Select the **Reference table**, **Unique Key**, and save.  
-
-   ![](images/tutorial_images/11a_ForeignKey.png)  
-
-   **Note**: If needed, specify the desired behavior for when a row is deleted or updated from the main table, using the **On Delete** and **On Update** clauses.
+**Note**: this guide is tailored to PostgreSQL within **DBeaver**, the processes may vary slightly with other
+database systems.

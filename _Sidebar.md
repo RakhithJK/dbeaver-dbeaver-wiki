@@ -100,6 +100,7 @@
   - [[AWS|AWS Cloud Explorer]]
   - [[AWS Credentials]]
   - [[AWS SSO]]
+  - [[AWS Permissions]]
   - [[GCP Credentials]]
   - [[GCP SSO]]
   - [[Azure|Azure Cloud Explorer]]
@@ -153,7 +154,7 @@
 - [[Managing preferences|Admin-Manage-Preferences]]
 - [[Windows Silent Install]]
 - [[Workspace]] <!--CMD:SKIP-->
-- [[Snap installation|Snap-installation]]
+- [[Snap installation|Snap-installation]] <!--CMD:SKIP-->
 
 #### License management <img src="images/commercial_big.png" align="top" height="16">
 - [[License Administration]] <img src="images/commercial.png" vspace="4" align="top"/>
@@ -166,6 +167,12 @@
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
+  - [[Tables]]
+  - [[Columns]]
+  - [[Constraints]]
+  - [[Foreign Keys]]
+  - [[Indexes]]
+  - [[Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
