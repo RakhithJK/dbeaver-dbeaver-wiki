@@ -7,7 +7,6 @@ pane of the object's sub-entities and select **Create New Column** from the cont
 
   You can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)** and selecting **Create New
 Column** from the context menu.  
-
     ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
 2) Customize the settings of a column in the **Edit Attribute** window. Adjust the **Name**, **Data type**, **Identity**,
