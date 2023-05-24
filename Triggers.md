@@ -2,8 +2,7 @@
 
 #### Function
 
-1) To create a trigger, start by creating a function. Navigate to the **Functions** section in the *
-   *[Database Navigator](Database-Navigator)**.
+1) To create a trigger, start by creating a function. Navigate to the **Functions** section in the **[Database Navigator](Database-Navigator)**.
    Right-click to open the context menu and select **Create New Function**.
 
    ![](images/tutorial_images/15_Create_New_Function.png)
@@ -20,11 +19,10 @@ For example:
 
 ```sql
 BEGIN
-    IF
-NEW.salary_amount < 0 THEN
+    IF NEW.salary_amount < 0 THEN
         RAISE EXCEPTION 'Error: Salary cannot be negative';
-END IF;
-RETURN NEW;
+    END IF;
+    RETURN NEW;
 END;
 ```
 
