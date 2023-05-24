@@ -1,3 +1,4 @@
+## Primary key
 ### Create
 
 1) In the **[Properties editor](Properties-Editor)**, move to the **Constraints** tab of the corresponding table, right-click on the pane or window, and
@@ -10,7 +11,7 @@
 
    **Note**: Уou can create a composite primary key by selecting multiple columns for it.
 
-3) After ypu hot **OK**, a window will appear displaying the newly created primary Key.
+3) After you hit **OK**, a window will appear displaying the newly created primary Key.
 
    ![](images/tutorial_images/10a_PK_After_Saving.png)
 4) Persist the changes.
