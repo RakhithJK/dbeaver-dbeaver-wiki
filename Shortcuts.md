@@ -158,7 +158,7 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Ctrl+Shift+F|⌃⇧F|Format text|
 |Ctrl+Alt+'|⌃⌥'|Select value of the selected SQL expression|
 |Ctrl+Shift+E|⌃⇧E|Explain execution plan|
-|Ctrl+Shift+P|⌃⇧P|Position cursor on the matching bracket|
+|Ctrl+Shift+[|⌃⇧[|Position cursor on the matching bracket|
 |Ctrl+Alt+Shift+O|⌃⌥⇧O|Load SQL script from file system|
 |Ctrl+Shift+6|⌃⇧6|Maximize/normalize results panel|
 |Alt+Down|⌥↓|Switch to the next query|
