@@ -178,6 +178,7 @@
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
 - [[Develop in Eclipse|Develop-in-Eclipse]] <!--CMD:SKIP-->
 - [[Develop in IDEA|Develop-in-IDEA]] <!--CMD:SKIP-->
+- [Develop in VS Code](https://github.com/dbeaver/dbeaver-workspace-vscode)
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
