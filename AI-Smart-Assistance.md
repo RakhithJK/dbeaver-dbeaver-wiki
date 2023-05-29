@@ -127,7 +127,7 @@ To configure this feature navigate to **Window** -> **Preferences** —> **Edito
 
 - **Model** is a GPT-3 tool for understanding and generating natural language. The best model for generating SQL queries is **gpt-3.5-turbo**.
 
-- **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less common and more creative effects, use 0.9.
+- **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less common and more creative output, use 0.9.
 
 - **Write GPT queries to debug log** — select this option if you want to see requests to ChatGPT in the log files.
 
