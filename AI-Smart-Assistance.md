@@ -1,10 +1,10 @@
 In DBeaver, you can build working SQL queries using human language thanks to integration with OpenAI (ChatGPT, to be more precise - the [GPT-3 language model](https://platform.openai.com/docs/models/gpt-3)).
 
 **Note:**
-- **DBeaver Corp has nothing to do with OpenAI company. We just use public API to integrate with the GPT completion engine.**
+- **DBeaver Corp has nothing to do with OpenAI company. We use public API to integrate with the GPT completion engine.**
 - **To use this feature, you need to register on the OpenAI platform and [receive a secret key](#receive-api-key).**
 - **To use this feature in the DBeaver Community version, you need to [install the GPT extension](#install-gpt-extension).**
-- **This feature isn't available in [Lite](Lite-Edition) version.**
+- **This feature isn't available in the [Lite](Lite-Edition) version.**
 
 [How it works](#how-it-works) |
 [Get started](#get-started) |
@@ -24,9 +24,10 @@ Enter human language request:
 ![](images/ai/ai_smart_assistance_1.png)
 
 Generated SQL query:  
+
 ![](images/ai/ai_smart_assistance_2.png)
 
-**Note: DBeaver needs to send the database metadata to the OpenAI platform to translate a phrase into a query.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. [Learn more about data privacy](#data-privacy)
+**Note: DBeaver must send the database metadata to the OpenAI platform to translate a phrase into a query.** OpenAI will know table and column names in your database. DBeaver will ask about this on the first smart completion for every connection. [Learn more about data privacy](#data-privacy)
 
 ### Additional settings
 
@@ -50,24 +51,25 @@ You can see the request history in the **History** field. If you are using the P
 
 1. If using the Community edition, [install the extension](#install-gpt-extension).
 
-1. Open **Window** -> **Preferences** -> **Editors** -> **AI (GPT Chat)**. Click **Enable smart completion** if it's not on (which is the case in the PRO versions).
+1. Open **Window** -> **Preferences** -> **Editors** -> **AI (GPT Chat)**. Click **Enable smart completion** if it's not on (as in the PRO versions).
 
-1. Copy the open AI secret key to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key).
-![](images/ai/ai_smart_assistance_5.png)
+1. Copy the available AI secret key to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key).  
 
-1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+   ![](images/ai/ai_smart_assistance_5.png)
 
-![](images/ai/ai_smart_assistance_6.png)
+1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))  
+
+   ![](images/ai/ai_smart_assistance_6.png)
 
 1. Confirm the metadata transfer to Open AI.
 
 1. Write your question in the **ChatGPT smart completion** window and press **Translate**.
 
-You can also select database objects to work with in the **Scope** field. This is useful if you have a large schema with many objects.
+You can also select database objects to work within the **Scope** field. This is useful if you have a large schema with many objects.
 
 ## How to write questions
 
-You need to write a phrase in English or any other language describing what you want to get from the database. You should know at least something about your database structure. You can correct the query step by step, add details and make it more accurate. You can add some specific details, such as how to build a query or which tables or columns to use.
+You need to write a phrase in English or any other language describing what you want to get from the database. You should know at least something about your database structure. You can correct the query step by step, add details and make it more accurate. You can add specific details, such as how to build a query or which tables or columns to use.
 
 For example, using [DBeaver sample SQLite database](Sample-Database), you could write something like this:
 
@@ -125,7 +127,7 @@ To configure this feature navigate to **Window** -> **Preferences** —> **Edito
 
 - **Model** is a GPT-3 tool for understanding and generating natural language. The best model for generating SQL queries is **gpt-3.5-turbo**.
 
-- **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less standard and more creative results, use 0.9.
+- **Temperature** sets the level of creativity of the translation results. If you need accurate results, use 0.0. For less common and more creative effects, use 0.9.
 
 - **Write GPT queries to debug log** — select this option if you want to see requests to ChatGPT in the log files.
 
@@ -162,7 +164,7 @@ You only need to install this extension in the DBeaver Community version. In oth
 
 4. Restart DBeaver.
 
-That's all done. Open the SQL editor, and in the left toolbar, you'll see the ChatGPT ![](images/ai/ai_smart_assistance_10.png) icon.
+That's all done. Open the SQL editor; in the left toolbar, you'll see the ChatGPT ![](images/ai/ai_smart_assistance_10.png) icon.
 
 ## Disable
 
@@ -171,7 +173,7 @@ You can temporarily remove the ChatGPT icon from the SQL Editor toolbar. Move on
 You can permanently disable ChatGPT smart completion only in PRO versions. In this case, it cannot be enabled in Preferences.
 
 How to do it:
-- set system variable `DBEAVER_AI_DISABLED` to `true`
+- set system variable `DBEAVER_AI_DISABLED` to `true`.
 - or add the string `Dai.disabled=true` to the end of `dbeaver.ini`.
 
 
@@ -181,7 +183,7 @@ DBeaver needs to send the tables and column names of the current database schema
 
 DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
 
-![](images/ai/ai_smart_assistance_8.png)
+![](images/ai/ai_smart_assistance_9.png)
 
 If you don't want to send information about some tables, you can [choose which tables to use](#scope) in the **Scope** field.
 
