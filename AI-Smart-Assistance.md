@@ -131,8 +131,6 @@ To configure this feature navigate to **Window** -> **Preferences** —> **Edito
 
 - **Write GPT queries to debug log** — select this option if you want to see requests to ChatGPT in the log files.
 
-- **Use custom endpoint URL** - specify this option to define a custom endpoint URL for configuring interaction with
-  OpenAPI.
 
 ### Settings in PRO versions
 
@@ -145,6 +143,9 @@ There are some additional settings available in [Enterprise](Enterprise-Edition)
 - **Format SQL query** add formatting.
 
 - **Table join rule** allows explicit JOIN or JOIN with sub-queries.
+
+- **Use custom endpoint URL** - specify this option to define a custom endpoint URL for configuring interaction with
+  OpenAPI.
 
 ## Receive API key
 
