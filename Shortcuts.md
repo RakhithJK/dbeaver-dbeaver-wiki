@@ -152,7 +152,7 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Ctrl+Alt+Shift+X|⌃⌥⇧X|Execute script's statements in separate results tabs|
 |Ctrl+/|⌃/|Add or remove single line comment|
 |Ctrl+Shift+/|⌃⇧/|Add or remove multi line comment|
-|CTRL+Alt+6|⌥6|Switch active SQL editor panel|
+|CTRL+Alt+6|⌃⌥6|Switch active SQL editor panel|
 |Ctrl+6|⌃6|Show/hide results panel|
 |Ctrl+Shift+|⌃⇧|Close results tab|
 |Ctrl+Shift+F|⌃⇧F|Format text|
