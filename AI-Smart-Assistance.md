@@ -36,11 +36,11 @@ You can specify the scope used to generate queries in the **Scope** field. You m
 
 If you want to choose a table, select the **Custom** option.
 
-![](images/ai/ai_smart_assistance_10.png)
+![](images/ai/ai_smart_assistance_3.png)
 
 Then select a table.
 
-![](images/ai/ai_smart_assistance_11.png)
+![](images/ai/ai_smart_assistance_4.png)
 
 #### History
 
@@ -50,14 +50,14 @@ You can see the request history in the **History** field. If you are using the P
 
 1. If using the Community edition, [install the extension](#install-gpt-extension).
 
-1. Open Window -> Preferences -> Editors -> AI. Click `Enable smart completion` if it's not on (which is the case in the PRO versions).
+1. Open **Window** -> **Preferences** -> **Editors** -> **AI (GPT Chat)**. Click **Enable smart completion** if it's not on (which is the case in the PRO versions).
 
-1. Copy the **Open AI secret key** to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key).
-![](images/ai/ai_smart_assistance_4.png)
+1. Copy the open AI secret key to the **API token** field and apply changes. [Where to find a secret key](#receive-api-key).
+![](images/ai/ai_smart_assistance_5.png)
 
 1. Open **SQL Editor** (F3) and click the **GPT icon** in the left toolbar. (Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
 
-![](images/ai/ai_smart_assistance_3.png)
+![](images/ai/ai_smart_assistance_6.png)
 
 1. Confirm the metadata transfer to Open AI.
 
@@ -71,18 +71,18 @@ You need to write a phrase in English or any other language describing what you 
 
 For example, using [DBeaver sample SQLite database](Sample-Database), you could write something like this:
 
-_show customers from Italy_
+Example 1: "show customers from Italy"
 
 ```SQL
-Translation: SELECT * FROM customers WHERE country = 'Italy';
+SELECT * FROM customers WHERE country = 'Italy';
 ```
 
-_montre les clients de France_
+Example 2: "montre les clients de France"
 ```SQL
-Translation: SELECT * FROM customer WHERE country = 'France';
+SELECT * FROM customer WHERE country = 'France';
 ```
 
-_show customers who purchased blues tracks, use joins_
+Example 3: "show customers who purchased blues tracks, use joins"
 
 ```SQL
 SELECT c.FirstName, c.LastName, t.Name, g.Name
@@ -95,7 +95,7 @@ WHERE g.Name = 'Blues'
 ORDER BY c.LastName, c.FirstName;
 ```
 
-_get names of customers who purchased blues tracks, use joins_
+Example 4: "get names of customers who purchased blues tracks, use joins"
 
 ```SQL
 SELECT DISTINCT c.FirstName, c.LastName
@@ -111,13 +111,9 @@ WHERE g.Name = 'Blues';
 
 You don't need to configure ChatGPT smart completion to use it. It's enough to [specify the API key](#get-started), and everything will work. However, if you have problems generating SQL queries or want to experiment, you can try changing some settings.
 
-To configure this feature, open the **ChatGPT smart completion** window and click a **Gear button** or navigate to **Preferences —> Editors —> AI (GPT Chat)**.
+To configure this feature navigate to **Window** -> **Preferences** —> **Editors** —> **AI (GPT Chat)**.  
 
 ![](images/ai/ai_smart_assistance_5.png)
-
-You'll see the **Preferences** window.
-
-![](images/ai/ai_smart_assistance_6.png)
 
 - **Enable smart completion** shows the ChatGPT icon in SQL Editor. If this option is not selected, you can enable ChatGPT in Preferences.
 
@@ -133,11 +129,14 @@ You'll see the **Preferences** window.
 
 - **Write GPT queries to debug log** — select this option if you want to see requests to ChatGPT in the log files.
 
+- **Use custom endpoint URL** - specify this option to define a custom endpoint URL for configuring interaction with
+  OpenAPI.
+
 ### Settings in PRO versions
 
 There are some additional settings available in [Enterprise](Enterprise-Edition) and [Ultimate](Ultimate-Edition) editions only.
 
-![](images/ai/ai_smart_assistance_8.png)
+![](images/ai/ai_smart_assistance_7.png)
 
 - **Send foreign keys information** and **Send unique keys and indexes information** allow to understand the relationships between tables, which can help create complex queries to a database with a complex structure.
 
@@ -159,15 +158,15 @@ You only need to install this extension in the DBeaver Community version. In oth
 2. In the installation window, in the **Work with** field select **DBeaver AI (GPT) integration** .
 3. Then select **AI (GPT) Support**, press **Next** and follow the installation process.
 
-![](images/ai/ai_smart_assistance_7.png)
+![](images/ai/ai_smart_assistance_8.png)
 
 4. Restart DBeaver.
 
-That's all done. Open the SQL editor, and in the left toolbar, you'll see the ChatGPT icon <img width="17" alt="Screenshot 2023-02-07 at 01 40 29" src="https://user-images.githubusercontent.com/12581569/217119031-3be579ea-51db-4648-88fa-de4a3cafdba8.png">.
+That's all done. Open the SQL editor, and in the left toolbar, you'll see the ChatGPT ![](images/ai/ai_smart_assistance_10.png) icon.
 
 ## Disable
 
-You can temporarily remove the ChatGPT icon from the SQL Editor toolbar. Move on Preferences —> Editors —> AI (GPT chat) and uncheck the **Enable smart completion** option. You can always enable it again.
+You can temporarily remove the ChatGPT icon from the SQL Editor toolbar. Move on **Window** -> **Preferences** —> **Editors** —> **AI (GPT chat)** and uncheck the **Enable smart completion** option. You can always enable it again.
 
 You can permanently disable ChatGPT smart completion only in PRO versions. In this case, it cannot be enabled in Preferences.
 
@@ -182,7 +181,7 @@ DBeaver needs to send the tables and column names of the current database schema
 
 DBeaver will ask for confirmation the first time you use ChatGPT completion for each connection. You must confirm the metadata sending before using this feature.
 
-![](images/ai/ai_smart_assistance_9.png)
+![](images/ai/ai_smart_assistance_8.png)
 
 If you don't want to send information about some tables, you can [choose which tables to use](#scope) in the **Scope** field.
 
