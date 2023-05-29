@@ -6,8 +6,8 @@ Preference files have the extension `.prefs` and can be found in the [workspace]
 following path:
 `.metadata/.plugins/org.eclipse.core.runtime/.settings`
 
-You might not find a preference file you're interested in if it hasn't been created yet. In that case, you will need to
-create one yourself. See the examples below to figure out which preference file you need.
+You might not find a preference file you're interested in, if it hasn't been created yet. In that case, you will need to
+create one yourself. See the examples below to figure out, which preference file you need.
 
 ### Reading and modifying preference files
 
