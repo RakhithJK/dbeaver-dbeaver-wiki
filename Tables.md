@@ -1,3 +1,11 @@
+[<< New Table Creation](New-Table-Creation)
+- Tables
+- [Columns](https://github.com/dbeaver/dbeaver/wiki/Columns)
+- [Constraints](https://github.com/dbeaver/dbeaver/wiki/Constraints)
+- [Foreign Keys](https://github.com/dbeaver/dbeaver/wiki/Foreign-Keys)
+- [Indexes](https://github.com/dbeaver/dbeaver/wiki/Indexes)
+- [Triggers](https://github.com/dbeaver/dbeaver/wiki/Triggers)
+
 ### Create
 
 To create a new table, navigate to the **[Database Navigator](Database-Navigator)**, select the necessary database, right-click on **Tables**
