@@ -46,3 +46,9 @@ To delete a table, right-click on the table's name in the **Database Navigator**
 ![](images/tutorial_images/3a_Delete_Table.png)  
 
 **Tip**: Be cautious with the **Cascade delete** option, as it can lead to unintended consequences.
+
+
+
+
+ [<< New Table Creation](https://github.com/dbeaver/dbeaver/wiki/New-Table-Creation) | [Columns >>](https://github.com/dbeaver/dbeaver/wiki/Columns)
+
