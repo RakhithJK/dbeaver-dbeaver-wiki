@@ -144,8 +144,6 @@ There are some additional settings available in [Enterprise](Enterprise-Edition)
 
 - **Table join rule** allows explicit JOIN or JOIN with sub-queries.
 
-- **Use custom endpoint URL** - specify this option to define a custom endpoint URL for configuring interaction with
-  OpenAPI.
 
 ## Receive API key
 
