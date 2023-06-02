@@ -11,11 +11,17 @@ Important: When you commit changes in your branch, add the ticket number in the 
 Like this: `dbeaver/dbeaver#issue-number Initial commit for my super-duper feature`.  
 You can make any number of commits. We usually perform squash before merging changes in the main repository.  
 
+### Pull request guidelines
+* Please avoid creating multiple pull requests for one issue. 
+* Please provide a detailed description of the affected functionality.
+* Avoid force-pushing the commits in the PR branch, this makes reading commit history more difficult.
+* If UI is affected, it is recommended to provide screenshots or video with a demonstration of the made changes
+
 ## Can I fix a bug by myself?
 
 If you think that a bug on our [board](https://github.com/dbeaver/dbeaver/issues) has to be fixed and, for some reason, it is not in the nearest milestone, then you could try fixing it by yourself. It makes sense to ask about it in the ticket because we sometimes do not resolve tickets for a reason.  
 
-If you decide that you want to fix the bug, and make a pull request (see above), the team will review it and write a PR review if necessary. If the PR is merged, then the fix will appear in the next version of the DBeaver community (which is released every two weeks).
+If you decide that you want to fix the bug and make a pull request (see above), the team will review it and write a PR review if necessary. If the PR is merged, then the fix will appear in the next version of the DBeaver community (which is released every two weeks).
 
 ## What types of new features are acceptable
 
@@ -23,11 +29,11 @@ Generally, you could suggest anything you think is useful in the database manage
 
 Good options:
 - Add new database or driver support
-- Extend database metadata read/modify (e.g. add triggers read it a specific database)
-- Add new SQL generator
+- Extend database metadata read/modify (e.g., add triggers read it a specific database)
+- Add a new SQL generator
 - Add new data export format
 - Localize DBeaver interface (extend existing localization or add a new language. [Instruction](https://github.com/dbeaver/dbeaver/wiki/Localization))
-- Add new database-specific tool (e.g. table analyze for a specific database)
+- Add a new database-specific tool (e.g., table analyze for a specific database)
 
 There are samples of all these features in our codebase.
 
@@ -44,6 +50,7 @@ The main rule: use the same codestyle, which is already used in a particular sou
 - Use our automatic codestyle checks in PRs (every PR you make in the `dbeaver/dbeaver` repository will be checked, and you can see the report of the check list)
 
 IntelliJ IDEA code style can be found at: https://github.com/dbeaver/dbeaver-idea-project
+
 
 ## Code style
 
