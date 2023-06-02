@@ -8,7 +8,7 @@ First, you'll need to add an SMTP profile to send the email. Go to <kbd>Window</
 
 Parameters <kbd>Host</kbd> and <kbd>Port</kbd> may depend on the mail service you use. Use the latter if the service offers SSL and TLS ports. Gmail, for example, uses host `smtp.gmail.com` and port `587`. An example of a configured profile:
 
-![img_1.png](images/ug/data-transfer/mail-smtp-configuration.png)
+![](images/ug/data-transfer/mail-smtp-configuration.png)
 
 Then you can use the <kbd>Test connection</kbd> button to verify that the host and credentials are valid.
 
