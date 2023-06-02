@@ -109,16 +109,6 @@ In Windows, you can use the `dbeaver-cli` executable to run tasks.
 Please note that if you use `dbeaver` executable (for any reason),
 you will need to add the command line parameter `-nosplash` to avoid a splash screen appearance.
 
-## Send results by E-mail
-
-The Task Scheduler includes a **Send Result by E-Mail** feature. This function allows you to automatically receive the results of your tasks via email. These settings can be adjusted under **Data Transfer**. 
-
-You also have control over the specifics of what you receive, as follows:
-
-* **Omit Empty Results**: Enable this option to prevent emails from being sent when there are no results to display.
-* **Report Task Failure**: Enable this option to receive an email alert whenever a task fails.
-* **Bypass Server Certificate Verification**: This option can be enabled when you're working with self-signed certificates and want to bypass the usual certificate validation process.
-
 ## Troubleshooting
 
 ### User credentials + enterprise security
