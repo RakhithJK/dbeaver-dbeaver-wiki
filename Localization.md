@@ -81,6 +81,10 @@ You can:
 - Run DBeaver directly from [Eclipse workspace](Develop-in-Eclipse)
 - [Build DBeaver from source](Build-from-sources) and run executable
 
+### Pull request guidelines
+* Please avoid creating multiple pull requests for one issue.
+* Avoid force-pushing the commits in the PR branch. This makes reading commit history more difficult.
+
 ### Localization proposals
 [Brazilian Portuguese Standardization proposals by @brlarini](Brazilian-Portuguese-Standardization-proposals)
 
