@@ -1,4 +1,4 @@
-**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+**Note: This functionality is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition), [Lite](Lite-Edition), and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
 
 DBeaver supports local storage for connection secure data. It includes:
 - Database server user credentials
