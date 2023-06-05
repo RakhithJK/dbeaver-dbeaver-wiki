@@ -32,6 +32,9 @@ All translated resources are placed in bundle_XX.properties files where XX is a 
 
 Non-ASCII symbols are encoded to both uppercase and lowercase hex sequences (for example, \u00E3 and \u00e3). By default, only uppercase sequences are enabled in IntelliJ IDEA. Please be sure that you set the `idea.native2ascii.lowercase` property in the `idea.properties` file to `true` to avoid unintended changes, before starting your work.
 
+### Contribution
+Please note that according to the [Contribution guide](https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code) it's required to add the issue number to the commit message. If there is no such issue, then you need to create one.
+
 ### Push your changes
 
 - Open GitHub Desktop 
