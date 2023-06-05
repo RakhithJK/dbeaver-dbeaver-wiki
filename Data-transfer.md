@@ -111,11 +111,11 @@ You can import data from XLSX file(s) directly into your database table(s).
  **Minimum column lenght** | This value is used when creating a new column and specifying its type, if necessary. It indicates the minimum number of characters or digits expected in the column. This information helps determine the appropriate data type and size for the column during the creation process.                                                                                                                                                                                 
  **Save task**             | Opens the [**Save Task window**](Task-Management) to assist in creating a task during the data transfer process. This window provides options and settings for creating and configuring a task related to the data transfer operation.                                                                                                                                                                                                                               
 
-5) In the next window set XLSX-to-table mappings. Please refer to our guide for detailed information on the [mapping process](Data-migration.md#step-3-define-data-mapping).
+5) In the next window set XLSX-to-table mappings. Please refer to our guide for detailed information on the [mapping process](Data-migration#step-3-define-data-mapping).
 
    ![](images/dt/xlsx/dt-xlsx-tables-mapping.png)
 
-6) In the following window, choose your **Data load settings** and then hit **Next**. For more information on data load settings, please refer to the section [**Data load settings**](Data-migration.md#data-load-settings) in our article.
+6) In the following window, choose your **Data load settings** and then hit **Next**. For more information on data load settings, please refer to the section [**Data load settings**](Data-migration#data-load-settings) in our article.
 
    ![](images/dt/xlsx/dt-xlsx-data-load-settings.png)
 
@@ -151,11 +151,11 @@ You can find more information about migrating data from one database table to an
 
     ![](images/dt/xml/dt-xml-input-file.png)
 
-4) In the next window set XLSX-to-table mappings. Please refer to our guide for detailed information on the [mapping process](Data-migration.md#step-3-define-data-mapping).
+4) In the next window set XLSX-to-table mappings. Please refer to our guide for detailed information on the [mapping process](Data-migration#step-3-define-data-mapping).
 
     ![](images/dt/xml/dt-xml-table-mapping.png)
 
-5) In the subsequent window, select your data load settings, and then click **Next**. For more information, please refer to the section [**Data load settings**](Data-migration.md#data-load-settings) in our article.
+5) In the subsequent window, select your data load settings, and then click **Next**. For more information, please refer to the section [**Data load settings**](Data-migration#data-load-settings) in our article.
 
     ![](images/dt/xml/dt-xml-data-load-settings.png)
 
