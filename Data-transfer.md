@@ -155,7 +155,7 @@ You can find more information about migrating data from one database table to an
 
     ![](images/dt/xml/dt-xml-table-mapping.png)
 
-5) In the subsequent window, select your **Data load settings**, then hit **Next**. For more information on data load settings, please refer to the section [**Data load settings**](Data-migration.md#data-load-settings) in our article.
+5) In the subsequent window, select your data load settings, and then click **Next**. For more information, please refer to the section [**Data load settings**](Data-migration.md#data-load-settings) in our article.
 
     ![](images/dt/xml/dt-xml-data-load-settings.png)
 
