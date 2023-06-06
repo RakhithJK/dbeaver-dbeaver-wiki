@@ -2,9 +2,9 @@ You can execute one query, a highlighted portion of a script, or a whole script.
 * Shortcut key combinations (see details further in this article)
 * Tools in the main toolbar: 
 
-![](images/ug/Execute-buttons.png) 
+   ![](images/ug/Execute-buttons.png) 
 
-(Note: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+(**Note**: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
 
 * Context menu (right-click the query):
 
@@ -14,15 +14,36 @@ You can execute one query, a highlighted portion of a script, or a whole script.
  
   ![](images/ug/Execute-main-menu.png)
 
-To execute a query under the cursor or selected text, press <kbd>Ctrl+Enter</kbd> or right-click the query and click **Execute -> Execute SQL Statement** on the context menu. You can do the same using the main toolbar or main menu: **SQL Editor -> Execute SQL Statement**. This executes the SQL query under the cursor or selected text and fills the results pane with the query results.
+To execute a query under the cursor or selected text, press <kbd>Ctrl+Enter</kbd> or right-click the query and click
+**Execute** -> **Execute SQL Statement** on the context menu. You can do the same using the main toolbar or main menu: **SQL
+Editor** -> **Execute SQL Statement**. This executes the SQL query under the cursor or selected text and fills the results
+pane with the query results.
 
-To execute a query under the cursor in a separate tab, press <kbd>CTRL+\ </kbd> or right-click the query and click **Execute -> Execute SQL in new tab** on the context menu. The same can be done using the main toolbar or the main menu: **SQL Editor -> Execute SQL in new tab**. This executes the SQL query under the cursor or selected text and creates a new results tab.
+To execute a query under the cursor in a separate tab, press <kbd>CTRL+\ </kbd> or right-click the query and click
+**Execute** -> **Execute SQL in new tab** on the context menu. The same can be done using the main toolbar or the main menu:
+**SQL Editor** -> **Execute SQL in new tab**. This executes the SQL query under the cursor or selected text and creates a
+new results tab.
 
-To execute the whole script, press <kbd>Alt+X</kbd> or click **Execute -> Execute SQL Script** on the context menu or **SQL Editor -> Execute SQL Script** on the main menu or in the main toolbar. This executes all queries in the current editor (or selected queries) as a script. DBeaver parses queries one by one using a statement delimiter (“;” by default) and executes them consecutively. You can configure the script execution behavior in the SQL editor preferences (Right-click the script and click **Preferences** on the context menu).
+To execute the whole script, press <kbd>Alt+X</kbd> or click **Execute** -> **Execute SQL Script** on the context menu or
+**SQL Editor** -> **Execute SQL Script** on the main menu or in the main toolbar. This executes all queries in the current
+editor (or selected queries) as a script. DBeaver parses queries one by one using a statement delimiter (“;” by default)
+and executes them consecutively. You can configure the script execution behavior in the SQL editor preferences (
+Right-click the script and click **Preferences** on the context menu).
 
-To execute a script opening each query results in a separate tab, press <kbd>Ctrl+Alt+Shift+X</kbd> or click **Execute -> Execute Statements In Separate Tabs** on the context menu or **SQL Editor -> Execute Statements In Separate Tabs** on the main menu or in the main toolbar. The executes all queries in the script, but opens multiple result tabs. Each script query is executed in a separate thread (that is, all queries are executed simultaneously).
-NOTE: Be careful with this feature. If you execute a huge script with a large number of queries, it might cause
-unexpected problems.
+To execute the script natively, press <kbd>Alt+N</kbd> or click **Execute** -> **Execute SQL Script natively** on the
+context menu or **SQL Editor** -> **Execute SQL Script natively** on the main menu or in the main toolbar. 
+Upon activation, a PLSQL, MySQL, or SQLPlus client is launched to execute the current script. It is particularly useful
+when there are functions that are not supported by DBeaver drivers and require more specialized clients, or when the
+function is very heavy and a faster client is needed. The results are displayed in a text field in the format of console
+output.
+<br>**Note**: This function is available for MySQL/Maria, Oracle, and PostgreSQL and may require additional software
+installation for each database.
+
+To execute a script opening each query results in a separate tab, press <kbd>Ctrl+Alt+Shift+X</kbd> or click
+**Execute** -> **Execute Statements In Separate Tabs** on the context menu or **SQL Editor** -> **Execute Statements In Separate
+Tabs** on the main menu or in the main toolbar. The executes all queries in the script, but opens multiple result tabs.
+Each script query is executed in a separate thread (that is, all queries are executed simultaneously).
+<br>**Important**: Executing a massive script with numerous queries can result in unforeseen problems.
 
 ## Result tabs
 
@@ -75,12 +96,12 @@ To evaluate an SQL expression, right-click the expression and click **Execute ->
 ![](images/ug/Evaluate-SQL-expression.png)
 
 ## Row Count
-If you want to know how many rows an SQL query will produce, you need to apply the Row Count feature – highlight and right-click the SQL text and then click **Execute -> Select row count** on the context menu:
+If you want to know how many rows an SQL query will produce, you need to apply the Row Count feature – highlight and right-click the SQL text and then click **Execute** -> **Select row count** on the context menu:
 
 ![](images/ug/Row-Count.png)
 
 ## Query Export
-It might be useful to export a query if you have a long-running query and you do not need to see its results in the results panel. You can directly export the current query results to a file/table by right-clicking the query and then clicking **Execute -> Export From Query** on the context menu:
+It might be useful to export a query if you have a long-running query and you do not need to see its results in the results panel. You can directly export the current query results to a file/table by right-clicking the query and then clicking **Execute** -> **Export From Query** on the context menu:
 
 ![](images/ug/Export-from-Query.png)
 
