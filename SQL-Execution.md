@@ -4,7 +4,7 @@ You can execute one query, a highlighted portion of a script, or a whole script.
 
    ![](images/ug/Execute-buttons.png) 
 
-(**Note**: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization))
+**Note**: toolbar is customizable. See [Toolbar Customization](Toolbar-Customization)
 
 * Context menu (right-click the query):
 
