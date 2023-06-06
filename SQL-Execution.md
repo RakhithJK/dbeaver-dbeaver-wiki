@@ -32,10 +32,7 @@ Right-click the script and click **Preferences** on the context menu).
 
 To execute the script natively, press <kbd>Alt+N</kbd> or click **Execute** -> **Execute SQL Script natively** on the
 context menu or **SQL Editor** -> **Execute SQL Script natively** on the main menu or in the main toolbar. 
-Upon activation, a PLSQL, MySQL, or SQLPlus client is launched to execute the current script. It is handy
-when functions are not supported by DBeaver drivers and require more specialized clients or when the
-function is weighty and a faster client is needed. The results are displayed in a text field in the format of console
-output.
+Upon activation, a setup wizard is launched, which allows you to configure the parameters for script execution before the script is launched in the native client like PLSQL, MySQL, or SQLPlus. The results are displayed in a text field in the format of console output. It is handy when functions are not supported by DBeaver drivers and require more specialized clients or when the function is weighty, and a faster client is needed.
 <br>**Note**: This function is available for MySQL/Maria, Oracle, and PostgreSQL and may require additional software
 installation for each database.
 
