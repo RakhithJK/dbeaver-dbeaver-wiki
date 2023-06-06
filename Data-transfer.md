@@ -10,7 +10,7 @@ focus on the data export process using the `CSV` format as an example.
 
 [Exporting to CSV](#exporting-table-data-to-csv-format) | 
 [Importing from CSV](#importing-data-from-csv-format) | 
-[Importing from Excel](#importing-data-from-xlsx-format) | 
+[Importing from Excel](#importing-data-from-excel) | 
 [Importing from XML](#importing-data-from-xml-format) | 
 [Importing from database table](#importing-data-from-database-table) 
 
