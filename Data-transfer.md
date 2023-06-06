@@ -92,7 +92,7 @@ Read our guide on [Data Import and Replace](Data-Import-and-Replace) to learn mo
    In the end, you will see the status message:
 
    ![](images/dt/dt_message-success_import.png)
-### Importing data from XLSX format
+### Importing data from Excel
 
 You can import data from XLSX file(s) directly into your database table(s).
 
