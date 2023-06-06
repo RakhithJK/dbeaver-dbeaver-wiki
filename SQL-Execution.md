@@ -1,4 +1,4 @@
-You can execute one query, a highlighted portion of a script, or a whole script. You can execute them using:
+You can execute one query, a highlighted portion of a script, or a whole script. You can execute them using the following:
 * Shortcut key combinations (see details further in this article)
 * Tools in the main toolbar: 
 
@@ -32,16 +32,16 @@ Right-click the script and click **Preferences** on the context menu).
 
 To execute the script natively, press <kbd>Alt+N</kbd> or click **Execute** -> **Execute SQL Script natively** on the
 context menu or **SQL Editor** -> **Execute SQL Script natively** on the main menu or in the main toolbar. 
-Upon activation, a PLSQL, MySQL, or SQLPlus client is launched to execute the current script. It is particularly useful
-when there are functions that are not supported by DBeaver drivers and require more specialized clients, or when the
-function is very heavy and a faster client is needed. The results are displayed in a text field in the format of console
+Upon activation, a PLSQL, MySQL, or SQLPlus client is launched to execute the current script. It is handy
+when functions are not supported by DBeaver drivers and require more specialized clients or when the
+function is weighty and a faster client is needed. The results are displayed in a text field in the format of console
 output.
 <br>**Note**: This function is available for MySQL/Maria, Oracle, and PostgreSQL and may require additional software
 installation for each database.
 
-To execute a script opening each query results in a separate tab, press <kbd>Ctrl+Alt+Shift+X</kbd> or click
+To execute a script opening, each query results in a separate tab, press <kbd>Ctrl+Alt+Shift+X</kbd> or click
 **Execute** -> **Execute Statements In Separate Tabs** on the context menu or **SQL Editor** -> **Execute Statements In Separate
-Tabs** on the main menu or in the main toolbar. The executes all queries in the script, but opens multiple result tabs.
+Tabs** on the main menu or in the main toolbar. It executes all queries in the script but opens multiple result tabs.
 Each script query is executed in a separate thread (that is, all queries are executed simultaneously).
 <br>**Important**: Executing a massive script with numerous queries can result in unforeseen problems.
 
@@ -51,7 +51,7 @@ A single query may generate several result sets represented by tabs. These tabs 
 
 * To close an individual tab, press <kbd>CTRL+Shift+&bsol;</kbd> or middle-click on a tab header. 
 * To close all tabs expect current, click **Close all result tabs except this** on the context menu of this tab.
-* To close all tabs of desired query, click **Close all result tabs of same query** on the context menu of this tab.
+* To close all tabs of the desired query, click **Close all result tabs of same query** on the context menu of this tab.
 
 ### Naming
 
@@ -74,13 +74,13 @@ Additionally, you can change the name of a given tab via its context menu or by 
 SELECT * FROM Album;
 ```
 
-In other cases, tabs are named in a form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, where:
+In other cases, tabs are named in the form of <kbd>Results &lt;**A**&gt; (&lt;**B**&gt;)</kbd>, where:
 * **A** is _an index of query_
-* **B** is _an index of result set of this query_
+* **B** is _an index of the result set of this query_
 
 ### Pinning
 
-Tabs can be moved around by dragging them with a mouse and pinned using **Pin tab** on the context menu of desired tab. Pinned tabs are stacked on the left. They can be moved among other pinned tabs, but can't be mixed with unpinned tabs. Pinned tabs cannot be closed without being unpinned first, and cannot be overwritten by executing a query in it (by making this tab active).
+Tabs can be moved around by dragging them with a mouse and pinned using the **Pin tab** on the context menu of the desired tab. Pinned tabs are stacked on the left. They can be moved among other pinned tabs but can't be mixed with unpinned tabs. Pinned tabs cannot be closed without being unpinned first and cannot be overwritten by executing a query (by making this tab active).
 
 ### Detaching
 
@@ -91,7 +91,7 @@ Additionally, you can detach it from the application window using **Detach** fou
 After the tab is detached, it's still synchronized with the SQL editor, meaning you can edit and refresh data as long as the SQL editor that produced that tab is open. Once you close it, tabs become read-only.
 
 ## SQL Expression Evaluation
-To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command basically performs a query of **SELECT [expression] FROM DUAL** type:
+To evaluate an SQL expression, right-click the expression and click **Execute -> Evaluate SQL expression** on the context menu. This command performs a query of **SELECT [expression] FROM DUAL** type:
 
 ![](images/ug/Evaluate-SQL-expression.png)
 
@@ -111,7 +111,7 @@ The Data transfer wizard opens. Go through its steps to complete the export of t
 
 ## Dynamic Parameter Bindings
 
-You can use dynamic parameters and variables in your SQL queries. The parameter format is `:name`. Also variables syntax could be used `${varname}`. When you execute a query which contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
+You can use dynamic parameters and variables in your SQL queries. The parameter format is `:name`. Also, variables syntax could be used as `${varname}`. When you execute a query that contains dynamic parameters, DBeaver displays a dialog box in which you can fill the parameter values:
 
 ![](images/ug/Bind-parameters-dialog.png)
 
