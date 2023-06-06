@@ -1,29 +1,26 @@
-Data transfer is a crucial feature that enables you to export and import data in various formats like `CSV`, `XLSX`, and
-`XML`. Additionally, it facilitates the transfer of data between database tables, allowing seamless movement of data
-within a single database or between different databases.
+Data transfer is a crucial feature that enables you to export and import data in various formats. You can import data from `CSV`, `XLSX`, and `XML` files. Also, you can export data from your database to different types and formats like `Database` table(s), `CSV` file(s), `DbUnit` file(s), `HTML` file(s), `JSON` file(s), `Markdown` file(s), `SQL` statement, `Source code` array, plain `TXT` format, `XML` file(s), and `XLSX` (Excel spreadsheet) format. You can even move data between tables in the same or different databases.
 
-This article explores how to leverage this feature for data transfer, providing insights into exporting and
-importing data in `CSV`, `XLSX`, and `XML` formats.
 
-The process of exporting data follows a similar procedure for the supported formats. Therefore, in this guide, we will
-focus on the data export process using the `CSV` format as an example.
+[Export data](#export-data) | 
+[Importing from CSV](#importing-data-from-csv-file) | 
+[Importing from Excel](#importing-data-from-excel-file) | 
+[Importing from XML](#importing-data-from-xml-file) | 
+[Importing from database table](#importing-data-from-the-database-table) 
 
-[Exporting to CSV](#exporting-table-data-to-csv-format) | 
-[Importing from CSV](#importing-data-from-csv-format) | 
-[Importing from Excel](#importing-data-from-excel) | 
-[Importing from XML](#importing-data-from-xml-format) | 
-[Importing from database table](#importing-data-from-database-table) 
+Remember, the data transfer operation runs in the background, allowing you to continue working with your database during the export or import. However, try to avoid changing data in tables selected for export or import until the process is complete.
 
 ## Export data
-### Exporting table data to CSV format
+
+The process of exporting data follows a similar procedure for the supported formats. Therefore, in this guide, we will
+focus on the data export process using the `CSV` format.
 
 1. Select a table or tables you want to export. In the context menu, choose **Export Data**.  
-   (Note: you can also export data from custom SQL query results. To do that, choose **Export data** in the results
+   (**Note**: you can also export data from custom SQL query results. To do that, choose **Export data** in the results
    context menu).
 
    ![](images/dt/dt-export_menu.png)
 
-2. Choose an export format. DBeaver supports different output formats, including CSV, HTML, XLSX, etc.:
+2. In the window that appears, choose `CSV` and click **Next**.
 
    ![](images/dt/dt-export-format.png)
 
@@ -34,7 +31,7 @@ focus on the data export process using the `CSV` format as an example.
    ![](images/dt/dt-options-extract.png)
 
 6. Set options for output files or clipboards.
-   Note: Timestamp pattern is used here to target the file name pattern:
+   **Note**: Timestamp pattern is used here to target the file name pattern:
 
    ![](images/dt/dt-options-output.png)
 
@@ -45,33 +42,29 @@ focus on the data export process using the `CSV` format as an example.
 
 8. Press finish. See extraction progress. You can keep working with your database during the export process as the
    extraction will be performed in the background.
-   Note: avoid changing data in tables you have selected to be exported while the exporting is in progress.
-   In the end, you will see the status message:
 
-![](images/dt/dt_message-success.png)
+   ![](images/dt/dt_message-success.png)
 
 ## Import data
-### Importing data from CSV format
-
-You can import data from CSV file(s) directly into your database table(s).
+### Importing data from CSV file
 
 1. Select a table(s) to which you want to import data. In the context menu, choose  **Import Data**:
 
    ![](images/dt/dt-import-menu.png)
 
-2. Choose import format (CSV):
+2. In the window that appears, choose `CSV` and click **Next**.
 
    ![](images/dt/dt-import-format.png)
 
-3. Select the input CSV file for each table you want to import, and you can change the Importer settings (format specific) at
+3. Select the input `CSV` file for each table you want to import, and you can change the Importer settings (format specific) at
    this step:
 
    ![](images/dt/dt-import-files.png)
 
 4. Set CSV-to-table mappings.
-   You must set a column in the CSV file for each database table column.
-   You can skip columns (the value will be set to NULL in the target table column).
-   You can set constant values for the table column if there is no source column in the CSV.
+   You must set a column in the `CSV` file for each database table column.
+   You can skip columns (the value will be set to `NULL` in the target table column).
+   You can set constant values for the table column if there is no source column in the `CSV`.
 
    ![](images/dt/dt-import-mappings.png)
 
@@ -88,13 +81,11 @@ Read our guide on [Data Import and Replace](Data-Import-and-Replace) to learn mo
 
 7. Press finish. See extraction progress. You can keep working with your database during the export process as the data
    loading will be performed in the background.
-   Note: avoid changing data in tables you have selected to be imported while the import is in progress.
    In the end, you will see the status message:
 
-   ![](images/dt/dt_message-success_import.png)
-### Importing data from Excel
+   ![](images/dt/dt_message-success_import.png)  
 
-You can import data from XLSX file(s) directly into your database table(s).
+### Importing data from Excel file
 
 1) Choose the database table (or tables) you want to import data into. Do this by right-clicking on the table name in
    the **Database Navigator** section and then clicking on **Import Data**.
@@ -140,8 +131,7 @@ You can import data from XLSX file(s) directly into your database table(s).
 
    ![](images/dt/xlsx/dt-xlsx-completed.png)
 
-    **Note**: avoid changing data in tables you have selected to be imported while the import is in progress.
-### Importing data from XML format
+### Importing data from XML file
 
 1) Select the database table (or tables) where you want to import data. Do this by right-clicking on the table name in
    the **Database Navigator** section, then clicking on **Import Data**.
@@ -175,8 +165,7 @@ You can import data from XLSX file(s) directly into your database table(s).
 
     ![](images/dt/xml/dt-xml-complete.png)
 
-    **Note**: avoid changing data in tables you have selected to be imported while the import is in progress.
-## Importing data from database table
+### Importing data from the database table
 
 DBeaver offers seamless data migration capabilities, allowing you to transfer data from one database table to another.
 For more detailed instructions and insights on data migration, you can refer to our article on [Data Migration](Data-migration) guide.
