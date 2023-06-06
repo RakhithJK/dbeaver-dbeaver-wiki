@@ -146,7 +146,8 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 ### SQL Editor
 |Shortcut for Windows/Linux|Shortcut for macOS|Action|
 |-------|-------|-------|
-|Alt+X|⌥X|Execute script([**](#cur_script))|
+|Alt+X|⌥X|Execute SQL script([**](#cur_script))|
+|Alt+N|⌥N|Execute SQL script natively|
 |Ctrl+Enter|⌃↩|Execute SQL statement([*](#cur_query))|
 |Ctrl+|⌃|Execute SQL statement in a new tab|
 |Ctrl+Alt+Shift+X|⌃⌥⇧X|Execute script's statements in separate results tabs|
