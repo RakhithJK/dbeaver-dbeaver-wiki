@@ -21,6 +21,7 @@
   - [[Panels]]
   - [[Managing Charts]] <img src="images/commercial.png" align="top" vspace="4"/>
   - [[Data Search]]
+  - [[Data transfer]]
   - [[SQL Generation]]
   - [[Working with spatial/GIS data]]
   - [[Working with XML and JSON]]
@@ -167,12 +168,11 @@
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
-  - [[Tables]]
-  - [[Columns]]
-  - [[Constraints]]
-  - [[Foreign Keys]]
-  - [[Indexes]]
-  - [[Triggers]]
+  - [[Creating Columns]]
+  - [[Implementing Constraints]]
+  - [[Utilizing Foreign-Keys]]
+  - [[Creating Indexes]]
+  - [[Incorporating Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
