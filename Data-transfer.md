@@ -1,22 +1,34 @@
-Data transfer is a crucial feature that enables you to export and import data in various formats. You can import data from `CSV`, `XLSX`, and `XML` files. Also, you can export data from your database to different types and formats like `Database` table(s), `CSV` file(s), `DbUnit` file(s), `HTML` file(s), `JSON` file(s), `Markdown` file(s), `SQL` statement, `Source code` array, plain `TXT` format, `XML` file(s), and `XLSX` (Excel spreadsheet) format. You can even move data between tables in the same or different databases.
+Data transfer is a crucial feature that enables you to export and import data in various formats and even move data between tables in the same or different databases.
 
 
-[Export data](#export-data) | 
-[Importing from CSV](#importing-data-from-csv-file) | 
-[Importing from Excel](#importing-data-from-excel-file) | 
-[Importing from XML](#importing-data-from-xml-file) | 
-[Importing from database table](#importing-data-from-the-database-table) 
+- [Export data](#export-data) 
+- [Import data](#import-data)
+  - [Importing from CSV](#importing-data-from-csv-file) 
+  - [Importing from Excel](#importing-data-from-excel-file) 
+  - [Importing from XML](#importing-data-from-xml-file) 
+  - [Importing from database table](#importing-data-from-the-database-table) 
 
-Remember, the data transfer operation runs in the background, allowing you to continue working with your database during the export or import. However, try to avoid changing data in tables selected for export or import until the process is complete.
+**Note:** The data transfer operation runs in the background, allowing you to continue working with your database during the export or import. However, try to avoid changing data in tables selected for export or import until the process is complete.
 
 ## Export data
+
+You can transfer data from one database to another or export it in different types and formats:
+- `CSV`
+- `XLSX` (Excel spreadsheet)
+- `HTML`
+- `XML`
+- `TXT`
+- `JSON`
+- Markdown files
+- SQL statements
+- Source code arrays
 
 The process of exporting data follows a similar procedure for the supported formats. Therefore, in this guide, we will
 focus on the data export process using the `CSV` format.
 
 1. Select a table or tables you want to export. In the context menu, choose **Export Data**.  
-   (**Note**: you can also export data from custom SQL query results. To do that, choose **Export data** in the results
-   context menu).
+   **Note**: you can also export data from custom SQL query results. To do that, choose **Export data** in the results
+   context menu.
 
    ![](images/dt/dt-export_menu.png)
 
@@ -46,9 +58,12 @@ focus on the data export process using the `CSV` format.
    ![](images/dt/dt_message-success.png)
 
 ## Import data
+
+You can import data to your database from `CSV`, `XLSX`, and `XML` files.
+
 ### Importing data from CSV file
 
-1. Select a table(s) to which you want to import data. In the context menu, choose  **Import Data**:
+1. Select one or more tables to which you want to import data. In the context menu, choose  **Import Data**:
 
    ![](images/dt/dt-import-menu.png)
 
