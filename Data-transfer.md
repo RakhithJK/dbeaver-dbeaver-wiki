@@ -1,6 +1,5 @@
 Data transfer is a crucial feature that enables you to export and import data in various formats and even move data between tables in the same or different databases.
 
-
 - [Export data](#export-data) 
 - [Import data](#import-data)
   - [Importing from CSV](#importing-data-from-csv-file) 
@@ -19,12 +18,11 @@ You can transfer data from one database to another or export it in different typ
 - `XML`
 - `TXT`
 - `JSON`
-- Markdown files
-- SQL statements
+- `Markdown` files
+- `SQL` statements
 - Source code arrays
 
-The process of exporting data follows a similar procedure for the supported formats. Therefore, in this guide, we will
-focus on the data export process using the `CSV` format.
+The process of exporting data follows a similar procedure for the supported formats. Therefore, in this guide, we will focus on the data export process using the `CSV` format.
 
 1. Select a table or tables you want to export. In the context menu, choose **Export Data**.  
    **Note**: you can also export data from custom SQL query results. To do that, choose **Export data** in the results
