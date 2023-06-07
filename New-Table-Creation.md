@@ -16,7 +16,7 @@ The rest are optional and can be used to enhance the functionality and integrity
 
 #### Table of contents:
 
-* [Table](#create) creation
+* [Table](#Create-table) creation
 * Creating [columns](Columns)
 * Implementing [constraints](Constraints)
 * Utilizing [foreign keys](Foreign-Keys)
