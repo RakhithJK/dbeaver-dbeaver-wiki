@@ -1,3 +1,5 @@
+### Overview
+
 This guide provides detailed instructions on creating a new table in DBeaver. This is a beginner-friendly guide,
 meaning it is written for individuals who may not have previous experience with databases or DBeaver.
 
@@ -12,9 +14,7 @@ of a table is a fundamental operation in database management, and while there ar
 them are mandatory. The only mandatory step is the creation of the table itself and the definition of columns.
 The rest are optional and can be used to enhance the functionality and integrity of your database.
 
-***
-
-Table of contents:
+#### Table of contents:
 
 * [Table](#create) creation
 * Creating [columns](Columns)
@@ -31,7 +31,7 @@ While this guide is designed around PostgreSQL within DBeaver, the processes can
 DBeaver's versatility is showcased in its wide range of supported database systems, available across its
 [Enterprise](Enterprise-Edition), [Lite](Lite-Edition) and [Ultimate](Ultimate-Edition) edition.
 
-### Create
+### Create table
 
 In DBeaver, creating a table is a straightforward process. Once you've [connected to your database](Connect-to-Database), you can
 initiate the table creation process by right-clicking on the Tables folder in the **[Database Navigator](Database-Navigator)** 
@@ -59,7 +59,7 @@ DBeaver and hasn't been created in the actual database. Here are the three optio
 
 ![](images/tutorial_images/10_Table_Save.png)
 
-### Modify
+### Modify table
 
 Modifying a table in DBeaver involves adjusting its structure or properties, such as adding, removing, or changing
 columns, adjusting constraints, or altering table settings. To make adjustments, navigate to the **Properties** editor.
@@ -70,7 +70,7 @@ Access this by right-clicking the table's name in the **Database Navigator** men
 The specific options and capabilities available to you when modifying a table will depend on the database
 system you're working with. Always refer to the documentation of your specific database system for detailed information.
 
-### Delete
+### Delete table
 
 Deleting a table in DBeaver involves a few simple steps. Firstly, navigate to the table you wish to delete in the
 **Database Navigator**. Once you've located the table, right-click on it and select the **Delete** option from the context
@@ -90,7 +90,7 @@ integrity, it should be used with caution. If not handled properly, it can lead 
 records that you may not have intended to remove. Always ensure you understand the relationships and dependencies in
 your data before using the **Cascade delete** option.
 
-### Restrictions
+### Restrictions on table creation
 
 DBeaver is a database management tool, and as such, it doesn't impose its own restrictions on table creation. Instead,
 the restrictions that apply when creating tables are determined by the specific database system you're using.
