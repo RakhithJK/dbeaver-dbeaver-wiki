@@ -13,6 +13,8 @@ The UE version special feature is AWS cloud integration in form of Cloud databas
   - Google BigTable
   - AWS DynamoDB
   - AWS Keyspaces
+  - AWS DocumentDB
+  - Yugabyte CQL
   - WMI (Windows Management Instrumentation)
 - Additional UE plugins:
   - Office formats support (XLS) for data import
