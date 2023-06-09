@@ -1,5 +1,5 @@
-<a href="https://dbeaver.com">DBeaver Ultimate Edition</a> (UE) is a commercial version of DBeaver. The UE license is perpetual and comes with one or two  years of premium support.  
-The UE version special feature is AWS cloud integration in form of Cloud databases explorer which is an interface for easy management of the cloud datasources. In addition to that Ultimate edition includes all features of the CE version plus: 
+<a href="https://dbeaver.com">DBeaver Ultimate Edition</a> (UE) is a commercial version of DBeaver. The UE license is perpetual and comes with one or two years of premium support.  
+The UE version's special feature is AWS cloud integration in the form of Cloud databases explorer which is an interface for easy management of the cloud data sources. In addition to that Ultimate edition includes all features of the CE version plus: 
 
 
 - All popular JDBC drivers are included in the UE distribution so you will not need to download/configure them separately.
@@ -23,7 +23,14 @@ The UE version special feature is AWS cloud integration in form of Cloud databas
   - Data compare
   - Analytical charts rendering
   - Persistent query database. Search in query history
-  - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
+  - Eclipse Marketplace (provides easy installation of any additional Eclipse plugins)
   - Mock data generators
   - Version control support
-  - Automatic proxy configuration (PAC) 
+  - Automatic proxy configuration (PAC)
+  - ERD edit mode 
+  - Retaining query history (after restart)
+  - SQL execution plan diagram
+  - Tasks (Composite Tasks, Email results, Task scheduler)
+  - Kerberos UI Authentication
+  - Cloud (Cloud Explorer, S3 browser, support for Google Cloud Platform (GCP), support for Amazon Web Services (AWS), support for Microsoft Azure, and cloud storage functionality)
+  - Spelling
