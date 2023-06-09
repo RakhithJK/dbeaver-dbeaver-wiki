@@ -14,6 +14,7 @@ The UE version's special feature is AWS cloud integration in the form of Cloud d
   - AWS DynamoDB
   - AWS Keyspaces
   - AWS DocumentDB
+  - AWS Timestream
   - Yugabyte CQL
   - WMI (Windows Management Instrumentation)
 - Additional UE plugins:
@@ -34,3 +35,4 @@ The UE version's special feature is AWS cloud integration in the form of Cloud d
   - Kerberos UI Authentication
   - Cloud (Cloud Explorer, S3 browser, support for Google Cloud Platform (GCP), support for Amazon Web Services (AWS), support for Microsoft Azure, and cloud storage functionality)
   - Spelling
+  - Command Line Interface
