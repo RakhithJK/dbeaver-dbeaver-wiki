@@ -42,14 +42,9 @@ will depend on the capabilities of your chosen database system.
 
 There are also various ways to create a table: from the **Properties editor** and from the **ER diagram**.
 
-From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select *
-*View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables
-** section, right-click on the window, and choose **Create New Table**.
+From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select **View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables** section, right-click on the window, and choose **Create New Table**.
 
-From ER Diagram: In the **Database Navigator**, double-click on the database name or table name. In the window that
-opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in
-the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens,
-you can right-click and choose **Create New Table**.
+From ER Diagram: In the **Database Navigator**, double-click on the database name or table name. In the window that opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens, you can right-click and choose **Create New Table**.
 
 #### Saving changes
 

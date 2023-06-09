@@ -12,7 +12,10 @@ The EE version includes all features of the CE version plus:
   - Google BigTable
   - AWS DynamoDB
   - AWS Keyspaces
+  - AWS DocumentDB
+  - AWS Timestream
   - WMI (Windows Management Instrumentation)
+  - Yugabyte CQL
 - Additional EE plugins:
   - Office formats support (XLS) for data import
   - Visual Query Builder
@@ -20,10 +23,17 @@ The EE version includes all features of the CE version plus:
   - Data compare
   - Analytical charts rendering
   - Persistent query database. Search in query history
-  - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
+  - Eclipse Marketplace (provides easy installation of any additional Eclipse plugins)
   - Mock data generators
   - Version control support
   - Automatic proxy configuration (PAC) 
-  - A possibility for us to support and develop the Community version, add new features faster, provide better support and much more.
+  - ERD edit mode
+  - Retaining query history (after restart)
+  - SQL execution plan diagram
+  - Tasks (Composite Tasks, Email results, Task scheduler)
+  - Kerberos UI Authentication
+  - Spelling
+  - Command Line Interface
+  - A possibility for us to support and develop the Community version, add new features faster, provide better support, and much more.
 
 Even if you do not need enterprise features you can purchase a license as a form of donation. Thank you!

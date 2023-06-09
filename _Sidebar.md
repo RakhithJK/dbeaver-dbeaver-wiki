@@ -168,17 +168,17 @@
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
-  - [[Creating Columns]]
-  - [[Implementing Constraints]]
-  - [[Utilizing Foreign-Keys]]
-  - [[Creating Indexes]]
-  - [[Incorporating Triggers]]
+  - [[Columns]]
+  - [[Constraints]]
+  - [[Foreign-Keys]]
+  - [[Indexes]]
+  - [[Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
 - [[Develop in Eclipse|Develop-in-Eclipse]] <!--CMD:SKIP-->
 - [[Develop in IDEA|Develop-in-IDEA]] <!--CMD:SKIP-->
-- [Develop in VS Code](https://github.com/dbeaver/dbeaver-workspace-vscode)
+- [Develop in VS Code](https://github.com/dbeaver/dbeaver-workspace-vscode) <!--CMD:SKIP-->
 - [[Resources localization|Localization]] <!--CMD:SKIP-->
 - [[Automatic Tests|Auto-Tests]] <!--CMD:SKIP-->
 - [[Unit Tests|Unit-Tests]] <!--CMD:SKIP-->
