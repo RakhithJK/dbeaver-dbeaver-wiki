@@ -13,6 +13,7 @@ The EE version includes all features of the CE version plus:
   - AWS DynamoDB
   - AWS Keyspaces
   - AWS DocumentDB
+  - AWS Timestream
   - WMI (Windows Management Instrumentation)
   - Yugabyte CQL
 - Additional EE plugins:
@@ -22,7 +23,7 @@ The EE version includes all features of the CE version plus:
   - Data compare
   - Analytical charts rendering
   - Persistent query database. Search in query history
-  - Eclipse Marketplace (provides easily installation of any additional Eclipse plugins)
+  - Eclipse Marketplace (provides easy installation of any additional Eclipse plugins)
   - Mock data generators
   - Version control support
   - Automatic proxy configuration (PAC) 
@@ -32,6 +33,7 @@ The EE version includes all features of the CE version plus:
   - Tasks (Composite Tasks, Email results, Task scheduler)
   - Kerberos UI Authentication
   - Spelling
-  - A possibility for us to support and develop the Community version, add new features faster, provide better support and much more.
+  - Command Line Interface
+  - A possibility for us to support and develop the Community version, add new features faster, provide better support, and much more.
 
 Even if you do not need enterprise features you can purchase a license as a form of donation. Thank you!
