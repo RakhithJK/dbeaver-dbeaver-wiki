@@ -23,13 +23,8 @@ The rest are optional and can be used to enhance the functionality and integrity
 * Creating [indexes](Indexes) 
 * Incorporating [triggers](Triggers)
 
-Each section listed above provides detailed instructions on how to implement these features into your table after its
-creation. Please use these links to navigate directly to the topic of interest. By the end of this guide, you will have
-a fundamental understanding of creating and enhancing tables in DBeaver.
 
 While this guide is designed around PostgreSQL within DBeaver, the processes can vary slightly with other database systems. 
-DBeaver's versatility is showcased in its wide range of supported database systems, available across its
-[Enterprise](Enterprise-Edition), [Lite](Lite-Edition) and [Ultimate](Ultimate-Edition) edition.
 
 ### Create table
 
@@ -44,6 +39,17 @@ This is the dedicated interface where you can manage and manipulate your tables.
 will depend on the capabilities of your chosen database system.
 
 ![](images/tutorial_images/2_NewTable_NoData.png)
+
+There are also various ways to create a table: from the **Properties editor** and from the **ER diagram**.
+
+From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select *
+*View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables
+** section, right-click on the window, and choose **Create New Table**.
+
+From ER Diagram: In the **Database Navigator**, double-click on the database name or table name. In the window that
+opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in
+the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens,
+you can right-click and choose **Create New Table**.
 
 #### Saving changes
 
