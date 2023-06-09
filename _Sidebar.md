@@ -168,11 +168,11 @@
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
-  - [[Creating Columns]] <!--CMD:SKIP-->
-  - [[Implementing Constraints]] <!--CMD:SKIP-->
-  - [[Utilizing Foreign-Keys]] <!--CMD:SKIP-->
-  - [[Creating Indexes]] <!--CMD:SKIP-->
-  - [[Incorporating Triggers]] <!--CMD:SKIP-->
+  - [[Columns]]
+  - [[Constraints]]
+  - [[Foreign-Keys]]
+  - [[Indexes]]
+  - [[Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
