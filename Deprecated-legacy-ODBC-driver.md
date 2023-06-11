@@ -37,10 +37,3 @@ If you have been using the legacy ODBC driver in DBeaver Community and have some
 2. Re-associate the old connections: select such connections, go to Database -> Change Connection(s) Driver, and find the newly installed ODBC.
 
 Another option is to remove the old connections created with the legacy ODBC driver and create new connections associated with the newly installed ODBC.
-
-
-
-
-and reassociate with a new connection
-
-
