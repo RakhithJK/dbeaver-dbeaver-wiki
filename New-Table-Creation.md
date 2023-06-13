@@ -11,7 +11,7 @@ DBeaver facilitates various operations, including data manipulation and data def
 Initially, the guide will cover the essential step of creating a table. After successfully creating a table, there are
 several enhancements you can add, such as columns, constraints, indexes, and triggers. The creation
 of a table is a fundamental operation in database management, and while there are many aspects to consider, not all of
-them are mandatory. The only mandatory step is the creation of the table itself and the definition of columns.
+them are mandatory. The only mandatory step is the creation of the table itself and the definition of [columns](Columns).
 The rest are optional and can be used to enhance the functionality and integrity of your database.
 
 #### Table of contents:
@@ -84,7 +84,7 @@ database. Please be aware that this action is permanent, and any data stored in 
 Therefore, it's crucial to ensure that you've adequately backed up any important data before proceeding with the
 deletion.
 
-**Tip**: The confirmation dialog box, which appears when you are deleting a table in DBeaver, offers an important
+**Important**: The confirmation dialog box, which appears when you are deleting a table in DBeaver, offers an important
 feature called the **Cascade delete** option. This option, when selected, automatically removes all related records in child
 tables, aligning with the deletion of a record in the parent table. While this can be useful for maintaining data
 integrity, it should be used with caution. If not handled properly, it can lead to unintended data loss by deleting 
@@ -98,13 +98,13 @@ the restrictions that apply when creating tables are determined by the specific 
 
 However, there are some general considerations to keep in mind when creating tables:
 
-* Naming Restrictions: The name of the table must be unique within its schema. Most database systems also have
+* **Naming Restrictions**: The name of the table must be unique within its schema. Most database systems also have
   restrictions on the length of the table name and the characters it can contain.
 
-* Storage Restrictions: The total amount of data that can be stored in a table is determined by the storage capacity of
+* **Storage Restrictions**: The total amount of data that can be stored in a table is determined by the storage capacity of
   the database system.
 
-* Performance Considerations: While not a restriction per se, it's important to note that the structure of a table can
+* **Performance Considerations**: While not a restriction per se, it's important to note that the structure of a table can
   have significant impacts on the performance of data retrieval and manipulation operations. For example, having a large
   number of columns, especially ones that are rarely used, can slow down query performance.
 
@@ -112,5 +112,6 @@ However, there are some general considerations to keep in mind when creating tab
 Remember that the specific restrictions and limitations can vary depending on the database system you're using. Always
 refer to the documentation of the specific database system for detailed information.
 
- New Table Creation | [Creating columns >>](Columns)
-
+<br><br><br><be>
+**Further Reading:**<br>
+New Table Creation | [Creating columns](Columns) | [Implementing constraints](Constraints) | [Utilizing foreign keys](Foreign-Keys) | [Creating indexes](Indexes) | [Incorporating triggers](Triggers)
