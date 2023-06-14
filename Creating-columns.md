@@ -7,9 +7,9 @@ them when necessary. Each column in a table has a specific data type, dictating 
 also enforce rules on columns such as nullability, unique constraints, check constraints, and default values. These
 rules are essential to maintain data integrity, accuracy, and reliability in your database.
 
-Beyond these basic operations, you can also perform more advanced tasks with columns. You can rename columns, change
-their data types, adjust permissions, and add comments. Some of these operations may not be supported by all databases,
-so it's important to be aware of the specific capabilities of your database system.
+Beyond these basic operations, you can perform more advanced tasks with columns. You can rename columns, change
+their data types, adjust permissions, and add comments. All databases may not support some of these operations,
+so it's essential to be aware of the specific capabilities of your database system.
 
 This guide will walk you through the process of creating, modifying, and deleting columns, as well as customizing their
 settings to suit your needs. 
@@ -22,7 +22,7 @@ Creating a new column in DBeaver involves a series of steps that guide you throu
 
    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)  
 
-- Also, you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)**
+- Also you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)**
    and selecting **Create New Column** from the context menu.
 
    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
@@ -45,13 +45,12 @@ Creating a new column in DBeaver involves a series of steps that guide you throu
  Collation     | Set the collation for the column, which determines how data in the column is sorted <br> and compared.                  
  Not null      | Enforce that the column must always contain a value.                                                                    
  Default value | Set a default value for the column, which will be used when no value is specified for <br> the column during insertion. 
- Comment       | Add a comment for the column, which can be useful for documentation purposes.                                           
+ Comment       | Add a comment for the column, which can be helpful for documentation purposes.                                           
 
 #### Saving changes
 
 Saving a column in DBeaver is an essential and simple operation. After you've configured the column properties, it's
-vital to persist these changes to the database. Until you save your modifications, your new column only exists within
-DBeaver and hasn't been added to the actual database table. Here are the three options for committing the changes:
+vital to persist these changes to the database. Until you save your modifications, your new column only exists within DBeaver and hasn't been added to the actual database table. Here are the three options for committing the changes:
 
 * Click on **File** -> **Save** -> **Persist**.
 * Select the desired table in the **Database Navigator** and press <kbd>Ctrl+S</kbd> (or <kbd>CMD+S</kbd> for Mac OS),
@@ -65,12 +64,12 @@ As your database evolves and your needs change, you may find it necessary to mod
 Whether it's renaming a column, changing its data type, adjusting its nullability, or updating its permissions, DBeaver
 provides you with the flexibility to adapt your columns to your changing requirements.
 
-Modifying columns is a key aspect of database management, allowing you to ensure that your columns continue to serve
+Modifying columns is a crucial aspect of database management, allowing you to ensure that your columns continue to serve
 their intended purpose effectively.
 
 Here's how you can modify a column in DBeaver:
 
-Go to the **Database Navigator** menu, and choose the right database and column to modify its settings. Right-click the
+Go to the **Database Navigator** menu, and choose the proper database and column to modify its settings. Right-click the
 column and select **View Column**.  
 
 Here's how you can modify a column in DBeaver:
@@ -78,7 +77,7 @@ Here's how you can modify a column in DBeaver:
 * Via the **Properties Editor**: You can double-click on the table name to open the **Properties Editor**. In this window,
 you can see all the columns of the table. Right-click on the column you want to modify and select **View Column**.
 
-* Via the **Database Navigator**: Go to the **Database Navigator** menu, choose the right database and column to modify its
+* Via the **Database Navigator**: Go to the **Database Navigator** menu, and choose the proper database and column to modify its
 settings. Right-click the column and select **View Column**.
 
 * Via the **Bottom Menu**: In the bottom menu of the **Properties Editor** interface, there is a **View Column** button ![](images/tutorial_images/View_column_button.png).
@@ -90,7 +89,7 @@ your database system.
 
 ### Delete
 
-Deleting columns in DBeaver is a simple process, but it's also a significant action that should be done with caution.
+Deleting columns in DBeaver is a simple process, but it's also a significant action that should be done cautiously.
 Once a column is deleted, all the data stored in that column will be lost. Here's how you can delete a column:
 1) Navigate to the table and column in question using the **Database Navigator**.
 2) Right-click on the column and select **Delete** from the context menu. Alternatively, you can select the necessary column
@@ -104,7 +103,7 @@ and considerations to keep in mind when deleting columns:
  Limitations               | Description                                                                                                                                                                                                                                                                          
 ---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  **Data Loss**             | As mentioned, deleting a column will permanently remove all data stored in that column. Make sure to back up any important data before proceeding with the deletion.                                                                                                                 
- **Primary Key Columns**   | If the column you want to delete is a primary key column, you must first remove its primary key constraint within the table properties. Primary key columns are used to uniquely identify each row in the table, and deleting them without removing the constraint can cause issues. 
+ **Primary Key Columns**   | If the column you want to delete is a primary key column, you must first remove its primary key constraint within the table properties. Primary key columns are used to identify each row in the table uniquely, and deleting them without removing the constraint can cause issues. 
  **Referential Integrity** | If the column you want to delete is referenced by other tables in the database (i.e., it's a foreign key), you may not be able to delete the column without first deleting or modifying the referencing tables. This is to maintain referential integrity in the database.           
  **Database Support**      | Not all databases support the ability to delete columns. Always check the specific capabilities of your database system.                                                                                                                                                             
 
@@ -113,7 +112,7 @@ and considerations to keep in mind when deleting columns:
 ### Restrictions
 
 When working with columns in DBeaver, it's important to understand the various restrictions that can be applied to them.
-These restrictions are not limitations, but rather rules that help ensure the integrity, accuracy, and reliability of
+These restrictions are not limitations but rather rules that help ensure the integrity, accuracy, and reliability of
 the data stored in your database. They dictate what data can be stored in a column, how it's treated, and how it
 interacts with other data in the database. Let's take a closer look at these restrictions:
 
@@ -121,10 +120,9 @@ interacts with other data in the database. Let's take a closer look at these res
   dictated by its data type.
 * **Nullability**: By default, columns can hold **NULL**. However, by specifying **NOT NULL** during column creation, you can
   enforce that every row must contain a value for that column.
-* **Unique [Constraint](Constraints.md#Restrictions)**: A unique constraint ensures that all values in a column are
-  distinct. Duplicate entries are not permitted.
+* **Unique Constraint**: A unique constraint ensures that all values in a column are distinct. Duplicate entries are not permitted.
 * **Check Constraint**: A check constraint enables you to specify a condition on a column.  Every value added to the
-  column must satisfy this condition.
+  the column must satisfy this condition.
 * **Default Value**: A column can be given a default value. If no value is specified during data insertion, the column uses
   the default.
 
