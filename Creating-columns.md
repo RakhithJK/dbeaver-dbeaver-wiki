@@ -97,6 +97,9 @@ and press the <kbd>Delete</kbd> key.
 3) A confirmation dialog will appear, asking you to confirm that you want to delete the column. If you're sure you want to
 delete the column, click **Yes**.
 
+
+![](images/tutorial_images/4c_Delete_Column.png)
+
 Once a column is deleted, all the data stored in that column will be lost. Furthermore, there are several restrictions
 and considerations to keep in mind when deleting columns:
 
@@ -106,8 +109,6 @@ and considerations to keep in mind when deleting columns:
  **Primary Key Columns**   | If the column you want to delete is a primary key column, you must first remove its primary key constraint within the table properties. Primary key columns are used to identify each row in the table uniquely, and deleting them without removing the constraint can cause issues. 
  **Referential Integrity** | If the column you want to delete is referenced by other tables in the database (i.e., it's a foreign key), you may not be able to delete the column without first deleting or modifying the referencing tables. This is to maintain referential integrity in the database.           
  **Database Support**      | Not all databases support the ability to delete columns. Always check the specific capabilities of your database system.                                                                                                                                                             
-
-![](images/tutorial_images/4c_Delete_Column.png)
 
 ### Restrictions
 
