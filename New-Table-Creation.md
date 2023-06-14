@@ -11,13 +11,13 @@ DBeaver facilitates various operations, including data manipulation and data def
 Initially, the guide will cover the essential step of creating a table. After successfully creating a table, there are
 several enhancements you can add, such as columns, constraints, indexes, and triggers. The creation
 of a table is a fundamental operation in database management, and while there are many aspects to consider, not all of
-them are mandatory. The only mandatory step is the creation of the table itself and the definition of [columns](Columns).
+them are mandatory. The only mandatory step is the creation of the table itself and the definition of [columns](Creating-columns).
 The rest are optional and can be used to enhance the functionality and integrity of your database.
 
 #### Table of contents:
 
 * [Table](#Create-table) creation
-* Creating [columns](Columns)
+* Creating [columns](Creating-columns)
 * Implementing [constraints](Constraints)
 * Utilizing [foreign keys](Foreign-Keys)
 * Creating [indexes](Indexes) 
@@ -42,9 +42,14 @@ will depend on the capabilities of your chosen database system.
 
 There are also various ways to create a table: from the **Properties editor** and from the **ER diagram**.
 
-From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select **View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables** section, right-click on the window, and choose **Create New Table**.
+From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select *
+*View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables
+** section, right-click on the window, and choose **Create New Table**.
 
-From ER Diagram: In the **Database Navigator**, double-click on the database name or table name. In the window that opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens, you can right-click and choose **Create New Table**.
+From **ER Diagram**: In the **Database Navigator**, double-click on the database name or table name. In the window that
+opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in
+the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens,
+you can right-click and choose **Create New Table**.
 
 #### Saving changes
 
@@ -114,4 +119,4 @@ refer to the documentation of the specific database system for detailed informat
 
 <br><br><br><be>
 **Further Reading:**<br>
-New Table Creation | [Creating columns](Columns) | [Implementing constraints](Constraints) | [Utilizing foreign keys](Foreign-Keys) | [Creating indexes](Indexes) | [Incorporating triggers](Triggers)
+New Table Creation | [Creating columns](Creating-columns) | [Implementing constraints](Constraints) | [Utilizing foreign keys](Foreign-Keys) | [Creating indexes](Indexes) | [Incorporating triggers](Triggers)

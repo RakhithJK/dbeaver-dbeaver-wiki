@@ -168,7 +168,7 @@
 - [[SSL configuration]] 
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
-  - [[Columns]]
+  - [[Creating columns]]
   - [[Constraints]]
   - [[Foreign-Keys]]
   - [[Indexes]]
