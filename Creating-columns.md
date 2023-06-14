@@ -3,16 +3,13 @@ crucial. In DBeaver, columns are fundamental components of tables, which in turn
 can create columns, you must first establish a [database](Connect-to-Database) and a [table](New-Table-Creation).
 
 Columns in DBeaver are versatile and customizable. You can create new columns, modify their settings, and even delete
-them when necessary. Each column in a table has a specific data type, dictating the kind of data it can store. You can
-also enforce rules on columns such as nullability, unique constraints, check constraints, and default values. These
-rules are essential to maintain data integrity, accuracy, and reliability in your database.
+them when necessary. Each column in a table has a specific data type, dictating the kind of data it can store. You can also enforce rules on columns such as nullability, unique constraints, check constraints, and default values. These rules are essential to maintain data integrity, accuracy, and reliability in your database.
 
 Beyond these basic operations, you can perform more advanced tasks with columns. You can rename columns, change
 their data types, adjust permissions, and add comments. All databases may not support some of these operations,
 so it's essential to be aware of the specific capabilities of your database system.
 
-This guide will walk you through the process of creating, modifying, and deleting columns, as well as customizing their
-settings to suit your needs. 
+This guide will walk you through the process of creating, modifying, and deleting columns, as well as customizing their settings to suit your needs. 
 
 ### Create
 
@@ -22,8 +19,7 @@ Creating a new column in DBeaver involves a series of steps that guide you throu
 
    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)  
 
-- Also you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)**
-   and selecting **Create New Column** from the context menu.
+- Also you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)** and selecting **Create New Column**.
 
    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
@@ -31,7 +27,7 @@ Creating a new column in DBeaver involves a series of steps that guide you throu
   button ![](images/tutorial_images/4d_Column_Button.png) located at the bottom of the **[Editor panel](Data-Editor)**.  
 
 2) When creating a new column, you'll be presented with the **Edit Attribute** window. Here, you can customize the
-   column's settings to suit your needs. You can adjust the *Name**, **Data type**, **Identity**, **Collation**,
+   column's settings to suit your needs. You can adjust the **Name**, **Data type**, **Identity**, **Collation**,
    **Not null**, **Default**, and add a **Comment** as needed.
 
 
@@ -64,13 +60,7 @@ As your database evolves and your needs change, you may find it necessary to mod
 Whether it's renaming a column, changing its data type, adjusting its nullability, or updating its permissions, DBeaver
 provides you with the flexibility to adapt your columns to your changing requirements.
 
-Modifying columns is a crucial aspect of database management, allowing you to ensure that your columns continue to serve
-their intended purpose effectively.
-
-Here's how you can modify a column in DBeaver:
-
-Go to the **Database Navigator** menu, and choose the proper database and column to modify its settings. Right-click the
-column and select **View Column**.  
+Modifying columns is a crucial aspect of database management, allowing you to ensure that your columns continue to serve their intended purpose effectively.
 
 Here's how you can modify a column in DBeaver:
 
@@ -81,8 +71,7 @@ you can see all the columns of the table. Right-click on the column you want to 
 settings. Right-click the column and select **View Column**.
 
 * Via the **Bottom Menu**: In the bottom menu of the **Properties Editor** interface, there is a **View Column** button ![](images/tutorial_images/View_column_button.png).
-  Clicking this button will open the properties of the currently selected column in the **Editor panel**, allowing you
-  to modify its settings.
+  Clicking this button will open the properties of the currently selected column in the **Editor panel**, allowing you to modify its settings.
 
 **Note:** Not all databases support all types of column modifications, so always check the specific capabilities of
 your database system.
