@@ -32,7 +32,7 @@ You can look for another ODBC driver that matches your database and try to use i
 
 If you have been using the legacy ODBC driver in DBeaver Community and have some connections associated with it, you need to do the following:
 
-1. Install the new ODBC driver that you want to use instead of the legacy one. 
+1. Install the new ODBC driver that you want to use instead of the legacy one ([legacy ODBC from GitHub](#2-download-legacy-odbc-from-github) or [third-party ODBC](#3-use-a-third-party-odbc-driver)). 
 
 2. Re-associate the old connections: select such connections, go to Database -> Change Connection(s) Driver, and find the newly installed ODBC.
 
