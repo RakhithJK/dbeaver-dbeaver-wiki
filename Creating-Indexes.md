@@ -67,7 +67,7 @@ As your database evolves, there might be a need to modify the properties of your
 the indexed columns, adjusting the uniqueness constraint, or renaming the index. DBeaver provides the flexibility to
 make these modifications as required. Here's the process:
 
-- **Properties Editor**: Open the Properties Editor by double-clicking on the table name. Within the selected table, you'll find a
+- **Properties Editor**: Open the **Properties Editor** by double-clicking on the table name. Within the selected table, you'll find a
   folder named **Indexes**. Right-click on the index you want to modify and select **View Index**.
 - **Database Navigator**: In the Database Navigator, select the appropriate database and table. Within the selected table, you'll find a
   folder named **Indexes**. Right-click the index and select **View Index**.
@@ -81,7 +81,7 @@ make these modifications as required. Here's the process:
 
 1) You can delete an index either through the **Properties Editor** or the **Database Navigator**:
 
-- Using the **Properties Editor**: Open the Properties Editor, navigate to the **Indexes** tab of the corresponding table,
+- Using the **Properties Editor**: Open the **Properties Editor**, navigate to the **Indexes** tab of the corresponding table,
   and find the index you want to delete.
 
    ![](images/tutorial_images/14c_Delete_Index.png)
@@ -103,8 +103,8 @@ make these modifications as required. Here's the process:
   corresponding unique index.
 * **Unique Indexes**: These enforce uniqueness on the indexed column(s), which can limit data entry if values must be
   distinct.
-* **Performance Impact**: Indexes can improve query speed, but they slow down data modification operations (INSERT, UPDATE,
-  DELETE) as the index must also be updated.
+* **Performance Impact**: Indexes can improve query speed, but they slow down data modification operations (`INSERT`, `UPDATE`,
+  `DELETE`) as the index must also be updated.
 * **Storage**: Indexes consume disk space. This might become significant if there are many indexes or the table is large.
 * **Null Values**: Depending on the database system, there may be restrictions related to indexing null values.
 * **Data Types**: Certain data types might not be indexable or may require specific index types.
