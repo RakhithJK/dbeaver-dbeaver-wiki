@@ -18,10 +18,10 @@ The rest are optional and can be used to enhance the functionality and integrity
 
 * [Table](#Create-table) creation
 * Creating [columns](Creating-columns)
-* Implementing [constraints](Constraints)
-* Utilizing [foreign keys](Foreign-Keys)
-* Creating [indexes](Indexes) 
-* Incorporating [triggers](Triggers)
+* Implementing [constraints](Implementing-Constraints)
+* Utilizing [foreign keys](Utilizing-Foreign-Keys)
+* Creating [indexes](Creating-Indexes) 
+* Incorporating [triggers](Incorporating-Triggers)
 
 
 While this guide is designed around PostgreSQL within DBeaver, the processes can vary slightly with other database systems. 
@@ -42,11 +42,11 @@ will depend on the capabilities of your chosen database system.
 
 There are also various ways to create a table: from the **Properties editor** and from the **ER diagram**.
 
-From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select *
-*View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the **Tables
-** section, right-click on the window, and choose **Create New Table**.
+- From **Properties editor**: In the **Database Navigator**, double-click on the database name or table name, or select
+**View schema** from the context menu. In the window that opens, navigate to the **Properties** tab, select the
+**Tables** section, right-click on the window, and choose **Create New Table**.
 
-From **ER Diagram**: In the **Database Navigator**, double-click on the database name or table name. In the window that
+- From **[ER Diagram](ER-Diagrams)**: In the **Database Navigator**, double-click on the database name or table name. In the window that
 opens, navigate to the **ER Diagram** tab, right-click on the window, and choose **Create New Table**. Alternatively, in
 the **Database Navigator**, right-click on the database/table name and click **View Diagram**. In the window that opens,
 you can right-click and choose **Create New Table**.
@@ -61,7 +61,7 @@ DBeaver and hasn't been created in the actual database. Here are the three optio
 * Select the desired table in the **Database Navigator** and press <kbd>Ctrl+S</kbd> (or <kbd>CMD+S</kbd> for Mac OS),
   choose **Persist** to save the changes.
 * Utilize the **Save** button ![](images/tutorial_images/10b_SaveButton.png) located at the bottom of the
-  **[Editor panel](Data-Editor)** and press **Persist** to save the changes.
+  **Properties editor** and press **Persist** to save the changes.
 
 ![](images/tutorial_images/10_Table_Save.png)
 
@@ -117,6 +117,6 @@ However, there are some general considerations to keep in mind when creating tab
 Remember that the specific restrictions and limitations can vary depending on the database system you're using. Always
 refer to the documentation of the specific database system for detailed information.
 
-<br><br><br><be>
+<br><br><br><br>
 **Further Reading:**<br>
-New Table Creation | [Creating columns](Creating-columns) | [Implementing constraints](Constraints) | [Utilizing foreign keys](Foreign-Keys) | [Creating indexes](Indexes) | [Incorporating triggers](Triggers)
+New Table Creation | [Creating columns](Creating-columns) | [Implementing constraints](Implementing-Constraints) | [Utilizing foreign keys](Utilizing-Foreign-Keys) | [Creating indexes](Creating-Indexes) | [Incorporating triggers](Incorporating-Triggers)

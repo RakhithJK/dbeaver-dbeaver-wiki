@@ -170,10 +170,10 @@
 - [[How to set a variable if dbeaver.ini is read-only]]
 - [[New Table Creation]]
   - [[Creating columns]]
-  - [[Constraints]]
-  - [[Foreign-Keys]]
-  - [[Indexes]]
-  - [[Triggers]]
+  - [[Implementing Constraints]]
+  - [[Utilizing Foreign-Keys]]
+  - [[Creating Indexes]]
+  - [Incorporating Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->

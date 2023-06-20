@@ -15,11 +15,13 @@ This guide will walk you through the process of creating, modifying, and deletin
 
 Creating a new column in DBeaver involves a series of steps that guide you through the process. Here's how you can do it:
 
-1) Go to the **Columns** tab in the **[Properties editor](Properties-Editor)**, right-click on the pane of the object's sub-entities, and select **Create New Column** from the context menu.  
+1) Go to the **Columns** tab in the **[Properties editor](Properties-Editor)**, right-click on the pane of the object's
+   sub-entities, and select **Create New Column** from the context menu.
 
    ![](images/tutorial_images/4_RightClick_CreateNewColumn.png)  
 
-- Also you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)** and selecting **Create New Column**.
+- Also you can also add a new column by expanding the table view in the **[Database Navigator](Database-Navigator)** and
+  selecting **Create New Column**.
 
    ![](images/tutorial_images/4a_ExpandTable_CreateNewColumn.png)  
 
@@ -29,7 +31,6 @@ Creating a new column in DBeaver involves a series of steps that guide you throu
 2) When creating a new column, you'll be presented with the **Edit Attribute** window. Here, you can customize the
    column's settings to suit your needs. You can adjust the **Name**, **Data type**, **Identity**, **Collation**,
    **Not null**, **Default**, and add a **Comment** as needed.
-
 
    ![](images/tutorial_images/5_Column_Edit.png)  
 
@@ -78,13 +79,21 @@ your database system.
 
 ### Delete
 
-Deleting columns in DBeaver is a simple process, but it's also a significant action that should be done cautiously.
-Once a column is deleted, all the data stored in that column will be lost. Here's how you can delete a column:
-1) Navigate to the table and column in question using the **Database Navigator**.
-2) Right-click on the column and select **Delete** from the context menu. Alternatively, you can select the necessary column
-and press the <kbd>Delete</kbd> key.
-3) A confirmation dialog will appear, asking you to confirm that you want to delete the column. If you're sure you want to
-delete the column, click **Yes**.
+1) You can delete a column either through the **Properties Editor** or the **Database Navigator**:
+
+- Using the **Properties Editor**: Open the Properties Editor, navigate to the **Constraints** tab of the corresponding table,
+  and find the column you want to delete.
+
+- Using the **Database Navigator**: Navigate to the database where the table with the column is located. Find and select
+  the table, open the **Columns** folder, and find the column you want to delete.
+
+2) To delete a column, right-click on the column's name and select **Delete**, or you can select the necessary column
+   and press the <kbd>Delete</kbd> key, or **Delete button** ![](images/tutorial_images/Delete_button.png) (in the **Bottom Menu** of the **Properties Editor**).
+
+3) A confirmation dialog will appear, asking you to confirm the deletion. Before proceeding, ensure that you've selected
+   the correct column for deletion. 
+
+4) After confirming the deletion, you'll need to persist the changes to apply them to the database.
 
 
 ![](images/tutorial_images/4c_Delete_Column.png)
@@ -116,6 +125,6 @@ interacts with other data in the database. Let's take a closer look at these res
 * **Default Value**: A column can be given a default value. If no value is specified during data insertion, the column uses
   the default.
 
-<br><br><br><be>
+<br><br><br><br>
 **Further Reading:**<br>
-[New Table Creation](New-Table-Creation) | Creating columns | [Implementing constraints](Constraints) | [Utilizing foreign keys](Foreign-Keys) | [Creating indexes](Indexes) | [Incorporating triggers](Triggers)
+[New Table Creation](New-Table-Creation) | Creating columns | [Implementing constraints](Implementing-Constraints) | [Utilizing foreign keys](Utilizing-Foreign-Keys) | [Creating indexes](Creating-Indexes) | [Incorporating triggers](Incorporating-Triggers)
