@@ -173,7 +173,7 @@
   - [[Implementing Constraints]]
   - [[Utilizing Foreign-Keys]]
   - [[Creating Indexes]]
-  - [Incorporating Triggers]]
+  - [[Incorporating Triggers]]
 
 #### Development <!--CMD:SKIP-->
 - [[Build from sources|Build-from-sources]] <!--CMD:SKIP-->
