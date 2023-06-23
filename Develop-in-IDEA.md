@@ -44,8 +44,8 @@ Let's start!
 1. Open `File->Project structure...`.
 1. Make sure you have the proper project Java SDK configured (Java 11+)
 1. Go to `Global libraries`.
-1. Create new library `ECLIPSE` (name and case are important)
-1. Click the "Add" button. Select the folder `eclipse-ide-path/plugins`.
+1. Click the "Add" button. Select Java. Select the folder eclipse-ide-path/plugins. Click the OK button, then the dialog to add the library to modules will appear. In the dialog, press "Cancel" 
+1. Change the library name to ECLIPSE (name and case are important)
 1. Recent IDEA should add all Eclipse jars as dependencies. But in some IDEA versions you will also need to add some other folders manually:  
    - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.batik*/lib`. 
    - `eclipse-ide-path/plugins/org.jkiss.bundle.apache.poi*/lib`. 
