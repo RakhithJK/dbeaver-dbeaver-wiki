@@ -1,6 +1,6 @@
-## Reset UI settings
+## Reset settings
 
-You might want to reset UI settings in the following cases:
+You might want to reset settings in the following cases:
 - Shortcuts suddenly stop working
 - Theme colors are messed up
 - Broken or invalid localization
@@ -11,14 +11,15 @@ This can happen due to the following reasons:
 - After switching between newer and older versions
 - After an incorrect shutdown
 
-You can perform a reset using the <kbd>Help</kbd> &rArr; <kbd>Reset UI Settings...</kbd> action.
+You can perform a reset using the <kbd>Help</kbd> &rArr; <kbd>Reset Settings...</kbd> action.
 
 > **Be careful**: this will reset **all** UI settings and other user preferences, including:
+> - resource cache, imported projects
 > - layout of menus, toolbars, windows, editors
 > - theme, colors, and fonts
 > - other settings from installed third-party plugins
 
-After accepting the confirmation, DBeaver will restart and greet you with a fresh workspace.
+After choosing the appropriate options, DBeaver will restart and greet you with a fresh workspace.
 
 ### Manual reset
 
