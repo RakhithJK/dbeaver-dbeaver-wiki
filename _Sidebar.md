@@ -141,7 +141,7 @@
 
 #### Troubleshooting
 - [[Command Line]]
-- [[Reset UI settings]]
+- [[Reset settings|Reset UI settings]]
 - [[Reset workspace]]
 - [[Troubleshooting system issues]]
 - [[Posting issues]]
