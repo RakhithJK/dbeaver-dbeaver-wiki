@@ -63,6 +63,7 @@
 - [[Security in PRO products | Security-in-DBeaver-PRO]]
 - [[Bookmarks]]
 - [[Shortcuts]]
+- [[Accessibility | Accessibility-Guide]]
 
 #### Database Management
 - [[Sample Database]]
