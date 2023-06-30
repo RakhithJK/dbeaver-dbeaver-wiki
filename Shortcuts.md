@@ -43,7 +43,7 @@ If you mostly use keyboard, to get more shortcuts you can switch default key sch
 |Alt+Space|⌥Space|Follow foreign key link|
 |Ctrl+Alt+Right|⌃⌥→|Move to next row|
 |Ctrl+Alt+Left|⌃⌥←|Move to previous row|
-|Ctrl+1|⌃1|Foreign keys and tables referencing current table|
+|Ctrl+Shift+1|⌃1|Foreign keys and tables referencing current table|
 |Ctrl+R|⌃R|Reject data changes|
 |Ctrl+Backspace|⌃⌫|Set cell to default value|
 |Ctrl+\`|⌃\`|Switch results presentation|
