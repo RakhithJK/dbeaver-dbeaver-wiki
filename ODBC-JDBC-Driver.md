@@ -3,8 +3,6 @@
 
 ODBC allows you to create a connection to almost any database in DBeaver by using native ODBC drivers. You can use it as an alternative to DBeaver drivers or if DBeaver does not have a driver for your database.
 
-**Note: This feature is only available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions.**
-
 ## Installing ODBC driver manager
 
 DBeaver works with ODBC drivers using ODBC driver manager. A driver manager is a component is installed in
