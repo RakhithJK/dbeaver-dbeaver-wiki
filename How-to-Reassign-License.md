@@ -1,3 +1,6 @@
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+
+
 After purchasing a set of DBeaver licenses, you have to assign each license to an end user.
 
 If an employee subsequently is leaving the company or the team that is using DBeaver, the license admin may need to reassign the license to another employee.
