@@ -1,3 +1,5 @@
+**Note: This feature is available in [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+
 Sometimes you need to compare data from two sources (tables) which have almost identical data with just a few differences. 
 There may be plenty reasons to do so: quickly visualize and navigate through all the differences; copy different rows or individual values; export them using [Data Transfer](Data-transfer).
 
