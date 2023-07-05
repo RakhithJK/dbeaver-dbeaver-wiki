@@ -1,3 +1,5 @@
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+
 DBeaver is fully integrated with the Git team work/version control system.
 You can keep your project configuration, scripts, diagrams, bookmarks and other artifacts in a Git repository.
 
