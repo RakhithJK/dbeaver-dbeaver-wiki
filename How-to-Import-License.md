@@ -1,3 +1,5 @@
+**Note: This feature is available in [Lite](Lite-Edition), [Enterprise](Enterprise-Edition), [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.**
+
 * [Import from email](#import-from-email)
 * [Import from the personal account](#import-from-the-personal-account)
 * [Insert the License key into the License Manager](#insert-the-license-key-into-the-license-manager)
