@@ -1,6 +1,6 @@
 ## Overview
 
-This guide describes how to set up application preferences through configuration files without even booting it up.
+This guide describes how to set up an application preferences through configuration files without even booting it up.
 
 ### Locating preference files
 
