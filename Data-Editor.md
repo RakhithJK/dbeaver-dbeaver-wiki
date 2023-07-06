@@ -3,83 +3,101 @@ The Data editor appears:
 * As the **Results** tab when you run a custom SQL query in [SQL Editor](SQL-Editor)
 
 The Data editor allows the viewing and data editing of a database table or view.
-The central part of the Data editor is the data table. The editor also provides two toolbars and a filter field:
+The central part of the Data editor is the data table. The editor also provides [top toolbar](#top-toolbar), [bottom toolbar](#bottom-toolbar), [left side bar](#left-side-bar), [right side bar](#right-side-bar) and a filter field:
 
 ![](images/ug/Data-Editor-with-markup.png)
 
-To learn how many rows the data table contains, click the **Calculate total row count** button in the bottom toolbar. The number of rows appears in a status field next to the button: ![](images/ug/Calculate-rows-button.png)
+To learn how many rows the data table contains, click the **Calculate total row count** button in the bottom toolbar.
+The number of rows appears in a status field next to the button: ![](images/ug/Calculate-rows-button.png)
 
 To learn about ways to navigate data in the data table, see [Navigation](Navigation) article.
 
+### Top toolbar
 The top toolbar contains the following buttons:
 
-Button|Name|Description
-------|----|-----------
-![](images/ug/Apply-filter-criteria-button.png)|**Apply filter criteria**|Applies filter criteria entered in the filter field above the data table.
-![](images/ug/Remove-all-filters-orderings.png)|**Remove all filters/orderings**|Removes all filters and orderings applied to the data.
-![](images/ug/Save-filter-settings-for-current-object.png)|**Save filter settings for current object**|Saves the current filter settings for the database object to apply next time when you reopen it in the editor, see details in the [Data Filters](Data-Filters) article.
-![](images/ug/Filter-button.png)|**Custom Filters**|Opens the Result Set Order/Filter Settings window, see [Data Filters](Data-Filters) article for more information.
-![](images/ug/Reset-button.png)|**Configure auto-refresh**|Allows configuring data auto-refresh settings, see [Data Refresh](Data-Refresh) article for details.
-![](images/ug/History-navigation.png)|Forward and backward -  history navigation buttons|Navigate forward and backward in the Data Editor history, see _History_ section of [Navigation](Navigation) article for more information. The buttons are equivalent to pressing the key combinations: <kbd>Alt+Left</kbd> (backward) and <kbd>Alt+right</kbd> (forward).
+ Button                                                     | Name                                               | Description                                                                                                                                                                                                                                                               
+------------------------------------------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ![](images/ug/Remove-all-filters-orderings.png)            | **Remove all filters/orderings**                   | Removes all filters and orderings applied to the data in the filter field.                                                                                                                                                                                                                    
+ ![](images/ug/Save-filter-settings-for-current-object.png) | **Save filter settings for current object**        | Saves the current filter settings for the database object to apply next time when you reopen it in the editor, see details in the [Data Filters](Data-Filters) article.                                                                                                   
+ ![](images/ug/Filter-button.png)                           | **Custom Filters**                                 | Opens the Result Set Order/Filter Settings window, see [Data Filters](Data-Filters) article for more information.                                                                                                                                                         
+ ![](images/ug/History-navigation.png)                      | Forward and backward -  history navigation buttons | Navigate forward and backward in the Data Editor history, see the [history section](Navigation#history) of our article for more information. 
 
-The sidebar contains the following tabs:
+### Left side bar
+The left side bar contains the following tabs:
 
-Button|Name|Description Chart_button
-------|----|-----------
-![](images/ug/Grid-button.png)|**Grid**|Switches to grid view of data
-![](images/ug/Text-button.png)|**Text**|Switches to plain text view of data
-![](images/ug/Chart_button.png)|**Chart**|Switches to chart view. For more details on charts, see the [Managing Charts](Managing-Charts) article.
-![](images/ug/Record-button.png)|**Record**|- Same as pressing <kbd>Tab</kbd><br/>- Switches the positions of rows and columns so that the columns appear as rows, and the rows hide in one **Value** column, see details in the _Table vs. Record Views_ section of the [Data Appearance](Data-Appearance) article.
+ Button                            | Name        | Description                                                                                                                                                                                                                                               
+-----------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ![](images/ug/Grid-button.png)    | **Grid**    | Switches to grid view of data.                                                                                                                                                                                                                                           
+ ![](images/ug/Text-button.png)    | **Text**    | Switches to plain text view of data.                                                                                                                                                                                                                                     
+ ![](images/ug/spatial-button.png) | **Spatial** | Switches to spatial view. For more details, see the [GIS data](Working-with-Spatial-GIS-data) article.                                                                                                                                                                   
+ ![](images/ug/Chart_button.png)   | **Chart**   | Switches to chart view. For more details on charts, see the [Managing Charts](Managing-Charts) article.                                                                                                                                                                  
+ ![](images/ug/Record-button.png)  | **Record**  | - Same as pressing <kbd>Tab</kbd><br/>- Switches the positions of rows and columns so that the columns appear as rows, and the rows hide in one **Value** column, see details in the [Table vs. Record Views section](Data-View-and-Format#table-vs-record-views) of our article. 
 
+### Right side bar
+The right side bar contains the following tabs (see the [Panels](Panels) for more information):
+
+ Button                               | Name           | Description                                                     
+--------------------------------------|----------------|-----------------------------------------------------------------
+ ![](images/ug/Panels-button.png)     | **Panels**     | Opens panels on the right side of the Data Editor.              
+ ![](images/ug/Calc-button.png)       | **Calc**       | Opens the result cells calculation panel (SUM, MAX, AVG, etc.). 
+ ![](images/ug/Grouping-button.png)   | **Grouping**   | Opens grouping panel window tools.                              
+ ![](images/ug/Metadata-button.png)   | **Metadata**   | Opens Metadata panel.                                           
+ ![](images/ug/References-button.png) | **References** | Opens References panel.                                         
+ ![](images/ug/Value-button.png)      | **Value**      | Opens Value Viewer.                                             
+
+### Bottom toolbar
 The bottom toolbar provides the following buttons:
 
-Button|Name|Description
-------|----|-----------
-![](images/ug/Save-button-Data-Editor.png)|**Save**|Saves all unsaved changes to the data such as adding, duplicating, deleting rows, inline editing of values, see [the Data Viewing and Editing](Data-Viewing-and-Editing) article for information
-![](images/ug/Cancel-button-Data-Editor.png)|**Cancel**|Discards all unsaved changes to the data
-![](images/ug/Script-button.png)|**Script**|Opens the Preview Changes window in which you can see changes that you have made to the data, see details in the [Data Viewing and Editing](Data-Viewing-and-Editing) article
-![](images/ug/Edit-cell-value-button.png)|**Edit cell value in separate dialog/editor**|Opens the cell in focus for editing in a separate editor or dialog box, see details in the _Cell Editor_ section of the [Data Viewing and Editing](Data-Viewing-and-Editing) article
-![](images/ug/Add-new-row-button.png)|**Add new row**|Adds a new empty row below the current row, see details in the _Adding, Copying and Deleting Rows_ section of the [Data Viewing and Editing](Data-Viewing-and-Editing) article
-![](images/ug/Duplicate-current-row-button.png)|**Duplicate current row**|Copies the current rows and pastes the copy below the current row, see details in _Adding, Copying and Deleting Rows_ section of [Data Viewing and Editing](Data-Viewing-and-Editing) article
-![](images/ug/Delete-current-row-button.png)|**Delete current row**|Colors the rows in focus in red to mark them for deletion, see details in the _Adding, Copying and Deleting Rows_ section of the [Data Viewing and Editing](Data-Viewing-and-Editing) article
-![](images/ug/Move-to-first-row-button.png)|**Move to first row**|Moves the focus (highlighting) from the current to the first row of the table
-![](images/ug/Move-to-previous-row-button.png)|**Move to previous row**|Moves the focus (highlighting) from the current to the previous row of the table
-![](images/ug/Move-to-next-row-button.png)|**Move to next row**|Moves the focus (highlighting) from the current to the next row of the table
-![](images/ug/Move-to-last-row-button.png)|**Move to last row**|Moves the focus (highlighting) from the current to the last row of the table
-![](images/ug/Fetch-next-page-button.png)|**Fetch next page of results**|Fetches the next portion of data (next N rows) making it ready for display, see _Scrolling Results Page_ section of [Navigation](Navigation) article for more information
-![](images/ug/Fetch-all-rows-button.png)|**Fetch all rows**|Fetches the whole result set making it ready for display, see the _Scrolling Results Page_ section of the [Navigation](Navigation) article for more information
-![](images/ug/Panels-button.png)|**Panels**|Opens panels on the right side of the Data Editor, see the [Panels](Panels) for information
-![](images/ug/Configure-columns-visibility-icon.png)|**Configure**|Opens a dropdown menu with settings
-![](images/ug/json-button.png)|**JSON**|- Available in EE version only for MongoDB documents and JSON tables<br/>- Switches to JSON view of data
-![](images/ug/xml-button.png)|**XML**|- Available in EE version only for XML tables<br/>- Switches to XML view of data
-![](images/ug/Mock-data-button.png)|**Generate Mock Data**|Available in EE version only. Opens the [Mock Data Generator](Mock-Data-Generation-in-DBeaver) window
-![](images/ug/Row-count-details-button.png)|**Rows count details**|Opens the Status details dialog box showing the timing details of fetching table rows
-![](images/ug/Calculate-total-rows-button.png)|**Calculate total row count**|Calculates the total number of rows in the table
+ Button                                               | Name                                          | Description                                                                                                                                                                                              
+------------------------------------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ![](images/ug/Refresh-button.png)                    | **Refresh**                                   | Refreshes the whole results set including all items that are not visible on the screen, while its dropdown option allows for customizing the refresh frequency over a specific period.                   
+ ![](images/ug/Save-button-Data-Editor.png)           | **Save**                                      | Saves all unsaved changes to the data such as adding, duplicating, deleting rows, inline editing of values, see [the Data Viewing and Editing](Data-Viewing-and-Editing) article for information.        
+ ![](images/ug/Cancel-button-Data-Editor.png)         | **Cancel**                                    | Discards all unsaved changes to the data.                                                                                                                                                                
+ ![](images/ug/Edit-cell-value-button.png)            | **Edit cell value in separate dialog/editor** | Opens the cell in focus for editing in a separate editor or dialog box, see details in the [Cell Editor section](Data-Viewing-and-Editing#cell-editor) of our article.                                   
+ ![](images/ug/Add-new-row-button.png)                | **Add new row**                               | Adds a new empty row below the current row, see details in the _Adding, Copying and Deleting Rows_ section of the [Data Viewing and Editing](Data-Viewing-and-Editing) article.                          
+ ![](images/ug/Duplicate-current-row-button.png)      | **Duplicate current row**                     | Copies the current rows and pastes the copy below the current row, see details in [Adding, Copying and Deleting Rows section](Data-Viewing-and-Editing#adding-copying-and-deleting-rows) of our article. 
+ ![](images/ug/Delete-current-row-button.png)         | **Delete current row**                        | Colors the rows in focus in red to mark them for deletion, see details in the [Adding, Copying and Deleting Rows section](Data-Viewing-and-Editing#adding-copying-and-deleting-rows) of our article.     
+ ![](images/ug/Move-to-first-row-button.png)          | **Move to first row**                         | Moves the focus (highlighting) from the current to the first row of the table.                                                                                                                           
+ ![](images/ug/Move-to-previous-row-button.png)       | **Move to previous row**                      | Moves the focus (highlighting) from the current to the previous row of the table.                                                                                                                        
+ ![](images/ug/Move-to-next-row-button.png)           | **Move to next row**                          | Moves the focus (highlighting) from the current to the next row of the table.                                                                                                                            
+ ![](images/ug/Move-to-last-row-button.png)           | **Move to last row**                          | Moves the focus (highlighting) from the current to the last row of the table.                                                                                                                            
+ ![](images/ug/Fetch-all-rows-button.png)             | **Fetch all data**                            | Fetches the whole result set making it ready for display, see the _Scrolling Results Page_ section of the [Navigation](Navigation) article for more information.                                         
+ ![](images/ug/Configure-columns-visibility-icon.png) | **Configure**                                 | Opens a dropdown menu with settings.                                                                                                                                                                     
+ ![](images/ug/fetch-size-window.png)                 | **Result-set fetch size**                     | Displays the selected number of rows in the result-set, which can be updated by clicking the <kbd>Refresh</kbd> button.                                                                                  
+ ![](images/ug/Calculate-total-rows-button.png)       | **Calculate total row count**                 | Calculates the total number of rows in the table.                                                                                                                                                        
 
-NOTE: Some of these buttons may be disabled and may not work if you are using a read-only connection, connecting to a read-only database or if you see the result of a complex query, such as joining two or more tables.
+**Note**: Some of these buttons may be disabled and may not work if you are using a read-only connection, connecting to
+a read-only database or if you see the result of a complex query, such as joining two or more tables.
 
-Every cell in the data table has a context menu – right-click the cell to open the menu. The context menu provides the following items:
+### Column context menu
+Each column has a context menu, accessed by clicking the downward arrow button ![](images/ug/downward-arrow.png), providing different filter options.
 
-Menu Item|Description
----------|-----------
-**Cut**|Cuts the content of the current cell or column to the clipboard
-**Copy**|Copies the content of the current cell or column to the clipboard
-**Advanced Copy**|Opens advanced copy submenu that allows copying data with preset formatting parameters 
-**Paste**|Pastes the copied content to the cells in focus
-**Advanced Paste**|Pastes several values delimited with a tabulation or line break
-**Delete**|Deletes the row that has the cell in focus<br/> NOTE: In fact, when users click **Delete**, the system only highlights the red row while the actual deletion happens when users click **Save**.
-**Edit cell**|-	For CLOB/BLOB data format, opens the contents of the cell in a new tab<br/> - For all formats except CLOB/BLOB, opens a properties window for the cell<br/>
-**Inline edit**|- Same as double-click on a cell<br/>- Makes the cell editable
-**Set to NULL**|Sets the value of selected cells to NULL
-**Hide column**|Hides the column currently in focus, see the Managing Display of Columns in Data Table section further in this article
-**Save to file…**|- Appears only for columns with BLOB/CLOB data<br/>- Opens the standard Save As window that allows saving data contained in the cell to a file 
-**Load from file…**|- Appears only for columns with BLOB/CLOB data<br/>- Opens a standard window for opening files
-**Order/Filter**|Displays a submenu that allows selecting filter criteria for the data. The submenu contains the most common filters that can be applied to the cell in focus – see details in [Data Filters article](Data-Filters).<br/> By default, DBeaver filters data by sending a request to the server (the Server-side results ordering checkbox selected). To filter data on the client side using DBeaver`s internal algorithm, clear the checkbox.
-**View/Format**|Opens a submenu that provides tools for formatting and modifying the view of data, see [Data View and Format](Data-View-and-Format)
-**Navigate**|Opens a submenu that helps users navigate throughout the data table, see [Navigation](Navigation)
-**Layout**|Changes the layout of data, see the _Table vs. Record Views_ section of the [Data View and Format](Data-View-and-Format) article
-**Export Resultset**|Opens the Data Transfer wizard that guides you through the steps to select a format and export data<br/>NOTE: The system exports the whole result set including records that are not visible on the screen and preserves all applied data filters and ordering.
-**Generate SQL**|Opens a submenu on which you can select the type of SQL query to generate
-**Refresh**|Refreshes the whole results set including all items that are not visible on the screen
+![](images/ug/column-submenu.png)
+
+### Cell context menu
+Every cell in the data table also has a context menu – right-click the cell to open the menu. The context menu provides the
+following items:
+
+ Menu Item                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        
+--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ **Copy**                 | Copies the content of the current cell or column to the clipboard.                                                                                                                                                                                                                                                                                                                                                                                 
+ **Advanced Copy**        | Opens advanced copy submenu that allows copying data with preset formatting parameters.                                                                                                                                                                                                                                                                                                                                                            
+ **Paste**                | Pastes the copied content to the cells in focus.                                                                                                                                                                                                                                                                                                                                                                                                   
+ **Advanced Paste**       | Pastes several values delimited with a tabulation or line break.                                                                                                                                                                                                                                                                                                                                                                                   
+ **Delete**               | Deletes the row that has the cell in focus<br/> NOTE: In fact, when users click **Delete**, the system only highlights the red row while the actual deletion happens when users click **Save**.                                                                                                                                                                                                                                                    
+ **Edit**                 | Opens a submenu enabling inline editing, see the [Data Viewing and Editing](Data-Viewing-and-Editing) article.                                                                                                                                                                                                                                                                                                                                     
+ **Order**                | Displays a submenu that allows selecting ordering criteria for the data. The submenu contains the most common ordering options that can be applied to the column in focus – see details in [Data Filters](Data-Filters) article. By default, DBeaver orders data by sending a request to the server (the Server-side results ordering checkbox selected). To order data on the client side using DBeaver's internal algorithm, clear the checkbox. 
+ **Filter**               | Displays a submenu that allows selecting filter criteria for the data. The submenu contains the most common filters that can be applied to the cell in focus – see details in [Data Filters](Data-Filters) article. By default, DBeaver filters data by sending a request to the server (the Server-side results ordering checkbox selected). To filter data on the client side using DBeaver's internal algorithm, clear the checkbox.            
+ **View/Format**          | Opens a submenu that provides tools for formatting and modifying the view of data, see the [Data View and Format](Data-Filters) article.                                                                                                                                                                                                                                                                                                           
+ **Navigate**             | Opens a submenu that helps users navigate throughout the data table, see the [Navigation](Navigation) article.                                                                                                                                                                                                                                                                                                                                     
+ **Layout**               | Changes the layout of data, see the [Data View and Format](Data-View-and-Format#table-vs-record-views) article.                                                                                                                                                                                                                                                                                                                                    
+ **Export data**          | Opens the Data Transfer wizard that guides you through the steps to select a format and export data, see the [Data Tansfer](Data-Transfer) article.<br/>**Note**: The system exports the whole result set including records that are not visible on the screen and preserves all applied data filters and ordering.                                                                                                                                
+ **Generate SQL**         | Opens a submenu on which you can select the type of SQL query to generate, see the [SQL Generation](SQL-Generation) article.                                                                                                                                                                                                                                                                                                                       
+ **Generate Mock Data**   | Opens Mock Data Generator, see the [Mock Data Generation in DBeaver](Mock-Data-Generation-in-DBeaver) article.                                                                                                                                                                                                                                                                                                                                     
+ **Logical structure**    | Opens a submenu allowing you to write virtual column expressions, see our [article](Virtual-column-expressions).                                                                                                                                                                                                                                                                                                                                   
+ **Open with**            | Opens the data in external applications like Excel or a web browser.                                                                                                                                                                                                                                                                                                                                                                               
+ **Toggle result pannel** | Opens Value Viewer panel on the right side of the Data Editor.                                                                                                                                                                                                                                                                                                                                                                                     
+ **Refresh**              | Refreshes the whole results set including all items that are not visible on the screen.                                                                                                                                                                                                                                                                                                                                                            
+
 
 For more information about using the Data Editor, please see the subsections of this article - open them via the contents tree on the right.

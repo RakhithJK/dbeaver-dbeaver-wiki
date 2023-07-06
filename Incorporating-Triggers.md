@@ -38,7 +38,7 @@ triggers can vary based on the database system in use, so always refer to the sp
  **Language**      | This is the programming language in which the function is written. For most database systems, this would be SQL or a variant of SQL, such as PL/pgSQL for PostgreSQL or PL/SQL for Oracle. 
  **Return Type**   | This specifies the type of value the function will return. For a trigger function, this is usually specified as **trigger**.                                                                 
 
-**Note**:These settings can vary depending on the specific database system you're using. Always refer to the
+**Note**: These settings can vary depending on the specific database system you're using. Always refer to the
 documentation for your database system for the most accurate information.
 
 3) After you've chosen the needed settings for your function, you'll need to write the actual code for the function.

@@ -12,8 +12,7 @@ consideration due to their significant impact on data relationships.
 
 ### Create
 
-Creating a new foreign key in DBeaver involves a series of steps that guide you through the process. Here are three ways
-you can do it:
+Creating a new foreign key in DBeaver involves a series of steps that guide you through the process. 
 
 1) You can start the process of creating a new foreign key in three ways:
 - Using the **[Properties editor](Properties-Editor)**: Open the Properties Editor and navigate to the **Foreign Keys**
@@ -22,7 +21,7 @@ you can do it:
    ![](images/tutorial_images/11_Create_New_FK.png)  
 
 - Using the **[Database Navigator](Database-Navigator)**: Navigate to the database where the table you want to add a
-  foreign Key to is located. Find and select the table for which you want to create a new foreign key. Within the
+  foreign key to is located. Find and select the table for which you want to create a new foreign key. Within the
   selected table, you'll find a folder named **Foreign Keys**. 
 - Additionally, to create a new foreign key, you can utilize the **Create New Foreign Key**
   button ![](images/tutorial_images/11e_FK_Button.png) located at the bottom of the **Properties editor**.

@@ -1,22 +1,22 @@
-<a href="https://dbeaver.com">DBeaver Ultimate Edition</a> (UE) is a commercial version of DBeaver. The UE license is perpetual and comes with one or two years of premium support.  
-The UE version's special feature is AWS cloud integration in the form of Cloud databases explorer which is an interface for easy management of the cloud data sources. In addition to that Ultimate edition includes all features of the CE version plus: 
+<a href="https://dbeaver.com/dbeaver-ultimate/">DBeaver Ultimate Edition</a> (UE) is a commercial version of DBeaver. The UE license is perpetual and comes with one or two years of premium support.  
 
+The UE version's special feature is AWS cloud integration in the form of Cloud databases explorer which is an interface
+for easy management of the cloud data sources. In addition to that Ultimate edition includes all features of the CE
+version plus:
 
-- All popular JDBC drivers are included in the UE distribution so you will not need to download/configure them separately.
-- Support of NoSQL databases:
-  - Apache Cassandra
-  - MongoDB
-  - Redis
-  - InfluxDB
-  - Couchbase
-  - CouchDB
-  - Google BigTable
-  - AWS DynamoDB
-  - AWS Keyspaces
-  - AWS DocumentDB
-  - AWS Timestream
-  - Yugabyte CQL
-  - WMI (Windows Management Instrumentation)
+- All popular JDBC drivers are included in the UE distribution so you will not need to download/configure them
+  separately.
+- Support of Databases:
+
+ Cloud Databases  | NoSQL Databases | Embedded                                 
+------------------|-----------------|------------------------------------------
+ Apache Cassandra | Google BigTable | WMI (Windows Management Instrumentation) 
+ MongoDB          | AWS Keyspaces   
+ InfluxDB         | AWS DocumentDB  
+ Couchbase        | AWS Timestream  
+ CouchDB          | AWS DynamoDB    
+ Yugabyte CQL     | Redis
+
 - Additional UE plugins:
   - Office formats support (XLS) for data import
   - Visual Query Builder

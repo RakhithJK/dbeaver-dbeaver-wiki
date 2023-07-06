@@ -1,45 +1,86 @@
+**Note**: This feature is available in [Ultimate](Ultimate-Edition) and <a href="https://dbeaver.com/dbeaver-team-edition">Team</a> editions only.
+
+
 ### Overview 
 
-Cloud Explorer provides a deep integration with classic cloud service providers such as Amazon, Google and Azure.  
+**Cloud Explorer** offers deep integration with popular cloud service providers. As of the latest version, it supports
+Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
 
-__Note: Cloud Explorer is supported only in [[DBeaver Ultimate Edition|https://dbeaver.com/products/dbeaver-ultimate-edition/]].__
-__Version 21.0 supports only AWS (Amazon Cloud Services) cloud.__
+With **Cloud Explorer**, you can set up your cloud access once and then easily browse, connect, and manage all your cloud
+databases. It saves you from manually configuring each database connection, as it reads all database endpoint
+information directly from the cloud provider.
 
-It allows users to configure cloud access once and then easily browse, connect and manager all cloud databases with just a few clicks.  
-There is no need to configure each database connection manually, all database endpoint information reads directly from the cloud provider.
-Authentication is managed in a centralized mode - you use your cloud account to get access to the cloud databases.  
+Authentication is centralized. You use your cloud account to access your cloud databases. Before you start using **Cloud
+Explorer**, you need to set up your cloud provider access. This setup includes access credentials, availability zones for
+database search, and other cloud-specific settings.
 
 ### Cloud configuration
 
-Before you begin to work with cloud explorer you need to configure your cloud provider access.
-Configuration includes access credentials, availability zones which will be used to search databases and some other cloud-specific settings.
+To begin the configuration process, click the **Cloud Explorer** button ![](images/ug/cloud-explorer/cloud-explorer-button.png)
+located in the [Toolbar](Application-Window-Overview#toolbar). From there, you can start setting up your cloud provider 
+access according to your needs. This involves configuring your access credentials, specifying the availability zones for 
+database search, and adjusting other cloud-specific settings. The setup process varies depending on the cloud service
+provider you're using.
+
+If this is your first time setting up, the **Create Cloud Configuration** dialog will open, guiding you through the setup
+process. Once you've set up your first cloud configuration, clicking the **Cloud Explorer** button will open
+a dialog displaying your cloud databases.
+
+If you need to set up a new cloud configuration, you can do so by clicking the **New** button
+![](images/ug/cloud-explorer/new-configuration-button.png) in the **Cloud Explorer** dialog. You can start
+setting up your new cloud provider access according to your needs.
+
 Cloud configuration is different for each cloud service provider.
 
-![](images/ug/cloud-explorer/main-toolbar.png)
+#### **Amazon Cloud Services**
 
-### [[Configuring AWS cloud|AWS Cloud Explorer]]
+ Name                     | Description                                                                                                                                                                                      | Additional article                                                   
+--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------
+ **Default Credentials**  | Allows AWS to determine credentials using the standard credential providers.                                                                                                                     | [AWS Default credentials](AWS-Credentials#default-credentials)       
+ **AWS Profile**          | Allows you to choose which credentials profile you want to use.                                                                                                                                  | [AWS Profile](AWS-Credentials#aws-profiles)                          
+ **Access/Secret Key**    | Allows you to choose which credentials profile you want to use. If you have an [AWS Secret](AWS-Credentials#aws-secrets-manager) set up, enter it in the [Connection settings](Edit-Connection). | [AWS Access/Secret Key](AWS-Credentials#AWS-Credentials#access-keys) 
+ **Single Sign-On (SSO)** | Allows access to AWS resources without explicitly specifying user credentials in DBeaver connections configuration.                                                                       | [AWS SSO guide](AWS-SSO)                                             
 
+About permissions, read [AWS managed policies](AWS-Permissions) article. 
+
+#### **Google Cloud Platform**
+
+ Name                       | Description                                                                                                                 | Additional article                                             
+----------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------
+ **Default Credentials**    | Allows GCP to determine credentials using the standard credential providers.                                                | [GCP Default credentials](GCP-Credentials#default-credentials) 
+ **Web browser** or **SSO** | Allows you to authorize your connection through your Google account without needing a service or user-based key file. | [GCP SSO](GCP-SSO)                                             
+ **Access key file**        | Allows you to provide the path to your service or user credentials files.                                        | [GCP Access key](GCP-Credentials#access-key-file)              
+
+#### **Microsoft Azure**
+
+ Name          | Description                                                                                                   | Additional article                           
+---------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------
+ **Client ID** | Allows you to provide the ID of the application (client) used for authentication and database access. | [Azure Cloud Explorer](Azure-Cloud-Explorer) 
 
 ### Explorer
 
-Once you configure the cloud configuration you can open the Cloud Explorer dialog and start adding database connections.
-In the top drop-down of explorer dialog you can select the active cloud configuration or click "Edit" to change the cloud configuration.
+Once you've configured your cloud provider access, open the **Cloud Explorer** dialog and add database
+connections. In the top drop-down of the explorer dialog, you can select the active cloud configuration or click
+**Edit** button ![](images/ug/cloud-explorer/edit-configuration-button.png) to change the cloud configuration.
 
-In the center of the dialog you can see cloud databases in a hierarchical view. All databases are grouped by database/service type.
-When you expand one of the top elements, DBeaver will start to search cloud databases in configured availability zones/regions.
+You can see cloud databases in the center of the dialog in a hierarchical view. All databases are grouped by database/service type.
+When you expand one of the top elements, DBeaver will search cloud databases in configured availability zones/regions.
 
 ![](images/ug/cloud-explorer/aws-cloud-databases.png)
 
-If you have a large number of databases in your cloud, you can search or filter them using filter text above the cloud navigator.
+If you have a large number of databases in your cloud, you can search or filter them using filter text above the cloud
+navigator.
 
-You can drag-and-drop cloud databases directly to [[database navigator view|Database Navigator]] or [[projects view]].
-You can also check any number of databases in the Cloud Explorer using the checkbox control on the left side of the Cloud Explorer tree, and then click on the "Add to Project" button in the bottom right corner.
-
+You can drag-and-drop cloud databases directly to [database navigator view](Database-Navigator)
+or [projects view](Projects-View). You can also add any number of databases to your project directly from the **Cloud
+Explorer**. To do this, click on the database you want to add. Once selected, click on the **Add to Project** button
+![](images/ug/cloud-explorer/add-to-project-configuration-button.png) located in the bottom right corner of the
+**Cloud Explorer** dialog, or right-click on the database and select **Add to Project** from the context menu.
+This will add the selected database to your project, making it easier to manage and navigate your databases within specific projects.
 
 ### Database cloud information
 
-You can always see your cloud database configuration in a special tab in the connection settings dialog.
-This information depends on both cloud and database type.
-You can also click on the external link to open your database configuration in the cloud provider web console.
-
-![](images/ug/cloud-explorer/cloud-database-info-tab.png)
+You can access your cloud database configuration directly from the **Database Navigator**. To do this, right-click on
+the database you are interested in and select **Edit Connection**. This action opens a special tab in the connection
+settings dialog. The information displayed in this tab is specific to the cloud and database type of the selected
+database. 

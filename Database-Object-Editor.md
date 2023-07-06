@@ -1,22 +1,28 @@
-The Database object, or metadata editor is available for multiple database objects such as tables, views and schemas. To open the metadata editor for an object, in the [Database Navigator](Database-Navigator) or in the [Projects](Projects) view:
+The Database object, or metadata editor is available for multiple database objects such as tables, views and schemas. To
+open the metadata editor for an object, in the [Database Navigator](Database-Navigator) or in the [Projects](Projects)
+view:
+
 * Double-click the database object
 * Click the database object and press <kbd>Enter</kbd> or <kbd>F4</kbd>
 
-The editor has three tabs:
-* **Properties** tab appears for all objects, contains properties of the database object and its sub-entities, see further in this article 
-* **Data** tab appears for tables and views and represents the [Data Editor](Data-Editor)
-* **ER Diagram** tab appears for tables and schemas and displays ERD (Entity Relation Diagrams), see [ER Diagrams](ER-Diagrams) and [Database Structure Diagrams](Database-Structure-Diagrams)
-
-The tabs have the following common parts:
+Upon performing these steps, you will see a window where the tabs contain the following common parts:
 
 ![](images/ug/Metadata-editor.png)
 
-The object's path shows the chain of all its parent entities. The entities are clickable: clicking an entity in the path, depending on its nature, either shows its children or opens an editor or a settings window.
+### Tabs
 
-The toolbar contains different tools on each of the three tabs.
+* The **Properties** tab, available for all objects, encompasses the properties of the database object as well as its
+  sub-entities. For more information, please refer to the [Properties Editor](Properties-Editor) article.
+* The **Data** tab appears for tables and views and represents the [Data Editor](Data-Editor).
+* The **ER Diagram** tab appears for tables and schemas and displays [ERD (Entity Relation Diagrams)](ER-Diagrams).
 
-An asterisk appears in the title of an editor if it contains unsaved changes:
+### Database object path
 
-![](images/ug/Unsaved_changes.png)
+The object's path shows the chain of all its parent entities. The entities are clickable: clicking an entity in the
+path, depending on its nature, either shows its children or opens an editor or a settings window.
 
-The Database Object editor supports the <kbd>Ctrl+Z</kbd> (undo) function.
+### Content area and Toolbar
+
+The Content Area and Toolbar are key parts of the Properties tab. The Content Area shows information about a database
+object and things like its sub-parts or DDL. The Toolbar has different tools on each tab to help with different tasks.
+

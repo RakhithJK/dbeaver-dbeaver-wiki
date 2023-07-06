@@ -1,21 +1,22 @@
-<a href="https://dbeaver.com">DBeaver Enterprise Edition</a> (EE) is a commercial version of DBeaver CE.
-The EE version includes all features of the CE version plus:
+<a href="https://dbeaver.com/dbeaver-enterprise/">DBeaver Enterprise Edition</a> (EE) is a commercial version of DBeaver CE. The
+EE license is perpetual and comes with one or two years of premium support.
+
+DBeaver Enterprise is a comprehensive database management tool with advanced features for database management and
+administration, SQL editing and execution, and development tools. The EE version includes all features of the CE version
+plus:
 
 - All popular JDBC drivers are included in the EE distribution so you will not need to download/configure them separately.
-- Support of NoSQL databases:
-  - Apache Cassandra
-  - MongoDB
-  - Redis
-  - InfluxDB
-  - Couchbase
-  - CouchDB
-  - Google BigTable
-  - AWS DynamoDB
-  - AWS Keyspaces
-  - AWS DocumentDB
-  - AWS Timestream
-  - WMI (Windows Management Instrumentation)
-  - Yugabyte CQL
+- Support of Databases:
+
+ Cloud Databases  | NoSQL Databases | Embedded                                 
+------------------|-----------------|------------------------------------------
+ Apache Cassandra | Google BigTable | WMI (Windows Management Instrumentation) 
+ MongoDB          | AWS Keyspaces   
+ InfluxDB         | AWS DocumentDB  
+ Couchbase        | AWS Timestream  
+ CouchDB          | AWS DynamoDB    
+ Yugabyte CQL     | Redis
+
 - Additional EE plugins:
   - Office formats support (XLS) for data import
   - Visual Query Builder

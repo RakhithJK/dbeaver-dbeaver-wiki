@@ -1,37 +1,40 @@
-The Properties tab of the [Database Object Editor](Database-Object-Editor) provides you with the tools to view and edit the database object's properties.
+## Overview
 
-The content area of the Properties tab falls into two parts: the top pane displays properties of the current database object itself while the bottom pane contains properties of the object's sub-entities or some complex properties like DDL (an SQL description of the current database object).
-
-Properties of the sub-entities appear in the side tabbed editors – to open such an editor, click the tabs on the left side of the area:
+When you open the **Properties** tab of the [Database Object Editor](Database-Object-Editor), you'll encounter the following
+interface elements:
 
 ![](images/ug/Properties-Editor-markup.png)
 
-The toolbar at the bottom of the editor provides the following tools for the majority of sub-entities except for some specific ones like Permissions (in PostreSQL) or SQL based views (DDL and Source):
+- **Database object's properties**: displays the properties of the current database object.
+- **Tabbed editors**: These vary depending on your database. Depending on the database you're working with, you'll see
+  different tabs reflecting that particular database's unique characteristics and requirements.
+- **Sub-entities properties**: These contain the properties of the object's sub-entities. To access these properties,
+  click the tabs in the **Tabbed Editors**.
+- The **Toolbar** provides tools for managing these sub-entities.
 
-Button|Name|Description
-------|----|-----------
-![](images/ug/Search-icon.png)|Search items|Displays a search field next to the button:<br/>- Type in the search combination - the content updates dynamically<br/>- To remove the filter, click the cross icon next to the search field
-![](images/ug/Filter-button.png)|Filter settings|Opens the Filtering window which allows setting a custom filter, see [Configure Filters](Configure-Filters)
-![](images/ug/Configure-columns-visibility-icon.png)|Configure columns|Opens the Configure columns dialog box in which you can select the columns to display or hide in the current view
-![](images/ug/Refresh-projects-icon.png)|Refresh the selected items|Depending on the database type, refreshes either the current item or its parent or the whole database object – reloading data from the database
-![](images/ug/View-Triggers-icon.png)|View|Opens an editor/viewer for the item currently in focus
-![](images/ug/Create-DB-Object-button.png)|Create new [items]|Creates a new item of the same type as currently displayed in the open view, for example, a column
-![](images/ug/Delete-DB-object.png)|Delete database object|Deletes the item currently in focus
-![](images/ug/Save-button.png)|Save the current contents|- Same as the **Save** button on the application main toolbar<br/>- Same as <kbd>Ctrl+S</kbd><br/>- Opens the **Persist Changes** window that allows saving changes in the currently open sub-entity<br/>NOTE: DBeaver recommends saving work after each change.
-![](images/ug/Revert-button.png)|Revert to the last saved state|Reverts all changes made to the whole database object to the last saved state
+## Key Operations
 
-Items in the tabbed editors have context menus which provide the same commands as those in the [Database Navigator](Database-Navigator). To open a context menu for an item, right-click the item.
+To interact with the **Properties Editor** page, you can use [Toolbar controls](#toolbar-controls), execute commands
+from [context menu](#context-menu) associated with sub-entities, and utilize related [keyboard shortcuts](Shortcuts).
 
-## SQL Script Editors
-SQL script editors (**DDL** and **Source**) of the Properties tab contain SQL script that you can either view or modify.
-The toolbar of the DDL and Source tabs provides the following tools:
+### Toolbar controls
 
-Button|Name|Description
-------|----|-----------
-![](images/ug/Load-from-file-button.png)|Load form file|- Allows selecting a file from the file system<br/>- Disabled if the SQL code is read-only
-![](images/ug/Save-to-file-icon.png)|Save to file|Allows saving the current SQL code to a file
-![](images/ug/Open-in-SQL-console-button.png)|Open in SQL console|Opens the SQL code in an SQL Editor
+The toolbar at the bottom of the editor provides the following tools for the majority of sub-entities, except for some
+specific ones like SQL-based views ([**DDL** and **Source**](SQL-Editor#sql-script-editors)):
 
-You can select parts of the SQL code and apply generic commands such as copy-paste or SQL-specific commands like formatting – using the context menu. To open the context menu, right-click the SQL code. See [SQL Editor](SQL-Editor) for information about SQL-specific commands.
+ Button                                               | Name                           | Description                                                                                                                                                                                                                        
+------------------------------------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ![](images/ug/Search-icon.png)                       | Search items                   | Displays a search field next to the button:<br/>- Type in the search combination - the content updates dynamically<br/>- To remove the filter, click the cross icon next to the search field.                                      
+ ![](images/ug/Filter-button.png)                     | Filter settings                | Opens the Filtering window, which allows setting a custom filter, see [Configure Filters](Configure-Filters).                                                                                                                       
+ ![](images/ug/Configure-columns-visibility-icon.png) | Configure columns              | Opens the Configure columns dialog box to select the columns to display or hide in the current view.                                                                                                                 
+ ![](images/ug/Properties-refresh-button.png)         | Refresh the selected items     | Depending on the database type, refreshes either the current item or its parent or the whole database object – reloading data from the database.                                                                                   
+ ![](images/ug/View-Triggers-icon.png)                | View                           | Opens an editor/viewer for the item currently in focus.                                                                                                                                                                            
+ ![](images/ug/Create-DB-Object-button.png)           | Create new [items]             | Creates a new item of the same type as currently displayed in the open view, for example, a [column](Creating-columns) ![](images/tutorial_images/4d_Column_Button.png).                                                           
+ ![](images/ug/Delete-DB-object.png)                  | Delete database object         | Deletes the item currently in focus.                                                                                                                                                                                               
+ ![](images/ug/Save-button.png)                       | Save the current contents      | - Same as the **Save** button on the main application toolbar<br/>- Same as <kbd>Ctrl+S</kbd>(or <kbd>⌘S</kbd> for MacOS)<br><br>Opens the **Persist Changes** window that allows saving changes in the currently open sub-entity. 
+ ![](images/ug/Revert-button.png)                     | Revert to the last saved state | Reverts all changes made to the database object to the previous saved state.                                                                                                                                                     
 
-NOTE: **SQL Assist**, **SQL Template**, and **SQL Context Information** menu items on the context menu are disabled if the SQL script is read-only.
+### Context menu
+
+The **Properties** of the sub-entities have context menus that offer the same commands as the [Database Navigator](Database-Navigator).
+To access these menus, right-click on the item.

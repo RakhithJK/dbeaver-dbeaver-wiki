@@ -1,4 +1,4 @@
-DBeaver offers you the ability to use most of its features with a keyboard and screen readers. Here you will find guidelines on how to use DBeaver without a mouse in some common cases.
+DBeaver offers you the ability to use most of its features with a keyboard and screen readers. Here you will find a guidelines on how to use DBeaver without a mouse in some common cases.
 
 
 **Note: DBeaver is tested mainly for use with NVDA screen reader and Windows keyboard shortcuts.**
@@ -39,7 +39,7 @@ To open the Context menu, use <kbd>Shift</kbd> + <kbd>F10</kbd> | <kbd>⇧F10</k
 
 ### Shortcuts
 
-Most of DBeaver's functions are accessible through special shortcuts. You can find them in **Window -> Preferences –> User Interface –> Keys**. If you mostly use the keyboard, you can switch to the **DBeaver Keyboard Only** scheme, which has additional shortcuts.
+Most of DBeaver's functions are accessible through special shortcuts. You can find them in **Window -> Preferences –> User Interface –> Keys**. If you  mostly use the keyboard, you can switch to the **DBeaver Keyboard Only** scheme, which has additional shortcuts.
 
 [Learn more DBeaver shortcuts](Shortcuts)
 
