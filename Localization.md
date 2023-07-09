@@ -1,9 +1,9 @@
 ## Localization (i18n + l10n)
 
 DBeaver uses the standard properties-based i18n model.
-All translatable resources reside in *.properties file. Each plugin (bundle) has its own set of resources.
-Almost all plugins have at least a `bundles.properties` resource. Bigger plugins have additional resources in the src folder.
-See the full list of property files below.
+All translatable resources reside in the *.properties file. Each plugin (bundle) has its own set of resources.
+Almost all plugins have at least a `bundles.properties` resource. More extensive plugins have additional resources in the src folder.
+See the complete list of property files below.
 
 bundle.properties contains an original string in the English language.
 All translated resources are placed in bundle_XX.properties files where XX is a two-letter language code.
@@ -11,8 +11,8 @@ All translated resources are placed in bundle_XX.properties files where XX is a 
 ### Environment setup
 - Clone DBeaver repository
   - Install [GitHub Desktop](https://desktop.github.com/)
-  - In the top menu select File -> Clone Repository
-  - In the appeared popup window select the URL tab and paste DBeaver URL: `https://github.com/dbeaver/dbeaver.git`
+  - In the top menu, select File -> Clone Repository
+  - In the appeared popup window, select the URL tab and paste DBeaver URL: `https://github.com/dbeaver/dbeaver.git`
   - Press Clone
 
 ### Localizing tools
@@ -30,10 +30,10 @@ All translated resources are placed in bundle_XX.properties files where XX is a 
 #### Intellij IDEA Community
 ![](images/ug/Localize-Bundle-IDEA.png)
 
-Non-ASCII symbols are encoded to both uppercase and lowercase hex sequences (for example, \u00E3 and \u00e3). By default, only uppercase sequences are enabled in IntelliJ IDEA. Please be sure that you set the `idea.native2ascii.lowercase` property in the `idea.properties` file to `true` to avoid unintended changes, before starting your work.
+Non-ASCII symbols are encoded to uppercase and lowercase hex sequences (for example, \u00E3 and \u00e3). By default, only uppercase sequences are enabled in IntelliJ IDEA. Before starting your work, Please set the `idea.native2ascii.lowercase` property in the `idea.properties` file to `true` to avoid unintended changes.
 
 ### Contribution
-Please note that according to the [Contribution guide](https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code) it's required to add the issue number to the commit message. If there is no such issue, then you need to create one.
+Please note that according to the [Contribution guide](https://github.com/dbeaver/dbeaver/wiki/Contribute-your-code), it's required to add the issue number to the commit message. If there is no such issue, then you should create one.
 
 ### Push your changes
 
@@ -43,8 +43,8 @@ Please note that according to the [Contribution guide](https://github.com/dbeave
 - Commit to the new branch
 - Publish brunch/push (right button at the top)
 - Fetch origin (right button at the top)
-- In the main menu select Branch -> Create Pull Request
-- On the opened GitHub page add some meaningful text for your pull request name and press the Create pull request button
+- In the main menu, select Branch -> Create Pull Request
+- On the opened GitHub page, add some meaningful text for your pull request name and press the Create pull request button
 - Return to GitHub Desktop and switch to devel branch
 
 or 
@@ -57,7 +57,7 @@ Create a Pull Request with your changes (in branch `devel`)
 Module|Purpose|File
 ---|---|---
 Core| Commands, properties | plugins/org.jkiss.dbeaver.core/OSGI-INF/l10n/bundle.properties
-Core|Messages,UI strings | plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties
+Core|Messages, UI strings | plugins/org.jkiss.dbeaver.core/src/org/jkiss/dbeaver/core/CoreResources.properties
 API | Properties | plugins/org.jkiss.dbeaver.model/OSGI-INF/l10n/bundle.properties
 API | Messages | plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/messages/ModelResources.properties
 UI | Properties | plugins/org.jkiss.dbeaver.ui/OSGI-INF/l10n/bundle.properties
@@ -74,11 +74,11 @@ Generic driver| Properties | plugins/org.jkiss.dbeaver.ext.generic/OSGI-INF/l10n
 Generic driver| Messages | plugins/org.jkiss.dbeaver.ext.generic/src/org/jkiss/dbeaver/ext/generic/GenericResources.properties
 MySQL| Properties | plugins/org.jkiss.dbeaver.ext.mysql/OSGI-INF/l10n/bundle.properties
 MySQL| Messages | plugins/org.jkiss.dbeaver.ext.mysql/src/org/jkiss/dbeaver/ext/mysql/MySQLResources.properties
-..|..|The same for Oracle (ext.oracle), DB2 (ext.db2), Exasol (ext.exasol), PostgreSQL (ext.postgresql) and SQL Server (ext.mssql)
+..|..|The same for Oracle (ext.oracle), DB2 (ext.db2), Exasol (ext.exasol), PostgreSQL (ext.postgresql), and SQL Server (ext.mssql)
 
-### Testing you changes
+### Testing your changes
 
-Once you have changed one of these resources you might want to test your changes.
+Once you have changed one of these resources, you might want to test your changes.
 You can:
 
 - Run DBeaver directly from [Eclipse workspace](Develop-in-Eclipse)
@@ -86,11 +86,11 @@ You can:
 
 ### Pull request guidelines
 * Please avoid creating multiple pull requests for one issue.
-* Avoid force-pushing the commits in the PR branch. This makes reading commit history more difficult.
+* Avoid force-pushing the commits in the PR branch. This makes reading commit history more complex.
 
 ### Localization proposals
 [Brazilian Portuguese Standardization proposals by @brlarini](Brazilian-Portuguese-Standardization-proposals)
 
 ### Changing user interface language
 
-See [Changing interface language](UI_Language)
+See [Changing interface language](UI-Language)
