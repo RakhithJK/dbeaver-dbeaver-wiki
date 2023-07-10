@@ -41,7 +41,7 @@ You can place the following preferences in the `org.jkiss.dbeaver.core.prefs` fi
 
 Name|Type|Default Value|Allowed Values|Description
 ----|----|-------------|--------------|-----------
-navigator.settings.default.preset|string|`simple`|`simple`, `advanced`|Sets the default view mode for new connections<br>Do not specify this preference if you want to configure a custom preset.
+navigator.settings.default.preset|string|`simple`|`simple`, `advanced`|Sets the default view mode for new connections.<br>Do not specify this preference if you want to configure a custom preset.
 navigator.settings.default.showSystemObjects|boolean|`false`|`true`, `false`|Controls whether system objects must be shown.<br>Used if preset is not specified.
 navigator.settings.default.showUtilityObjects|boolean|`false`|`true`, `false`|Controls whether utility objects must be shown.<br>Used if preset is not specified.
 navigator.settings.default.showOnlyEntities|boolean|`false`|`true`, `false`|Controls whether only schemas and tables must be shown.<br>Used if preset is not specified.
