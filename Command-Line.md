@@ -1,9 +1,18 @@
+Command line parameters can be passed directly to the DBeaver executable. The way to do this depends on your operating system:
+
+### Windows:
+You can use the `dbeaver-cli.exe [parameters]` executable. This executable does not spawn a new window, so you can see the output messages.
+
+### Mac:
+Parameters can be passed to DBeaver in one of two ways:
+
+- Use the open command followed by the `-a` flag and the name of the application, along with any necessary arguments. Depending on the version of DBeaver, you might need to specify `DBeaver.app`, `DBeaverEE.app`, `DBeaverLite.app`, or `DBeaverUltimate.app`. For example: `open -a "DBeaver.app" --args [parameters]`. <br>**Note**: This method does not display output messages.
+- Pass parameters directly to the DBeaver executable in the terminal using the path where the `.app` file is located. For example: `/Application/Dbeaver.app/Content/MacOS/dbeaver [parameters]`. This method does not spawn a new window, so you can see the output messages.
+
+<br><br>
+For both Windows and Mac, parameters can also be added in the `dbeaver.ini` configuration file. These should be written at the beginning of the file, with each parameter on its own line.
+
 # Command line parameters
-
-Command line parameters might be passed directly to dbeaver[.exe] executable.  
-In Windows, you can use `dbeaver-cli.exe` executable (it does not spawn a new window so you can see the output messages).  
-
-Also, you can add parameters in the `dbeaver.ini` configuration file. You need to write them to the beginning of the file, and each parameter has to be on its line.
 
 ## DBeaver control
 Name|Value|Example
