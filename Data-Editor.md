@@ -7,7 +7,7 @@ The central part of the Data editor is the data grid. The editor also provides [
 
 ![](images/ug/Data-Editor-with-markup.png)
 
-To learn how many rows the data table contains, click the **Calculate total row count** button in the bottom toolbar.
+To learn how many rows the table data contains, click the **Calculate total row count** button in the bottom toolbar.
 The number of rows appears in a status field next to the button: ![](images/ug/Calculate-rows-button.png)
 
 To learn about ways to navigate data in the data table, see [Navigation](Navigation) article.
