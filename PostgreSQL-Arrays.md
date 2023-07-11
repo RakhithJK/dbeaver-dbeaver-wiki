@@ -1,4 +1,4 @@
-DBeaver offers support for array data types in managing PostgreSQL databases. This feature enables the storage of
+DBeaver offers support for array data types in managing [PostgreSQL](PostgreSQL) databases. This feature enables the storage of
 multiple values in a single variable, allowing for more efficient and organized data management. A complete list of types is
 available in the **Edit Attribute** window in the data type selection dropdown when [creating a column](Creating-columns#create). 
 

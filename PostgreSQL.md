@@ -15,6 +15,12 @@ correct driver must be selected: use **PostgreSQL (old)** for versions below 8.x
 DBeaver also supports PostgreSQL extensions such as **EDB**, **Google Cloud SQL for PostgreSQL** and 
 **Fujitsu Enterprise Postgres**. You must select the appropriate driver in the **Select Database** window for these extensions. 
 
+DBeaver communicates with the PostgreSQL server using a specific driver. While it supports all versions of PostgreSQL,
+the appropriate driver must be chosen. For PostgreSQL versions below 8.x, use the deprecated **PostgreSQL (old)** driver.
+For newer versions, simply use the **PostgreSQL** driver. DBeaver also accommodates PostgreSQL extensions such as **EDB**,
+**Google Cloud SQL for PostgreSQL** and **Fujitsu Enterprise Postgres**. To use these extensions, select the corresponding
+driver in the Select Database window.
+
 ![](images/database/postgresql/postgre-drivers.png)
 
 ### Table of contents:
@@ -51,11 +57,15 @@ Correctly configuring your connection ensures seamless interaction between DBeav
  **Host**                  | If you're connecting via host, enter the host address of your PostgreSQL database here.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
  **Database**              | Enter the name of the PostgreSQL database you want to connect to.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
  **Port**                  | Enter the port number for your PostgreSQL database. The default PostgreSQL port is `5432`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
- **Authentication**        | Choose the type of authentication you want to use for the connection. For detailed guides on authentication types, please refer to the following articles:<br><br>      [Database Native](Database-Native)<br>     [AWS RDS IAM](AWS-RDS-IAM)<br>     [Azure AD for PostgreSQL](Azure-AD-for-PostgreSQL)<br>     [DBeaver Profile](DBeaver-Profile-authentification)<br>     [PostgreSQL Kerberos](PostgreSQL-Kerberos)<br>     [PostgreSQL pgpass](PostgreSQL-pgpass)<br>     [PostgreSQL SSPI](PostgreSQL-SSPI)<br><br> You can also read about [security in DBeaver PRO](Security-in-DBeaver-PRO). 
- **Local Client**          | Specify the local client, see our article about [local client](Local-client).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+ **Authentication**        | Choose the type of authentication you want to use for the connection. For detailed guides on authentication types, please refer to the following articles:<br><br>      - Native Database Authentication<br>    - AWS RDS IAM Authentication<br> - Azure AD Authentication for PostgreSQL<br>  - DBeaver Profile Authentication<br>  - PostgreSQL Kerberos Authentication<br>- PostgreSQL pgpass Authentication<br> - PostgreSQL SSPI Authentication<br><br> You can also read about [security in DBeaver PRO](Security-in-DBeaver-PRO). 
+ **Local Client**          | Specify the local client, see our article about Local client.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
  **Connection Details**    | Provide [additional connection details](#postgresql-driver-properties) if necessary.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
  **Driver Name**           | This field will be auto-filled based on your selected driver type.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
  **Driver Settings**       | If there are any [specific driver settings](#postgresql-driver-properties), configure them here.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+
+
+
 
 2) The second page of the connection settings offers additional options that allow you to customize your further
    connection to the PostgreSQL database.
@@ -83,10 +93,10 @@ operations and workflow. For detailed guides on these settings, please refer to 
 
 - [Connection Details Configuration](Create-Connection#connection-details-name-type-etc)
 - [Database Navigator](Database-Navigator)
-- [Security Settings Guide](Security-Settings)
+- Security Settings Guide
 - [Filters Settings Guide](Configure-Filters)
-- [Connection Initialization Settings Guide](Connection-Initialization)
-- [Shell Commands Guide](Shell-Commands)
+- Connection Initialization Settings Guide
+- Shell Commands Guide
 
 ### PostgreSQL driver properties
 
@@ -163,26 +173,32 @@ For a practical guide on creating new tables and working with various database o
 ### PostgreSQL Features in DBeaver
 
 DBeaver isn't limited to typical SQL tasks. It also includes numerous unique features specifically for PostgreSQL.
-Beyond regular SQL operations, DBeaver provides a range of PostgreSQL-specific capabilities, such as **Arrays**, **Structures**,
-**GIS**, **Extensions**, **Editing Permissions**, **Policies**, **Roles**, **Partitions**, **Dependencies**, **Tools**, **Import Data**, **Export Data**, **Session Manager**, **Lock Manager**, **Backup**, **Restore**, **Schema Compare**, **ERD**.
+Beyond regular SQL operations, DBeaver provides a range of PostgreSQL-specific capabilities, such as:
 
-For detailed instructions, please refer to the following articles:
+ Category            | Feature                                           
+---------------------|---------------------------------------------------
+| Data Types          | [PostgreSQL Arrays](PostgreSQL-Arrays.md)         |
+|                     | PostgreSQL Structures                             |
+| Extensions          | [PostgreSQL Extensions](PostgreSQL-Extensions.md) |
+| Security            | PostgreSQL Permissions                            |
+|                     | PostgreSQL Policies                               |
+|                     | PostgreSQL Roles                                  |
+| Data Organization   | PostgreSQL Partitions                             |
+| Database Management | PostgreSQL Dependencies                           |
+|                     | PostgreSQL Tools                                  |
 
-- [Arrays Guide](PostgreSQL-Arrays).
-- [Structures Guide](Structures-Guide).
-- [GIS Guide](Working-with-Spatial-GIS-data).
-- [ERD Guide](ER-Diagrams).
-- [Extensions Guide](Extensions-Guide).
-- [Permissions Guide](Permissions-Guide).
-- [Policies Guide](Policies-Guide).
-- [Roles Guide](Roles-Guide).
-- [Partitions Guide](Partitions-Guide).
-- [Dependencies Guide](Dependencies-Guide).
-- [Tools Guide](Tools-Guide).
-- [Data Import Guide](Data-transfer#import-data).
-- [Data Export Guide](Data-transfer#export-data).
-- [Session Manager Guide](Session-Manager-Guide).
-- [Lock Manager Guide](Lock-Manager-Guide).
-- [Backup Guide](Backup-Guide).
-- [Restore Guide](Restore-Guide).
-- [Schema Compare Guide](Schema-compare).
+Additional features compatible with PostgreSQL, but not exclusive to it:
+
+ Category           | Feature                                    
+--------------------|--------------------------------------------
+| Data Transfer      | [Data Import](Data-transfer#import-data)   |
+|                    | [Data Export](Data-transfer#export-data)   |
+| Session Management | Session Manager                            |
+| Lock Management    | Lock Manager                               |
+| Backup and Restore | How to Backup data                         |
+|                    | How to Restore data                        |
+| Schema Management  | [Schema Compare](Schema-compare)           |
+| Data Visualization | [GIS Guide](Working-with-Spatial-GIS-data) |
+|                    | [ERD Guide](ER-Diagrams)                   |
+
+
