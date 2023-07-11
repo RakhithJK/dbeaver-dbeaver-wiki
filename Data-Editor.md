@@ -1,9 +1,9 @@
 The Data editor appears:
-* As the **Data** tab of the [Database Object Editor](Database-Object-Editor), which is only available for tables and views.
-* As the **Results** tab when you run a custom SQL query in [SQL Editor](SQL-Editor)
+* as the **Data** tab of the [Database Object Editor](Database-Object-Editor), which is only available for tables and views;
+* as the **Results** tab when you run a custom SQL query in [SQL Editor](SQL-Editor).
 
-The Data editor allows the viewing and data editing of a database table or view.
-The central part of the Data editor is the data table. The editor also provides [top toolbar](#top-toolbar), [bottom toolbar](#bottom-toolbar), [left side bar](#left-side-bar), [right side bar](#right-side-bar) and a filter field:
+The Data editor allows to view and edit data of a database table or view.
+The central part of the Data editor is the data grid. The editor also provides [top toolbar](#top-toolbar), [bottom toolbar](#bottom-toolbar), [left side bar](#left-side-bar), [right side bar](#right-side-bar) and a filter field:
 
 ![](images/ug/Data-Editor-with-markup.png)
 
