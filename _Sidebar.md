@@ -115,7 +115,7 @@
 - [[Team Edition|https://dbeaver.com/dbeaver-team-edition/]] <!--CMD:SKIP-->
 
 #### Databases support
-- [[Database driver‐PostgreSQL]]
+- [[PostgreSQL|Database driver‐PostgreSQL|]]
 - [[MongoDB]] <img src="images/commercial_big.png" align="top" height="16">
 - [[Cassandra]] <img src="images/commercial_big.png" align="top" height="16">
 - [[InfluxDB]] <img src="images/commercial_big.png" align="top" height="16">
