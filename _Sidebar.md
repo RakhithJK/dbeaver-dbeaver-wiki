@@ -114,26 +114,27 @@
 - [[Ultimate Edition]] <!--CMD:SKIP-->
 - [[Team Edition|https://dbeaver.com/dbeaver-team-edition/]] <!--CMD:SKIP-->
 
-#### PRO Databases support <img src="images/commercial_big.png" align="top" height="16">
-- [[MongoDB]]
-- [[Cassandra]]
-- [[InfluxDB]]
-- [[Redis]]
-- AWS (Amazon Web Services)
-  - [[DynamoDB|AWS DynamoDB]]
-  - [[DocumentDB|AWS DocumentDB]]
-  - [[Athena|AWS Athena]]
-  - [[Keyspaces|AWS Keyspaces]]
-- GCP (Google Cloud Platform)
-  - [[Bigtable|Google Bigtable]]
-- [[Couchbase]]
-- [[CouchDB]]
-- [[Apache Hive/Spark/Impala|Apache Hive]]
-- [[Netezza]]
-- [[Oracle]]
-- [[SQLite Crypt]]
-- [[Snowflake]]
-- [[Informix]]
+#### Databases support
+- [[Database driver‐PostgreSQL]]
+- [[MongoDB]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Cassandra]] <img src="images/commercial_big.png" align="top" height="16">
+- [[InfluxDB]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Redis]] <img src="images/commercial_big.png" align="top" height="16">
+- AWS (Amazon Web Services) <img src="images/commercial_big.png" align="top" height="16">
+  - [[DynamoDB|AWS DynamoDB]] <img src="images/commercial_big.png" align="top" height="16">
+  - [[DocumentDB|AWS DocumentDB]] <img src="images/commercial_big.png" align="top" height="16">
+  - [[Athena|AWS Athena]] <img src="images/commercial_big.png" align="top" height="16">
+  - [[Keyspaces|AWS Keyspaces]] <img src="images/commercial_big.png" align="top" height="16">
+- GCP (Google Cloud Platform) <img src="images/commercial_big.png" align="top" height="16">
+  - [[Bigtable|Google Bigtable]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Couchbase]] <img src="images/commercial_big.png" align="top" height="16">
+- [[CouchDB]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Apache Hive/Spark/Impala|Apache Hive]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Netezza]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Oracle]] <img src="images/commercial_big.png" align="top" height="16">
+- [[SQLite Crypt]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Snowflake]] <img src="images/commercial_big.png" align="top" height="16">
+- [[Informix]] <img src="images/commercial_big.png" align="top" height="16">
 
 #### Customizing DBeaver
 - [[Changing interface language|UI-Language]]
