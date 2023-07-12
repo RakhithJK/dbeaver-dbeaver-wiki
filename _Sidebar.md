@@ -120,12 +120,12 @@
 - [[Cassandra]] <img src="images/commercial_big.png" align="top" height="16">
 - [[InfluxDB]] <img src="images/commercial_big.png" align="top" height="16">
 - [[Redis]] <img src="images/commercial_big.png" align="top" height="16">
-- AWS (Amazon Web Services) <img src="images/commercial_big.png" align="top" height="16">
+- AWS (Amazon Web Services)
   - [[DynamoDB|AWS DynamoDB]] <img src="images/commercial_big.png" align="top" height="16">
   - [[DocumentDB|AWS DocumentDB]] <img src="images/commercial_big.png" align="top" height="16">
   - [[Athena|AWS Athena]] <img src="images/commercial_big.png" align="top" height="16">
   - [[Keyspaces|AWS Keyspaces]] <img src="images/commercial_big.png" align="top" height="16">
-- GCP (Google Cloud Platform) <img src="images/commercial_big.png" align="top" height="16">
+- GCP (Google Cloud Platform)
   - [[Bigtable|Google Bigtable]] <img src="images/commercial_big.png" align="top" height="16">
 - [[Couchbase]] <img src="images/commercial_big.png" align="top" height="16">
 - [[CouchDB]] <img src="images/commercial_big.png" align="top" height="16">
