@@ -195,8 +195,7 @@ Additional features compatible with PostgreSQL, but not exclusive to it:
 |                    | [Data Export](Data-transfer#export-data)   |
 | Session Management | Session Manager                            |
 | Lock Management    | Lock Manager                               |
-| Backup and Restore | How to Backup data                         |
-|                    | How to Restore data                        |
+| Backup and Restore | [How to Backup/Restore data](Backup-Restore)|
 | Schema Management  | [Schema Compare](Schema-compare)           |
 | Data Visualization | [GIS Guide](Working-with-Spatial-GIS-data) |
 |                    | [ERD Guide](ER-Diagrams)                   |
